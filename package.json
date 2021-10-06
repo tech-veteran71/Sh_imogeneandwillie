@@ -1,0 +1,26 @@
+{
+  "name": "seed",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "yarn run login && (shopify theme serve & yarn run css:watch & yarn run js:watch)",
+    "build": "yarn run css:build & yarn run js:build",
+    "deploy": "yarn run login && yarn run build && shopify theme push",
+    "login": "shopify login imogeneandwillie.myshopify.com",
+    "js:compress": "uglifyjs assets/global.js -o assets/global.min.js --compress",
+    "js:build": "NODE_ENV=production yarn run js:compress",
+    "js:watch": "gulp watch:js --silent",
+    "css:build": "NODE_ENV=production postcss assets/base.css -o assets/base.min.css",
+    "css:watch": "postcss assets/base.css -o assets/base.min.css --watch"
+  },
+  "author": "SeedCMS",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-ext-replace": "^0.3.0",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "uglify-js": "^3.14.2"
+  }
+}

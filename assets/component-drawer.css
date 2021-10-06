@@ -1,0 +1,66 @@
+component-drawer {
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  max-width: 375px;
+  z-index: 1000;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+component-drawer[position="top"],
+component-drawer[position="bottom"] {
+  width: 100vw;
+  max-width: none;
+  left: 0;
+}
+
+component-drawer[position="left"],
+component-drawer[position="right"] {
+  height: 100vh;
+  top: 0;
+}
+
+component-drawer[position="top"] {
+  top: 0;
+  transform: translateY(-100%);
+}
+
+component-drawer[position="right"] {
+  right: 0;
+  transform: translateX(100%)
+}
+
+component-drawer[position="bottom"] {
+  bottom: 0;
+  transform: translateY(100%);
+}
+
+component-drawer[position="left"] {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+component-drawer.open {
+  display: block;
+  transform: translate(0);
+}
+
+.drawer-background:after {
+  content: "";
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
+}
+
+.drawer-background.js-drawer-open::after {
+  visibility: visible;
+  opacity: 1;
+}
