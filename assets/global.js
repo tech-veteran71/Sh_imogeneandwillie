@@ -2152,7 +2152,7 @@ window.CartAPI = new CartAPI();
              * be found in theme.liquid head
              * @type {Array}
              */
-            upsellTags: [],
+            upsellTags: theme.upsellTags || [],
 
             /** loading indictor */
             fetching: false,

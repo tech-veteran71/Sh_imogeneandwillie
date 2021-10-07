@@ -40,6 +40,22 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
+    {%- comment -%} 
+    * Get Upsell Data for AjaxCart
+    {%- endcomment -%}
+    {%- comment -%} Gather tags into a global theme array {%- endcomment -%}
+    <script>
+      window.theme = window.theme || {}
+      theme.upsellTags = [
+        {% for i in (1..6) %}
+          {% assign tag_id = 'upsell_tag_' | append: i %}
+          {% assign tag = settings[tag_id] %}
+          {% if tag == blank %} {% continue %} {% endif %}
+          '{{ tag }}'{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    </script>
+
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
