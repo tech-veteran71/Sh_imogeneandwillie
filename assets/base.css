@@ -151,6 +151,15 @@
 
 /* base */
 
+body.js-focusable-widget-open {
+  overflow: hidden;
+}
+
+.is-transitioning {
+  display: block;
+  visibility: visible !important;
+}
+
 .no-js:not(html) {
   display: none !important;
 }
