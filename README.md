@@ -2,6 +2,11 @@
 
 Shopify Dawn Base theme with custom Drawers, Modals and Ajaxcart. Also Custom npm scripts to improve dev flow.
 
+## Requirements
+
+- Node v14
+- Shopify CLI
+
 ## Getting started
 
 1. Setup:
