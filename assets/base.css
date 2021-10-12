@@ -1877,8 +1877,8 @@ input[type='checkbox'] {
   }
 
   .header--middle-left {
-    grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 'navigation heading icons';
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
   }
 
@@ -1944,7 +1944,7 @@ input[type='checkbox'] {
 
   .header__heading,
   .header__heading-link {
-    justify-self: start;
+    justify-self: center;
   }
 
   .header--top-center .header__heading-link,
