@@ -187,19 +187,36 @@
       <h3 class="upsell-product__title"><a :href="product.url">${ product.title }</a></h3>
       <p class="upsell-product__price">${ formatMoney(selectedVariant.price) }</p>
       <div v-if="product.variants.length > 1" class="upsell-product__variants">
-        <label :for="`variant-selector-${product.id}`">Select Variant</label>
-        <select v-model="selectedVariant" name="variant-selector" :id="`variant-selector-${product.id}`">
-          <option 
-            v-for="variant in product.variants" 
-            :selected="variant.id === selectedVariant.id"
-            :value="variant"
-            :disabled="!variant.available">
-            ${ variant.title }
-          </option>
-        </select>
-      </div>
-      <button class='upsell-product__atc' @click.prevent="addToCart">
-        Add To Cart
+        <div class="upsell-product__swatches">
+          <div v-for="option in product.options" class="upsell-product__swatch">
+            <h3 class="upsell-product__swatch-option">${ option.name }</h3>
+            <div v-for="value in option.values" class="upsell-product__swatch-group">
+              <label for="`ajaxcart-${product.id}-${value}`">${ value }</label>
+              <input 
+                v-model="options[option.position]"  
+                :id="`ajaxcart-${product.id}-${option}`"
+                type="radio" :name="`${option.name}-selector`"
+                @change="onOptionChange(option)"
+                :value="value"
+              />
+            </div><!-- .upsell-product__swatch-group-->
+            <!-- <select 
+              v-model="options[option.position]" 
+              :name="`${option.name}-selector`" 
+              :id="`ajaxcart-${product.id}-${option.name}`"
+              @change="onOptionChange(option)">
+              <option 
+                v-for="value in option.values" 
+                :value="value"
+                >
+                ${ value }
+              </option>
+            </select> -->
+          </div><!-- .upsell-product__swatch-->
+        </div><!-- .upsell-product__swatches-->
+      </div><!-- .upsell-product__variants -->
+      <button class='upsell-product__atc' :disabled="!selectedVariant.available" @click.prevent="addToCart">
+        ${ selectedVariant.available ? 'Add To Cart' : 'Sold Out'}
       </button>
     </div>
   </div>
@@ -244,7 +261,8 @@
       {% if upsell_product != blank %} 
         {
           "tag": "{{ tag | default: DEFAULT_TAG }}",
-          "product": {{ upsell_product | json }}
+          "product": {{ upsell_product | json }},
+          "product_options": {{ upsell_product.options_with_values | json }}
         }{% unless forloop.last %},{% endunless %}
       {% else %}
         {

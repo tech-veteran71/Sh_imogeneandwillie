@@ -2293,6 +2293,7 @@ window.CartAPI = new CartAPI();
             parsedProducts.forEach((data) => {
               if (!data.product || !data.tag) return;
               if (!data.product.available) return;
+              data.product.options = data.product_options
               if (data.tag === "__DEFAULT__")
                 this.defaultProducts.push(data.product);
               else this.taggedProducts[data.tag] = data.product;
@@ -2447,7 +2448,17 @@ window.CartAPI = new CartAPI();
         data() {
           return {
             selectedVariant: this.getFirstAvailableVariant(),
+            options: {
+              1: null,
+              2: null,
+              3: null,
+            }
           };
+        },
+        mounted() {
+          this.options['1'] = this.selectedVariant.option1;
+          this.options['2'] = this.selectedVariant.option2;
+          this.options['3'] = this.selectedVariant.option3;
         },
         methods: {
           addToCart() {
@@ -2477,6 +2488,29 @@ window.CartAPI = new CartAPI();
             }
             return selectedVariant;
           },
+
+          onOptionChange() {
+            this.selectedVariant = this.getVariantFromOptions(this.options)
+          },
+
+          getVariantFromOptions(options) {
+            let found = false;
+
+            this.product.variants.forEach(variant => {
+              let satisfied = true;
+
+              for (const position in options) {
+                let optionKey = `option${position}`
+                if (satisfied)
+                  satisfied = options[position] === variant[optionKey]
+              }
+
+              if (satisfied) 
+                found = variant;
+            })
+
+            return found;
+          }
         },
       };
     },
