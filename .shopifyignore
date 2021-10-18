@@ -3,3 +3,4 @@ package-lock.json
 gulpfile.js
 postcss.config.js 
 yarn.lock
+templates/*.json
