@@ -1,0 +1,81 @@
+{{ 'custom-footer.css' | asset_url | stylesheet_tag }} 
+
+<div class='custom-footer'>
+    <div class="main-container">
+        <div class="wrapper">
+            <ul class="menu-list">
+                {% for link in section.settings.select_menu.links %}
+                    {% if link.title != blank %}
+                        <li class="menu-item">
+                            <a href="{{ link.url }}" class="menu-link">{{ link.title }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <div class="social-wrap">
+                {% for block in section.blocks %}
+                    {% if block.settings.social_icon != blank %}
+                        <a href="{{ block.settings.social_link }}" class="social-item">
+                            {% render 'responsive--image' with block.settings.social_icon as image, max_width: 40, class: 'social-icon' %}
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            {% if section.settings.copyright_text != blank %}
+                <span class="copyright-text">{{ section.settings.copyright_text }}</span>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Custom Footer",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Menu",
+            "info": "-------"
+        },
+        {
+            "type": "link_list",
+            "id": "select_menu",
+            "label": "Select Menu"
+        },
+        {
+            "type": "header",
+            "content": "Content",
+            "info": "-------"
+        },
+        {
+            "type": "text",
+            "id": "copyright_text",
+            "label": "Copyright Text",
+            "default": "© 2021 imogene + willie"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Social Media",
+            "type": "social_media",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "Image",
+                    "info": "-------"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "social_icon",
+                    "label": "Social Icon"
+                },
+                {
+                    "type": "url",
+                    "id": "social_link",
+                    "label": "Social Link"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

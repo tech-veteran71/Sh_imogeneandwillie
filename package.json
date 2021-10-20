@@ -5,7 +5,7 @@
     "dev": "yarn run login && (shopify theme serve & yarn run css:watch & yarn run js:watch)",
     "build": "yarn run css:build & yarn run js:build",
     "deploy": "yarn run login && yarn run build && shopify theme push",
-    "login": "shopify login --store imogeneandwillie.myshopify.com",
+    "login": "shopify login --store imogene-w-dev.myshopify.com",
     "js:compress": "uglifyjs assets/global.js -o assets/global.min.js --compress",
     "js:build": "NODE_ENV=production yarn run js:compress",
     "js:watch": "gulp watch:js --silent",
