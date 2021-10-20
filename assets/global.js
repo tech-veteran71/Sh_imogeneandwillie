@@ -2529,3 +2529,62 @@ window.CartAPI = new CartAPI();
 
 customElements.define("ajax-cart", AjaxCart);
 
+// custom script
+
+(function(){
+  // header mega menu script
+  const menuItems = document.querySelectorAll('.header__inline-menu .header__menu-item');
+  const menProductItems = document.querySelectorAll('.mega_menu .men-product-item');
+  const womenProductItems = document.querySelectorAll('.mega_menu .women-product-item');
+  const aboutMegaMenu = document.querySelector(".mega_menu .mega_menu-about");
+  const megaMenuWrapper = document.querySelector(".mega_menu .mega_menu-row");
+  menuItems.forEach( item => {
+    item.addEventListener('mouseover', function(e){
+      if(e.target.innerText === 'women') {
+        menProductItems.forEach(el => {
+          el.style.display = 'none';
+          aboutMegaMenu.style.display = 'none';
+          megaMenuWrapper.style.display = 'flex';
+        })
+        womenProductItems.forEach(el => {
+          el.style.display = 'block';
+        })
+        
+      }else if(e.target.innerText === 'men') {
+        womenProductItems.forEach(el => {
+          el.style.display = 'none';
+          aboutMegaMenu.style.display = 'none';
+          megaMenuWrapper.style.display = 'flex';
+        })
+        menProductItems.forEach(el => {
+          el.style.display = 'block'
+        })
+      }else if(e.target.innerText === 'about') {
+        aboutMegaMenu.style.display = 'block';
+        megaMenuWrapper.style.display = 'none';
+      }
+    })
+  })
+
+  // custom menu drawer script
+  const menuDrawerItem = document.querySelectorAll('#menu-drawer .child-menu-item');
+  menuDrawerItem.forEach( item => {
+    item.addEventListener('click', function(){
+      this.classList.toggle('active');
+      this.nextElementSibling.classList.toggle('active');
+    })
+  })
+  const firstLevelMenuItem = document.querySelectorAll('#menu-drawer .first-level-menu-item');
+  const menuDrawerFooter = document.querySelector('#menu-drawer .menu-drawer-footer');
+  const menuDrawerCloseButton = document.querySelectorAll('#menu-drawer .menu-drawer__close-button');
+  firstLevelMenuItem.forEach( item => {
+    item.addEventListener('click', function(e){
+      menuDrawerFooter.style.display = 'none'
+    })
+  })
+  menuDrawerCloseButton.forEach( item => {
+    item.addEventListener('click', function(e){
+      menuDrawerFooter.style.display = 'block'
+    })
+  })
+})()
