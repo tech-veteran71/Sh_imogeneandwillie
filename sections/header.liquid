@@ -501,9 +501,9 @@
                           {% endfor %}
                         </div>
                         {% if section.settings.btn_text != blank %}
-                            <div class="btn-wrap">
-                              <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
-                            </div>
+                          <div class="btn-wrap">
+                            <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+                          </div>
                         {% endif %}
                       </div>
                     </div>
@@ -516,15 +516,11 @@
       </nav>
     {%- endif -%}
 
-    {%- if request.page_type == 'index' -%}
-      <h1 class="header__heading">
-    {%- endif -%}
-        <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-            {% render 'logo' %}
-        </a>
-    {%- if request.page_type == 'index' -%}
-      </h1>
-    {%- endif -%}
+    <h1 class="header__heading">
+      <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+        {% render 'logo' %}
+      </a>
+    </h1>
 
     <div class="header__icons">
       <details-modal class="header__search">

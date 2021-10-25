@@ -1,0 +1,132 @@
+.image-gallery {
+  padding: 80px 0;
+}
+.image-gallery .gallery-container {
+  padding: 0 12rem;
+}
+.image-gallery .header-wrap {
+  text-align: center;
+  max-width: 555px;
+  margin: 0 auto;
+}
+.image-gallery .grid-header {
+  display: none;
+}
+.image-gallery .header-wrap .btn {
+  display: none;
+}
+.image-gallery .title {
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222222;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.image-gallery .text {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #434343;
+  letter-spacing: 1.6px;
+  margin: 0;
+}
+.image-gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.image-gallery .image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.image-gallery .gallery {
+  margin: 50px 0 70px;
+}
+.image-gallery .btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222222;
+  padding: 0 10px;
+  text-decoration: none;
+  border: 1px solid #222222;
+  min-height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 340px;
+  margin: 0 auto;
+}
+.image-gallery .header-wrap .img-wrap {
+  display: none;
+} 
+
+@media screen and (max-width: 990px) {
+  .image-gallery .gallery-container {
+    padding: 0 3rem;
+  }
+  .image-gallery .gallery-grid {
+    grid-gap: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .image-gallery {
+    padding: 50px 0;
+  }
+  .image-gallery .gallery-grid {
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,1fr)
+  }
+  .image-gallery .title {
+    font-size: 18px;
+    margin: 0;
+  }
+  .image-gallery .gallery-container {
+    padding: 0 1rem;
+  }
+  .image-gallery .gallery {
+    margin: 50px 0 0;
+    padding: 0 20px;
+  }
+  .image-gallery .btn {
+    display: none;
+  }
+  .image-gallery .header-wrap .btn {
+    display: flex;
+    margin: 35px auto 0;
+    max-width: 300px;
+  }
+  .image-gallery .mob-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .image-gallery .img-wrap {
+    margin: 35px 0 25px;
+  }
+  .image-gallery .grid-header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .image-gallery .pre-title {
+    font-size: 12px;
+    margin: 0 0 6px;
+    letter-spacing: 1.4px;
+    color: #222222;
+  }
+  .image-gallery .grid-title {
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #222222;
+    letter-spacing: 2.4px;
+  }
+  .image-gallery .header-wrap .img-wrap {
+    display: block;
+  } 
+}

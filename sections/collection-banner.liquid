@@ -1,0 +1,54 @@
+{{ 'collection-banner.css' | asset_url | stylesheet_tag }}
+
+<style>
+  @media screen and (max-width: 767px) {
+    .collection-banner {
+      background-image: url("{{ section.settings.mob_bg_img | img_url : 'master' }}") !important;
+    }
+  }
+</style>
+
+<div class="collection-banner" style="background-image: url('{{ section.settings.desk_bg_img | img_url : 'master' }}')">
+  <div class="page-width">
+    <div class="wrapper">
+      <div class="banner-content">
+        {% if section.settings.text != blank %}
+          <p class="text">{{ section.settings.text }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection-Banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "desk_bg_img",
+      "label": "Background Image ( Desktop )"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_bg_img",
+      "label": "Background Image ( Mobile )"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    }
+  ]
+}
+{% endschema %}

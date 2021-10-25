@@ -1,0 +1,133 @@
+{{ 'image-gallery-with-text.css' | asset_url | stylesheet_tag }}
+
+<div class="image-gallery">
+  <div class="gallery-container">
+    <div class="wrapper">
+      <div class="header-wrap">
+        {% if section.settings.title != blank %}
+          <h2 class="title">{{ section.settings.title }}</h2>
+        {% endif %}
+        {% if section.settings.mob_img != blank %}
+          <div class='img-wrap'>
+            {% render 'responsive--image' with section.settings.mob_img as image, max_width: 404, class: 'mob-image' %}
+          </div>
+        {% endif %}
+        {% if section.settings.text != blank %}
+          <p class="text">{{ section.settings.text }}</p>
+        {% endif %}
+        {% if section.settings.btn_text != blank %}
+          <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+        {% endif %}
+      </div>
+      <div class="gallery">
+        <div class='grid-header'>
+          {% if section.settings.pre_title != blank %}
+            <h5 class="pre-title">{{ section.settings.pre_title }}</h5>
+          {% endif %}
+          {% if section.settings.grid_title != blank %}
+            <h3 class="grid-title">{{ section.settings.grid_title }}</h3>
+          {% endif %}
+        </div>
+        <div class="gallery-grid">
+          {% for block in section.blocks %}
+            {% if block.settings.img != blank %}
+              <div class="grid-item">
+                {% render 'responsive--image' with block.settings.img as image, max_width: 374, class: 'image' %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% if section.settings.btn_text != blank %}
+        <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image Gallery",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_img",
+      "label": "Image ( Mobile )"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "BRIGHTER DAYS"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun."
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "SHOP Collection"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    },
+    {
+      "type": "header",
+      "content": "Extra Content For Mobile",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "pre_title",
+      "label": "Pre Title",
+      "default": "( essentials  )"
+    },
+    {
+      "type": "text",
+      "id": "grid_title",
+      "label": "Grid Title",
+      "default": "EVERY DAY CARRY"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "-------"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Gallery",
+      "category": "Image Gallery"
+    }
+  ]
+}
+{% endschema %}

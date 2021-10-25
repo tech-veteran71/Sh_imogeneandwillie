@@ -1,13 +1,13 @@
 {% if block.settings.product_image != blank %}
-    <div class="mega_menu-product-item {% if block.type == 'mega_menu_women' %}women-product-item{% endif %} {% if block.type == 'mega_menu_men' %}men-product-item{% endif %}">
+  <div class="mega_menu-product-item {% if block.type == 'mega_menu_women' %}women-product-item{% endif %} {% if block.type == 'mega_menu_men' %}men-product-item{% endif %}">
     <a href="{{ block.settings.product_url }}" class="mega_menu-product-item-inner-wrap">
-        <div class="mega_menu-product-img-wrap">
+      <div class="mega_menu-product-img-wrap">
         {% render 'responsive--image' with block.settings.product_image as image, max_width: 334px, class: 'mega_menu-product-img' %}
-        </div>
-        <div class="product-info">
+      </div>
+      <div class="product-info">
         <h3 class="mega_menu-product-title">{{ block.settings.product_title }}</h3>
         <p class="mega_menu-product-description">{{ block.settings.product_description }}</p>
-        </div>
+      </div>
     </a>
-    </div>
+  </div>
 {% endif %}
