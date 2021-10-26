@@ -1,0 +1,31 @@
+<div class='grid-item {% if productPerRow == 2 %} large-item {% elsif productPerRow == 3 %} medium-item {% endif %} {% if template == 'collection.alternate' %} swiper-slide {% endif %}'>
+  <a href="{{ product.url }}" class="product-link">
+    {% if template == 'collection.alternate' %}
+      <div class="product-image-wrap product-swiper">
+        <div class="swiper-wrapper">
+          {% for product-image in product.images %}
+            <div class="swiper-slide">
+              {% render 'responsive--image' with product-image as image, max_width: 786, class: 'product-img' %}
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="product-image-wrap">
+        {% render 'responsive--image' with product.featured_media as image, max_width: 786, class: 'product-img' %}
+      </div>
+      {% else %}
+        <div class="product-image-wrap">
+          {% render 'responsive--image' with product.featured_media as image, max_width: 786, class: 'product-img' %}
+        </div>
+    {% endif %}
+    <div class="product-details">
+      <h3 class="product-name">{{ product.title }}</h3>
+      {%- comment -%}
+      <span class="product-description">13oz slim leg</span>
+      {%- endcomment -%}
+      {%- render 'price', product: product, show_badges: true -%}
+    </div>
+  </a>
+</div>

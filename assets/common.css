@@ -1,5 +1,18 @@
 .main-container {
-    max-width: 1080px;
-    padding: 0 20px;
-    margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.collection-container {
+  padding: 0 63px;
+}
+@media screen and (max-width: 1279px) {
+  .collection-container {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .collection-container {
+    padding: 0;
+  }
 }

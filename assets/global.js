@@ -2587,4 +2587,11 @@ customElements.define("ajax-cart", AjaxCart);
       menuDrawerFooter.style.display = 'block'
     })
   })
+
+  // change the header background color on collection template page when scrolling
+  const header = document.querySelector('.template-collection .header-wrapper');
+  window.addEventListener('scroll', function() {
+    let scroll = window.scrollY;
+    if (header) header.style.backgroundColor = scroll > 0 ? '#F7F6F3' : 'transparent';
+  });
 })()

@@ -1,0 +1,34 @@
+.collection-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.collection-banner .page-width {
+  height: 100%;
+}
+.collection-banner .wrapper {
+  height: 100%;
+}
+.collection-banner .banner-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  max-width: 580px;
+  margin: 0 auto;
+}
+.collection-banner .banner-content .text {
+  color: #222222;
+  font-size: 28px;
+  line-height: 1.4;
+  margin: 0;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .collection-banner .banner-content {
+    display: none;
+  }
+  .collection-banner {
+    height: 50vh;
+  }
+}
