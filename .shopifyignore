@@ -4,3 +4,4 @@ gulpfile.js
 postcss.config.js 
 yarn.lock
 templates/*.json
+config/settings_data.json
