@@ -1,0 +1,76 @@
+{{ 'moodboard-section.css' | asset_url | stylesheet_tag }}
+
+<div class="moodboard-section">
+  <div class="moodboard-container">
+    <div class="wrapper">
+      {% if section.settings.main_title %}
+        <h3 class="title">{{ section.settings.main_title }}</h3>
+      {% endif %}
+      <div class="image-gallery">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-with-three-images">
+            {%- for media in product.media -%}
+              {% if forloop.index >= 1 and forloop.index <= 3 %}
+                <div class="image-item">
+                  {% render 'responsive--image' with media as image, max_width: 253, class: 'img' %}
+                </div>
+                {% else %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="swiper-slide slide-with-four-images">
+            {%- for media in product.media -%}
+              {% if forloop.index >= 4 and forloop.index <= 7 %}
+                <div class="image-item">
+                  {% render 'responsive--image' with media as image, max_width: 253, class: 'img' %}
+                </div>
+              {% else %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="swiper-slide slide-with-three-images">
+            {%- for media in product.media -%}
+              {% if forloop.index >= 8 and forloop.index <= 10 %}
+                <div class="image-item">
+                  {% render 'responsive--image' with media as image, max_width: 253, class: 'img' %}
+                </div>
+                {% else %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="image-gallery-pagination"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Moodboard Section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "This Section Is Just For Mobile Version.",
+      "info": "-------"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "dig into the moodboard"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Moodboard Section",
+      "category": "Moodboard Section"
+    }
+  ]
+}
+{% endschema %}
