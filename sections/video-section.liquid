@@ -1,0 +1,128 @@
+{{ 'video.css' | asset_url | stylesheet_tag }}
+<div class="video-section">
+  <div class="main-container">
+    {% if section.settings.title != blank%}
+      <h3 class="title">{{ section.settings.title }}</h3>
+    {% endif %}
+    <div class="wrapper">
+      <div class="alpha">
+        <div class="contents">
+        <div class="content">
+          {% if section.settings.mobile_title != blank %}
+            <h3 class="mobile-title">{{ section.settings.mobile_title }}</h3>
+          {% endif %}
+          {% if section.settings.wrap_title != blank %}
+            <h3 class="wrap-title">{{ section.settings.wrap_title }}</h3>
+          {% endif %}
+          {% if section.settings.top_text != blank %}
+            <p class="text">{{ section.settings.top_text }} 
+              {% if section.settings.link_text != blank %}
+                <a href="{{ section.settings.btn_url }}" class="detail">{{ section.settings.link_text }}</a>
+              {% endif %}
+            </p>
+          {% endif %}
+         </div>
+         <div class="info">
+        {% if section.settings.bottom_text != blank %}
+          <p class="text">{{ section.settings.bottom_text }}</p>
+        {% endif %}
+        {% if section.settings.btn != blank  %}
+          <div class="btn-wrap">
+            <span class="read-more">
+              <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn }}</a>
+            </span>
+            <span class="arrow">
+              <img src="{{ section.settings.arrow | img_url: 'master'}}" alt="">
+            </span>
+          </div>
+        {% endif %}
+         </div>
+        </div>
+      </div>
+      <div class="beta">
+         {% if section.settings.video_url != blank %}
+          <iframe class="video" src="{{ section.settings.video_url }}"></iframe>
+          <div class="image">
+            <img src=" {{section.settings.video_img | img_url: 'master'}}" alt="">
+            <div class="play-img">
+              <img src="{{ section.settings.play_img | img_url: 'master'}}" alt="">
+            </div>
+          </div>
+         {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Video",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "arrow",
+      "label": "Arrow"
+    },
+    {
+      "type": "image_picker",
+      "id": "video_img",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "play_img",
+      "label": "Play"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label":"Main Title"
+    },
+    {
+      "type": "text",
+      "id": "mobile_title",
+      "label":"Mobile Title"
+    },
+    {
+      "type": "text",
+      "id": "wrap_title",
+      "label":"Desktop Title"
+    },
+    {
+      "type": "text",
+      "id": "top_text",
+      "label":"Text Two"
+    },
+    {
+      "type": "text",
+      "id": "bottom_text",
+      "label":"Text one"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text (Mobile)",
+      "default": "read more..."
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "URL"
+    },
+    {
+      "type": "text",
+      "id": "btn",
+      "label":"Button"
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Section"
+    }
+  ]
+}
+{% endschema %}

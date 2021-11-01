@@ -1,5 +1,7 @@
 <style>
-  --product-per-row: {{ section.settings.product_per_row}};
+  :root {
+    --product-per-row: {{ section.settings.product_per_row }};
+  }
 </style>
 {{ 'main-collection.css' | asset_url | stylesheet_tag }}
 {% assign productPerRow = section.settings.product_per_row %}

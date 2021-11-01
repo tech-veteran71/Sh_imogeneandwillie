@@ -1,0 +1,70 @@
+{{ 'product-recommendation.css' | asset_url | stylesheet_tag }}
+
+<div class="product-recommendation">
+  <div class="product-container">
+    <div class="wrapper">
+      <div class="product-grid">
+        {% for product in collections[section.settings.collection].products %}
+          {% if forloop.index <= 4 %}
+            <a href="{{ product.url }}" class="product-item">
+              <div class="img-wrap">
+                {% render 'responsive--image' with product.featured_media as image, max_width: 360, class: 'product-image' %}
+              </div>
+              <div class="product-info">
+                <h4 class="product-title">{{ product.title }}</h4>
+                <p class="description">straight through the thigh and knee</p>
+              </div>
+            </a>
+            {% else %}
+              {% break %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% if section.settings.btn_text %}
+        <div class='btn-wrap'>
+          <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Product Recommendation",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Collection",
+      "info": "-------"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Choose Collection"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "Men’s denim"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Recommendation",
+      "category": "Product Recommendation"
+    }
+  ]
+}
+{% endschema %}

@@ -3,6 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  min-height: 600px;
 }
 .collection-banner .page-width {
   height: 100%;
@@ -13,13 +14,13 @@
 .collection-banner .banner-content {
   display: flex;
   justify-content: center;
-  padding-top: 150px;
-  max-width: 580px;
+  padding-top: 180px;
+  max-width: 370px;
   margin: 0 auto;
 }
 .collection-banner .banner-content .text {
   color: #222222;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 1.4;
   margin: 0;
   text-align: center;

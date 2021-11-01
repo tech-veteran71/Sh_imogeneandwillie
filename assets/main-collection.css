@@ -158,14 +158,14 @@
 }
 .main-collection .grid-1 .grid-item:first-child .badges {
   right: 15px;
-  max-width: 125px;
+  max-width: 130px;
 }
 .main-collection .grid-1 .grid-item:first-child .badge {
   font-size: 12px;
 }
 .main-collection .grid-4 .grid-item:last-child .badges {
   right: 15px;
-  max-width: 125px;
+  max-width: 130px;
 }
 .main-collection .grid-4 .grid-item:last-child .badge {
   font-size: 12px;
@@ -173,7 +173,7 @@
 .main-collection .grid-1 .grid-item .badges,
 .main-collection .grid-4 .grid-item .badges {
   right: 10px;
-  max-width: 103px;
+  max-width: 106px;
 }
 .main-collection .grid-1 .grid-item .badge,
 .main-collection .grid-4 .grid-item .badge {
@@ -218,7 +218,7 @@
 }
 .main-collection .grid-2 .badges,
 .main-collection .grid-5 .badges {
-  max-width: 125px;
+  max-width: 130px;
   right: 10px;
 }
 .main-collection .grid-2 .badge,
@@ -429,6 +429,15 @@
     font-size: 8px;
     padding: 4px 2px;
   }
+  .main-collection .featured-gallery .product-details {
+    padding: 0 8px;
+  }
+  .main-collection .featured-gallery .grid-3 .badges, .main-collection .featured-gallery .grid-6 .badges {
+    max-width: 98px;
+  }
+  .main-collection .featured-gallery .grid-3 .badge, .main-collection .featured-gallery .grid-6 .badge {
+    padding: 5px 3px;
+  }
 }
 @media screen and (max-width: 1279px) {
   .main-collection .wrapper {
@@ -480,8 +489,14 @@
     max-width: 120px;
   }
   .main-collection .featured-gallery .product-name {
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: 0px;
+  }
+  .main-collection .featured-gallery .badges {
+    right: 0px;
+  }
+  .main-collection .featured-gallery .product-details {
+    padding: 0;
   }
   .main-collection .featured-gallery .price-item {
     font-size: 9px;
@@ -523,6 +538,19 @@
     grid-column-gap: 12px;
     grid-row-gap: 48px
   }
+  .main-collection .featured-gallery .grid-3 .badges, .main-collection .featured-gallery .grid-6 .badges {
+    max-width: 80px;
+  }
+  .main-collection .featured-gallery .grid-3 .badge, .main-collection .featured-gallery .grid-6 .badge {
+    padding: 4px 2px;
+    font-size: 7px;
+  }
+  .main-collection .grid-1 .grid-item .badges, .main-collection .grid-4 .grid-item .badges {
+    max-width: 100px;
+  }
+  .main-collection .grid-1 .grid-item .badge, .main-collection .grid-4 .grid-item .badge {
+    padding: 4px 2px;
+  }
 }
 @media screen and (max-width: 990px) {
   .main-collection {
@@ -554,6 +582,7 @@
   }
   .main-collection .large-item .badge {
     font-size: 8px;
+    padding: 4px 2px;
   }
   .main-collection .fabric-guide .fabric-guide-link,
   .main-collection .fit-guide .fit-guide-link {
@@ -563,7 +592,7 @@
     max-width: 100px;
   }
   .main-collection .collection-denim .badges {
-    max-width: 97px;
+    max-width: 87px;
   }
   .main-collection .grid-3,
   .main-collection .grid-6 {
@@ -614,6 +643,12 @@
   }
   .main-collection .swiper-wrapper {
     grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .main-collection .featured-gallery .price-item {
+    font-size: 10px;
+  }
+  .main-collection .featured-gallery .product-name {
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -769,7 +804,7 @@
     z-index: 99;
   }
   .main-collection .collection-denim .badges {
-    max-width: 89px;
+    max-width: 92px;
     right: unset;
     left: 6px;
     top: -115%;
@@ -815,10 +850,16 @@
     font-size: 10px;
   }
   .main-collection .product-gallery .featured-gallery .badges {
-    max-width: 85px;
+    max-width: 88px;
     top: -115%;
     left: 6px;
     right: unset;
+  }
+  .main-collection .featured-gallery .product-name {
+    font-size: 9px;
+  }
+  .main-collection .featured-gallery .price-item {
+    font-size: 9px;
   }
   .main-collection .product-gallery .featured-gallery .badge {
     padding: 4px 2px;
@@ -880,7 +921,7 @@
   }
   .main-collection .collection-alternate .swiper-pagination {
     position: absolute;
-    bottom: 53px;
+    bottom: 48px;
   }
   .main-collection .collection-alternate .swiper-pagination-bullet {
     background-color: #fff;
@@ -895,6 +936,7 @@
   }
   .main-collection .product-gallery .product-name {
     margin-bottom: 4px;
+    font-size: 9px;
   }
   .main-collection .swiper-button-next:after {
     font-size: 25px;

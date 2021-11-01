@@ -1,0 +1,92 @@
+{{ 'selection-section.css' | asset_url | stylesheet_tag }}
+<div class="selection-section">
+  <div class="main-container">
+     {% if section.settings.desktop-pre_title != blank %}
+      <h4 class="desktop-pre-title">{{ section.settings.desktop-pre_title }}</h4>
+     {% endif %}
+     {% if  section.settings.desktop-title  != blank %}
+      <h3 class="desktop-title">{{ section.settings.desktop-title }}</h3>
+     {% endif %}
+    {% if section.settings.mobile-pre_title  != blank %}
+      <h4 class="mobile-pre-title">{{ section.settings.mobile-pre_title }}</h4>
+    {% endif %}
+    {% if section.settings.mobile-title != blank %}
+      <h3 class="mobile-title">{{ section.settings.mobile-title }}</h3>
+    {% endif %}
+    <div class="gallary">
+       {% for block in section.blocks %}
+        <div class="card">
+          {% if block.settings.image != blank %}
+            <div class="img-wrap">
+              <img src="{{ block.settings.image | img_url: 'master'}}" alt="">
+            </div>
+          {% endif %}
+          <div class="text-wrap">
+            {% if  block.settings.text != blank %}
+              <p class="text">{{ block.settings.text }}</p>
+            {% endif %}
+            {% if block.settings.price != blank %}
+              <span class="price">{{ block.settings.price }}</span>
+            {% endif %} 
+          </div>
+        </div>
+       {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name":"Selection Section",
+  "settings":[
+    {
+      "type": "text",
+      "id": "desktop-pre_title",
+      "label": "Desktop Pre Title"
+    },
+    {
+      "type": "text",
+      "id": "mobile-pre_title",
+      "label": "Mobile Pre Title"
+    },
+    {
+      "type": "text",
+      "id": "desktop-title",
+      "label": "Desktop Title"
+    },
+    
+    {
+      "type": "text",
+      "id": "mobile-title",
+      "label": "Mobile Title"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Image",
+      "type": "img",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Selection Section"
+    }
+  ]
+}
+{% endschema %}
