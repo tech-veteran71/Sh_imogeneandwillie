@@ -1,0 +1,116 @@
+.terms-and-service-page {
+  font-size: 2.4vw;
+}
+.terms-and-service-page .page-main {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex: 1;
+  padding: 1.3em;
+}
+.terms-and-service-page .wrapper {
+  display: flex;
+}
+.terms-and-service-page .main-wrapper {
+  background-color: #F7F6F3;
+  padding: 1em 1.2em;
+  width: 100%;
+}
+.terms-and-service-page .main-title {
+  font-size: 28px;
+  color: #222222;
+  letter-spacing: 2px;
+  margin: 0;
+  line-height: 1.4;
+}
+.terms-and-service-page .terms-and-condition {
+  width: 85%;
+  margin: 1.2em auto 0;
+  position: relative;
+}
+.terms-and-service-page .terms-and-condition::before {
+  content: '';
+  width: 3px;
+  height: 100px;
+  background-color: #A0A0A0;
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: -1.18em;
+}
+.terms-and-service-page .terms-and-condition p,
+.terms-and-service-page .terms-and-condition h3 {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #707070;
+  margin-bottom: 2em;
+  margin-top: 0;
+  letter-spacing: 0.1px;
+}
+.terms-and-service-page .terms-and-condition p:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .terms-and-service-page .terms-and-condition::before {
+    left: -1em;
+    width: 2px;
+    height: 85px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .faq-page {
+    font-size: 2vw;
+  }
+  .terms-and-service-page .terms-and-condition {
+    width: 90%;
+  }
+  .terms-and-service-page .terms-and-condition h3,
+  .terms-and-service-page .terms-and-condition p {
+    font-size: 12px;
+    margin-bottom: 1.6em;
+  }
+  .terms-and-service-page .terms-and-condition::before {
+    left: -0.6em;
+    width: 1.5px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .terms-and-service-page .terms-and-condition {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .terms-and-service-page .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .terms-and-service-page .page-main {
+    background-image: unset !important;
+    padding: 0;
+  }
+  .terms-and-service-page .page-main .main-title {
+    text-align: center;
+    padding: 34px 0;
+    background-color: #f0efec;
+  }
+  .terms-and-service-page .main-wrapper {
+    padding: 0 0 40px;
+  }
+  .terms-and-service-page .terms-and-condition h3,
+  .terms-and-service-page .terms-and-condition p {
+    font-size: 14px;
+  }
+  .terms-and-service-page .terms-and-condition::before {
+    left: -12px;
+    width: 3px;
+    height: 80px;
+    top: 5px;
+  }
+  .terms-and-service-page .terms-and-condition {
+    width: 85%;
+    margin-top: 50px;
+  }
+}

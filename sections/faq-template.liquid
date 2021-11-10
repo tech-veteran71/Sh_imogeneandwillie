@@ -1,0 +1,737 @@
+{{ 'faq-template.css' | asset_url | stylesheet_tag }}
+{{ 'ancillary-sidebar.css' | asset_url | stylesheet_tag }}
+
+{% assign bannerImage = section.settings.banner_img %}
+<div class="faq-page ancillary-page">
+  <div class="container">
+    <div class="wrapper">
+      {% render 'page-banner', bannerImage: bannerImage %}
+      {% render 'ancillary-sidebar' with section %}
+      <div class="faq-main" style="background-image: url({{ section.settings.bg_img | img_url: 'master'}})">
+        <div class="faq-wrapper">
+          {% if section.settings.main_title != blank %}
+            <h1 class="main-title">{{ section.settings.main_title }}</h1>
+          {% endif %}
+          <div class="faq-block-wrap">
+            {% for block in section.blocks %}
+              {% if block.type == 'faq' %}
+                <div class="faq-block">
+                {% if block.settings.accordian_sub_title != blank %}
+                  <h3 class="faq-title">{{ block.settings.accordian_sub_title }}</h3>
+                {% endif %}
+                <div class="accordians-group">
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_1 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_1 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_1 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_1 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_2 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_2 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_2 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_2 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_3 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_3 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_3 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_3 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_4 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_4 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_4 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_4 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_5 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_5 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_5 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_5 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_6 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_6 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_6 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_6 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_7 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_7 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_7 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_7 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_8 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_8 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_8 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_8 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_9 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_9 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_9 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_9 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_10 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_10 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_10 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_10 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_11 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_11 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_11 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_11 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_12 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_12 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_12 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_12 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_13 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_13 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_13 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_13 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_14 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_14 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_14 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_14 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="accordian-item">
+                    {% if block.settings.accordian_title_15 != blank %}
+                      <div class="accordian-header">
+                        <h3 class="accordian-title">{{ block.settings.accordian_title_15 }}</h3>
+                        <div class="icons">
+                          <div class="accordian-open icon">
+                          <svg width="7" height="2" viewBox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.774 1.842H6.498V0.294H0.774V1.842Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                          <div class="accordian-close icon">
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.292 10H5.93V5.932H9.998V4.384H5.93V0.424H4.292V4.384H0.224V5.932H4.292V10Z" fill="#434343"/>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.text_15 != blank %}
+                      <div class="accordian-body">
+                        <p class="text">{{ block.settings.text_15 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+</script>
+
+{% schema %}
+{
+  "name": "Page Main",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "--------"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img",
+      "label": "Banner Image (Mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Main Page Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "frequently asked questions"
+    },
+    {
+      "type": "header",
+      "content": "Ancillary SideBar Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "help"
+    },
+    {
+      "type": "text",
+      "id": "info_title",
+      "label": "Info Title",
+      "default": "contact"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Ancillary Link",
+      "type": "ancillary_link",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
+        }
+      ]
+    },
+    {
+      "name": "Info",
+      "type": "info",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "name": "Faq",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_sub_title",
+          "label": "Accordian Sub Title"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 1 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_1",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_1",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 2 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_2",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_2",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 3 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_3",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_3",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 4 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_4",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_4",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 5 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_5",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_5",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 6 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_6",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_6",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 7 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_7",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_7",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 8 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_8",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_8",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 9 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_9",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_9",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 10 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_10",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_10",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 11 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_11",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_11",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 12 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_12",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_12",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 13 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_13",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_13",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 14 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_14",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_14",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Accordian 15 Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "accordian_title_15",
+          "label": "Accordian Title"
+        },
+        {
+          "type": "text",
+          "id": "text_15",
+          "label": "Text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

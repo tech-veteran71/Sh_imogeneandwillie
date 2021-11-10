@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "terms-and-condition-template",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

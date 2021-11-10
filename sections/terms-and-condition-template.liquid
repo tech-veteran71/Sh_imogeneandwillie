@@ -1,0 +1,131 @@
+{{ 'terms-and-condition-template.css' | asset_url | stylesheet_tag }}
+{{ 'ancillary-sidebar.css' | asset_url | stylesheet_tag }}
+
+{% assign bannerImage = section.settings.banner_img %}
+<div class="terms-and-service-page ancillary-page">
+  <div class="container">
+    <div class="wrapper">
+      {% render 'page-banner', bannerImage: bannerImage %}
+      {% render 'ancillary-sidebar' with section %}
+      <div class="page-main" style="background-image: url({{ section.settings.bg_img | img_url: 'master'}})">
+        <div class="main-wrapper">
+          {% if section.settings.main_title != blank %}
+            <h1 class="main-title">{{ section.settings.main_title }}</h1>
+          {% endif %}
+          {% if section.settings.main_text != blank %}
+            <div class="terms-and-condition">{{ section.settings.main_text }}</div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+</script>
+
+{% schema %}
+{
+  "name": "Page Main",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "--------"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img",
+      "label": "Banner Image (Mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Main Page Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "terms of service"
+    },
+    {
+      "type": "html",
+      "id": "main_text",
+      "label": "Main Text"
+    },
+    {
+      "type": "header",
+      "content": "Ancillary SideBar Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "help"
+    },
+    {
+      "type": "text",
+      "id": "info_title",
+      "label": "Info Title",
+      "default": "contact"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Ancillary Link",
+      "type": "ancillary_link",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
+        }
+      ]
+    },
+    {
+      "name": "Info",
+      "type": "info",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

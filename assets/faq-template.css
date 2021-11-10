@@ -1,0 +1,111 @@
+.faq-page {
+  font-size: 2.4vw;
+}
+.faq-page .wrapper {
+  display: flex;
+}
+.faq-page .faq-main {
+  flex: 1;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1.3em;
+  display: flex;
+}
+.faq-page .faq-wrapper {
+  background-color: #F7F6F3;
+  padding: 1em 1.2em;
+  width: 100%;
+}
+.faq-page .main-title {
+  font-size: 28px;
+  color: #222222;
+  letter-spacing: 2px;
+  margin: 0;
+  line-height: 1.4;
+}
+.faq-page .faq-block-wrap {
+  margin-top: 1.3em;
+}
+.faq-page .faq-title {
+  font-size: 18px;
+  color: #434343;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.faq-page .accordians-group {
+  margin-top: 0.7em;
+}
+.faq-page .accordian-title {
+  margin: 0;
+  font-size: 14px;
+  color: #434343;
+  letter-spacing: 2px;
+}
+.faq-page .accordian-item {
+  padding: 0 0.75em;
+}
+.faq-page .accordian-item:nth-child(odd) {
+  background-color: #f0efec;
+}
+.faq-page .accordian-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.75em 0;
+}
+.faq-page .icons {
+  max-width: 12px;
+  width: 12px;
+  flex: 12px;
+  height: 12px;
+}
+.faq-page svg {
+  width: 100%;
+  height: 100%;
+}
+.faq-page .icon {
+  display: flex;
+}
+.faq-page .accordian-open {
+  display: none;
+}
+.faq-page .accordian-body .text {
+  font-size: 14px;
+  color: #434343;
+  letter-spacing: 1.3px;
+  line-height: 1.5;
+  margin: 0;
+  padding-left: 1.4em;
+  border-left: 1px solid #434343;
+}
+.faq-page .accordian-body {
+  padding-bottom: 0.7em;
+  display: none;
+}
+.faq-page .faq-block {
+  margin-bottom: 1.3em;
+}
+.faq-page .faq-block:last-child {
+  margin-bottom: 0;
+}
+.faq-page .accordian-item.active .accordian-body {
+  display: block;
+}
+.faq-page .accordian-item.active .accordian-close {
+  display: none;
+}
+.faq-page .accordian-item.active .accordian-open {
+  display: flex;
+}
+.faq-page .accordian-item.active .accordian-title {
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .faq-page .wrapper {
+    flex-wrap: wrap;
+  }
+}
