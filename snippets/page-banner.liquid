@@ -1,0 +1,11 @@
+{{ 'page-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="page-banner">
+  <div class="wrapper">
+    {% if bannerImage != blank %}
+      <div class="img-wrap">
+        {% render 'responsive--image' with bannerImage as image, max_width: 608px, class: 'banner-img' %}
+      </div>
+    {% endif %}
+  </div>
+</div>

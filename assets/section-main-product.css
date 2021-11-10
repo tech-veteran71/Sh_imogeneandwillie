@@ -1035,10 +1035,12 @@ a.product__text {
 .product .product__description li {
   line-height: 1.2em;
 }
-.product .product__description p, .product .product__description span {
+.product .product__description p,
+.product .product__description span {
   font-size: 0.75em !important;
 }
-.product .product__description p, .product .product__description span {
+.product .product__description p,
+.product .product__description span {
   color: #434343;
 }
 .product .product__description a {
@@ -1058,7 +1060,8 @@ a.product__text {
 .product .product__description table {
   width: 100%;
 }
-.product .product__description table td, .product .product__description table th {
+.product .product__description table td,
+.product .product__description table th {
   text-align: center;
   padding: 0.8em 0.2em;
   font-size: 0.8em;
@@ -1112,11 +1115,13 @@ a.product__text {
 .product .accordian-body {
   display: none;
 }
-.product .accordian-body p, .product .accordian-body span {
+.product .accordian-body p,
+.product .accordian-body span {
   font-size: 0.58em;
   letter-spacing: 0.07em;
 }
-.product .accordian-body p, .product .accordian-body span {
+.product .accordian-body p,
+.product .accordian-body span {
   color: #434343;
   display: block;
 }
@@ -1246,7 +1251,8 @@ a.product__text {
   .product .size-box-wrap .form__label {
     font-size: 0.54em;
   }
-  .product .product__description p, .product .product__description span {
+  .product .product__description p,
+  .product .product__description span {
     font-size: 0.6em !important;
   }
   .product .accordian-body button {
@@ -1295,7 +1301,8 @@ a.product__text {
   .product__info-wrapper {
     padding-right: 25px;
   }
-  .product .product__description table td, .product .product__description table th {
+  .product .product__description table td,
+  .product .product__description table th {
     font-size: 0.6em;
   }
 }
@@ -1327,7 +1334,8 @@ a.product__text {
     max-width: 2.3em;
     margin-left: 0.4em;
   }
-  .product .product__description p, .product .product__description span {
+  .product .product__description p,
+  .product .product__description span {
     font-size: 0.55em !important;
   }
   .product .product__description .pad-b-l {
@@ -1337,7 +1345,8 @@ a.product__text {
     font-size: 0.65em;
     letter-spacing: 0.07em;
   }
-  .product .accordian-body p, .product .accordian-body span {
+  .product .accordian-body p,
+  .product .accordian-body span {
     font-size: 0.5em;
     letter-spacing: 0.07em;
   }
@@ -1544,7 +1553,8 @@ a.product__text {
     font-size: .8em;
     letter-spacing: 1.8px;
   }
-  .product .product__description p, .product .product__description span {
+  .product .product__description p,
+  .product .product__description span {
     font-size: 0.65em !important;
     margin: 10px 0;
   }
@@ -1554,7 +1564,8 @@ a.product__text {
   .product .product__description .pad-b-l {
     line-height: 0.4em;
   }
-  .product .product__description table td, .product .product__description table th {
+  .product .product__description table td,
+  .product .product__description table th {
     font-size: 0.64em;
   }
   .product .accordian-title {
@@ -1564,7 +1575,8 @@ a.product__text {
     max-width: 0.6em;
     flex: 0.6em;
   }
-  .product .accordian-body p, .product .accordian-body span {
+  .product .accordian-body p,
+  .product .accordian-body span {
     font-size: 0.58em;
   }
   .product .accordian-body button span {

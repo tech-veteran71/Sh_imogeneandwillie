@@ -1,0 +1,301 @@
+.ancillary-sidebar {
+  max-width: 10.4em;
+  flex: 10.4em;
+  background-color: #F7F6F3;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  left: 0;
+  bottom: 0;
+}
+.ancillary-sidebar .main-title {
+  font-size: 18px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #434343;
+  letter-spacing: 2.5px;
+}
+.ancillary-sidebar .sidebar-title-wrap {
+  background-color: #F0EFEC;
+  padding: 0.4em 0.4em 0.4em 1.7em;
+}
+.ancillary-sidebar .ancillary-list-wrap {
+  margin-top: 1.4em;
+  padding: 0 1em 0 1.8em;
+  margin-bottom: 3.5em;
+}
+.ancillary-sidebar .ancillary-item {
+  list-style: none;
+  display: flex;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+.ancillary-sidebar .ancillary-link {
+  font-size: 15px;
+  text-decoration: none;
+  color: #434343;
+  letter-spacing: 3.5px;
+}
+.ancillary-sidebar .ancillary-link.active {
+  font-weight: bold;
+}
+.ancillary-sidebar .ancillary-list {
+  margin: 0;
+  padding: 0 0 0 0.6em;
+  border-left: 1px solid #434343;
+}
+.ancillary-sidebar .info-title {
+  font-size: 18px;
+  color: #434343;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0;
+}
+.ancillary-sidebar .content-wrap{
+  padding-left: 1.7em;
+  padding-right: 0.6em;
+}
+.ancillary-sidebar .label {
+  font-size: 20px;
+  display: block;
+  color: #222222;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  margin-bottom: 5px;
+}
+.ancillary-sidebar .link {
+  font-size: 14px;
+  color: #222222;
+  letter-spacing: 2px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.ancillary-sidebar .link:hover {
+  color: #0f359b;
+}
+.ancillary-sidebar .info-wrap {
+  margin-bottom: 0.6em;
+}
+.ancillary-sidebar .info-wrap:nth-last-child(2) .link {
+  text-decoration: underline;
+}
+.ancillary-sidebar .info-title-wrap {
+  margin-bottom: 0.6em;
+}
+
+@media screen and (min-width: 1420px) and (max-width: 1700px) {
+  .ancillary-sidebar .ancillary-list-wrap {
+    margin-top: 0.6em;
+    margin-bottom: 0.9em;
+  }
+  .ancillary-sidebar .ancillary-item {
+    margin-bottom: 8px;
+  }
+  .ancillary-sidebar .info-title-wrap {
+    margin-bottom: 0.4em;
+  }
+  .ancillary-sidebar .label {
+    margin-bottom: 2px;
+  }
+  .ancillary-sidebar .info-wrap {
+    margin-bottom: 0.4em;
+  }
+  .ancillary-sidebar .ancillary-link {
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .ancillary-sidebar {
+    max-width: 375px;
+    flex: 375px;
+  }
+  .ancillary-sidebar .ancillary-link {
+    letter-spacing: 3px;
+  }
+  .ancillary-sidebar .ancillary-list-wrap {
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+  }
+  .ancillary-sidebar .ancillary-item {
+    margin-bottom: 8px;
+  }
+  .ancillary-sidebar .info-title-wrap {
+    margin-bottom: 0.3em;
+  }
+  .ancillary-sidebar .label {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+  .ancillary-sidebar .link {
+    font-size: 12px;
+  }
+  .ancillary-sidebar .info-wrap {
+    margin-bottom: 0.3em;
+  }
+  .ancillary-sidebar .main-title {
+    letter-spacing: 2px;
+  }
+  .ancillary-sidebar .info-title {
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .faq-page {
+    font-size: 2vw;
+  }
+  .ancillary-sidebar {
+    max-width: 300px;
+    flex: 300px;
+  }
+  .ancillary-sidebar .ancillary-link {
+    font-size: 13px;
+    letter-spacing: 2.5px;
+  }
+  .ancillary-sidebar .ancillary-item {
+    margin-bottom: 7px;
+  }
+  .faq-page .accordian-body .text {
+    font-size: 12px;
+  }
+  .faq-page .accordian-title {
+    font-size: 12px;
+  }
+  .faq-page .icons {
+    max-width: 8px;
+    width: 8px;
+    flex: 8px;
+    height: 8px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .ancillary-sidebar {
+    max-width: 225px;
+    flex: 225px;
+  }
+  .ancillary-sidebar .ancillary-link {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+  .ancillary-sidebar .ancillary-list-wrap {
+    margin-top: 1.8em;
+    margin-bottom: 2em;
+  }
+  .ancillary-sidebar .main-title {
+    letter-spacing: 1px;
+  }
+  .ancillary-sidebar .ancillary-list-wrap {
+    margin-top: 1.8em;
+    margin-bottom: 2em;
+  }
+  .ancillary-sidebar .ancillary-link {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+  .ancillary-sidebar .info-title {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+  .ancillary-sidebar .info-title-wrap {
+    margin-bottom: 0.7em;
+  }
+  .ancillary-sidebar .label {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .ancillary-sidebar .info-wrap {
+    margin-bottom: 0.8em;
+  }
+  .ancillary-sidebar .link {
+    letter-spacing: 1px;
+  }
+  .faq-page .accordian-body .text {
+    font-size: 10px;
+  }
+  .faq-page .accordian-title {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .faq-page .faq-wrapper .main-title {
+    font-size: 24px;
+  }
+  .faq-page .faq-title {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ancillary-sidebar {
+    max-width: 100%;
+    flex: 100%;
+    height: auto;
+    position: unset;
+  }
+  .ancillary-sidebar .sidebar-title-wrap {
+    padding: 20px 20px 20px 40px;
+  }
+  .ancillary-sidebar .content-wrap {
+    display: none;
+  }
+  .ancillary-sidebar .ancillary-list-wrap {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+  .ancillary-sidebar .ancillary-list-wrap {
+    padding-left: 43px;
+  }
+  .ancillary-sidebar .ancillary-list {
+    padding-left: 16px;
+  }
+  .ancillary-sidebar .ancillary-link {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+  .ancillary-sidebar .ancillary-item {
+    margin-bottom: 8px;
+  }
+  .faq-page .faq-main {
+    background-image: unset !important;
+    padding: 0;
+  }
+  .faq-page .faq-wrapper {
+    padding: 0;
+  }
+  .faq-page .faq-wrapper .main-title {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    background-color: #f0efec;
+    padding: 36px 0;
+    text-align: center;
+  }
+  .faq-page .faq-block-wrap {
+    margin-top: 46px;
+  }
+  .faq-page .faq-title {
+    font-size: 14px;
+    margin-bottom: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  .faq-page .accordian-title {
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 300px;
+  }
+  .faq-page .accordian-header {
+    padding: 22px 0;
+  }
+  .faq-page .accordian-item {
+    padding: 0 22px;
+  }
+  .faq-page .accordian-body .text {
+    font-size: 12px;
+  }
+  .faq-page .accordian-body {
+    padding-bottom: 30px;
+  }
+  .faq-page .faq-block {
+    margin-bottom: 55px;
+  }
+}

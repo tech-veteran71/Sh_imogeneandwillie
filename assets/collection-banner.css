@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   padding-top: 180px;
-  max-width: 370px;
+  max-width: 480px;
   margin: 0 auto;
 }
 .collection-banner .banner-content .text {
@@ -24,6 +24,15 @@
   line-height: 1.4;
   margin: 0;
   text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .collection-banner .banner-content {
+    max-width: 720px;
+    padding-top: 250px;
+  }
+  .collection-banner .banner-content .text {
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 767px) {
   .collection-banner .banner-content {

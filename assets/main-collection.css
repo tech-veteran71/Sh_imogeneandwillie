@@ -226,16 +226,16 @@
   font-size: 12px;
 }
 .main-collection .review-wrap {
-  margin: 120px 0;
+  margin: 90px 0;
 }
 .main-collection .customer-name {
-  font-size: 14px;
+  font-size: 12px;
   color: #A0A0A0;
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
 .main-collection .review {
-  font-size: 28px;
+  font-size: 14px;
   color: #222222;
   margin-top: 0;
   margin-bottom: 0;
@@ -401,6 +401,15 @@
   .main-collection .product-gallery .featured-gallery .grid-item .badge {
     font-size: 14px;
   }
+  .main-collection .review {
+    font-size: 28px;
+  }
+  .main-collection .customer-name{
+    font-size: 14px;
+  }
+  .main-collection .review-wrap {
+    margin: 120px 0;
+  }
 }
 @media screen and (max-width: 1500px) and (min-width: 1300px) {
   .main-collection .grid-1 .grid-item:last-child .product-image-wrap {
@@ -432,10 +441,12 @@
   .main-collection .featured-gallery .product-details {
     padding: 0 8px;
   }
-  .main-collection .featured-gallery .grid-3 .badges, .main-collection .featured-gallery .grid-6 .badges {
+  .main-collection .featured-gallery .grid-3 .badges,
+  .main-collection .featured-gallery .grid-6 .badges {
     max-width: 98px;
   }
-  .main-collection .featured-gallery .grid-3 .badge, .main-collection .featured-gallery .grid-6 .badge {
+  .main-collection .featured-gallery .grid-3 .badge,
+  .main-collection .featured-gallery .grid-6 .badge {
     padding: 5px 3px;
   }
 }
@@ -538,17 +549,21 @@
     grid-column-gap: 12px;
     grid-row-gap: 48px
   }
-  .main-collection .featured-gallery .grid-3 .badges, .main-collection .featured-gallery .grid-6 .badges {
+  .main-collection .featured-gallery .grid-3 .badges,
+  .main-collection .featured-gallery .grid-6 .badges {
     max-width: 80px;
   }
-  .main-collection .featured-gallery .grid-3 .badge, .main-collection .featured-gallery .grid-6 .badge {
+  .main-collection .featured-gallery .grid-3 .badge,
+  .main-collection .featured-gallery .grid-6 .badge {
     padding: 4px 2px;
     font-size: 7px;
   }
-  .main-collection .grid-1 .grid-item .badges, .main-collection .grid-4 .grid-item .badges {
+  .main-collection .grid-1 .grid-item .badges,
+  .main-collection .grid-4 .grid-item .badges {
     max-width: 100px;
   }
-  .main-collection .grid-1 .grid-item .badge, .main-collection .grid-4 .grid-item .badge {
+  .main-collection .grid-1 .grid-item .badge,
+  .main-collection .grid-4 .grid-item .badge {
     padding: 4px 2px;
   }
 }

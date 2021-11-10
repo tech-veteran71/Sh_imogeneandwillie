@@ -1,0 +1,23 @@
+.page-banner {
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+.page-banner .wrapper {
+  height: 100%;
+}
+.page-banner .wrapper .img-wrap {
+  width: 100%;
+}
+.page-banner .banner-img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .page-banner {
+    display: block;
+  }
+}
