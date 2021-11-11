@@ -2640,19 +2640,19 @@ customElements.define("ajax-cart", AjaxCart);
   // accordian script
     var accordianItem = document.querySelectorAll('.product-accodians .accordian-item');
     var accordianHeader = document.querySelectorAll('.product-accodians .accordian-header');
-    accordianHeader.forEach( item => {
-      item.addEventListener('click', toggleItem)
-    })
-    function toggleItem() {
-      if(this.parentNode.className.indexOf('active') === -1){
-        accordianItem.forEach(el => {
-          el.classList.remove('active');
-        })
-      }
-      if (this.parentNode.className.indexOf('active') === -1) {
+    if(accordianHeader) {
+      accordianHeader.forEach( item => {
+        item.addEventListener('click', toggleItem)
+      })
+      function toggleItem() {
+        if(this.parentNode.className.indexOf('active') === -1){
+          accordianItem.forEach(el => {
+            el.classList.remove('active');
+          });
           this.parentNode.classList.add('active');
-      }else {
-        this.parentNode.classList.remove('active');
+        } else {
+          this.parentNode.classList.remove('active');
+        }
       }
     }
 
@@ -2660,14 +2660,16 @@ customElements.define("ajax-cart", AjaxCart);
     const productMediaItem = document.querySelectorAll('.product-gallery .product-media-wrap');
     const productMediaPopUp = document.querySelector('.product-media-popup');
     const featuredMedia = document.querySelector('.product-media-popup .featured-image');
-    productMediaItem.forEach( item => {
-      item.addEventListener('click', productMediaPopup)
-    })
-    function productMediaPopup() {
-      const imgSrc = this.firstElementChild.getAttribute('src');
-      productMediaPopUp.style.opacity = 1;
-      productMediaPopUp.style.visibility = "visible";
-      featuredMedia.setAttribute('src', imgSrc);
+    if(productMediaItem) {
+      productMediaItem.forEach( item => {
+        item.addEventListener('click', productMediaPopup)
+      })
+      function productMediaPopup() {
+        const imgSrc = this.firstElementChild.getAttribute('src');
+        productMediaPopUp.style.opacity = 1;
+        productMediaPopUp.style.visibility = "visible";
+        featuredMedia.setAttribute('src', imgSrc);
+      }
     }
 
     // product thumbnail script
@@ -2699,7 +2701,7 @@ customElements.define("ajax-cart", AjaxCart);
       })
     }
 
-    // accordian script
+    //Faq Page accordian script
     var accordianItem = document.querySelectorAll('.faq-page .accordian-item');
     var accordianGroup = document.querySelector('.faq-page .accordians-group .accordian-item');
     var accordianHeader = document.querySelectorAll('.faq-page .accordian-header');
@@ -2707,7 +2709,7 @@ customElements.define("ajax-cart", AjaxCart);
     if(accordianGroup){
       accordianGroup.classList.add('active')
     }
-    if(accordianHeader & accordianItem) {
+    if(accordianHeader) {
       accordianHeader.forEach( item => {
         item.addEventListener('click', toggleItem)
       })
@@ -2734,6 +2736,15 @@ customElements.define("ajax-cart", AjaxCart);
         if(href === url) {
             item.classList.add('active')
         }
+      })
+    }
+
+    // clear the newsletter input on click
+    const clearIcon = document.querySelector('.custom-footer .skip-icon');
+    const inputField = document.getElementById('NewsletterForm--custom-footer');
+    if(clearIcon) {
+      clearIcon.addEventListener('click', function() {
+        inputField.value = ''
       })
     }
 })()
