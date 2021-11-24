@@ -1,0 +1,90 @@
+{{ 'promise-section.css' | asset_url | stylesheet_tag }}
+<div class="promise-section">
+  <div class="promise-container">
+    <div class="wrapper">
+      <div class="content-wrap">
+        <div class="alpha">
+          <div class="content">
+            {% if section.settings.pre_title != blank %}
+              <h3 class="pre-title">{{ section.settings.pre_title }}</h3>
+            {% endif %}
+             {% if section.settings.title != blank %}
+              <div class="title-wrap">
+                <h2 class="title">{{ section.settings.title }}</h2>
+              </div>
+             {% endif %}
+             {% if section.settings.text != blank %}
+              <div class="text-wrap">
+                <p class="text">{{ section.settings.text }}</p>
+              </div>
+             {% endif %}
+            {% if section.settings.btn_text != blank %}
+              <a href="{{ section.settings.btn_url }}" class="btn">
+                {{ section.settings.btn_text }}
+              </a>
+            {% endif %}
+          </div>
+        </div>
+        {% if section.settings.img != blank %}
+          <div class="beta">
+            <div class="image">
+              {% render 'responsive--image' with section.settings.img as image, max_width: 428, class: 'img' %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Promise Section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "pre_title",
+      "label": "Pre Title"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Promise Section"
+    }
+  ]
+}
+{% endschema %}

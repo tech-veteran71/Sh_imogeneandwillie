@@ -1,0 +1,68 @@
+{{ 'collection-list.css' | asset_url | stylesheet_tag }}
+<div class="collection-list">
+  <div class="index-container">
+    <div class="wrapper">
+      <div class="main-grid">
+        {% for block in section.blocks %}
+        <div class="collection-item">
+          {% if block.settings.img != blank %}
+          <div class="img-wrap">
+            {% render 'responsive--image' with block.settings.img as image, max_width: 683, class: 'img' %}
+          </div>
+        {% endif %}
+        {% if block.settings.btn_text != blank %}
+          <a href="{{ block.settings.btn_url }}" class="button">{{ block.settings.btn_text }}</a>
+        {% endif %}
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+{% schema %}
+{
+  "name": "Collection List",
+  "settings": [],
+  "blocks": [
+  {
+    "name": "Collection Item",
+    "type": "collection_item",
+    "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+    ]
+  }
+  ],
+  "presets": [
+  {
+    "name": "Collection List",
+    "category": "Collection List"
+  }
+  ]
+}
+{% endschema %}

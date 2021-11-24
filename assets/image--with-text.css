@@ -1,0 +1,92 @@
+.image-with-text {
+  padding: 2.75em 0;
+  font-size: 1.2vw
+}
+.image-with-text .image {
+  max-width: 73.5em;
+  margin: 0 auto;
+  margin-bottom: 2.5em;
+}
+.image-with-text .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.image-with-text .pre-title {
+  margin-top: 0;
+  font-size: 0.6em;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3em;
+}
+.image-with-text .title {
+  font-size: 1.4em;
+  margin-top: 0;
+  line-height: 1.5;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+  color: #222222;
+}
+.image-with-text .text {
+  font-size: 0.95em;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  color: #434343;
+}
+.image-with-text .content-wrap .link {
+  color: #0F359B;
+  font-size: 0.7em;
+  font-weight: 500;
+  line-height: 1.3;
+  display: block;
+}
+.image-with-text .content-wrap {
+  max-width: 21.5em;
+  margin: 0 auto;
+  text-align: center;
+}
+/* responsive start */
+@media screen and (min-width: 1400px) {
+  .image-with-text {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .image-with-text {
+    font-size: 1.4vw;
+  }
+}
+@media screen and (max-width: 990px) {
+  .image-with-text {
+    font-size: 1.6vw;
+  }
+}
+@media(max-width: 767px){
+  .image-with-text .image {
+    max-width: 380px;
+    margin-bottom: 30px;
+  }
+  .image-with-text .content-wrap {
+    max-width: 388px;
+  }
+  .image-with-text .text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+  .image-with-text {
+    padding: 70px 0;
+  }
+  .image-with-text .pre-title {
+    font-size: 12px;
+  }
+  .image-with-text .title {
+    font-size: 24px;
+  }
+  .image-with-text .content-wrap .link {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,165 @@
+{{ 'product-slider-section.css' | asset_url | stylesheet_tag }}
+<div class="product-slider-section">
+  <div class="index-container">
+    <div class="wrapper">
+      <div class="alpha">
+        <div class="slider">
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <div class="content swiper-slide">
+                {% if block.settings.title != blank %}
+                  <h2 class="title">{{ block.settings.title }}</h2>
+                {% endif %}
+                {% if block.settings.text != blank %}
+                  <p class="text">{{ block.settings.text }}</p>
+                {% endif %}
+                {% if block.settings.btn_text != blank %}
+                  <a href="{{ block.settings.btn_url }}" class="button-wrap">
+                    <span class="btn">{{ block.settings.btn_text }}</span>
+                    <span class="arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19">
+                        <text id="_" data-name=" >" transform="translate(8 15)" fill="#0f359b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.1em"><tspan x="-7.58" y="0" xml:space="preserve"> &gt;</tspan></text>
+                      </svg>
+                    </span>
+                  </a>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-counter"></div>
+        </div>
+      </div>
+       <div class="content-wrap">
+      <a class="beta" href="{{ section.settings.link_url }}">
+        {% if  section.settings.img != blank %}
+          <div class="image">
+            {% render 'responsive--image' with section.settings.img as image, max_width: 909, class: 'img' %}
+          </div>
+        {% endif %}
+        <div class="info-wrap">
+           {% if section.settings.product_title != blank %}
+          <h2 class="product-title">{{ section.settings.product_title }}</h2>
+           {% endif %}
+           {% if  section.settings.product_description != blank %}
+          <h4 class="product-description">{{ section.settings.product_description }}</h4>
+           {% endif %}
+          {% if section.settings.price != blank %}
+            <p class="price">{{ section.settings.price }}</p>
+          {% endif %}
+        </div>
+      </a>
+       </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function updSwiperNumericPagination() {
+    this.el.querySelector(".swiper-counter").innerHTML = '<span class="count">' + (this.realIndex + 1) + '</span>/<span class="total">' + this.el.slidesQuantity + "</span>";
+  }
+  const slider = document.querySelectorAll('.product-slider-section .slider')
+
+  slider.forEach( el => {
+    // Getting slides quantity before slider clones them
+    el.slidesQuantity = el.querySelectorAll(".swiper-slide").length;
+
+    // Swiper initialization
+    new Swiper(el, {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: el.querySelector(".swiper-button-next"),
+        prevEl: el.querySelector(".swiper-button-prev")
+      },
+      on: {
+        init: updSwiperNumericPagination,
+        slideChange: updSwiperNumericPagination
+      }
+    });
+  })
+</script>
+
+{% schema %}
+{
+  "name": "Product Slider Section",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "product_title",
+      "label": "Product Title"
+    },
+    {
+      "type": "text",
+      "id": "product_description",
+      "label": "Product Description"
+    },
+    {
+      "type": "text",
+      "id": "price",
+      "label": "Price"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    }
+  ],
+  "blocks":[
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings":[
+         {
+           "type": "header",
+           "content": "Slider Content",
+           "info": "-------"
+         },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button Url"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name": "Product Slider Section"
+    }
+  ]
+}
+
+{% endschema %}

@@ -1,0 +1,76 @@
+.rich-text-section { 
+  padding: 80px 0 100px;
+  background-color: #F7F6F3;
+}
+.rich-text-section .title {
+  font-size: 20px;
+  margin-top: 0;
+  text-transform: lowercase;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color: #222222;
+}
+.rich-text-section .text-wrap {
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
+.rich-text-section .text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: #434343;
+}
+.rich-text-section .wrapper .btn {
+  font-size: 14px;
+  color: #0F359B;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 1px;
+}
+.rich-text-section .wrapper {
+  max-width: 466px;
+  margin: 0 auto;
+  text-align: center;
+}
+.rich-text-section .button-wrap {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rich-text-section .button-wrap .arrow {
+  height: 22px;
+  max-width: 20px;
+  flex: 20px;
+}
+.rich-text-section .button-wrap .arrow svg {
+  height: 100%;
+  width: 100%;
+}
+
+/* responsive */
+@media(max-width: 767px ){
+  .rich-text-section .text-wrap {
+    max-width: 235px;
+    padding: 0;
+  }
+  .rich-text-section .title {
+    font-size: 15px
+  }
+  .rich-text-section .wrapper {
+    max-width: unset;
+    text-align: left;
+  }
+  .rich-text-section {
+    padding: 20px 0 50px;
+  }
+  .rich-text-section .text {
+    font-size: 12px;
+  }
+  .rich-text-section .button-wrap {
+    justify-content: left;
+  }
+}

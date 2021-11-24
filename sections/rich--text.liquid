@@ -1,0 +1,62 @@
+{{ 'rich-text-section.css' | asset_url | stylesheet_tag }}
+<div class="rich-text-section">
+  <div class="index-container">
+    <div class="wrapper">
+      {% if section.settings.title != blank %}
+        <h4 class="title">{{ section.settings.title }}</h4>
+      {% endif %}
+      {% if  section.settings.text != blank %}
+        <div class="text-wrap">
+          <p class="text">{{ section.settings.text }}</p>
+        </div>
+      {% endif %}
+      {% if section.settings.btn_text != blank %}
+        <a  href="{{ section.settings.btn_url}}"  class="button-wrap">
+          <span class="btn">{{ section.settings.btn_text }}</span>
+          <span class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19">
+              <text id="_" data-name=" &gt;" transform="translate(8 15)" fill="#0f359b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.1em"><tspan x="-7.58" y="0" xml:space="preserve"> &gt;</tspan></text>
+            </svg>
+          </span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Rich Text Section",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+  ],
+  "presets":[
+    {
+      "name": "Rich Text Section"
+    }
+  ]
+}
+{% endschema %}

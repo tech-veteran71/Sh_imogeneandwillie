@@ -1,0 +1,53 @@
+.collection-list {
+  font-size: 1.2vw;
+  padding-bottom: 9.25em;
+  background-color: #f7f6f3;
+}
+.collection-list .wrapper {
+  padding: 0 8em;
+}
+.collection-list .collection-item {
+  position: relative;
+}
+.collection-list .button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.7em;
+  text-transform: uppercase;
+  max-width: 16.15em;
+  width: 100%;
+  height: 3.95em;
+  letter-spacing: 0.2em;
+  padding: 0 0.5em;
+  min-width: unset;
+  min-height: unset;
+}
+.collection-list .collection-item .img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 100%;
+}
+.collection-list .main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3.5em;
+}
+
+@media screen and (min-width: 1400px) {
+  .collection-list {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .collection-list {
+    font-size: 1.4vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .collection-list {
+    display: none;
+  }
+}

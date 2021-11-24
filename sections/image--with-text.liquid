@@ -1,0 +1,79 @@
+{{ 'image--with-text.css' | asset_url | stylesheet_tag }}
+
+<div class="image-with-text">
+  <div class="index-container">
+    <div class="wrapper">
+      {% if section.settings.img != blank %}
+        <div class="image">
+          <img src="{{ section.settings.img | img_url: 'master'}}" alt="">
+        </div>
+      {% endif %}
+      <div class="content-wrap">
+         {% if section.settings.pre_title != blank %}
+          <h3 class="pre-title">{{ section.settings.pre_title }}</h3>
+         {% endif %}
+        {% if section.settings.title != blank %}
+          <h2 class="title">{{ section.settings.title }}</h2>
+        {% endif %}
+        {% if section.settings.text != blank %}
+          <p class="text">{{ section.settings.text }}</p>
+        {% endif %}
+        {% if section.settings.link_text != blank %}
+          <a href="{{ section.settings.link_url }}" class="link">{{ section.settings.link_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Image With Text Section",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "pre_title",
+      "label": "Pre Title"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image With Text Section"
+    }
+  ]
+}
+{% endschema %}
