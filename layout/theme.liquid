@@ -32,6 +32,11 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer="defer"></script>
     <script src="https://unpkg.com/vue@3.2.6" defer="defer"></script>
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
+    
+    {% if template == 'index' %}
+      <script src="{{ 'slide-section.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'product-slider-section.js' | asset_url }}" defer="defer"></script>
+    {% endif %}
     {{ content_for_header }}
 
     {%- liquid
