@@ -1,0 +1,29 @@
+.banner-section {
+  height: 100vh;
+  min-height: 600px;
+}
+.banner-section .wrapper {
+  height: 100%;
+}
+.banner-section .banner-img {
+  height: 100%;
+}
+.banner-section .banner-img img {
+  width: 100%;
+  height: 100%;
+  object-position: top;
+  display: block;
+  object-fit: cover;
+}
+.banner-section .mobile-banner {
+  display: none;
+}
+/* responsive */
+@media(max-width: 767px ){
+  .banner-section .desktop-banner {
+    display: none;
+  }
+  .banner-section .mobile-banner {
+    display: block;
+  }
+}

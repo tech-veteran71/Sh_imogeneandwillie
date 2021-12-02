@@ -1,0 +1,84 @@
+{{ 'product-gallery.css' | asset_url | stylesheet_tag }}
+
+<div class="product-gallery">
+  <div class="index-container">
+    <div class="wrapper">
+      {% if section.settings.title != blank %}
+        <div class="header-wrap">
+          <h3 class="title">{{ section.settings.title }}</h3>
+          {% if section.settings.text != blank %}
+            <p class="text">{{ section.settings.text }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+      <div class="gallery">
+        {% for product in collections[section.settings.choose_collection].products %}
+          <div class="product-item">
+              <a href="{{ product.url }}" class="product-link">
+                <div class="img-wrap">
+                  {% render 'responsive--image' with product.featured_media as image, max_width: 786, class: 'img' %}
+                </div>
+                <h3 class="product-title">{{ product.title }}</h3>
+              </a>
+          </div>
+        {% endfor %}
+      </div>
+      {% if section.settings.btn_text != blank %}
+        <a href="{{ section.settings.btn_url }}" class="button">{{ section.settings.btn_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Product Gallery",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Collection",
+      "info": "-------"
+    },
+    {
+      "type": "collection",
+      "id": "choose_collection",
+      "label": "Choose Collection"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "collection"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "Shop All"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Gallery",
+      "category": "Product Gallery"
+    }
+  ]
+}
+{% endschema %}
+

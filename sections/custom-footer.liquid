@@ -54,8 +54,8 @@
             {% form 'customer', class: 'newsletter-form' %}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form">
-                <span class="skip-icon">
-                  {% render 'skip-icon' %}
+                <span class="icon-skip">
+                  {% render 'icon-skip' %}
                 </span>
                 <div class="field">
                   <input
@@ -79,7 +79,7 @@
                     required
                   >
                   <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                    {% render 'submit-icon' %}
+                    {% render 'icon-submit' %}
                   </button>
                 </div>
                 {%- if form.errors -%}

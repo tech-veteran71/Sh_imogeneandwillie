@@ -1,0 +1,101 @@
+{{ 'featured-product-section.css' | asset_url | stylesheet_tag }}
+<div class="featured-section">
+  <div class="index-container">
+    <div class="wrapper">
+        <a class="link" href="{{ section.settings.link_url }}">
+          {% if section.settings.img != blank %}
+            <div class="img-wrap">
+              {% render 'responsive--image' with section.settings.img as image, max_width: 815, class: 'img' %}
+            </div>
+          {% endif %}
+          <div class="text-wrap">
+            {% if section.settings.title != blank %}
+              <h2 class="title">{{ section.settings.title }}</h2>
+            {% endif %}
+            {% if section.settings.link_text != blank %}
+              <div class="wrap">
+                <span class="link-text">{{ section.settings.link_text }}</span>
+                <span class="arrow">
+                  {% render 'icon-right-arrow' %}
+                </span>
+              </div>
+            {% endif %}
+          </div>
+        </a>
+       <div class="grid-container">
+      {% for block in section.blocks %}
+        {% if block.settings.img != blank %}
+          <a class="grid-item" href="{{ block.settings.link }}">
+            {% render 'responsive--image' with block.settings.img as image, max_width: 253, class: 'img' %}
+          </a>
+        {% endif %}
+      {% endfor %}
+     </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Featured Product",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text"
+    }
+  ],
+  "blocks":[
+    {
+      "type": "product_image",
+      "name": "Product Image",
+      "settings":[
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "-------"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Product Image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name": "Featured Product"
+    }
+  ]
+}
+{% endschema %}

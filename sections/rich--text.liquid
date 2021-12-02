@@ -1,0 +1,60 @@
+{{ 'rich-text-section.css' | asset_url | stylesheet_tag }}
+<div class="rich-text-section">
+  <div class="index-container">
+    <div class="wrapper">
+      {% if section.settings.title != blank %}
+        <h4 class="title">{{ section.settings.title }}</h4>
+      {% endif %}
+      {% if  section.settings.text != blank %}
+        <div class="text-wrap">
+          <p class="text">{{ section.settings.text }}</p>
+        </div>
+      {% endif %}
+      {% if section.settings.btn_text != blank %}
+        <a  href="{{ section.settings.btn_url}}"  class="button-wrap">
+          <span class="btn">{{ section.settings.btn_text }}</span>
+          <span class="arrow">
+            {% render 'icon-right-arrow' %}
+          </span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Rich Text Section",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+  ],
+  "presets":[
+    {
+      "name": "Rich Text Section"
+    }
+  ]
+}
+{% endschema %}

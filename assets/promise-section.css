@@ -1,0 +1,148 @@
+.promise-section {
+  background-color: #F7F6F3;
+}
+.promise-section .promise-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.promise-section .content-wrap {
+  display: grid;
+  grid-template-columns: minmax(auto,50%) minmax(auto,50%);
+  justify-content: space-between;
+  align-items: center;
+  grid-column-gap: 50px;
+}
+.promise-section .content {
+  max-width: 516px;
+  margin: auto;
+  text-align: center;
+}
+.promise-section .alpha .title {
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  color: #222222;
+}
+.promise-section .alpha .title-wrap {
+  max-width: 281px;
+  margin: 0 auto 5px;
+}
+.promise-section .text-wrap {
+  margin-bottom: 10px;
+}
+.promise-section .alpha .text {
+  font-size: 20px;
+  margin-top: 0;
+  line-height: 1.5;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.promise-section .btn {
+  text-decoration: none;
+  font-size: 14px;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: 500;
+  max-width: 226px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  border: 1px solid #222222;
+  justify-content: center;
+}
+.promise-section .pre-title {
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+}
+.promise-section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* responsive start */
+@media(max-width: 1560px ){
+  .promise-section .content {
+    max-width: 467px;
+  }
+}
+@media(max-width: 1366px ){
+  .promise-section .content {
+    max-width: 458px;
+  }
+}
+@media(max-width: 1279px ){
+  .promise-section .alpha .text {
+    font-size: 16px;
+  }
+  .promise-section .content {
+    max-width: 376px;
+  }
+  .promise-section .btn {
+    font-size: 12px;
+    max-width: 200px;
+    height: 40px;
+  }
+}
+@media(max-width: 990px ){
+  .promise-section .alpha .title {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+  .promise-section .content {
+    max-width: 329px;
+  }
+  .promise-section .text-wrap {
+    padding: 0 16px;
+  }
+  .promise-section .alpha .text {
+    font-size: 12px;
+  }
+  .promise-section .btn {
+    font-size: 10px;
+    max-width: 145px;
+    height: 28px;
+  }
+}
+@media(max-width: 767px) {
+  .promise-section {
+    padding: 50px 0;
+  }
+  .promise-section .content-wrap {
+    grid-template-columns: 100%;
+  }
+  .promise-section .alpha {
+    order: 2;
+  }
+  .promise-section .beta {
+    order: 1;
+    margin-bottom: 35px;
+  }
+  .promise-section .text-wrap {
+    display: none;
+  }
+  .promise-section .pre-title {
+    font-size: 12px;
+  }
+  .promise-section .alpha .title {
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .promise-section .btn {
+    font-size: 14px;
+    max-width: 226px;
+    height: 52px;
+  }
+}

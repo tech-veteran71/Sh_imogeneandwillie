@@ -1,0 +1,116 @@
+.product-gallery {
+  font-size: 1.2vw;
+  padding-bottom: 9.5em;
+  background-color: #F7F6F3;
+}
+.product-gallery .wrapper {
+  padding: 0 3.5em;
+}
+.product-gallery .header-wrap {
+  text-align: center;
+  max-width: 30em;
+  margin: 0 auto 2em;
+}
+.product-gallery .title {
+  font-size: 1.4em;
+  letter-spacing: 3px;
+  color: #222;
+  margin-bottom: 0.3em;
+  margin-top: 0;
+}
+.product-gallery .text {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: #434343;
+  line-height: 1.4;
+  margin: 0;
+}
+.product-gallery .gallery {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 2.75em;
+  grid-column-gap: 1em;
+  margin-bottom: 6.5em;
+}
+.product-gallery .gallery .img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.product-gallery .product-link {
+  display: block;
+  text-decoration: none;
+}
+.product-gallery .product-title {
+  font-size: 0.75em;
+  color: #222;
+  letter-spacing: 0.15em;
+  padding: 0 0.6em;
+  margin-bottom: 0;
+  margin-top: 1.2em;
+}
+.product-gallery .button {
+  max-width: 27em;
+  height: 3.95em;
+  font-size: 0.7em;
+  color: #222222;
+  border: 1px solid #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-color: transparent;
+  color: #222222;
+  margin: 0 auto;
+  box-shadow: unset;
+}
+.product-gallery .button:focus,  .product-gallery .button:hover {
+  box-shadow: unset;
+}
+@media screen and (min-width: 1400px) {
+  .product-gallery {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .product-gallery {
+    font-size: 1.4vw;
+  }
+  .product-gallery .header-wrap {
+    max-width: 33em;
+  }
+}
+@media screen and (max-width: 990px) {
+  .product-gallery {
+    font-size: 1.7vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .product-gallery .gallery {
+    grid-row-gap: 30px;
+    grid-column-gap: 18px;
+    margin-bottom: 35px;
+  }
+  .product-gallery .product-title {
+    font-size: 10px;
+    line-height: 1.4;
+  }
+  .product-gallery .button {
+    max-width: 100%;
+    font-size: 12px;
+    height: 48px;
+    letter-spacing: 3px;
+  }
+  .product-gallery .text {
+    font-size: 13px;
+  }
+  .product-gallery .title {
+    font-size: 24px;
+  }
+  .product-gallery .header-wrap {
+    max-width: 270px;
+    margin-bottom: 28px;
+  }
+}
