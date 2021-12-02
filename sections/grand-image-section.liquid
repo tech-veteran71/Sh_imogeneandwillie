@@ -1,0 +1,36 @@
+{{ 'grand-image-section.css' | asset_url | stylesheet_tag }}
+<div class="grand-image-section">
+  <div class="index-container">
+    <div class="wrapper">
+    {% if section.settings.img != blank %}
+      <div class="image-wrap">
+      {% render 'responsive--image' with section.settings.img as image, max_width: 1144, class: 'img' %}
+      </div>
+    {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Grand Image Section",
+  "settings": [
+    {
+    "type": "header",
+    "content": "Image",
+    "info": "-------"
+    },
+    {
+    "type": "image_picker",
+    "id": "img",
+    "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name":" Grand Image Section",
+      "category":" Grand Image Section"
+    }
+  ]
+}
+{% endschema %}

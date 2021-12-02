@@ -2740,7 +2740,7 @@ customElements.define("ajax-cart", AjaxCart);
     }
 
     // clear the newsletter input on click
-    const clearIcon = document.querySelector('.custom-footer .skip-icon');
+    const clearIcon = document.querySelector('.custom-footer .icon-skip');
     const inputField = document.getElementById('NewsletterForm--custom-footer');
     if(clearIcon) {
       clearIcon.addEventListener('click', function() {

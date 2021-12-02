@@ -1,0 +1,136 @@
+{{ 'product-slider-section.css' | asset_url | stylesheet_tag }}
+<div class="product-slider-section">
+  <div class="index-container">
+    <div class="wrapper">
+      <div class="alpha">
+        <div class="slider">
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <div class="content swiper-slide">
+                {% if block.settings.title != blank %}
+                  <h2 class="title">{{ block.settings.title }}</h2>
+                {% endif %}
+                {% if block.settings.text != blank %}
+                  <p class="text">{{ block.settings.text }}</p>
+                {% endif %}
+                {% if block.settings.btn_text != blank %}
+                  <a href="{{ block.settings.btn_url }}" class="button-wrap">
+                    <span class="btn">{{ block.settings.btn_text }}</span>
+                    <span class="arrow">
+                      {% render 'icon-right-arrow' %}
+                    </span>
+                  </a>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-counter"></div>
+        </div>
+      </div>
+       <div class="content-wrap">
+      <a class="beta" href="{{ section.settings.link_url }}">
+        {% if  section.settings.img != blank %}
+          <div class="image">
+            {% render 'responsive--image' with section.settings.img as image, max_width: 909, class: 'img' %}
+          </div>
+        {% endif %}
+        <div class="info-wrap">
+           {% if section.settings.product_title != blank %}
+          <h2 class="product-title">{{ section.settings.product_title }}</h2>
+           {% endif %}
+           {% if  section.settings.product_description != blank %}
+          <h4 class="product-description">{{ section.settings.product_description }}</h4>
+           {% endif %}
+          {% if section.settings.price != blank %}
+            <p class="price">{{ section.settings.price }}</p>
+          {% endif %}
+        </div>
+      </a>
+       </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Product Slider Section",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "product_title",
+      "label": "Product Title"
+    },
+    {
+      "type": "text",
+      "id": "product_description",
+      "label": "Product Description"
+    },
+    {
+      "type": "text",
+      "id": "price",
+      "label": "Price"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    }
+  ],
+  "blocks":[
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings":[
+         {
+           "type": "header",
+           "content": "Slider Content",
+           "info": "-------"
+         },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button Url"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name": "Product Slider Section"
+    }
+  ]
+}
+
+{% endschema %}
