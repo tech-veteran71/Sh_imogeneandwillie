@@ -114,7 +114,7 @@
   width: 100%;
   height: 100%;
 }
-.custom-footer .skip-icon {
+.custom-footer .icon-skip {
   max-width: 12px;
   flex: 12px;
   height: 12px;
@@ -242,7 +242,7 @@
     max-width: 240px;
     flex: 240px
   }
-  .custom-footer .skip-icon {
+  .custom-footer .icon-skip {
     max-width: 9px;
     flex: 9px;
     height: 9px;
@@ -315,7 +315,7 @@
     padding: 0;
     margin-top: 25px;
   }
-  .custom-footer .skip-icon {
+  .custom-footer .icon-skip {
     max-width: 12px;
     flex: 12px;
     height: 12px;
