@@ -2740,11 +2740,25 @@ customElements.define("ajax-cart", AjaxCart);
     }
 
     // clear the newsletter input on click
-    const clearIcon = document.querySelector('.custom-footer .icon-skip');
+    const clearIcon = document.querySelector('.custom-footer .skip-icon');
     const inputField = document.getElementById('NewsletterForm--custom-footer');
     if(clearIcon) {
       clearIcon.addEventListener('click', function() {
         inputField.value = ''
       })
     }
+
+     // highlight the account ancillary link
+     const linkItem = document.querySelectorAll('.account-sidebar .ancillary-link');
+     if(linkItem) {
+       linkItem.forEach( item => {
+         const href = item.getAttribute('href').split('/');
+         const path = href.at(-1);
+         const url = window.location.pathname.split('/');
+         const mainPath = url.at(1);
+         if(path === mainPath) {
+             item.classList.add('active')
+         }
+       })
+     }
 })()

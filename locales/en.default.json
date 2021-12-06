@@ -280,7 +280,9 @@
       "title": "Account",
       "details": "Account details",
       "view_addresses": "View addresses",
-      "return": "Return to Account details"
+      "return": "Return to Account details",
+      "order_details": "order details",
+      "back": "back"
     },
     "account_fallback": "Account",
     "activate_account": {
@@ -344,21 +346,30 @@
       "sku": "SKU",
       "price": "Price",
       "quantity": "Quantity",
+      "order_status": "order status",
+      "delivered": "delivered on",
+      "order_info": "order information",
+      "order_date": "order date:",
+      "order_number": "order number:",
+      "quantity_label": "qty:",
+      "items": "items",
+      "sub_total": "subtotal",
+      "taxes": "taxes",
       "total": "Total",
       "fulfilled_at_html": "Fulfilled {{ date }}",
       "track_shipment": "Track shipment",
       "tracking_url": "Tracking link",
       "tracking_company": "Carrier",
-      "tracking_number": "Tracking number",
+      "tracking_number": "Tracking number:",
       "subtotal": "Subtotal"
     },
     "orders": {
-      "title": "Order history",
-      "order_number": "Order",
+      "title": "recent orders",
+      "order_number": "Order #",
       "order_number_link": "Order number {{ number }}",
       "date": "Date",
       "payment_status": "Payment status",
-      "fulfillment_status": "Fulfillment status",
+      "fulfillment_status": "status",
       "total": "Total",
       "none": "You haven't placed any orders yet."
     },
@@ -381,6 +392,9 @@
       "password": "Password",
       "password_confirm": "Confirm password",
       "submit": "Reset password"
+    },
+    "pdf": {
+      "download_pdf": "download pdf"
     }
   },
   "gift_cards": {

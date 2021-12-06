@@ -1,0 +1,24 @@
+.account-main .mob-banner {
+  display: none;
+  height: 100vh;
+}
+.account-main .banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.account-main .wrapper {
+  height: 100%;
+}
+.account-main .img-wrap {
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .account-main .mob-banner {
+    display: block;
+    max-width: 100%;
+    flex: 100%;
+  }
+}

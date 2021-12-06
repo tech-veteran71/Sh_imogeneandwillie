@@ -32,7 +32,7 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer="defer"></script>
     <script src="https://unpkg.com/vue@3.2.6" defer="defer"></script>
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
-    
+
     {% if template == 'index' %}
       <script src="{{ 'slide-section.js' | asset_url }}" defer="defer"></script>
       <script src="{{ 'product-slider-section.js' | asset_url }}" defer="defer"></script>
@@ -152,7 +152,7 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   </head>
 
-  <body class="gradient drawer-background template-{{ request.page_type }}">
+  <body class="gradient drawer-background template-{{ request.page_type }} {% if request.page_type == 'customers/login' or request.page_type == 'customers/register' %} template-customer {% endif %}">
     {% render 'ajaxcart' %}
 
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">

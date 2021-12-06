@@ -1,0 +1,29 @@
+{{ 'mob-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="mob-banner">
+  <div class="container">
+    <div class="wrapper">
+      <div class="img-wrap">
+        {% render 'responsive--image' with section.settings.img as image, max_width: 480, class: 'banner-img' %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Mobile Hero Banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Banner Image"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,71 @@
+{{ 'account-sidebar.css' | asset_url | stylesheet_tag }}
+
+<div class="sidebar-inner">
+  {% if section.settings.title != blank %}
+    <h2 class="sidebar-title">{{ section.settings.title }}</h2>
+  {% endif %}
+  <div class="main-sidebar">
+    <div class="customer-info">
+      <h2 class="customer-name">{{ customer.name }}</h2>
+      <span class="customer-email">{{ customer.email }}</span>
+    </div>
+    <div class="ancillary">
+      <ul class="ancillary-list">
+        {% for block in section.blocks %}
+          {% if block.settings.link_text != blank %}
+            <li class="ancillary-item">
+              <a href="{{ block.settings.link_url }}" class="ancillary-link">{{ block.settings.link_text }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <a href="{{ routes.account_logout_url }}" class="logout">
+    {{ 'customer.log_out' | t }}
+  </a>
+</div>
+
+{% schema %}
+{
+  "name": "Account SideBar",
+  "class": "account-sidebar",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "my account"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Link",
+      "type": "link",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

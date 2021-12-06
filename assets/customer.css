@@ -12,7 +12,7 @@
 }
 
 .customer form {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .customer button {
@@ -21,9 +21,15 @@
 
 .customer ul {
   line-height: 1.6;
-  padding-left: 4.4rem;
+  padding-left: 0;
   text-align: left;
   margin-bottom: 4rem;
+}
+.customer ul li {
+  list-style: none;
+  line-height: 1;
+  color: #ea1818;
+  font-size: 16px;
 }
 
 .customer ul a {
@@ -36,12 +42,12 @@
 }
 
 .customer h2.form__message {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 @media only screen and (min-width: 750px) {
   .customer h2.form__message {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -57,7 +63,6 @@
 .customer table {
   table-layout: auto;
   border-collapse: collapse;
-  border-bottom: 0.01rem solid rgba(var(--color-foreground), 0.08);
   box-shadow: none;
   width: 100%;
   font-size: 1.6rem;
@@ -111,10 +116,6 @@
   text-transform: uppercase;
 }
 
-.customer tbody td:first-of-type {
-  padding-top: 4rem;
-}
-
 @media screen and (min-width: 750px) {
   .customer th,
   .customer td:first-of-type {
@@ -136,36 +137,6 @@
 
   .customer tbody td {
     vertical-align: top;
-  }
-
-  .customer tbody td:first-of-type {
-    padding-top: 2.4rem;
-  }
-}
-
-.customer tbody td:last-of-type {
-  padding-bottom: 4rem;
-}
-
-@media screen and (min-width: 750px) {
-  .customer tbody td:last-of-type {
-    padding-bottom: 0;
-  }
-}
-
-.customer tbody tr {
-  border-top: 0.01rem solid rgba(var(--color-foreground), 0.08);
-}
-
-@media screen and (min-width: 750px) {
-  .customer tbody tr:first-of-type {
-    border-top: none;
-  }
-}
-
-@media screen and (forced-colors: active) {
-  .customer tbody tr {
-    border-top: 0.1rem solid transparent;
   }
 }
 
@@ -221,7 +192,7 @@
 }
 
 /* mobile table overrides */
-@media screen and (max-width: 749px) {
+/* @media screen and (max-width: 749px) {
   .customer thead,
   .customer th,
   .customer tfoot td:first-of-type {
@@ -254,7 +225,7 @@
     justify-content: flex-start;
     width: 100%;
   }
-}
+} */
 
 /* Pagination */
 .customer .pagination {
@@ -416,7 +387,7 @@
 @media screen and (min-width: 990px) {
   :is(.account, .order) > div:nth-of-type(2) {
     display: flex;
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 }
 
@@ -432,9 +403,9 @@
     display: flex;
   }
 
-  .order > div:nth-of-type(2) > div:last-of-type div {
+  /* .order > div:nth-of-type(2) > div:last-of-type div {
     padding-right: 3.2rem;
-  }
+  } */
 }
 
 :is(.account, .order) p {
@@ -468,19 +439,7 @@
   margin-right: 1rem;
 }
 
-@media screen and (min-width: 750px) {
-  .account thead th:last-child,
-  .account td:last-child {
-    text-align: right;
-  }
-
-  .account table td:first-of-type {
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-  }
-}
-
-.account table td:first-of-type a {
+/* .account table td:first-of-type a {
   padding: 1.1rem 1.5rem;
   text-decoration: none;
   box-shadow: 0 0 0 0.1rem rgba(var(--color-link), 0.2);
@@ -490,7 +449,7 @@
 
 .account table td:first-of-type a:hover {
   box-shadow: 0 0 0 0.2rem rgba(var(--color-link), 0.2);
-}
+} */
 
 .order td:first-of-type {
   align-items: initial;
