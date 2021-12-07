@@ -16,9 +16,11 @@
 }
 .template-customer .account-banner {
   min-height: 600px;
+  background-image: var(--banner-background-image);
 }
 .template-customer .registration-banner {
   min-height: 800px;
+  background-image: var(--hero-banner-image);
 }
 .template-customer #MainContent .customer {
   max-width: 650px;
@@ -65,10 +67,10 @@
   color: #A0A0A0;
 }
 .template-customer #MainContent .field .field-input:focus {
-  padding: 0 1.6em !important;
+  padding: 0 1.6em;
 }
 .template-customer #MainContent .field-input:not(:placeholder-shown) {
-  padding: 0 1.6em !important;
+  padding: 0 1.6em;
 }
 .template-customer #MainContent .field {
   margin: 0 0 30px;

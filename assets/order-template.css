@@ -1,5 +1,6 @@
 .order-details {
   flex: 1;
+  background-image: var(--bg-image);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +84,8 @@
   letter-spacing: 0.1em;
   max-width: 10.9em;
 }
-.order-details .label, .order-details .details {
+.order-details .label,
+.order-details .details {
   font-size: 0.75em;
   color: #222222;
   letter-spacing: 0.1em;
@@ -91,7 +93,8 @@
 .order-details .details {
   margin-left: 0.5em;
 }
-.order-details .size, .order-details .price, .order-details .product-quantity {
+.order-details .size, .order-details .price,
+.order-details .product-quantity {
   font-size: 0.7em;
   margin: 0;
   color: #222222;
@@ -241,7 +244,7 @@
     content: unset;
   }
   .order-details {
-    background-image: unset !important;
+    background-image: unset;
   }
   .order-details .alpha {
     max-width: 100%;
@@ -319,7 +322,9 @@
     max-width: 140px;
     margin: 0 0 8px;
   }
-  .order-details .price, .order-details .product-quantity, .order-details .size {
+  .order-details .price,
+  .order-details .product-quantity,
+  .order-details .size {
     font-size: 12px;
   }
   .order-details .quantity-wrap {
