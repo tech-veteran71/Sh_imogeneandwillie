@@ -2,8 +2,9 @@
 {{ 'account-template.css' | asset_url | stylesheet_tag }}
 
 <style>
-  :root {
+  .order-history {
     --background-image: url("{{ section.settings.bg_img | img_url: 'master' }}");
+    background-image: var(--background-image);
   }
 </style>
 

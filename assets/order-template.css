@@ -1,6 +1,5 @@
 .order-details {
   flex: 1;
-  background-image: var(--bg-image);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

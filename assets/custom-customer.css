@@ -16,11 +16,9 @@
 }
 .template-customer .account-banner {
   min-height: 600px;
-  background-image: var(--banner-background-image);
 }
 .template-customer .registration-banner {
   min-height: 800px;
-  background-image: var(--hero-banner-image);
 }
 .template-customer #MainContent .customer {
   max-width: 650px;

@@ -2,8 +2,9 @@
 {{ 'custom-customer.css' | asset_url | stylesheet_tag }}
 
 <style>
-  :root {
+  .account-banner {
     --banner-background-image: url("{{ section.settings.bg_img | img_url: 'master' }}");
+    background-image: var(--banner-background-image);
   }
 </style>
 

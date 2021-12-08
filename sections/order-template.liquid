@@ -2,8 +2,9 @@
 {{ 'order-template.css' | asset_url | stylesheet_tag }}
 
 <style>
-  :root {
+  .order-details {
     --bg-image : url("{{ section.settings.bg_img | img_url: 'master' }}");
+    background-image: var(--bg-image);
   } 
 </style>
 
