@@ -1,0 +1,175 @@
+{{ 'customer.css' | asset_url | stylesheet_tag }}
+{{ 'custom-customer.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .account-banner {
+    --banner-background-image: url("{{ section.settings.bg_img | img_url: 'master' }}");
+    background-image: var(--banner-background-image);
+  }
+</style>
+
+<div class="account-inner">
+  <div class="main-container">
+    <div class="customer login">
+      <h1 id="recover" tabindex="-1" class="main-title">
+        {{ 'customer.recover_password.title' | t }}
+      </h1>
+      <div>
+        <p class="text">
+          {{ 'customer.recover_password.subtext' | t }}
+        </p>
+        <div class="recover-password">
+          {%- form 'recover_customer_password' -%}
+            {% assign recover_success = form.posted_successfully? %}
+            <div class="field">
+              <input type="email"
+                value=""
+                name="email"
+                id="RecoverEmail"
+                autocorrect="off"
+                autocapitalize="off"
+                autocomplete="email"
+                {% if form.errors %}
+                  aria-invalid="true"
+                  aria-describedby="RecoverEmail-email-error"
+                  autofocus
+                {% endif %}
+                placeholder="{{ 'customer.login_page.email' | t }}"
+                class="field-input"
+              >
+              {%- comment -%}
+              <label for="RecoverEmail">
+                {{ 'customer.login_page.email' | t }}
+              </label>
+              {%- endcomment -%}
+            </div>
+            {%- if form.errors -%}
+              <small id="RecoverEmail-email-error" class="form__message">
+                {% include 'icon--error' %}
+                {{ form.errors.messages['form'] }}
+              </small>
+            {%- endif -%}
+
+            <button class="btn">
+              {{ 'customer.login_page.submit' | t }}
+            </button>
+
+            <a href="#login" class="link">
+              {{ 'customer.login_page.cancel' | t }}
+            </a>
+          {%- endform -%}
+        </div>
+      </div>
+
+      <h1 id="login" tabindex="-1" class="main-title">
+        {{ 'customer.login_page.title' | t }}
+      </h1>
+      <div>
+        {%- if recover_success == true -%}
+          <h3 class="form__message" tabindex="-1" autofocus>
+            {% include 'icon-success' %}
+            {{ 'customer.recover_password.success' | t }}
+          </h3>
+        {%- endif -%}
+        {%- form 'customer_login', novalidate: 'novalidate' -%}
+          {%- if form.errors -%}
+            <h2 class="form__message" tabindex="-1">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }} </span>
+              {% include 'icon-error' %}
+              {{ 'templates.contact.form.error_heading' | t }}
+            </h2>
+          {%- endif -%}
+
+          <div class="field">        
+            <input
+              type="email"
+              name="customer[email]"
+              id="CustomerEmail"
+              autocomplete="email"
+              autocorrect="off"
+              autocapitalize="off"
+              {% if form.errors contains 'form' %}
+                aria-invalid="true"
+              {% endif %}
+              placeholder="{{ 'customer.login_page.email' | t }}"
+              class="field-input"
+            >
+            {%- comment -%}
+             <label for="CustomerEmail">
+              {{ 'customer.login_page.email' | t }}
+            </label>
+            {%- endcomment -%}
+          </div>
+
+          {%- if form.password_needed -%}
+            <div class="field">          
+              <input
+                type="password"
+                value=""
+                name="customer[password]"
+                id="CustomerPassword"
+                autocomplete="current-password"
+                {% if form.errors contains 'form' %}
+                  aria-invalid="true"
+                {% endif %}
+                placeholder="{{ 'customer.login_page.password' | t }}"
+                class="field-input"
+              >
+              {%- comment -%}
+              <label for="CustomerPassword">
+                {{ 'customer.login_page.password' | t }}
+              </label>
+              {%- endcomment -%}
+            </div>
+            {% if form.errors %}
+              {{ form.errors | default_errors }}
+            {% endif %}
+            <button class="btn">
+              {{ 'customer.login_page.sign_in' | t }}
+            </button>
+            <div class="link-wrap">
+              <a href="#recover" class="link">
+                {{ 'customer.login_page.forgot_password' | t }}
+              </a>
+              <a href="{{ routes.account_register_url }}" class="link">
+                {{ 'customer.login_page.create_account' | t }}
+              </a>
+            </div>
+          {%- endif -%}
+        {%- endform -%}
+      </div>
+
+      {%- if shop.checkout.guest_login -%}
+        <div>
+          <hr>
+          <h2>{{ 'customer.login_page.guest_title' | t }}</h2>
+
+          {%- form 'guest_login' -%}
+            <button>
+              {{ 'customer.login_page.guest_continue' | t }}
+            </button>
+          {%- endform -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero Banner",
+  "class": "account-banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    }
+  ] 
+}
+{% endschema %}

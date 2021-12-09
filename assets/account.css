@@ -1,0 +1,32 @@
+.account-main {
+  font-size: 1.2vw;
+  height: 100%;
+}
+.account-main .container {
+  height: 100%;
+}
+.account-main .main-grid {
+  display: flex;
+  height: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  .account-main {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .account-main {
+    font-size: 1.6vw;
+  }
+}
+@media screen and (max-width: 990px) {
+  .account-main {
+    font-size: 1.8vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account-main .main-grid {
+    flex-wrap: wrap;
+  }
+}

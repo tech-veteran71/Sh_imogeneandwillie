@@ -1,0 +1,137 @@
+.account-sidebar {
+  max-width: 24.2%;
+  flex: 24.2%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #F7F6F3;
+}
+.account-sidebar .sidebar-title {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 1.1em 1.1em 1.1em 4.5em;
+  color: #434343;
+  background-color: #F0EFEC;
+}
+.account-sidebar .main-sidebar {
+  padding: 0 1.1em 0 4em;
+  margin-top: 2.5em;
+}
+.account-sidebar .customer-info {
+  margin-bottom: 3.5em;
+}
+.account-sidebar .customer-name {
+  margin-top: 0;
+  font-size: 1.4em;
+  color: #222222;
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+.account-sidebar .customer-email {
+  font-size: 0.8em;
+  color: #434343;
+  display: block;
+  line-height: 1;
+  letter-spacing: 0.1em;
+}
+.account-sidebar .ancillary-list {
+  margin: 0;
+  padding-left: 1em;
+  border-left: 1px solid #434343;
+}
+.account-sidebar .ancillary-item {
+  list-style: none;
+  line-height: 1;
+  margin-bottom: 0.4em;
+}
+.account-sidebar .ancillary-item:last-child {
+  margin-bottom: 0;
+}
+.account-sidebar .ancillary-link {
+  font-size: 0.75em;
+  letter-spacing: 0.15em;
+  color: #434343;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+.account-sidebar .ancillary-link.active {
+  font-weight: bolder;
+}
+.account-sidebar .logout {
+  font-size: 0.8em;
+  color: #0F359B;
+  position: absolute;
+  bottom: 10.4em;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 1400px) {
+  .account-sidebar .main-sidebar {
+    padding: 0 1.1em 0 3.2em;
+  }
+  .account-sidebar .sidebar-title {
+    padding: 1.1em 1.1em 1.1em 3.4em;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .account-sidebar .main-sidebar {
+    padding: 0 1.1em 0 3.6em;
+  }
+  .account-sidebar .sidebar-title {
+    padding: 1.1em 1.1em 1.1em 3.8em;
+  }
+}
+@media screen and (max-width: 990px) {
+  .account-sidebar .main-sidebar {
+    padding: 0 1.1em 0 1.6em;
+  }
+  .account-sidebar .sidebar-title {
+    padding: 1.1em 1.1em 1.1em 1.8em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account-sidebar {
+    position: unset;
+    height: auto;
+    max-width: 100%;
+    flex: 100%;
+  }
+  .account-sidebar .sidebar-title {
+    padding: 18px 35px;
+    font-size: 16px;
+  }
+  .account-sidebar .main-sidebar {
+    padding: 0 35px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  .account-sidebar .customer-name {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  .account-sidebar .customer-email {
+    font-size: 14px;
+  }
+  .account-sidebar .ancillary-list {
+    padding-left: 20px;
+  }
+  .account-sidebar .ancillary-item {
+    margin-bottom: 8px;
+  }
+  .account-sidebar .ancillary-link {
+    font-size: 14px;
+  }
+  .account-sidebar .customer-info {
+    margin-bottom: 40px;
+  }
+  .account-sidebar .logout {
+    display: none;
+  }
+}

@@ -1,0 +1,173 @@
+.template-customer .header-wrapper {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  border-bottom: 0;
+}
+.account-banner,
+.registration-banner {
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-size: 1.2vw;
+  position: relative;
+}
+.template-customer .account-banner {
+  min-height: 600px;
+}
+.template-customer .registration-banner {
+  min-height: 800px;
+}
+.template-customer #MainContent .customer {
+  max-width: 650px;
+  margin: 0;
+  padding: 3.5em 4.25em 3.7em;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.template-customer .main-title {
+  font-size: 28px;
+  color: #222222;
+  margin-top: 0;
+  margin-bottom: 22px;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+.template-customer .customer #customer_login {
+  margin-top: 0;
+}
+.template-customer .customer #CustomerEmail {
+  margin-top: 0;
+}
+.template-customer #MainContent .field-input {
+  height: 55px;
+  padding: 0 1.6em;
+  background-color: #F0EFEC;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #A0A0A0;
+  border: 0;
+  box-shadow: unset;
+}
+.template-customer #MainContent .field-input::placeholder {
+  opacity: 1;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #A0A0A0;
+}
+.template-customer #MainContent .field .field-input:focus {
+  padding: 0 1.6em;
+}
+.template-customer #MainContent .field-input:not(:placeholder-shown) {
+  padding: 0 1.6em;
+}
+.template-customer #MainContent .field {
+  margin: 0 0 30px;
+}
+.template-customer .btn {
+  width: 100%;
+  margin: 0;
+  height: 55px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #F7F6F3;
+  background-color: #222222;
+  box-shadow: unset;
+}
+.template-customer .btn:hover {
+  box-shadow: unset;
+}
+.template-customer .account-banner .link-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  padding: 0 8px;
+}
+.template-customer .account-banner .link {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #434343;
+  text-decoration: none;
+  margin: 0;
+  text-transform: lowercase;
+}
+.template-customer #recover {
+  margin: 0 0 5px;
+}
+.template-customer .account-banner .text {
+  font-size: 14px;
+  margin: 0;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: #434343;
+}
+.template-customer .recover-password .link {
+  text-align: center;
+  margin: 23px auto 0;
+  display: block;
+}
+
+@media screen and (min-width: 1400px) {
+  .template-customer {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .template-customer #MainContent .field {
+    margin: 0 0 20px;
+  }
+  .template-customer #MainContent .customer {
+    max-width: 530px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .template-customer #MainContent .customer {
+    max-width: 92%;
+    padding: 30px 10px 50px;
+  }
+  .template-customer .main-title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .template-customer .account-banner .link {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .template-customer .account-banner .link-wrap {
+    margin-top: 12px;
+  }
+  .template-customer .account-banner .text {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 10px;
+  }
+  .template-customer #MainContent .field-input {
+    height: 50px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .template-customer #MainContent .field-input::placeholder {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .template-customer .btn {
+    height: 50px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .template-customer .recover-password .link {
+    margin: 18px auto 0;
+  }
+}

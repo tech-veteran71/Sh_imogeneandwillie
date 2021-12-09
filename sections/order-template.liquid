@@ -1,0 +1,155 @@
+{{ 'customer.css' | asset_url | stylesheet_tag }}
+{{ 'order-template.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .order-details {
+    --bg-image : url("{{ section.settings.bg_img | img_url: 'master' }}");
+    background-image: var(--bg-image);
+  } 
+</style>
+
+<div class="order-details-inner">
+  <div class="container">
+    <div class="customer order">
+      <div>
+        <a href="{{ routes.account_url }}" class="back-link">
+          {% include 'icon-back' %}
+          <span class="link-text">{{ 'customer.account.back' | t }}</span>
+        </a>
+        <h1 class="main-title">{{ 'customer.account.order_details' | t }}</h1>
+      </div>
+      <div class="main">
+        <div class="alpha">
+          {% assign totalProductsOrdered = 0 %}
+          {%- for line_item in order.line_items -%}
+            {% assign totalProductsOrdered = totalProductsOrdered | plus: line_item.quantity %}
+            {% assign item = forloop.length %}
+
+            <div class="order-item">
+              <a class="product-link" href="{{ line_item.url }}">
+                <div class="image-wrap">
+                  {% render 'responsive--image' with line_item.image as image, max_width: 150, class: 'product-img' %}
+                </div>
+              </a>
+              <div class="product-details">
+                {% assign linkItemTitle = line_item.title | split: '-' %}
+                {% assign productName = linkItemTitle | first %}
+                {% assign productVariantTitle = linkItemTitle | last %}
+                <h3 class="product-name">{{ productName }}</h3>
+                {% assign trackingNumber = line_item.fulfillment.tracking_number %}
+                <span class="size">{{ productVariantTitle }}</span>
+                <div class="quantity-wrap">
+                  <span class="label">{{ 'customer.order.quantity_label' | t }}</span>
+                  <span class="product-quantity">{{ line_item.quantity }}</span>
+                </div>
+                <span class="price">{{ line_item.original_price | money }}</span>
+              </div>
+            </div>
+          {% endfor %}
+          {% if item < 10 %}
+            {% assign dg = 'zero,one,two,three,four,five,six,seven,eight,nine' | split: ',' %}
+            {% assign totalProductsOrdered = dg[totalProductsOrdered] %}
+          {% elsif item < 20 %}
+            {% assign tn = 'ten,eleven,twelve,thirteen, fourteen,fifteen,sixteen,seventeen,eighteen,nineteen' | split: ',' %}
+            {% assign totalProductsOrdered = tn[totalProductsOrdered] %}  
+          {% else %}
+            {% assign tw = 'twenty,twenty-one,twenty-two,twenty-three,twenty-four,twenty-five,twenty-six,twenty-seven,twenty-eight,twenty-nine,thirty' %}
+            {% assign totalProductsOrdered = tw[totalProductsOrdered] %}
+          {% endif %}
+          <div class="order-footer">
+            <div class="details-item">
+              <span class="key">{{ totalProductsOrdered }} {{ 'customer.order.items' | t }}</span>
+              <span class="value">{{ order.line_items_subtotal_price | money }}</span>
+            </div>
+            <div class="details-item">
+              <span class="key">{{ 'customer.order.shipping' | t }}</span>
+              {% if order.shipping_methods.price == blank %}
+                <span class="value">Free</span>
+              {% else %}
+                <span class="value">{{ order.shipping_methods.price }}</span>
+              {% endif %}
+            </div>
+            <div class="details-item">
+              <span class="key">{{ 'customer.order.sub_total' | t }}</span>
+              <span class="value">{{ order.subtotal_price | money }}</span>
+            </div>
+            <div class="details-item">
+              <span class="key">{{ 'customer.order.taxes' | t }}</span>
+              <span class="value">{{ order.tax_price | money }}</span>
+            </div>
+            <div class="details-item">
+              <span class="key highlight">{{ 'customer.order.total' | t }}</span>
+              <span class="value highlight">{{ order.total_price | money }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="beta">
+          <div class="order-status">
+            <h4 class="heading">{{ 'customer.order.order_status' | t }}</h4>
+            <span class="status text">{{ order.fulfillment_status_label }}</span>
+          </div>
+          <div class="order-info">
+            <h4 class="heading">{{ 'customer.order.order_info' | t }}</h4>
+            <div class="details-wrap">
+              <div class="info">
+                <span class="label">{{ 'customer.order.order_date' | t }}</span>
+                <span class="details">{{ order.created_at | time_tag: format: 'basic' }}</span>
+              </div>
+              <div class="info">
+                <span class="label">{{ 'customer.order.order_number' | t }}</span>
+                <span class="details">{{ order.name }}</span>
+              </div>
+              {% assign orderStatus = order.fulfillment_status_label | downcase %}
+              {% if orderStatus == 'fulfilled' %}
+                <div class="info">
+                  <span class="label">{{ 'customer.order.tracking_number' | t }}</span>
+                  <span class="details">{{ trackingNumber }}</span>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="shipping-address address">
+            <h2 class="heading">{{ 'customer.order.shipping_address' | t }}</h2>
+            <span class="customer-name">{{ customer.name }}</span>
+            <span class="address1 text">{{ order.shipping_address.address1 }}</span>
+            <div class="address2">
+              <span class="city text">{{ order.shipping_address.city }},</span>
+              <span class="zip-code text">tn {{ order.shipping_address.zip }}</span>
+            </div>
+            <span class="phone-number text">{{ order.shipping_address.phone }}</span>
+          </div>
+          <div class="billing-address address">
+            <h2 class="heading">{{ 'customer.order.billing_address' | t }}</h2>
+            <span class="customer-name">{{ customer.name }}</span>
+            <span class="address1 text">{{ order.billing_address.address1 }}</span>
+            <div class="address2">
+              <span class="city text">{{ order.billing_address.city }},</span>
+              <span class="zip-code text">tn {{ order.billing_address.zip }}</span>
+            </div>
+            <span class="phone-number text">{{ order.billing_address.phone }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Order Details",
+  "class": "order-details",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    }
+  ]
+}
+{% endschema %}

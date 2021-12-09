@@ -1,0 +1,388 @@
+.order-details {
+  flex: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.order-details .main-title {
+  font-size: 1.4em;
+  margin: 0;
+  text-transform: lowercase;
+  color: #222222;
+  letter-spacing: 0.15em;
+}
+.order-details .customer {
+  margin: 0;
+  padding: 0;
+}
+.order-details .order-details-inner {
+  width: 93%;
+  margin: 2.5em auto;
+  background-color: #F7F6F3;
+  padding: 2.5em 3em;
+}
+.order-details .main {
+  display: flex;
+  max-width: 43em;
+  margin: 0 auto;
+  position: relative;
+}
+.order-details .quantity-wrap .product-quantity {
+  padding-top: 1px;
+  margin-left: 0.4em;
+}
+.order-details .back-link {
+  display: none;
+}
+.order-details .main::before {
+  content: "";
+  width: 0.15em;
+  height: 5em;
+  background-color: #a0a0a0;
+  position: absolute;
+  left: -2.25em;
+  top: 0;
+}
+.order-details .alpha {
+  flex: 1;
+}
+.order-details .customer .main .beta {
+  max-width: 30%;
+  flex: 30%;
+  position: sticky;
+  top: 20px;
+  left: 0;
+  height: 100vh;
+  display: unset;
+}
+.order-details .order-item {
+  display: flex;
+  margin-bottom: 3em;
+}
+.order-details .alpha .order-item:last-child {
+  margin-bottom: 0;
+}
+.order-details .order-item .image-wrap {
+  height: 10.25em;
+  max-width: 7.5em;
+  flex: 7.5em;
+  margin-right: 1.25em;
+}
+.order-details .product-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.order-details .product-name {
+  font-size: 0.75em;
+  margin: 0 0 0.5em;
+  color: #222222;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  max-width: 10.9em;
+}
+.order-details .label,
+.order-details .details {
+  font-size: 0.75em;
+  color: #222222;
+  letter-spacing: 0.1em;
+}
+.order-details .details {
+  margin-left: 0.5em;
+}
+.order-details .size, .order-details .price,
+.order-details .product-quantity {
+  font-size: 0.7em;
+  margin: 0;
+  color: #222222;
+  letter-spacing: 0.1em;
+  display: block;
+  line-height: 1;
+}
+.order-details .size {
+  margin-bottom: 0.5em;
+}
+.order-details .quantity-wrap {
+  line-height: 1;
+  margin-bottom: 0.55em;
+  display: flex;
+  align-items: center;
+}
+.order-details .heading {
+  margin-top: 0;
+  font-size: 0.9em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #434343;
+  margin-bottom: 1.25em;
+}
+.order-details .order-status .heading {
+  margin-bottom: 0.5em;
+}
+.order-details .beta .text {
+  font-size: 0.65em;
+  color: #222222;
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+  display: block;
+  line-height: 1;
+}
+.order-details .order-status .status {
+  letter-spacing: 0.15em;
+}
+.order-details .deliver-info {
+  display: flex;
+  align-items: center;
+}
+.order-details .delivered-date {
+  margin-left: 0.25em;
+}
+.order-details .beta .info {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: 0.6em;
+}
+.order-details .beta .info:last-child {
+  margin-bottom: 0;
+}
+.order-details .order-info {
+  margin: 2.25em 0 2.5em;
+}
+.order-details .download-btn {
+  max-width: 100%;
+  height: 3.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #222222;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+  margin-top: 1.3em;
+}
+.order-details .customer-name {
+  font-size: 0.75em;
+  color: #222222;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  display: block;
+  line-height: 1;
+  margin-bottom: 1.25em;
+}
+.order-details .address2 {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: 0.6em;
+}
+.order-details .address .text {
+  margin-bottom: 0.6em;
+}
+.order-details .address .text:last-child {
+  margin-bottom: 0;
+}
+.order-details .address2 .text {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.order-details .zip-code {
+  margin-left: 0.5em;
+}
+.order-details .shipping-address {
+  margin-bottom: 2.25em;
+}
+.order-details .order-footer {
+  display: none;
+}
+
+@media screen and (min-width: 1600px) {
+  .order-details .main {
+    max-width: 54em;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .order-details .customer .main .beta {
+    max-width: 35%;
+    flex: 35%;
+  }
+  .order-details .main::before {
+    left: -1.5em;
+  }
+  .order-details .beta .text {
+    font-size: .75em;
+  }
+  .order-details .details, .order-details .label {
+    font-size: .8em;
+  }
+}
+@media screen and (max-width: 990px) {
+  .order-details .customer .main .beta {
+    max-width: 40%;
+    flex: 40%;
+  }
+  .order-details .main {
+    margin-top: 30px;
+  }
+  .order-details .order-details-inner {
+    padding: 2.5em 2em;
+  }
+  .order-details .main::before {
+    left: -1.2em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .order-details {
+    max-width: 100%;
+    flex: 100%;
+  }
+  .order-details .main::before {
+    content: unset;
+  }
+  .order-details {
+    background-image: unset;
+  }
+  .order-details .alpha {
+    max-width: 100%;
+    flex: 100%;
+    order: 2;
+    background-color: #F7F6F3;
+    padding: 70px 40px 40px;
+  }
+  .order-details .customer .main .beta {
+    max-width: 100%;
+    flex: 100%;
+    position: unset;
+    height: auto;
+    padding: 0 40px 60px;
+  }
+  .order-details .main {
+    flex-wrap: wrap;
+  }
+  .order-details .order-details-inner {
+    margin: 0;
+    padding: 50px 0 0;
+    width: 100%;
+    background-color: #F0EFEC;
+    position: relative;
+  }
+  .order-details .main-title {
+    font-size: 27px;
+    text-align: center;
+  }
+  .order-details .heading {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .order-details .beta .text {
+    font-size: 12px;
+  }
+  .order-details .order-status .heading {
+    margin-bottom: 6px;
+  }
+  .order-details .details, .order-details .label {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  .order-details .beta .info {
+    margin-bottom: 8px;
+  }
+  .order-details .download-btn {
+    max-width: 280px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .order-details .order-info {
+    margin: 40px 0 45px;
+  }
+  .order-details .customer-name {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  .order-details .address .text {
+    margin-bottom: 8px;
+  }
+  .order-details .address2 {
+    margin-bottom: 8px;
+  }
+  .order-details .shipping-address {
+    margin-bottom: 45px;
+  }
+  .order-details .main {
+    max-width: 100%;
+    margin-top: 45px;
+  }
+  .order-details .product-name {
+    font-size: 13px;
+    max-width: 140px;
+    margin: 0 0 8px;
+  }
+  .order-details .price,
+  .order-details .product-quantity,
+  .order-details .size {
+    font-size: 12px;
+  }
+  .order-details .quantity-wrap {
+    margin-bottom: 12px;
+  }
+  .order-details .order-item {
+    margin-bottom: 40px;
+  }
+  .order-details .details {
+    margin-left: 10px;
+  }
+  .order-details .address2 .text {
+    margin-bottom: 0;
+  }
+  .order-details .back-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+  }
+  .order-details .link-text {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #a0a0a0;
+  }
+  .order-details .back-link svg {
+    width: 20px;
+    height: 12px;
+  }
+  .order-details .size {
+    margin-bottom: 8px;
+  }
+  .order-details .order-footer {
+    display: block;
+    padding-top: 20px;
+  }
+  .order-details .details-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .order-details .details-item .key {
+    font-size: 14px;
+    color: #222222;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+  }
+  .order-details .details-item .value {
+    font-size: 13px;
+    color: #434343;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .order-details .details-item .highlight {
+    font-weight: 600;
+  }
+}
