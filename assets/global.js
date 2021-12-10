@@ -1738,6 +1738,8 @@ window.CartAPI = new CartAPI();
           error: false,
           counter: document.querySelector(AjaxCartClass._selectors.counter),
           cartHeight: 0,
+          cartNote: '',
+          cartNoteShow: false,
           loading: {
             cart: false,
             item: false,
@@ -1763,6 +1765,7 @@ window.CartAPI = new CartAPI();
       watch: {
         cart(newValue, oldValue) {
           if (newValue && !oldValue) this.$nextTick(this.updateCartHeight);
+          if (newValue) this.cartNote = newValue.note
         },
       },
 
@@ -1844,6 +1847,12 @@ window.CartAPI = new CartAPI();
           const item = await window.CartAPI.add({ id: variantId, quantity });
           this.loading.cart = false;
           return item;
+        },
+
+        async updateCartNote() {
+          this.loading.cart = true;
+          this.cart = await window.CartAPI.update({ note: this.cartNote });
+          this.loading.cart = false;
         },
 
         /**
