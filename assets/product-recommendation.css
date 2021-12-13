@@ -1,5 +1,5 @@
 .product-recommendation {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   padding: 85px 0 70px;
 }
 .product-recommendation .product-container {
@@ -28,21 +28,21 @@
 .product-recommendation .product-title {
   margin: 0;
   font-size: 16px;
-  color: #222222;
+  color: var(--color-normal-black);
   margin-bottom: 6px;
   letter-spacing: 1.2px;
 }
 .product-recommendation .description {
   font-size: 14px;
-  color: #434343;
+  color: var(--color-dim-black);
   margin: 0;
   line-height: 1;
 }
 .product-recommendation .btn {
   font-size: 14px;
   text-transform: uppercase;
-  color: #222222;
-  border: 1px solid #222222;
+  color: var(--color-normal-black);
+  border: 1px solid var(--color-normal-black);
   padding: 0 10px;
   max-width: 360px;
   min-height: 55px;

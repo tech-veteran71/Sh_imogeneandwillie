@@ -10,7 +10,7 @@
  * - AJAXCART
  */
 
-function getFocusableElements(container) {
+ function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
       "summary, a[href], button:enabled, [tabindex]:not([tabindex^='-']), [draggable], area, input:not([type=hidden]):enabled, select:enabled, textarea:enabled, object, iframe"
@@ -2770,4 +2770,14 @@ customElements.define("ajax-cart", AjaxCart);
          }
        })
      }
+
+    //  image gallery swiper slider script
+     new Swiper('.image-gallery .image-slider', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      }
+    });
 })()

@@ -1,11 +1,11 @@
 .review-section {
-  background: #F7F6F3;
+  background: var(--color-Xlight-wheat);
   font-size: 1.2vw;
   padding-bottom: 8.65em;
 }
 .review-section .text {
   font-size: 1.4em;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 0.15em;
   line-height: 1;
   margin-bottom: 0.5em;
@@ -13,7 +13,7 @@
 }
 .review-section .name {
   font-size: 0.75em;
-  color: #A0A0A0;
+  color: var(--color-dark-grey);
   letter-spacing: 0.2em;
   text-transform: uppercase;
   display: block;

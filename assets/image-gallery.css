@@ -1,0 +1,117 @@
+.image-gallery {
+  background-color: var(--color-Xlight-wheat);
+  padding-bottom: 7em;
+  font-size: 1.2vw;
+  margin-bottom: 4em;
+}
+.image-gallery .gallery-container {
+  max-width: 1730px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.image-gallery .image-slider {
+  display: none;
+}
+.image-gallery .gallery {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 0.9em;
+}
+.image-gallery .gallery-item {
+  height: 18em;
+}
+.image-gallery .gallery-item:first-child {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.image-gallery .gallery-item:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.image-gallery .gallery-item:nth-child(3) {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.image-gallery .gallery-item:nth-child(4) {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.image-gallery .gallery-item:nth-child(5) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.image-gallery .gallery-item:nth-child(6) {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.image-gallery .gallery-item:nth-child(7) {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.image-gallery .gallery-item:last-child {
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.image-gallery .image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1400px) {
+  .image-gallery {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .image-gallery {
+    font-size: 1.4vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .image-gallery {
+    overflow: hidden;
+    background-color: var(--color-white);
+    padding: 30px 0 70px;
+    position: relative;
+    margin-bottom: 0;
+  }
+  .image-gallery .gallery-container {
+    padding: 0 15px;
+  }
+  .image-gallery .image-slider {
+    display: block;
+  }
+  .image-gallery .gallery {
+    display: none;
+  }
+  .image-gallery .swiper-slide {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+  }
+  .image-gallery .swiper-slide .img-wrap {
+    height: 220px;
+  }
+  .image-gallery .image-3,
+  .image-gallery .image-4,
+  .image-gallery .image-7,
+  .image-gallery .image-8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  } 
+  .image-gallery .swiper-pagination-bullet {
+    margin: 0 5px;
+    opacity: 1;
+    width: 6px;
+    height: 6px;
+    background-color: var(--color-dark-grey);
+  }
+  .image-gallery .swiper-pagination-bullet-active {
+    background-color: var(--color-dim-black);
+  }
+  .image-gallery .swiper-pagination {
+    bottom: 20px;
+  }
+}

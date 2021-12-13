@@ -1,9 +1,10 @@
 .header-wrapper {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
 }
 .header {
   display: flex;
   justify-content: space-between;
+  font-family: var(--font-heading-family);
 }
 .header .header__inline-menu {
   max-width: 450px;
@@ -13,7 +14,7 @@
 .header .header__menu-item {
   font-size: 16px;
   text-transform: lowercase;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 2.8px;
 }
 .header .menu-utility-link {
@@ -23,7 +24,7 @@
   text-decoration: none;
   font-size: 13px;
   text-transform: lowercase;
-  color: #434343;
+  color: var(--color-dim-black);
   letter-spacing: 2.8px;
 }
 .header .header__icons {
@@ -63,7 +64,7 @@
 }
 .header .mega_menu {
   display: none;
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   width: 100%;
   left: 0;
   border: none;
@@ -78,7 +79,7 @@
 }
 .header .about-mega-menu .mega_menu {
   display: none;
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   width: 100%;
   left: 0;
   border: none;
@@ -100,14 +101,14 @@
   font-size: 14px;
   letter-spacing: 2.6px;
   margin-bottom: 10px;
-  color: #434343;
+  color: var(--color-dim-black);
   line-height: 1.2;
   text-transform: uppercase;
   font-weight: 600;
 }
 .header .mega_menu-link {
   font-size: 13px;
-  color: #434343;
+  color: var(--color-dim-black);
   text-decoration: none;
   margin-bottom: 5px;
   display: inline-block;
@@ -160,7 +161,7 @@
 .header .mega_menu-product-title {
   margin-top: 0;
   font-size: 12px;
-  color: #222222;
+  color: var(--color-normal-black);
   margin-bottom: 2px;
   letter-spacing: 1px;
   font-weight: 600;
@@ -168,7 +169,7 @@
 .header .mega_menu-product-description {
   margin: 0;
   font-size: 11px;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 1.2px;
 }
 .header .product-info {
@@ -204,7 +205,7 @@
 }
 .header .grid .title {
   font-size: 16px;
-  color: #434343;
+  color: var(--color-dim-black);
   font-weight: 600;
   letter-spacing: 2px;
   margin: 12px 0 6px;
@@ -213,7 +214,7 @@
   font-size: 10px;
   margin: 0;
   line-height: 1.3;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 0.8px;
 }
 .header .mega_menu .btn-wrap {
@@ -225,26 +226,26 @@
   max-width: 310px;
   flex: 310px;
   min-height: 52px;
-  border: 1px solid #222222;
+  border: 1px solid var(--color-normal-black);
   padding: 0 15px;
   text-decoration: none;
   font-size: 13px;
-  color: #222222;
+  color: var(--color-normal-black);
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 600;
 }
 #menu-drawer {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
 }
 #menu-drawer .menu-drawer__submenu {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
 }
 #menu-drawer .list-menu__item {
   font-size: 25px;
   letter-spacing: 2px;
-  color: #222222;
+  color: var(--color-normal-black);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -254,19 +255,19 @@
   background-color: unset;
 }
 #menu-drawer .menu-drawer__close-button {
-  color: #A0A0A0;
+  color: var(--color-dark-grey);
   font-size: 14px;
   padding: 1.2rem 25px;
   text-transform: uppercase;
 }
 #menu-drawer .list-menu__item svg {
-  fill: #A0A0A0;
+  fill: var(--color-dark-grey);
   max-width: 16px;
 }
 #menu-drawer .menu-drawer__close-button svg {
   max-width: 16px;
   margin-right: 12px;
-  fill: #A0A0A0;
+  fill: var(--color-dark-grey);
 }
 #menu-drawer .grand-child-list-wrap {
   position: unset;
@@ -277,21 +278,21 @@
 }
 #menu-drawer .grand-child-link {
   font-size: 24px;
-  color: #434343;
+  color: var(--color-dim-black);
   padding: 5px 25px;
 }
 #menu-drawer .child-menu-item svg {
   min-height: 16px;
 }
 #menu-drawer .child-menu-item g {
-  fill: #A0A0A0;
+  fill: var(--color-dark-grey);
 }
 #menu-drawer .menu-drawer__submenu .open-menu-item {
   display: none;
 }
 #menu-drawer .grand-child-list {
   margin-left: 50px;
-  border-left: 1px solid #434343;
+  border-left: 1px solid var(--color-dim-black);
 }
 #menu-drawer .grand-child-list-wrap.active {
   display: block;
@@ -304,7 +305,7 @@
 }
 #menu-drawer .text {
   font-size: 24px;
-  color: #434343;
+  color: var(--color-dim-black);
   letter-spacing: 4px;
   line-height: 1.5;
   max-width: 200px;
@@ -320,7 +321,7 @@
   text-decoration: none;
 }
 #menu-drawer .menu-drawer__inner-container .link-text {
-  color: #0F359B;
+  color: var(--color-blue);
   font-size: 14px;
   text-transform: uppercase;
   margin-right: 5px;
@@ -332,7 +333,7 @@
   height: 100%;
 }
 #menu-drawer .link-wrap g {
-  fill: #0F359B;
+  fill: var(--color-blue);
 }
 #menu-drawer .menu-drawer-slide {
   display: flex;
@@ -360,7 +361,7 @@
   min-height: 136px;
 }
 #menu-drawer .slide-title {
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 2px;
   font-size: 15px;
   margin-top: 10px;
@@ -374,7 +375,7 @@
   box-shadow: unset;
   border: 0;
   padding: 10px 20px;
-  color: #434343;
+  color: var(--color-dim-black);
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1.8px;
@@ -382,7 +383,7 @@
 }
 #menu-drawer .search-form-wrap .field {
   padding: 0 30px;
-  background-color: #F0EFEC;
+  background-color: var(--color-light-wheat);
   align-items: center;
   min-height: 54px;
 }
@@ -398,7 +399,7 @@
   font-size: 14px;
   left: 5.5rem;
   text-transform: uppercase;
-  color: #434343;
+  color: var(--color-dim-black);
   font-weight: 600;
   top: 1.8rem;
 }
@@ -551,7 +552,7 @@
     content: '';
     max-width: 200px;
     height: 2px;
-    background-color: #434343;
+    background-color: var(--color-dim-black);
     display: block;
     width: 100%;
     position: relative;

@@ -19,7 +19,7 @@
   font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 2px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -27,7 +27,7 @@
 .image-gallery .text {
   font-size: 20px;
   line-height: 1.4;
-  color: #434343;
+  color: var(--color-dim-black);
   letter-spacing: 1.6px;
   margin: 0;
 }
@@ -49,10 +49,10 @@
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #222222;
+  color: var(--color-normal-black);
   padding: 0 10px;
   text-decoration: none;
-  border: 1px solid #222222;
+  border: 1px solid var(--color-normal-black);
   min-height: 55px;
   display: flex;
   justify-content: center;
@@ -117,13 +117,13 @@
     font-size: 12px;
     margin: 0 0 6px;
     letter-spacing: 1.4px;
-    color: #222222;
+    color: var(--color-normal-black);
   }
   .image-gallery .grid-title {
     font-size: 18px;
     margin: 0;
     text-transform: uppercase;
-    color: #222222;
+    color: var(--color-normal-black);
     letter-spacing: 2.4px;
   }
   .image-gallery .header-wrap .img-wrap {

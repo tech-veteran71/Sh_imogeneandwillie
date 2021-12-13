@@ -1,5 +1,5 @@
 .explore-section {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   padding-bottom: 2.5em;
   font-size: 1.2vw;
 }
@@ -7,7 +7,7 @@
   font-size: 1.4em;
   margin-top: 0;
   margin-bottom: 1em;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 0.1em;
 }
 .explore-section .contents-wrapper {
@@ -21,7 +21,7 @@
 }
 .explore-section .text-wrap .text {
   font-size: 0.6em;
-  color: #222222;
+  color: var(--color-normal-black);
 }
 .explore-section .img-wrap {
   margin-bottom: 1em;
@@ -37,14 +37,14 @@
   max-width: 25.05em;
   height: 3.37em;
   margin: 0 auto;
-  border: 1px solid #222222;
+  border: 1px solid var(--color-normal-black);
 }
 .explore-section .btn-wrap .btn {
   height: 100%;
   width: 100%;
   font-size: 0.7em;
   font-weight: 500;
-  color: #222222;
+  color: var(--color-normal-black);
   text-decoration: none;
   letter-spacing: 0.15em;
   display: flex;

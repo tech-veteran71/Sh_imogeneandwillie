@@ -3,7 +3,7 @@
   margin-bottom: 70px;
 }
 .main-collection .wrapper {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   padding: 75px 50px 120px;
 }
 .main-collection .collection-header {
@@ -13,12 +13,12 @@
   margin: 0;
   font-size: 28px;
   line-height: 1;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 1.8px;
 }
 .main-collection .total-items {
   font-size: 13px;
-  color: #222222;
+  color: var(--color-normal-black);
 }
 .main-collection .collection-filter {
   display: flex;
@@ -27,7 +27,7 @@
 }
 .main-collection .filter {
   font-size: 15px;
-  color: #434343;
+  color: var(--color-dim-black);
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -55,7 +55,7 @@
   position: relative;
 }
 .main-collection .product-name {
-  color: #222222;
+  color: var(--color-normal-black);
   margin: 0;
 }
 .main-collection .large-item .product-name {
@@ -85,14 +85,14 @@
   margin-right: 3px;
 }
 .main-collection .price-item {
-  color: #222222;
+  color: var(--color-normal-black);
 }
 .main-collection .large-item .price-item {
   font-size: 13px;
   letter-spacing: 1.8px;
 }
 .main-collection .badge {
-  color: #fff;
+  color: var(--color-white);
   background-color: #707070;
   border: 0;
   border-radius: 0;
@@ -114,7 +114,7 @@
 }
 .main-collection .product-description {
   font-size: 12px;
-  color: #222222;
+  color: var(--color-normal-black);
   display: block;
   margin: 4px 0;
   line-height: 1.3;
@@ -129,13 +129,13 @@
 }
 .main-collection .medium-item .product-name {
   font-size: 12px;
-  color: #222;
+  color: var(--color-normal-black);
   margin: 0;
   letter-spacing: 0.4px;
 }
 .main-collection .medium-item .price-item {
   font-size: 11px;
-  color: #222;
+  color: var(--color-normal-black);
   letter-spacing: 0.8px;
 }
 .main-collection .medium .badge {
@@ -230,13 +230,13 @@
 }
 .main-collection .customer-name {
   font-size: 12px;
-  color: #A0A0A0;
+  color: var(--color-dark-grey);
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
 .main-collection .review {
   font-size: 14px;
-  color: #222222;
+  color: var(--color-normal-black);
   margin-top: 0;
   margin-bottom: 0;
   letter-spacing: 1.5px;
@@ -690,7 +690,7 @@
   }
   .main-collection::after {
     content: '';
-    background-color: #A0A0A0;
+    background-color: var(--color-dark-grey);
     max-width: 232px;
     width: 100%;
     position: absolute;
@@ -785,12 +785,12 @@
   .main-collection .collection-denim .fabric-guide  {
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: #fff;
+    background-color: var(--color-white);
     padding: 30px 0;
   }
   .main-collection .fit-grid-item,
   .main-collection .fabric-grid-item {
-    background-color: #fff;
+    background-color: var(--color-white);
     padding: 30px 0;
   }
   .main-collection .fabric-guide .fabric-guide-link,
@@ -939,14 +939,14 @@
     bottom: 48px;
   }
   .main-collection .collection-alternate .swiper-pagination-bullet {
-    background-color: #fff;
+    background-color: var(--color-white);
     opacity: 1;
     margin: 0 2px;
     width: 6px;
     height: 6px;
   }
   .main-collection .collection-alternate .swiper-pagination-bullet-active {
-    background-color: #434343;
+    background-color: var(--color-dim-black);
     opacity: 1;
   }
   .main-collection .product-gallery .product-name {
@@ -955,7 +955,7 @@
   }
   .main-collection .swiper-button-next:after {
     font-size: 25px;
-    color: #fff;
+    color: var(--color-white);
     opacity: 0.6;
   }
   .main-collection .swiper-button-next {

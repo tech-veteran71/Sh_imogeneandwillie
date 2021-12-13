@@ -1,6 +1,6 @@
 .video-section {
   padding-top: 78px;
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   overflow: hidden;
 }
 .video-section .main-container {
@@ -82,7 +82,7 @@
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 2px;
-  color: #0F359B;
+  color: var(--color-blue);
 }
 .video-section .btn-wrap {
   display: flex;
@@ -126,7 +126,7 @@
   content: "";
   width: 125%;
   height: 172px;
-  background-color: #fff;
+  background-color: var(--color-white);
   position: absolute;
   bottom: 18%;
   left: 0;
@@ -224,7 +224,7 @@
   }
   .video-section .detail {
     display: inline;
-    color: #0F359B;
+    color: var(--color-blue);
     font-size: 14px;
     line-height: 1.6;
     text-decoration: none;

@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   height: 100vh;
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
 }
 .account-sidebar .sidebar-title {
   font-size: 0.9em;
@@ -13,8 +13,8 @@
   letter-spacing: 0.1em;
   margin: 0;
   padding: 1.1em 1.1em 1.1em 4.5em;
-  color: #434343;
-  background-color: #F0EFEC;
+  color: var(--color-dim-black);
+  background-color: var(--color-light-wheat);
 }
 .account-sidebar .main-sidebar {
   padding: 0 1.1em 0 4em;
@@ -26,7 +26,7 @@
 .account-sidebar .customer-name {
   margin-top: 0;
   font-size: 1.4em;
-  color: #222222;
+  color: var(--color-normal-black);
   text-transform: lowercase;
   letter-spacing: 0.1em;
   line-height: 1;
@@ -34,7 +34,7 @@
 }
 .account-sidebar .customer-email {
   font-size: 0.8em;
-  color: #434343;
+  color: var(--color-dim-black);
   display: block;
   line-height: 1;
   letter-spacing: 0.1em;
@@ -42,7 +42,7 @@
 .account-sidebar .ancillary-list {
   margin: 0;
   padding-left: 1em;
-  border-left: 1px solid #434343;
+  border-left: 1px solid var(--color-dim-black);
 }
 .account-sidebar .ancillary-item {
   list-style: none;
@@ -55,7 +55,7 @@
 .account-sidebar .ancillary-link {
   font-size: 0.75em;
   letter-spacing: 0.15em;
-  color: #434343;
+  color: var(--color-dim-black);
   text-transform: lowercase;
   text-decoration: none;
 }
@@ -64,7 +64,7 @@
 }
 .account-sidebar .logout {
   font-size: 0.8em;
-  color: #0F359B;
+  color: var(--color-blue);
   position: absolute;
   bottom: 10.4em;
   left: 50%;

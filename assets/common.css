@@ -11,6 +11,23 @@
   padding: 0 20px;
   margin: 0 auto;
 }
+.nashville-container {
+  max-width: 1600px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/* color variables */
+:root {
+  --color-normal-black: #222222;
+  --color-dim-black: #434343;
+  --color-light-wheat: #F0EFEC;
+  --color-Xlight-wheat: #F7F6F3;
+  --color-dark-grey: #A0A0A0;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-blue: #0F359B;
+  --color-medium-wheat: #F5F5F5;
+}
 @media screen and (max-width: 1279px) {
   .collection-container {
     padding: 0 30px;
@@ -19,5 +36,8 @@
 @media screen and (max-width: 767px) {
   .collection-container {
     padding: 0;
+  }
+  .nashville-container {
+    padding: 0 15px;
   }
 }

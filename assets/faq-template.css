@@ -14,13 +14,13 @@
   display: flex;
 }
 .faq-page .faq-wrapper {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   padding: 1em 1.2em;
   width: 100%;
 }
 .faq-page .main-title {
   font-size: 28px;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 2px;
   margin: 0;
   line-height: 1.4;
@@ -30,7 +30,7 @@
 }
 .faq-page .faq-title {
   font-size: 18px;
-  color: #434343;
+  color: var(--color-dim-black);
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0;
@@ -41,14 +41,14 @@
 .faq-page .accordian-title {
   margin: 0;
   font-size: 14px;
-  color: #434343;
+  color: var(--color-dim-black);
   letter-spacing: 2px;
 }
 .faq-page .accordian-item {
   padding: 0 0.75em;
 }
 .faq-page .accordian-item:nth-child(odd) {
-  background-color: #f0efec;
+  background-color: var(--color-light-wheat);
 }
 .faq-page .accordian-header {
   display: flex;
@@ -75,12 +75,12 @@
 }
 .faq-page .accordian-body .text {
   font-size: 14px;
-  color: #434343;
+  color: var(--color-dim-black);
   letter-spacing: 1.3px;
   line-height: 1.5;
   margin: 0;
   padding-left: 1.4em;
-  border-left: 1px solid #434343;
+  border-left: 1px solid var(--color-dim-black);
 }
 .faq-page .accordian-body {
   padding-bottom: 0.7em;
