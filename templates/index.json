@@ -1,106 +1,522 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "16376702997fa1eefe": {
+      "type": "banner-section",
       "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ]
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "desktop_banner_img": "shopify:\/\/shop_images\/Header_IMG.png",
+        "mobile_banner_img": "shopify:\/\/shop_images\/Image_484.png"
       }
     },
-    "collage": {
-      "type": "collage",
+    "163767167477fefeea": {
+      "type": "rich--text",
+      "settings": {
+        "title": "the enfield hunting jacket in dark umber",
+        "text": "inspired by a time when clothes were made with a purpose, and made to take a beating",
+        "btn_text": "shop now",
+        "btn_url": ""
+      }
+    },
+    "1637673172edbf6c8a": {
+      "type": "explore-section",
       "blocks": {
-        "video": {
-          "type": "video"
+        "e17c5de1-a6cd-4ff5-a61a-127a93749894": {
+          "type": "recent_moment",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMG_3744.png",
+            "text": "10.13.21"
+          }
         },
-        "product": {
-          "type": "product"
+        "0070db68-1d93-40c7-841c-3643881318ef": {
+          "type": "recent_moment",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_496.png",
+            "text": "10.01.21"
+          }
         },
-        "collection": {
-          "type": "collection"
+        "44e72a82-ff00-498e-92af-19221111d917": {
+          "type": "recent_moment",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMG_1072-2.png",
+            "text": "10.01.21"
+          }
+        },
+        "de671810-f962-4a38-84be-74646b26b6e2": {
+          "type": "recent_moment",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_497.png",
+            "text": "09.16.21"
+          }
+        },
+        "8b38b25b-4135-475d-b432-499469c677ea": {
+          "type": "recent_moment",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/gibson-3.png",
+            "text": "09.12.21"
+          }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
+        "e17c5de1-a6cd-4ff5-a61a-127a93749894",
+        "0070db68-1d93-40c7-841c-3643881318ef",
+        "44e72a82-ff00-498e-92af-19221111d917",
+        "de671810-f962-4a38-84be-74646b26b6e2",
+        "8b38b25b-4135-475d-b432-499469c677ea"
+      ],
+      "settings": {
+        "title": "recent moments \/\/",
+        "btn": "explore more",
+        "url": ""
+      }
     },
-    "video": {
-      "type": "video"
+    "1637675877d09ce9e2": {
+      "type": "image--with-text",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Image_488.png",
+        "pre_title": "( our home )",
+        "title": "2601 12th ave s",
+        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
+        "link_text": "continue reading",
+        "link_url": ""
+      }
     },
-    "multi_column": {
-      "type": "multicolumn",
+    "1637649555b0a6e3ee": {
+      "type": "latest-collection",
       "blocks": {
-        "column1": {
-          "type": "column"
+        "102cbbfa-c8a8-49d3-b58f-8928a61d956f": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/Image_498_5512045d-239d-49e0-af88-238066731727.png",
+            "img_mob": "shopify:\/\/shop_images\/Image_492.png",
+            "pre_title": "WOMEN’S NEW ARRIVALS",
+            "title": "agnes jacket in coastal stone",
+            "btn_text": "Shop All",
+            "btn_url": "",
+            "link_text": "SHOP WOMEN’S",
+            "link_url": ""
+          }
         },
-        "column2": {
-          "type": "column"
-        },
-        "column3": {
-          "type": "column"
+        "040b3d3a-8dd7-429d-8a11-bbaeb7abc0cb": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/Image_583_e855db95-f921-423a-93a6-bfeb19aba511.png",
+            "img_mob": "shopify:\/\/shop_images\/Image_493.png",
+            "pre_title": "MEN’S NEW ARRIVALS",
+            "title": "hall cpo in cascade plaid",
+            "btn_text": "Shop All",
+            "btn_url": "",
+            "link_text": "SHOP MEN’S",
+            "link_url": ""
+          }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ]
+        "102cbbfa-c8a8-49d3-b58f-8928a61d956f",
+        "040b3d3a-8dd7-429d-8a11-bbaeb7abc0cb"
+      ],
+      "settings": {
+      }
+    },
+    "163765606665c0b3b1": {
+      "type": "featured--collection",
+      "settings": {
+        "choose_collection": "mens-new-arrival",
+        "title": "Women’s new arrivals",
+        "main_title": "new arrivals",
+        "mob_title": "WOMEN’s",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
+    "163765607076405794": {
+      "type": "featured--collection",
+      "settings": {
+        "choose_collection": "womens-new-arrival",
+        "title": "men’s new arrivals",
+        "main_title": "",
+        "mob_title": "men's",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
+    "1637662418c5179d34": {
+      "type": "grand-image-section",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Image_489.png"
+      }
+    },
+    "163766488788d333b9": {
+      "type": "product-gallery",
+      "settings": {
+        "choose_collection": "cap-collection",
+        "title": "collection",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+        "btn_text": "Shop All",
+        "btn_url": ""
+      }
+    },
+    "16376680197e951999": {
+      "type": "collection--list",
+      "blocks": {
+        "b495a850-459b-4089-b928-5bc174a0b23b": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_586.png",
+            "btn_text": "shop mens",
+            "btn_url": ""
+          }
+        },
+        "a5039d9b-141b-4eff-944e-c54ac4ff16e3": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_587.png",
+            "btn_text": "shop womens",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b495a850-459b-4089-b928-5bc174a0b23b",
+        "a5039d9b-141b-4eff-944e-c54ac4ff16e3"
+      ],
+      "settings": {
+      }
+    },
+    "163768366549649d12": {
+      "type": "review-section",
+      "settings": {
+        "text": "“i want to die with my blue jeans on.”",
+        "name": "- Andy Warhol"
+      }
+    },
+    "1637678315d7082c3b": {
+      "type": "new-arrival-section",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/Image_587.png",
+        "image": "shopify:\/\/shop_images\/Image_583_e855db95-f921-423a-93a6-bfeb19aba511.png",
+        "change_alignment": false,
+        "pre_title": "MEN’S NEW ARRIVALS",
+        "title": "hall cpo in cascade plaid",
+        "text": "<p>an updated, modern evolution of a timeless military classic.\n<\/p>\n<p>versatile and functional, it’s a piece that’s meant to be worn as you see fit… and meant to be worn to death.<\/p>",
+        "btn_text": "shop all",
+        "btn_url": ""
+      }
+    },
+    "16376784532d3e7363": {
+      "type": "new-arrival-section",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/Image_586.png",
+        "image": "shopify:\/\/shop_images\/Image_498_5512045d-239d-49e0-af88-238066731727.png",
+        "change_alignment": true,
+        "pre_title": "WOMEN’S NEW ARRIVALS",
+        "title": "agnes jacket in coastal stone",
+        "text": "<p>a team favorite that quickly became an i+w staple. agnes is a slightly boxy, classic chore coat that is so simple, subtle, and straightforward. it’s a go-to that works with almost anything.<\/p>",
+        "btn_text": "shop all",
+        "btn_url": ""
+      }
+    },
+    "1637738863eee8087f": {
+      "type": "slide-section",
+      "blocks": {
+        "b71b647c-7eca-4d14-9d64-9b6894c36518": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_493.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "5905881e-f7d3-4761-b836-cdb5fff6230f": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_508.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "a36ed190-490c-4d7a-abce-199697ff1788": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_492.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "ca2f34ed-31fd-4bb0-821f-424dcd43e39f": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_509.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "7ce64834-ed0f-4b79-96a5-fe9acc7a5237": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_489.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        }
+      },
+      "block_order": [
+        "b71b647c-7eca-4d14-9d64-9b6894c36518",
+        "5905881e-f7d3-4761-b836-cdb5fff6230f",
+        "a36ed190-490c-4d7a-abce-199697ff1788",
+        "ca2f34ed-31fd-4bb0-821f-424dcd43e39f",
+        "7ce64834-ed0f-4b79-96a5-fe9acc7a5237"
+      ],
+      "settings": {
+        "title": "lorem ipsum",
+        "btn_text": "view all",
+        "btn_url": "",
+        "show_border": true
+      }
+    },
+    "1637741212e84f52e3": {
+      "type": "slide-section",
+      "blocks": {
+        "0cab6c6e-fe94-403c-b7d0-33ff75cbaa11": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_498.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "9f4f9d2b-be43-419c-8820-f68fdd893b40": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_493.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "91c44f74-2810-4f3d-9bd7-a48a48d4181f": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_501.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "f42f720e-fb81-4a96-835f-8015903a3c27": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_492.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "ac7bc3e4-b449-488b-92ec-5a3c3479a488": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_511.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        },
+        "ec18295e-8168-4d8b-901e-c2a99d00de6e": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_500.png",
+            "product_title": "hall cpo in cascade plaid"
+          }
+        }
+      },
+      "block_order": [
+        "0cab6c6e-fe94-403c-b7d0-33ff75cbaa11",
+        "9f4f9d2b-be43-419c-8820-f68fdd893b40",
+        "91c44f74-2810-4f3d-9bd7-a48a48d4181f",
+        "f42f720e-fb81-4a96-835f-8015903a3c27",
+        "ac7bc3e4-b449-488b-92ec-5a3c3479a488",
+        "ec18295e-8168-4d8b-901e-c2a99d00de6e"
+      ],
+      "settings": {
+        "title": "lorem ipsum",
+        "btn_text": "view all",
+        "btn_url": "",
+        "show_border": false
+      }
+    },
+    "16377324507e0c4445": {
+      "type": "product-slider-section",
+      "blocks": {
+        "ea0d67c8-8191-4fa5-a2aa-a239e371aa7e": {
+          "type": "slide",
+          "settings": {
+            "title": "GRAPHIC CONTENT",
+            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+            "btn_text": "Shop ALL",
+            "btn_url": ""
+          }
+        },
+        "7af689f7-1c9e-4d33-aed6-1c72e81e9db8": {
+          "type": "slide",
+          "settings": {
+            "title": "GRAPHIC CONTENT",
+            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+            "btn_text": "Shop ALL",
+            "btn_url": ""
+          }
+        },
+        "c8dadee1-024e-44ae-a29a-7d91a9ab5132": {
+          "type": "slide",
+          "settings": {
+            "title": "GRAPHIC CONTENT",
+            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+            "btn_text": "Shop ALL",
+            "btn_url": ""
+          }
+        },
+        "05cac373-4196-43e4-b279-6289406e853c": {
+          "type": "slide",
+          "settings": {
+            "title": "GRAPHIC CONTENT",
+            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+            "btn_text": "Shop ALL",
+            "btn_url": ""
+          }
+        },
+        "2aecd936-3897-4f7f-b533-012a99b375d7": {
+          "type": "slide",
+          "settings": {
+            "title": "GRAPHIC CONTENT",
+            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+            "btn_text": "Shop ALL",
+            "btn_url": ""
+          }
+        },
+        "728bdb3b-6fd4-410d-9f4f-d71a9d16bc8f": {
+          "type": "slide",
+          "settings": {
+            "title": "GRAPHIC CONTENT",
+            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+            "btn_text": "Shop ALL",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "ea0d67c8-8191-4fa5-a2aa-a239e371aa7e",
+        "7af689f7-1c9e-4d33-aed6-1c72e81e9db8",
+        "c8dadee1-024e-44ae-a29a-7d91a9ab5132",
+        "05cac373-4196-43e4-b279-6289406e853c",
+        "2aecd936-3897-4f7f-b533-012a99b375d7",
+        "728bdb3b-6fd4-410d-9f4f-d71a9d16bc8f"
+      ],
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Image_601.png",
+        "product_title": "the “lonely ones” tee",
+        "product_description": "100% cotton",
+        "price": "$68.00",
+        "link_url": ""
+      }
+    },
+    "163773433083afddd3": {
+      "type": "featured-product-section",
+      "blocks": {
+        "83b3a148-c306-4571-97f0-8626edae58ed": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_593.png",
+            "link": ""
+          }
+        },
+        "17efc634-9000-4b4b-b2a5-c907719dd786": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_595.png",
+            "link": ""
+          }
+        },
+        "e6d3169a-cf44-4a87-9d69-d1ce9a86bab3": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_592.png",
+            "link": ""
+          }
+        },
+        "6b5fbeae-cc60-4097-9b80-4e890e726e8b": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_597.png",
+            "link": ""
+          }
+        },
+        "e5472720-c1e3-4391-9d9d-200092f242e0": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_599.png",
+            "link": ""
+          }
+        },
+        "ae5d9b96-47d0-4e21-8894-ff22bb7f65b1": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_594.png",
+            "link": ""
+          }
+        },
+        "71e01e16-4676-4d6c-926a-120710c39b05": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_598.png",
+            "link": ""
+          }
+        },
+        "bc12f04e-235c-4179-be54-479a8bab48b7": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_592.png",
+            "link": ""
+          }
+        },
+        "c73bc511-9acf-499d-87c8-de753340c474": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_593.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "83b3a148-c306-4571-97f0-8626edae58ed",
+        "17efc634-9000-4b4b-b2a5-c907719dd786",
+        "e6d3169a-cf44-4a87-9d69-d1ce9a86bab3",
+        "6b5fbeae-cc60-4097-9b80-4e890e726e8b",
+        "e5472720-c1e3-4391-9d9d-200092f242e0",
+        "ae5d9b96-47d0-4e21-8894-ff22bb7f65b1",
+        "71e01e16-4676-4d6c-926a-120710c39b05",
+        "bc12f04e-235c-4179-be54-479a8bab48b7",
+        "c73bc511-9acf-499d-87c8-de753340c474"
+      ],
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Image_489.png",
+        "link_url": "",
+        "title": "FEATURED PRODUCT",
+        "link_text": "I+w Watch caps"
+      }
+    },
+    "1637735864c2bd7e13": {
+      "type": "promise-section",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01299.png",
+        "pre_title": "( our promise )",
+        "title": "committed to making everything in the usa",
+        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
+        "btn_text": "LEARN MORE",
+        "btn_url": ""
+      }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "16376702997fa1eefe",
+    "163767167477fefeea",
+    "1637673172edbf6c8a",
+    "1637675877d09ce9e2",
+    "1637649555b0a6e3ee",
+    "163765606665c0b3b1",
+    "163765607076405794",
+    "1637662418c5179d34",
+    "163766488788d333b9",
+    "16376680197e951999",
+    "163768366549649d12",
+    "1637678315d7082c3b",
+    "16376784532d3e7363",
+    "1637738863eee8087f",
+    "1637741212e84f52e3",
+    "16377324507e0c4445",
+    "163773433083afddd3",
+    "1637735864c2bd7e13"
   ]
 }
