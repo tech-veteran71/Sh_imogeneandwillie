@@ -26,7 +26,7 @@
   line-height: 1.5;
   margin-bottom: 0;
   letter-spacing: 0.1em;
-  color: #222222;
+  color: var(--color-normal-black);
 }
 .image-with-text .text {
   font-size: 0.95em;
@@ -34,10 +34,10 @@
   margin-bottom: 0.4em;
   line-height: 1.4;
   letter-spacing: 0.05em;
-  color: #434343;
+  color: var(--color-dim-black);
 }
 .image-with-text .content-wrap .link {
-  color: #0F359B;
+  color: var(--color-blue);
   font-size: 0.7em;
   font-weight: 500;
   line-height: 1.3;

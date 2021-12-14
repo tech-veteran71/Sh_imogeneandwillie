@@ -6,7 +6,7 @@ component-modal {
   transform: translate(-50%, -50%);
   max-height: 75vh;
   z-index: 1000;
-  background: #fff;
+  background: var(--color-white);
   overflow: auto;
   margin: auto;
   transition: all 0.3s ease-in-out;

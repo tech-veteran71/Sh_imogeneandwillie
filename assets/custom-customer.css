@@ -24,7 +24,7 @@
   max-width: 650px;
   margin: 0;
   padding: 3.5em 4.25em 3.7em;
-  background-color: #fff;
+  background-color: var(--color-white);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,7 +33,7 @@
 }
 .template-customer .main-title {
   font-size: 28px;
-  color: #222222;
+  color: var(--color-normal-black);
   margin-top: 0;
   margin-bottom: 22px;
   text-align: left;
@@ -49,11 +49,11 @@
 .template-customer #MainContent .field-input {
   height: 55px;
   padding: 0 1.6em;
-  background-color: #F0EFEC;
+  background-color: var(--color-light-wheat);
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #A0A0A0;
+  color: var(--color-dark-grey);
   border: 0;
   box-shadow: unset;
 }
@@ -62,7 +62,7 @@
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #A0A0A0;
+  color: var(--color-dark-grey);
 }
 .template-customer #MainContent .field .field-input:focus {
   padding: 0 1.6em;
@@ -80,8 +80,8 @@
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #F7F6F3;
-  background-color: #222222;
+  color: var(--color-Xlight-wheat);
+  background-color: var(--color-normal-black);
   box-shadow: unset;
 }
 .template-customer .btn:hover {
@@ -97,7 +97,7 @@
 .template-customer .account-banner .link {
   font-size: 13px;
   letter-spacing: 3px;
-  color: #434343;
+  color: var(--color-dim-black);
   text-decoration: none;
   margin: 0;
   text-transform: lowercase;
@@ -111,7 +111,7 @@
   text-align: left;
   line-height: 1.5;
   letter-spacing: 2px;
-  color: #434343;
+  color: var(--color-dim-black);
 }
 .template-customer .recover-password .link {
   text-align: center;

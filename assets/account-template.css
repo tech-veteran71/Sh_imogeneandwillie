@@ -12,7 +12,7 @@
 .order-history .inner-order-history {
   width: 93%;
   margin: 2.5em auto;
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   padding: 2.5em 3em;
 }
 .order-history .inner-order-history .order-list {
@@ -32,7 +32,7 @@
   content: "";
   width: 0.15em;
   height: 5em;
-  background-color: #a0a0a0;
+  background-color: var(--color-dark-grey);
   position: absolute;
   left: -2.25em;
   top: 0;
@@ -40,7 +40,7 @@
 .order-history .main-title {
   font-size: 1.4em;
   letter-spacing: 0.1em;
-  color: #222222;
+  color: var(--color-normal-black);
   margin: 0;
 }
 .order-history .table-wrap th,
@@ -50,7 +50,7 @@
   letter-spacing: 0.1em;
   text-align: center;
   width: 25%;
-  color: #434343;
+  color: var(--color-dim-black);
 }
 .order-history .table-wrap a {
   display: flex;
@@ -62,7 +62,7 @@
   text-decoration: none;
 }
 .order-history .table-wrap .order-name {
-  color: #0f359b;
+  color: var(--color-blue);
   text-decoration: underline;
 }
 .order-history .table-wrap th {
@@ -75,13 +75,13 @@
   padding: 0;
 }
 .order-history tbody tr {
-  border-bottom: 1px solid #a0a0a0;
+  border-bottom: 1px solid var(--color-dark-grey);
 }
 .order-history tbody tr:last-child {
   border-bottom: 0;
 }
 .order-history .table-wrap thead {
-  background-color: #F0EFEC;
+  background-color: var(--color-light-wheat);
   height: 4.9em;
 }
 .order-history .link-wrap {
@@ -131,7 +131,7 @@
   .order-history .main-title {
     font-size: 26px;
     text-align: center;
-    background-color: #f0efec;
+    background-color: var(--color-light-wheat);
     padding: 30px 0 20px;
   }
   .order-history .customer .order-list .table-wrap {
@@ -152,7 +152,7 @@
   }
   .order-history .logout {
     font-size: 14px;
-    color: #0F359B;
+    color: var(--color-blue);
     letter-spacing: 2px;
   }
   .order-history tbody td {
@@ -160,10 +160,10 @@
     height: 75px;
   }
   .order-history tbody tr:nth-child(even) {
-    background-color: #F0EFEC;
+    background-color: var(--color-light-wheat);
   }
   .order-history .table-wrap table {
-    border-bottom: 1px solid #a0a0a0;
+    border-bottom: 1px solid var(--color-dark-grey);
   }
   .order-history .table-wrap::before {
     content: unset;

@@ -1,7 +1,7 @@
 .collection-list {
   font-size: 1.2vw;
   padding-bottom: 9.25em;
-  background-color: #f7f6f3;
+  background-color: var(--color-Xlight-wheat);
 }
 .collection-list .wrapper {
   padding: 0 8em;

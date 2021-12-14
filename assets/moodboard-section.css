@@ -1,5 +1,5 @@
 .moodboard-section {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   padding: 25px 0;
 }
 .moodboard-section .moodboard-container {
@@ -14,7 +14,7 @@
   text-align: center;
   font-size: 20px;
   letter-spacing: 2px;
-  color: #434343;
+  color: var(--color-dim-black);
 }
 .moodboard-section .image-gallery {
   position: relative;
@@ -61,12 +61,12 @@
 }
 .moodboard-section .swiper-pagination-bullet {
   opacity: 1;
-  background: #A0A0A0;
+  background: var(--color-dark-grey);
   width: 6px;
   height: 6px;
 }
 .moodboard-section .swiper-pagination-bullet-active {
-  background: #434343;
+  background: var(--color-dim-black);
 }
 .moodboard-section .image-gallery-pagination {
   position: absolute;

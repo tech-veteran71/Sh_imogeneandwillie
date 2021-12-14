@@ -1,5 +1,5 @@
 .latest-collection {
-  background: #F7F6F3;
+  background: var(--color-Xlight-wheat);
   font-size: 1.2vw;
   padding-bottom: 11em;
 }
@@ -16,7 +16,7 @@
   height: 100%;
 }
 .latest-collection .content-wrap {
-  color: #fff;
+  color: var(--color-white);
   text-align: center;
   position: absolute;
   top: 50%;
@@ -33,7 +33,7 @@
   font-weight: bold;
   margin: 0;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--color-white);
   letter-spacing: 0.05em;
 }
 .latest-collection .mob-img {
@@ -44,7 +44,7 @@
   max-width: 12em;
   line-height: 1;
   margin: 0.9em auto 0.7em;
-  color: #fff;
+  color: var(--color-white);
   letter-spacing: .05em;
 }
 .latest-collection .button {
@@ -102,7 +102,7 @@
     display: none;
   }
   .latest-collection .content-wrap {
-    color: #fff;
+    color: var(--color-white);
     text-align: center;
     position: unset;
     top: 0;
@@ -116,7 +116,7 @@
   }
   .latest-collection .main-grid {
     padding: 77px 6px;
-    background: #F7F6F3;
+    background: var(--color-Xlight-wheat);
   }
   .latest-collection .pre-title {
     display: none;
@@ -127,7 +127,7 @@
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #000;
+    color: var(--color-black);
     padding-top: 10px;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@
     letter-spacing: 1px;
   }
   .latest-collection .arrow text {
-    fill: #000;
+    fill: var(--color-black);
   }
   .latest-collection .button {
     display: none;

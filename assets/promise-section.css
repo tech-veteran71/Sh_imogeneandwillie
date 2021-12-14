@@ -1,5 +1,5 @@
 .promise-section {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
 }
 .promise-section .promise-container {
   max-width: 1920px;
@@ -25,7 +25,7 @@
   margin-bottom: 0;
   letter-spacing: 3px;
   line-height: 1.2;
-  color: #222222;
+  color: var(--color-normal-black);
 }
 .promise-section .alpha .title-wrap {
   max-width: 281px;
@@ -44,7 +44,7 @@
 .promise-section .btn {
   text-decoration: none;
   font-size: 14px;
-  color: #222222;
+  color: var(--color-normal-black);
   text-transform: uppercase;
   font-weight: 500;
   max-width: 226px;
@@ -53,7 +53,7 @@
   align-items: center;
   margin: 0 auto;
   letter-spacing: 3px;
-  border: 1px solid #222222;
+  border: 1px solid var(--color-normal-black);
   justify-content: center;
 }
 .promise-section .pre-title {
@@ -61,7 +61,7 @@
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.2;
-  color: #222222;
+  color: var(--color-normal-black);
   text-transform: lowercase;
   letter-spacing: 2px;
 }

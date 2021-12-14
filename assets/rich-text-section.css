@@ -1,6 +1,6 @@
 .rich-text-section { 
   padding: 80px 0 100px;
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
 }
 .rich-text-section .title {
   font-size: 20px;
@@ -9,7 +9,7 @@
   line-height: 1.4;
   margin-bottom: 10px;
   letter-spacing: 2px;
-  color: #222222;
+  color: var(--color-normal-black);
 }
 .rich-text-section .text-wrap {
   margin-bottom: 20px;
@@ -21,11 +21,11 @@
   font-size: 15px;
   line-height: 1.5;
   letter-spacing: 2px;
-  color: #434343;
+  color: var(--color-dim-black);
 }
 .rich-text-section .wrapper .btn {
   font-size: 14px;
-  color: #0F359B;
+  color: var(--color-blue);
   font-weight: 900;
   text-transform: uppercase;
   margin-top: 1px;

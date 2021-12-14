@@ -5,7 +5,7 @@
   position: relative;
 }
 .main-section {
-  background-color: #f7f6f3;
+  background-color: var(--color-Xlight-wheat);
   padding-bottom: 70px;
 }
 .new-arrival-section .content-wrap {
@@ -52,8 +52,8 @@
   height: 55px;
   align-items: center;
   justify-content: center;
-  color: #222222;
-  border: 1px solid #222222;
+  color: var(--color-normal-black);
+  border: 1px solid var(--color-normal-black);
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@
   content: "";
   height: 100%;
   width: 19.0%;
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   z-index: 99;
   position: absolute;
   top: 0;

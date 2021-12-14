@@ -13,13 +13,13 @@
   display: flex;
 }
 .terms-and-service-page .main-wrapper {
-  background-color: #F7F6F3;
+  background-color: var(--color-Xlight-wheat);
   padding: 1em 1.2em;
   width: 100%;
 }
 .terms-and-service-page .main-title {
   font-size: 28px;
-  color: #222222;
+  color: var(--color-normal-black);
   letter-spacing: 2px;
   margin: 0;
   line-height: 1.4;
@@ -33,7 +33,7 @@
   content: '';
   width: 3px;
   height: 100px;
-  background-color: #A0A0A0;
+  background-color: var(--color-dark-grey);
   display: block;
   position: absolute;
   top: 3px;
@@ -94,7 +94,7 @@
   .terms-and-service-page .page-main .main-title {
     text-align: center;
     padding: 34px 0;
-    background-color: #f0efec;
+    background-color: var(--color-light-wheat);
   }
   .terms-and-service-page .main-wrapper {
     padding: 0 0 40px;
