@@ -1,7 +1,14 @@
 {
   "current": {
-    "type_header_font": "helvetica_n4",
-    "type_body_font": "helvetica_n4",
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#121212",
+    "colors_accent_2": "#334FB4",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "assistant_n4",
+    "type_body_font": "assistant_n4",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -9,9 +16,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
+              "color_scheme": "background-1"
             }
           }
         },
@@ -20,112 +25,73 @@
         ],
         "settings": {
         }
-      },
-      "header": {
-        "type": "header",
-        "settings": {
-          "menu": "main-menu",
-          "btn_text": "THE JOURNAL",
-          "btn_url": "",
-          "text": "one of a kind the journal nashville",
-          "link_text": "HERE TO HELP",
-          "link": "",
-          "show_line_separator": true,
-          "enable_sticky_header": true
-        }
-      },
-      "custom-footer": {
-        "type": "custom-footer",
-        "settings": {
-          "newsletter_title": "JOIN THE I+W MAILING LIST",
-          "newsletter_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor lorem",
-          "text": "2106 12th ave s nashville, tn 37204",
-          "copyright_text": "© 2021 imogene + willie"
-        }
-      },
-      "login-template": {
-        "type": "login-template",
-        "settings": {
-          "bg_img": "shopify:\/\/shop_images\/june-28_050.png"
-        }
-      },
-      "register-template": {
-        "type": "register-template",
-        "settings": {
-          "bg_img": "shopify:\/\/shop_images\/june-28_050.png"
-        }
-      },
-      "mob-banner": {
-        "type": "mob-banner",
-        "settings": {
-          "img": "shopify:\/\/shop_images\/june-28_050.png"
-        }
-      },
-      "account-sidebar": {
-        "type": "account-sidebar",
-        "blocks": {
-          "6f7f2c8c-217a-41f2-9c51-94fb60352734": {
-            "type": "link",
-            "settings": {
-              "link_text": "order history",
-              "link_url": "https:\/\/imogene-w-dev.myshopify.com\/account"
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
             }
           },
-          "e31db313-3d37-4c7d-bd4c-929702eab22f": {
-            "type": "link",
-            "settings": {
-              "link_text": "returns",
-              "link_url": ""
-            }
-          },
-          "fa1cf4e3-8736-45c3-86cc-1107bde47d79": {
-            "type": "link",
-            "settings": {
-              "link_text": "account details",
-              "link_url": ""
-            }
-          },
-          "8fecf446-afdc-4059-a9f5-12abe4463d20": {
-            "type": "link",
-            "settings": {
-              "link_text": "addresses",
-              "link_url": ""
-            }
-          },
-          "139e7046-0aed-47d9-92d9-8b54872b9f87": {
-            "type": "link",
-            "settings": {
-              "link_text": "saved items",
-              "link_url": ""
-            }
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
           }
-        },
-        "block_order": [
-          "6f7f2c8c-217a-41f2-9c51-94fb60352734",
-          "e31db313-3d37-4c7d-bd4c-929702eab22f",
-          "fa1cf4e3-8736-45c3-86cc-1107bde47d79",
-          "8fecf446-afdc-4059-a9f5-12abe4463d20",
-          "139e7046-0aed-47d9-92d9-8b54872b9f87"
-        ],
-        "settings": {
-          "title": "my account"
-        }
-      },
-      "account-template": {
-        "type": "account-template",
-        "settings": {
-          "bg_img": "shopify:\/\/shop_images\/june-28_050.png"
-        }
-      },
-      "order-template": {
-        "type": "order-template",
-        "settings": {
-          "bg_img": "shopify:\/\/shop_images\/june-28_050.png"
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
+        }
+      }
+    }
   }
 }
