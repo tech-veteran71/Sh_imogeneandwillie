@@ -1,11 +1,42 @@
 .header-wrapper {
   background-color: var(--color-Xlight-wheat);
+  transition: all 0.3s ease-in-out;
 }
 .header {
   display: flex;
   justify-content: space-between;
   font-family: var(--font-heading-family);
 }
+
+/* specific css for header in fabric page start */
+.fabric-guide .header-wrapper {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 0;
+}
+.fabric-guide .header .header__menu-item,
+.fabric-guide .header .menu-utility-link {
+  color: var(--color-Xlight-wheat);
+  transition: all 0.2s ease-in-out;
+}
+.fabric-guide .header #cart-icon-bubble path,
+.fabric-guide .header .header__heading svg,
+.fabric-guide .header .header__icon--menu path {
+  fill: var(--color-Xlight-wheat);
+  transition: all 0.2s ease-in-out;
+}
+.fabric-guide .fabric-header .header__menu-item,
+.fabric-guide .fabric-header .menu-utility-link {
+  color: var(--color-normal-black);
+}
+.fabric-guide .fabric-header #cart-icon-bubble path,
+.fabric-guide .fabric-header .header__heading svg,
+.fabric-guide .fabric-header .header__icon--menu path {
+  fill: var(--color-normal-black);
+}
+/* specific css for header in fabric page end */
+
 .header .header__inline-menu {
   max-width: 450px;
   flex: 450px;
@@ -608,5 +639,10 @@
   }
   #menu-drawer .menu-drawer__inner-submenu .link-wrap {
     padding: 30px 20px;
+  }
+  .fabric-guide .header #cart-icon-bubble path,
+  .fabric-guide .header .header__heading svg,
+  .fabric-guide .header .header__icon--menu path {
+    fill: var(--color-normal-black);
   }
 }

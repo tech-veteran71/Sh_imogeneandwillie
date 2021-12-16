@@ -84,7 +84,7 @@
   background-color: var(--color-light-wheat);
   height: 4.9em;
 }
-.order-history .link-wrap {
+.order-history .customer .link-wrap {
   display: none;
 }
 
@@ -145,7 +145,7 @@
   .order-history .table-wrap thead {
     height: 58px;
   }
-  .order-history .link-wrap {
+  .order-history .customer .link-wrap {
     padding: 20px 0;
     text-align: center;
     display: block;

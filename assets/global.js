@@ -2772,12 +2772,52 @@ customElements.define("ajax-cart", AjaxCart);
      }
 
     //  image gallery swiper slider script
-     new Swiper('.image-gallery .image-slider', {
+    new Swiper('.image-gallery .image-slider', {
       slidesPerView: 1,
       spaceBetween: 10,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
       }
+    });
+
+    // product slider
+    if(document.documentElement.clientWidth > 768) {
+      new Swiper('.product-slider .product-grid', {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        scrollbar: {
+          el: '.swiper-scrollbar',
+              draggable: true,
+        },
+        breakpoints: {
+          1400: {
+            spaceBetween: 40,
+            slidesPerView: 4
+          },
+          1279: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          }
+        }
+      });
+    }
+
+    // change the header background color on fabric page when scrolling
+    const Fabricheader = document.querySelector('.fabric-guide .header-wrapper');
+    window.addEventListener('scroll', function() {
+      let scroll = window.scrollY;
+      if (Fabricheader) {
+        Fabricheader.style.backgroundColor = scroll > 0 ? '#F7F6F3' : 'transparent';
+        if(scroll > 0) {
+          Fabricheader.classList.add('fabric-header');
+        } else{
+          Fabricheader.classList.remove('fabric-header');
+        }
+      } 
     });
 })()

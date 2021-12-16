@@ -32,7 +32,7 @@
     alt="{{ image.alt | escape }}"
     loading="{{ loading | default: 'lazy' }}"
     {% if class != blank %}
-      class="{{ class }}"
+      class="{{ class }} {% if mob_img != blank %}desk-image{% endif %}"
     {% endif %}
   />
 {% endif %}
