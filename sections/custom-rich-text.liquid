@@ -1,0 +1,52 @@
+{{ 'custom-rich-text.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.text != blank %}
+  <div class="custom-rich-text">
+    <div class="fabric-container">
+      <div class="wrapper">
+        <div class="text-wrap">
+          <p class="text">{{ section.settings.text }}</p>
+        </div>
+        {% if section.settings.link_text != blank %}
+          <a class="link" href="{{ section.settings.link_url }}">
+            <span class="link-text">{{ section.settings.link_text }}</span>
+            <div class="icon-wrap">
+              {% include 'icon-down' %}
+            </div>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Custom Rich Text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "FIND YOUR FIT",
+      "info": "Just For Mobile"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    }
+  ]
+}
+{% endschema %}

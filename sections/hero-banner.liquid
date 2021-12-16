@@ -1,0 +1,69 @@
+{{ 'hero-banner.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.desk_img != blank and section.settings.mob_img == blank %}
+ {% assign mobImage = false %}
+{% endif %}
+<div class="hero-inner">
+  <div class="container">
+    <div class="banner">
+      <div class="banner-img">
+        {% if section.settings.desk_img or mobImage == false %}
+          {% render 'responsive--image' with section.settings.desk_img as image, max_width: 1920, class: 'image', mob_img: section.settings.mob_img %}
+            {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {% endif %}
+        {% if section.settings.mob_img != blank %}
+          {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
+        {% endif %}
+      </div>
+      {% if section.settings.link_text != blank %}
+        <a class="link" href="{{ section.settings.link_url }}">
+          <span class="link-text">{{ section.settings.link_text }}</span>
+          <div class="icon-wrap">
+            {% include 'icon-down' %}
+          </div>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero Banner",
+  "class": "hero-banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "desk_img",
+      "label": "Banner Image (Desktop)"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_img",
+      "label": "Banner Image (Mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "FIND YOUR FIT"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    }
+  ]
+}
+{% endschema %}

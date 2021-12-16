@@ -1,0 +1,101 @@
+{{ 'fabric-section.css' | asset_url | stylesheet_tag }}
+
+<div class="fabric-section">
+  <div class="container">
+    <div class="wrapper">
+      {% if section.settings.main_title != blank %}
+        <div class="title-wrap">
+          <h2 class="main-title">{{ section.settings.main_title }}</h2>
+        </div>
+      {% endif %}
+      <div class="fabric-grid">
+        {% for block in section.blocks %}
+          <div class="fabric-block">
+            {% if block.settings.img != blank %}
+              <div class="img-wrap">
+                {% render 'responsive--image' with block.settings.img as image, max_width: 724, class: 'image' %}
+              </div>
+              {% else %}
+              <div class="img-wrap">
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              </div>
+            {% endif %}
+            <div class="content-wrap">
+              {% if block.settings.title != blank %}
+                <h3 class="title">{{ block.settings.title }}</h3>
+              {% endif %}
+              {% if block.settings.text != blank %}
+                <p class="text">{{ block.settings.text }}</p>
+              {% endif %}
+              {% if block.settings.link_text != blank %}
+                <a href="{{ block.settings.link_url }}" class="link">{{ block.settings.link_text }}</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Fabric Section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "LOREM IPSUM FABRIC"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Fabric Info",
+      "type": "fabric_info",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "-------"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        },
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

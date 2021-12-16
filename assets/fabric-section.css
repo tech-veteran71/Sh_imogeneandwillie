@@ -1,0 +1,115 @@
+.fabric-section {
+  padding-bottom: 11.75em;
+  padding-top: 4em;
+  font-size: 1.2vw;
+  background-color: var(--color-Xlight-wheat);
+}
+.fabric-section .container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.fabric-section .title-wrap {
+  margin-bottom: 4em;
+}
+.fabric-section .main-title {
+  font-size: 23px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-normal-black);
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+.fabric-section .fabric-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 6em;
+}
+.fabric-section .fabric-block {
+  position: relative;
+}
+.fabric-section .image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.fabric-section .content-wrap {
+  max-width: 19em;
+  height: 16.75em;
+  background-color: var(--color-white);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -8.25em;
+  padding: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.fabric-section .fabric-block .title {
+  font-size: 23px;
+  letter-spacing: 3px;
+  color: var(--color-normal-black);
+  margin: 0;
+  text-transform: uppercase;
+}
+.fabric-section .fabric-block .text {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: var(--color-normal-black);
+  margin: 1em 0 1.25em;
+  line-height: 1.4;
+  text-align: center;
+}
+.fabric-section .fabric-block .link {
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: var(--color-blue);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media screen and (min-width: 1400px) {
+  .fabric-section {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .fabric-section .fabric-block .title {
+    font-size: 20px;
+  }
+  .fabric-section .fabric-block .text {
+    font-size: 14px;
+  }
+  .fabric-section .fabric-block .link {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .fabric-section .content-wrap {
+    max-width: 23em;
+  }
+}
+@media screen and (max-width: 990px) {
+  .fabric-section .content-wrap {
+    max-width: 26em;
+  }
+  .fabric-section .fabric-block .title {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .fabric-section .fabric-block .text {
+    font-size: 12px;
+  }
+  .fabric-section .fabric-block .link {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) { 
+  .fabric-section {
+    display: none;
+  }
+}
