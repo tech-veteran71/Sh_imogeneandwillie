@@ -13,6 +13,13 @@
   display: block;
   object-fit: cover;
 }
+.grand-image-section .placeholder-svg {
+  width: 100%;
+  height: 100%;
+}
+.grand-image-section .image-wrap .mob-image {
+  display: none;
+}
 
 @media screen and (min-width:1400px){
   .grand-image-section .image-wrap {
@@ -25,5 +32,11 @@
   }
   .grand-image-section .index-container {
     padding: 0;
+  }
+  .grand-image-section .image-wrap .desk-image {
+    display: none;
+  }
+  .grand-image-section .image-wrap .mob-image {
+    display: block;
   }
 }

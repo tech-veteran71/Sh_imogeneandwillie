@@ -1,16 +1,19 @@
 {{ 'banner-section.css' | asset_url | stylesheet_tag }}
+
 <div class="banner-section">
 	<div class="wrapper">
-  {% if section.settings.desktop_banner_img != blank %}
-    <div class="banner-img desktop-banner">
-      {% render 'responsive--image' with section.settings.desktop_banner_img as image, max_width: 1920, class: 'img' %}
-    </div>
-  {% endif %}
-  {% if section.settings.mobile_banner_img != blank %}
-    <div class="banner-img mobile-banner">
-      {% render 'responsive--image' with section.settings.mobile_banner_img as image, max_width: 420, class: 'img' %}
-    </div>
-  {% endif %}
+    {% if section.settings.desktop_banner_img %}
+      <div class="banner-img {% if section.settings.mobile_banner_img != blank %}desktop-banner{% endif %}">
+        {% render 'responsive--image' with section.settings.desktop_banner_img as image, max_width: 1920, class: 'img' %}
+      </div>
+    {% else %}
+      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+    {% endif %}
+    {% if section.settings.mobile_banner_img != blank %}
+      <div class="banner-img mobile-banner">
+        {% render 'responsive--image' with section.settings.mobile_banner_img as image, max_width: 420, class: 'img' %}
+      </div>
+    {% endif %}
 	</div>
 </div>
 

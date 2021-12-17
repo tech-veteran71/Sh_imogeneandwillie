@@ -5,14 +5,16 @@
       <div class="main-grid">
         {% for block in section.blocks %}
         <div class="collection-item">
-          {% if block.settings.img != blank %}
           <div class="img-wrap">
-            {% render 'responsive--image' with block.settings.img as image, max_width: 683, class: 'img' %}
+            {% if block.settings.img != blank %}
+              {% render 'responsive--image' with block.settings.img as image, max_width: 683, class: 'img' %}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
           </div>
-        {% endif %}
-        {% if block.settings.btn_text != blank %}
-          <a href="{{ block.settings.btn_url }}" class="button">{{ block.settings.btn_text }}</a>
-        {% endif %}
+          {% if block.settings.btn_text != blank %}
+            <a href="{{ block.settings.btn_url }}" class="button">{{ block.settings.btn_text }}</a>
+          {% endif %}
         </div>
       {% endfor %}
       </div>

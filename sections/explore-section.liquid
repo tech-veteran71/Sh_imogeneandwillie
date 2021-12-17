@@ -1,4 +1,5 @@
 {{ 'explore-section.css ' | asset_url | stylesheet_tag }}
+
 <div class="explore-section">
   <div class="index-container">
     <div class="wrapper">
@@ -8,14 +9,19 @@
       <div class="contents-wrapper">
         {% for block in section.blocks %}
           <div class="content-wrap">
-            {% if block.settings.img != blank %}
-              <div class="img-wrap">
-                {% render 'responsive--image' with block.settings.img as image, max_width: 349, class: 'img' %}
-              </div>
-            {% endif %}
+            <div class="img-wrap">
+              {% if block.settings.desk_img %}
+                {% render 'responsive--image' with block.settings.desk_img as image, max_width: 349, class: 'img', mob_img: block.settings.mob_img %}
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+              {% if block.settings.mob_img != blank %}
+                {% render 'responsive--image' with block.settings.mob_img as image, max_width: 360, class: 'img mob-image' %}
+              {% endif %}
+            </div>
             {% if block.settings.text != blank %}
               <div class="text-wrap">
-                <span class="text" >{{ block.settings.text }}</span>
+                <span class="text">{{ block.settings.text }}</span>
               </div>
             {% endif %}
           </div>  
@@ -66,8 +72,13 @@
         },
         {
           "type": "image_picker",
-          "id": "img",
-          "label": "Image"
+          "id": "desk_img",
+          "label": "Image (Desktop)"
+        },
+        {
+          "type": "image_picker",
+          "id": "mob_img",
+          "label": "Image (Mobile)"
         },
         {
           "type": "header",

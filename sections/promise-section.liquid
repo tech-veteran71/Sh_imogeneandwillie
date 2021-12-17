@@ -25,13 +25,18 @@
             {% endif %}
           </div>
         </div>
-        {% if section.settings.img != blank %}
-          <div class="beta">
-            <div class="image">
-              {% render 'responsive--image' with section.settings.img as image, max_width: 428, class: 'img' %}
-            </div>
+        <div class="beta">
+          <div class="image">
+            {% if section.settings.desk_img != blank %}
+              {% render 'responsive--image' with section.settings.desk_img as image, max_width: 428, class: 'img', mob_img: section.settings.mob_img %}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+            {% if section.settings.mob_img != blank %}
+              {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'img mob-image' %}
+            {% endif %}
           </div>
-        {% endif %}
+        </div>
       </div>
     </div>
   </div>
@@ -47,8 +52,13 @@
     },
     {
       "type": "image_picker",
-      "id": "img",
-      "label": "Image"
+      "id": "desk_img",
+      "label": "Image (Desktop)"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_img",
+      "label": "Image (Mobile)"
     },
     {
       "type": "header",

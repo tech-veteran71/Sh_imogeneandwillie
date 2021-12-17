@@ -31,11 +31,13 @@
       </div>
        <div class="content-wrap">
       <a class="beta" href="{{ section.settings.link_url }}">
-        {% if  section.settings.img != blank %}
-          <div class="image">
+        <div class="image">
+          {% if section.settings.img != blank %}
             {% render 'responsive--image' with section.settings.img as image, max_width: 909, class: 'img' %}
-          </div>
-        {% endif %}
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+        </div>
         <div class="info-wrap">
            {% if section.settings.product_title != blank %}
           <h2 class="product-title">{{ section.settings.product_title }}</h2>
