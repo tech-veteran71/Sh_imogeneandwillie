@@ -34,6 +34,9 @@
   display: block;
   object-fit: cover;
 }
+.explore-section .img-wrap .mob-image {
+  display: none;
+}
 .explore-section .btn-wrap {
   max-width: 25.05em;
   height: 3.37em;
@@ -52,6 +55,10 @@
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+}
+.explore-section .placeholder-svg {
+  width: 100%;
+  height: 100%;
 }
 /* responsive start */
 @media screen and (min-width: 1400px) {
@@ -96,6 +103,12 @@
     height: auto;
   }
   .explore-section .btn-wrap {
+    display: none;
+  }
+  .explore-section .img-wrap .mob-image {
+    display: block;
+  }
+  .explore-section .img-wrap .desk-image {
     display: none;
   }
 }

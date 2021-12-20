@@ -71,6 +71,13 @@
   object-fit: cover;
   display: block;
 }
+.promise-section .placeholder-svg {
+  width: 100%;
+  height: 100%;
+}
+.promise-section .mob-image {
+  display: none;
+}
 /* responsive start */
 @media(max-width: 1560px ){
   .promise-section .content {
@@ -144,5 +151,11 @@
     font-size: 14px;
     max-width: 226px;
     height: 52px;
+  }
+  .promise-section .mob-image {
+    display: block;
+  }
+  .promise-section .desk-image {
+    display: none;
   }
 }

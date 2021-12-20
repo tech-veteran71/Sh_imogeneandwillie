@@ -1,12 +1,177 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "banner": {
+      "type": "video-banner",
       "settings": {
+        "video_poster": "shopify:\/\/shop_images\/Header_IMG_692e3d02-efc9-4ca0-b9c2-19b5f1ac093e.png",
+        "video_url": "https:\/\/www.youtube.com\/embed\/nc5Lj90BzSQ?controls=0",
+        "video_controls": false
+      }
+    },
+    "shop_info": {
+      "type": "shop-info",
+      "blocks": {
+        "99d73b96-7c5b-4768-a33f-d0b087cdce19": {
+          "type": "shop_timing",
+          "settings": {
+            "days": "monday – thursday",
+            "timing": "11:00am – 5:00pm"
+          }
+        },
+        "f1b6afc8-fa21-4c2c-8f49-cfd0701eb0f4": {
+          "type": "shop_timing",
+          "settings": {
+            "days": "friday – saturday",
+            "timing": "10:00am – 5:00pm"
+          }
+        },
+        "ecf164f5-2b40-429b-88e8-04fa8cd581a8": {
+          "type": "shop_timing",
+          "settings": {
+            "days": "sunday",
+            "timing": "12:00am – 5:00pm"
+          }
+        },
+        "52ef6d24-8e3d-4f2e-b4fa-d080a88d8ca4": {
+          "type": "shop_detials",
+          "settings": {
+            "title": "address:",
+            "text": "<span>2601 12th avenue south<\/span>\n<span>nashville, tennessee 37204<\/span>"
+          }
+        },
+        "8bb65877-6ba7-4494-8a47-d7c69504e1a8": {
+          "type": "shop_detials",
+          "settings": {
+            "title": "phone:",
+            "text": "<span>+1 (615) 292-5005<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "99d73b96-7c5b-4768-a33f-d0b087cdce19",
+        "f1b6afc8-fa21-4c2c-8f49-cfd0701eb0f4",
+        "ecf164f5-2b40-429b-88e8-04fa8cd581a8",
+        "52ef6d24-8e3d-4f2e-b4fa-d080a88d8ca4",
+        "8bb65877-6ba7-4494-8a47-d7c69504e1a8"
+      ],
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Image_186.png",
+        "main_title": "visit the shop:",
+        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
+        "heading": "shop info",
+        "sub_title": "hours:"
+      }
+    },
+    "gallery": {
+      "type": "image-gallery",
+      "blocks": {
+        "b69a4756-d039-428e-94bb-26ccaca049f9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_182.png"
+          }
+        },
+        "6133bb0e-89e7-4e75-acff-c9f2549047f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_184.png"
+          }
+        },
+        "ad7465a1-e755-44db-ac44-57fe32653d8b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_183.png"
+          }
+        },
+        "5c73ef34-cfb3-4e0d-910e-ccde95acf278": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_179.png"
+          }
+        },
+        "f0bc0401-352a-4c0e-9e92-7634fa4a45d6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_181.png"
+          }
+        },
+        "433a86a9-cb6f-434c-9c61-8cd11c7b5217": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_180.png"
+          }
+        },
+        "a0cb4535-3a8f-43fd-896d-a092248e3fe6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_185.png"
+          }
+        },
+        "fdff7324-ba77-4c65-aac1-5f30d153e82b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/supper_song_19_copy_f8233a1e-539e-4d74-81e8-4080e19d8202.png"
+          }
+        }
+      },
+      "block_order": [
+        "b69a4756-d039-428e-94bb-26ccaca049f9",
+        "6133bb0e-89e7-4e75-acff-c9f2549047f5",
+        "ad7465a1-e755-44db-ac44-57fe32653d8b",
+        "5c73ef34-cfb3-4e0d-910e-ccde95acf278",
+        "f0bc0401-352a-4c0e-9e92-7634fa4a45d6",
+        "433a86a9-cb6f-434c-9c61-8cd11c7b5217",
+        "a0cb4535-3a8f-43fd-896d-a092248e3fe6",
+        "fdff7324-ba77-4c65-aac1-5f30d153e82b"
+      ],
+      "settings": {
+      }
+    },
+    "video-with-text": {
+      "type": "video-with-text",
+      "settings": {
+        "video_poster": "shopify:\/\/shop_images\/Screen_Shot_2021-07-09_at_4.06.10_PM.png",
+        "video_url": "https:\/\/www.youtube.com\/embed\/nc5Lj90BzSQ?controls=0",
+        "video_controls": true,
+        "pre_title": "( circa 2012 )",
+        "title": "take a look back",
+        "main_title": "HOW IT ALL STARTED",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "btn_text": "LOREM IPSUM",
+        "btn_url": ""
+      }
+    },
+    "community-section": {
+      "type": "community-section",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/gallery-4.png",
+        "mob_img": "shopify:\/\/shop_images\/supper_song_19_copy_f8233a1e-539e-4d74-81e8-4080e19d8202.png",
+        "pre_title": "( our home )",
+        "title": "supper + song",
+        "text": "a gathering of community around music hosted semi-monthly in the warmer months. supper + song is free and open to the public — our backyard is yours. bring a blanket, your loved ones (dogs included), and your own beverages.",
+        "link_text": "MORE INFO",
+        "link_url": "",
+        "mob_link_text": "continue reading",
+        "mob_link_url": ""
+      }
+    },
+    "fade-section": {
+      "type": "fade-section",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/oneyearwear_-3.png",
+        "title": "love fades",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation",
+        "btn_text": "LOREM IPSUM",
+        "btn_url": ""
       }
     }
   },
   "order": [
-    "main"
+    "banner",
+    "shop_info",
+    "gallery",
+    "video-with-text",
+    "community-section",
+    "fade-section"
   ]
 }

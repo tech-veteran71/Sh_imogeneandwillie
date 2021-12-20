@@ -48,6 +48,13 @@
   margin: 0 auto;
   text-align: center;
 }
+.image-with-text .image .mob-image {
+  display: none;
+}
+.image-with-text .placeholder-svg {
+  width: 100%;
+  height: 100%;
+}
 /* responsive start */
 @media screen and (min-width: 1400px) {
   .image-with-text {
@@ -88,5 +95,11 @@
   }
   .image-with-text .content-wrap .link {
     font-size: 14px;
+  }
+  .image-with-text .image .desk-image {
+    display: none;
+  }
+  .image-with-text .image .mob-image {
+    display: block;
   }
 }

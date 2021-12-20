@@ -1,18 +1,21 @@
 {{ 'latest-collection.css' | asset_url | stylesheet_tag }}
+
 <div class="latest-collection">
   <div class="container">
     <div class="wrapper">
       <div class="main-grid">
         {% for block in section.blocks %}
           <div class="collection-item">
-            {% if block.settings.img_desk != blank %}
-              <div class="img-wrap desk-img">
-              {% render 'responsive--image' with block.settings.img_desk as image, max_width: 960, class: 'img' %}
+            {% if block.settings.img_desk %}
+              <div class="img-wrap {% if block.settings.img_mob != blank %}desk-img{% endif %}">
+                {% render 'responsive--image' with block.settings.img_desk as image, max_width: 960, class: 'img'%}
               </div>
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {% endif %}
             {% if block.settings.img_mob != blank %}
               <div class="img-wrap mob-img">
-              {% render 'responsive--image' with block.settings.img_mob as image, max_width: 209, class: 'img' %}
+                {% render 'responsive--image' with block.settings.img_mob as image, max_width: 209, class: 'img' %}
               </div>
             {% endif %}
             <div class="content-wrap">
