@@ -1,12 +1,188 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "hero-banner",
       "settings": {
+        "desk_img": "shopify:\/\/shop_images\/Header_17739405-e4b3-4a82-b956-bfbe1d498a8b.png",
+        "mob_img": "shopify:\/\/shop_images\/Header_IMG_ef769324-089e-48f3-8376-5d2b4bbb26c4.png",
+        "link_text": "FIND YOUR FIT",
+        "link_url": ""
+      }
+    },
+    "rich-text": {
+      "type": "custom-rich-text",
+      "settings": {
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "link_text": "FIND YOUR FIT",
+        "link_url": ""
+      }
+    },
+    "collage-section": {
+      "type": "collage-section",
+      "settings": {
+        "bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/Collage.png",
+        "mob_img": "shopify:\/\/shop_images\/Image_275.png",
+        "pre_title": "( lorem ipsum )",
+        "main_title": "indigo",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "btn_text": "SHOP INDIGO",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false
+      }
+    },
+    "slider": {
+      "type": "product-slider",
+      "settings": {
+        "bg_color": "#f7f6f3",
+        "choose_collection": "denim",
+        "btn_text": "SHOP indigo",
+        "btn_url": ""
+      }
+    },
+    "163963500604115f8d": {
+      "type": "collage-section",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desk_img": "shopify:\/\/shop_images\/Collage_404f29ec-a8b9-495b-964d-62e5d70e83e7.png",
+        "mob_img": "shopify:\/\/shop_images\/Image_188.png",
+        "pre_title": "( team favorite )",
+        "main_title": "washed",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "btn_text": "SHOP WASHED",
+        "btn_url": "",
+        "change_alignment": true,
+        "show_btn": false
+      }
+    },
+    "1639635140ac8cfe60": {
+      "type": "product-slider",
+      "settings": {
+        "bg_color": "#ffffff",
+        "choose_collection": "featured",
+        "btn_text": "shop washed",
+        "btn_url": ""
+      }
+    },
+    "1639635146b0133f09": {
+      "type": "collage-section",
+      "settings": {
+        "bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/Collage_4a5a4acf-2e5d-47f3-be75-841adce0844e.png",
+        "mob_img": "shopify:\/\/shop_images\/Image_285.png",
+        "pre_title": "( featured fit )",
+        "main_title": "black",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "btn_text": "SHOP BLACK",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false
+      }
+    },
+    "163963521571238662": {
+      "type": "product-slider",
+      "settings": {
+        "bg_color": "#f7f6f3",
+        "choose_collection": "mens-new-arrival",
+        "btn_text": "shop black",
+        "btn_url": ""
+      }
+    },
+    "1639635223785c4970": {
+      "type": "collage-section",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desk_img": "shopify:\/\/shop_images\/Collage_c317db02-bead-4e7f-9663-95356b8dfc6e.png",
+        "mob_img": "shopify:\/\/shop_images\/Image_9.png",
+        "pre_title": "( the original )",
+        "main_title": "white\/natural",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "btn_text": "SHOP WHITE\/NATURAL",
+        "btn_url": "",
+        "change_alignment": true,
+        "show_btn": false
+      }
+    },
+    "16396352870cb36956": {
+      "type": "product-slider",
+      "settings": {
+        "bg_color": "#ffffff",
+        "choose_collection": "featured",
+        "btn_text": "shop white\/natural",
+        "btn_url": ""
+      }
+    },
+    "1639635293f0bb6f00": {
+      "type": "collage-section",
+      "settings": {
+        "bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/Collage_b362824b-29e6-44b8-8aed-f892f85c3d71.png",
+        "mob_img": "shopify:\/\/shop_images\/Image_275.png",
+        "pre_title": "( lorem ipsum )",
+        "main_title": "lorem ipsum",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "btn_text": "SHOP LOREM",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false
+      }
+    },
+    "1639635379cd9a23d1": {
+      "type": "product-slider",
+      "settings": {
+        "bg_color": "#f7f6f3",
+        "choose_collection": "womens-new-arrival",
+        "btn_text": "shop lorem",
+        "btn_url": ""
+      }
+    },
+    "fabric-section": {
+      "type": "fabric-section",
+      "blocks": {
+        "9cdd61d1-0919-46e1-ac04-aa2fa001bc36": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_557.png",
+            "title": "100% CoTTON",
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "link_text": "SHOP ALL >",
+            "link_url": ""
+          }
+        },
+        "8e956686-3322-4179-91b2-56ec78133723": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_544.png",
+            "title": "STRETCH DENIM",
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "link_text": "SHOP ALL >",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "9cdd61d1-0919-46e1-ac04-aa2fa001bc36",
+        "8e956686-3322-4179-91b2-56ec78133723"
+      ],
+      "settings": {
+        "main_title": "LOREM IPSUM FABRIC"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich-text",
+    "collage-section",
+    "slider",
+    "163963500604115f8d",
+    "1639635140ac8cfe60",
+    "1639635146b0133f09",
+    "163963521571238662",
+    "1639635223785c4970",
+    "16396352870cb36956",
+    "1639635293f0bb6f00",
+    "1639635379cd9a23d1",
+    "fabric-section"
   ]
 }

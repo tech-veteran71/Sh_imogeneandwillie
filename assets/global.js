@@ -2791,13 +2791,13 @@ customElements.define("ajax-cart", AjaxCart);
               draggable: true,
         },
         breakpoints: {
-          1400: {
+          1600: {
             spaceBetween: 40,
             slidesPerView: 4
           },
           1279: {
             slidesPerView: 4,
-            spaceBetween: 20,
+            spaceBetween: 30,
           },
           768: {
             slidesPerView: 3,

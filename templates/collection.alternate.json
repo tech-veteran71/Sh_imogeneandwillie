@@ -3,10 +3,70 @@
     "banner": {
       "type": "collection-banner",
       "settings": {
+        "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
+        "mob_bg_img": "shopify:\/\/shop_images\/NAV_IMG.png",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
+      }
+    },
+    "1634922614a8d39d99": {
+      "type": "main-collection",
+      "settings": {
+        "fit_guide_img": "shopify:\/\/shop_images\/Fit_Guide.png",
+        "fit_guide_link": "",
+        "fabric_guide_img": "shopify:\/\/shop_images\/Fabric_Guide.png",
+        "fabric_guide_link": "",
+        "collection_title": "men’s denim",
+        "product_per_row": 3,
+        "review": "“i want to die with my blue jeans on.”",
+        "customer_name": "- Andy Warhol"
+      }
+    },
+    "16349722082612cf8c": {
+      "type": "image-with--text",
+      "blocks": {
+        "eda6fb74-3f1a-4936-8b55-da1780895aa9": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/willie_indigo_rigid-01_copy.png"
+          }
+        },
+        "5284605f-a6d0-4dd5-b77c-6b1c808f1835": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/sewing-4-14_-7.png"
+          }
+        },
+        "948bb98b-7cba-4f1a-9ba1-14772888481c": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/oyw.png"
+          }
+        },
+        "60040d31-0d5f-4dda-84f9-4e7a867308d5": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/butt-repair-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "eda6fb74-3f1a-4936-8b55-da1780895aa9",
+        "5284605f-a6d0-4dd5-b77c-6b1c808f1835",
+        "948bb98b-7cba-4f1a-9ba1-14772888481c",
+        "60040d31-0d5f-4dda-84f9-4e7a867308d5"
+      ],
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Image_175.png",
+        "title": "AMERICAN-MADE DENIM",
+        "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim  produced in the us since the closure of cone mills, nc.",
+        "btn_text": "SHOP ALL",
+        "btn_url": ""
       }
     }
   },
   "order": [
-    "banner"
+    "banner",
+    "1634922614a8d39d99",
+    "16349722082612cf8c"
   ]
 }

@@ -2,7 +2,182 @@
   "sections": {
     "main": {
       "type": "faq-template",
+      "blocks": {
+        "da7296a6-a575-45a7-a05a-a827a11a23bd": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "frequent asked questions",
+            "link_url": "shopify:\/\/pages\/faq"
+          }
+        },
+        "75795088-81d5-4850-a628-95710457a309": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "denim care",
+            "link_url": ""
+          }
+        },
+        "60a76b08-ce3e-40d3-a782-e454747f03ab": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "shipping \/ returns",
+            "link_url": ""
+          }
+        },
+        "571b312d-6356-4da4-862a-8ecb4578fc8a": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "repair policy",
+            "link_url": ""
+          }
+        },
+        "0ae4217b-c7ca-460e-be5f-6f1e1c9bd04d": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "privacy policy",
+            "link_url": ""
+          }
+        },
+        "6c3f1a8a-f959-4413-9849-3dced7c2b794": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "terms + conditions",
+            "link_url": "shopify:\/\/pages\/terms-and-condition"
+          }
+        },
+        "08b08d86-0a1f-43bf-8ddc-b729f5256e30": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "contact us",
+            "link_url": ""
+          }
+        },
+        "fba7e2f9-1b43-456e-8232-6a3220c0c755": {
+          "type": "info",
+          "settings": {
+            "label": "phone",
+            "link_text": "+1 (615) 292-5005",
+            "link_url": ""
+          }
+        },
+        "4fa051e5-ef8b-4976-a042-4acc72c8ee01": {
+          "type": "info",
+          "settings": {
+            "label": "email",
+            "link_text": "help@imogeneandwillie.com",
+            "link_url": ""
+          }
+        },
+        "a9d2165f-f60b-41fd-a1df-8f52854d8ad0": {
+          "type": "info",
+          "settings": {
+            "label": "chat",
+            "link_text": "start chat now",
+            "link_url": ""
+          }
+        },
+        "1d15f5ea-8dd1-4061-ada3-7fc20f1ae811": {
+          "type": "info",
+          "settings": {
+            "label": "customer service hours:",
+            "link_text": "mon-sat 9-6ct",
+            "link_url": ""
+          }
+        },
+        "23946803-c075-4a53-a1dc-82132734d401": {
+          "type": "faq",
+          "settings": {
+            "accordian_sub_title": "product",
+            "accordian_title_1": "how do i decide which style of jean will fit me best?",
+            "text_1": "there are a hundred different ways to wear our jeans, and each person’s body and style can affect what they choose. that’s what we love about denim! but, we know it can be a bit overwelming to choose your first pair. we recommend taking a look at the size and fit sections of each item to get a sense of how the jean fits, but we’re always here to help. please call us at (615) 739 5286 or email us at help@imogeneandwillie.com if you’d like help with a fit or style recommendation.",
+            "accordian_title_2": "how do i decide which style of jean will fit me best?",
+            "text_2": "there are a hundred different ways to wear our jeans, and each person’s body and style can affect what they choose. that’s what we love about denim! but, we know it can be a bit overwelming to choose your first pair. we recommend taking a look at the size and fit sections of each item to get a sense of how the jean fits, but we’re always here to help. please call us at (615) 739 5286 or email us at help@imogeneandwillie.com if you’d like help with a fit or style recommendation.",
+            "accordian_title_3": "how do i decide which style of jean will fit me best?",
+            "text_3": "there are a hundred different ways to wear our jeans, and each person’s body and style can affect what they choose. that’s what we love about denim! but, we know it can be a bit overwelming to choose your first pair. we recommend taking a look at the size and fit sections of each item to get a sense of how the jean fits, but we’re always here to help. please call us at (615) 739 5286 or email us at help@imogeneandwillie.com if you’d like help with a fit or style recommendation.",
+            "accordian_title_4": "",
+            "text_4": "",
+            "accordian_title_5": "",
+            "text_5": "",
+            "accordian_title_6": "",
+            "text_6": "",
+            "accordian_title_7": "",
+            "text_7": "",
+            "accordian_title_8": "",
+            "text_8": "",
+            "accordian_title_9": "",
+            "text_9": "",
+            "accordian_title_10": "",
+            "text_10": "",
+            "accordian_title_11": "",
+            "text_11": "",
+            "accordian_title_12": "",
+            "text_12": "",
+            "accordian_title_13": "",
+            "text_13": "",
+            "accordian_title_14": "",
+            "text_14": "",
+            "accordian_title_15": "",
+            "text_15": ""
+          }
+        },
+        "62ca7111-b9ae-4ac8-a782-c152fc5a134f": {
+          "type": "faq",
+          "settings": {
+            "accordian_sub_title": "product cares",
+            "accordian_title_1": "how do i decide which style of jean will fit me best?",
+            "text_1": "there are a hundred different ways to wear our jeans, and each person’s body and style can affect what they choose. that’s what we love about denim! but, we know it can be a bit overwelming to choose your first pair. we recommend taking a look at the size and fit sections of each item to get a sense of how the jean fits, but we’re always here to help. please call us at (615) 739 5286 or email us at help@imogeneandwillie.com if you’d like help with a fit or style recommendation.",
+            "accordian_title_2": "how do i decide which style of jean will fit me best?",
+            "text_2": "there are a hundred different ways to wear our jeans, and each person’s body and style can affect what they choose. that’s what we love about denim! but, we know it can be a bit overwelming to choose your first pair. we recommend taking a look at the size and fit sections of each item to get a sense of how the jean fits, but we’re always here to help. please call us at (615) 739 5286 or email us at help@imogeneandwillie.com if you’d like help with a fit or style recommendation.",
+            "accordian_title_3": "how do i decide which style of jean will fit me best?",
+            "text_3": "there are a hundred different ways to wear our jeans, and each person’s body and style can affect what they choose. that’s what we love about denim! but, we know it can be a bit overwelming to choose your first pair. we recommend taking a look at the size and fit sections of each item to get a sense of how the jean fits, but we’re always here to help. please call us at (615) 739 5286 or email us at help@imogeneandwillie.com if you’d like help with a fit or style recommendation.",
+            "accordian_title_4": "",
+            "text_4": "",
+            "accordian_title_5": "",
+            "text_5": "",
+            "accordian_title_6": "",
+            "text_6": "",
+            "accordian_title_7": "",
+            "text_7": "",
+            "accordian_title_8": "",
+            "text_8": "",
+            "accordian_title_9": "",
+            "text_9": "",
+            "accordian_title_10": "",
+            "text_10": "",
+            "accordian_title_11": "",
+            "text_11": "",
+            "accordian_title_12": "",
+            "text_12": "",
+            "accordian_title_13": "",
+            "text_13": "",
+            "accordian_title_14": "",
+            "text_14": "",
+            "accordian_title_15": "",
+            "text_15": ""
+          }
+        }
+      },
+      "block_order": [
+        "da7296a6-a575-45a7-a05a-a827a11a23bd",
+        "75795088-81d5-4850-a628-95710457a309",
+        "60a76b08-ce3e-40d3-a782-e454747f03ab",
+        "571b312d-6356-4da4-862a-8ecb4578fc8a",
+        "0ae4217b-c7ca-460e-be5f-6f1e1c9bd04d",
+        "6c3f1a8a-f959-4413-9849-3dced7c2b794",
+        "08b08d86-0a1f-43bf-8ddc-b729f5256e30",
+        "fba7e2f9-1b43-456e-8232-6a3220c0c755",
+        "4fa051e5-ef8b-4976-a042-4acc72c8ee01",
+        "a9d2165f-f60b-41fd-a1df-8f52854d8ad0",
+        "1d15f5ea-8dd1-4061-ada3-7fc20f1ae811",
+        "23946803-c075-4a53-a1dc-82132734d401",
+        "62ca7111-b9ae-4ac8-a782-c152fc5a134f"
+      ],
       "settings": {
+        "bg_img": "shopify:\/\/shop_images\/arizonamag_-23.png",
+        "banner_img": "shopify:\/\/shop_images\/arizonamag_-23.png",
+        "main_title": "frequently asked questions",
+        "title": "help",
+        "info_title": "contact"
       }
     }
   },

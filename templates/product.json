@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -30,16 +23,13 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
+            "picker_type": "button"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -47,34 +37,138 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "69a8b823-a49f-43fc-8c88-78d4735bfcc7": {
+          "type": "accordian",
           "settings": {
+            "accordian_title": "fit and sizing",
+            "accordian_body": "<p>henry sits slightly above the hips and has a 10 3\/4\" rise with relaxed, tapered 16 1\/2\" leg opening.<\/p>\n\n<span>fits true to size<\/span>\n<span>model is 5'10 wearing size 31<\/span>\n\n<p>ship with 34\" inseam - complimentary hems available upon request <a href=\"\">more info.<\/a><\/p>\n\n\n<button>\n<div>\n<svg version=\"1.0\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28.000000pt\" height=\"43.000000pt\" viewbox=\"0 0 28.000000 43.000000\" preserveaspectratio=\"xMidYMid meet\">\n<g transform=\"translate(0.000000,43.000000) scale(0.100000,-0.100000)\" fill=\"#000000\" stroke=\"none\">\n<path d=\"M30 200 l0 -170 115 0 115 0 0 170 0 170 -115 0 -115 0 0 -170z m210\n5 l0 -145 -95 0 c-95 0 -95 0 -95 25 0 23 4 25 45 25 33 0 45 4 45 15 0 11\n-12 15 -45 15 -41 0 -45 2 -45 25 0 24 3 25 60 25 77 0 79 18 3 22 -54 3 -58\n5 -58 28 0 22 5 25 43 28 56 4 54 22 -3 22 -43 0 -45 1 -45 30 l0 30 95 0 95\n0 0 -145z\"><\/path>\n<\/g>\n<\/svg>\n<\/div>\n<span>size guide<\/span>\n<\/button>\n\n<p>if you need any help determining your size, please feel free to <a href=\"\">react out to us.<\/a><\/p>"
+          }
+        },
+        "885c349d-e8e1-42fc-9ea0-d39ff2bccc19": {
+          "type": "accordian",
+          "settings": {
+            "accordian_title": "care and materials",
+            "accordian_body": "<p>patterned, cut, and sewn in the USA from 13.5oz Niphon Menpu selvage denim. button-fly 5 pocked construction<\/p>\n\n<span>100% cotton<\/span>\n\n<div>\n<p>crafted with purpose from it design down to the smallest details, wear often, wash not so often<\/p>\n<\/div>\n\n<p>each pair of jeans tells a story as they wear in and fade, your jeans become a part of you. for more on how to care for your jeans over time, visit our <a href=\"\">denim care page.<\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "subtitle",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "69a8b823-a49f-43fc-8c88-78d4735bfcc7",
+        "885c349d-e8e1-42fc-9ea0-d39ff2bccc19"
       ],
       "settings": {
+        "installment_info": "4 interest-free installments of $58.75 by",
+        "sale_details": "this item is final sale.",
+        "info_title": "we recommend ordering your usual size.",
+        "text": "notify me when my size is in stock",
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16355989173d290cbd": {
+      "type": "moodboard-section",
+      "settings": {
+        "main_title": "dig into the moodboard"
+      }
+    },
+    "1635523248a721bf5a": {
+      "type": "video-section",
+      "settings": {
+        "arrow": "shopify:\/\/shop_images\/arrow.png",
+        "video_img": "shopify:\/\/shop_images\/Layer_0.png",
+        "play_img": "shopify:\/\/shop_images\/Play.png",
+        "title": "BEHIND OUR DENIM",
+        "mobile_title": "BEHIND OUR DENIM",
+        "wrap_title": "the process:",
+        "top_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum",
+        "bottom_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim a, quis nostrud. lorem ipsum dolor sit amet.",
+        "btn_url": "",
+        "btn": "read more",
+        "video_url": "https:\/\/www.youtube.com\/embed\/tgbNymZ7vqY"
+      }
+    },
+    "16355956535616edda": {
+      "type": "product-recommendation",
+      "settings": {
+        "collection": "denim"
+      }
+    },
+    "16355241807b097c3c": {
+      "type": "selection",
+      "blocks": {
+        "e095f5f5-e218-4e48-82a5-b41124740905": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_96.png",
+            "text": "the \"lost time\" bandana",
+            "price": "$48"
+          }
+        },
+        "af4ba405-32f4-47ee-997f-b8a241337344": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_100.png",
+            "text": "the \"godspeed\" tee",
+            "price": "$58"
+          }
+        },
+        "1ba74f10-c7c3-4575-8f15-c8607a7cb4ec": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_101.png",
+            "text": "engraved \"so long\" flash",
+            "price": "$48"
+          }
+        },
+        "9d52db02-8ca6-415d-9ecd-3f1df2b67670": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Component_41_5.png",
+            "text": "military shirt jacket in fatigue green",
+            "price": "$230"
+          }
+        }
+      },
+      "block_order": [
+        "e095f5f5-e218-4e48-82a5-b41124740905",
+        "af4ba405-32f4-47ee-997f-b8a241337344",
+        "1ba74f10-c7c3-4575-8f15-c8607a7cb4ec",
+        "9d52db02-8ca6-415d-9ecd-3f1df2b67670"
+      ],
+      "settings": {
+        "desktop-pre_title": "( featured )",
+        "mobile-pre_title": "( hand-selected )",
+        "desktop-title": "Curated SELECTIONS",
+        "mobile-title": "Curated FAVORITES"
       }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16355989173d290cbd",
+    "1635523248a721bf5a",
+    "16355956535616edda",
+    "16355241807b097c3c"
   ]
 }
