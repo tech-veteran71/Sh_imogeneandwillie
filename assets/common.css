@@ -16,6 +16,11 @@
   padding: 0 20px;
   margin: 0 auto;
 }
+.custom-content-container {
+  max-width: 1650px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
 /* color variables */
 :root {
@@ -29,13 +34,19 @@
   --color-blue: #0F359B;
   --color-medium-wheat: #F5F5F5;
 }
+@media screen and (min-width: 1279px) and (max-width: 1600px) {
+  .custom-content-container {
+    padding: 0 5em;
+  }
+}
 @media screen and (max-width: 1279px) {
   .collection-container {
     padding: 0 30px;
   }
 }
 @media screen and (max-width: 767px) {
-  .collection-container {
+  .collection-container,
+  .custom-content-container {
     padding: 0;
   }
   .nashville-container {

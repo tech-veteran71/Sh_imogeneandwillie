@@ -1,0 +1,98 @@
+{{ 'fact-section.css' | asset_url | stylesheet_tag }}
+<div class="fact-section">
+  <div class="container">
+    <div class="wrapper">
+      {% if section.settings.main_title != blank %}
+        <div class="header-wrap">
+          <h3 class="main-title">{{ section.settings.main_title }}</h3>
+        </div>
+      {% endif %}
+      <div class="custom-grid">
+        {% for block in section.blocks %}
+          <div class="grid-item">
+            <div class="image-wrap">
+              {% if block.settings.desk_img != blank %}
+                {% render 'responsive--image' with block.settings.desk_img as image, max_width: 442, class: 'image', mob_img: block.settings.mob_img %}
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+              {% if block.settings.mob_img != blank %}
+                {% render 'responsive--image' with block.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
+              {% endif %}
+            </div>
+            <div class="content-wrap">
+              {% if block.settings.title != blank %}
+                <div class="title-wrap">
+                  <h4 class="title">{{ block.settings.title }}</h4>
+                  <div class="icon-wrap" >
+                    {% include 'icon-arrow' %}
+                  </div>
+                </div>
+              {% endif %}
+              {% if block.settings.text != blank %}
+                <p class="text">{{ block.settings.text }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Fact Section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "Lorem ipsum dolor"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Info",
+      "type": "info",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "-------"
+        },
+        {
+          "type": "image_picker",
+          "id": "desk_img",
+          "label": "Image (Desktop)"
+        },
+        {
+          "type": "image_picker",
+          "id": "mob_img",
+          "label": "Image (Mobile)"
+        },
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

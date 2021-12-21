@@ -3,6 +3,9 @@
   padding: 40px 0;
   margin-bottom: 85px;
 }
+.custom-content .custom-rich-text {
+  display: none;
+}
 .custom-rich-text .text {
   font-size: 20px;
   color: var(--color-normal-black);
@@ -20,6 +23,9 @@
   .custom-rich-text {
     padding: 35px 0 28px;
     margin-bottom: 0;
+  }
+  .custom-content .custom-rich-text {
+    display: block;
   }
   .custom-rich-text .link-text {
     font-size: 13px;

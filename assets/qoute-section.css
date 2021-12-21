@@ -1,0 +1,45 @@
+.qoute-section {
+  font-size: 1.2vw;
+  padding: 5em 0;
+}
+.qoute-section .qoute {
+  text-align: center;
+}
+.qoute-section .review {
+  font-size: 28px;
+  letter-spacing: 3px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: var(--color-normal-black);
+  line-height: 1;
+}
+.qoute-section .customer-name {
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: var(--color-dark-grey);
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1400px) {
+  .qoute-section {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .qoute-section {
+    background-color: var(--color-Xlight-wheat);
+    padding: 70px 0;
+  }
+  .qoute-section .qoute {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  .qoute-section .review {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .qoute-section .customer-name {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+}

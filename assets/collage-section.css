@@ -1,6 +1,18 @@
 .collage-section {
   padding-bottom: 75px;
 }
+.custom-content .collage-section {
+  padding: 95px 0 110px;
+  background-color: var(--color-Xlight-wheat)
+}
+.custom-content .collage-section .alpha {
+  flex: 1;
+  max-width: unset;
+}
+.custom-content .collage-section .beta {
+  max-width: 50.5%;
+  flex: 50.5%;
+}
 .collage-section .container {
   max-width: 1920px;
   margin: 0 auto;
@@ -44,6 +56,10 @@
   margin: 8px auto 35px;
   line-height: 1.4;
 }
+.custom-content .collage-section .text {
+  margin-bottom: 0;
+  margin-top: 22px;
+}
 .collage-section .btn {
   font-size: 14px;
   letter-spacing: 3px;
@@ -78,15 +94,46 @@
 .collage-section .mob-image {
   display: none;
 }
+.collage-section .img-wrap {
+  height: 100%;
+}
+@media screen and (max-width: 1600px) {
+  .custom-content .collage-section .beta {
+    max-width: 55.5%;
+    flex: 55.5%;
+    height: 580px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .custom-content .collage-section .beta {
+    height: 460px;
+  }
+  .custom-content .collage-section .text {
+    max-width: 294px;
+    font-size: 18px;
+  }
+}
 @media screen and (max-width: 990px){
+  .custom-content .collage-section {
+    padding: 70px 0 85px;
+  }
   .collage-section .alpha {
     max-width: 50%;
     flex: 50%;
     padding: 0 35px;
   }
+  .custom-content .collage-section .alpha {
+    padding: 0 20px;
+  }
+  .custom-content .collage-section .main-title {
+    font-size: 24px;
+  }
   .collage-section .beta {
     max-width: 50%;
     flex: 50%;
+  }
+  .custom-content .collage-section .beta {
+    height: 360px;
   }
   .collage-section .main-title {
     font-size: 26px;
@@ -97,6 +144,11 @@
     color: var(--color-dim-black);
     max-width: 335px;
     margin: 8px auto 20px;
+  }
+  .custom-content .collage-section .text {
+    max-width: 273px;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
   .collage-section .btn {
     font-size: 12px;
@@ -154,5 +206,30 @@
   }
   .collage-section .content-wrap {
     width: 100%;
+  }
+  .custom-content .collage-section {
+    padding: 0 0 60px;
+  }
+  .custom-content .collage-section .container {
+    padding: 0;
+  }
+  .custom-content .collage-section .alpha,
+  .custom-content .collage-section .beta {
+    max-width: 100%;
+    flex: 100%
+  }
+  .custom-content .collage-section .beta {
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .custom-content .collage-section .main-title {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .custom-content .collage-section .text {
+    max-width: 290px;
+    font-size: 15px;
+    margin-top: 16px;
   }
 }

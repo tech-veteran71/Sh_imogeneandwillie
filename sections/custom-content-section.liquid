@@ -1,0 +1,147 @@
+{{ 'custom-content-section.css' | asset_url | stylesheet_tag }}
+<div class="custom-content-section">
+  <div class="custom-content-container">
+    <div class="wrapper">
+      <div class="header-wrap">
+      {% if section.settings.main_title != blank %}
+        <h4 class="main-title">{{ section.settings.main_title }}</h4>
+      {% endif %}
+      {% if section.settings.main_text != blank %}
+        <p class="main-text">{{ section.settings.main_text }}</p>
+      {% endif %}
+      </div>
+      <div class="mob-image mob-image1">
+        {% if section.settings.mob_img1 != blank %}
+          {% render 'responsive--image' with section.settings.mob_img1 as image, max_width: 389, class: 'image' %}
+        {% else %}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {% endif %}
+      </div>
+      <div class="content-wrap">
+        {% for block in section.blocks %}
+          {% if block.type == 'info' %}
+            {% if block.settings.text != blank %}
+              <div class="text">{{ block.settings.text }}</div>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="images">
+        {% assign index = 1 %}
+        {% for block in section.blocks %}
+          {% if block.type == 'image' %}
+            <div class="image-wrap image-{{ index }}">
+              {% if block.settings.img != blank %}
+                {% render 'responsive--image' with block.settings.img as image, max_width: 710, class: 'image' %}
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+            {% assign index = index | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="image_with-text">
+        <div class="alpha">
+          {% if section.settings.desk_img != blank %}
+            {% render 'responsive--image' with section.settings.desk_img as image, max_width: 649, class: 'image', mob_img: section.settings.mob_img2 %}
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+          {% if section.settings.mob_img2 != blank %}
+            {% render 'responsive--image' with section.settings.mob_img2 as image, max_width: 360, class: 'image mob-image' %}
+          {% endif %}
+        </div>
+        {% if section.settings.text != blank %}
+          <div class="beta">
+            <div class="info-text">{{ section.settings.text }}</div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Content Section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "desk_img",
+      "label": "Image (Desktop)"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_img1",
+      "label": "Image 1 (Mobile)"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_img2",
+      "label": "Image 2 (Mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "LOREM IPSUM"
+    },
+    {
+      "type": "text",
+      "id": "main_text",
+      "label": "Main Text",
+      "default": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis "
+    },
+    {
+      "type": "html",
+      "id": "text",
+      "label": "Text"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Info",
+      "type": "info",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "html",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "type": "image",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "-------"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

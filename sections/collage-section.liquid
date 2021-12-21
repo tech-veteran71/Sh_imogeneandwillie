@@ -28,7 +28,7 @@
       </div>
       <div class="beta">
         <div class="img-wrap">
-          {% if section.settings.desk_img %}
+          {% if section.settings.desk_img != blank %}
             {% render 'responsive--image' with section.settings.desk_img as image, max_width: 1920, class: "image", mob_img: section.settings.mob_img %}
           {% else %}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}

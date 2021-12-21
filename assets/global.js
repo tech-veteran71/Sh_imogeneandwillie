@@ -2808,15 +2808,15 @@ customElements.define("ajax-cart", AjaxCart);
     }
 
     // change the header background color on fabric page when scrolling
-    const Fabricheader = document.querySelector('.fabric-guide .header-wrapper');
+    const Fabricheader = document.querySelector('.custom-page .header-wrapper');
     window.addEventListener('scroll', function() {
       let scroll = window.scrollY;
       if (Fabricheader) {
         Fabricheader.style.backgroundColor = scroll > 0 ? '#F7F6F3' : 'transparent';
         if(scroll > 0) {
-          Fabricheader.classList.add('fabric-header');
+          Fabricheader.classList.add('custom-page-header');
         } else{
-          Fabricheader.classList.remove('fabric-header');
+          Fabricheader.classList.remove('custom-page-header');
         }
       } 
     });

@@ -1,0 +1,42 @@
+{{ 'qoute-section.css' | asset_url | stylesheet_tag }}
+<div class="qoute-section">
+  <div class="container">
+    <div class="wrapper">
+      <div class="qoute">
+        <p class="review">{{ section.settings.review }}</p>
+        <span class="customer-name">{{ section.settings.customer_name }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Qoute Section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "review",
+      "label": "Review",
+      "default": "“i want to die with my blue jeans on.”"
+    },
+    {
+      "type": "text",
+      "id": "customer_name",
+      "label": "Customer Name",
+      "default": "- Andy Warhol"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Qoute Section",
+      "category": "Qoute Section"
+    }
+  ]
+}
+{% endschema %}

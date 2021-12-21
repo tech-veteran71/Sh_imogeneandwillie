@@ -4,13 +4,21 @@
   <div class="container">
     <div class="banner">
       <div class="banner-img">
-        {% if section.settings.desk_img %}
+        {% if section.settings.desk_img != blank %}
           {% render 'responsive--image' with section.settings.desk_img as image, max_width: 1920, class: 'image', mob_img: section.settings.mob_img %}
         {% else %}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {% endif %}
         {% if section.settings.mob_img != blank %}
           {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
+        {% endif %}
+      </div>
+      <div class="content-wrap">
+        {% if section.settings.main_title != blank %}
+          <h1 class="main-title">{{ section.settings.main_title }}</h1>
+        {% endif %}
+        {% if section.settings.text != blank %}
+          <p class="text">{{ section.settings.text }}</p>
         {% endif %}
       </div>
       {% if section.settings.link_text != blank %}
@@ -52,6 +60,16 @@
     },
     {
       "type": "text",
+      "id": "main_title",
+      "label": "Main Title"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
       "id": "link_text",
       "label": "Link Text",
       "default": "FIND YOUR FIT"
@@ -60,6 +78,12 @@
       "type": "url",
       "id": "link_url",
       "label": "Link Url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner",
+      "category": "Hero Banner"
     }
   ]
 }
