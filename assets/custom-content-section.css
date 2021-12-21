@@ -1,0 +1,276 @@
+.custom-content-section {
+  background-color: var(--color-Xlight-wheat);
+  position: relative;
+  font-size: 1.2vw;
+}
+.custom-content-section::after {
+  content: "";
+  background-color: var(--color-white);
+  width: 100%;
+  position: absolute;
+  height: 20.75em;
+  bottom: 0;
+  left: 0;
+}
+.custom-content-section .paragraph {
+  padding: 0 3em;
+}
+.custom-content-section .header-wrap {
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+.custom-content-section .main-title {
+  margin-bottom: 1.5em;
+  margin-top: 0;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-normal-black);
+}
+.custom-content-section .main-text {
+  font-size: 28px;
+  max-width: 950px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  line-height: 1.3;
+}
+.custom-content-section .content-wrap {
+  margin: 0 auto 4.25em;
+  max-width: 1270px;
+  justify-content: center;
+  display: flex;
+}
+.custom-content-section .text {
+  max-width: 50%;
+  flex: 50%;
+  padding: 0 2.6em;
+}
+.custom-content-section .text p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  color: var(--color-normal-black);
+  margin-bottom: 26px;
+  margin-top: 0;
+}
+.custom-content-section .text p:last-child {
+  margin-bottom: 0;
+}
+.custom-content-section .images {
+  display: flex;
+  margin-bottom: -55px;
+}
+.custom-content-section .image-1 {
+  height: 26em;
+  margin-top: 6.5em;
+  flex: 1;
+}
+.custom-content-section .image-1 .image {
+  max-width: 39em;
+}
+.custom-content-section .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.custom-content-section .image-2 {
+  max-width: 44%;
+  flex: 44%;
+}
+.custom-content-section .image_with-text {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.custom-content-section .alpha {
+  max-width: 40%;
+  flex: 40%;
+}
+.custom-content-section .beta {
+  flex: 1;
+  margin-left: 9em;
+}
+.custom-content-section .info-text p:first-child {
+  font-size: 1.4em;
+  margin-bottom: 3em;
+  color: var(--color-normal-black);
+}
+.custom-content-section .info-text p {
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 1.25em;
+  font-size: 1em;
+  color: var(--color-dim-black);
+}
+.custom-content-section .info-text a {
+  display: none;
+}
+.custom-content-section .info-text p:last-child {
+  margin-bottom: 0;
+}
+.custom-content-section .info-text {
+  max-width: 31em;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 5.25em;
+}
+.custom-content-section .placeholder-svg {
+  width: 100%;
+  height: 100%;
+}
+.custom-content-section .mob-image {
+  display: none;
+}
+@media screen and (min-width: 1400px) {
+  .custom-content-section {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1600px) and (min-width: 1400px) {
+  .custom-content-section .image-1 .image {
+    max-width: 32em;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .custom-content-section .image-1 {
+    height: 22em;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .custom-content-section .image-1 .image {
+    max-width: 35em;
+  }
+  .custom-content-section .main-text {
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .custom-content-section {
+    font-size: 1.4vw;
+  }
+  .custom-content-section .main-text {
+    font-size: 24px;
+    max-width: 760px;
+  }
+  .custom-content-section .text p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .custom-content-section .image-1 .image {
+    max-width: 33em;
+  }
+  .custom-content-section .image-1 {
+    margin-top: 4.5em;
+  }
+  .custom-content-section .beta {
+    margin-left: 8em;
+  }
+  .custom-content-section .info-text {
+    padding-bottom: 4.25em;
+  }
+}
+@media screen and (max-width: 990px) {
+  .custom-content-section .main-title {
+    margin-bottom: 0.8em;
+  }
+  .custom-content-section .main-text {
+    font-size: 22px;
+    max-width: 710px;
+  }
+  .custom-content-section .text {
+    padding: 0 1em;
+  }
+  .custom-content-section .text p {
+    font-size: 12px;
+  }
+  .custom-content-section .info-text p {
+    font-size: 1.1em;
+  }
+  .custom-content-section .info-text {
+    padding-bottom: 3.25em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .custom-content-section {
+    padding-bottom: 60px;
+  }
+  .custom-content-section .main-title {
+    display: none;
+  }
+  .custom-content-section .main-text {
+    font-size: 15px;
+    max-width: 275px;
+    letter-spacing: 1px;
+  }
+  .custom-content-section .images {
+    display: none;
+  }
+  .custom-content-section::after {
+    content: unset;
+  }
+  .custom-content-section .header-wrap {
+    margin-bottom: 0;
+  }
+  .custom-content-section .content-wrap .text:last-child {
+    display: none;
+  }
+  .custom-content-section .content-wrap .text {
+    max-width: 305px;
+    flex: 100%;
+    padding: 0;
+  }
+  .custom-content-section .text p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .custom-content-section .content-wrap {
+    margin: 0 auto 65px;
+  }
+  .custom-content-section .image_with-text {
+    flex-wrap: wrap;
+  }
+  .custom-content-section .alpha, .custom-content-section .beta {
+    max-width: 100%;
+    flex: 100%;
+  }
+  .custom-content-section .beta {
+    margin: 45px 0 0;
+  }
+  .custom-content-section .mob-image {
+    display: block;
+  }
+  .custom-content-section .desk-image {
+    display: none;
+  }
+  .custom-content-section .mob-image1 {
+    margin: 45px 15px 35px;
+  }
+  .custom-content-section .info-text {
+    padding-bottom: 0;
+    max-width: 312px;
+    margin: 0 auto;
+  }
+  .custom-content-section .info-text p:first-child {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  .custom-content-section .info-text p:last-child {
+    display: none;
+  }
+  .custom-content-section .info-text p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .custom-content-section .info-text a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-blue);
+  }
+}

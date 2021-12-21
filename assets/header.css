@@ -9,30 +9,30 @@
 }
 
 /* specific css for header in fabric page start */
-.fabric-guide .header-wrapper {
+.custom-page .header-wrapper {
   position: absolute;
   width: 100%;
   background-color: transparent;
   border-bottom: 0;
 }
-.fabric-guide .header .header__menu-item,
-.fabric-guide .header .menu-utility-link {
+.custom-page .header .header__menu-item,
+.custom-page .header .menu-utility-link {
   color: var(--color-Xlight-wheat);
   transition: all 0.2s ease-in-out;
 }
-.fabric-guide .header #cart-icon-bubble path,
-.fabric-guide .header .header__heading svg,
-.fabric-guide .header .header__icon--menu path {
+.custom-page .header #cart-icon-bubble path,
+.custom-page .header .header__heading svg,
+.custom-page .header .header__icon--menu path {
   fill: var(--color-Xlight-wheat);
   transition: all 0.2s ease-in-out;
 }
-.fabric-guide .fabric-header .header__menu-item,
-.fabric-guide .fabric-header .menu-utility-link {
+.custom-page .custom-page-header .header__menu-item,
+.custom-page .custom-page-header .menu-utility-link {
   color: var(--color-normal-black);
 }
-.fabric-guide .fabric-header #cart-icon-bubble path,
-.fabric-guide .fabric-header .header__heading svg,
-.fabric-guide .fabric-header .header__icon--menu path {
+.custom-page .custom-page-header #cart-icon-bubble path,
+.custom-page .custom-page-header .header__heading svg,
+.custom-page .custom-page-header .header__icon--menu path {
   fill: var(--color-normal-black);
 }
 /* specific css for header in fabric page end */
@@ -640,9 +640,13 @@
   #menu-drawer .menu-drawer__inner-submenu .link-wrap {
     padding: 30px 20px;
   }
-  .fabric-guide .header #cart-icon-bubble path,
-  .fabric-guide .header .header__heading svg,
-  .fabric-guide .header .header__icon--menu path {
+  .custom-page .header #cart-icon-bubble path,
+  .custom-page .header .header__heading svg,
+  .custom-page .header .header__icon--menu path {
     fill: var(--color-normal-black);
+  }
+  .custom-content .header-wrapper {
+    position: unset;
+    background-color: var( --color-Xlight-wheat) !important;
   }
 }
