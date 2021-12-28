@@ -164,7 +164,7 @@
                                         </a>
                                       {%- else -%}
                                           <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset child-menu-item">
-                                            {{ childlink.title | escape }}
+                                            <span>{{ childlink.title | escape }}</span>
                                             {%- comment -%}
                                             {% render 'icon-arrow' %}
                                             {%- endcomment -%}
@@ -413,100 +413,117 @@
       <nav class="header__inline-menu">
         <ul class="list-menu list-menu--inline" role="list">
           {%- for link in section.settings.menu.links -%}
-            <li>
-              {%- if link.links != blank -%}
-                    <div class="header__menu-item list-menu__item link focus-inset">
-                      <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                      {%- comment -%}
-                      {% render 'icon-caret' %}
-                      {%- endcomment -%}
-                    </div>
-                    {% if link.levels == 1 %}
-                    <ul class="header-submenu" data-header-dropdown-menu>
-                      {%- for childlink in link.links -%}
-                        <li class="sub-menu-item">
-                            <a href="{{ childlink.url }}" class="sub-menu-link">
-                              {{ childlink.title | escape }}
-                            </a>
-                        </li>
-                      {%- endfor -%}
-                    </ul>
-                    {% endif %}
-
-                    {% if link.levels == 2 %}
-                      <div class="mega_menu" data-header-dropdown-menu>
-                        <div class="mega_menu-container page-width">
-                          <div class="mega_menu-row">
-                            <div class="mega_menu-list-outer-wrap">
-                              {%- for childlink in link.links -%}
-                              <div class="mega_menu-inner-wrap">
-                                <ul class="mega_menu-list">
-                                  <li class="mega_menu-item mega_menu-heading">{{ childlink.title | escape }}</li>
-                                  {%- for grandchildlink in childlink.links -%}
-                                    <li class="mega_menu-item mega_menu-text">
-                                      <a href="{{ grandchildlink.url }}" class="mega_menu-link">
-                                        {{ grandchildlink.title | escape }}
-                                      </a>
-                                    </li>
-                                  {% endfor %}
-                                </ul>
-                              </div>
-                              {% endfor %}
-                            </div>
-                            <div class="mega_menu-product-wrap">
-                              {% for block in section.blocks %}
-                                {% if block.type == 'mega_menu_women' %}
-                                  {% render 'mega-menu-product-item', block: block %}
-                                {% endif %}
-                                {% if block.type == 'mega_menu_men' %}
-                                  {% render 'mega-menu-product-item', block: block %}
-                                {% endif %}
-                              {% endfor %}
-                            </div>
+            <li class="menu-item{% if link.levels == 1 %} main-menu-item {% endif %}">
+              {% assign mainMenUItem = link.title | downcase %}
+                <div class="header__menu-item list-menu__item link focus-inset">
+                  <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+                  {%- comment -%}
+                  {% render 'icon-caret' %}
+                  {%- endcomment -%}
+                </div>
+                {% if mainMenUItem == "about" %}
+                  <div class="about-mega-menu">
+                    <div class="mega-menu" data-header-dropdown-menu>
+                      <div class="mega_menu-container page-width">
+                        <div class="mega_menu-about">
+                          <div class="grid">
+                            {% for block in section.blocks %}
+                              {% if block.type == 'mega_menu_about' %}
+                                <a href='{{ block.settings.link }}' class="grid-item">
+                                  <div class="img-wrap">
+                                    {% render 'responsive--image' with block.settings.img as image, max_width: 358px, class: 'image' %}
+                                  </div>
+                                  <div class="content-wrap">
+                                    {% if block.settings.pre_title != blank %}
+                                      <h5 class="pre_title">{{ block.settings.pre_title }}</h5>
+                                    {% endif %}
+                                    {% if block.settings.title != blank %}
+                                      <h3 class="title">{{ block.settings.title }}</h3>
+                                    {% endif %}
+                                    {% if block.settings.text != blank %}
+                                      <p class="text">{{ block.settings.text }}</p>
+                                    {% endif %}
+                                  </div>
+                                </a>
+                              {% endif %}
+                            {% endfor %}
                           </div>
+                          {% if section.settings.btn_text != blank %}
+                            <div class="btn-wrap">
+                              <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+                            </div>
+                          {% endif %}
                         </div>
-                      </div>
-                      {% endif %}
-                {%- else -%}
-                <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                  <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                </a>
-                <div class="about-mega-menu">
-                  <div class="mega_menu" data-header-dropdown-menu>
-                    <div class="mega_menu-container page-width">
-                      <div class="mega_menu-about">
-                        <div class="grid">
-                          {% for block in section.blocks %}
-                            {% if block.type == 'mega_menu_about' %}
-                              <a href='{{ block.settings.link }}' class="grid-item">
-                                <div class="img-wrap">
-                                  {% render 'responsive--image' with block.settings.img as image, max_width: 358px, class: 'image' %}
-                                </div>
-                                <div class="content-wrap">
-                                  {% if block.settings.pre_title != blank %}
-                                    <h5 class="pre_title">{{ block.settings.pre_title }}</h5>
-                                  {% endif %}
-                                  {% if block.settings.title != blank %}
-                                    <h3 class="title">{{ block.settings.title }}</h3>
-                                  {% endif %}
-                                  {% if block.settings.text != blank %}
-                                    <p class="text">{{ block.settings.text }}</p>
-                                  {% endif %}
-                                </div>
-                              </a>
-                            {% endif %}
-                          {% endfor %}
-                        </div>
-                        {% if section.settings.btn_text != blank %}
-                          <div class="btn-wrap">
-                            <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
-                          </div>
-                        {% endif %}
                       </div>
                     </div>
                   </div>
-                </div>
-              {%- endif -%}
+                {% endif %}
+                {% if link.levels == 1 %}
+                  <ul class="header-submenu" data-header-dropdown-menu>
+                    {%- for childlink in link.links -%}
+                      <li class="sub-menu-item">
+                          <a href="{{ childlink.url }}" class="sub-menu-link">
+                            {{ childlink.title | escape }}
+                          </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                {% endif %}
+                {% if link.levels == 2 %}
+                  {% if mainMenUItem == "men" or mainMenUItem == "women" %}
+                    <div class="mega_menu" data-header-dropdown-menu>
+                      <div class="mega_menu-container page-width">
+                        <div class="mega_menu-row">
+                          <div class="mega_menu-list-outer-wrap">
+                            {%- for childlink in link.links -%}
+                            <div class="mega_menu-inner-wrap">
+                              <ul class="mega_menu-list">
+                                <li class="mega_menu-item mega_menu-heading">{{ childlink.title | escape }}</li>
+                                {%- for grandchildlink in childlink.links -%}
+                                  <li class="mega_menu-item mega_menu-text">
+                                    <a href="{{ grandchildlink.url }}" class="mega_menu-link">
+                                      {{ grandchildlink.title | escape }}
+                                    </a>
+                                  </li>
+                                {% endfor %}
+                              </ul>
+                            </div>
+                            {% endfor %}
+                          </div>
+                          <div class="mega_menu-product-wrap">
+                            {% for block in section.blocks %}
+                              {% if block.type == 'mega_menu_women' %}
+                                {% render 'mega-menu-product-item', block: block %}
+                              {% endif %}
+                              {% if block.type == 'mega_menu_men' %}
+                                {% render 'mega-menu-product-item', block: block %}
+                              {% endif %}
+                            {% endfor %}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% else %}
+                      <ul class="child-menu-list">
+                        <div class="page-width">
+                          <div class="items-wrap">
+                            {%- for childlink in link.links -%}
+                              <li class="child-menu-item">
+                                <span class="child-menu-heading">{{ childlink.title | escape }}</span>
+                                <ul class="grandchild-menu-list">
+                                  {% for grandchild in childlink.links %}
+                                    <li class="grandchild-item">
+                                      <a href="{{ grandchild.url }}" class="grandchild-link">{{ grandchild.title }}</a>
+                                    </li>
+                                  {% endfor %}
+                                </ul>
+                              </li>
+                            {% endfor %}
+                          </div>
+                        </div>
+                      </ul>
+                  {% endif %}
+                {% endif %}
             </li>
           {%- endfor -%}
         </ul>

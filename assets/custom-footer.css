@@ -103,16 +103,21 @@
   letter-spacing: 2px;
   margin: 20px 0 40px;
 }
-.custom-footer .newsletter-form {
+.custom-footer .footer-newsletter-form {
   display: flex;
   height: 27px;
   width: 100%;
   padding: 0 5px;
   align-items: center;
+  border-bottom: 1px solid var(--color-normal-black);
 }
-.custom-footer .newsletter-form svg {
+.custom-footer .footer-newsletter-form svg {
   width: 100%;
   height: 100%;
+}
+.custom-footer .newsletter-form .form__message {
+  max-width: 100%;
+  flex: 100%;
 }
 .custom-footer .icon-skip {
   max-width: 12px;
@@ -124,9 +129,8 @@
 .custom-footer .field__button {
   height: 20px;
   width: 20px;
-}
-.custom-footer .newsletter {
-  border-bottom: 1px solid var(--color-normal-black);
+  position: unset;
+  display: unset;
 }
 .custom-footer .field-input {
   border: 0;
@@ -210,7 +214,7 @@
     letter-spacing: -0.1px;
     margin: 15px 0 20px;
   }
-  .custom-footer .newsletter-form {
+  .custom-footer .footer-newsletter-form {
     padding: 0 2px;
   }
   .custom-footer .menu-link {

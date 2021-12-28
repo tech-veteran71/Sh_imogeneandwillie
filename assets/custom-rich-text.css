@@ -3,6 +3,9 @@
   padding: 40px 0;
   margin-bottom: 85px;
 }
+.fit-guide-page .custom-rich-text {
+  margin-bottom: 0;
+}
 .custom-content .custom-rich-text {
   display: none;
 }

@@ -1,8 +1,12 @@
 <style>
+  #shopify-section-{{ section.id }} .product-slider {
+    --desk-bg-color: {{ section.settings.desk_bg_color }};
+    background-color: var(--desk-bg-color);
+  }
   @media screen and (max-width: 767px) {
     #shopify-section-{{ section.id }} .product-slider {
-      --bg-color: {{ section.settings.bg_color }};
-      background-color: var(--bg-color);
+      --mob-bg-color: {{ section.settings.mob_bg_color }};
+      background-color: var(--mob-bg-color);
     }
   }
 </style>
@@ -55,7 +59,12 @@
     },
     {
       "type": "color",
-      "id": "bg_color",
+      "id": "desk_bg_color",
+      "label": "Background Color (Desktop)"
+    },
+    {
+      "type": "color",
+      "id": "mob_bg_color",
       "label": "Background Color (Mobile)"
     },
     {
