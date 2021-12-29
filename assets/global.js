@@ -2542,49 +2542,61 @@ customElements.define("ajax-cart", AjaxCart);
 
 (function(){
   // header mega menu script
-  const menuItems = document.querySelectorAll('.header__inline-menu .menu-item');
-  menuItems.forEach( item => {
-    item.addEventListener('mouseover', function(e){
-      const menuItem = this.children[0].innerText.toLowerCase();
-      if(menuItem === 'men' || menuItem === 'women') {
-        this.children[1].classList.add(`${menuItem}-mega-menu`);
-      }
-      if(this.children[1]) {
-        this.children[1].style.display = 'block';
-      }
-    })
-    item.addEventListener('mouseleave', function(e){
-      if(this.children[1]) {
+  const menuContainer = document.getElementById("header-menu");
+  if(menuContainer) {
+    const menuItems = menuContainer.querySelectorAll('[data-menu-item]');
+    menuItems.forEach( item => {
+      item.addEventListener('mouseover', function(e){
         const menuItem = this.children[0].innerText.toLowerCase();
-        if(menuItem === 'men' || menuItem === 'women') {
-          this.children[1].classList.remove(`${menuItem}-mega-menu`);
+        if(menuItem) {
+          if(menuItem === 'men' || menuItem === 'women') {
+            this.children[1].classList.add(`${menuItem}-mega-menu`);
+          }
         }
-        this.children[1].style.display = 'none';
-      }
+        if(this.children[1]) {
+          this.children[1].style.display = 'block';
+        }
+      })
+      item.addEventListener('mouseleave', function(e){
+        if(this.children[1]) {
+          const menuItem = this.children[0].innerText.toLowerCase();
+          if(menuItem) {
+            if(menuItem === 'men' || menuItem === 'women') {
+              this.children[1].classList.remove(`${menuItem}-mega-menu`);
+            }
+          }
+          this.children[1].style.display = 'none';
+        }
+      })
     })
-  })
+  }
 
   // custom menu drawer script
-  const menuDrawerItem = document.querySelectorAll('#menu-drawer .child-menu-item');
-  menuDrawerItem.forEach( item => {
-    item.addEventListener('click', function(){
-      this.classList.toggle('active');
-      this.nextElementSibling.classList.toggle('active');
+  const menuDrawerContainer = document.getElementById("menu-drawer");
+  if(menuDrawerContainer) {
+    const menuDrawerItem = menuDrawerContainer.querySelectorAll('[data-child-item]');
+    const firstLevelMenuItem = menuDrawerContainer.querySelectorAll('[data-main-item]');
+    const menuDrawerFooter = menuDrawerContainer.querySelector('[data-menu-footer]');
+    const menuDrawerCloseButton = menuDrawerContainer.querySelectorAll('[data-drawer-close]');
+    
+    menuDrawerItem.forEach( item => {
+      item.addEventListener('click', function(){
+        this.classList.toggle('active');
+        this.nextElementSibling.classList.toggle('active');
+      })
     })
-  })
-  const firstLevelMenuItem = document.querySelectorAll('#menu-drawer .first-level-menu-item');
-  const menuDrawerFooter = document.querySelector('#menu-drawer .menu-drawer-footer');
-  const menuDrawerCloseButton = document.querySelectorAll('#menu-drawer .menu-drawer__close-button');
-  firstLevelMenuItem.forEach( item => {
-    item.addEventListener('click', function(e){
-      menuDrawerFooter.style.display = 'none'
+
+    firstLevelMenuItem.forEach( item => {
+      item.addEventListener('click', function(e){
+        menuDrawerFooter.style.display = 'none'
+      })
     })
-  })
-  menuDrawerCloseButton.forEach( item => {
-    item.addEventListener('click', function(e){
-      menuDrawerFooter.style.display = 'block'
+    menuDrawerCloseButton.forEach( item => {
+      item.addEventListener('click', function(e){
+        menuDrawerFooter.style.display = 'block'
+      })
     })
-  })
+  }
 
   // change the header background color on collection template page when scrolling
   const header = document.querySelector('.template-collection .header-wrapper');
@@ -2624,140 +2636,166 @@ customElements.define("ajax-cart", AjaxCart);
   }
 
   // product size dropdown box script
-  const sizeWrapper = document.querySelector('.size-box-wrap .legend-wrap');
-  const formLabel =  document.querySelector('.size-box-wrap .form__label');
-  if(sizeWrapper) {
-    sizeWrapper.addEventListener('click', function(){
-      const parentElement = this.parentElement;
-      const label = formLabel.innerHTML;
-      parentElement.classList.toggle('show');
-      label.toLowerCase() === 'select a size' ? formLabel.innerHTML = 'fits true to size' : formLabel.innerHTML = 'select a size';
-    })
+  const varaintContainer = document.getElementById("size-box");
+  if(varaintContainer) {
+    const sizeWrapper = varaintContainer.querySelector('[data-variant-box]');
+    const formLabel =  varaintContainer.querySelector('[data-form-label]');
+    if(sizeWrapper) {
+      sizeWrapper.addEventListener('click', function(){
+        const parentElement = this.parentElement;
+        const label = formLabel.innerHTML;
+        parentElement.classList.toggle('show');
+        label.toLowerCase() === 'select a size' ? formLabel.innerHTML = 'fits true to size' : formLabel.innerHTML = 'select a size';
+      })
+    }
   }
 
   // accordian script
-  var accordianItem = document.querySelectorAll('.product-accodians .accordian-item');
-  var accordianHeader = document.querySelectorAll('.product-accodians .accordian-header');
-  if(accordianHeader) {
-    accordianHeader.forEach( item => {
-      item.addEventListener('click', toggleItem)
-    })
-    function toggleItem() {
-      if(this.parentNode.className.indexOf('active') === -1){
-        accordianItem.forEach(el => {
-          el.classList.remove('active');
-        });
-        this.parentNode.classList.add('active');
-      } else {
-        this.parentNode.classList.remove('active');
+  const productAccordianContainer = document.getElementById("product-accordians");
+  if(productAccordianContainer) {
+    const accordianItems = productAccordianContainer.querySelectorAll('[data-accordian-item]');
+    const accordianHeaders = productAccordianContainer.querySelectorAll('[data-accordian-header]');
+    if(accordianHeaders) {
+      accordianHeaders.forEach( item => {
+        item.addEventListener('click', toggleItem)
+      })
+      function toggleItem() {
+        if(this.parentNode.className.indexOf('active') === -1){
+          accordianItems.forEach(el => {
+            el.classList.remove('active');
+          });
+          this.parentNode.classList.add('active');
+        } else {
+          this.parentNode.classList.remove('active');
+        }
       }
     }
   }
 
   // product media model popup
-  const productMediaItem = document.querySelectorAll('.product-gallery .product-media-wrap');
-  const productMediaPopUp = document.querySelector('.product-media-popup');
-  const featuredMedia = document.querySelector('.product-media-popup .featured-image');
-  if(productMediaItem) {
-    productMediaItem.forEach( item => {
-      item.addEventListener('click', productMediaPopup)
-    })
-    function productMediaPopup() {
-      const imgSrc = this.firstElementChild.getAttribute('src');
-      productMediaPopUp.style.opacity = 1;
-      productMediaPopUp.style.visibility = "visible";
-      featuredMedia.setAttribute('src', imgSrc);
-    }
-  }
+  const productGalleryContainer = document.getElementById("product-gallery");
+  const productMediaPopUp = document.getElementById("product-media-popup");
 
-  // product thumbnail script
-  const productFeaturedMedia = document.querySelectorAll('.product-media-popup .product-media-wrap');
-  if(productFeaturedMedia) {
-    productFeaturedMedia.forEach( item => {
-      item.addEventListener('click', productFeatured)
-    })
-    function productFeatured() {
-      const imgSrc = this.firstElementChild.getAttribute('src');
-      featuredMedia.setAttribute('src', imgSrc);
-    }
-  }
+  if(productGalleryContainer && productMediaPopUp) {
+    const productMediaItem = productGalleryContainer.querySelectorAll('[data-media-item]');
+    const featuredMedia = productMediaPopUp.querySelector('[data-featured-image]');
 
-  // product media model popup close
-  const closePopUp = document.querySelector('.product-media-popup .popup-close');
-  if(closePopUp) {
-    closePopUp.addEventListener('click', function(){
-      productMediaPopUp.style.opacity = 0;
-      productMediaPopUp.style.visibility = "hidden";
-    })
+    if(productMediaItem) {
+      productMediaItem.forEach( item => {
+        item.addEventListener('click', productMediaPopup)
+      })
+      function productMediaPopup() {
+        const imgSrc = this.firstElementChild.getAttribute('src');
+        productMediaPopUp.style.opacity = 1;
+        productMediaPopUp.style.visibility = "visible";
+        featuredMedia.setAttribute('src', imgSrc);
+      }
+    }
+
+    // product thumbnail script
+    const productFeaturedMedia = productMediaPopUp.querySelectorAll('[data-product-media]');
+    if(productFeaturedMedia) {
+      productFeaturedMedia.forEach( item => {
+        item.addEventListener('click', productFeatured)
+      })
+      function productFeatured() {
+        const imgSrc = this.firstElementChild.getAttribute('src');
+        featuredMedia.setAttribute('src', imgSrc);
+      }
+    }
+
+    // product media model popup close
+    const closePopUp = productMediaPopUp.querySelector('[data-popup-close]');
+    if(closePopUp) {
+      closePopUp.addEventListener('click', function(){
+        productMediaPopUp.style.opacity = 0;
+        productMediaPopUp.style.visibility = "hidden";
+      })
+    }
   }
 
   // hide the video poster on click
-  const videoPoster = document.querySelector('.video-section .beta');
-  if(videoPoster) {
-    videoPoster.addEventListener('click', function(){
-      this.children[1].style.display= 'none';
-    })
+  const videoContainer = document.getElementById('video-section');
+  if(videoContainer) {
+    const videoPoster = videoContainer.querySelector('[data-video]');
+    if(videoPoster) {
+      videoPoster.addEventListener('click', function(){
+        this.children[1].style.display= 'none';
+      })
+    }
   }
 
   //Faq Page accordian script
-  var accordianItem = document.querySelectorAll('.faq-page .accordian-item');
-  var accordianGroup = document.querySelector('.faq-page .accordians-group .accordian-item');
-  var accordianHeader = document.querySelectorAll('.faq-page .accordian-header');
+  const faqTemplate = document.getElementById("faq-template");
+  if(faqTemplate) {
+    var accordianItem = faqTemplate.querySelectorAll('[data-accordian-item]');
+    var accordianGroup = faqTemplate.querySelector('[data-active-accordian]');
+    var accordianHeader = faqTemplate.querySelectorAll('[data-accordian-header]');
 
-  if(accordianGroup){
-    accordianGroup.classList.add('active')
-  }
-  if(accordianHeader) {
-    accordianHeader.forEach( item => {
-      item.addEventListener('click', toggleItem)
-    })
-    function toggleItem() {
-      if(this.parentNode.className.indexOf('active') === -1){
-        accordianItem.forEach(el => {
-          el.classList.remove('active');
-        })
-      }
-      if (this.parentNode.className.indexOf('active') === -1) {
-          this.parentNode.classList.add('active');
-      } else {
-        this.parentNode.classList.remove('active');
+    if(accordianGroup){
+      accordianGroup.classList.add('active')
+    }
+    if(accordianHeader) {
+      accordianHeader.forEach( item => {
+        item.addEventListener('click', toggleItem)
+      })
+      function toggleItem() {
+        if(this.parentNode.className.indexOf('active') === -1){
+          accordianItem.forEach(el => {
+            el.classList.remove('active');
+          })
+        }
+        if (this.parentNode.className.indexOf('active') === -1) {
+            this.parentNode.classList.add('active');
+        }else {
+          this.parentNode.classList.remove('active');
+        }
       }
     }
   }
 
   // highlight the ancillary link
-  const menu_items = document.querySelectorAll('.ancillary-page .ancillary-link');
-  if(menu_items) {
-    menu_items.forEach( item => {
-      const href = item.getAttribute('href');
-      const url = window.location.pathname;
-      if(href === url) {
-          item.classList.add('active')
-      }
-    })
+  const ancillaryContainer = document.getElementById("ancillary-sidebar")
+  if(ancillaryContainer) {
+    const menu_items = ancillaryContainer.querySelectorAll('[data-ancillary-link]');
+    if(menu_items) {
+      menu_items.forEach( item => {
+        const href = item.getAttribute('href');
+        const url = window.location.pathname;
+        if(href === url) {
+            item.classList.add('active')
+        }
+      })
+    }
   }
 
   // clear the newsletter input on click
-  const clearIcon = document.querySelector('.custom-footer .icon-skip');
-  const inputField = document.getElementById('NewsletterForm--custom-footer');
-  if(clearIcon) {
-    clearIcon.addEventListener('click', function() {
-      inputField.value = ''
-    })
+  const footer = document.getElementById('custom-footer');
+  if(footer) {
+    const clearIcon = footer.querySelector('[data-icon-skip]');
+    const inputField = footer.querySelector('[data-input-field]');
+    if(clearIcon) {
+      clearIcon.addEventListener('click', function() {
+        inputField.value = ''
+      })
+    }
   }
 
   // highlight the account ancillary link
-  const linkItem = document.querySelectorAll('.account-sidebar .ancillary-link');
-  if(linkItem) {
-    linkItem.forEach( item => {
-      const href = item.getAttribute('href').split('/');
-      const path = href.at(-1);
-      const url = window.location.pathname.split('/');
-      const mainPath = url.at(1);
-      if(path === mainPath) {
-          item.classList.add('active')
-      }
-    })
+  const accountSidebar = document.getElementById("account-sidebar");
+  if(accountSidebar) {
+    const linkItem = accountSidebar.querySelectorAll('[data-ancillary-link]');
+    if(linkItem) {
+      linkItem.forEach( item => {
+        const href = item.getAttribute('href').split('/');
+        const path = href.at(-1);
+        const url = window.location.pathname.split('/');
+        const mainPath = url.at(1);
+        if(path === mainPath) {
+            item.classList.add('active')
+        }
+      })
+    }
   }
 
   //  image gallery swiper slider script
@@ -2780,7 +2818,7 @@ customElements.define("ajax-cart", AjaxCart);
     },
     breakpoints: {
       1600: {
-        spaceBetween: 40
+        spaceBetween: 40,
       },
       1279: {
         spaceBetween: 30,

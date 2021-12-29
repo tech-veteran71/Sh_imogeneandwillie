@@ -1,22 +1,22 @@
 {{ 'product-media-popup.css' | asset_url | stylesheet_tag }}
 
-<div class="product-media-popup">
+<div class="product-media-popup" id="product-media-popup">
   <div class="media-container">
     <div class="wrapper">
-      <div class='popup-close'>
+      <div class='popup-close' data-popup-close>
         {% render 'close-icon' %}
       </div>
       <div class="product-media-gallery">
         <div class="product-thumbnail">
           {%- for media in product.media -%}
-            <div class="product-media-wrap">
+            <div class="product-media-wrap" data-product-media>
               <img src="{{ media | img_url: 'master' }}" alt="" class="product-media"/>
             </div>
           {% endfor %}
         </div>
         <div class="product-featured-image">
           <div class="featured-media">
-            <img src="" alt="" class="featured-image"/>
+            <img src="" alt="" class="featured-image" data-featured-image/>
           </div>
         </div>
       </div>

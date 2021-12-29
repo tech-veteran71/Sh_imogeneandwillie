@@ -139,7 +139,7 @@
                       <li>
                         {%- if link.links != blank -%}
                           <details>
-                            <summary class="first-level-menu-item menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
+                            <summary class="first-level-menu-item menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}" data-main-item>
                               {{ link.title | escape }}
                               {%- comment -%}
                               {% render 'icon-arrow' %}
@@ -148,7 +148,7 @@
                             </summary>
                             <div id="link-{{ link.title | escape }}" class="menu-drawer__submenu motion-reduce" tabindex="-1">
                               <div class="menu-drawer__inner-submenu">
-                                <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
+                                <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true" data-drawer-close>
                                   {%- comment -%}
                                   {% render 'icon-arrow' %}
                                   {%- endcomment -%}
@@ -163,7 +163,7 @@
                                           {{ childlink.title | escape }}
                                         </a>
                                       {%- else -%}
-                                          <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset child-menu-item">
+                                          <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset child-menu-item" data-child-item>
                                             <span>{{ childlink.title | escape }}</span>
                                             {%- comment -%}
                                             {% render 'icon-arrow' %}
@@ -210,7 +210,7 @@
                     {%- endfor -%}
                   </ul>
                 </nav>
-                <div class="menu-drawer-footer">
+                <div class="menu-drawer-footer" data-menu-footer>
                   {% if section.settings.text != blank %}
                     <p class="text">{{ section.settings.text }}</p>
                   {% endif %}
@@ -410,10 +410,10 @@
     {%- endif -%}
     
     {%- if section.settings.menu != blank -%}
-      <nav class="header__inline-menu">
+      <nav class="header__inline-menu" id="header-menu">
         <ul class="list-menu list-menu--inline" role="list">
           {%- for link in section.settings.menu.links -%}
-            <li class="menu-item{% if link.levels == 1 %} main-menu-item {% endif %}">
+            <li class="menu-item{% if link.levels == 1 %} main-menu-item {% endif %}" data-menu-item>
               {% assign mainMenUItem = link.title | downcase %}
                 <div class="header__menu-item list-menu__item link focus-inset">
                   <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>

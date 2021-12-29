@@ -1,6 +1,6 @@
 {{ 'custom-footer.css' | asset_url | stylesheet_tag }} 
 
-<div class='custom-footer'>
+<div class='custom-footer' id="custom-footer">
   <div class="footer-container">
     <div class="wrapper">
       <div class="column-grid">
@@ -54,7 +54,7 @@
             {% form 'customer', class: 'newsletter-form' %}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form footer-newsletter-form">
-                <span class="icon-skip">
+                <span class="icon-skip" data-icon-skip>
                   {% render 'icon-skip' %}
                 </span>
                 <div class="field">
@@ -64,6 +64,7 @@
                     name="contact[email]"
                     class="field-input"
                     value="{{ form.email }}"
+                    data-input-field
                     aria-required="true"
                     autocorrect="off"
                     autocapitalize="off"

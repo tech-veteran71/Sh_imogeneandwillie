@@ -1,4 +1,4 @@
-<div class="ancillary-sidebar">
+<div class="ancillary-sidebar" id="ancillary-sidebar">
   <div class="side-wrapper">
     {% if section.settings.title != blank %}
       <div class="title-wrap sidebar-title-wrap">
@@ -11,7 +11,7 @@
             {% if block.type == 'ancillary_link' %}
               {% if block.settings.link_text != blank %}
                 <li class="ancillary-item">
-                  <a href="{{ block.settings.link_url }}" class="ancillary-link">{{ block.settings.link_text }}</a>
+                  <a href="{{ block.settings.link_url }}" class="ancillary-link" data-ancillary-link>{{ block.settings.link_text }}</a>
                 </li>
               {% endif %}
             {% endif %}
