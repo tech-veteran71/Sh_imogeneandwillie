@@ -7,8 +7,9 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
-    "type_header_font": "helvetica_n4",
+    "type_header_font": "assistant_n4",
     "type_body_font": "helvetica_n4",
+    "favicon": "shopify:\/\/shop_images\/Untitled-2_copy.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -34,7 +35,6 @@
           "911af869-2047-4ce4-8ad0-7bf06818c8b9": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Group_592.png",
               "product_url": "",
               "product_title": "imogene slim laurel",
               "product_description": "14oz indigo stretch denim"
@@ -43,7 +43,6 @@
           "0d1a2039-9ba0-4023-9460-a636741b3ded": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Image_145.png",
               "product_url": "",
               "product_title": "catherine sienna",
               "product_description": "9.75oz Cone Mills denim"
@@ -52,7 +51,6 @@
           "f03cc262-7b91-45be-8361-ad40596bd9fd": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Image_147.png",
               "product_url": "",
               "product_title": "elsie evelyn",
               "product_description": "14oz Vidalia Mills selvage denim"
@@ -61,7 +59,6 @@
           "3815b5f7-3f28-4a79-9ca5-336595da5ead": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/hall-02_360x_997b304b-0534-4e33-aad9-0e45a53ed1b8.jpg",
               "product_url": "",
               "product_title": "the \"bolt\" tee in black",
               "product_description": "small batch dyed"
@@ -70,7 +67,6 @@
           "565f0e16-3662-4f56-8c28-cf218a3fb4d1": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/barton-slim-natchez-01_1200x_c93be82e-b32e-4db9-a4e6-9769af94302e.jpg",
               "product_url": "",
               "product_title": "oliver military trouser in field tan",
               "product_description": "yarn dyed cloth woven"
@@ -79,7 +75,6 @@
           "9604c633-37fa-4ce1-bd8b-bf9de49548f4": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/henley-copper-02_1200x_242e1ba5-bd3c-41e9-888c-3444293521da.jpg",
               "product_url": "",
               "product_title": "elsie evelyn",
               "product_description": "14oz Vidalia Mills selvage denim"
@@ -88,7 +83,6 @@
           "0727aa4a-6014-4448-acd9-3f92cc8fdc4f": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Component_55.png",
               "link": "",
               "pre_title": "matt and carrie eddmenson, '14",
               "title": "our story",
@@ -98,7 +92,6 @@
           "4cc22847-de5f-48cd-9ae3-3e176610939b": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Component_56.png",
               "link": "",
               "pre_title": "2601 12th ave s",
               "title": "nashville",
@@ -108,7 +101,6 @@
           "d3265107-3261-49c1-ad15-3ab927369894": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Component_57.png",
               "link": "",
               "pre_title": "imperfect perfection",
               "title": "our process",
@@ -118,7 +110,6 @@
           "4aa8bf58-0351-464c-864a-89b1a0e23fe4": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/supper_song_19_copy.png",
               "link": "",
               "pre_title": "till next time",
               "title": "supper + song",
@@ -128,7 +119,6 @@
           "4d523621-d2a6-40a6-80b0-ffb7834f2f2d": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Component_58_8bbfaad3-9030-4f4b-91a2-61709b760be4.png",
               "link": "",
               "pre_title": "make it last forever",
               "title": "tailor shop",
@@ -138,7 +128,6 @@
           "53481464-0c94-4902-abeb-280a5d5344e8": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044.png",
               "link": "",
               "pre_title": "unwavering dedication",
               "title": "made in usa",
@@ -148,28 +137,24 @@
           "e8ac997d-06bf-4cd7-84aa-bd38fbabdacd": {
             "type": "menu_drawer_slide",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Image_141.png",
               "title": "our story"
             }
           },
           "8cc7e1ce-5bd7-4c19-a4d8-b78147aa876b": {
             "type": "menu_drawer_slide",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Image_147_f5c2b63c-4424-442b-adf7-69135551f701.png",
               "title": "tailor shop"
             }
           },
           "2a53791e-d20c-4aed-9836-17b8c8ed143d": {
             "type": "menu_drawer_slide",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Image_145_19c83ec6-8ebb-4513-8d31-93320fc56829.png",
               "title": "vidalia mills"
             }
           },
           "68c46852-b5f9-4c93-8d82-2758e0e8972a": {
             "type": "menu_drawer_slide",
             "settings": {
-              "img": "shopify:\/\/shop_images\/warehouse__6_of_9.png",
               "title": "made in usa"
             }
           }
@@ -209,35 +194,30 @@
           "878beab4-f00b-4190-8508-4d3c58930dfb": {
             "type": "social_media",
             "settings": {
-              "social_icon": "shopify:\/\/shop_images\/insta.png",
               "social_link": ""
             }
           },
           "e0c13758-6ba3-4902-b8ac-cc2190d42ca4": {
             "type": "social_media",
             "settings": {
-              "social_icon": "shopify:\/\/shop_images\/fb.png",
               "social_link": ""
             }
           },
           "9b7fcae6-a78d-441b-9b0b-16776447e5a0": {
             "type": "social_media",
             "settings": {
-              "social_icon": "shopify:\/\/shop_images\/youtube.png",
               "social_link": ""
             }
           },
           "62834155-b6e3-4e4f-ae10-43b5aecd3902": {
             "type": "social_media",
             "settings": {
-              "social_icon": "shopify:\/\/shop_images\/twitter.png",
               "social_link": ""
             }
           },
           "a69295ee-26a7-4368-96a4-52f896669ce4": {
             "type": "social_media",
             "settings": {
-              "social_icon": "shopify:\/\/shop_images\/pinterest.png",
               "social_link": ""
             }
           },

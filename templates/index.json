@@ -3,8 +3,8 @@
     "16376702997fa1eefe": {
       "type": "banner-section",
       "settings": {
-        "desktop_banner_img": "shopify:\/\/shop_images\/Header_IMG.png",
-        "mobile_banner_img": "shopify:\/\/shop_images\/Image_484.png"
+        "desktop_banner_img": "shopify:\/\/shop_images\/hero_1914954b-96c3-48cb-807f-5310f3959a84.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/Header_IMG_2400x_4409c60c-72e5-4808-a81a-401c90449ac6.png"
       }
     },
     "163767167477fefeea": {
@@ -22,35 +22,35 @@
         "e17c5de1-a6cd-4ff5-a61a-127a93749894": {
           "type": "recent_moment",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/IMG_3744.png",
+            "desk_img": "shopify:\/\/shop_images\/IMG_3744_400x_f45c1814-0206-4547-9f00-4da3baa59c51.png",
             "text": "10.13.21"
           }
         },
         "0070db68-1d93-40c7-841c-3643881318ef": {
           "type": "recent_moment",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Image_496.png",
+            "desk_img": "shopify:\/\/shop_images\/Image_496_300x_5c16e6be-3249-4654-bc17-7603fc5d08de.png",
             "text": "10.01.21"
           }
         },
         "44e72a82-ff00-498e-92af-19221111d917": {
           "type": "recent_moment",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/IMG_1072-2.png",
+            "desk_img": "shopify:\/\/shop_images\/IMG_1072-2_300x_69ab6474-8733-4a77-91f0-430411e7f7ad.png",
             "text": "10.01.21"
           }
         },
         "de671810-f962-4a38-84be-74646b26b6e2": {
           "type": "recent_moment",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Image_497.png",
+            "desk_img": "shopify:\/\/shop_images\/Image_497_400x_e736ac6f-921e-422f-b80f-547b4158cffe.png",
             "text": "09.16.21"
           }
         },
         "8b38b25b-4135-475d-b432-499469c677ea": {
           "type": "recent_moment",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/gibson-3.png",
+            "desk_img": "shopify:\/\/shop_images\/gibson-3_300x_17d6bf61-b579-42ed-9c3f-c78b8b1135b4.png",
             "text": "09.12.21"
           }
         }
@@ -71,7 +71,7 @@
     "1637675877d09ce9e2": {
       "type": "image--with-text",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/Image_488_fb4359ba-9d0a-47d5-979f-52d7be0743b0.png",
+        "desk_img": "shopify:\/\/shop_images\/Image_488_1800x_9439c8cb-5090-408a-ab17-0d519dcdeb24.png",
         "pre_title": "( our home )",
         "title": "2601 12th ave s",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
@@ -85,8 +85,8 @@
         "102cbbfa-c8a8-49d3-b58f-8928a61d956f": {
           "type": "collection_item",
           "settings": {
-            "img_desk": "shopify:\/\/shop_images\/Image_498_5512045d-239d-49e0-af88-238066731727.png",
-            "img_mob": "shopify:\/\/shop_images\/Image_492.png",
+            "img_desk": "shopify:\/\/shop_images\/Image_498_900x_f39742c0-c29e-4eac-9de7-3179ae9060a9.png",
+            "img_mob": "shopify:\/\/shop_images\/Untitled-6_3245a8fc-15c6-4fee-a197-b922c89d4511.jpg",
             "pre_title": "WOMEN’S NEW ARRIVALS",
             "title": "agnes jacket in coastal stone",
             "btn_text": "Shop All",
@@ -98,8 +98,8 @@
         "040b3d3a-8dd7-429d-8a11-bbaeb7abc0cb": {
           "type": "collection_item",
           "settings": {
-            "img_desk": "shopify:\/\/shop_images\/Image_583_e855db95-f921-423a-93a6-bfeb19aba511.png",
-            "img_mob": "shopify:\/\/shop_images\/Image_493.png",
+            "img_desk": "shopify:\/\/shop_images\/Image_583_900x_53d57346-3ea6-4d1e-b42f-6b2debeb6fd9.png",
+            "img_mob": "shopify:\/\/shop_images\/right_22f1301e-a31b-45f3-87b0-ccff181b5687.jpg",
             "pre_title": "MEN’S NEW ARRIVALS",
             "title": "hall cpo in cascade plaid",
             "btn_text": "Shop All",
@@ -119,7 +119,7 @@
     "163765606665c0b3b1": {
       "type": "featured--collection",
       "settings": {
-        "choose_collection": "mens-new-arrival",
+        "choose_collection": "bottom-size-27",
         "title": "Women’s new arrivals",
         "main_title": "new arrivals",
         "mob_title": "WOMEN’s",
@@ -130,7 +130,7 @@
     "163765607076405794": {
       "type": "featured--collection",
       "settings": {
-        "choose_collection": "womens-new-arrival",
+        "choose_collection": "bottom-size-28",
         "title": "men’s new arrivals",
         "main_title": "",
         "mob_title": "men's",
@@ -141,13 +141,13 @@
     "1637662418c5179d34": {
       "type": "grand-image-section",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/Image_489.png"
+        "desk_img": "shopify:\/\/shop_images\/updated.jpg"
       }
     },
     "163766488788d333b9": {
       "type": "product-gallery",
       "settings": {
-        "choose_collection": "cap-collection",
+        "choose_collection": "women-denim-34",
         "title": "collection",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
         "btn_text": "Shop All",
@@ -160,7 +160,7 @@
         "b495a850-459b-4089-b928-5bc174a0b23b": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_585.png",
+            "img": "shopify:\/\/shop_images\/Untitled-6_3245a8fc-15c6-4fee-a197-b922c89d4511.jpg",
             "btn_text": "shop mens",
             "btn_url": ""
           }
@@ -168,7 +168,7 @@
         "a5039d9b-141b-4eff-944e-c54ac4ff16e3": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_587.png",
+            "img": "shopify:\/\/shop_images\/right_da369114-d23e-47e7-a09e-914eb425a0d4.jpg",
             "btn_text": "shop womens",
             "btn_url": ""
           }
@@ -192,7 +192,7 @@
       "type": "new-arrival-section",
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/Image_587.png",
-        "image": "shopify:\/\/shop_images\/Image_583_e855db95-f921-423a-93a6-bfeb19aba511.png",
+        "image": "shopify:\/\/shop_images\/Image_583_900x_53d57346-3ea6-4d1e-b42f-6b2debeb6fd9.png",
         "change_alignment": false,
         "pre_title": "MEN’S NEW ARRIVALS",
         "title": "hall cpo in cascade plaid",
@@ -205,7 +205,7 @@
       "type": "new-arrival-section",
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/Image_586.png",
-        "image": "shopify:\/\/shop_images\/Image_498_5512045d-239d-49e0-af88-238066731727.png",
+        "image": "shopify:\/\/shop_images\/Image_498_900x_f39742c0-c29e-4eac-9de7-3179ae9060a9.png",
         "change_alignment": true,
         "pre_title": "WOMEN’S NEW ARRIVALS",
         "title": "agnes jacket in coastal stone",
@@ -220,35 +220,35 @@
         "b71b647c-7eca-4d14-9d64-9b6894c36518": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_493.png",
+            "img": "shopify:\/\/shop_images\/clara-01.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "5905881e-f7d3-4761-b836-cdb5fff6230f": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_508.png",
+            "img": "shopify:\/\/shop_images\/hero_1914954b-96c3-48cb-807f-5310f3959a84.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "a36ed190-490c-4d7a-abce-199697ff1788": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_492.png",
+            "img": "shopify:\/\/shop_images\/henry-lot-1-01_1200x_e1164e10-9c57-4983-b918-a98ec3c694ff.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "ca2f34ed-31fd-4bb0-821f-424dcd43e39f": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_509.png",
+            "img": "shopify:\/\/shop_images\/chore-coat-07_1200x_36a519df-3342-4084-a43d-9131c9b9507b.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "7ce64834-ed0f-4b79-96a5-fe9acc7a5237": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_489.png",
+            "img": "shopify:\/\/shop_images\/Image_601_900x_14ef96e7-f233-42ed-84bc-63fad470b97b.png",
             "product_title": "hall cpo in cascade plaid"
           }
         }
@@ -273,42 +273,42 @@
         "0cab6c6e-fe94-403c-b7d0-33ff75cbaa11": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_498.png",
+            "img": "shopify:\/\/shop_images\/gibson-3_300x_17d6bf61-b579-42ed-9c3f-c78b8b1135b4.png",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "9f4f9d2b-be43-419c-8820-f68fdd893b40": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_493.png",
+            "img": "shopify:\/\/shop_images\/catrigid.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "91c44f74-2810-4f3d-9bd7-a48a48d4181f": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_501.png",
+            "img": "shopify:\/\/shop_images\/whenley.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "f42f720e-fb81-4a96-835f-8015903a3c27": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_492.png",
+            "img": "shopify:\/\/shop_images\/chore-coat-07_1200x_36a519df-3342-4084-a43d-9131c9b9507b.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "ac7bc3e4-b449-488b-92ec-5a3c3479a488": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_511.png",
+            "img": "shopify:\/\/shop_images\/hero2_645bdc63-390a-433e-8277-b8ab1089594a.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         },
         "ec18295e-8168-4d8b-901e-c2a99d00de6e": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_500.png",
+            "img": "shopify:\/\/shop_images\/bk-02.jpg",
             "product_title": "hall cpo in cascade plaid"
           }
         }
@@ -395,7 +395,7 @@
         "728bdb3b-6fd4-410d-9f4f-d71a9d16bc8f"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/Image_601.png",
+        "img": "shopify:\/\/shop_images\/Image_601_900x_14ef96e7-f233-42ed-84bc-63fad470b97b.png",
         "product_title": "the “lonely ones” tee",
         "product_description": "100% cotton",
         "price": "$68.00",
@@ -408,63 +408,63 @@
         "b5a65072-75a1-4195-93a5-e5d384086441": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_593.png",
+            "img": "shopify:\/\/shop_images\/Image_598_300x_c2ffcc22-ad6c-4f4b-b3df-9a847de578e6.png",
             "link": ""
           }
         },
         "17efc634-9000-4b4b-b2a5-c907719dd786": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_595.png",
+            "img": "shopify:\/\/shop_images\/Image_594_300x_a25d6f45-bb2c-4752-b37b-18b213565a4c.png",
             "link": ""
           }
         },
         "e6d3169a-cf44-4a87-9d69-d1ce9a86bab3": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_592.png",
+            "img": "shopify:\/\/shop_images\/Image_599_300x_a98d9576-babd-42c5-a6b0-085a633af727.png",
             "link": ""
           }
         },
         "6b5fbeae-cc60-4097-9b80-4e890e726e8b": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_597.png",
+            "img": "shopify:\/\/shop_images\/Image_597_300x_a23506c4-6a69-4c5b-ab3a-e5c88644120a.png",
             "link": ""
           }
         },
         "e5472720-c1e3-4391-9d9d-200092f242e0": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_599.png",
+            "img": "shopify:\/\/shop_images\/Image_592_300x_b71b2fe7-ed76-4ddf-8261-61d677cdfe05.png",
             "link": ""
           }
         },
         "ae5d9b96-47d0-4e21-8894-ff22bb7f65b1": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_594.png",
+            "img": "shopify:\/\/shop_images\/Image_595_300x_007d649a-9a33-48c1-b8b9-bd8bd531a94d.png",
             "link": ""
           }
         },
         "71e01e16-4676-4d6c-926a-120710c39b05": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_598.png",
+            "img": "shopify:\/\/shop_images\/Image_593_300x_30afb034-7147-4d60-9168-4ce709794d61.png",
             "link": ""
           }
         },
         "bc12f04e-235c-4179-be54-479a8bab48b7": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_592.png",
+            "img": "shopify:\/\/shop_images\/Image_598_300x_c2ffcc22-ad6c-4f4b-b3df-9a847de578e6.png",
             "link": ""
           }
         },
         "c73bc511-9acf-499d-87c8-de753340c474": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_593.png",
+            "img": "shopify:\/\/shop_images\/Image_594_300x_a25d6f45-bb2c-4752-b37b-18b213565a4c.png",
             "link": ""
           }
         }
@@ -481,7 +481,7 @@
         "c73bc511-9acf-499d-87c8-de753340c474"
       ],
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/Image_489.png",
+        "desk_img": "shopify:\/\/shop_images\/Image_489_1200x_ffa08bbc-343e-48ea-929b-49881570d196.png",
         "link_url": "",
         "title": "FEATURED PRODUCT",
         "link_text": "I+w Watch caps"
@@ -490,7 +490,7 @@
     "1637735864c2bd7e13": {
       "type": "promise-section",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01299.png",
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01299_400x_0cf44bed-7d9f-4d26-b3b1-6de02006b648.png",
         "pre_title": "( our promise )",
         "title": "committed to making everything in the usa",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
