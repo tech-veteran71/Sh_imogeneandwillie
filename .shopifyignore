@@ -2,4 +2,6 @@ package.json
 package-lock.json
 gulpfile.js
 postcss.config.js
+config/settings_data.json
+templates/*.json
 yarn.lock

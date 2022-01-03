@@ -2,7 +2,7 @@
 {{ 'ancillary-sidebar.css' | asset_url | stylesheet_tag }}
 
 {% assign bannerImage = section.settings.banner_img %}
-<div class="faq-page ancillary-page">
+<div class="faq-page ancillary-page" id="faq-template">
   <div class="container">
     <div class="wrapper">
       {% render 'page-banner', bannerImage: bannerImage %}
@@ -20,9 +20,9 @@
                   <h3 class="faq-title">{{ block.settings.accordian_sub_title }}</h3>
                 {% endif %}
                 <div class="accordians-group">
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item data-active-accordian>
                     {% if block.settings.accordian_title_1 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_1 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -44,9 +44,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_2 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_2 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -68,9 +68,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_3 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_3 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -92,9 +92,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_4 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_4 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -116,9 +116,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_5 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_5 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -140,9 +140,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_6 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_6 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -164,9 +164,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_7 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_7 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -188,9 +188,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_8 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_8 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -212,9 +212,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_9 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_9 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -236,9 +236,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_10 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_10 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -260,9 +260,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_11 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_11 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -279,14 +279,14 @@
                       </div>
                     {% endif %}
                     {% if block.settings.text_11 != blank %}
-                      <div class="accordian-body">
+                      <div class="accordian-body" data-accordian-item>
                         <p class="text">{{ block.settings.text_11 }}</p>
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_12 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_12 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -308,9 +308,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_13 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_13 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -332,9 +332,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_14 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_14 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">
@@ -356,9 +356,9 @@
                       </div>
                     {% endif %}
                   </div>
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_15 != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_15 }}</h3>
                         <div class="icons">
                           <div class="accordian-open icon">

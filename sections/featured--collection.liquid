@@ -21,27 +21,30 @@
         {% endif %}
       </div>
       <div class="product_gallery">
-        {% if section.settings.choose_collection != blank %}
-          {% for product in collections[section.settings.choose_collection].products %}
-            <div class="product-item">
-              <a href="{{ product.url }}" class="product-link">
-                <div class="img-wrap">
-                  {% render 'responsive--image' with product.featured_media as image, max_width: 455, class: 'img' %}
-                </div>
-                <h3 class="product-title">{{ product.title }}</h3>
-              </a>
-            </div>
-          {% endfor %}
-        {% else %}
-          {% for index in (1..5) %}
-            <div class="product-item">
-              <div class="img-wrap">
-                {% assign placeholder = 'product-' | append: index %}
-                {{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}
+        <div class="swiper-wrapper">
+          {% if section.settings.choose_collection != blank %}
+            {% for product in collections[section.settings.choose_collection].products %}
+              <div class="product-item swiper-slide">
+                <a href="{{ product.url }}" class="product-link">
+                  <div class="img-wrap">
+                    {% render 'responsive--image' with product.featured_media as image, max_width: 455, class: 'img' %}
+                  </div>
+                  <h3 class="product-title">{{ product.title }}</h3>
+                </a>
               </div>
-            </div>
-          {% endfor %}
-        {% endif %}
+            {% endfor %}
+          {% else %}
+            {% for index in (1..5) %}
+              <div class="product-item swiper-slide">
+                <div class="img-wrap">
+                  {% assign placeholder = 'product-' | append: index %}
+                  {{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              </div>
+            {% endfor %}
+          {% endif %}
+        </div>
+        <div class="swiper-scrollbar"></div>
       </div>
     </div>
   </div>

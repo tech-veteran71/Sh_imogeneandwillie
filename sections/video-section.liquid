@@ -1,5 +1,5 @@
 {{ 'video.css' | asset_url | stylesheet_tag }}
-<div class="video-section">
+<div class="video-section" id="video-section">
   <div class="main-container">
     {% if section.settings.title != blank%}
       <h3 class="title">{{ section.settings.title }}</h3>
@@ -39,7 +39,7 @@
          </div>
         </div>
       </div>
-      <div class="beta">
+      <div class="beta" data-video>
          {% if section.settings.video_url != blank %}
           <iframe class="video" src="{{ section.settings.video_url }}"></iframe>
           <div class="image">

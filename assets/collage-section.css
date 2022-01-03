@@ -1,6 +1,9 @@
 .collage-section {
   padding-bottom: 75px;
 }
+.fit-guide-page .collage-section {
+  padding-top: 75px;
+}
 .custom-content .collage-section {
   padding: 95px 0 110px;
   background-color: var(--color-Xlight-wheat)
@@ -40,6 +43,13 @@
 }
 .collage-section .pre-title {
   display: none;
+}
+.fit-guide-page .collage-section .pre-title {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: var(--color-normal-black);
+  letter-spacing: 2px;
 }
 .collage-section .main-title {
   font-size: 28px;
@@ -114,6 +124,9 @@
   }
 }
 @media screen and (max-width: 990px){
+  .fit-guide-page .collage-section {
+    padding: 55px 0;
+  }
   .custom-content .collage-section {
     padding: 70px 0 85px;
   }
@@ -158,8 +171,11 @@
 }
 @media screen and (max-width: 767px){
   .collage-section {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     padding-top: 35px;
+  }
+  .fit-guide-page .collage-section {
+    padding: 35px 0 40px;
   }
   .collage-section .mob-image {
     display: block;
@@ -198,7 +214,7 @@
     display: none;
   }
   .collage-section .show-btn {
-    display: block;
+    display: flex;
   }
   .collage-section .text {
     max-width: 280px;

@@ -161,11 +161,11 @@
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
-                <variant-radios class="no-js-hidden size-box-wrap" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
+                <variant-radios class="no-js-hidden size-box-wrap" id="size-box" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
-                        <div class="legend-wrap">
-                          <legend class="form__label">{{ option.name }}</legend>
+                        <div class="legend-wrap" data-variant-box>
+                          <legend class="form__label" data-form-label>{{ option.name }}</legend>
                           <div class="icon-wrap">
                               {% render 'chevron-icon' %}
                           </div>
@@ -340,12 +340,12 @@
           {%- endcase -%}
         {%- endfor -%}
         
-          <div class="product-accodians">
+          <div class="product-accodians" id="product-accordians">
             {% for block in section.blocks %}
               {% if block.type == 'accordian' %}
-                  <div class="accordian-item">
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title  != blank %}
-                      <div class="accordian-header">
+                      <div class="accordian-header" data-accordian-header>
                         <span class="accordian-title">{{ block.settings.accordian_title }}</span>
                         <div class="acordian-icons">
                           <div class="close-icon">
@@ -415,9 +415,9 @@
         </button>
       {%- endif -%}
       {%- endcomment -%}
-      <div class="product-gallery">
+      <div class="product-gallery" id="product-gallery">
         {%- for media in product.media -%}
-          <div class="product-media-wrap media-item-{{ forloop.index }}">
+          <div class="product-media-wrap media-item-{{ forloop.index }}" data-media-item>
             {% render 'responsive--image' with media as image, max_width: 560, class: 'product-media' %}
           </div>
         {% endfor %}

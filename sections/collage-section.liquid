@@ -1,8 +1,12 @@
 <style>
+  #shopify-section-{{ section.id }} .collage-section {
+    --desk-bg-color: {{ section.settings.desk_bg_color }};
+    background-color: var(--desk-bg-color);
+  }
   @media screen and (max-width: 767px) {
     #shopify-section-{{ section.id }} .collage-section {
-      --bg-color: {{ section.settings.bg_color }};
-      background-color: var(--bg-color);
+      --mob-bg-color: {{ section.settings.mob_bg_color }};
+      background-color: var(--mob-bg-color);
     }
   }
 </style>
@@ -22,7 +26,7 @@
             <p class="text">{{ section.settings.text }}</p>
           {% endif %}
           {% if section.settings.btn_text != blank %}
-            <a href="{{ section.settings.btn_url }}" class="btn {% if show_btn %}show-btn{% endif %}">{{ section.settings.btn_text }}</a>
+            <a href="{{ section.settings.btn_url }}" class="btn {% if section.settings.show_btn %}show-btn{% endif %}">{{ section.settings.btn_text }}</a>
           {% endif %}
         </div>
       </div>
@@ -53,7 +57,12 @@
     },
     {
       "type": "color",
-      "id": "bg_color",
+      "id": "desk_bg_color",
+      "label": "Background Color (Desktop)"
+    },
+    {
+      "type": "color",
+      "id": "mob_bg_color",
       "label": "Background Color (Mobile)"
     },
     {
@@ -79,8 +88,7 @@
     {
       "type": "text",
       "id": "pre_title",
-      "label": "Pre Title",
-      "info": "Just For Mobile"
+      "label": "Pre Title"
     },
     {
       "type": "text",

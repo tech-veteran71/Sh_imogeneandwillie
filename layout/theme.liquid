@@ -135,13 +135,13 @@
       {{ 'slide-section.css' | asset_url | stylesheet_tag }}
     {% endif %}
 
-    {% if template.suffix == 'fabric-guide' %}
+    {% if template.suffix == 'fabric-guide' or template.suffix == 'fit-guide' %}
       {{ 'product-slider.css' | asset_url | stylesheet_tag }}
     {% endif %}
     {% if template.suffix == 'custom-content' %}
       {{ 'guide-section.css' | asset_url | stylesheet_tag }}
     {% endif %}
-    {% if template.suffix == 'fabric-guide' or template.suffix == 'custom-content' %}
+    {% if template.suffix == 'fabric-guide' or template.suffix == 'custom-content' or template.suffix == 'fit-guide' %}
       {{ 'collage-section.css' | asset_url | stylesheet_tag }}
     {% endif %}
 
@@ -164,8 +164,9 @@
   </head>
 
   <body class="gradient drawer-background template-{{ request.page_type }} 
-    {% if template.suffix == 'fabric-guide' or template.suffix == 'custom-content' %} custom-page {% endif %} 
+    {% if template.suffix == 'fabric-guide' or template.suffix == 'custom-content' or template.suffix == 'fit-guide' %} custom-page {% endif %} 
     {% if template.suffix == 'custom-content' %} custom-content {% endif %} 
+    {% if template.suffix == 'fit-guide' %} fit-guide-page {% endif %}
     {% if request.page_type == 'customers/login' or request.page_type == 'customers/register' %} template-customer {% endif %}"
   >
     {% render 'ajaxcart' %}
