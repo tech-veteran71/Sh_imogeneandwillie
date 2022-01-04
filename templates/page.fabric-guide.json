@@ -5,6 +5,8 @@
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/Header_17739405-e4b3-4a82-b956-bfbe1d498a8b.png",
         "mob_img": "shopify:\/\/shop_images\/Header_IMG_ef769324-089e-48f3-8376-5d2b4bbb26c4.png",
+        "main_title": "",
+        "text": "",
         "link_text": "FIND YOUR FIT",
         "link_url": ""
       }
@@ -20,7 +22,8 @@
     "collage-section": {
       "type": "collage-section",
       "settings": {
-        "bg_color": "#f7f6f3",
+        "desk_bg_color": "",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/Collage.png",
         "mob_img": "shopify:\/\/shop_images\/Image_275.png",
         "pre_title": "( lorem ipsum )",
@@ -35,7 +38,8 @@
     "slider": {
       "type": "product-slider",
       "settings": {
-        "bg_color": "#f7f6f3",
+        "desk_bg_color": "",
+        "mob_bg_color": "#f7f6f3",
         "choose_collection": "denim",
         "btn_text": "SHOP indigo",
         "btn_url": ""
@@ -44,7 +48,8 @@
     "163963500604115f8d": {
       "type": "collage-section",
       "settings": {
-        "bg_color": "#ffffff",
+        "desk_bg_color": "",
+        "mob_bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/Collage_404f29ec-a8b9-495b-964d-62e5d70e83e7.png",
         "mob_img": "shopify:\/\/shop_images\/Image_188.png",
         "pre_title": "( team favorite )",
@@ -59,7 +64,8 @@
     "1639635140ac8cfe60": {
       "type": "product-slider",
       "settings": {
-        "bg_color": "#ffffff",
+        "desk_bg_color": "",
+        "mob_bg_color": "",
         "choose_collection": "featured",
         "btn_text": "shop washed",
         "btn_url": ""
@@ -68,7 +74,8 @@
     "1639635146b0133f09": {
       "type": "collage-section",
       "settings": {
-        "bg_color": "#f7f6f3",
+        "desk_bg_color": "",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/Collage_4a5a4acf-2e5d-47f3-be75-841adce0844e.png",
         "mob_img": "shopify:\/\/shop_images\/Image_285.png",
         "pre_title": "( featured fit )",
@@ -83,7 +90,8 @@
     "163963521571238662": {
       "type": "product-slider",
       "settings": {
-        "bg_color": "#f7f6f3",
+        "desk_bg_color": "",
+        "mob_bg_color": "#f7f6f3",
         "choose_collection": "mens-new-arrival",
         "btn_text": "shop black",
         "btn_url": ""
@@ -92,7 +100,8 @@
     "1639635223785c4970": {
       "type": "collage-section",
       "settings": {
-        "bg_color": "#ffffff",
+        "desk_bg_color": "",
+        "mob_bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/Collage_c317db02-bead-4e7f-9663-95356b8dfc6e.png",
         "mob_img": "shopify:\/\/shop_images\/Image_9.png",
         "pre_title": "( the original )",
@@ -107,7 +116,8 @@
     "16396352870cb36956": {
       "type": "product-slider",
       "settings": {
-        "bg_color": "#ffffff",
+        "desk_bg_color": "",
+        "mob_bg_color": "",
         "choose_collection": "featured",
         "btn_text": "shop white\/natural",
         "btn_url": ""
@@ -116,7 +126,8 @@
     "1639635293f0bb6f00": {
       "type": "collage-section",
       "settings": {
-        "bg_color": "#f7f6f3",
+        "desk_bg_color": "",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/Collage_b362824b-29e6-44b8-8aed-f892f85c3d71.png",
         "mob_img": "shopify:\/\/shop_images\/Image_275.png",
         "pre_title": "( lorem ipsum )",
@@ -131,7 +142,8 @@
     "1639635379cd9a23d1": {
       "type": "product-slider",
       "settings": {
-        "bg_color": "#f7f6f3",
+        "desk_bg_color": "",
+        "mob_bg_color": "#f7f6f3",
         "choose_collection": "womens-new-arrival",
         "btn_text": "shop lorem",
         "btn_url": ""
