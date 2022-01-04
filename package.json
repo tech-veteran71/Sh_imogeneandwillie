@@ -6,7 +6,7 @@
     "build": "yarn run css:build & yarn run js:build",
     "deploy": "yarn run login && yarn run build && shopify theme push",
     "login": "shopify login --store imogeneandwillie.myshopify.com",
-    "sync": "yarn run create:tmp && yarn run pull:tmp && yarn run sync:tmp",
+    "sync": "yarn run clean:tmp && yarn run create:tmp && yarn run pull:tmp && yarn run sync:tmp",
     "sync:tmp": "cp -f ./tmp/config/settings_data.json ./config/settings_data.json && cp -f -R ./tmp/templates/* ./templates",
     "clean:tmp": " rm -r -f ./tmp",
     "create:tmp": "rsync -av --progress ./ ./tmp --exclude ./tmp --exclude node_modules",
