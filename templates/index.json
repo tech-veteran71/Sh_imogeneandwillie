@@ -4,7 +4,13 @@
       "type": "banner-section",
       "settings": {
         "desktop_banner_img": "shopify:\/\/shop_images\/hero_1914954b-96c3-48cb-807f-5310f3959a84.jpg",
-        "mobile_banner_img": "shopify:\/\/shop_images\/Header_IMG_2400x_4409c60c-72e5-4808-a81a-401c90449ac6.png"
+        "mobile_banner_img": "shopify:\/\/shop_images\/Header_IMG_1800x_7fa2104f-be6e-4b84-be35-14830770a3f8.png",
+        "img_height": true,
+        "link": "",
+        "add_video": false,
+        "video_poster": "shopify:\/\/shop_images\/gallery-4_1200x_469a073d-2610-4cf9-8e81-a2896f209976.png",
+        "video_url": "https:\/\/www.youtube.com\/embed\/nc5Lj90BzSQ?controls=0",
+        "video_controls": true
       }
     },
     "163767167477fefeea": {
@@ -18,51 +24,8 @@
     },
     "1637673172edbf6c8a": {
       "type": "explore-section",
-      "blocks": {
-        "e17c5de1-a6cd-4ff5-a61a-127a93749894": {
-          "type": "recent_moment",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/IMG_3744_400x_f45c1814-0206-4547-9f00-4da3baa59c51.png",
-            "text": "10.13.21"
-          }
-        },
-        "0070db68-1d93-40c7-841c-3643881318ef": {
-          "type": "recent_moment",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Image_496_300x_5c16e6be-3249-4654-bc17-7603fc5d08de.png",
-            "text": "10.01.21"
-          }
-        },
-        "44e72a82-ff00-498e-92af-19221111d917": {
-          "type": "recent_moment",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/IMG_1072-2_300x_69ab6474-8733-4a77-91f0-430411e7f7ad.png",
-            "text": "10.01.21"
-          }
-        },
-        "de671810-f962-4a38-84be-74646b26b6e2": {
-          "type": "recent_moment",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Image_497_400x_e736ac6f-921e-422f-b80f-547b4158cffe.png",
-            "text": "09.16.21"
-          }
-        },
-        "8b38b25b-4135-475d-b432-499469c677ea": {
-          "type": "recent_moment",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/gibson-3_300x_17d6bf61-b579-42ed-9c3f-c78b8b1135b4.png",
-            "text": "09.12.21"
-          }
-        }
-      },
-      "block_order": [
-        "e17c5de1-a6cd-4ff5-a61a-127a93749894",
-        "0070db68-1d93-40c7-841c-3643881318ef",
-        "44e72a82-ff00-498e-92af-19221111d917",
-        "de671810-f962-4a38-84be-74646b26b6e2",
-        "8b38b25b-4135-475d-b432-499469c677ea"
-      ],
       "settings": {
+        "choose_collection": "size-25",
         "title": "recent moments \/\/",
         "btn": "explore more",
         "url": ""
@@ -72,6 +35,8 @@
       "type": "image--with-text",
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/Image_488_1800x_9439c8cb-5090-408a-ab17-0d519dcdeb24.png",
+        "img_link": "",
+        "img_width": "large",
         "pre_title": "( our home )",
         "title": "2601 12th ave s",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
@@ -130,7 +95,7 @@
     "163765607076405794": {
       "type": "featured--collection",
       "settings": {
-        "choose_collection": "bottom-size-28",
+        "choose_collection": "size-27",
         "title": "men’s new arrivals",
         "main_title": "",
         "mob_title": "men's",
@@ -141,13 +106,16 @@
     "1637662418c5179d34": {
       "type": "grand-image-section",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/updated.jpg"
+        "desk_img": "shopify:\/\/shop_images\/updated.jpg",
+        "img_width": "large"
       }
     },
     "163766488788d333b9": {
       "type": "product-gallery",
       "settings": {
         "choose_collection": "women-denim-34",
+        "products_to_show": 9,
+        "products_per_row": 3,
         "title": "collection",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
         "btn_text": "Shop All",
@@ -194,11 +162,14 @@
         "bg_img": "shopify:\/\/shop_images\/Image_587.png",
         "image": "shopify:\/\/shop_images\/Image_583_900x_53d57346-3ea6-4d1e-b42f-6b2debeb6fd9.png",
         "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
         "pre_title": "MEN’S NEW ARRIVALS",
         "title": "hall cpo in cascade plaid",
         "text": "<p>an updated, modern evolution of a timeless military classic.\n<\/p>\n<p>versatile and functional, it’s a piece that’s meant to be worn as you see fit… and meant to be worn to death.<\/p>",
         "btn_text": "shop all",
-        "btn_url": ""
+        "link_url": ""
       }
     },
     "16376784532d3e7363": {
@@ -207,60 +178,20 @@
         "bg_img": "shopify:\/\/shop_images\/Image_586.png",
         "image": "shopify:\/\/shop_images\/Image_498_900x_f39742c0-c29e-4eac-9de7-3179ae9060a9.png",
         "change_alignment": true,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
         "pre_title": "WOMEN’S NEW ARRIVALS",
         "title": "agnes jacket in coastal stone",
         "text": "<p>a team favorite that quickly became an i+w staple. agnes is a slightly boxy, classic chore coat that is so simple, subtle, and straightforward. it’s a go-to that works with almost anything.<\/p>",
         "btn_text": "shop all",
-        "btn_url": ""
+        "link_url": ""
       }
     },
     "1637738863eee8087f": {
       "type": "slide-section",
-      "blocks": {
-        "b71b647c-7eca-4d14-9d64-9b6894c36518": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/clara-01.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "5905881e-f7d3-4761-b836-cdb5fff6230f": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/hero_1914954b-96c3-48cb-807f-5310f3959a84.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "a36ed190-490c-4d7a-abce-199697ff1788": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/henry-lot-1-01_1200x_e1164e10-9c57-4983-b918-a98ec3c694ff.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "ca2f34ed-31fd-4bb0-821f-424dcd43e39f": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/chore-coat-07_1200x_36a519df-3342-4084-a43d-9131c9b9507b.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "7ce64834-ed0f-4b79-96a5-fe9acc7a5237": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_601_900x_14ef96e7-f233-42ed-84bc-63fad470b97b.png",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        }
-      },
-      "block_order": [
-        "b71b647c-7eca-4d14-9d64-9b6894c36518",
-        "5905881e-f7d3-4761-b836-cdb5fff6230f",
-        "a36ed190-490c-4d7a-abce-199697ff1788",
-        "ca2f34ed-31fd-4bb0-821f-424dcd43e39f",
-        "7ce64834-ed0f-4b79-96a5-fe9acc7a5237"
-      ],
       "settings": {
+        "choose_collection": "size-27",
         "title": "lorem ipsum",
         "btn_text": "view all",
         "btn_url": "",
@@ -269,59 +200,8 @@
     },
     "1637741212e84f52e3": {
       "type": "slide-section",
-      "blocks": {
-        "0cab6c6e-fe94-403c-b7d0-33ff75cbaa11": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/gibson-3_300x_17d6bf61-b579-42ed-9c3f-c78b8b1135b4.png",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "9f4f9d2b-be43-419c-8820-f68fdd893b40": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/catrigid.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "91c44f74-2810-4f3d-9bd7-a48a48d4181f": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/whenley.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "f42f720e-fb81-4a96-835f-8015903a3c27": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/chore-coat-07_1200x_36a519df-3342-4084-a43d-9131c9b9507b.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "ac7bc3e4-b449-488b-92ec-5a3c3479a488": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/hero2_645bdc63-390a-433e-8277-b8ab1089594a.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        },
-        "ec18295e-8168-4d8b-901e-c2a99d00de6e": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/bk-02.jpg",
-            "product_title": "hall cpo in cascade plaid"
-          }
-        }
-      },
-      "block_order": [
-        "0cab6c6e-fe94-403c-b7d0-33ff75cbaa11",
-        "9f4f9d2b-be43-419c-8820-f68fdd893b40",
-        "91c44f74-2810-4f3d-9bd7-a48a48d4181f",
-        "f42f720e-fb81-4a96-835f-8015903a3c27",
-        "ac7bc3e4-b449-488b-92ec-5a3c3479a488",
-        "ec18295e-8168-4d8b-901e-c2a99d00de6e"
-      ],
       "settings": {
+        "choose_collection": "size-33",
         "title": "lorem ipsum",
         "btn_text": "view all",
         "btn_url": "",
@@ -330,76 +210,12 @@
     },
     "16377324507e0c4445": {
       "type": "product-slider-section",
-      "blocks": {
-        "ea0d67c8-8191-4fa5-a2aa-a239e371aa7e": {
-          "type": "slide",
-          "settings": {
-            "title": "GRAPHIC CONTENT",
-            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
-            "btn_text": "Shop ALL",
-            "btn_url": ""
-          }
-        },
-        "7af689f7-1c9e-4d33-aed6-1c72e81e9db8": {
-          "type": "slide",
-          "settings": {
-            "title": "GRAPHIC CONTENT",
-            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
-            "btn_text": "Shop ALL",
-            "btn_url": ""
-          }
-        },
-        "c8dadee1-024e-44ae-a29a-7d91a9ab5132": {
-          "type": "slide",
-          "settings": {
-            "title": "GRAPHIC CONTENT",
-            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
-            "btn_text": "Shop ALL",
-            "btn_url": ""
-          }
-        },
-        "05cac373-4196-43e4-b279-6289406e853c": {
-          "type": "slide",
-          "settings": {
-            "title": "GRAPHIC CONTENT",
-            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
-            "btn_text": "Shop ALL",
-            "btn_url": ""
-          }
-        },
-        "2aecd936-3897-4f7f-b533-012a99b375d7": {
-          "type": "slide",
-          "settings": {
-            "title": "GRAPHIC CONTENT",
-            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
-            "btn_text": "Shop ALL",
-            "btn_url": ""
-          }
-        },
-        "728bdb3b-6fd4-410d-9f4f-d71a9d16bc8f": {
-          "type": "slide",
-          "settings": {
-            "title": "GRAPHIC CONTENT",
-            "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
-            "btn_text": "Shop ALL",
-            "btn_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "ea0d67c8-8191-4fa5-a2aa-a239e371aa7e",
-        "7af689f7-1c9e-4d33-aed6-1c72e81e9db8",
-        "c8dadee1-024e-44ae-a29a-7d91a9ab5132",
-        "05cac373-4196-43e4-b279-6289406e853c",
-        "2aecd936-3897-4f7f-b533-012a99b375d7",
-        "728bdb3b-6fd4-410d-9f4f-d71a9d16bc8f"
-      ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/Image_601_900x_14ef96e7-f233-42ed-84bc-63fad470b97b.png",
-        "product_title": "the “lonely ones” tee",
-        "product_description": "100% cotton",
-        "price": "$68.00",
-        "link_url": ""
+        "choose_collection": "bottom-size-38",
+        "title": "GRAPHIC CONTENT",
+        "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+        "btn_text": "Shop ALL",
+        "btn_url": ""
       }
     },
     "163773433083afddd3": {

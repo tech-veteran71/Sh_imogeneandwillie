@@ -1,21 +1,40 @@
 {{ 'banner-section.css' | asset_url | stylesheet_tag }}
 
-<div class="banner-section">
-	<div class="wrapper">
-    {% if section.settings.desktop_banner_img %}
-      <div class="banner-img {% if section.settings.mobile_banner_img != blank %}desktop-banner{% endif %}">
-        {% render 'responsive--image' with section.settings.desktop_banner_img as image, max_width: 1920, class: 'img' %}
-      </div>
-    {% else %}
-      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+<style>
+  @media screen and (max-width: 767px) {
+    {% if section.settings.img_height %}
+      .banner-section {
+        height: auto;
+        min-height: unset;
+      }
     {% endif %}
-    {% if section.settings.mobile_banner_img != blank %}
-      <div class="banner-img mobile-banner">
-        {% render 'responsive--image' with section.settings.mobile_banner_img as image, max_width: 420, class: 'img' %}
+  }
+</style>
+
+{% if section.settings.add_video %}
+  {% render "video-banner" with section %}
+  {% else %}
+    {% if section.settings.mobile_banner_img != blank and section.settings.desktop_banner_img != blank %}
+      <div class="banner-section">
+        <div class="wrapper">
+          {% if section.settings.desktop_banner_img != blank %}
+            <div class="banner-img {% if section.settings.mobile_banner_img != blank %}desktop-banner{% endif %}">
+              <a href="{{ section.settings.link }}" class="img-link">
+                {% render 'responsive--image' with section.settings.desktop_banner_img as image, max_width: 1920, class: 'img' %}
+              </a>
+            </div>
+          {% endif %}
+          {% if section.settings.mobile_banner_img != blank %}
+            <div class="banner-img mobile-banner">
+              <a href="{{ section.settings.link }}" class="img-link">
+                {% render 'responsive--image' with section.settings.mobile_banner_img as image, max_width: 420, class: 'img' %}
+              </a>
+            </div>
+          {% endif %}
+        </div>
       </div>
     {% endif %}
-	</div>
-</div>
+{% endif %}
 
 {% schema %}
 {
@@ -35,6 +54,55 @@
       "type": "image_picker",
       "id": "mobile_banner_img",
       "label": "Banner Image (Mobile)"
+    },
+    {
+      "type": "checkbox",
+      "id": "img_height",
+      "label": "Image Height (Auto)",
+      "info": "To Fit The Image (with large dimension) on mobile screen",
+      "default": false
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Image Link"
+    },
+    {
+      "type": "header",
+      "content": "Video Settings",
+      "info": "------"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_video",
+      "label": "Add Video",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "------"
+    },
+    {
+      "type": "image_picker",
+      "id": "video_poster",
+      "label": "Video Poster"
+    },
+    {
+      "type": "header",
+      "content": "Video",
+      "info": "------"
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_controls",
+      "label": "Video Controls",
+      "default": false
     }
   ],
   "presets":[

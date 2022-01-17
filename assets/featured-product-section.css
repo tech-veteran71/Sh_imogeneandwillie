@@ -50,6 +50,7 @@
 }
 .featured-section .title {
   font-size: 18px;
+  font-family: var(--font-din);
   color: var(--color-normal-black);
   text-transform: uppercase;
   margin-top: 0;
@@ -59,6 +60,7 @@
 }
 .featured-section .link-text {
   font-size: 14px;
+  font-family: var(--font-din);
   font-weight: 600;
   color: var(--color-blue);
   text-transform: uppercase;

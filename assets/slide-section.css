@@ -20,7 +20,13 @@
   letter-spacing: 3px;
   color: var(--color-normal-black);
 }
-.slide-section .wrapper .info-title {
+.slide-section .product-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+}
+.slide-section .wrapper .product-title {
   font-size: 14px;
   margin-bottom: 0;
   margin-top: 0;
@@ -29,7 +35,7 @@
 .slide-section .contents {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   position: relative;
 }
 .slide-section .content-wrap {
@@ -59,6 +65,7 @@
 }
 .slide-section .btn {
   font-size: 14px;
+  font-family: var(--font-din);
   text-transform: uppercase;
   width: 100%;
   height: 100%;
@@ -74,21 +81,26 @@
 }
 .slide-section .info-wrap {
   padding: 0 10px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.slide-section .swiper-slide-active .info-wrap {
+  opacity: 1;
 }
 .slide-section .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: var(--color-dim-black);
 }
 .slide-section .swiper-pagination .swiper-pagination-bullet {
-  margin: 0 5px;
+  margin: 0 2px !important;
   background-color: var(--color-dark-grey);
   opacity: 1;
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
 }
 .slide-section .product-slider .swiper-pagination {
-  bottom: 40px;
-  text-align: right;
-  max-width: 100px;
+  bottom: 20px;
+  max-width: 100%;
+  text-align: center;
   right: 0;
   left: unset;
   background-color: var(--color-Xlight-wheat);

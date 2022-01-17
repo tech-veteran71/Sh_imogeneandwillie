@@ -5,6 +5,7 @@
 }
 .review-section .text {
   font-size: 1.4em;
+  font-family: var(--font-arno-display);
   color: var(--color-normal-black);
   letter-spacing: 0.15em;
   line-height: 1;
@@ -13,6 +14,7 @@
 }
 .review-section .name {
   font-size: 0.75em;
+  font-family: var(--font-gothic);
   color: var(--color-dark-grey);
   letter-spacing: 0.2em;
   text-transform: uppercase;

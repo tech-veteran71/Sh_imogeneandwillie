@@ -1,5 +1,14 @@
 {{ 'product-gallery.css' | asset_url | stylesheet_tag }}
 
+<style>
+  @media screen and (min-width: 767px) {
+    .product-gallery .gallery {
+      --product-per-row: {{section.settings.products_per_row}};
+      grid-template-columns: repeat(var(--product-per-row),1fr);
+    }
+  }
+</style>
+
 <div class="product-gallery">
   <div class="index-container">
     <div class="wrapper">
@@ -13,7 +22,7 @@
       {% endif %}
       <div class="gallery">
         {% if section.settings.choose_collection != blank %}
-          {% for product in collections[section.settings.choose_collection].products %}
+          {% for product in collections[section.settings.choose_collection].products limit: section.settings.products_to_show %}
             <div class="product-item">
               <a href="{{ product.url }}" class="product-link">
                 <div class="img-wrap">
@@ -54,6 +63,24 @@
       "type": "collection",
       "id": "choose_collection",
       "label": "Choose Collection"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 4,
+      "max": 12,
+      "step": 1,
+      "default": 4,
+      "label": "Maximum products to show"
+    },
+    {
+      "type": "range",
+      "id": "products_per_row",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 2,
+      "label": "Products Per Row"
     },
     {
       "type": "header",

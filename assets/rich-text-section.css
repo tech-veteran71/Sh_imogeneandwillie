@@ -22,13 +22,14 @@
   line-height: 1.5;
   letter-spacing: 2px;
   color: var(--color-dim-black);
+  font-family: var(--font-gothic);
 }
 .rich-text-section .wrapper .btn {
   font-size: 14px;
   color: var(--color-blue);
   font-weight: 900;
   text-transform: uppercase;
-  margin-top: 1px;
+  font-family: var(--font-din);
 }
 .rich-text-section .wrapper {
   max-width: 466px;

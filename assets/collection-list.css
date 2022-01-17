@@ -23,6 +23,7 @@
   padding: 0 0.5em;
   min-width: unset;
   min-height: unset;
+  font-family: var(--font-din);
 }
 .collection-list .collection-item .img {
   width: 100%;

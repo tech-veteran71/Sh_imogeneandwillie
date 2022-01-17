@@ -39,6 +39,7 @@
 }
 .order-history .main-title {
   font-size: 1.4em;
+  font-family: var(--font-arno-display);
   letter-spacing: 0.1em;
   color: var(--color-normal-black);
   margin: 0;
@@ -46,6 +47,7 @@
 .order-history .table-wrap th,
 .order-history .table-wrap td {
   font-size: 0.9em;
+  font-family: var(--font-din);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: center;

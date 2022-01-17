@@ -30,6 +30,7 @@
 }
 .shop-info .main-title {
   font-size: 1.4em;
+  font-family: var(--font-arno-display);
   letter-spacing: 0.15em;
   color: var(--color-normal-black);
   text-transform: lowercase;
@@ -38,6 +39,7 @@
 }
 .shop-info .header-wrap .text {
   font-size: 1em;
+  font-family: var(--font-arno-display);
   letter-spacing: 0.05em;
   color: var(--color-normal-black);
   margin: 0;
@@ -45,6 +47,7 @@
 }
 .shop-info .heading {
   font-size: 0.7em;
+  font-family: var(--font-din);
   letter-spacing: 0.15em;
   color: var(--color-normal-black);
   text-transform: uppercase;
@@ -87,8 +90,9 @@
 }
 .shop-info .sub-title {
   margin-top: 0;
+  font-family: var(--font-arno-display);
   margin-bottom: 0.7em;
-  font-size: 1em;
+  font-size: 20px;
   letter-spacing: 0.15em;
   color: var(--color-normal-black);
   line-height: 1;
@@ -99,6 +103,12 @@
 }
 .shop-info .days, .shop-info .timing {
   color: var(--color-dim-black);
+}
+.shop-info .days {
+  font-family: var(--font-gothic);
+}
+.shop-info .timing {
+  font-family: var(--font-din);
 }
 .shop-info .content-wrap {
   display: flex;
@@ -122,9 +132,13 @@
 }
 .shop-info .details-wrap span {
   display: block;
+  font-family: var(--font-gothic);
   line-height: 1;
   margin-bottom: 0.8em;
 }
+.shop-info .details-wrap .info span {
+  font-family: var(--font-din);
+} 
 
 @media screen and (min-width: 1400px) {
   .shop-info {
@@ -140,6 +154,7 @@
   }
   .shop-info .column .text {
     letter-spacing: .05em;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 990px) {
@@ -166,7 +181,7 @@
     font-size: 1.2em;
   }
   .shop-info .column .text {
-    font-size: 13px;
+    font-size: 10px;
     letter-spacing: 1.5px;
   }
   .shop-info .main-title {

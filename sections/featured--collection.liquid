@@ -27,7 +27,10 @@
               <div class="product-item swiper-slide">
                 <a href="{{ product.url }}" class="product-link">
                   <div class="img-wrap">
-                    {% render 'responsive--image' with product.featured_media as image, max_width: 455, class: 'img' %}
+                    {% render 'responsive--image' with product.featured_media as image, max_width: 455, class: 'img featured-img' %}
+                    {% if product.images[1] != blank %}
+                      {% render 'responsive--image' with product.images[1] as image, max_width: 455, class: 'img hover-img' %}
+                    {% endif %}
                   </div>
                   <h3 class="product-title">{{ product.title }}</h3>
                 </a>

@@ -33,6 +33,7 @@
 }
 .template-customer .main-title {
   font-size: 28px;
+  font-family: var(--font-arno-display);
   color: var(--color-normal-black);
   margin-top: 0;
   margin-bottom: 22px;
@@ -49,6 +50,7 @@
 .template-customer #MainContent .field-input {
   height: 55px;
   padding: 0 1.6em;
+  font-family: var(--font-din);
   background-color: var(--color-light-wheat);
   font-size: 14px;
   text-transform: uppercase;
@@ -60,6 +62,7 @@
 .template-customer #MainContent .field-input::placeholder {
   opacity: 1;
   font-size: 14px;
+  font-family: var(--font-din);
   text-transform: uppercase;
   letter-spacing: 3px;
   color: var(--color-dark-grey);
@@ -75,6 +78,7 @@
 }
 .template-customer .btn {
   width: 100%;
+  font-family: var(--font-din);
   margin: 0;
   height: 55px;
   font-size: 14px;

@@ -20,7 +20,8 @@
 }
 .collection-banner .banner-content .text {
   color: var(--color-normal-black);
-  font-size: 18px;
+  font-family: var(--font-arno-display);
+  font-size: 22px;
   line-height: 1.4;
   margin: 0;
   text-align: center;

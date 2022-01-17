@@ -3,54 +3,46 @@
   <div class="index-container">
     <div class="wrapper">
       <div class="alpha">
-        <div class="slider">
-          <div class="swiper-wrapper">
-            {% for block in section.blocks %}
-              <div class="content swiper-slide">
-                {% if block.settings.title != blank %}
-                  <h2 class="title">{{ block.settings.title }}</h2>
-                {% endif %}
-                {% if block.settings.text != blank %}
-                  <p class="text">{{ block.settings.text }}</p>
-                {% endif %}
-                {% if block.settings.btn_text != blank %}
-                  <a href="{{ block.settings.btn_url }}" class="button-wrap">
-                    <span class="btn">{{ block.settings.btn_text }}</span>
-                    <span class="arrow">
-                      {% render 'icon-right-arrow' %}
-                    </span>
-                  </a>
-                {% endif %}
-              </div>
-            {% endfor %}
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-counter"></div>
+        <div class="content">
+          {% if section.settings.title != blank %}
+            <h2 class="title">{{ section.settings.title }}</h2>
+          {% endif %}
+          {% if section.settings.text != blank %}
+            <p class="text">{{ section.settings.text }}</p>
+          {% endif %}
+          {% if section.settings.btn_text != blank %}
+            <a href="{{ section.settings.btn_url }}" class="button-wrap">
+              <span class="btn">{{ section.settings.btn_text }}</span>
+              <span class="arrow">
+                {% render 'icon-right-arrow' %}
+              </span>
+            </a>
+          {% endif %}
         </div>
       </div>
-       <div class="content-wrap">
-      <a class="beta" href="{{ section.settings.link_url }}">
-        <div class="image">
-          {% if section.settings.img != blank %}
-            {% render 'responsive--image' with section.settings.img as image, max_width: 909, class: 'img' %}
-          {% else %}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-          {% endif %}
+       <div class="beta">
+        <div class="product-slider">
+          <div class="swiper-wrapper">
+            {% for product in collections[section.settings.choose_collection].products %}
+              <a class="product-item swiper-slide" href="{{ product.url }}">
+                <div class="image">
+                    {% render 'responsive--image' with product.featured_media as image, max_width: 909, class: 'img' %}
+                </div>
+                <div class="info-wrap">
+                  <h2 class="product-title">{{ product.title }}</h2>
+                  <span class="product-description">100% cotton</span>
+                  <span class="price">{{ product.price | money }}</span>
+                </div>
+              </a>
+            {% endfor %}
+          </div>
+          <div class="swiper-navigation">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-counter"></div>
+            <div class="swiper-button-next"></div>
+          </div>
         </div>
-        <div class="info-wrap">
-           {% if section.settings.product_title != blank %}
-          <h2 class="product-title">{{ section.settings.product_title }}</h2>
-           {% endif %}
-           {% if  section.settings.product_description != blank %}
-          <h4 class="product-description">{{ section.settings.product_description }}</h4>
-           {% endif %}
-          {% if section.settings.price != blank %}
-            <p class="price">{{ section.settings.price }}</p>
-          {% endif %}
-        </div>
-      </a>
-       </div>
+      </div>
     </div>
   </div>
 </div>
@@ -61,13 +53,13 @@
   "settings":[
     {
       "type": "header",
-      "content": "Image",
+      "content": "Collection",
       "info": "-------"
     },
     {
-      "type": "image_picker",
-      "id": "img",
-      "label": "Image"
+      "type": "collection",
+      "id": "choose_collection",
+      "label": "Choose Collection"
     },
     {
       "type": "header",
@@ -76,56 +68,26 @@
     },
     {
       "type": "text",
-      "id": "product_title",
-      "label": "Product Title"
+      "id": "title",
+      "label": "Title",
+      "default": "GRAPHIC CONTENT"
     },
     {
       "type": "text",
-      "id": "product_description",
-      "label": "Product Description"
+      "id": "text",
+      "label": "Text",
+      "default": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees."
     },
     {
       "type": "text",
-      "id": "price",
-      "label": "Price"
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "Shop ALL"
     },
     {
       "type": "url",
-      "id": "link_url",
-      "label": "Link Url"
-    }
-  ],
-  "blocks":[
-    {
-      "type": "slide",
-      "name": "Slide",
-      "settings":[
-         {
-           "type": "header",
-           "content": "Slider Content",
-           "info": "-------"
-         },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text"
-        },
-        {
-          "type": "text",
-          "id": "btn_text",
-          "label": "Button Text"
-        },
-        {
-          "type": "url",
-          "id": "btn_url",
-          "label": "Button Url"
-        }
-      ]
+      "id": "btn_url",
+      "label": "Button Url"
     }
   ],
   "presets":[

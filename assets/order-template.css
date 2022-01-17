@@ -7,6 +7,7 @@
 }
 .order-details .main-title {
   font-size: 1.4em;
+  font-family: var(--font-arno-display);
   margin: 0;
   text-transform: lowercase;
   color: var(--color-normal-black);
@@ -15,6 +16,9 @@
 .order-details .customer {
   margin: 0;
   padding: 0;
+}
+.order-details .order-item .price {
+  font-family: var(--font-din);
 }
 .order-details .order-details-inner {
   width: 93%;
@@ -31,6 +35,7 @@
 .order-details .quantity-wrap .product-quantity {
   padding-top: 1px;
   margin-left: 0.4em;
+  font-family: var(--font-din);
 }
 .order-details .back-link {
   display: none;
@@ -104,6 +109,7 @@
 }
 .order-details .size {
   margin-bottom: 0.5em;
+  font-family: var(--font-din);
 }
 .order-details .quantity-wrap {
   line-height: 1;
@@ -121,6 +127,7 @@
 }
 .order-details .order-status .heading {
   margin-bottom: 0.5em;
+  font-family: var(--font-din);
 }
 .order-details .beta .text {
   font-size: 0.65em;
@@ -132,6 +139,7 @@
 }
 .order-details .order-status .status {
   letter-spacing: 0.15em;
+  font-family: var(--font-gothic);
 }
 .order-details .deliver-info {
   display: flex;
@@ -179,9 +187,14 @@
   align-items: center;
   line-height: 1;
   margin-bottom: 0.6em;
+  font-family: var(--font-gothic);
+}
+.order-details .phone-number {
+  font-family: var(--font-gothic);
 }
 .order-details .address .text {
   margin-bottom: 0.6em;
+  font-family: var(--font-gothic);
 }
 .order-details .address .text:last-child {
   margin-bottom: 0;
@@ -380,6 +393,7 @@
   .order-details .details-item .value {
     font-size: 13px;
     color: var(--color-dim-black);
+    font-family: var(--font-din);
     letter-spacing: 2px;
     text-transform: uppercase;
   }

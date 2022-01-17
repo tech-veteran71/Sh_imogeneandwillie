@@ -20,11 +20,13 @@
 }
 .fade-section .title {
   font-size: 28px;
+  font-family: var(--font-arno-display);
   color: var(--color-normal-black);
   letter-spacing: 3px;
   margin: 0;
 }
 .fade-section .text {
+  font-family: var(--font-arno-display);
   font-size: 20px;
   letter-spacing: 0.1em;
   color: var(--color-dim-black);
@@ -35,6 +37,7 @@
 .fade-section .btn {
   max-width: 29.3em;
   height: 3.96em;
+  font-family: var(--font-din);
   border: 1px solid var(--color-normal-black);
   color: var(--color-normal-black);
   display: flex;

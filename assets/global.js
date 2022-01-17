@@ -1738,8 +1738,6 @@ window.CartAPI = new CartAPI();
           error: false,
           counter: document.querySelector(AjaxCartClass._selectors.counter),
           cartHeight: 0,
-          cartNote: '',
-          cartNoteShow: false,
           loading: {
             cart: false,
             item: false,
@@ -1765,15 +1763,14 @@ window.CartAPI = new CartAPI();
       watch: {
         cart(newValue, oldValue) {
           if (newValue && !oldValue) this.$nextTick(this.updateCartHeight);
-          if (newValue) this.cartNote = newValue.note
         },
       },
 
       updated() {
         // update cart counter
         if (!this.counter) return;
-        if (!this.cart) this.counter.innerHTML = 0;
-        this.counter.innerHTML = this.cart.item_count;
+        if (!this.cart) this.counter.innerHTML = '';
+        this.counter.innerHTML = this.cart.item_count ? this.cart.item_count : '';
       },
 
       mounted() {
@@ -1847,12 +1844,6 @@ window.CartAPI = new CartAPI();
           const item = await window.CartAPI.add({ id: variantId, quantity });
           this.loading.cart = false;
           return item;
-        },
-
-        async updateCartNote() {
-          this.loading.cart = true;
-          this.cart = await window.CartAPI.update({ note: this.cartNote });
-          this.loading.cart = false;
         },
 
         /**
@@ -2547,14 +2538,14 @@ customElements.define("ajax-cart", AjaxCart);
     const menuItems = menuContainer.querySelectorAll('[data-menu-item]');
     menuItems.forEach( item => {
       item.addEventListener('mouseover', function(e){
-        const menuItem = this.children[0].innerText.toLowerCase();
-        if(menuItem) {
-          if(menuItem === 'men' || menuItem === 'women') {
-            this.children[1].classList.add(`${menuItem}-mega-menu`);
-          }
-        }
         if(this.children[1]) {
-          this.children[1].style.display = 'block';
+          const menuItem = this.children[0].innerText.toLowerCase();
+          if(menuItem) {
+            if(menuItem === 'men' || menuItem === 'women') {
+              this.children[1].classList.add(`${menuItem}-mega-menu`);
+            }
+          }
+          this.children[1].style.display = 'block';  
         }
       })
       item.addEventListener('mouseleave', function(e){
@@ -2821,7 +2812,8 @@ customElements.define("ajax-cart", AjaxCart);
         spaceBetween: 40,
       },
       1279: {
-        spaceBetween: 30,
+        slidesPerView: 4,
+        spaceBetween: 20,
       },
       768: {
         slidesPerView: 3,
@@ -2844,9 +2836,11 @@ customElements.define("ajax-cart", AjaxCart);
     },
     breakpoints: {
       1600: {
-        spaceBetween: 40
+        spaceBetween: 40,
+        slidesPerView: 4
       },
       1279: {
+        slidesPerView: 4,
         spaceBetween: 30,
       },
       768: {
@@ -2856,6 +2850,25 @@ customElements.define("ajax-cart", AjaxCart);
       300: {
         slidesPerView: "auto",
         spaceBetween: 15
+      }
+    }
+  });
+  // explore section slider
+  new Swiper('.explore-section .cart-swiper', {
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
+    breakpoints: {
+      1279: {
+        spaceBetween: 20,
+      },
+      768: {
+        spaceBetween: 10
+      },
+      300: {
+        slidesPerView: "auto",
+        spaceBetween: 10
       }
     }
   });
