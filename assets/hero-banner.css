@@ -60,6 +60,7 @@
 }
 .hero-banner .main-title {
   font-size: 3.25em;
+  font-family: var(--font-din);
   font-weight: bold;
   color: var(--color-white);
   margin-bottom: 0.3em;
@@ -68,6 +69,7 @@
 }
 .hero-banner .text {
   font-size: 1.4em;
+  font-family: var(--font-arno-display);
   color: var(--color-white);
   margin: 0 auto;
   max-width: 13.8em;

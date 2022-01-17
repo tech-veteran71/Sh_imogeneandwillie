@@ -6,20 +6,16 @@
       {% endif %}
       <div class="contents product-slider">
         <div class="swiper-wrapper">
-          {% for block in section.blocks %}
-            <div class="slide-item content-wrap border-show swiper-slide">
-              <div class="image-wrap">
-                {% if block.settings.img != blank %}
-                  {% render 'responsive--image' with block.settings.img as image, max_width: 358, class: 'img' %}   
-                {% else %}
-                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                {% endif %}
-              </div>
-              <div class="info-wrap">
-                {% if  block.settings.product_title != blank %}
-                  <h2 class="info-title">{{ block.settings.product_title }}</h2>
-                {% endif %}
-              </div>
+          {% for product in collections[section.settings.choose_collection].products %}
+            <div class="product-item slide-item content-wrap border-show swiper-slide">
+              <a href="{{ product.url }}" class="product-link">
+                <div class="image-wrap">
+                  {% render 'responsive--image' with product.featured_media as image, max_width: 358, class: 'img' %} 
+                </div>
+                <div class="info-wrap">
+                  <h2 class="product-title">{{ product.title }}</h2>
+                </div>
+              </a>
             </div>
           {% endfor %}
         </div>
@@ -47,6 +43,16 @@
     },
     {
       "type": "header",
+      "content": "Collection",
+      "info": "------"
+    },
+    {
+      "type": "collection",
+      "id": "choose_collection",
+      "label": "Choose Collection"
+    },
+    {
+      "type": "header",
       "content": "Content",
       "info": "-------"
     },
@@ -70,34 +76,6 @@
       "id": "show_border",
       "label": "Show Border (Mobile)",
       "default": true
-    }
-  ],
-  "blocks":[
-    {
-      "type": "slide",
-      "name": "Slide",
-      "settings": [
-        {
-          "type": "header",
-          "content": "Image",
-          "info": "-------"
-        },
-        {
-          "type": "image_picker",
-          "id": "img",
-          "label": "Image"
-        },
-        {
-          "type": "header",
-          "content": "Content",
-          "info": "------"
-        },
-        {
-          "type": "text",
-          "id": "product_title",
-          "label": "Product Title"
-        }
-      ]
     }
   ],
   "presets":[

@@ -2,6 +2,9 @@
   padding-bottom: 85px;
   font-size: 1.2vw;
 }
+.product-slider:hover .product-grid .swiper-scrollbar {
+  opacity: 1;
+}
 .product-slider .fabric-container {
   max-width: 1750px;
   padding: 0 20px;
@@ -46,6 +49,7 @@
 }
 .product-slider .product-description {
   font-size: 13px;
+  font-family: var(--font-gothic);
   letter-spacing: 0.1em;
   color: var(--color-normal-black);
   margin: 0;
@@ -56,6 +60,8 @@
   left: 0;
   background-color: transparent;
   height: 3px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
 }
 .product-slider .swiper-scrollbar-drag {
   display: block;

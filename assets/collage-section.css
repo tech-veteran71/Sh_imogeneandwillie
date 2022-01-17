@@ -48,11 +48,13 @@
   display: block;
   font-size: 13px;
   margin-bottom: 5px;
+  font-family: var(--font-gothic);
   color: var(--color-normal-black);
   letter-spacing: 2px;
 }
 .collage-section .main-title {
   font-size: 28px;
+  font-family: var(--font-arno-display);
   letter-spacing: 3px;
   color: var(--color-normal-black);
   margin: 0;
@@ -60,6 +62,7 @@
 }
 .collage-section .text {
   font-size: 20px;
+  font-family: var(--font-arno-display);
   letter-spacing: 2px;
   color: var(--color-dim-black);
   max-width: 335px;
@@ -72,6 +75,7 @@
 }
 .collage-section .btn {
   font-size: 14px;
+  font-family: var(--font-din);
   letter-spacing: 3px;
   text-transform: uppercase;
   display: flex;
@@ -187,6 +191,7 @@
     display: block;
     font-size: 11px;
     letter-spacing: 2px;
+    font-family: var(--font-gothic);
     color: var(--color-normal-black);
     margin-top: 0;
     margin-bottom: 10px;

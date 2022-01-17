@@ -6,26 +6,31 @@
       {% if section.settings.title != blank %}
         <h2 class="title">{{ section.settings.title }}</h2>
       {% endif %}
-      <div class="contents-wrapper">
-        {% for block in section.blocks %}
-          <div class="content-wrap">
-            <div class="img-wrap">
-              {% if block.settings.desk_img %}
-                {% render 'responsive--image' with block.settings.desk_img as image, max_width: 349, class: 'img', mob_img: block.settings.mob_img %}
-              {% else %}
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-              {% endif %}
-              {% if block.settings.mob_img != blank %}
-                {% render 'responsive--image' with block.settings.mob_img as image, max_width: 360, class: 'img mob-image' %}
-              {% endif %}
-            </div>
-            {% if block.settings.text != blank %}
-              <div class="text-wrap">
-                <span class="text">{{ block.settings.text }}</span>
-              </div>
+      <div class="cart-swiper">
+        <div class="swiper-wrapper">
+          {% if section.settings.choose_collection != blank or section.settings.choose_blog != blank %}
+            {% if section.settings.choose_collection != blank %}
+              {% for product in collections[section.settings.choose_collection].products %}
+                  {% render 'cart-item', cart: product, productCart: true %}  
+              {% endfor %}
             {% endif %}
-          </div>  
-        {% endfor %}
+            {% if section.settings.choose_blog != blank %}
+              {% for article in blogs[section.settings.choose_blog].articles %}
+                  {% render 'cart-item', cart: article %}  
+              {% endfor %}
+            {% endif %}
+              {% else %}
+                {% for index in (1..5) %}
+                  <div class="cart-item swiper-slide">
+                    <div class="img-wrap">
+                      {% assign placeholder = 'product-' | append: index %}
+                      {{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                  </div>
+                {% endfor %}
+          {% endif %}
+        </div>
+        <div class="swiper-scrollbar"></div>
       </div>
       {% if section.settings.btn != blank %}
         <div class="btn-wrap">
@@ -39,6 +44,21 @@
 {
   "name": "Explore Section",
   "settings":[
+    {
+      "type": "header",
+      "content": "Choose Collection Or Blog",
+      "info": "-------"
+    },
+    {
+      "type": "collection",
+      "id": "choose_collection",
+      "label": "Choose Collection"
+    },
+    {
+      "type": "blog",
+      "id": "choose_blog",
+      "label": "Choose Blog"
+    },
     {
       "type": "header",
       "content": "Content",
@@ -58,39 +78,6 @@
       "type": "url",
       "id": "url",
       "label": "Button Url"
-    }
-  ],
-  "blocks":[
-    {
-      "type": "recent_moment",
-      "name": "Recent Moment",
-      "settings":[
-        {
-          "type": "header",
-          "content": "Image",
-          "info": "-------"
-        },
-        {
-          "type": "image_picker",
-          "id": "desk_img",
-          "label": "Image (Desktop)"
-        },
-        {
-          "type": "image_picker",
-          "id": "mob_img",
-          "label": "Image (Mobile)"
-        },
-        {
-          "type": "header",
-          "content": "Content",
-          "info": "-------"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text"
-        }
-      ]
     }
   ],
   "presets":[

@@ -19,6 +19,7 @@
 }
 .promise-section .alpha .title {
   font-size: 28px;
+  font-family: var(--font-arno-display);
   font-weight: 500;
   text-transform: lowercase;
   margin-top: 0;
@@ -36,6 +37,7 @@
 }
 .promise-section .alpha .text {
   font-size: 20px;
+  font-family: var(--font-arno-display);
   margin-top: 0;
   line-height: 1.5;
   margin-bottom: 0;
@@ -44,6 +46,7 @@
 .promise-section .btn {
   text-decoration: none;
   font-size: 14px;
+  font-family: var(--font-din);
   color: var(--color-normal-black);
   text-transform: uppercase;
   font-weight: 500;
@@ -58,6 +61,7 @@
 }
 .promise-section .pre-title {
   font-size: 13px;
+  font-family: var(--font-gothic);
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.2;

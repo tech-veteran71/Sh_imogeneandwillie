@@ -34,12 +34,14 @@
 }
 .product-recommendation .description {
   font-size: 14px;
+  font-family: var(--font-gothic);
   color: var(--color-dim-black);
   margin: 0;
   line-height: 1;
 }
 .product-recommendation .btn {
   font-size: 14px;
+  font-family: var(--font-din);
   text-transform: uppercase;
   color: var(--color-normal-black);
   border: 1px solid var(--color-normal-black);

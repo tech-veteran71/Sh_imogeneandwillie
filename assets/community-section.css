@@ -32,11 +32,13 @@
 }
 .community-section .pre-title {
   font-size: 13px;
+  font-family: var(--font-gothic);
   letter-spacing: 0.15em;
   color: var(--color-normal-black);
   margin: 0;
 }
 .community-section .title {
+  font-family: var(--font-arno-display);
   font-size: 1.4em;
   letter-spacing: 0.15em;
   color: var(--color-normal-black);
@@ -45,6 +47,7 @@
 .community-section .text {
   font-size: 1em;
   letter-spacing: 1px;
+  font-family: var(--font-arno-display);
   color: var(--color-dim-black);
   line-height: 1.5;
   max-width: 18em;
@@ -62,6 +65,7 @@
 .community-section .link-text {
   font-size: 14px;
   letter-spacing: 0.15em;
+  font-family: var(--font-din);
   text-transform: uppercase;
   color: var(--color-blue);
 }

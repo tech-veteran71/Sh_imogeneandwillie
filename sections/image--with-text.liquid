@@ -1,17 +1,19 @@
 {{ 'image--with-text.css' | asset_url | stylesheet_tag }}
 
 <div class="image-with-text">
-  <div class="index-container">
+  <div class="container">
     <div class="wrapper">
-      <div class="image">
-        {% if section.settings.desk_img %}
-          {% render 'responsive--image' with section.settings.desk_img as image, max_width: 1920, class: 'image', mob_img: section.settings.mob_img %}
-        {% else %}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {% endif %}
-        {% if section.settings.mob_img != blank %}
-          {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
-        {% endif %}
+      <div class="image {{ section.settings.img_width }}-image">
+        <a href="{{ section.settings.img_link }}" class="img-link">
+          {% if section.settings.desk_img %}
+            {% render 'responsive--image' with section.settings.desk_img as image, max_width: 1920, class: 'image', mob_img: section.settings.mob_img %}
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+          {% if section.settings.mob_img != blank %}
+            {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
+          {% endif %}
+        </a>
       </div>
       <div class="content-wrap">
         {% if section.settings.pre_title != blank %}
@@ -48,6 +50,39 @@
       "type": "image_picker",
       "id": "mob_img",
       "label": "Image (Mobile)"
+    },
+    {
+      "type": "url",
+      "id": "img_link",
+      "label": "Image Link"
+    },
+    {
+      "type": "select",
+      "id": "img_width",
+      "label": "Image Width",
+      "info": "Just For Desktop",
+      "options": [
+        {
+          "value": "full",
+          "label": "Full"
+        },
+        {
+          "value": "extra-large",
+          "label": "Extra Large"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        }
+      ]
     },
     {
       "type": "header",

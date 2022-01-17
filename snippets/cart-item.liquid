@@ -1,0 +1,16 @@
+{% if productCart %}
+  {% assign cartImage = cart.featured_image %}
+    {% else %}
+      {% assign cartImage = cart.image %}
+{% endif %}
+
+<div class="cart-item swiper-slide">
+  <a href="{{ cart.url }}" class="cart-link">
+    <div class="img-wrap">
+      {% render 'responsive--image' with cartImage as image, max_width: 349, class: 'img' %}
+    </div>
+    <div class="title-wrap">
+      <h4 class="text">{{ cart.title }}</h4>
+    </div>
+  </a>
+</div>

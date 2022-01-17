@@ -22,6 +22,10 @@
   width: 100%;
   height: 100%;
 }
+.banner-section .img-link {
+  display: block;
+  height: 100%;
+}
 /* responsive */
 @media(max-width: 767px ){
   .banner-section .desktop-banner {

@@ -48,6 +48,7 @@
 }
 .custom-footer .copyright-text {
   font-size: 12px;
+  font-family: var(--font-gothic);
   color: var(--color-normal-black);
   letter-spacing: 1.2px;
 }
@@ -91,6 +92,7 @@
 }
 .custom-footer .newsletter-title {
   font-size: 18px;
+  font-family: var(--font-din);
   color: var(--color-dim-black);
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -140,11 +142,13 @@
   outline: none;
   box-shadow: unset;
   font-size: 14px;
+  font-family: var(--font-gothic);
   color: var(--color-dark-grey);
   letter-spacing: 2px;
 }
 .custom-footer .field-input::placeholder {
   font-size: 14px;
+  font-family: var(--font-gothic);
   color: var(--color-dark-grey);
   letter-spacing: 2px;
 }

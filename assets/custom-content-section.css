@@ -22,6 +22,7 @@
 .custom-content-section .main-title {
   margin-bottom: 1.5em;
   margin-top: 0;
+  font-family: var(--font-din);
   font-size: 23px;
   font-weight: bold;
   letter-spacing: 3px;
@@ -30,6 +31,7 @@
 }
 .custom-content-section .main-text {
   font-size: 28px;
+  font-family: var(--font-arno-display);
   max-width: 950px;
   margin: 0 auto;
   letter-spacing: 3px;
@@ -49,6 +51,7 @@
 .custom-content-section .text p {
   font-size: 15px;
   letter-spacing: 2px;
+  font-family: var(--font-gothic);
   line-height: 1.4;
   color: var(--color-normal-black);
   margin-bottom: 26px;
@@ -100,6 +103,7 @@
 .custom-content-section .info-text p {
   letter-spacing: 0.1em;
   line-height: 1.4;
+  font-family: var(--font-arno-display);
   margin-top: 0;
   margin-bottom: 1.25em;
   font-size: 1em;

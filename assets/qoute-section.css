@@ -8,6 +8,7 @@
 .qoute-section .review {
   font-size: 28px;
   letter-spacing: 3px;
+  font-family: var(--font-arno-display);
   margin-top: 0;
   margin-bottom: 5px;
   color: var(--color-normal-black);
@@ -15,6 +16,7 @@
 }
 .qoute-section .customer-name {
   font-size: 14px;
+  font-family: var(--font-gothic);
   letter-spacing: 4px;
   color: var(--color-dark-grey);
   text-transform: uppercase;

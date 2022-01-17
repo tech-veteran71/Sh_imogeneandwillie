@@ -3,7 +3,7 @@
     function updSwiperNumericPagination() {
       this.el.querySelector(".swiper-counter").innerHTML = '<span class="count">' + (this.realIndex + 1) + '</span>/<span class="total">' + this.el.slidesQuantity + "</span>";
     }
-    const slider = document.querySelectorAll('.product-slider-section .slider');
+    const slider = document.querySelectorAll('.product-slider-section .product-slider');
     slider.forEach( el => {
       // Getting slides quantity before slider clones them
       el.slidesQuantity = el.querySelectorAll(".swiper-slide").length;

@@ -1,4 +1,4 @@
-<div class="main-section">
+<div class="main-section {% if section.settings.show_section %} show-main-section{% endif %} {% if section.settings.show_section_desk %} desk-main-section{% endif %} {% if section.settings.show_section_mob %} mob-main-section{% endif %}">
   <div class="new-arrival-section {% if section.settings.change_alignment %}alignment{% endif %}"  style="background-image: url({{ section.settings.bg_img | img_url: 'master' }})">
     <div class="index-container" >
       <div class="wrapper">
@@ -15,13 +15,15 @@
               <div class="text-wrap">{{ section.settings.text }}</div>
             {% endif %}
             {% if section.settings.btn_text != blank %}
-              <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+              <a href="{{ section.settings.link_url }}" class="btn">{{ section.settings.btn_text }}</a>
             {% endif %}
           </div>
         </div>
         {% if section.settings.image != blank %}
           <div class="beta">
-            {% render 'responsive--image' with section.settings.image as image, max_width: 671, class: 'img' %}
+            <a href="{{ section.settings.link_url }}" class="img-link">
+              {% render 'responsive--image' with section.settings.image as image, max_width: 671, class: 'img' %}
+            </a>
           </div>
         {% endif %}
          </div>
@@ -60,6 +62,24 @@
       "default": false
     },
     {
+      "type": "checkbox",
+      "id": "show_section_mob",
+      "label": "Show Section (Only Mobile)",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_section_desk",
+      "label": "Show Section (Only Desktop)",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_section",
+      "label": "Show Section (Both Desktop And Mobile)",
+      "default": true
+    },
+    {
       "type": "header",
       "content": "Content",
       "info": "-------"
@@ -86,8 +106,8 @@
     },
     {
       "type": "text",
-      "id": "btn_url",
-      "label": "Button Url"
+      "id": "link_url",
+      "label": "Link Url"
     }
   ],
   "presets": [

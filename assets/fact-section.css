@@ -12,6 +12,7 @@
 }
 .fact-section .main-title {
   font-size: 23px;
+  font-family: var(--font-din);
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -40,6 +41,7 @@
 }
 .fact-section .title {
   font-size: 25px;
+  font-family: var(--font-arno-display);
   margin: 0;
   letter-spacing: 3px;
   color: var(--color-normal-black);
@@ -62,8 +64,8 @@
 .fact-section .text {
   margin: 0;
   font-size: 15px;
-  max-width: 300px;
-  letter-spacing: 2px;
+  font-family: var(--font-gothic);
+  letter-spacing: 1.5px;
   line-height: 1.4;
 }
 .fact-section .image-wrap {

@@ -8,6 +8,15 @@
   font-family: var(--font-heading-family);
 }
 
+.header .cart-count_bubble {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: var(--color-normal-black);
+}
+
 /* specific css for header in fabric and custom content page start */
 .custom-page .header-wrapper {
   position: absolute;
@@ -100,6 +109,8 @@
   max-width: 65px;
   flex: 65px;
   padding: 0 21px;
+  display: block;
+  text-decoration: none;
 }
 .header #cart-icon-bubble svg {
   width: 100%;
@@ -146,9 +157,6 @@
   line-height: 1.2;
   margin-bottom: 6px;
 }
-.header .main-menu-item  {
-  position: relative;
-}
 header .sub-menu-item,
 header .child-menu-item,
 .header .grandchild-item {
@@ -157,6 +165,7 @@ header .child-menu-item,
 }
 .header .mega_menu-list .mega_menu-heading {
   font-size: 14px;
+  font-family: var(--font-din);
   letter-spacing: 2.6px;
   margin-bottom: 10px;
   color: var(--color-dim-black);
@@ -285,6 +294,7 @@ header .sub-menu-link {
   font-size: 11px;
   color: var(--color-normal-black);
   letter-spacing: 1.2px;
+  font-family: var(--font-gothic);
 }
 .header .product-info {
   padding: 0 10px;
@@ -313,6 +323,7 @@ header .sub-menu-link {
   font-size: 10px;
   letter-spacing: 0.8px;
   color: #7C7C7C;
+  font-family: var(--font-arno-display);
 }
 .header .grid .title {
   font-size: 16px;
@@ -323,6 +334,7 @@ header .sub-menu-link {
 }
 .header .grid .text {
   font-size: 10px;
+  font-family: var(--font-gothic);
   margin: 0;
   line-height: 1.3;
   color: var(--color-normal-black);
@@ -341,6 +353,7 @@ header .sub-menu-link {
   padding: 0 15px;
   text-decoration: none;
   font-size: 13px;
+  font-family: var(--font-din);
   color: var(--color-normal-black);
   display: flex;
   justify-content: center;
@@ -367,6 +380,7 @@ header .sub-menu-link {
 }
 #menu-drawer .menu-drawer__close-button {
   color: var(--color-dark-grey);
+  font-family: var(--font-din);
   font-size: 14px;
   padding: 1.2rem 25px;
   text-transform: uppercase;
@@ -391,6 +405,7 @@ header .sub-menu-link {
   font-size: 24px;
   color: var(--color-dim-black);
   padding: 5px 25px;
+  font-family: var(--font-arno-display);
 }
 #menu-drawer .child-menu-item svg {
   min-height: 16px;
@@ -416,6 +431,7 @@ header .sub-menu-link {
 }
 #menu-drawer .text {
   font-size: 24px;
+  font-family: var(--font-arno-display);
   color: var(--color-dim-black);
   letter-spacing: 4px;
   line-height: 1.5;
@@ -434,6 +450,7 @@ header .sub-menu-link {
 }
 #menu-drawer .menu-drawer__inner-container .link-text {
   color: var(--color-blue);
+  font-family: var(--font-din);
   font-size: 14px;
   text-transform: uppercase;
   margin-right: 5px;
@@ -455,7 +472,7 @@ header .sub-menu-link {
   position: absolute;
   width: 100%;
   left: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
   top: 100%;
 }
 #menu-drawer .slide-item {
@@ -485,6 +502,7 @@ header .sub-menu-link {
 }
 #menu-drawer .search-form-wrap .search__input {
   box-shadow: unset;
+  font-family: var(--font-din);
   border: 0;
   padding: 10px 20px;
   color: var(--color-dim-black);
@@ -678,6 +696,10 @@ header .sub-menu-link {
 @media screen and (max-width: 767px) {
   #menu-drawer {
     width: 100%;
+  }
+  .header .cart-count_bubble {
+    font-size: 10px;
+    top: 55%;
   }
   .header__icons .header__search {
     display: none;

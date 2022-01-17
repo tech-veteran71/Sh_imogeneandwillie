@@ -19,6 +19,7 @@
   width: 100%;
 }
 .faq-page .main-title {
+  font-family: var(--font-arno-display);
   font-size: 28px;
   color: var(--color-normal-black);
   letter-spacing: 2px;
@@ -30,6 +31,7 @@
 }
 .faq-page .faq-title {
   font-size: 18px;
+  font-family: var(--font-din);
   color: var(--color-dim-black);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -40,6 +42,7 @@
 }
 .faq-page .accordian-title {
   margin: 0;
+  font-family: var(--font-gothic);
   font-size: 14px;
   color: var(--color-dim-black);
   letter-spacing: 2px;
@@ -75,6 +78,7 @@
 }
 .faq-page .accordian-body .text {
   font-size: 14px;
+  font-family: var(--font-gothic);
   color: var(--color-dim-black);
   letter-spacing: 1.3px;
   line-height: 1.5;

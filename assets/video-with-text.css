@@ -11,6 +11,7 @@
 }
 .video-with-text .pre-title {
   font-size: 13px;
+  font-family: var(--font-gothic);
   letter-spacing: 0.15em;
   margin-top: 0;
   margin-bottom: 0.6em;
@@ -18,6 +19,7 @@
   line-height: 1;
 }
 .video-with-text .title {
+  font-family: var(--font-arno-display);
   font-size: 1.4em;
   letter-spacing: 0.15em;
   color: var(--color-normal-black);
@@ -70,6 +72,7 @@
 }
 .video-with-text .main-title {
   font-size: 1.15em;
+  font-family: var(--font-din);
   letter-spacing: 0.15em;
   color: var(--color-normal-black);
   text-transform: uppercase;
@@ -78,6 +81,7 @@
 }
 .video-with-text .text {
   font-size: 15px;
+  font-family: var(--font-gothic);
   letter-spacing: 0.1em;
   color: var(--color-dim-black);
   line-height: 1.4;
@@ -86,6 +90,7 @@
 }
 .video-with-text .btn {
   max-width: 29.3em;
+  font-family: var(--font-din);
   height: 3.97em;
   display: flex;
   align-items: center;
