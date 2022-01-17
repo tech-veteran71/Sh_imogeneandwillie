@@ -107,6 +107,7 @@
       "type": "grand-image-section",
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/updated.jpg",
+        "img_url": "",
         "img_width": "large"
       }
     },

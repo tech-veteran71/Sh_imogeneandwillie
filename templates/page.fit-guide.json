@@ -3,8 +3,8 @@
     "main": {
       "type": "hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/Header_b5bc5a5c-64af-4bb9-8dfe-51e94694338f.png",
-        "mob_img": "shopify:\/\/shop_images\/Header_IMG_ef769324-089e-48f3-8376-5d2b4bbb26c4.png",
+        "desk_img": "shopify:\/\/shop_images\/Header_1200x_97e35576-1fce-47b3-a44b-5ce832f47710.png",
+        "mob_img": "shopify:\/\/shop_images\/Header_IMG_300x_82594ffe-28dd-4831-b227-48865513ce0d.png",
         "main_title": "",
         "text": "",
         "link_text": "FIND YOUR FIT",
@@ -64,7 +64,7 @@
       "settings": {
         "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "",
-        "choose_collection": "mens-new-arrival",
+        "choose_collection": "barton-slim",
         "btn_text": "SHOP HENRY",
         "btn_url": ""
       }
@@ -89,7 +89,7 @@
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "#f7f6f3",
-        "choose_collection": "frontpage",
+        "choose_collection": "barton-slim",
         "btn_text": "SHOP CHARLIE",
         "btn_url": ""
       }
