@@ -150,7 +150,9 @@
 }
 
 /* base */
-
+html {
+  scroll-behavior: smooth;
+}
 body.js-focusable-widget-open {
   overflow: hidden;
 }

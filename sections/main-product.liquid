@@ -18,9 +18,9 @@
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
-<section class="page-width">
+<section class="page-width" id="main-product">
   <div class="product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
-    <div class="product__info-wrapper grid__item">
+    <div class="product__info-wrapper grid__item" data-product-info>
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
@@ -37,11 +37,11 @@
               <h1 class="product__title" {{ block.shopify_attributes }}>
                 {{ product.title | escape }}
               </h1>
-              <p class="product-info">relaxed tapered leg -- 14oz selvage denim</p>
+              <p class="product-info">{{ product.metafields.descriptors.subtitle }}</p>
             </div>
           {%- when 'price' -%}
             <div class="no-js-hidden price-main" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
-              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+              {%- render 'price', product: product, use_variant: true, price_class: 'price--large' -%}
               <div class="installments-wrap">
                 <span class="installment-text">{{ section.settings.installment_info }}</span>
                 <div class="company">
@@ -49,16 +49,6 @@
                 </div>
               </div>
             </div>
-            {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
-              <div class="product__tax caption rte">
-                {%- if shop.taxes_included -%}
-                  {{ 'products.product.include_taxes' | t }}
-                {%- endif -%}
-                {%- if shop.shipping_policy.body != blank -%}
-                  {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                {%- endif -%}
-              </div>
-            {%- endif -%}
             <div {{ block.shopify_attributes }}>
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -67,10 +57,21 @@
             </div>
           {%- when 'description' -%}
             {%- if product.description != blank -%}
-              <div class="product__description rte">
+              <div class="product__description rte desription-with-truncate" data-less-description>
+                {{ product.description | strip_html | replace: '&nbsp;', ' ' | truncatewords: 45, '' }}
+                <span class="read-content" data-read-more>read more…</span>
+              </div>
+              <div class="product__description rte desription-without-truncate" data-full-description>
                 {{ product.description }}
+                <span class="read-content" data-read-less>read less</span>
               </div>
             {%- endif -%}
+          {% when 'link' %}
+            {% if block.settings.link_text != blank %}
+              <div class="link-wrap">
+                <a href="{{ block.settings.link }}" class="link">{{ block.settings.link_text }}</a>
+              </div>
+            {% endif %}
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
@@ -161,11 +162,12 @@
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
+              <p class="select-varaint-text" data-variant-select>please select a size</p>
                 <variant-radios class="no-js-hidden size-box-wrap" id="size-box" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
                         <div class="legend-wrap" data-variant-box>
-                          <legend class="form__label" data-form-label>{{ option.name }}</legend>
+                          <legend class="form__label" data-form-label>SELECT A SIZE</legend>
                           <div class="icon-wrap">
                               {% render 'chevron-icon' %}
                           </div>
@@ -175,20 +177,19 @@
                             <p class="info-title">{{ section.settings.info_title }}</p>
                           {% endif %}
                           <div class="inputs-group">
-                            {%- for value in option.values -%}
+                            {%- for variant in product.variants -%}
                               <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
                                   name="{{ option.name }}"
-                                  value="{{ value | escape }}"
+                                  value="{{ variant.title | escape }}"
                                   form="product-form-{{ section.id }}"
-                                  {% if option.selected_value == value %}checked{% endif %}
                                 >
-                              <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
-                                {{ value }}
+                              <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}" class="{% if variant.available != true %}sold-out{% endif %}">
+                                {{ variant.title }}
                               </label>
                             {%- endfor -%}
                           </div>
                           {% if section.settings.text != blank %}
-                            <span class="bottom-text">{{ section.settings.text }}</span>
+                            <a href="#footer-newsletter" class="bottom-text">{{ section.settings.text }}</a>
                           {% endif %}
                         </div>
                       </fieldset>
@@ -367,7 +368,8 @@
           
       </div>
     </div>
-    <div class="grid__item product__media-wrapper">
+    
+    <div class="grid__item product__media-wrapper" data-product-media>
       {%- comment -%}
       <slider-component class="slider-mobile-gutter">
         <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
@@ -416,7 +418,7 @@
       {%- endif -%}
       {%- endcomment -%}
       <div class="product-gallery" id="product-gallery">
-        {%- for media in product.media -%}
+        {%- for media in product.images -%}
           <div class="product-media-wrap media-item-{{ forloop.index }}" data-media-item>
             {% render 'responsive--image' with media as image, max_width: 560, class: 'product-media' %}
           </div>
@@ -424,7 +426,7 @@
       </div>
       <div class='product-media-swiper'>
         <div class="swiper-wrapper">
-          {%- for media in product.media -%}
+          {%- for media in product.images -%}
             <div class="swiper-slide">
               <div class="media-wrap">
                 {% render 'responsive--image' with media as image, max_width: 560, class: 'product-media' %}
@@ -686,6 +688,28 @@
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
       "limit": 1
+    },
+    {
+      "type": "link",
+      "name": "Link",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text",
+          "default": "made in usa"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link Url"
+        }
+      ]
     },
     {
       "type": "share",

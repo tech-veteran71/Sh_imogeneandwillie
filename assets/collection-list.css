@@ -8,6 +8,7 @@
 }
 .collection-list .collection-item {
   position: relative;
+  text-decoration: none;
 }
 .collection-list .button {
   position: absolute;

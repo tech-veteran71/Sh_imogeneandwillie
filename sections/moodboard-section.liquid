@@ -9,34 +9,20 @@
       <div class="image-gallery">
         <div class="swiper-wrapper">
           <div class="swiper-slide slide-with-three-images">
-            {%- for media in product.media -%}
-              {% if forloop.index >= 1 and forloop.index <= 3 %}
-                <div class="image-item">
-                  {% render 'responsive--image' with media as image, max_width: 253, class: 'img' %}
-                </div>
-                {% else %}
-              {% endif %}
-            {% endfor %}
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_1, media_type: "image" %}
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_2, media_type: "image" %}
+            {% render 'media-item' , media: product.metafields.my_fields.embed_video_link, media_type: "video" %}
           </div>
           <div class="swiper-slide slide-with-four-images">
-            {%- for media in product.media -%}
-              {% if forloop.index >= 4 and forloop.index <= 7 %}
-                <div class="image-item">
-                  {% render 'responsive--image' with media as image, max_width: 253, class: 'img' %}
-                </div>
-              {% else %}
-              {% endif %}
-            {% endfor %}
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_3, media_type: "image" %}
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_1, media_type: "image" %}
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_2, media_type: "image" %}
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_3, media_type: "image" %}
           </div>
           <div class="swiper-slide slide-with-three-images">
-            {%- for media in product.media -%}
-              {% if forloop.index >= 8 and forloop.index <= 10 %}
-                <div class="image-item">
-                  {% render 'responsive--image' with media as image, max_width: 253, class: 'img' %}
-                </div>
-                {% else %}
-              {% endif %}
-            {% endfor %}
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_1, media_type: "image" %}
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_2, media_type: "image" %}
+            {% render 'media-item' , media: product.metafields.my_fields.embed_video_link, media_type: "video" %}
           </div>
         </div>
         <div class="image-gallery-pagination"></div>

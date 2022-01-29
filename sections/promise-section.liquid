@@ -19,14 +19,14 @@
               </div>
              {% endif %}
             {% if section.settings.btn_text != blank %}
-              <a href="{{ section.settings.btn_url }}" class="btn">
+              <a href="{{ section.settings.link_url }}" class="btn">
                 {{ section.settings.btn_text }}
               </a>
             {% endif %}
           </div>
         </div>
         <div class="beta">
-          <div class="image">
+          <a href="{{ section.settings.link_url }}" class="image">
             {% if section.settings.desk_img != blank %}
               {% render 'responsive--image' with section.settings.desk_img as image, max_width: 428, class: 'img', mob_img: section.settings.mob_img %}
             {% else %}
@@ -35,7 +35,7 @@
             {% if section.settings.mob_img != blank %}
               {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'img mob-image' %}
             {% endif %}
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -87,8 +87,8 @@
     },
     {
       "type": "url",
-      "id": "btn_url",
-      "label": "Button Url"
+      "id": "link_url",
+      "label": "Link Url"
     }
   ],
   "presets": [

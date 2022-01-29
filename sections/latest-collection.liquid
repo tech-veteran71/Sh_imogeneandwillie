@@ -5,7 +5,7 @@
     <div class="wrapper">
       <div class="main-grid">
         {% for block in section.blocks %}
-          <div class="collection-item">
+          <a href="{{ block.settings.link_url }}" class="collection-item">
             {% if block.settings.img_desk %}
               <div class="img-wrap {% if block.settings.img_mob != blank %}desk-img{% endif %}">
                 {% render 'responsive--image' with block.settings.img_desk as image, max_width: 960, class: 'img'%}
@@ -30,20 +30,20 @@
                 </h2>
               {% endif %}
               {% if block.settings.btn_text != blank %}
-                <a href="{{ block.settings.btn_url }}" class="button">
+                <div class="button">
                   {{ block.settings.btn_text }}
-                </a>
+                </div>
               {% endif %}
             </div>
             {% if block.settings.link_text != blank %}
-              <a href="{{ block.settings.link_url }}" class="link">
-              <span class="link-text">{{ block.settings.link_text }}</span>
-              <span class="arrow">
-                {% include 'icon-right-arrow' %}
-              </span>
-              </a>
+              <div class="link">
+                <span class="link-text">{{ block.settings.link_text }}</span>
+                <span class="arrow">
+                  {% include 'icon-right-arrow' %}
+                </span>
+              </div>
             {% endif %}
-          </div>
+            </a>
         {% endfor %}
       </div>
     </div>
@@ -55,69 +55,64 @@
   "name": "Latest Collection",
   "settings": [],
   "blocks": [
-  {
-    "name": "Collection Item",
-    "type": "collection_item",
-    "settings": [
     {
-      "type": "header",
-      "content": "Image",
-      "info": "-------"
-    },
-    {
-      "type": "image_picker",
-      "id": "img_desk",
-      "label": "Image (Desktop)"
-    },
-    {
-      "type": "image_picker",
-      "id": "img_mob",
-      "label": "Image (Mobile)"
-    },
-    {
-      "type": "header",
-      "content": "Content",
-      "info": "-------"
-    },
-    {
-      "type": "text",
-      "id": "pre_title",
-      "label": "Pre Title"
-    },
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Title"
-    },
-    {
-      "type": "text",
-      "id": "btn_text",
-      "label": "Button Text",
-      "default": "Shop All"
-    },
-    {
-      "type": "url",
-      "id": "btn_url",
-      "label": "Button Url"
-    },
-    {
-      "type": "text",
-      "id": "link_text",
-      "label": "Link Text (Mobile)"
-    },
-    {
-      "type": "url",
-      "id": "link_url",
-      "label": "Link Url (Mobile)"
+      "name": "Collection Item",
+      "type": "collection_item",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "-------"
+        },
+        {
+          "type": "image_picker",
+          "id": "img_desk",
+          "label": "Image (Desktop)"
+        },
+        {
+          "type": "image_picker",
+          "id": "img_mob",
+          "label": "Image (Mobile)"
+        },
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "pre_title",
+          "label": "Pre Title"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text",
+          "default": "Shop All"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text (Mobile)"
+        }
+      ]
     }
-    ]
-  }
   ],
   "presets": [
-  {
-    "name": "Latest Collection",
-    "category": "Latest Collection"
-  }
+    {
+      "name": "Latest Collection",
+      "category": "Latest Collection"
+    }
   ]
 } 
 {% endschema %}

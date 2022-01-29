@@ -4,7 +4,7 @@
     <div class="wrapper">
       <div class="main-grid">
         {% for block in section.blocks %}
-        <div class="collection-item">
+        <a href="{{ block.settings.link_url }}" class="collection-item">
           <div class="img-wrap">
             {% if block.settings.img != blank %}
               {% render 'responsive--image' with block.settings.img as image, max_width: 683, class: 'img' %}
@@ -13,14 +13,14 @@
             {% endif %}
           </div>
           {% if block.settings.btn_text != blank %}
-            <a href="{{ block.settings.btn_url }}" class="button">{{ block.settings.btn_text }}</a>
+            <div class="button">{{ block.settings.btn_text }}</div>
           {% endif %}
-        </div>
+        </a>
       {% endfor %}
       </div>
     </div>
   </div>
-  </div>
+</div>
 
 
 {% schema %}
@@ -28,43 +28,43 @@
   "name": "Collection List",
   "settings": [],
   "blocks": [
-  {
-    "name": "Collection Item",
-    "type": "collection_item",
-    "settings": [
     {
-      "type": "header",
-      "content": "Image",
-      "info": "-------"
-    },
-    {
-      "type": "image_picker",
-      "id": "img",
-      "label": "Image"
-    },
-    {
-      "type": "header",
-      "content": "Content",
-      "info": "-------"
-    },
-    {
-      "type": "text",
-      "id": "btn_text",
-      "label": "Button Text"
-    },
-    {
-      "type": "url",
-      "id": "btn_url",
-      "label": "Button Url"
+      "name": "Collection Item",
+      "type": "collection_item",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "-------"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        },
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
+        }
+      ]
     }
-    ]
-  }
   ],
   "presets": [
-  {
-    "name": "Collection List",
-    "category": "Collection List"
-  }
+    {
+      "name": "Collection List",
+      "category": "Collection List"
+    }
   ]
 }
 {% endschema %}

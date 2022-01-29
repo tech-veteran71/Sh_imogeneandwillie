@@ -1,0 +1,104 @@
+{{ 'content-specific-collection.css' | asset_url | stylesheet_tag }}
+
+<div class="content-specific-collection">
+  <div class="product-container">
+    <div class="wrapper">
+      <div class="product-grid">
+        <div class="swiper-wrapper">
+          {% if section.settings.collection != blank %}
+            {% for product in collections[section.settings.collection].products limit: section.settings.total_product %}
+              {% render 'product--card' with section, product: product %}
+            {% endfor %}
+            {% else %}
+              {% for block in section.blocks %}
+                {% if forloop.index <= section.settings.total_product %}
+                  {% render 'product--card' with section, product: block.settings.choose_product %}
+                  {% else %}
+                    {% break %}
+                {% endif %}
+              {% endfor %}
+          {% endif %}
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+      {% if section.settings.btn_text %}
+        <div class='btn-wrap'>
+          <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Content Spec Collection",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Collection",
+      "info": "-------"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Choose Collection",
+      "info": "If Collection isn't selected then the manually added product will show."
+    },
+    {
+      "type": "range",
+      "id": "total_product",
+      "label": "Number Of Product",
+      "min": 4,
+      "max": 20,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "Men’s denim"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "toggle_on_hover",
+      "label": "Toggle Both Image And Text On Hover"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Product",
+      "type": "product",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Product",
+          "info": "-------"
+        },
+        {
+          "type": "product",
+          "id": "choose_product",
+          "label": "Choose Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Content Spec Collection",
+      "category": "Content Spec Collection"
+    }
+  ]
+}
+{% endschema %}
