@@ -59,7 +59,7 @@
               </table>
             </div>
           {%- else -%}
-            <p>{{ 'customer.orders.none' | t }}</p>
+            <p class="order-status">{{ 'customer.orders.none' | t }}</p>
           {%- endif -%}
   
           {%- if paginate.pages > 1 -%}
