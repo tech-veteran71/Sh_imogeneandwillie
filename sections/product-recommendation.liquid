@@ -1,38 +1,32 @@
 {{ 'product-recommendation.css' | asset_url | stylesheet_tag }}
-
 <div class="product-recommendation">
-  <div class="product-container">
-    <div class="wrapper">
-      <div class="product-grid">
-        {% for product in collections[section.settings.collection].products %}
-          {% if forloop.index <= 4 %}
-            <a href="{{ product.url }}" class="product-item">
-              <div class="img-wrap">
-                {% render 'responsive--image' with product.featured_media as image, max_width: 360, class: 'product-image' %}
-              </div>
-              <div class="product-info">
-                <h4 class="product-title">{{ product.title }}</h4>
-                <p class="description">straight through the thigh and knee</p>
-              </div>
-            </a>
-            {% else %}
-              {% break %}
-          {% endif %}
-        {% endfor %}
+  <div class="main-container">
+    {% if section.settings.pre_title != blank %}
+      <h4 class="pre-title">{{ section.settings.pre_title }}</h4>
+    {% endif %}
+    {% if  section.settings.title != blank %}
+      <h3 class="title">{{ section.settings.title }}</h3>
+    {% endif %}
+    <div class="product-gallery">
+      <div class="swiper-wrapper">
+        {% if section.settings.choose_collection != blank %}
+          {% for product in collections[section.settings.choose_collection].products %}
+            {% render "product--item", product: product %}
+          {% endfor %}
+          {% else %}
+            {% for block in section.blocks %}
+              {% render "product--item", product: block.settings.choose_product %}
+            {% endfor %}
+        {% endif %}
       </div>
-      {% if section.settings.btn_text %}
-        <div class='btn-wrap'>
-          <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
-        </div>
-      {% endif %}
+      <div class="swiper-scrollbar"></div>
     </div>
   </div>
 </div>
-
 {% schema %}
 {
-  "name": "Product Recommendation",
-  "settings": [
+  "name":"Product Recommendation",
+  "settings":[
     {
       "type": "header",
       "content": "Collection",
@@ -40,30 +34,42 @@
     },
     {
       "type": "collection",
-      "id": "collection",
-      "label": "Choose Collection"
-    },
-    {
-      "type": "header",
-      "content": "Content",
-      "info": "-------"
+      "id": "choose_collection",
+      "label": "Choose Collection",
+      "info": "If Collection isn't selected then the manually added product will show."
     },
     {
       "type": "text",
-      "id": "btn_text",
-      "label": "Button Text",
-      "default": "Men’s denim"
+      "id": "pre_title",
+      "label": "Pre Title"
     },
     {
-      "type": "url",
-      "id": "btn_url",
-      "label": "Button Url"
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Product",
+      "type": "product",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Product",
+          "info": "-------"
+        },
+        {
+          "type": "product",
+          "id": "choose_product",
+          "label": "Choose Product"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "Product Recommendation",
-      "category": "Product Recommendation"
+      "name": "Product Recommendation"
     }
   ]
 }

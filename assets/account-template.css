@@ -63,6 +63,11 @@
   padding: 0 1em;
   text-decoration: none;
 }
+.order-history .order-status {
+  font-size: 18px;
+  color: var(--color-dim-black);
+  letter-spacing: 2px;
+}
 .order-history .table-wrap .order-name {
   color: var(--color-blue);
   text-decoration: underline;
@@ -111,6 +116,9 @@
   .order-history .table-wrap th {
     font-size: 0.7em;
   }
+  .order-history .order-status {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 990px) {
   .order-history tbody td {
@@ -124,6 +132,11 @@
   }
   .order-history {
     background-image: unset;
+  }
+  .order-history .order-status {
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
   }
   .order-history .inner-order-history {
     padding: 0;

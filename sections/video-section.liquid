@@ -8,9 +8,6 @@
       <div class="alpha">
         <div class="contents">
         <div class="content">
-          {% if section.settings.mobile_title != blank %}
-            <h3 class="mobile-title">{{ section.settings.mobile_title }}</h3>
-          {% endif %}
           {% if section.settings.wrap_title != blank %}
             <h3 class="wrap-title">{{ section.settings.wrap_title }}</h3>
           {% endif %}
@@ -31,46 +28,33 @@
             <span class="read-more">
               <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn }}</a>
             </span>
-            <span class="arrow">
-              <img src="{{ section.settings.arrow | img_url: 'master'}}" alt="">
-            </span>
           </div>
         {% endif %}
          </div>
         </div>
       </div>
-      <div class="beta" data-video>
-         {% if section.settings.video_url != blank %}
-          <iframe class="video" src="{{ section.settings.video_url }}"></iframe>
-          <div class="image">
-            <img src=" {{section.settings.video_img | img_url: 'master'}}" alt="">
-            <div class="play-img">
-              <img src="{{ section.settings.play_img | img_url: 'master'}}" alt="">
+      <div class="beta">
+        {% if section.settings.add_video %}
+          {% if section.settings.video_url != blank %}
+            <video src="{{ section.settings.video_url }}" preload="none" muted loop data-video></video>
+          {% endif %}
+          {% else %}
+            <div class="image">
+              <img src=" {{section.settings.img | img_url: 'master'}}" alt="">
             </div>
-          </div>
-         {% endif %}
+        {% endif %}
       </div>
     </div>
   </div>
 </div>
 {% schema %}
 {
-  "name": "Video",
+  "name": "Video Section",
   "settings": [
     {
       "type": "image_picker",
-      "id": "arrow",
-      "label": "Arrow"
-    },
-    {
-      "type": "image_picker",
-      "id": "video_img",
+      "id": "img",
       "label": "Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "play_img",
-      "label": "Play"
     },
     {
       "type": "text",
@@ -79,13 +63,8 @@
     },
     {
       "type": "text",
-      "id": "mobile_title",
-      "label":"Mobile Title"
-    },
-    {
-      "type": "text",
       "id": "wrap_title",
-      "label":"Desktop Title"
+      "label":"Title"
     },
     {
       "type": "text",
@@ -106,12 +85,24 @@
     {
       "type": "url",
       "id": "btn_url",
-      "label": "URL"
+      "label": "Link URL"
     },
     {
       "type": "text",
       "id": "btn",
       "label":"Button"
+    },
+    {
+      "type": "header",
+      "content": "Video",
+      "info": "-------"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_video",
+      "label": "Add Video",
+      "default": true,
+      "info": "Either add video or Image."
     },
     {
       "type": "text",

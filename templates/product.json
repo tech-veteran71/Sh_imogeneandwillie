@@ -8,13 +8,6 @@
           "settings": {
           }
         },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -37,6 +30,13 @@
           "settings": {
           }
         },
+        "7e36d9c9-8d19-40d7-8740-95dcb6ddf2bf": {
+          "type": "link",
+          "settings": {
+            "link_text": "made in usa",
+            "link": "shopify:\/\/pages\/our-voice-made-in-usa"
+          }
+        },
         "69a8b823-a49f-43fc-8c88-78d4735bfcc7": {
           "type": "accordian",
           "settings": {
@@ -54,11 +54,11 @@
       },
       "block_order": [
         "title",
-        "subtitle",
         "price",
         "variant_picker",
         "buy_buttons",
         "description",
+        "7e36d9c9-8d19-40d7-8740-95dcb6ddf2bf",
         "69a8b823-a49f-43fc-8c88-78d4735bfcc7",
         "885c349d-e8e1-42fc-9ea0-d39ff2bccc19"
       ],
@@ -74,7 +74,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "image_ratio": "adapt",
@@ -94,72 +93,133 @@
     "1635523248a721bf5a": {
       "type": "video-section",
       "settings": {
-        "arrow": "shopify:\/\/shop_images\/arrow.png",
-        "video_img": "shopify:\/\/shop_images\/Layer_0.png",
-        "play_img": "shopify:\/\/shop_images\/Play.png",
+        "img": "shopify:\/\/shop_images\/Layer_0.png",
         "title": "BEHIND OUR DENIM",
-        "mobile_title": "BEHIND OUR DENIM",
         "wrap_title": "the process:",
         "top_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum",
         "bottom_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim a, quis nostrud. lorem ipsum dolor sit amet.",
+        "link_text": "read more...",
         "btn_url": "",
-        "btn": "read more",
-        "video_url": "https:\/\/www.youtube.com\/embed\/tgbNymZ7vqY"
+        "btn": "read more >",
+        "add_video": true,
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/pexels-algen-anquitan-5407975.mp4?v=1642676377"
       }
     },
-    "16355956535616edda": {
-      "type": "product-recommendation",
-      "settings": {
-        "collection": "denim"
-      }
-    },
-    "16355241807b097c3c": {
-      "type": "selection",
+    "1642505173ef81dd16": {
+      "type": "content-specific-featured-collection",
       "blocks": {
-        "e095f5f5-e218-4e48-82a5-b41124740905": {
-          "type": "img",
+        "b0304161-61dd-43b1-a864-042e525432e2": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_96.png",
-            "text": "the \"lost time\" bandana",
-            "price": "$48"
+            "choose_product": "barton-slim-black-rigid"
           }
         },
-        "af4ba405-32f4-47ee-997f-b8a241337344": {
-          "type": "img",
+        "80678603-4496-4a39-9641-827bf1b92b64": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_100.png",
-            "text": "the \"godspeed\" tee",
-            "price": "$58"
+            "choose_product": "barton-slim-black-rigid-usa-lot-1"
           }
         },
-        "1ba74f10-c7c3-4575-8f15-c8607a7cb4ec": {
-          "type": "img",
+        "b22be416-6021-4e23-ae78-edc8f33f55e9": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_101.png",
-            "text": "engraved \"so long\" flash",
-            "price": "$48"
+            "choose_product": "barton-slim-indigo-rigid-jp"
           }
         },
-        "9d52db02-8ca6-415d-9ecd-3f1df2b67670": {
-          "type": "img",
+        "3573c52c-9ecf-419a-b430-1614ce11228c": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Component_41_5.png",
-            "text": "military shirt jacket in fatigue green",
-            "price": "$230"
+            "choose_product": "barton-slim-indigo-rigid-usa-lot-1"
+          }
+        },
+        "6f809859-b472-4264-a0ca-ad9df42660dc": {
+          "type": "product",
+          "settings": {
+            "choose_product": "barton-slim-indigo"
+          }
+        },
+        "f70e1714-3a6e-4533-b6f7-1e7a38edc63b": {
+          "type": "product",
+          "settings": {
+            "choose_product": "barton-slim-natchez"
+          }
+        },
+        "cba790f3-c2d3-4e3d-bc7e-8699bbdb7dd7": {
+          "type": "product",
+          "settings": {
+            "choose_product": "black-knit-mid-weight-crew"
+          }
+        },
+        "bc633e5f-f772-40ec-ac39-2c2c50cb2bcd": {
+          "type": "product",
+          "settings": {
+            "choose_product": "blake-military-trouser-in-olive"
           }
         }
       },
       "block_order": [
-        "e095f5f5-e218-4e48-82a5-b41124740905",
-        "af4ba405-32f4-47ee-997f-b8a241337344",
-        "1ba74f10-c7c3-4575-8f15-c8607a7cb4ec",
-        "9d52db02-8ca6-415d-9ecd-3f1df2b67670"
+        "b0304161-61dd-43b1-a864-042e525432e2",
+        "80678603-4496-4a39-9641-827bf1b92b64",
+        "b22be416-6021-4e23-ae78-edc8f33f55e9",
+        "3573c52c-9ecf-419a-b430-1614ce11228c",
+        "6f809859-b472-4264-a0ca-ad9df42660dc",
+        "f70e1714-3a6e-4533-b6f7-1e7a38edc63b",
+        "cba790f3-c2d3-4e3d-bc7e-8699bbdb7dd7",
+        "bc633e5f-f772-40ec-ac39-2c2c50cb2bcd"
       ],
       "settings": {
-        "desktop-pre_title": "( featured )",
-        "mobile-pre_title": "( hand-selected )",
-        "desktop-title": "Curated SELECTIONS",
-        "mobile-title": "Curated FAVORITES"
+        "collection": "bottom-size-28",
+        "total_product": 18,
+        "btn_text": "Men’s denim",
+        "btn_url": "",
+        "toggle_on_hover": true
+      }
+    },
+    "16355956535616edda": {
+      "type": "product-recommendation",
+      "blocks": {
+        "eb962bba-e9e3-4d3b-8b85-d707ce6ffc78": {
+          "type": "product",
+          "settings": {
+            "choose_product": "barton-slim-natchez"
+          }
+        },
+        "c22d4cd9-ebc5-47fc-9904-5f85b3e2a9d5": {
+          "type": "product",
+          "settings": {
+            "choose_product": "blake-military-trouser-in-olive"
+          }
+        },
+        "442a22d7-6043-42ca-84c0-eb4879d463b2": {
+          "type": "product",
+          "settings": {
+            "choose_product": "blake-military-trouser-in-black"
+          }
+        },
+        "a124b463-9fe7-4a12-961e-d7a8c8288323": {
+          "type": "product",
+          "settings": {
+            "choose_product": "barton-slim-indigo"
+          }
+        },
+        "786b4baf-ba9f-4b76-962a-ebd63fb1dc8b": {
+          "type": "product",
+          "settings": {
+            "choose_product": "barton-slim-black-rigid"
+          }
+        }
+      },
+      "block_order": [
+        "eb962bba-e9e3-4d3b-8b85-d707ce6ffc78",
+        "c22d4cd9-ebc5-47fc-9904-5f85b3e2a9d5",
+        "442a22d7-6043-42ca-84c0-eb4879d463b2",
+        "a124b463-9fe7-4a12-961e-d7a8c8288323",
+        "786b4baf-ba9f-4b76-962a-ebd63fb1dc8b"
+      ],
+      "settings": {
+        "choose_collection": "",
+        "pre_title": "( featured )",
+        "title": "Curated SELECTIONS"
       }
     }
   },
@@ -168,7 +228,7 @@
     "product-recommendations",
     "16355989173d290cbd",
     "1635523248a721bf5a",
-    "16355956535616edda",
-    "16355241807b097c3c"
+    "1642505173ef81dd16",
+    "16355956535616edda"
   ]
 }

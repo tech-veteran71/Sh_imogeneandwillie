@@ -1,0 +1,7 @@
+<div class="media-item">
+  {% if media_type == 'image' %}
+    {% render 'responsive--image' with media as image, max_width: 253, class: 'img' %}
+    {% elsif media_type == 'video' %}
+    <iframe src="{{ media }}"></iframe>
+  {% endif %}
+</div>

@@ -1,128 +1,174 @@
-.product-recommendation {
-  background-color: var(--color-Xlight-wheat);
-  padding: 85px 0 70px;
-}
-.product-recommendation .product-container {
-  max-width: 1630px;
-  padding: 0 20px;
+.product-recommendation .main-container {
+  max-width: 1720px;
   margin: 0 auto;
+  padding: 0 15px;
 }
-.product-recommendation .product-grid {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 40px;
-  margin-bottom: 70px;
+.product-recommendation {
+  padding: 57px 0 44px 0;
 }
-.product-recommendation .product-item {
+.product-recommendation:hover .swiper-scrollbar {
+  opacity: 1;
+}
+.product-recommendation .pre-title {
+  font-size: 15px;
+  font-family: var(--font-gothic);
+  margin-top: 0;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 5px
+}
+.product-recommendation .title {
+  font-size: 23px;
+  font-family: var(--font-din);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 1.4;
+}
+.product-recommendation .product-gallery {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.product-recommendation .card {
+  position: relative;
   text-decoration: none;
 }
-.product-recommendation .product-image {
+.product-recommendation .card .text-wrap {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  background-color: rgba(0,0,0, 0.7);
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.product-recommendation .card .text {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 226px;
+  line-height: 1.4;
+}
+.product-recommendation .card .price {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.product-recommendation .card:hover .text-wrap {
+   opacity: 1;
+   transition: all 0.2s linear;
+}
+.product-recommendation .img-wrap {
+  height: 100%;
+  width: 100%;
+}
+.product-recommendation .img-wrap img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-.product-recommendation .product-info {
-  margin-top: 20px;
+.product-recommendation .swiper-scrollbar {
+  opacity: 0;
+  left: 0;
+  background-color: transparent;
+  height: 3px;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
 }
-.product-recommendation .product-title {
-  margin: 0;
-  font-size: 16px;
-  color: var(--color-normal-black);
-  margin-bottom: 6px;
-  letter-spacing: 1.2px;
-}
-.product-recommendation .description {
-  font-size: 14px;
-  font-family: var(--font-gothic);
-  color: var(--color-dim-black);
-  margin: 0;
-  line-height: 1;
-}
-.product-recommendation .btn {
-  font-size: 14px;
-  font-family: var(--font-din);
-  text-transform: uppercase;
-  color: var(--color-normal-black);
-  border: 1px solid var(--color-normal-black);
-  padding: 0 10px;
-  max-width: 360px;
-  min-height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  letter-spacing: 2.5px;
-  margin: 0 auto;
+.product-recommendation .swiper-scrollbar-drag {
+  display: block;
+  background-color: var(--color-dark-grey);
+  border-radius: 5px;
 }
 
-@media screen and (min-width: 1400px) {
-  .product-recommendation .product-grid {
-    grid-gap: 65px;
-  }
-  .product-recommendation .product-title {
-    font-size: 20px;
-    letter-spacing: 1.2px;
-  }
-  .product-recommendation .btn {
-    max-width: 410px;
+/* responsive start */
+@media screen and (max-width: 1600px) and (min-width: 1279px) {
+  .product-recommendation .main-container {
+    padding: 0 80px;
   }
 }
-@media screen and (max-width: 1279px) {
-  .product-recommendation .product-grid {
-    grid-gap: 25px;
+@media screen and (max-width: 1400px) {
+  .product-recommendation .card .text {
+    font-size: 18px;
   }
-  .product-recommendation .product-title {
+  .product-recommendation .card .price {
+    font-size: 18px;
+  }
+  .product-recommendation .card .price {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px ){
+  .product-recommendation .card .text {
+    font-size: 16px;
+  }
+  .product-recommendation .card .price {
+    font-size: 16px;
+  }
+  .product-recommendation .card .text {
+    max-width: 145px;
+  }
+}
+@media (max-width: 991px){
+  .product-recommendation {
+    padding: 32px 0 10px;
+  }
+  .product-recommendation .product-gallery {
+    padding-bottom: 22px;
+  }
+  .product-recommendation .card .price {
     font-size: 12px;
   }
-  .product-recommendation .description {
+  .product-recommendation .card .text {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 990px) {
-  .product-recommendation .product-grid {
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 25px;
-    grid-row-gap: 50px;
-  }
-  .product-recommendation .product-title {
-    font-size: 14px;
-  }
-  .product-recommendation .description {
-    font-size: 14px;
+  .product-recommendation .card .text {
+    max-width: 210px;
   }
 }
 @media screen and (max-width: 767px) {
-  .product-recommendation {
-    padding: 20px 0 50px;
+  .product-recommendation .card .text {
+    max-width: 148px;
   }
-  .product-recommendation .product-container {
-    padding: 0;
-  }
-  .product-recommendation .product-grid {
-    grid-template-columns: unset;
-    grid-column-gap: unset;
-    grid-row-gap: unset;
-    display: flex;
-    overflow-x: auto;
-    margin-bottom: 40px;
-  }
-  .product-recommendation .product-item {
-    max-width: 239px;
-    flex: 239px;
-    min-width: 239px;
-    padding: 0 12px;
-  }
-  .product-recommendation .product-title {
+  .product-recommendation .pre-title {
     font-size: 12px;
   }
-  .product-recommendation .description {
-    font-size: 12px;
+  .product-recommendation .title {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
   }
-  .product-recommendation .product-info {
-    margin-top: 15px;
+  .product-recommendation .card {
+    max-width: 300px;
+    flex: 300px;
+    min-width: 300px;
   }
-  .product-recommendation .btn-wrap {
-    padding: 0 20px;
+}
+@media screen and (max-width: 479px) {
+  .product-recommendation .card {
+    max-width: 240px;
+    flex: 240px;
+    min-width: 240px;
   }
 }

@@ -9,6 +9,7 @@
 }
 .latest-collection .collection-item {
   position: relative;
+  text-decoration: none;
 }
 .latest-collection .collection-item img{
   width: 100%;
