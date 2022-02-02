@@ -2,6 +2,7 @@
   background-color: var(--color-Xlight-wheat);
   position: relative;
   font-size: 1.2vw;
+  padding-top: 70px;
 }
 .custom-content-section::after {
   content: "";
@@ -11,6 +12,9 @@
   height: 20.75em;
   bottom: 0;
   left: 0;
+}
+.custom-content-section .img-link {
+  display: block;
 }
 .custom-content-section .paragraph {
   padding: 0 3em;
@@ -202,7 +206,7 @@
 }
 @media screen and (max-width: 767px) {
   .custom-content-section {
-    padding-bottom: 60px;
+    padding: 60px 0;
   }
   .custom-content-section .main-title {
     display: none;

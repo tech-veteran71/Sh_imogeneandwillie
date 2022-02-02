@@ -2961,6 +2961,31 @@ customElements.define("ajax-cart", AjaxCart);
     }
   });
 
+  // fact section swiper script
+  new Swiper('.fact-section .custom-grid', {
+    slidesPerView: 4,
+    spaceBetween: 25,
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
+    breakpoints: {
+      990: {
+        slidesPerView: 4
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+        loop: false,
+      },
+      360: {
+        slidesPerView: "auto",
+        spaceBetween: 15,
+        loop: true,
+      }
+    }
+  });
+
   // change the header background color on fabric page when scrolling
   const Fabricheader = document.querySelector('.custom-page .header-wrapper');
   if (Fabricheader) {

@@ -12,7 +12,9 @@
       </div>
       <div class="mob-image mob-image1">
         {% if section.settings.mob_img1 != blank %}
-          {% render 'responsive--image' with section.settings.mob_img1 as image, max_width: 389, class: 'image' %}
+          <a href="{{ section.settings.img_url1 }}" class="img-link">
+            {% render 'responsive--image' with section.settings.mob_img1 as image, max_width: 389, class: 'image' %}
+          </a>
         {% else %}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {% endif %}
@@ -32,7 +34,9 @@
           {% if block.type == 'image' %}
             <div class="image-wrap image-{{ index }}">
               {% if block.settings.img != blank %}
-                {% render 'responsive--image' with block.settings.img as image, max_width: 710, class: 'image' %}
+                <a href="{{ block.settings.img_url }}" class="img-link">
+                  {% render 'responsive--image' with block.settings.img as image, max_width: 710, class: 'image' %}
+                </a>
               {% else %}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {% endif %}
@@ -44,12 +48,16 @@
       <div class="image_with-text">
         <div class="alpha">
           {% if section.settings.desk_img != blank %}
-            {% render 'responsive--image' with section.settings.desk_img as image, max_width: 649, class: 'image', mob_img: section.settings.mob_img2 %}
+            <a href="{{ section.settings.desk_img_url }}" class="img-link">
+              {% render 'responsive--image' with section.settings.desk_img as image, max_width: 649, class: 'image', mob_img: section.settings.mob_img2 %}
+            </a>
           {% else %}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {% endif %}
           {% if section.settings.mob_img2 != blank %}
-            {% render 'responsive--image' with section.settings.mob_img2 as image, max_width: 360, class: 'image mob-image' %}
+            <a href="{{ section.settings.img_url2 }}" class="img-link">
+              {% render 'responsive--image' with section.settings.mob_img2 as image, max_width: 360, class: 'image mob-image' %}
+            </a>
           {% endif %}
         </div>
         {% if section.settings.text != blank %}
@@ -72,19 +80,49 @@
       "info": "-------"
     },
     {
+      "type": "header",
+      "content": "Desktop Image",
+      "info": "-------"
+    },
+    {
       "type": "image_picker",
       "id": "desk_img",
-      "label": "Image (Desktop)"
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "desk_img_url",
+      "label": "Image Url"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Image 1",
+      "info": "-------"
     },
     {
       "type": "image_picker",
       "id": "mob_img1",
-      "label": "Image 1 (Mobile)"
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "img_url1",
+      "label": "Image Url"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Image 2",
+      "info": "-------"
     },
     {
       "type": "image_picker",
       "id": "mob_img2",
-      "label": "Image 2 (Mobile)"
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "img_url2",
+      "label": "Image Url"
     },
     {
       "type": "header",
@@ -139,6 +177,11 @@
           "type": "image_picker",
           "id": "img",
           "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "img_url",
+          "label": "Image Url"
         }
       ]
     }

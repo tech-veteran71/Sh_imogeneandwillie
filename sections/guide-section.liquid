@@ -9,7 +9,7 @@
       <div class="custom-grid {% if section.settings.change_alignment %} alignment {% endif %}">
         {% for block in section.blocks %}
           <div class="grid-item block-{{ forloop.index }}">
-            <div class="img-wrap">
+            <a href="{{ block.settings.link_url }}" class="img-wrap">
               {% if block.settings.desk_img != blank %}
                 {% render 'responsive--image' with block.settings.desk_img as image, max_width: 513, class: 'image', mob_img: block.settings.mob_img %}
               {% else %}
@@ -18,7 +18,7 @@
               {% if block.settings.mob_img != blank %}
                 {% render 'responsive--image' with block.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
               {% endif %}
-            </div>
+            </a>
             {% if block.settings.title != blank %}
               <div class="content-wrap">
                 <h4 class="main-title">{{ block.settings.title }}</h4>
@@ -33,6 +33,11 @@
           </div>
         {% endfor %}
       </div>
+      {% if section.settings.show_button and section.settings.btn_text != blank %}
+        <div class="btn-wrap">
+          <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -60,6 +65,22 @@
       "type": "checkbox",
       "id": "change_alignment",
       "label": "Change Alignment",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button",
       "default": false
     }
   ],
