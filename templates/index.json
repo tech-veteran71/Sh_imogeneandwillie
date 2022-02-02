@@ -55,9 +55,8 @@
             "pre_title": "WOMEN’S NEW ARRIVALS",
             "title": "agnes jacket in coastal stone",
             "btn_text": "Shop All",
-            "btn_url": "",
-            "link_text": "SHOP WOMEN’S",
-            "link_url": ""
+            "link_url": "",
+            "link_text": "SHOP WOMEN’S"
           }
         },
         "040b3d3a-8dd7-429d-8a11-bbaeb7abc0cb": {
@@ -68,9 +67,8 @@
             "pre_title": "MEN’S NEW ARRIVALS",
             "title": "hall cpo in cascade plaid",
             "btn_text": "Shop All",
-            "btn_url": "",
-            "link_text": "SHOP MEN’S",
-            "link_url": ""
+            "link_url": "",
+            "link_text": "SHOP MEN’S"
           }
         }
       },
@@ -130,16 +128,14 @@
           "type": "collection_item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitled-6_3245a8fc-15c6-4fee-a197-b922c89d4511.jpg",
-            "btn_text": "shop mens",
-            "btn_url": ""
+            "btn_text": "shop mens"
           }
         },
         "a5039d9b-141b-4eff-944e-c54ac4ff16e3": {
           "type": "collection_item",
           "settings": {
             "img": "shopify:\/\/shop_images\/right_da369114-d23e-47e7-a09e-914eb425a0d4.jpg",
-            "btn_text": "shop womens",
-            "btn_url": ""
+            "btn_text": "shop womens"
           }
         }
       },
@@ -311,8 +307,7 @@
         "pre_title": "( our promise )",
         "title": "committed to making everything in the usa",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
-        "btn_text": "LEARN MORE",
-        "btn_url": ""
+        "btn_text": "LEARN MORE"
       }
     }
   },

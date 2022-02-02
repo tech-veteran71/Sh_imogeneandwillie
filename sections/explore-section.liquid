@@ -11,12 +11,12 @@
           {% if section.settings.choose_collection != blank or section.settings.choose_blog != blank %}
             {% if section.settings.choose_collection != blank %}
               {% for product in collections[section.settings.choose_collection].products %}
-                  {% render 'cart-item', cart: product, productCart: true %}  
+                {% render 'cart-item', cart: product, productCart: true %}  
               {% endfor %}
             {% endif %}
             {% if section.settings.choose_blog != blank %}
               {% for article in blogs[section.settings.choose_blog].articles %}
-                  {% render 'cart-item', cart: article %}  
+                {% render 'cart-item', cart: article %}  
               {% endfor %}
             {% endif %}
               {% else %}

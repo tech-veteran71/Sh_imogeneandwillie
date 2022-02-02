@@ -3,7 +3,7 @@
 <div class="hero-inner">
   <div class="container">
     <div class="banner">
-      <div class="banner-img">
+      <a href="{{ section.settings.img_url }}" class="banner-img">
         {% if section.settings.desk_img != blank %}
           {% render 'responsive--image' with section.settings.desk_img as image, max_width: 1920, class: 'image', mob_img: section.settings.mob_img %}
         {% else %}
@@ -12,7 +12,7 @@
         {% if section.settings.mob_img != blank %}
           {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
         {% endif %}
-      </div>
+      </a>
       <div class="content-wrap">
         {% if section.settings.main_title != blank %}
           <h1 class="main-title">{{ section.settings.main_title }}</h1>
@@ -22,7 +22,7 @@
         {% endif %}
       </div>
       {% if section.settings.link_text != blank %}
-        <a class="link" href="{{ section.settings.link_url }}">
+        <a class="link" href="#collage-section">
           <span class="link-text">{{ section.settings.link_text }}</span>
           <div class="icon-wrap">
             {% include 'icon-down' %}
@@ -54,6 +54,11 @@
       "label": "Banner Image (Mobile)"
     },
     {
+      "type": "url",
+      "id": "img_url",
+      "label": "Banner Image Url"
+    },
+    {
       "type": "header",
       "content": "Content",
       "info": "-------"
@@ -73,11 +78,6 @@
       "id": "link_text",
       "label": "Link Text",
       "default": "FIND YOUR FIT"
-    },
-    {
-      "type": "url",
-      "id": "link_url",
-      "label": "Link Url"
     }
   ],
   "presets": [

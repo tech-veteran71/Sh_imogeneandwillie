@@ -4,6 +4,9 @@
   object-fit: cover;
   display: block;
 }
+.grand-image .img-wrap {
+  display: block;
+}
 .grand-image .mob-image {
   display: none;
 }

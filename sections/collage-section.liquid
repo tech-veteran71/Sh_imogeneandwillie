@@ -11,7 +11,7 @@
   }
 </style>
 
-<div class="collage-section">
+<div class="collage-section" id="collage-section">
   <div class="container">
     <div class="wrapper {% if section.settings.change_alignment %}alignment{% endif %}">
       <div class="alpha">
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="beta">
-        <div class="img-wrap">
+        <a href="{{ section.settings.img_url }}" class="img-wrap">
           {% if section.settings.desk_img != blank %}
             {% render 'responsive--image' with section.settings.desk_img as image, max_width: 1920, class: "image", mob_img: section.settings.mob_img %}
           {% else %}
@@ -40,7 +40,7 @@
           {% if section.settings.mob_img != blank %}
             {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
           {% endif %}
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -79,6 +79,11 @@
       "type": "image_picker",
       "id": "mob_img",
       "label": "Image (Mobile)"
+    },
+    {
+      "type": "url",
+      "id": "img_url",
+      "label": "Image Url"
     },
     {
       "type": "header",

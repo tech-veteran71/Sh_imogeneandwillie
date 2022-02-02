@@ -8,33 +8,36 @@
         </div>
       {% endif %}
       <div class="custom-grid">
-        {% for block in section.blocks %}
-          <div class="grid-item">
-            <div class="image-wrap">
-              {% if block.settings.desk_img != blank %}
-                {% render 'responsive--image' with block.settings.desk_img as image, max_width: 442, class: 'image', mob_img: block.settings.mob_img %}
-              {% else %}
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-              {% endif %}
-              {% if block.settings.mob_img != blank %}
-                {% render 'responsive--image' with block.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
-              {% endif %}
-            </div>
-            <div class="content-wrap">
-              {% if block.settings.title != blank %}
-                <div class="title-wrap">
-                  <h4 class="title">{{ block.settings.title }}</h4>
-                  <div class="icon-wrap" >
-                    {% include 'icon-arrow' %}
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <a href="{{ block.settings.link_url }}" class="grid-item swiper-slide">
+              <div class="image-wrap">
+                {% if block.settings.desk_img != blank %}
+                  {% render 'responsive--image' with block.settings.desk_img as image, max_width: 442, class: 'image', mob_img: block.settings.mob_img %}
+                {% else %}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                {% if block.settings.mob_img != blank %}
+                  {% render 'responsive--image' with block.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
+                {% endif %}
+              </div>
+              <div class="content-wrap">
+                {% if block.settings.title != blank %}
+                  <div class="title-wrap">
+                    <h4 class="title">{{ block.settings.title }}</h4>
+                    <div class="icon-wrap" >
+                      {% include 'icon-arrow' %}
+                    </div>
                   </div>
-                </div>
-              {% endif %}
-              {% if block.settings.text != blank %}
-                <p class="text">{{ block.settings.text }}</p>
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
+                {% endif %}
+                {% if block.settings.text != blank %}
+                  <p class="text">{{ block.settings.text }}</p>
+                {% endif %}
+              </div>
+            </a>
+          {% endfor %}
+        </div>
+        <div class="swiper-scrollbar"></div>
       </div>
     </div>
   </div>
@@ -90,6 +93,11 @@
           "type": "text",
           "id": "text",
           "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Url"
         }
       ]
     }

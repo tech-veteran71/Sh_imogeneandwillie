@@ -110,6 +110,7 @@
 }
 .collage-section .img-wrap {
   height: 100%;
+  display: block;
 }
 @media screen and (max-width: 1600px) {
   .custom-content .collage-section .beta {
@@ -245,7 +246,6 @@
   }
   .custom-content .collage-section .main-title {
     font-size: 26px;
-    font-weight: 600;
     letter-spacing: 2px;
   }
   .custom-content .collage-section .text {

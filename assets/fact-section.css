@@ -1,6 +1,9 @@
 .fact-section {
-  padding: 8em 0 3.5em;
+  padding: 8em 0 2.5em;
   font-size: 1.2vw;
+}
+.fact-section:hover .swiper-scrollbar {
+  opacity: 1;
 }
 .fact-section .container {
   max-width: 1820px;
@@ -21,9 +24,17 @@
   letter-spacing: 3px;
 }
 .fact-section .custom-grid {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 25px;
+  position: relative;
+  padding-bottom: 1em;
+  overflow: hidden;
+}
+.fact-section .custom-grid .grid-item {
+  display: block;
+  text-decoration: none;
+}
+.fact-section .custom-grid .grid-item:hover .icon-wrap {
+  position: relative;
+  right: -5px;
 }
 .fact-section .image {
   width: 100%;
@@ -51,15 +62,19 @@
   padding: 0 10px;
 }
 .fact-section .icon-wrap {
+  position: relative;
+  right: 0;
   margin-left: 10px;
   max-width: 18px;
   flex: 18px;
   height: 18px;
   display: flex;
+  transition: all 0.2s ease-in-out;
 }
 .fact-section .icon-wrap svg {
   width: 100%;
   height: 100%;
+  color: var(--color-blue);
 }
 .fact-section .text {
   margin: 0;
@@ -67,6 +82,7 @@
   font-family: var(--font-gothic);
   letter-spacing: 1.5px;
   line-height: 1.4;
+  color: var(--color-normal-black);
 }
 .fact-section .image-wrap {
   height: 30.25em;
@@ -74,6 +90,19 @@
 .fact-section .placeholder-svg {
   width: 100%;
   height: 100%;
+}
+.fact-section .swiper-scrollbar {
+  opacity: 0;
+  left: 0;
+  background-color: transparent;
+  height: 3px;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+}
+.fact-section .swiper-scrollbar-drag {
+  display: block;
+  background-color: var(--color-dark-grey);
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -93,9 +122,6 @@
 @media screen and (max-width: 1279px) {
   .fact-section .header-wrap {
     margin-bottom: 40px;
-  }
-  .fact-section .custom-grid {
-    grid-gap: 14px;
   }
   .fact-section .content-wrap {
     margin-top: 14px;
@@ -120,13 +146,8 @@
   }
 }
 @media screen and (max-width: 990px) {
-  .fact-section .custom-grid {
-    grid-gap: 20px;
-    grid-row-gap: 45px;
-    grid-template-columns: repeat(2,1fr);
-  }
   .fact-section .image-wrap {
-    height: 44.25em;
+    height: 32.25em;
   }
   .fact-section .title {
     font-size: 22px;
@@ -137,7 +158,7 @@
 }
 @media screen and (max-width: 767px) {
   .fact-section {
-    padding: 50px 0 80px;
+    padding: 50px 0 60px;
   }
   .fact-section .mob-image {
     display: block;
@@ -153,18 +174,12 @@
     letter-spacing: 2px;
   }
   .fact-section .custom-grid {
-    grid-gap: unset;
-    grid-row-gap: unset;
-    grid-template-columns: unset;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    padding-bottom: 20px;
   }
   .fact-section .custom-grid .grid-item {
     max-width: 300px;
     flex: 300px;
     min-width: 260px;
-    margin-right: 15px;
   }
   .fact-section .custom-grid .grid-item:last-child {
     margin-right: 0;
