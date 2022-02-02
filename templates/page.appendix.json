@@ -36,16 +36,14 @@
           "type": "collection_item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Image_306_600x_c2143d29-f89e-4f1d-aa3f-50941cc006aa.png",
-            "btn_text": "SHOP WOMEN",
-            "btn_url": ""
+            "btn_text": "SHOP WOMEN"
           }
         },
         "f7301a30-e411-47f8-aeb4-0bd056ff8acb": {
           "type": "collection_item",
           "settings": {
             "img": "shopify:\/\/shop_images\/oneyearwear_-2_600x_1364d848-7322-4818-b3af-c43d6d968362.png",
-            "btn_text": "SHOP MEN",
-            "btn_url": ""
+            "btn_text": "SHOP MEN"
           }
         }
       },
@@ -188,9 +186,8 @@
             "pre_title": "women's high-rise denim",
             "title": "indigo rigid",
             "btn_text": "Shop All",
-            "btn_url": "",
-            "link_text": "",
-            "link_url": ""
+            "link_url": "",
+            "link_text": ""
           }
         },
         "2f654fa6-1680-4487-9f53-66726f1e534d": {
@@ -200,9 +197,8 @@
             "pre_title": "men's jackets",
             "title": "denim jacket",
             "btn_text": "Shop All",
-            "btn_url": "",
-            "link_text": "",
-            "link_url": ""
+            "link_url": "",
+            "link_text": ""
           }
         }
       },

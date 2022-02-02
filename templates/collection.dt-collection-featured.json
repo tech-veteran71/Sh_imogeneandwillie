@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
+        "mob_bg_img": "shopify:\/\/shop_images\/NAV_IMG.png",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
+      }
+    },
+    "1634922614a8d39d99": {
+      "type": "main-collection",
+      "settings": {
+        "fit_guide_link": "",
+        "fabric_guide_link": "",
+        "collection_title": "men’s denim",
+        "product_per_row": 3,
+        "review": "“i want to die with my blue jeans on.”",
+        "customer_name": "- Andy Warhol"
+      }
+    },
+    "16349905558bece095": {
+      "type": "image-gallery-with-text",
+      "blocks": {
+        "16c89cb4-a076-4598-90c7-5693562dd61d": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_264.png"
+          }
+        },
+        "0c86c2bf-0560-4a04-a0ba-a318b1e97f01": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_267.png"
+          }
+        },
+        "af817732-17a9-49f8-9cd5-fb2131ee8e32": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_269.png"
+          }
+        },
+        "6dbe49bf-4c82-4f17-a2d5-365e3eef12ea": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_266.png"
+          }
+        }
+      },
+      "block_order": [
+        "16c89cb4-a076-4598-90c7-5693562dd61d",
+        "0c86c2bf-0560-4a04-a0ba-a318b1e97f01",
+        "af817732-17a9-49f8-9cd5-fb2131ee8e32",
+        "6dbe49bf-4c82-4f17-a2d5-365e3eef12ea"
+      ],
+      "settings": {
+        "mob_img": "shopify:\/\/shop_images\/Image_176.png",
+        "title": "BRIGHTER DAYS",
+        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
+        "btn_text": "SHOP Collection",
+        "btn_url": "",
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1634922614a8d39d99",
+    "16349905558bece095"
+  ]
+}
