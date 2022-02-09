@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
+        "mob_bg_img": "shopify:\/\/shop_images\/bigsurvibes_04.png",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
+      }
+    },
+    "1643975896bc85251c": {
+      "type": "collection-content-rich-template",
+      "settings": {
+        "main_title": "10.13.21",
+        "main_text": "( collection )",
+        "img_1": "shopify:\/\/shop_images\/IMG_3744.png",
+        "title": "american woolen company",
+        "text_1": "founded in 1899, American Woolen Company in Stafford Springs, CT is the only remaining US mill capable of producing the highest quality wool fabrics… a few of which we were lucky to get our hands on.",
+        "mob_text": "thankfully, this iconic institution remains dedicated to maintaining and restoring ethical manufacturing in the United States",
+        "img_2": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-00658.png",
+        "text_2": "these pieces, the hall cpo and enfield hunting jacket, are two projects we are so excited to have been able to apply American Woolen Companies quality and legacy to.",
+        "btn_text": "SHOP AMERICAN WOOLEN",
+        "btn_url": ""
+      }
+    },
+    "1643976007cdc9b0e4": {
+      "type": "explore-section",
+      "settings": {
+        "choose_collection": "bottom-size-23",
+        "choose_blog": "",
+        "title": "recent moments \/\/",
+        "btn": "",
+        "url": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1643975896bc85251c",
+    "1643976007cdc9b0e4"
+  ]
+}

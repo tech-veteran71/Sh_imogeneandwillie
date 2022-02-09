@@ -4,12 +4,12 @@
       "type": "collection-banner",
       "settings": {
         "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
-        "mob_bg_img": "shopify:\/\/shop_images\/NAV_IMG.png",
+        "mob_bg_img": "shopify:\/\/shop_images\/bigsurvibes_04.png",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
       }
     },
     "163499298848c6f9e3": {
-      "type": "main-collection",
+      "type": "collection-2-up-template",
       "settings": {
         "fit_guide_img": "shopify:\/\/shop_images\/Fit_Guide.png",
         "fit_guide_link": "",
@@ -27,7 +27,7 @@
         "1ef10358-2396-4706-a6e7-86c9ac8214a4": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/willie_indigo_rigid-01_copy.png"
+            "img": "shopify:\/\/shop_images\/Image_9_1140402d-c53b-4a2b-8642-9e980e6d9495.png"
           }
         },
         "99624b88-e4e0-4978-9c80-2936be513d28": {

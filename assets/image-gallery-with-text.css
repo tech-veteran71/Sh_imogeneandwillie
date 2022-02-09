@@ -1,6 +1,22 @@
 .image-gallery {
   padding: 80px 0;
 }
+.image-gallery .swiper-scrollbar {
+  opacity: 0;
+  left: 0;
+  background-color: transparent;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+  bottom: 30px;
+}
+.image-gallery .swiper-scrollbar-drag {
+  display: block;
+  background-color: var(--color-dark-grey);
+  border-radius: 5px;
+}
+.image-gallery:hover .swiper-scrollbar {
+  opacity: 1;
+}
 .image-gallery .gallery-container {
   padding: 0 12rem;
 }
@@ -34,9 +50,7 @@
   margin: 0;
 }
 .image-gallery .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  overflow: hidden;
 }
 .image-gallery .image {
   width: 100%;
@@ -44,8 +58,21 @@
   display: block;
   object-fit: cover;
 }
+.image-gallery .grid-item {
+  display: block;
+}
+.image-gallery .grid-item:hover .featured-image {
+  display: none;
+}
+.image-gallery .grid-item:hover .toggle-image {
+  display: block;
+}
+.image-gallery .toggle-image {
+  display: none;
+}
 .image-gallery .gallery {
-  margin: 50px 0 70px;
+  padding: 50px 0 70px;
+  position: relative;
 }
 .image-gallery .btn {
   font-size: 14px;
@@ -67,21 +94,19 @@
   display: none;
 } 
 
+@media screen and (max-width: 1279px) {
+  .image-gallery .gallery-container {
+    padding: 0 5rem;
+  }
+}
 @media screen and (max-width: 990px) {
   .image-gallery .gallery-container {
     padding: 0 3rem;
-  }
-  .image-gallery .gallery-grid {
-    grid-gap: 10px;
   }
 }
 @media screen and (max-width: 767px) {
   .image-gallery {
     padding: 50px 0;
-  }
-  .image-gallery .gallery-grid {
-    grid-gap: 5px;
-    grid-template-columns: repeat(2,1fr)
   }
   .image-gallery .title {
     font-size: 18px;
@@ -91,8 +116,12 @@
     padding: 0 1rem;
   }
   .image-gallery .gallery {
-    margin: 50px 0 0;
-    padding: 0 20px;
+    padding: 50px 0 20px;
+  }
+  .image-gallery .grid-item {
+    max-width: 345px;
+    flex: 345px;
+    min-width: 345px;
   }
   .image-gallery .btn {
     display: none;
@@ -132,4 +161,14 @@
   .image-gallery .header-wrap .img-wrap {
     display: block;
   } 
+  .image-gallery .swiper-scrollbar {
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  .image-gallery .grid-item {
+    max-width: 265px;
+    flex: 265px;
+    min-width: 265px;
+  }
 }

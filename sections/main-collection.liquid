@@ -1,30 +1,32 @@
-<style>
-  :root {
-    --product-per-row: {{ section.settings.product_per_row }};
-  }
-</style>
 {{ 'main-collection.css' | asset_url | stylesheet_tag }}
-{% assign productPerRow = section.settings.product_per_row %}
-<div class='main-collection'>
+
+{% assign collectionTitle = section.settings.collection_title %}
+{% assign productCount = collection.all_products_count %}
+
+{% assign lastProductGridCount = productCount | minus: 16 %}
+
+<div class='main-collection' data-main-collection>
   <div class="collection-container">
     <div class="wrapper">
-      <div class="collection-header">
-        {% if section.settings.collection_title != blank %}
-          <h3 class="collection-title">{{ section.settings.collection_title }}</h3>
-        {% endif %}
-        <span class="total-items">( {{ collection.all_products_count }} items )</span>
-      </div>
+      {% render 'collection-header', title: collectionTitle, totalProducts: productCount  %}
       <div class="collection-filter">
         <span class="filter">filter</span>
       </div>
-      <div class="product-gallery {% if template == 'collection.alternate' %} collection-alternate {% elsif template == 'collection.denim' %} collection-denim
-         {% endif %}">
-        {% if template == 'collection.alternate' %}
-          <div class="collection-grid">
+      <div class="product-gallery">
+        <div class="featured-gallery">
+          <div class="grid-1 product-grid">
             {%- for product in collection.products -%}
-              {% if forloop.index >= 1 and forloop.index <= 6 %}
-                {% render 'product-item', productPerRow: productPerRow, product: product %}
-                {% else %}
+              {% if forloop.index == 4 %}
+                {% break %}
+              {% else %}
+                {% render 'product-item', product: product %}      
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="grid-2">
+            {%- for product in collection.products -%}
+              {% if forloop.index >= 4 and forloop.index <= 5 %}
+                {% render 'product-item', product: product %}
               {% endif %}
             {% endfor %}
           </div>
@@ -34,150 +36,38 @@
               <span class="customer-name">{{ section.settings.customer_name }}</span>
             </div>
           </div>
-          <div class="collection-grid bottom-space">
-            {% if section.settings.fit_guide_img != blank %}
-              <div class="grid-item fit-grid-item">
-                <a href="{{ section.settings.fit_guide_link }}" class="fit-guide-link">
-                  {% render 'responsive--image' with section.settings.fit_guide_img as image, max_width: 434, class: 'fit-guide-img' %}
-                </a>
-              </div>
-            {% endif %}
+          <div class="grid-3 product-grid">
             {%- for product in collection.products -%}
-              {% if forloop.index >= 7 and forloop.index <= 11 %}
-                {% render 'product-item', productPerRow: productPerRow, product: product %}
+              {% if forloop.index >= 6 and forloop.index <= 11 %}
+                {% render 'product-item', product: product %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="grid-4 product-grid">
+            {%- for product in collection.products -%}
+              {% if forloop.index >= 12 and forloop.index <= 14 %}
+                {% render 'product-item', product: product %}
                 {% else %}
               {% endif %}
             {% endfor %}
           </div>
-          <div class="collection-grid">
+          <div class="grid-5 product-grid">
             {%- for product in collection.products -%}
-              {% if forloop.index >= 12 and forloop.index <= 13 %}
-                {% render 'product-item', productPerRow: productPerRow, product: product %}
-                {% else %}
-              {% endif %}
-            {% endfor %}
-            {% if section.settings.fabric_guide_img != blank %}
-              <div class="grid-item fabric-grid-item">
-                <a href="{{ section.settings.fabric_guide_link }}" class="fabric-guide-link">
-                  {% render 'responsive--image' with section.settings.fabric_guide_img as image, max_width: 434, class: 'fabric-guide-img' %}
-                </a>
-              </div>
-            {% endif %}
-            {%- for product in collection.products -%}
-              {% if forloop.index > 13 %}
-                {% render 'product-item', productPerRow: productPerRow, product: product %}
-                {% else %}
+              {% if forloop.index >= 15 and forloop.index <= 16 %}
+                {% render 'product-item', product: product %}
               {% endif %}
             {% endfor %}
           </div>
-          {% elsif template == 'collection.denim' %}
-            <div class="collection-grid">
+          <div class="grid-6">
+            {%- paginate collection.products by lastProductGridCount -%}
               {%- for product in collection.products -%}
-                {% if forloop.index >= 1 and forloop.index <= 4 %}
-                  {% render 'product-item', productPerRow: productPerRow, product: product %}
-                  {% else %}
+                {% if forloop.index > 16 %}
+                  {% render 'product-item', product: product %}
                 {% endif %}
               {% endfor %}
-            </div>
-            <div class="review-wrap">
-              <div class="customer-review">
-                <p class="review">{{ section.settings.review }}</p>
-                <span class="customer-name">{{ section.settings.customer_name }}</span>
-              </div>
-            </div>
-            <div class="collection-grid">
-              {%- for product in collection.products -%}
-                {% if forloop.index >= 5 and forloop.index <= 6 %}
-                  {% render 'product-item', productPerRow: productPerRow, product: product %}
-                  {% else %}
-                {% endif %}
-              {% endfor %}
-              {% if section.settings.fit_guide_img != blank %}
-                <div class="grid-item fit-guide">
-                  <a href="{{ section.settings.fit_guide_link }}" class="fit-guide-link">
-                    {% render 'responsive--image' with section.settings.fit_guide_img as image, max_width: 434, class: 'fit-guide-img' %}
-                  </a>
-                </div>
-              {% endif %}
-              {%- for product in collection.products -%}
-                {% if forloop.index >= 7 and forloop.index <= 12 %}
-                  {% render 'product-item', productPerRow: productPerRow, product: product %}
-                  {% else %}
-                {% endif %}
-              {% endfor %}
-              {% if section.settings.fabric_guide_img != blank %}
-                <div class="grid-item fabric-guide">
-                  <a href="{{ section.settings.fabric_guide_link }}" class="fabric-guide-link">
-                    {% render 'responsive--image' with section.settings.fabric_guide_img as image, max_width: 434, class: 'fabric-guide-img' %}
-                  </a>
-                </div>
-              {% endif %}
-              {%- for product in collection.products -%}
-                {% if forloop.index > 12 %}
-                  {% render 'product-item', productPerRow: productPerRow, product: product %}
-                  {% else %}
-                {% endif %}
-              {% endfor %}
-            </div>
-            {% else %}
-              <div class="featured-gallery">
-              <div class="grid-1">
-                {%- for product in collection.products -%}
-                  {% if forloop.index == 4 %}
-                    {% break %}
-                    {% else %}
-                    {% render 'product-item', product: product %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-              <div class="grid-2">
-                {%- for product in collection.products -%}
-                  {% if forloop.index >= 4 and forloop.index <= 5 %}
-                    {% render 'product-item', product: product %}
-                    {% else %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-              <div class="review-wrap">
-                <div class="customer-review">
-                  <p class="review">{{ section.settings.review }}</p>
-                  <span class="customer-name">{{ section.settings.customer_name }}</span>
-                </div>
-              </div>
-              <div class="grid-3">
-                {%- for product in collection.products -%}
-                  {% if forloop.index >= 6 and forloop.index <= 11 %}
-                    {% render 'product-item', product: product %}
-                    {% else %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-              <div class="grid-4">
-                {%- for product in collection.products -%}
-                  {% if forloop.index >= 12 and forloop.index <= 14 %}
-                    {% render 'product-item', product: product %}
-                    {% else %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-              <div class="grid-5">
-                {%- for product in collection.products -%}
-                  {% if forloop.index >= 15 and forloop.index <= 16 %}
-                    {% render 'product-item', product: product %}
-                    {% else %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-              <div class="grid-6">
-                {%- for product in collection.products -%}
-                  {% if forloop.index > 15 %}
-                    {% render 'product-item', product: product %}
-                    {% else %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-            </div>
-        {% endif %}
+            {% endpaginate %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -189,33 +79,6 @@
   "settings": [
     {
       "type": "header",
-      "content": "Image",
-      "info": "-------"
-    },
-    {
-      "type": "image_picker",
-      "id": "fit_guide_img",
-      "label": "Fit Guide Image",
-      "info": "For Alternate And Denim Collection."
-    },
-    {
-      "type": "url",
-      "id": "fit_guide_link",
-      "label": "Fit Guide Link"
-    },
-    {
-      "type": "image_picker",
-      "id": "fabric_guide_img",
-      "label": "Fabric Guide Image",
-      "info": "For Alternate And Denim Collection."
-    },
-    {
-      "type": "url",
-      "id": "fabric_guide_link",
-      "label": "Fabric Guide Link"
-    },
-    {
-      "type": "header",
       "content": "Content",
       "info": "-------"
     },
@@ -223,16 +86,6 @@
       "type": "text",
       "id": "collection_title",
       "label": "Collection Title"
-    },
-    {
-      "type": "range",
-      "id": "product_per_row",
-      "label": "Product Per Row",
-      "min": 1,
-      "max": 3,
-      "step": 1,
-      "default": 2,
-      "info": "Only Work With The Denim And Alternate Collection."
     },
     {
       "type": "header",

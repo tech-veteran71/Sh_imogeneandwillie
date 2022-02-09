@@ -1,6 +1,6 @@
-<div class='grid-item {% if productPerRow == 2 %} large-item {% elsif productPerRow == 3 %} medium-item {% endif %} {% if template == 'collection.alternate' %} swiper-slide {% endif %}'>
+<div class='grid-item {% if productPerRow == 2 %} large-item {% elsif productPerRow == 3 %} medium-item {% endif %} {% if template == 'collection.alternate' %} swiper-slide {% endif %} {{productCard}}'>
   <a href="{{ product.url }}" class="product-link">
-    {% if template == 'collection.alternate' %}
+    {% if template == 'collection.collection-3-up' %}
       <div class="product-image-wrap product-swiper">
         <div class="swiper-wrapper">
           {% for product-image in product.images %}
@@ -15,17 +15,18 @@
       <div class="product-image-wrap">
         {% render 'responsive--image' with product.featured_media as image, max_width: 786, class: 'product-img' %}
       </div>
-      {% else %}
-        <div class="product-image-wrap">
-          {% render 'responsive--image' with product.featured_media as image, max_width: 786, class: 'product-img' %}
-        </div>
+    {% else %}
+      <div class="product-image-wrap">
+        {% render 'responsive--image' with product.featured_media as image, max_width: 786, class: 'product-img' %}
+      </div>
     {% endif %}
     <div class="product-details">
       <h3 class="product-name">{{ product.title }}</h3>
-      {%- comment -%}
-      <span class="product-description">13oz slim leg</span>
-      {%- endcomment -%}
-      {%- render 'price', product: product, show_badges: true -%}
+      <span class="product-description">{{ product.metafields.descriptors.subtitle }}</span>
+      {%- render 'price', product: product -%}
     </div>
   </a>
+  {% if template == 'collection.collection-content-rich' %}
+    <a href="" class="info-link">VIEW MORE ></a>
+  {% endif %}
 </div>

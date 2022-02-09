@@ -2316,11 +2316,3 @@ details-disclosure > details {
   }
 }
 
-/* template collection css start */
-.template-collection .header-wrapper {
-  background-color: transparent;
-  position: absolute;
-  width: 100%;
-  border: 0;
-  transition: all 0.3s ease-in-out;
-}

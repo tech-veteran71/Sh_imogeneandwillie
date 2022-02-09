@@ -10,7 +10,7 @@
         <p class="main-text">{{ section.settings.main_text }}</p>
       {% endif %}
       </div>
-      <div class="mob-image mob-image1">
+      <div class="mob-image1">
         {% if section.settings.mob_img1 != blank %}
           <a href="{{ section.settings.img_url1 }}" class="img-link">
             {% render 'responsive--image' with section.settings.mob_img1 as image, max_width: 389, class: 'image' %}
@@ -54,11 +54,18 @@
           {% else %}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {% endif %}
-          {% if section.settings.mob_img2 != blank %}
-            <a href="{{ section.settings.img_url2 }}" class="img-link">
-              {% render 'responsive--image' with section.settings.mob_img2 as image, max_width: 360, class: 'image mob-image' %}
-            </a>
-          {% endif %}
+          <div class="mob-images">
+            {% if section.settings.mob_img2 != blank %}
+              <a href="{{ section.settings.img_url2 }}" class="img-link mob-image">
+                {% render 'responsive--image' with section.settings.mob_img2 as image, max_width: 360, class: 'image' %}
+              </a>
+            {% endif %}
+            {% if section.settings.overlay_img != blank %}
+              <a href="{{ section.settings.overlay_img_url }}" class="img-link overlay-image">
+                {% render 'responsive--image' with section.settings.overlay_img as image, max_width: 360, class: 'image' %}
+              </a>
+            {% endif %}
+          </div>
         </div>
         {% if section.settings.text != blank %}
           <div class="beta">
@@ -122,6 +129,21 @@
     {
       "type": "url",
       "id": "img_url2",
+      "label": "Image Url"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Overlay Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "overlay_img",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "overlay_img_url",
       "label": "Image Url"
     },
     {

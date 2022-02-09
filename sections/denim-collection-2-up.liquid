@@ -1,0 +1,49 @@
+
+{{ 'main-collection.css' | asset_url | stylesheet_tag }}
+{% assign productPerRow = section.settings.product_per_row %}
+{% assign collectionTitle = section.settings.collection_title %}
+{% assign productCount = collection.all_products_count %}
+<div class='main-collection'>
+  <div class="collection-container">
+    <div class="wrapper">
+      {% render 'collection-header', title: collectionTitle, totalProducts: productCount  %}
+      <div class="collection-filter">
+        <span class="filter">filter</span>
+      </div>
+      <div class="product-gallery">
+        <div class="fit-grid">
+          {%- paginate collection.products by productCount -%}
+            {%- for product in collection.products -%}
+              {% render 'product-item', product: product, productCard: 'large-item' %}
+            {% endfor %}
+          {% endpaginate %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+{% schema %}
+{
+  "name": "Denim Collection 2 Up",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "collection_title",
+      "label": "Collection Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Denim Collection 2 Up",
+      "category": "Denim Collection 2 Up"
+    }
+  ]
+}
+{% endschema %}
+  

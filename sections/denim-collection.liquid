@@ -1,0 +1,88 @@
+{{ 'denim-collection.css ' | asset_url | stylesheet_tag }}
+<div class="denim-collection">
+  <div class="denim-container">
+    <div class="wrapper">
+      {% if section.settings.main_title != blank %}
+        <div class="header-wrap">
+          <h2 class="main-title">{{ section.settings.main_title }}</h2>
+        </div>
+      {% endif %}
+      <div class="product-grid product-swiper">
+        <div class="swiper-wrapper">
+          {% if section.settings.choose_collection != blank %}
+            {% for product in collections[section.settings.choose_collection].products %}
+              <a href="{{ product.url }}" class="product-item swiper-slide">
+                <div class="img-wrap">
+                  {% render 'responsive--image' with product.featured_image as image, max_width: 360, class: 'img featured-img' %}
+                  {% if product.images[1] != blank %}
+                    {% render 'responsive--image' with product.images[1] as image, max_width: 360, class: 'img toggle-img' %}
+                  {% endif %}
+                </div>
+                <div class="content-wrap">
+                  <h4 class="product-title">{{ product.title }}</h4>
+                  <p class="product-description">straight through the thigh and knee</p>
+                </div>
+              </a>
+            {% endfor %}
+          {% else %}
+            {% for index in (1..5) %}
+              <div class="product-item swiper-slide">
+                <div class="img-wrap">
+                  {% assign placeholder = 'product-' | append: index %}
+                  {{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              </div>
+            {% endfor %}
+          {% endif %}
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+      {% if section.settings.btn_text != blank %}
+        <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Denim Collection",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Choose Collection",
+      "info": "-------"
+    },
+    {
+      "type": "collection",
+      "id": "choose_collection",
+      "label": "Choose Collection"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+  ],
+  "presets":[
+    {
+      "name": "Denim Collection"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,11 @@
+<div class="content-rich-image">
+  <div class="container">
+    <div class="img-wrap">
+      {% if img != blank %}
+        {% render 'responsive--image' with img as image, max_width: 1618, class: 'image' %}
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    </div>
+  </div>
+</div>

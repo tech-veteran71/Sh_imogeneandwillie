@@ -29,13 +29,19 @@
           {% endif %}
         </div>
         <div class="gallery-grid">
-          {% for block in section.blocks %}
-            {% if block.settings.img != blank %}
-              <div class="grid-item">
-                {% render 'responsive--image' with block.settings.img as image, max_width: 374, class: 'image' %}
-              </div>
-            {% endif %}
-          {% endfor %}
+          <div class="swiper-wrapper">
+            {% for product in collections[section.settings.choose_collection].products %}
+              {% if product.featured_image != blank %}
+                <a href="{{ product.url }}" class="grid-item swiper-slide">
+                  {% render 'responsive--image' with product.featured_image as image, max_width: 374, class: 'image featured-image' %}
+                  {% if product.images[1] != blank %}
+                    {% render 'responsive--image' with product.images[1] as image, max_width: 374, class: 'image toggle-image' %}
+                  {% endif %}
+                </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="swiper-scrollbar"></div>
         </div>
       </div>
       {% if section.settings.btn_text != blank %}
@@ -45,10 +51,21 @@
   </div>
 </div>
 
+
 {% schema %}
 {
   "name": "Image Gallery",
   "settings": [
+    {
+      "type": "header",
+      "content": "Collection",
+      "info": "-------"
+    },
+    {
+      "type": "collection",
+      "id": "choose_collection",
+      "label": "Choose Collection"
+    },
     {
       "type": "header",
       "content": "Image",
@@ -103,24 +120,6 @@
       "id": "grid_title",
       "label": "Grid Title",
       "default": "EVERY DAY CARRY"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "image",
-      "name": "Image",
-      "settings": [
-        {
-          "type": "header",
-          "content": "Image",
-          "info": "-------"
-        },
-        {
-          "type": "image_picker",
-          "id": "img",
-          "label": "Image"
-        }
-      ]
     }
   ],
   "presets": [

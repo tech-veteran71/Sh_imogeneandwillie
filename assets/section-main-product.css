@@ -1135,6 +1135,13 @@ a.product__text {
   letter-spacing: 1px;
   line-height: 1.4 !important;
 }
+.product .product__description {
+  font-size: 15px !important;
+  font-family: var(--font-gothic);
+  letter-spacing: 1px;
+  line-height: 1.4 !important;
+  color: var(--color-dim-black);
+}
 .product .product__description p,
 .product .product__description span,
 .product .product__description div {
@@ -1142,7 +1149,7 @@ a.product__text {
 }
 .product .product__description a {
   color: var(--color-blue);
-  font-size: 1em !important;
+  font-size: 1em;
   font-family: var(--font-din);
   text-decoration: none
 }
@@ -1425,6 +1432,9 @@ a.product__text {
   }
   .product .product__description p, .product .product__description span, .product .product__description div {
     font-size: 12px!important;
+  }
+  .product .product__description {
+    font-size: 12px;
   }
   .product .accordian-title {
     font-size: 14px;
@@ -1730,6 +1740,9 @@ a.product__text {
   .product .product__description div {
     font-size: 13px !important;
     margin: 10px 0;
+  }
+  .product .product__description {
+    font-size: 13px;
   }
   .product .product__description .pad-b-l {
     line-height: 0.4em;
