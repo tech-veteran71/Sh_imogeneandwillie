@@ -2687,7 +2687,8 @@ customElements.define("ajax-cart", AjaxCart);
       })
       function productMediaPopup() {
         const imgSrc = this.firstElementChild.getAttribute('src');
-        const splitUrl1 = imgSrc.split("_")[0];
+        const splitUrl1 = imgSrc.substring(0, imgSrc.lastIndexOf("_"));
+        console.log(splitUrl1)
         let splitUrl2 = imgSrc.split(".");
         splitUrl2 = imgSrc.split(".")[splitUrl2.length - 1];
         const imgUrl = `${splitUrl1}.${splitUrl2}`;
@@ -2865,6 +2866,34 @@ customElements.define("ajax-cart", AjaxCart);
       }
     }
   });
+  
+  // Image Gallery slider (template collection)
+  new Swiper('.image-gallery .gallery-grid', {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
+    breakpoints: {
+      1279: {
+        spaceBetween: 20,
+        slidesPerView: 4,
+      },
+      990: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 5,
+      },
+      300: {
+        slidesPerView: "auto",
+        spaceBetween: 10
+      }
+    }
+  });
 
   // product slider
   new Swiper('.product-slider .product-grid', {
@@ -2986,6 +3015,38 @@ customElements.define("ajax-cart", AjaxCart);
     }
   });
 
+  // Denim collection swiper script
+  new Swiper('.denim-collection .product-swiper', {
+    slidesPerView: 4,
+    spaceBetween: 65,
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
+    breakpoints: {
+      1300: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      },
+      1279: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      990: {
+        spaceBetween: 20,
+        slidesPerView: 3
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      360: {
+        slidesPerView: "auto",
+        spaceBetween: 10,
+      }
+    }
+  });
+
   // change the header background color on fabric page when scrolling
   const Fabricheader = document.querySelector('.custom-page .header-wrapper');
   if (Fabricheader) {
@@ -3038,6 +3099,27 @@ customElements.define("ajax-cart", AjaxCart);
     function readContentHandler(showContent, hideContent) {
       showContent.style.display = "block";
       hideContent.style.display = "none";
+    }
+  }
+
+  // collection page header
+  const templateCollection = document.querySelector(".template-collection");
+  if(templateCollection) {
+    const collectionHeader = templateCollection.querySelector(".header-wrapper");
+    let previousValue = 0;
+    window.addEventListener("scroll", handleScroll)
+    function handleScroll() {
+      let scrollY = window.scrollY;
+      if(previousValue < scrollY) {
+        collectionHeader.style.position = "unset";
+      } else if(scrollY === 0) {
+        collectionHeader.style.position = "fixed";
+        collectionHeader.style.top = "unset";
+      } else {
+        collectionHeader.style.position = "fixed";
+        collectionHeader.style.top = "0";
+      }
+      previousValue = scrollY;
     }
   }
 })()

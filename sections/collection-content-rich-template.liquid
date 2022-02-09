@@ -1,0 +1,126 @@
+{{ 'main-collection.css' | asset_url | stylesheet_tag }}
+
+{% assign setting = section.settings %}
+{% assign mainTitle = setting.main_title %}
+{% assign maintext = setting.main_text %}
+{% assign title = setting.title %}
+{% assign text1 = setting.text_1 %}
+{% assign img1 = setting.img_1 %}
+{% assign img2 = setting.img_2 %}
+{% assign text2 = setting.text_2 %}
+{% assign btnText = setting.btn_text %}
+{% assign btnUrl = setting.btn_url %}
+
+<div class='main-collection content-rich-collection'>
+  <div class="collection-container">
+    <div class="wrapper">
+      {% render 'collection-header', title: mainTitle, text: maintext %}
+      {% render 'company', title: title, text: text1, img: img1 %}
+      <div class="product-gallery">
+        <div class="content-rich-grid">
+        {%- for product in collection.products -%}
+          {% if forloop.index == 1 %}
+            {% render 'product-item', product: product, productCard: 'large-item' %}
+            <div class="text-wrap">
+              <p class="content-rich-text">{{ section.settings.mob_text }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+        {%- for product in collection.products -%}
+          {% if forloop.index > 1 %}
+            {% render 'product-item', product: product, productCard: 'large-item' %}
+          {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+      {% render 'content-rich-text' text: text2, buttonText: btnText, buttonUrl: btnUrl %}
+      {% render 'content-rich-image' img: img2 %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Content Rich Collection",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "10.13.21"
+    },
+    {
+      "type": "text",
+      "id": "main_text",
+      "label": "Main Text",
+      "default": "( collection )"
+    },
+    {
+      "type": "header",
+      "content": "Top Content",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_1",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "text_1",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "mob_text",
+      "label": "Text (Mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Bottom Content",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_2",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "text_2",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Content Rich Collection",
+      "category": "Content Rich Collection"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,12 @@
+<div class="content-rich-content">
+  <div class="container">
+    <div class="content-wrap">
+      {% if text != blank %}
+        <p class="content-rich-text">{{ text }}</p>
+      {% endif %}
+      {% if buttonText != blank %}
+        <a href="{{ buttonUrl }}" class="btn-text">{{ buttonText }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

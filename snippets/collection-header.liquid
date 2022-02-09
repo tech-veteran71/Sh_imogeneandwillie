@@ -1,0 +1,10 @@
+<div class="collection-header">
+  {% if title != blank %}
+    <h3 class="main-title">{{ title }}</h3>
+  {% endif %}
+  {% if template == 'collection.collection-content-rich' %}
+    <span class="main-text">{{ text }}</span>
+  {% else %}
+    <span class="total-items">( {{ totalProducts }} items )</span>
+  {% endif %}
+</div>

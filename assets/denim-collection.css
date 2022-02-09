@@ -1,0 +1,184 @@
+.denim-collection {
+  padding-top: 160px;
+  padding-bottom: 77px;
+}
+.denim-collection .denim-container {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.denim-collection:hover .swiper-scrollbar {
+  opacity: 1;
+}
+.denim-collection .header-wrap {
+  margin-bottom: 52px;
+}
+.denim-collection .main-title {
+  font-size: 23px;
+  color: var(--color-normal-black);
+  letter-spacing: 3.45px;
+  text-transform: uppercase;
+  font-family: var(--font-din);
+  text-align: center;
+  line-height: 1.3;
+  margin: 0;
+}
+.denim-collection .product-grid {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 73px;
+}
+.denim-collection .placeholder-svg {
+  width: 100%;
+  height: 100%;
+}
+.denim-collection .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.denim-collection .toggle-img {
+  display: none;
+}
+.denim-collection .product-item:hover .toggle-img {
+  display: block;
+}
+.denim-collection .product-item:hover .featured-img {
+  display: none;
+}
+.denim-collection .content-wrap {
+  margin-top: 18px;
+}
+.denim-collection .product-title {
+  font-size: 20px;
+  color: var(--color-normal-black);
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+  margin-top: 0;
+  line-height: 1;
+}
+.denim-collection .product-description {
+  font-size: 14px;
+  color: var(--color-dim-black);
+  letter-spacing: 1.4px;
+  font-family: var(--font-gothic);
+  margin: 0;
+}
+.denim-collection .product-item {
+  display: block;
+  text-decoration: none;
+}
+.denim-collection .btn {
+  font-size: 14px;
+  font-family: var(--font-din);
+  letter-spacing: 4.2px;
+  color: var(--color-normal-black);
+  max-width: 410px;
+  margin: 0 auto;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-normal-black);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.denim-collection .swiper-scrollbar {
+  opacity: 0;
+  left: 0;
+  background-color: transparent;
+  height: 3px;
+  bottom: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.denim-collection .swiper-scrollbar-drag {
+  display: block;
+  background-color: var(--color-dark-grey);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1279px) {
+  .denim-collection .denim-container {
+    padding: 0 64px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .denim-collection {
+    padding-top: 110px;
+  }
+  .denim-collection .product-grid {
+    padding-bottom: 60px;
+  }
+  .denim-collection .swiper-scrollbar {
+    bottom: 50px;
+  }
+  .denim-collection .content-wrap {
+    margin-top: 14px;
+  }
+  .denim-collection .product-title {
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+  .denim-collection .product-description {
+    letter-spacing: 1.2px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .denim-collection {
+    padding-top: 75px;
+    padding-bottom: 70px;
+  }
+  .denim-collection .header-wrap {
+    margin-bottom: 42px;
+  }
+  .denim-collection .product-grid {
+    padding-bottom: 45px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .denim-collection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .denim-collection .denim-container {
+    padding: 0 10px;
+  }
+  .denim-collection .header-wrap {
+    margin-bottom: 32px;
+  }
+  .denim-collection .main-title {
+    font-size: 22px;
+    letter-spacing: 2.5px;
+  }
+  .main-collection .fit-grid, 
+  .main-collection .fabric-grid {
+    grid-row-gap: 45px;
+    grid-column-gap: unset;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .denim-collection .product-item {
+    max-width: 345px;
+    flex: 345px;
+    min-width: 345px;
+  }
+  .denim-collection .product-grid {
+    padding-bottom: 25px;
+  }
+  .denim-collection .swiper-scrollbar {
+    bottom: 35px;
+  }
+  .denim-collection .btn {
+    max-width: 310px;
+    height: 54px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .denim-collection .product-item {
+    max-width: 265px;
+    flex: 265px;
+    min-width: 265px;
+  }
+}
+

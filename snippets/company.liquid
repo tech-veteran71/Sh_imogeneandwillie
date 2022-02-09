@@ -1,0 +1,19 @@
+<div class="aw-company">
+  <div class="container">
+    <div class="img-wrap">
+      {% if img != blank %}
+        {% render 'responsive--image' with img as image, max_width: 977, class: 'image'%}
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    </div>
+    <div class="content-wrap">
+      {% if title != blank %}
+        <h3 class="content-rich-title">{{ title }}</h3>
+      {% endif %}
+      {% if text != blank %}
+        <p class="content-rich-text">{{ text }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>

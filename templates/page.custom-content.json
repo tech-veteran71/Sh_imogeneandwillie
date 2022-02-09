@@ -4,10 +4,11 @@
       "type": "hero-banner",
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/Denim_Wall_Header_3.png",
+        "mob_img": "shopify:\/\/shop_images\/Denim-Wall-Header-2.png",
+        "img_url": "",
         "main_title": "THE DENIM WALL",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore",
-        "link_text": "FIND YOUR FIT",
-        "link_url": ""
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+        "link_text": "FIND YOUR FIT"
       }
     },
     "1639897742c73dd0c1": {
@@ -21,8 +22,10 @@
     "163989775052092b6e": {
       "type": "collage-section",
       "settings": {
-        "bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/undisclosed__1_of_1.png",
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/undisclosed__1_of_1_1500x_1200x_3825cf88-741d-48ff-b7a1-e989e5ba7c22.png",
+        "img_url": "",
         "pre_title": "",
         "main_title": "lorem ipsum",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi .lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
@@ -30,6 +33,58 @@
         "btn_url": "",
         "change_alignment": false,
         "show_btn": false
+      }
+    },
+    "1644406380efac1cad": {
+      "type": "cut-out-section",
+      "settings": {
+      }
+    },
+    "163991001114074113": {
+      "type": "guide-section",
+      "blocks": {
+        "5939e5f0-b076-446f-9c4e-8c1f46e3bf66": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Fit_Guide_600x_600x_ef429294-71a6-477e-ae60-b292abfdc0c1.png",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "bff7b585-b654-486b-a52e-a2746f2af4fd": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Image_9_600x_600x_8879874e-8e13-4271-a88e-802579e7932d.png",
+            "title": "MEN’S DENIM",
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "link_text": "SHOP ALL >",
+            "link_url": ""
+          }
+        },
+        "ef246099-898f-4f6c-9358-64d648436b11": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Fabric_Guide_600x_600x_bbcab5db-eb71-4e1b-9f91-7dc93a2801de.png",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "5939e5f0-b076-446f-9c4e-8c1f46e3bf66",
+        "bff7b585-b654-486b-a52e-a2746f2af4fd",
+        "ef246099-898f-4f6c-9358-64d648436b11"
+      ],
+      "settings": {
+        "bg_color": "#f7f6f3",
+        "change_alignment": true,
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
       }
     },
     "content": {
@@ -50,13 +105,15 @@
         "7e8d46dd-0279-4f84-aeee-8222f352b80d": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/warehouse__6_of_9_f933e684-965f-4c83-aaaa-d0a507547ec6.png"
+            "img": "shopify:\/\/shop_images\/warehouse__6_of_9_900x_900x_5342a288-6b8d-4d65-88dc-a8abb4fbf927.png",
+            "img_url": ""
           }
         },
         "f7b13981-27a3-43f2-b8c9-f69ca07f540d": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/sewing_team__15_of_65.png"
+            "img": "shopify:\/\/shop_images\/sewing_team__15_of_65_900x_900x_c34234cc-1fc2-40c2-8f71-6de4817d1e55.png",
+            "img_url": ""
           }
         }
       },
@@ -67,9 +124,14 @@
         "f7b13981-27a3-43f2-b8c9-f69ca07f540d"
       ],
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-9.png",
-        "mob_img1": "shopify:\/\/shop_images\/warehouse__6_of_9_f933e684-965f-4c83-aaaa-d0a507547ec6.png",
-        "mob_img2": "shopify:\/\/shop_images\/IMG_GRID.png",
+        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-9_900x_900x_bf64e767-1770-4d90-9372-4af96ac40d68.png",
+        "desk_img_url": "",
+        "mob_img1": "shopify:\/\/shop_images\/warehouse__6_of_9_900x_900x_5342a288-6b8d-4d65-88dc-a8abb4fbf927.png",
+        "img_url1": "",
+        "mob_img2": "shopify:\/\/shop_images\/sewing_team__15_of_65.png",
+        "img_url2": "",
+        "overlay_img": "shopify:\/\/shop_images\/oneyearwear_-9.png",
+        "overlay_img_url": "",
         "main_title": "LOREM IPSUM",
         "main_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
         "text": "<p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis <\/p>\n\n<p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n<a href=\"\">read more...<\/a> <\/p>\n\n<p>duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>"
@@ -81,7 +143,7 @@
         "0144a635-e6fc-40ef-83b8-90b9525b10d7": {
           "type": "image",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Fit_Guide_d7f78bb8-459b-4ae5-9f64-2a1ed5973bed.png",
+            "desk_img": "shopify:\/\/shop_images\/Fit_Guide_600x_600x_48b74990-b654-474d-ab8a-3a30661c0f5f.png",
             "title": "",
             "text": "",
             "link_text": "",
@@ -91,7 +153,7 @@
         "163c35b8-d46c-4c2d-aa2e-9ebdf51b94b1": {
           "type": "image",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Image_306.png",
+            "desk_img": "shopify:\/\/shop_images\/Image_306_600x_600x_0a2a9f05-a451-47c3-8f2c-51717ffe2f75.png",
             "title": "WOMEN’S DENIM",
             "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
             "link_text": "SHOP ALL >",
@@ -101,7 +163,7 @@
         "c7d56a71-b138-467d-b4ed-fea06bb91f3d": {
           "type": "image",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Fabric_Guide_dea6b444-b650-4b89-b57a-d36287eddf2b.png",
+            "desk_img": "shopify:\/\/shop_images\/Fabric_Guide_600x_600x_23952a79-36ce-411d-aa1c-a7a0cb62a3d2.png",
             "title": "",
             "text": "",
             "link_text": "",
@@ -116,51 +178,10 @@
       ],
       "settings": {
         "bg_color": "",
-        "change_alignment": false
-      }
-    },
-    "163991001114074113": {
-      "type": "guide-section",
-      "blocks": {
-        "5939e5f0-b076-446f-9c4e-8c1f46e3bf66": {
-          "type": "image",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Fit_Guide_abb73b51-12c4-47c5-8554-a495a3ff397f.png",
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "bff7b585-b654-486b-a52e-a2746f2af4fd": {
-          "type": "image",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Image_9_4882076c-789e-483c-9088-356b59ed6558.png",
-            "title": "MEN’S DENIM",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
-            "link_text": "SHOP ALL >",
-            "link_url": ""
-          }
-        },
-        "ef246099-898f-4f6c-9358-64d648436b11": {
-          "type": "image",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Fabric_Guide_5138f8d3-2bcd-4585-802d-6b09c9154acc.png",
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "5939e5f0-b076-446f-9c4e-8c1f46e3bf66",
-        "bff7b585-b654-486b-a52e-a2746f2af4fd",
-        "ef246099-898f-4f6c-9358-64d648436b11"
-      ],
-      "settings": {
-        "bg_color": "#f7f6f3",
-        "change_alignment": true
+        "change_alignment": false,
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
       }
     },
     "fact": {
@@ -169,33 +190,37 @@
         "bfe32388-f8e1-4458-9d11-ddef7de492d9": {
           "type": "info",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044_268750f2-2c2b-417e-a7e6-9fa15810b7c1.png",
+            "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044_600x_600x_7b56b4e3-7d8f-4220-a6d5-1f9611e54eba.png",
             "title": "vidalia mills denim",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "link_url": ""
           }
         },
         "c04ce014-4e9b-4a32-8030-eae103b9bfb8": {
           "type": "info",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/oneyearwear_-2.png",
+            "desk_img": "shopify:\/\/shop_images\/oneyearwear_-2_600x_600x_a1b995a8-b8d0-40b9-80cc-d64d85d9ae70.png",
             "title": "love fades",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "link_url": ""
           }
         },
         "087ab928-90fe-43fc-a630-4ce6cba8d4bd": {
           "type": "info",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/tailorshop_-3.png",
+            "desk_img": "shopify:\/\/shop_images\/tailorshop_-3_600x_600x_e2f4e362-669a-488f-948c-ea03fe3fe71e.png",
             "title": "tailor shop",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "link_url": ""
           }
         },
         "7a7ff749-4bef-410b-b29f-25ecda6a28a2": {
           "type": "info",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Image_479.png",
+            "desk_img": "shopify:\/\/shop_images\/Image_479_600x_600x_41b06514-fcc5-4f5c-b44d-f2c6023a3845.png",
             "title": "denim care",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "link_url": ""
           }
         }
       },
@@ -219,7 +244,8 @@
     "grand": {
       "type": "grand-image",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5.png"
+        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
+        "img_url": ""
       }
     }
   },
@@ -227,9 +253,10 @@
     "16398953173661a126",
     "1639897742c73dd0c1",
     "163989775052092b6e",
+    "1644406380efac1cad",
+    "163991001114074113",
     "content",
     "guide",
-    "163991001114074113",
     "fact",
     "1639913310d033f738",
     "grand"
