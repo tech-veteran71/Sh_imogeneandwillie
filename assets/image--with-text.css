@@ -77,22 +77,22 @@
   height: 100%;
 }
 /* responsive start */
-@media screen and (min-width: 140rem) {
+@media screen and (min-width: 1400px) {
   .image-with-text {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 127.9rem) {
+@media screen and (max-width: 1279px) {
   .image-with-text {
     font-size: 1.4vw;
   }
 }
-@media screen and (max-width: 99rem) {
+@media screen and (max-width: 990px) {
   .image-with-text {
     font-size: 1.6vw;
   }
 }
-@media(max-width: 76.7rem){
+@media(max-width: 767px){
   .image-with-text .container {
     padding: 0 2rem;
   }

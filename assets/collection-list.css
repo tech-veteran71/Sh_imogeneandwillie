@@ -1,10 +1,9 @@
 .collection-list {
-  font-size: 1.2vw;
-  padding-bottom: 9.25em;
+  padding-bottom: 17.5rem;
   background-color: var(--color-Xlight-wheat);
 }
 .collection-list .wrapper {
-  padding: 0 8em;
+  padding: 0 23rem;
 }
 .collection-list .collection-item {
   position: relative;
@@ -15,13 +14,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 0.7em;
+  font-size: 1.4rem;
   text-transform: uppercase;
-  max-width: 16.15em;
+  max-width: 22rem;
   width: 100%;
-  height: 3.95em;
-  letter-spacing: 0.2em;
-  padding: 0 0.5em;
+  height: 5.5rem;
+  letter-spacing: 0.42rem;
   min-width: unset;
   min-height: unset;
   font-family: var(--font-din);
@@ -35,7 +33,7 @@
 .collection-list .main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 3.5em;
+  grid-column-gap: 5.5rem;
 }
 .collection-list .placeholder-svg {
   width: 100%;
@@ -44,7 +42,7 @@
 
 @media screen and (min-width: 1400px) {
   .collection-list {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 990px) {

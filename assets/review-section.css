@@ -1,65 +1,49 @@
 .review-section {
   background: var(--color-Xlight-wheat);
-  font-size: 1.2vw;
-  padding-bottom: 8.65em;
+  padding-bottom: 17.5rem;
 }
 .review-section .text {
-  font-size: 1.4em;
+  font-size: 2.8rem;
   font-family: var(--font-arno-display);
   color: var(--color-normal-black);
-  letter-spacing: 0.15em;
+  letter-spacing: 0.28rem;
   line-height: 1;
-  margin-bottom: 0.5em;
+  margin-bottom: 3rem;
   margin-top: 0;
 }
 .review-section .name {
-  font-size: 0.75em;
+  font-size: 1.4rem;
   font-family: var(--font-gothic);
   color: var(--color-dark-grey);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.42rem;
   text-transform: uppercase;
   display: block;
 }
 .review-section .content-wrap {
   text-align: center;
-  max-width: 14.75em;
   margin: 0 auto;
-  max-width: 34.5em;
+  max-width: 60rem;
 }
-@media screen and (min-width: 1400px) {
-  .review-section {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 1279px) {
-  .review-section {
-    font-size: 1.4vw;
-  }
-}
-@media screen and (max-width: 990px) {
-  .review-section {
-    font-size: 1.6vw;
-  }
-}
+
 @media screen and (max-width:767px){
   .review-section .content-wrap {
     text-align: center;
-    max-width: 330px;
+    max-width: 33rem;
     margin: 0 auto;
   }
   .review-section .text {
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 1.4;
   }
   .review-section .name {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 }
 @media screen and (max-width:479px) {
   .review-section .text {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
   .review-section .name {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 }

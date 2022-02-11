@@ -2844,10 +2844,15 @@ customElements.define("ajax-cart", AjaxCart);
   new Swiper('.featured-collection .product_gallery', {
     slidesPerView: 4,
     spaceBetween: 20,
+    freeMode: true,
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+    invert: false,
+    forceToAxis: true,
+  },
     breakpoints: {
       1600: {
         spaceBetween: 40,
@@ -2925,10 +2930,15 @@ customElements.define("ajax-cart", AjaxCart);
 
   // explore section slider
   new Swiper('.explore-section .cart-swiper', {
+    freeMode: true,
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+    invert: false,
+    forceToAxis: true,
+  },
     breakpoints: {
       1279: {
         spaceBetween: 20,

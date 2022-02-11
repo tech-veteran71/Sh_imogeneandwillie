@@ -562,7 +562,7 @@ header .sub-menu-link {
 #menu-drawer .menu-drawer__inner-submenu .link-wrap {
   padding: 3rem;
 }
-@media screen and (min-width: 140rem) {
+@media screen and (min-width: 1400px) {
   .header .page-width, header.page-width {
     max-width: 200rem;
     padding: 2rem 8rem;
@@ -630,7 +630,7 @@ header .sub-menu-link {
   }
 }
 
-@media screen and (max-width: 127.9rem) {
+@media screen and (max-width: 1279px) {
   .header .mega_menu-list .mega_menu-item {
     margin-bottom: 0.4rem;
   }
@@ -669,7 +669,7 @@ header .sub-menu-link {
     letter-spacing: 0.01rem;
   }
 }
-@media screen and (max-width: 99rem) {
+@media screen and (max-width: 990px) {
   .header .header__icons {
     max-width: 30rem;
     flex: 30rem;
@@ -707,7 +707,7 @@ header .sub-menu-link {
     display: none;
   }
 }
-@media screen and (max-width: 76.7rem) {
+@media screen and (max-width: 767px) {
   #menu-drawer {
     width: 100%;
   }

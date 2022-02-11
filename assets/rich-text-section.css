@@ -54,7 +54,7 @@
 }
 
 /* responsive */
-@media(max-width: 76.7rem ){
+@media(max-width: 767px ){
   .rich-text-section .text-wrap {
     max-width: 23.5rem;
     padding: 0;

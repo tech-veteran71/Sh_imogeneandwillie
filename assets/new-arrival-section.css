@@ -12,10 +12,10 @@
 }
 .main-section {
   background-color: var(--color-Xlight-wheat);
-  padding-bottom: 70px;
+  padding-bottom: 7rem;
 }
 .new-arrival-section .content-wrap {
-  max-width: 500px;
+  max-width: 50rem;
 }
 .new-arrival-section .beta img {
   width: 100%;
@@ -24,51 +24,51 @@
   display: block;
 }
 .new-arrival-section  .alpha .pre-title {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 30px;
-  letter-spacing: 2px;
+  margin-bottom: 3rem;
+  letter-spacing: 0.2rem;
   font-family: var(--font-din);
 }
 .new-arrival-section .alpha .title {
   margin-top: 0;
   font-family: var(--font-arno-display);
-  font-size: 50px;
+  font-size: 5rem;
   margin-bottom: 0;
   text-transform: lowercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   line-height: 1.2;
 }
 .new-arrival-section  .text-wrap p {
-  font-size: 28px;
+  font-size: 2.8rem;
   font-family: var(--font-arno-display);
   margin-top: 0;
   margin-bottom: 0;
   text-transform: lowercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   line-height: 1.4;
 }
 .new-arrival-section  .text-wrap p:first-child {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 .new-arrival-section .alpha a.btn {
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
-  max-width: 410px;
+  max-width: 41rem;
   display: flex;
-  height: 55px;
+  height: 5.5rem;
   align-items: center;
   justify-content: center;
   color: var(--color-normal-black);
-  border: 1px solid var(--color-normal-black);
+  border: 0.1rem solid var(--color-normal-black);
   text-decoration: none;
   font-family: var(--font-din);
 }
 
 .new-arrival-section .text-wrap {
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 .new-arrival-section .wrapper:after {
   content: "";
@@ -93,12 +93,12 @@
   justify-content: space-between;
 }
 .new-arrival-section .alpha {
-  max-width: 630px;
-  flex: 630px;
+  max-width: 63rem;
+  flex: 63rem;
 }
 .new-arrival-section .beta {
-  max-width: 662px;
-  flex: 662px
+  max-width: 66.2rem;
+  flex: 66.2rem
 }
 .new-arrival-section .beta .img-link {
   display: block;
@@ -116,7 +116,7 @@
   right:  0 ;
 }
 .alignment .content-wrap {
-  max-width: 580px;
+  max-width: 58rem;
 }
 .alignment .wrapper {
   padding-right: 2.3% ;
@@ -140,54 +140,54 @@
     width: 14.3%;
   }
   .new-arrival-section .alpha {
-    max-width: 590px;
-    flex: 590px;
+    max-width: 59rem;
+    flex: 59rem;
   }
   .alignment .wrapper:after {
     width: 20.3%;
   }
   .new-arrival-section .beta {
-    max-width: 600px;
-    flex: 600px;
+    max-width: 60rem;
+    flex: 60rem;
   }
 }
 @media(max-width: 1500px ){
   .new-arrival-section .alpha {
-    max-width: 500px;
-    flex: 500px;
+    max-width: 50rem;
+    flex: 50rem;
   }
   .new-arrival-section .content-wrap {
-    max-width: 391px;
+    max-width: 39.1rem;
   }
   .new-arrival-section .alpha .pre-title {
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
   }
   .new-arrival-section .alpha .title {
-    font-size: 37px;
+    font-size: 3.7rem;
   }
   .new-arrival-section .text-wrap {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
   .new-arrival-section .beta {
-    max-width: 600px;
-    flex: 600px;
+    max-width: 60rem;
+    flex: 60rem;
   }
   .new-arrival-section .text-wrap p:first-child {
-    margin-bottom: 17px;
+    margin-bottom: 1.7rem;
   }
   .new-arrival-section .text-wrap p {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .new-arrival-section .alpha a.btn {
-    max-width: 280px;
-    height: 45px;
+    max-width: 28rem;
+    height: 4.5rem;
   }
   .alignment .wrapper {
     padding-right: 0.3%;
   }
   .alignment .content-wrap {
-    max-width: 460px;
+    max-width: 46rem;
   }
   .alignment .text-wrap {
     padding-right: 14%;
@@ -195,12 +195,12 @@
 }
 @media(max-width: 1359px){
   .new-arrival-section .beta {
-    max-width: 490px;
-    flex: 490px;
+    max-width: 49rem;
+    flex: 49rem;
   }
   .new-arrival-section .alpha {
-    max-width: 400px;
-    flex: 400px;
+    max-width: 40rem;
+    flex: 40rem;
   }
   .new-arrival-section .wrapper {
     padding: 3% 4.5%;
@@ -209,7 +209,7 @@
     width: 12.3%;
   }
   .new-arrival-section .alpha .title {
-    font-size: 32px;
+    font-size: 3.2rem;
   }
   .alignment .text-wrap {
     padding-right: 0%;
@@ -218,59 +218,59 @@
     padding-right: .3%;
   }
 }
-@media(max-width: 1279px ){
+@media(max-width: 1279px){
   .new-arrival-section .beta {
-    max-width: 400px;
-    flex: 400px;
+    max-width: 40rem;
+    flex: 40rem;
   }
   .new-arrival-section .wrapper:after {
     width: 14.9%;
   }
   section .text-wrap p {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .new-arrival-section .content-wrap {
-    max-width: 331px;
+    max-width: 33.1rem;
   }
   .alignment .content-wrap {
-    max-width: 343px;
+    max-width: 34.3rem;
   }
   .new-arrival-section .alpha .title {
-    font-size: 27px;
+    font-size: 2.7rem;
   }
   .new-arrival-section .text-wrap p {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
 @media(max-width: 990px ){
   .new-arrival-section .beta {
-    max-width: 300px;
-    flex: 300px;
+    max-width: 30rem;
+    flex: 30rem;
   }
   .new-arrival-section .alpha {
-    max-width: 300px;
-    flex: 300px;
+    max-width: 30rem;
+    flex: 30rem;
   }
   .new-arrival-section .alpha .pre-title {
-    font-size: 14px;
-    margin-bottom: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
   }
   .new-arrival-section .alpha .title {
-    font-size: 22px;
+    font-size: 2.2rem;
   }
   .new-arrival-section .text-wrap p {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .new-arrival-section .alpha a.btn {
-    max-width: 230px;
-    height: 38px;
-    font-size: 12px;
+    max-width: 23rem;
+    height: 3.8rem;
+    font-size: 1.2rem;
   }
   .alignment .wrapper:after {
     width: 10.9%;
   }
 }
-@media(max-width: 767px ){
+@media(max-width: 767px){
   .new-arrival-section {
     background-image: unset !important;
   }
@@ -287,7 +287,7 @@
   }
   .new-arrival-section .alpha {
     order: 2;
-    margin-top: 30px;
+    margin-top: 3rem;
   }
   .new-arrival-section .content-wrap {
     text-align: center;
@@ -300,21 +300,21 @@
     content: unset;
   }
   .new-arrival-section .alpha .title {
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
   }
   .new-arrival-section .text-wrap p:first-child {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
   .new-arrival-section .text-wrap p {
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
   }
   .new-arrival-section .text-wrap {
-    max-width: 300px;
-    margin: 0 auto 20px;
+    max-width: 30rem;
+    margin: 0 auto 2rem;
   }
   .new-arrival-section .alpha .pre-title {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
   .desk-main-section {
     display: none;

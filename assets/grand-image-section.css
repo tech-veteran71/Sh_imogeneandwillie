@@ -1,5 +1,5 @@
 .grand-image-section {
-  padding-bottom: 4.25em;
+  padding-bottom: 7.5rem;
   background-color: var(--color-Xlight-wheat);
 }
 .grand-image-section .image-wrap {
@@ -36,11 +36,6 @@
   height: 100%;
 }
 
-@media screen and (min-width:1400px){
-  .grand-image-section .image-wrap {
-    font-size: 20px;
-  }
-}
 @media screen and (max-width:767px){
   .grand-image-section .image-wrap {
     max-width: 100%;

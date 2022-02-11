@@ -82,7 +82,7 @@
 }
 /******************responsive [[ first section  ]]****************/
 
-@media screen and (max-width:76.7rem){
+@media screen and (max-width:767px){
   .latest-collection {
     padding-bottom: 0;
   }
@@ -161,7 +161,7 @@
     object-fit: cover;
   }
 }
-@media screen and (max-width:47.9rem) {
+@media screen and (max-width:479px) {
   .latest-collection .mob-img {
     height: 24rem;
   }
