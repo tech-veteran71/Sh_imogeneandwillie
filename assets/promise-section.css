@@ -2,7 +2,7 @@
   background-color: var(--color-Xlight-wheat);
 }
 .promise-section .promise-container {
-  max-width: 1920px;
+  max-width: 192rem;
   margin: 0 auto;
 }
 .promise-section .content-wrap {
@@ -10,64 +10,64 @@
   grid-template-columns: minmax(auto,50%) minmax(auto,50%);
   justify-content: space-between;
   align-items: center;
-  grid-column-gap: 50px;
+  grid-column-gap: 5rem;
 }
 .promise-section .content {
-  max-width: 516px;
+  max-width: 51.6rem;
   margin: auto;
   text-align: center;
 }
 .promise-section .alpha .title {
-  font-size: 28px;
+  font-size: 2.8rem;
   font-family: var(--font-arno-display);
   font-weight: 500;
   text-transform: lowercase;
   margin-top: 0;
   margin-bottom: 0;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   line-height: 1.2;
   color: var(--color-normal-black);
 }
 .promise-section .alpha .title-wrap {
-  max-width: 281px;
-  margin: 0 auto 5px;
+  max-width: 28.1rem;
+  margin: 0 auto 1.5rem;
 }
 .promise-section .text-wrap {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .promise-section .alpha .text {
-  font-size: 20px;
+  font-size: 2rem;
   font-family: var(--font-arno-display);
   margin-top: 0;
   line-height: 1.5;
   margin-bottom: 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 .promise-section .btn {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: var(--font-din);
   color: var(--color-normal-black);
   text-transform: uppercase;
   font-weight: 500;
-  max-width: 226px;
-  height: 55px;
+  max-width: 22.6rem;
+  height: 5.5rem;
   display: flex;
   align-items: center;
   margin: 0 auto;
-  letter-spacing: 3px;
-  border: 1px solid var(--color-normal-black);
+  letter-spacing: 0.3rem;
+  border: 0.1rem solid var(--color-normal-black);
   justify-content: center;
 }
 .promise-section .pre-title {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-family: var(--font-gothic);
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   line-height: 1.2;
   color: var(--color-normal-black);
   text-transform: lowercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
 }
 .promise-section img {
   height: 100%;
@@ -89,50 +89,50 @@
 /* responsive start */
 @media(max-width: 1560px ){
   .promise-section .content {
-    max-width: 467px;
+    max-width: 46.7rem;
   }
 }
 @media(max-width: 1366px ){
   .promise-section .content {
-    max-width: 458px;
+    max-width: 45.8rem;
   }
 }
 @media(max-width: 1279px ){
   .promise-section .alpha .text {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .promise-section .content {
-    max-width: 376px;
+    max-width: 37.6rem;
   }
   .promise-section .btn {
-    font-size: 12px;
-    max-width: 200px;
-    height: 40px;
+    font-size: 1.2rem;
+    max-width: 20rem;
+    height: 4rem;
   }
 }
 @media(max-width: 990px ){
   .promise-section .alpha .title {
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 1.1;
   }
   .promise-section .content {
-    max-width: 329px;
+    max-width: 3.3rem;
   }
   .promise-section .text-wrap {
-    padding: 0 16px;
+    padding: 0 1.6rem;
   }
   .promise-section .alpha .text {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .promise-section .btn {
-    font-size: 10px;
-    max-width: 145px;
-    height: 28px;
+    font-size: 1rem;
+    max-width: 14.5rem;
+    height: 2.8rem;
   }
 }
 @media(max-width: 767px) {
   .promise-section {
-    padding: 50px 0;
+    padding: 5rem 0;
   }
   .promise-section .content-wrap {
     grid-template-columns: 100%;
@@ -142,23 +142,23 @@
   }
   .promise-section .beta {
     order: 1;
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
   }
   .promise-section .text-wrap {
     display: none;
   }
   .promise-section .pre-title {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .promise-section .alpha .title {
-    font-size: 28px;
+    font-size: 2.8rem;
     line-height: 1.1;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
   .promise-section .btn {
-    font-size: 14px;
-    max-width: 226px;
-    height: 52px;
+    font-size: 1.4rem;
+    max-width: 22.6rem;
+    height: 5.2rem;
   }
   .promise-section .mob-image {
     display: block;

@@ -1,5 +1,5 @@
 {{ 'product-slider-section.css' | asset_url | stylesheet_tag }}
-<div class="product-slider-section">
+<div class="product-slider-section {% if section.settings.hide_mobile %}product-slider-section__mobile{% endif %}">
   <div class="index-container">
     <div class="wrapper">
       <div class="alpha">
@@ -51,6 +51,11 @@
 {
   "name": "Product Slider Section",
   "settings":[
+    {
+      "type": "checkbox",
+      "id": "hide_mobile",
+      "label": "Hide Mobile"
+    },
     {
       "type": "header",
       "content": "Collection",

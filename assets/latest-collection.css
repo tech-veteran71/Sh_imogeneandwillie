@@ -1,7 +1,6 @@
 .latest-collection {
   background: var(--color-Xlight-wheat);
-  font-size: 1.2vw;
-  padding-bottom: 11em;
+  padding-bottom: 25rem;
 }
 .latest-collection .main-grid {
   display: grid;
@@ -30,37 +29,37 @@
   display: none;
 }
 .latest-collection .pre-title {
-  font-size: 1.15em;
+  font-size: 2.3rem;
   font-weight: bold;
   margin: 0;
   text-transform: uppercase;
   color: var(--color-white);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.35rem;
+  line-height: 1;
   font-family: var(--font-din);
 }
 .latest-collection .mob-img {
   display: none;
 }
 .latest-collection .title {
-  font-size: 2.5em;
+  font-size: 5rem;
   font-family: var(--font-arno-display);
-  max-width: 12em;
   line-height: 1;
-  margin: 0.9em auto 0.7em;
+  margin: 5rem auto 6rem;
   color: var(--color-white);
-  letter-spacing: .05em;
+  letter-spacing: .5rem;
 }
 .latest-collection .button {
-  font-size: 0.7em;
+  font-size: 1.4rem;
   text-transform: uppercase;
   width: 100%;
-  max-width: 28em;
+  max-width: 35rem;
   background: transparent;
-  border: 1px solid white;
+  border: 0.1rem solid white;
   box-shadow: unset;
-  height: 3.95em;
-  letter-spacing: 0.25em;
-  padding: 0 0.5em;
+  height: 5.5rem;
+  letter-spacing: 0.42rem;
+  padding: 0;
   min-height: unset;
   min-width: unset;
   font-family: var(--font-din)
@@ -82,28 +81,18 @@
   height: 100%;
 }
 /******************responsive [[ first section  ]]****************/
-@media screen and (min-width: 1400px) {
-  .latest-collection {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 990px) {
-  .latest-collection {
-    font-size: 1.3vw;
-  }
-}
 
-@media screen and (max-width:767px){
+@media screen and (max-width:76.7rem){
   .latest-collection {
     padding-bottom: 0;
   }
   .latest-collection .collection-item .image img {
-    max-width: 221px;
+    max-width: 22.1rem;
     display: block;
     width: 100%;
-    height: 286px;
+    height: 28.6rem;
     object-fit: cover;
-    height: 250px;
+    height: 25rem;
     
   }
   .latest-collection .desk-img {
@@ -123,7 +112,7 @@
     display: none;
   }
   .latest-collection .main-grid {
-    padding: 77px 6px;
+    padding: 7.7rem 0.6rem;
     background: var(--color-Xlight-wheat);
   }
   .latest-collection .pre-title {
@@ -133,15 +122,15 @@
     display: flex;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-family: var(--font-din);
     font-weight: 700;
     color: var(--color-black);
-    padding-top: 10px;
+    padding-top: 1rem;
     justify-content: center;
     align-items: center;
     line-height: 1;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
   }
   .latest-collection .arrow text {
     fill: var(--color-black);
@@ -151,9 +140,9 @@
   }
   .latest-collection .arrow {
     display: block;
-    max-width: 22px;
-    flex: 22px;
-    height: 22px;
+    max-width: 2.2rem;
+    flex: 2.2rem;
+    height: 2.2rem;
   }
   .latest-collection .arrow svg {
     width: 100%;
@@ -166,14 +155,14 @@
   }
   .latest-collection .mob-img {
     display: block;
-    height: 300px;
+    height: 30rem;
   }
   .latest-collection .mob-img img {
     object-fit: cover;
   }
 }
-@media screen and (max-width:479px) {
+@media screen and (max-width:47.9rem) {
   .latest-collection .mob-img {
-    height: 240px;
+    height: 24rem;
   }
 }

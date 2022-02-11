@@ -961,12 +961,25 @@ a.product__text {
   margin-top: 5px;
   line-height: 1;
 }
-.product .installment-text {
-  font-size: 9px;
+.afterpay-paragraph {
+  font-size: 1rem;
   font-family: var(--font-gothic);
   color: var(--color-dim-black);
-  letter-spacing: 0.9px;
+  letter-spacing: 0.09rem;
 }
+
+.afterpay-link-inner {
+  font-size: 1rem !important;
+  font-family: var(--font-gothic);
+  color: var(--color-dim-black);
+  letter-spacing: 0.09rem;
+}
+
+.afterpay-logo {
+  width:  7.5rem !important;
+  height:  auto;
+}
+
 .product .product__tax.caption {
   font-size: 0.7em;
   letter-spacing: 0.1em;

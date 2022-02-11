@@ -1,5 +1,14 @@
 .ajaxcart-drawer {
   background-color: #F7F6F3;
+  width:  100%;
+  max-width: 33%;
+}
+
+@media(max-width: 76.7rem ){
+  .ajaxcart-drawer {
+    width:  100%;
+    max-width: 100%;
+  }
 }
 
 .ajaxcart {
@@ -10,12 +19,27 @@
   display: flex;
   justify-content: space-between;
   background-color: #F7F6F3;
-  padding: 1.4rem 2.4rem;
+  padding: 1.4rem 2.4rem 2.4rem;
+}
+
+.ajaxcart__signin {
+  padding: 3rem 3rem 0;
+  text-align: right;
+  color:  #0f359b;
+  font-size: 1.4rem;
+  letter-spacing: 0.14rem;
+}
+
+.ajaxcart__signin a {
+  color:  #0f359b;
+  font-family: var(--font-din);
 }
 
 .ajaxcart__header-title {
   font-size: 2rem;
+  letter-spacing: 0.3rem;
   color: #222222;
+  margin: 0;
 }
 
 .ajaxcart__header-title-count {
@@ -31,8 +55,13 @@
   color: #222222;
 }
 
+.ajaxcart__close svg {
+  width: 1.5rem;
+}
+
 .ajaxcart__content {
   overflow-y: auto;
+  margin-bottom: 6rem;
 }
 
 .ajaxcart__products {
@@ -63,6 +92,8 @@
   background: transparent;
   color: #0F359B;
   font-size: 1.4rem;
+  letter-spacing: 0.14rem;
+  font-family: var(--font-din);
   font-weight: 700;
   padding: 0;
 }
@@ -89,7 +120,7 @@
 .ajaxcart__subtotal-price {
   margin: 0;
   font-size: 1.8rem;
-  letter-spacing: 4px;
+  letter-spacing: 0.4rem;
 }
 
 .ajaxcart__checkout {
@@ -100,6 +131,7 @@
   font-size: 1.5rem;
   text-transform: lowercase;
   text-align: center;
+  font-family: var(--font-arno-display);
 }
 
 .line-item {
@@ -116,7 +148,7 @@
 }
 
 .line-item__image-wrapper {
-  max-width: 100px;
+  max-width: 10rem;
   overflow: hidden;
   margin-right: 1.6rem;
 }
@@ -143,7 +175,7 @@
   margin: 0;
   margin-right: 1rem;
   font-family: "Helvetica Neue", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   font-size: 1.5rem;
   text-transform: lowercase;
   color: #222222;
@@ -179,7 +211,7 @@
 
 .line-item__pricing {
   font-family: "Helvetica Neue", sans-serif;
-  letter-spacing: 2px;;
+  letter-spacing: 0.2rem;
   margin-right: 1.6rem;
 }
 
@@ -212,8 +244,8 @@
 }
 
 .upsell__slider-trigger {
-  width: 16px;
-  height: 16px;
+  width: 1.6rem;
+  height: 1.6rem;
   border-radius: 50%;
 }
 
@@ -226,7 +258,7 @@
 }
 
 .upsell-product__image {
-  max-width: 100px;
+  max-width: 10rem;
   overflow: hidden;
 }
 

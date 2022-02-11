@@ -9,16 +9,21 @@
 {{ 'component-drawer.css' | asset_url | stylesheet_tag }}
 {{ 'ajaxcart.css' | asset_url | stylesheet_tag }}
 
-
 <component-drawer id="CartDrawer" class="ajaxcart-drawer" position="right" open="[js-cart-drawer-open]" close="[js-cart-drawer-close]" js-cart-drawer>
   <ajax-cart class="ajaxcart" data-shipping-threshold="{{ settings.shipping_threshold_enabled  }}">
     <div id="AjaxCartTemplate">
+      <div class="ajaxcart__signin">
+        <a href="/account">
+          SIGN IN
+        </a>
+      </div>
+
       <header class="ajaxcart__header" ref="cartHeader">
         <h2 class="ajaxcart__header-title">
           my bag
-          <span v-if="cart" class="ajaxcart__header-title-count">(${cart.items.length})</span>
+          <span v-if="cart" class="ajaxcart__header-title-count">(${cart.item_count})</span>
         </h2>
-        <button class="ajaxcart__close" js-cart-drawer-close>close</button>
+        <button class="ajaxcart__close" js-cart-drawer-close>{% render 'icon-close' %}</button>
       </header>
   
       <form v-if="cart" class="ajaxcart__content" :style="{ height: cartHeight }" action="/cart" method="post" novalidate>
@@ -62,7 +67,7 @@
           <div class="ajaxcart__subtotal">
             <div class="ajaxcart__subtotal-row">
               <p class="ajaxcart__subtotal-title">shipping</p>
-              <p class="ajaxcart__subtotal-price">FREE</p>
+              <p class="ajaxcart__subtotal-price">free</p>
             </div><!--.ajaxcart__subtotal-row -->
             <div class="ajaxcart__subtotal-row">
               <p class="ajaxcart__subtotal-title">subtotal</p>

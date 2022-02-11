@@ -1,38 +1,39 @@
 .rich-text-section { 
-  padding: 80px 0 100px;
+  padding: 8rem 0;
   background-color: var(--color-Xlight-wheat);
 }
 .rich-text-section .title {
-  font-size: 20px;
+  font-size: 2rem;
   margin-top: 0;
   text-transform: lowercase;
-  line-height: 1.4;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
+  line-height: 2.4rem;
+  margin-bottom: 1.4rem;
+  letter-spacing: 0.3rem;
   color: var(--color-normal-black);
 }
 .rich-text-section .text-wrap {
-  margin-bottom: 20px;
-  padding: 0 30px;
+  margin-bottom: 2rem;
+  padding: 0 3rem;
 }
 .rich-text-section .text {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 15px;
-  line-height: 1.5;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.15rem;
   color: var(--color-dim-black);
   font-family: var(--font-gothic);
 }
 .rich-text-section .wrapper .btn {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: var(--color-blue);
   font-weight: 900;
   text-transform: uppercase;
   font-family: var(--font-din);
+  letter-spacing: 0.14rem;
 }
 .rich-text-section .wrapper {
-  max-width: 466px;
+  max-width: 47rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -43,9 +44,9 @@
   justify-content: center;
 }
 .rich-text-section .button-wrap .arrow {
-  height: 22px;
-  max-width: 20px;
-  flex: 20px;
+  height: 2.2rem;
+  max-width: 2rem;
+  flex: 2rem;
 }
 .rich-text-section .button-wrap .arrow svg {
   height: 100%;
@@ -53,23 +54,23 @@
 }
 
 /* responsive */
-@media(max-width: 767px ){
+@media(max-width: 76.7rem ){
   .rich-text-section .text-wrap {
-    max-width: 235px;
+    max-width: 23.5rem;
     padding: 0;
   }
   .rich-text-section .title {
-    font-size: 15px
+    font-size: 1.5rem
   }
   .rich-text-section .wrapper {
     max-width: unset;
     text-align: left;
   }
   .rich-text-section {
-    padding: 20px 0 50px;
+    padding: 2rem 0 5rem;
   }
   .rich-text-section .text {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .rich-text-section .button-wrap {
     justify-content: left;

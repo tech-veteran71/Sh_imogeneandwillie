@@ -43,10 +43,7 @@
             <div class="no-js-hidden price-main" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, price_class: 'price--large' -%}
               <div class="installments-wrap">
-                <span class="installment-text">{{ section.settings.installment_info }}</span>
-                <div class="company">
-                  {% render 'afterpay' %}
-                </div>
+                <span class="installment-text">{% render 'afterpay' %}</span>
               </div>
             </div>
             <div {{ block.shopify_attributes }}>
@@ -58,7 +55,7 @@
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte desription-with-truncate" data-less-description>
-                {{ product.description | strip_html | replace: '&nbsp;', ' ' | truncatewords: 45, '' }}
+                {{ product.description | replace: '&nbsp;', ' ' | truncatewords: 45, '' }}
                 <span class="read-content" data-read-more>read more…</span>
               </div>
               <div class="product__description rte desription-without-truncate" data-full-description>
