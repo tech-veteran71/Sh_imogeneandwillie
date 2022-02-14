@@ -16,9 +16,7 @@
         <div class="featured-gallery">
           <div class="grid-1 product-grid">
             {%- for product in collection.products -%}
-              {% if forloop.index == 4 %}
-                {% break %}
-              {% else %}
+              {% if forloop.index < 4 %}
                 {% render 'product-item', product: product %}      
               {% endif %}
             {% endfor %}
@@ -47,7 +45,6 @@
             {%- for product in collection.products -%}
               {% if forloop.index >= 12 and forloop.index <= 14 %}
                 {% render 'product-item', product: product %}
-                {% else %}
               {% endif %}
             {% endfor %}
           </div>

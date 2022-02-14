@@ -119,7 +119,7 @@
 }
 .video-section .contents {
   position: relative;
-  z-index: 999999;
+  z-index: 99;
 }
 .video-section .beta img {
   width: 100%;
@@ -192,14 +192,13 @@
     line-height: 1.6;
     text-decoration: none;
   }
+  .video-section .content {
+    max-width: 367px;
+    padding: 0 25px;
+  }
   .video-section .contents .text {
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 1.5;
-  }
-
-  .video-section .content {
-    max-width: 367px;
-    padding: 0 25px;
   }
 }

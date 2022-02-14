@@ -1,144 +1,143 @@
 <style>
-    :root {
-      --product-per-row: {{ section.settings.product_per_row }};
-    }
-  </style>
-  {{ 'main-collection.css' | asset_url | stylesheet_tag }}
-  {% assign productPerRow = section.settings.product_per_row %}
-  {% assign collectionTitle = section.settings.collection_title %}
-  {% assign productCount = collection.all_products_count %}
+  :root {
+    --product-per-row: {{ section.settings.product_per_row }};
+  }
+</style>
+{{ 'main-collection.css' | asset_url | stylesheet_tag }}
+{% assign productPerRow = section.settings.product_per_row %}
+{% assign collectionTitle = section.settings.collection_title %}
+{% assign productCount = collection.all_products_count %}
 
-  {% assign lastProductGridCount = productCount | minus: 12 %}
-  <div class='main-collection'>
-    <div class="collection-container">
-      <div class="wrapper">
-        {% render 'collection-header', title: collectionTitle, totalProducts: productCount  %}
-        <div class="collection-filter">
-          <span class="filter">filter</span>
+{% assign lastProductGridCount = productCount | minus: 12 %}
+<div class='main-collection'>
+  <div class="collection-container">
+    <div class="wrapper">
+      {% render 'collection-header', title: collectionTitle, totalProducts: productCount  %}
+      <div class="collection-filter">
+        <span class="filter">filter</span>
+      </div>
+      <div class="product-gallery collection-denim">
+        <div class="collection-grid">
+          {%- for product in collection.products -%}
+            {% if forloop.index < 5 %}
+              {% render 'product-item', productPerRow: productPerRow, product: product %}
+            {% endif %}
+          {% endfor %}
         </div>
-        <div class="product-gallery collection-denim">
-          <div class="collection-grid">
-            {%- for product in collection.products -%}
-              {% if forloop.index >= 1 and forloop.index <= 4 %}
-                {% render 'product-item', productPerRow: productPerRow, product: product %}
-                {% else %}
-              {% endif %}
-            {% endfor %}
+        <div class="review-wrap">
+          <div class="customer-review">
+            <p class="review">{{ section.settings.review }}</p>
+            <span class="customer-name">{{ section.settings.customer_name }}</span>
           </div>
-          <div class="review-wrap">
-            <div class="customer-review">
-              <p class="review">{{ section.settings.review }}</p>
-              <span class="customer-name">{{ section.settings.customer_name }}</span>
+        </div>
+        <div class="collection-grid">
+          {%- for product in collection.products -%}
+            {% if forloop.index >= 5 and forloop.index <= 6 %}
+              {% render 'product-item', productPerRow: productPerRow, product: product %}
+            {% endif %}
+          {% endfor %}
+          {% if section.settings.fit_guide_img != blank %}
+            <div class="grid-item fit-guide">
+              <a href="{{ section.settings.fit_guide_link }}" class="fit-guide-link">
+                {% render 'responsive--image' with section.settings.fit_guide_img as image, max_width: 434, class: 'fit-guide-img' %}
+              </a>
             </div>
-          </div>
-          <div class="collection-grid">
+          {% endif %}
+          {%- for product in collection.products -%}
+            {% if forloop.index >= 7 and forloop.index <= 12 %}
+              {% render 'product-item', productPerRow: productPerRow, product: product %}
+            {% endif %}
+          {% endfor %}
+          {% if section.settings.fabric_guide_img != blank %}
+            <div class="grid-item fabric-guide">
+              <a href="{{ section.settings.fabric_guide_link }}" class="fabric-guide-link">
+                {% render 'responsive--image' with section.settings.fabric_guide_img as image, max_width: 434, class: 'fabric-guide-img' %}
+              </a>
+            </div>
+          {% endif %}
+          {%- paginate collection.products by lastProductGridCount -%}
             {%- for product in collection.products -%}
-              {% if forloop.index >= 5 and forloop.index <= 6 %}
+              {% if forloop.index > 12 %}
                 {% render 'product-item', productPerRow: productPerRow, product: product %}
               {% endif %}
             {% endfor %}
-            {% if section.settings.fit_guide_img != blank %}
-              <div class="grid-item fit-guide">
-                <a href="{{ section.settings.fit_guide_link }}" class="fit-guide-link">
-                  {% render 'responsive--image' with section.settings.fit_guide_img as image, max_width: 434, class: 'fit-guide-img' %}
-                </a>
-              </div>
-            {% endif %}
-            {%- for product in collection.products -%}
-              {% if forloop.index >= 7 and forloop.index <= 12 %}
-                {% render 'product-item', productPerRow: productPerRow, product: product %}
-              {% endif %}
-            {% endfor %}
-            {% if section.settings.fabric_guide_img != blank %}
-              <div class="grid-item fabric-guide">
-                <a href="{{ section.settings.fabric_guide_link }}" class="fabric-guide-link">
-                  {% render 'responsive--image' with section.settings.fabric_guide_img as image, max_width: 434, class: 'fabric-guide-img' %}
-                </a>
-              </div>
-            {% endif %}
-            {%- paginate collection.products by lastProductGridCount -%}
-              {%- for product in collection.products -%}
-                {% if forloop.index > 12 %}
-                  {% render 'product-item', productPerRow: productPerRow, product: product %}
-                {% endif %}
-              {% endfor %}
-            {% endpaginate %}
-          </div>
+          {% endpaginate %}
         </div>
       </div>
     </div>
   </div>
-  
-  {% schema %}
-  {
-    "name": "Collection 2 Up",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Image",
-        "info": "-------"
-      },
-      {
-        "type": "image_picker",
-        "id": "fit_guide_img",
-        "label": "Fit Guide Image"
-      },
-      {
-        "type": "url",
-        "id": "fit_guide_link",
-        "label": "Fit Guide Link"
-      },
-      {
-        "type": "image_picker",
-        "id": "fabric_guide_img",
-        "label": "Fabric Guide Image"
-      },
-      {
-        "type": "url",
-        "id": "fabric_guide_link",
-        "label": "Fabric Guide Link"
-      },
-      {
-        "type": "header",
-        "content": "Content",
-        "info": "-------"
-      },
-      {
-        "type": "text",
-        "id": "collection_title",
-        "label": "Collection Title"
-      },
-      {
-        "type": "range",
-        "id": "product_per_row",
-        "label": "Product Per Row",
-        "min": 1,
-        "max": 3,
-        "step": 1,
-        "default": 2
-      },
-      {
-        "type": "header",
-        "content": "Review",
-        "info": "-------"
-      },
-      {
-        "type": "text",
-        "id": "review",
-        "label": "Review"
-      },
-      {
-        "type": "text",
-        "id": "customer_name",
-        "label": "Customer Name"
-      }
-    ],
-    "presets": [
-      {
-        "name": "Collection 2 Up",
-        "category": "Collection 2 Up"
-      }
-    ]
-  }
-  {% endschema %}
+</div>
+
+{% schema %}
+{
+  "name": "Collection 2 Up",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "fit_guide_img",
+      "label": "Fit Guide Image"
+    },
+    {
+      "type": "url",
+      "id": "fit_guide_link",
+      "label": "Fit Guide Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "fabric_guide_img",
+      "label": "Fabric Guide Image"
+    },
+    {
+      "type": "url",
+      "id": "fabric_guide_link",
+      "label": "Fabric Guide Link"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "collection_title",
+      "label": "Collection Title"
+    },
+    {
+      "type": "range",
+      "id": "product_per_row",
+      "label": "Product Per Row",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "header",
+      "content": "Review",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "review",
+      "label": "Review"
+    },
+    {
+      "type": "text",
+      "id": "customer_name",
+      "label": "Customer Name"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection 2 Up",
+      "category": "Collection 2 Up"
+    }
+  ]
+}
+{% endschema %}
   

@@ -3065,7 +3065,7 @@ customElements.define("ajax-cart", AjaxCart);
       Fabricheader.style.backgroundColor = scroll > 0 ? '#F7F6F3' : 'transparent';
       if(scroll > 0) {
         Fabricheader.classList.add('custom-page-header');
-      } else{
+      } else {
         Fabricheader.classList.remove('custom-page-header');
       }
     });
@@ -3130,6 +3130,46 @@ customElements.define("ajax-cart", AjaxCart);
         collectionHeader.style.top = "0";
       }
       previousValue = scrollY;
+    }
+  }
+
+  // size guide popup
+  if(mainProduct) {
+    const sizeGuidePopUp = document.querySelector(".size-guide-popup");
+    const popUpButton = mainProduct.querySelector("[js-size-guide-popup]");
+    const popUpCloseButton = sizeGuidePopUp.querySelectorAll("[js-popup-close]");
+    const imgWrap = sizeGuidePopUp.querySelector("[js-img-wrap]");
+    const popUpHeader = sizeGuidePopUp.querySelector("[js-popup-header]");
+
+    popUpButton.addEventListener('click', handlePopup);
+    popUpCloseButton.forEach( item => {
+      item.addEventListener('click', handlePopUpClose);
+    })
+    if(document.documentElement.clientWidth < 768) {
+      imgWrap.addEventListener('click', handleLinks);
+    }
+    if(document.documentElement.clientWidth > 767) {
+      window.addEventListener('scroll', handleScroll);
+    }
+
+    function handlePopup() {
+      sizeGuidePopUp.style.opacity = "1";
+      sizeGuidePopUp.style.visibility = "visible";
+    }
+    function handlePopUpClose() {
+      sizeGuidePopUp.style.opacity = "0";
+      sizeGuidePopUp.style.visibility = "hidden";
+    }
+    function handleLinks() {
+      popUpHeader.classList.toggle("active");
+    }
+    function handleScroll() {
+      let scrollY = window.scrollY;
+      if(scrollY > 0) {
+        sizeGuidePopUp.classList.add('active');
+      } else {
+        sizeGuidePopUp.classList.remove('active');
+      }
     }
   }
 })()
