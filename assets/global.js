@@ -2904,10 +2904,15 @@ customElements.define("ajax-cart", AjaxCart);
   new Swiper('.product-slider .product-grid', {
     slidesPerView: 4,
     spaceBetween: 20,
+    freeMode: true,
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+    invert: false,
+    forceToAxis: true,
+  },
     breakpoints: {
       1600: {
         spaceBetween: 40,
@@ -2956,10 +2961,15 @@ customElements.define("ajax-cart", AjaxCart);
   // product gallery
   new Swiper('.content-specific-collection .product-grid', {
     slidesPerView: 4,
+    freeMode: true,
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+    invert: false,
+    forceToAxis: true,
+  },
     breakpoints: {
       1279: {
         spaceBetween: 30,
@@ -2980,10 +2990,15 @@ customElements.define("ajax-cart", AjaxCart);
   new Swiper('.product-recommendation .product-gallery', {
     slidesPerView: 4,
     spaceBetween: 0,
+    freeMode: true,
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+    invert: false,
+    forceToAxis: true,
+  },
     breakpoints: {
       991: {
         slidesPerView: 4,

@@ -75,6 +75,11 @@
 .product-gallery .button:focus,  .product-gallery .button:hover {
   box-shadow: unset;
 }
+@media screen and (max-width: 990px) {
+  .product-gallery .wrapper {
+    padding: 0 1.5rem;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .product-gallery .gallery {

@@ -138,6 +138,11 @@
   .explore-section .swiper-scrollbar {
     bottom: 1.5rem;
   }
+  .explore-section .cart-swiper {
+    padding-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+  }
 }
 @media(max-width: 479px) {
   .explore-section .cart-item {

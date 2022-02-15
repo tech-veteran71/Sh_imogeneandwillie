@@ -1,17 +1,17 @@
 .content-specific-collection {
   background-color: var(--color-Xlight-wheat);
-  padding: 85px 0 70px;
+  padding: 8.5rem 0 7rem;
 }
 .content-specific-collection:hover .swiper-scrollbar {
   opacity: 1;
 }
 .content-specific-collection .product-container {
-  max-width: 1630px;
-  padding: 0 20px;
+  max-width: 163rem;
+  padding: 0 2rem;
   margin: 0 auto;
 }
 .content-specific-collection .product-grid {
-  padding-bottom: 70px;
+  padding-bottom: 7rem;
   position: relative;
   overflow: hidden;
 }
@@ -34,101 +34,79 @@
   display: block;
 }
 .content-specific-collection .product-info {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 .content-specific-collection .product-title {
   margin: 0;
-  font-size: 15px;
+  font-size: 2rem;
   color: var(--color-normal-black);
-  margin-bottom: 6px;
-  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.03rem;
 }
 .content-specific-collection .description {
-  font-size: 13px;
+  font-size: 1.4rem;
   font-family: var(--font-gothic);
   color: var(--color-dim-black);
   margin: 0;
-  line-height: 1;
+  letter-spacing: 0.14rem;
 }
 .content-specific-collection .btn {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: var(--font-din);
   text-transform: uppercase;
   color: var(--color-normal-black);
-  border: 1px solid var(--color-normal-black);
-  padding: 0 10px;
-  max-width: 360px;
-  min-height: 55px;
+  border: 0.1rem solid var(--color-normal-black);
+  padding: 0 1rem;
+  max-width: 36rem;
+  min-height: 5.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  letter-spacing: 2.5px;
+  letter-spacing: 0.25rem;
   margin: 0 auto;
 }
 .content-specific-collection .swiper-scrollbar {
   opacity: 0;
   left: 0;
   background-color: transparent;
-  height: 3px;
-  bottom: 30px;
+  height: 0.3rem;
+  bottom: 3rem;
   transition: all 0.3s ease-in-out;
 }
 .content-specific-collection .swiper-scrollbar-drag {
   display: block;
   background-color: var(--color-dark-grey);
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
-@media screen and (min-width: 1400px) {
-  .content-specific-collection .product-title {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .content-specific-collection .product-title {
-    font-size: 20px;
-    letter-spacing: 1.2px;
-  }
-  .content-specific-collection .btn {
-    max-width: 410px;
-  }
-}
 @media screen and (max-width: 1600px) and (min-width: 1279px) {
   .content-specific-collection .product-container {
-    padding: 0 85px;
-  }
-}
-@media screen and (max-width: 1279px) {
-  .content-specific-collection .product-title {
-    font-size: 12px;
-  }
-  .content-specific-collection .description {
-    font-size: 12px;
+    padding: 0 8.5rem;
   }
 }
 @media screen and (max-width: 767px) {
   .content-specific-collection {
-    padding: 20px 0 50px;
+    padding: 2rem 0 5rem;
   }
   .content-specific-collection .product-grid {
-    padding-bottom: 40px;
+    padding-bottom: 4rem;
   }
   .content-specific-collection .product-item {
-    max-width: 239px;
-    flex: 239px;
-    min-width: 239px;
+    max-width: 23.9rem;
+    flex: 23.9rem;
+    min-width: 23.9rem;
   }
   .content-specific-collection .product-title {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .content-specific-collection .description {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .content-specific-collection .product-info {
-    margin-top: 15px;
+    margin-top: 1.5rem;
   }
   .content-specific-collection .swiper-scrollbar {
-    bottom: 25px;
+    bottom: 2.5rem;
   }
 }

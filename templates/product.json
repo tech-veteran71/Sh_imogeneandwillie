@@ -72,18 +72,6 @@
         "enable_video_looping": false
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
     "16355989173d290cbd": {
       "type": "moodboard-section",
       "settings": {
@@ -225,7 +213,6 @@
   },
   "order": [
     "main",
-    "product-recommendations",
     "16355989173d290cbd",
     "1635523248a721bf5a",
     "1642505173ef81dd16",

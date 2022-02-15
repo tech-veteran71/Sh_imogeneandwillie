@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-  min-height: 600px;
+  min-height: 60rem;
 }
 .collection-banner .page-width {
   height: 100%;
@@ -19,29 +19,29 @@
 .collection-banner .banner-content {
   display: flex;
   justify-content: center;
-  max-width: 655px;
+  max-width: 65.5rem;
   margin: 0 auto;
 }
 .collection-banner .banner-content .text {
   color: var(--color-normal-black);
   font-family: var(--font-arno-display);
-  font-size: 28px;
+  font-size: 2.8rem;
   line-height: 1.3;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   margin: 0;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .collection-banner .banner-content {
-    max-width: 720px;
+    max-width: 72rem;
   }
 }
 @media screen and (max-width: 1279px) {
   .collection-banner .banner-content {
-    max-width: 580px;
+    max-width: 58rem;
   }
   .collection-banner .banner-content .text {
-    font-size: 24px;
+    font-size: 2.4rem;
   }
   .collection-banner .wrapper {
     height: 72%;
