@@ -295,7 +295,7 @@
 .main-collection .fabric-grid-item .fabric-guide-link {
   display: flex;
   justify-content: center;
-  height: 90%;
+  height: calc(100% - 73px);
   align-items: center;
 }
 .main-collection .fit-guide-img,
@@ -309,7 +309,7 @@
 }
 .main-collection .fit-guide .fit-guide-link,
 .main-collection .fabric-guide .fabric-guide-link {
-  height: calc(100% - 54px);
+  height: calc(100% - 73px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -324,10 +324,6 @@
 @media screen and (min-width: 1400px) {
   .main-collection .collection-grid {
     grid-column-gap: 35px;
-  }
-  .main-collection .fabric-grid-item .fabric-guide-link,
-  .main-collection .fit-grid-item .fit-guide-link {
-    height: 92%;
   }
   .main-collection .review-wrap {
     margin: 120px 0;
@@ -369,10 +365,6 @@
   }
   .main-collection .bottom-space {
     margin-bottom: 48px;
-  }
-  .main-collection .fabric-grid-item .fabric-guide-link,
-  .main-collection .fit-grid-item .fit-guide-link {
-    height: 88%;
   }
   .main-collection .featured-gallery .product-details {
     padding: 0;
