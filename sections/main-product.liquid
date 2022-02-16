@@ -37,7 +37,9 @@
               <h1 class="product__title" {{ block.shopify_attributes }}>
                 {{ product.title | escape }}
               </h1>
+              {% if product.metafields.descriptors.subtitle != blank %}
               <p class="product-info">{{ product.metafields.descriptors.subtitle }}</p>
+              {% endif %}
             </div>
           {%- when 'price' -%}
             <div class="no-js-hidden price-main" id="price-{{ section.id }}" {{ block.shopify_attributes }}>

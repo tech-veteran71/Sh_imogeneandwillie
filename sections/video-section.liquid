@@ -11,6 +11,9 @@
           {% if section.settings.wrap_title != blank %}
             <h3 class="wrap-title">{{ section.settings.wrap_title }}</h3>
           {% endif %}
+          {% if section.settings.title != blank%}
+            <h3 class="title mobile-title">{{ section.settings.title }}</h3>
+          {% endif %}
           {% if section.settings.top_text != blank %}
             <p class="text">{{ section.settings.top_text }} 
               {% if section.settings.link_text != blank %}
@@ -112,7 +115,7 @@
   ],
   "presets": [
     {
-      "name": "Video Section"
+      "name": "PDP - Video Section"
     }
   ]
 }

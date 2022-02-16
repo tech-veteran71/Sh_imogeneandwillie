@@ -17,6 +17,7 @@
   text-align: center;
   margin-bottom: 5rem;
   line-height: 1.4;
+  font-family: var(--font-din);
 }
 .video-section .wrap-title {
   margin-top: 0;
@@ -152,6 +153,11 @@
   .video-section .title {
     display: none;
   }
+  .video-section .title.mobile-title {
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 2.6rem;
+  }
   .video-section .wrapper {
     flex-direction: column;
     margin: 0 -1.5rem;
@@ -187,7 +193,6 @@
     text-decoration: none;
   }
   .video-section .content {
-    max-width: 36.7rem;
     padding: 0 2.5rem;
   }
   .video-section .contents .text {

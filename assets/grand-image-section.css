@@ -36,7 +36,11 @@
   height: 100%;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:990px){
+  .grand-image-section {
+    padding-bottom: 5rem;
+    background-color: var(--color-Xlight-wheat);
+  }
   .grand-image-section .image-wrap {
     max-width: 100%;
   }

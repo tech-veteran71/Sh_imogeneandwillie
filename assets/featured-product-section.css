@@ -1,5 +1,5 @@
 .featured-section {
-  padding: 70px 0
+  padding: 7rem 0
 }
 .featured-section .link {
   text-decoration: none;
@@ -24,7 +24,7 @@
   display: block;
 }
 .featured-section .text-wrap {
-  padding: 0 30px;
+  padding: 0 3rem;
 }
 .featured-section .grid-item img {
   width: 100%;
@@ -33,9 +33,9 @@
   display: block;
 }
 .featured-section .arrow {
-  width: 20px;
-  height: 20px;
-  margin-bottom: 6px;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.6rem;
 }
 .featured-section .arrow svg {
   width: 100%;
@@ -49,30 +49,30 @@
   grid-template-rows: minmax(180px, 346px) minmax(180px, 346px) minmax(180px, 346px);
 }
 .featured-section .title {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-family: var(--font-din);
   color: var(--color-normal-black);
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
   line-height: 1.4;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
 }
 .featured-section .link-text {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: var(--font-din);
   font-weight: 600;
   color: var(--color-blue);
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
 }
 .featured-section .wrap {
   display: flex;
   align-items: center;
 }
 .featured-section .img-wrap {
-  margin-bottom: 20px;
-  height: 1111px;
+  margin-bottom: 2rem;
+  height: 111.1rem;
 }
 .featured-section .placeholder-svg {
   width: 100%;
@@ -86,41 +86,41 @@
     margin-right: 3%;
   }
   .featured-section .img-wrap {
-    height: 806px;
+    height: 80.6rem;
   }
   .featured-section .grid-container {
-    grid-template-rows: 250px 250px 250px 
+    grid-template-rows: 25rem 25rem 25rem 
   }
 }
 @media(max-width: 1279px ){
   .featured-section .grid-container {
-    grid-template-rows: 190px 190px 190px 190px
+    grid-template-rows: 19rem 19rem 19rem 19rem
   }
   .featured-section .img-wrap {
-    height: 611px;
+    height: 61.1rem;
   }
   .featured-section {
-    padding: 40px 0;
+    padding: 4rem 0;
   }
 } 
 @media (max-width: 990px ){
   .featured-section .grid-container {
-    grid-template-rows: 132px 132px 132px 132px ;
+    grid-template-rows: 13.2rem 13.2rem 13.2rem 13.2rem ;
   }
   .featured-section .img-wrap {
-    height: 428px;
+    height: 42.8rem;
   }
   .featured-section .title {
-    font-size: 14px;
-    margin-bottom: 5px;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
   }
   .featured-section .link-text {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 }
 @media(max-width: 767px ){
   .featured-section .title {
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
   }
   .featured-section .link {
     margin-right: 0;

@@ -1,6 +1,5 @@
 .image-with-text {
-  padding: 2.5em 0;
-  font-size: 1.2vw
+  padding: 7rem 0;
 }
 .image-with-text .small-image {
   max-width: 33%;
@@ -82,23 +81,17 @@
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 1279px) {
+
+@media(max-width: 990px){
   .image-with-text {
-    font-size: 1.4vw;
+    padding: 6rem 0;
   }
-}
-@media screen and (max-width: 990px) {
-  .image-with-text {
-    font-size: 1.6vw;
-  }
-}
-@media(max-width: 767px){
   .image-with-text .container {
     padding: 0 2rem;
   }
   .image-with-text .image {
     margin-bottom: 3rem;
-    max-width: 38rem;
+    max-width: 100%;
   }
   .image-with-text .content-wrap {
     max-width: 38.8rem;
@@ -107,9 +100,6 @@
     font-size: 1.4rem;
     line-height: 1.5;
     margin-bottom: 0.4rem;
-  }
-  .image-with-text {
-    padding: 7rem 0;
   }
   .image-with-text .pre-title {
     font-size: 1.2rem;

@@ -2602,7 +2602,7 @@ customElements.define("ajax-cart", AjaxCart);
   });
 
   // product swiper script
-  if(document.documentElement.clientWidth < 768) {
+  if(document.documentElement.clientWidth < 990) {
     new Swiper('.product-swiper', {
       slidesPerView: 1,
       pagination: {
@@ -2862,7 +2862,7 @@ customElements.define("ajax-cart", AjaxCart);
         spaceBetween: 20,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: "auto",
         spaceBetween: 10,
       },
       300: {
@@ -2876,10 +2876,15 @@ customElements.define("ajax-cart", AjaxCart);
   new Swiper('.image-gallery .gallery-grid', {
     slidesPerView: 4,
     spaceBetween: 20,
+    freeMode: true,
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+    invert: false,
+    forceToAxis: true,
+  },
     breakpoints: {
       1279: {
         spaceBetween: 20,
@@ -2947,9 +2952,11 @@ customElements.define("ajax-cart", AjaxCart);
     breakpoints: {
       1279: {
         spaceBetween: 20,
+        slidesPerView: 4
       },
       768: {
-        spaceBetween: 10
+        spaceBetween: 10,
+        slidesPerView: "auto"
       },
       300: {
         slidesPerView: "auto",

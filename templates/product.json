@@ -22,7 +22,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "description": {
@@ -163,51 +163,11 @@
         "toggle_on_hover": true
       }
     },
-    "16355956535616edda": {
-      "type": "product-recommendation",
-      "blocks": {
-        "eb962bba-e9e3-4d3b-8b85-d707ce6ffc78": {
-          "type": "product",
-          "settings": {
-            "choose_product": "barton-slim-natchez"
-          }
-        },
-        "c22d4cd9-ebc5-47fc-9904-5f85b3e2a9d5": {
-          "type": "product",
-          "settings": {
-            "choose_product": "blake-military-trouser-in-olive"
-          }
-        },
-        "442a22d7-6043-42ca-84c0-eb4879d463b2": {
-          "type": "product",
-          "settings": {
-            "choose_product": "blake-military-trouser-in-black"
-          }
-        },
-        "a124b463-9fe7-4a12-961e-d7a8c8288323": {
-          "type": "product",
-          "settings": {
-            "choose_product": "barton-slim-indigo"
-          }
-        },
-        "786b4baf-ba9f-4b76-962a-ebd63fb1dc8b": {
-          "type": "product",
-          "settings": {
-            "choose_product": "barton-slim-black-rigid"
-          }
-        }
-      },
-      "block_order": [
-        "eb962bba-e9e3-4d3b-8b85-d707ce6ffc78",
-        "c22d4cd9-ebc5-47fc-9904-5f85b3e2a9d5",
-        "442a22d7-6043-42ca-84c0-eb4879d463b2",
-        "a124b463-9fe7-4a12-961e-d7a8c8288323",
-        "786b4baf-ba9f-4b76-962a-ebd63fb1dc8b"
-      ],
+    "product-recommendations": {
+      "type": "product-recommendations",
       "settings": {
-        "choose_collection": "",
-        "pre_title": "( featured )",
-        "title": "Curated SELECTIONS"
+        "pre_title": "(featured)",
+        "heading": "You may also like"
       }
     }
   },
@@ -216,6 +176,6 @@
     "16355989173d290cbd",
     "1635523248a721bf5a",
     "1642505173ef81dd16",
-    "16355956535616edda"
+    "product-recommendations"
   ]
 }

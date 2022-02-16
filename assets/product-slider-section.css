@@ -288,6 +288,7 @@
   }
   .product-slider-section .alpha .content {
     padding-bottom: 0;
+    max-width: 100%;
   }
   .product-slider-section .swiper-button-next:after, .product-slider-section .swiper-button-prev:after {
     font-size: 2rem;

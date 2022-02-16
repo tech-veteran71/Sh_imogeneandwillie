@@ -11,16 +11,18 @@
   text-align: center;
 }
 .main-collection .main-title {
-  margin: 0;
+  margin: 0 0 0.5rem;
   font-family: var(--font-arno-display);
   font-size: 2.8rem;
-  line-height: 1;
+  line-height: 2.5rem;
   color: var(--color-normal-black);
-  letter-spacing: 0.18rem;
+  letter-spacing: 0.28rem;
 }
 .main-collection .total-items,
 .main-collection .main-text {
   font-size: 1.3rem;
+  letter-spacing: 0.13rem;
+  line-height: 2.5rem;
   font-family: var(--font-gothic);
   color: var(--color-normal-black);
 }
@@ -594,14 +596,6 @@
   .main-collection .product-gallery .featured-gallery .product-details {
     padding: 0 0.5rem;
     margin-top: 0.8rem;
-  }
-  .main-collection .featured-gallery .product-name {
-    font-size: 1.4rem;
-    letter-spacing: 0.2rem;
-  }
-  .main-collection .featured-gallery .price-item {
-    font-size: 1.2rem;
-    letter-spacing: 0.25rem;
   }
   .main-collection .swiper-wrapper {
     grid-template-columns: unset !important;

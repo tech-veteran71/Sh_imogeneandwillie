@@ -1,12 +1,14 @@
 <a href="{{ product.url }}" class="product-item swiper-slide {% if section.settings.toggle_on_hover %}product-toggle{% endif %}">
   <div class="img-wrap">
-    {% render 'responsive--image' with product.featured_media as image, max_width: 360, class: 'product-image featured-image' %}
+    {% render 'responsive--image' with product.featured_media as image, max_width: 360, class: 'featured-image' %}
     {% if product.images[1] != blank %}
-      {% render 'responsive--image' with product.images[1] as image, max_width: 360, class: 'product-toggle-image product-image' %}
+      {% render 'responsive--image' with product.images[1] as image, max_width: 360, class: 'product-toggle-image' %}
     {% endif %}
   </div>
   <div class="product-info">
     <h4 class="product-title">{{ product.title }}</h4>
-    <p class="description">straight through the thigh and knee</p>
+    {% if product.metafields.descriptors.subtitle != blank %}
+    <p class="description">{{ product.metafields.descriptors.subtitle }}</p>
+    {% endif %}
   </div>
 </a>
