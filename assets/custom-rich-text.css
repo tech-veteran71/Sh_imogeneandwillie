@@ -1,7 +1,7 @@
 .custom-rich-text {
   background-color: var(--color-light-wheat);
-  padding: 40px 0;
-  margin-bottom: 85px;
+  padding: 4.5rem 0;
+  margin-bottom: 8.5rem;
 }
 .fit-guide-page .custom-rich-text {
   margin-bottom: 0;
@@ -10,12 +10,12 @@
   display: none;
 }
 .custom-rich-text .text {
-  font-size: 20px;
+  font-size: 2rem;
   font-family: var(--font-arno-display);
   color: var(--color-normal-black);
-  line-height: 1.4;
-  letter-spacing: 2px;
-  max-width: 540px;
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+  max-width: 54rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -25,25 +25,25 @@
 
 @media screen and (max-width: 767px) {
   .custom-rich-text {
-    padding: 35px 0 28px;
+    padding: 3.5rem 0 2.8rem;
     margin-bottom: 0;
   }
   .custom-content .custom-rich-text {
     display: block;
   }
   .custom-rich-text .link-text {
-    font-size: 13px;
+    font-size: 1.3rem;
     color: var(--color-dim-black);
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     text-transform: uppercase;
     font-family: var(--font-din);
     display: block;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     line-height: 1;
   }
   .custom-rich-text .icon-wrap {
-    width: 24px;
+    width: 2.4rem;
     margin: 0 auto;
   }
   .custom-rich-text .icon-wrap svg {
@@ -54,13 +54,11 @@
     fill: var(--color-dim-black);
   }
   .custom-rich-text .text {
-    font-size: 18px;
-    max-width: 280px;
     color: var(--color-dim-black);
   }
   .custom-rich-text .link {
     display: block;
-    margin-top: 24px;
+    margin-top: 2.4rem;
     text-decoration: none;
   }
 }

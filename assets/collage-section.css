@@ -1,11 +1,11 @@
 .collage-section {
-  padding-bottom: 75px;
+  padding-bottom: 8rem;
 }
 .fit-guide-page .collage-section {
-  padding-top: 75px;
+  padding-top: 8rem;
 }
 .custom-content .collage-section {
-  padding: 95px 0 110px;
+  padding: 9.5rem 0 11rem;
   background-color: var(--color-Xlight-wheat)
 }
 .custom-content .collage-section .alpha {
@@ -17,7 +17,7 @@
   flex: 50.5%;
 }
 .collage-section .container {
-  max-width: 1920px;
+  max-width: 192rem;
   margin: 0 auto;
 }
 .collage-section .wrapper {
@@ -29,7 +29,7 @@
 .collage-section .alpha {
   max-width: 42%;
   flex: 42%;
-  padding: 0 10px;
+  padding: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,46 +46,46 @@
 }
 .fit-guide-page .collage-section .pre-title {
   display: block;
-  font-size: 13px;
-  margin-bottom: 5px;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
   font-family: var(--font-gothic);
   color: var(--color-normal-black);
-  letter-spacing: 2px;
+  letter-spacing: 0.13rem;
 }
 .collage-section .main-title {
-  font-size: 28px;
+  font-size: 2.8rem;
   font-family: var(--font-arno-display);
-  letter-spacing: 3px;
+  letter-spacing: 0.28rem;
   color: var(--color-normal-black);
   margin: 0;
   line-height: 1;
 }
 .collage-section .text {
-  font-size: 20px;
+  font-size: 2rem;
   font-family: var(--font-arno-display);
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   color: var(--color-dim-black);
-  max-width: 335px;
-  margin: 8px auto 35px;
+  max-width: 33.5rem;
+  margin: 0.8rem auto 3.5rem;
   line-height: 1.4;
 }
 .custom-content .collage-section .text {
   margin-bottom: 0;
-  margin-top: 22px;
+  margin-top: 2.2rem;
 }
 .collage-section .btn {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: var(--font-din);
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 10px;
-  border: 1px solid var(--color-normal-black);
+  padding: 0 1rem;
+  border: 0.1rem solid var(--color-normal-black);
   color: var(--color-normal-black);
-  max-width: 410px;
-  height: 55px;
+  max-width: 41rem;
+  height: 5.5rem;
   margin: 0 auto;
   text-decoration: none;
 }
@@ -112,75 +112,60 @@
   height: 100%;
   display: block;
 }
-@media screen and (max-width: 1600px) {
-  .custom-content .collage-section .beta {
-    max-width: 55.5%;
-    flex: 55.5%;
-    height: 580px;
-  }
-}
-@media screen and (max-width: 1279px) {
-  .custom-content .collage-section .beta {
-    height: 460px;
-  }
-  .custom-content .collage-section .text {
-    max-width: 294px;
-    font-size: 18px;
-  }
-}
+
 @media screen and (max-width: 990px){
   .fit-guide-page .collage-section {
-    padding: 55px 0;
+    padding: 5.5rem 0;
   }
   .custom-content .collage-section {
-    padding: 70px 0 85px;
+    padding: 7rem 0 8.5rem;
   }
   .collage-section .alpha {
     max-width: 50%;
     flex: 50%;
-    padding: 0 35px;
+    padding: 0 3.5rem;
   }
   .custom-content .collage-section .alpha {
-    padding: 0 20px;
+    padding: 0 2rem;
   }
   .custom-content .collage-section .main-title {
-    font-size: 24px;
+    font-size: 2.4rem;
   }
   .collage-section .beta {
     max-width: 50%;
     flex: 50%;
   }
   .custom-content .collage-section .beta {
-    height: 360px;
+    height: 36rem;
   }
   .collage-section .main-title {
-    font-size: 26px;
+    font-size: 2.6rem;
   }
   .collage-section .text {
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
     color: var(--color-dim-black);
-    max-width: 335px;
-    margin: 8px auto 20px;
+    max-width: 33.5rem;
+    margin: 0.8rem auto 2rem;
   }
   .custom-content .collage-section .text {
-    max-width: 273px;
-    font-size: 16px;
-    letter-spacing: 1px;
+    max-width: 27.3rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
   }
   .collage-section .btn {
-    font-size: 12px;
-    max-width: 300px;
-    height: 50px;
+    font-size: 1.2rem;
+    max-width: 30rem;
+    height: 5rem;
   }
 }
 @media screen and (max-width: 767px){
   .collage-section {
-    padding-bottom: 40px;
-    padding-top: 35px;
+    padding-bottom: 4rem;
+    padding-top: 3.5rem;
   }
   .fit-guide-page .collage-section {
-    padding: 35px 0 40px;
+    padding: 3.5rem 0 4rem;
   }
   .collage-section .mob-image {
     display: block;
@@ -190,12 +175,8 @@
   }
   .collage-section .pre-title {
     display: block;
-    font-size: 11px;
-    letter-spacing: 2px;
-    font-family: var(--font-gothic);
-    color: var(--color-normal-black);
-    margin-top: 0;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
   }
   .collage-section .wrapper {
     flex-wrap: wrap;
@@ -209,28 +190,28 @@
     padding: 0;
   }
   .collage-section .beta {
-    margin-bottom: 22px;
+    margin-bottom: 2.2rem;
   }
   .collage-section .container {
-    padding: 0 15px;
+    padding: 0 1.5rem;
   }
   .collage-section .btn {
-    max-width: 360px;
-    height: 55px;
+    max-width: 36rem;
+    height: 5.5rem;
     display: none;
   }
   .collage-section .show-btn {
     display: flex;
   }
   .collage-section .text {
-    max-width: 280px;
-    margin: 8px auto 15px;
+    max-width: 28rem;
+    margin: 0.8rem auto 1.5rem;
   }
   .collage-section .content-wrap {
     width: 100%;
   }
   .custom-content .collage-section {
-    padding: 0 0 60px;
+    padding: 0 0 6rem;
   }
   .custom-content .collage-section .container {
     padding: 0;
@@ -242,15 +223,15 @@
   }
   .custom-content .collage-section .beta {
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
   }
   .custom-content .collage-section .main-title {
-    font-size: 26px;
-    letter-spacing: 2px;
+    font-size: 2.6rem;
+    letter-spacing: 0.2rem;
   }
   .custom-content .collage-section .text {
-    max-width: 290px;
-    font-size: 15px;
-    margin-top: 16px;
+    max-width: 29rem;
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
   }
 }

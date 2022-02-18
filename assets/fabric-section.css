@@ -5,17 +5,17 @@
   background-color: var(--color-Xlight-wheat);
 }
 .fabric-section .container {
-  max-width: 1600px;
+  max-width: 160rem;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 2rem;
 }
 .fabric-section .title-wrap {
   margin-bottom: 4em;
 }
 .fabric-section .main-title {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-family: var(--font-din);
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
   color: var(--color-normal-black);
   margin: 0;
@@ -52,16 +52,16 @@
   width: 100%;
 }
 .fabric-section .fabric-block .title {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-family: var(--font-din);
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   color: var(--color-normal-black);
   margin: 0;
   text-transform: uppercase;
 }
 .fabric-section .fabric-block .text {
-  font-size: 15px;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
   font-family: var(--font-gothic);
   color: var(--color-normal-black);
   margin: 1em 0 1.25em;
@@ -69,9 +69,9 @@
   text-align: center;
 }
 .fabric-section .fabric-block .link {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: var(--font-din);
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   color: var(--color-blue);
   text-transform: uppercase;
   text-decoration: none;
@@ -83,18 +83,18 @@
 }
 @media screen and (min-width: 1400px) {
   .fabric-section {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 1400px) {
   .fabric-section .fabric-block .title {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
   .fabric-section .fabric-block .text {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .fabric-section .fabric-block .link {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 1279px) {
@@ -107,14 +107,14 @@
     max-width: 26em;
   }
   .fabric-section .fabric-block .title {
-    font-size: 16px;
-    letter-spacing: 2px;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
   }
   .fabric-section .fabric-block .text {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .fabric-section .fabric-block .link {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 767px) { 
