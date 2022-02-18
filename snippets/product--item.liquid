@@ -1,9 +1,0 @@
-<a href="{{ product.url }}" class="card product--item swiper-slide">
-  <div class="img-wrap">
-    {% render 'responsive--image' with product.featured_media as image, max_width: 360, class: 'featured-image' %}
-  </div>
-  <div class="text-wrap">
-    <p class="text">{{ product.title }}</p>
-    <span class="price">{{ product.price | money }}</span>
-  </div>
-</a>

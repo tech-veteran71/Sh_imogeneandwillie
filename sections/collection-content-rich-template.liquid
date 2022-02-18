@@ -20,7 +20,12 @@
         <div class="content-rich-grid">
         {%- for product in collection.products -%}
           {% if forloop.index == 1 %}
-            {% render 'product-item', product: product, productCard: 'large-item' %}
+            {% render 'product-card',
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: true
+                  %}
             <div class="text-wrap">
               <p class="content-rich-text">{{ section.settings.mob_text }}</p>
             </div>
@@ -28,7 +33,12 @@
         {% endfor %}
         {%- for product in collection.products -%}
           {% if forloop.index > 1 %}
-            {% render 'product-item', product: product, productCard: 'large-item' %}
+            {% render 'product-card',
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: true
+                  %}
           {% endif %}
         {% endfor %}
         </div>

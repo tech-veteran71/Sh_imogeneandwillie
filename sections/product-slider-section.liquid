@@ -24,16 +24,13 @@
         <div class="product-slider">
           <div class="swiper-wrapper">
             {% for product in collections[section.settings.choose_collection].products %}
-              <a class="product-item swiper-slide" href="{{ product.url }}">
-                <div class="image">
-                    {% render 'responsive--image' with product.featured_media as image, max_width: 909, class: 'img' %}
-                </div>
-                <div class="info-wrap">
-                  <h2 class="product-title">{{ product.title }}</h2>
-                  <span class="product-description">100% cotton</span>
-                  <span class="price">{{ product.price | money }}</span>
-                </div>
-              </a>
+              {% render 'product-card'
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: false,
+                    swiper_slide: true
+                  %}
             {% endfor %}
           </div>
           <div class="swiper-navigation">

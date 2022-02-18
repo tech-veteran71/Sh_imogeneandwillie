@@ -1,49 +1,47 @@
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 
-{{ 'main-collection.css' | asset_url | stylesheet_tag }}
-{% assign productPerRow = section.settings.product_per_row %}
-{% assign collectionTitle = section.settings.collection_title %}
-{% assign productCount = collection.all_products_count %}
-<div class='main-collection'>
-  <div class="collection-container">
-    <div class="wrapper">
-      {% render 'collection-header', title: collectionTitle, totalProducts: productCount  %}
-      <div class="collection-filter">
-        <span class="filter">filter</span>
+<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+  {{ 'component-facets.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
+
+<div id="ProductGridContainer">
+  {%- paginate collection.products by 24 -%}
+      <div class="collection-main">
+        <div class="loading-overlay gradient"></div>
+          <div class="collection-main__wrapper">
+            <div class="collection-main__heading-filter" id="main-collection-filters" data-id="{{ section.id }}">
+              {% render 'facets', results: collection, enable_filtering: true, enable_sorting: false, collapse_on_larger_devices: true %}
+            </div>
+            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--2">
+              {%- for product in collection.products -%}
+                <li class="product-card">
+                  {% render 'product-card',
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: true
+                  %}
+                </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- if paginate.pages > 1 -%}
+          {% render 'pagination', paginate: paginate, anchor: '' %}
+        {%- endif -%}
       </div>
-      <div class="product-gallery">
-        <div class="fit-grid">
-          {%- paginate collection.products by productCount -%}
-            {%- for product in collection.products -%}
-              {% render 'product-item', product: product, productCard: 'large-item' %}
-            {% endfor %}
-          {% endpaginate %}
-        </div>
-      </div>
-    </div>
-  </div>
+  {%- endpaginate -%}
 </div>
-  
+
 {% schema %}
 {
   "name": "Denim Collection 2 Up",
   "settings": [
-    {
-      "type": "header",
-      "content": "Content",
-      "info": "-------"
-    },
-    {
-      "type": "text",
-      "id": "collection_title",
-      "label": "Collection Title"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Denim Collection 2 Up",
-      "category": "Denim Collection 2 Up"
-    }
   ]
 }
 {% endschema %}
-  

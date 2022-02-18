@@ -11,18 +11,13 @@
         <div class="swiper-wrapper">
           {% if section.settings.choose_collection != blank %}
             {% for product in collections[section.settings.choose_collection].products %}
-              <a href="{{ product.url }}" class="product-item swiper-slide">
-                <div class="img-wrap">
-                  {% render 'responsive--image' with product.featured_image as image, max_width: 360, class: 'img featured-img' %}
-                  {% if product.images[1] != blank %}
-                    {% render 'responsive--image' with product.images[1] as image, max_width: 360, class: 'img toggle-img' %}
-                  {% endif %}
-                </div>
-                <div class="content-wrap">
-                  <h4 class="product-title">{{ product.title }}</h4>
-                  <p class="product-description">straight through the thigh and knee</p>
-                </div>
-              </a>
+              {% render 'product-card' with section, product: block.settings.choose_product,
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: false,
+                    swiper_slide: true
+                  %}
             {% endfor %}
           {% else %}
             {% for index in (1..5) %}
