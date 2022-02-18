@@ -21,20 +21,15 @@
         </div>
       {% endif %}
       <div class="gallery">
-        {% if section.settings.choose_collection != blank %}
           {% for product in collections[section.settings.choose_collection].products limit: section.settings.products_to_show %}
-            {% render 'product--card', product: product %}
+            {% render 'product-card',
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: false,
+                    swiper_slide: false
+                  %}
           {% endfor %}
-        {% else %}
-          {% for index in (1..6) %}
-            <div class="product-item">
-              <div class="img-wrap">
-                {% assign placeholder = 'product-' | append: index %}
-                {{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}
-              </div>
-            </div>
-          {% endfor %}
-        {% endif %}
       </div>
       {% if section.settings.btn_text != blank %}
         <a href="{{ section.settings.btn_url }}" class="button">{{ section.settings.btn_text }}</a>

@@ -1,0 +1,107 @@
+{{ 'main-collection.css' | asset_url | stylesheet_tag }}
+
+{% assign collectionTitle = section.settings.collection_title %}
+{% assign productCount = collection.all_products_count %}
+
+{% assign lastProductGridCount = productCount | minus: 16 %}
+
+<div class='main-collection' data-main-collection>
+  <div class="collection-container">
+    <div class="wrapper">
+      {% render 'collection-header', title: collectionTitle, totalProducts: productCount  %}
+      <div class="product-gallery">
+        <div class="featured-gallery">
+          <div class="grid-1 product-grid">
+            {%- for product in collection.products -%}
+              {% if forloop.index < 4 %}
+                {% render 'product-item', product: product %}      
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="grid-2">
+            {%- for product in collection.products -%}
+              {% if forloop.index >= 4 and forloop.index <= 5 %}
+                {% render 'product-item', product: product %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="review-wrap">
+            <div class="customer-review">
+              <p class="review">{{ section.settings.review }}</p>
+              <span class="customer-name">{{ section.settings.customer_name }}</span>
+            </div>
+          </div>
+          <div class="grid-3 product-grid">
+            {%- for product in collection.products -%}
+              {% if forloop.index >= 6 and forloop.index <= 11 %}
+                {% render 'product-item', product: product %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="grid-4 product-grid">
+            {%- for product in collection.products -%}
+              {% if forloop.index >= 12 and forloop.index <= 14 %}
+                {% render 'product-item', product: product %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="grid-5 product-grid">
+            {%- for product in collection.products -%}
+              {% if forloop.index >= 15 and forloop.index <= 16 %}
+                {% render 'product-item', product: product %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="grid-6">
+            {%- paginate collection.products by lastProductGridCount -%}
+              {%- for product in collection.products -%}
+                {% if forloop.index > 16 %}
+                  {% render 'product-item', product: product %}
+                {% endif %}
+              {% endfor %}
+            {% endpaginate %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured Collection",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "collection_title",
+      "label": "Collection Title"
+    },
+    {
+      "type": "header",
+      "content": "Review",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "review",
+      "label": "Review"
+    },
+    {
+      "type": "text",
+      "id": "customer_name",
+      "label": "Customer Name"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Collection",
+      "category": "Featured Collection"
+    }
+  ]
+}
+{% endschema %}

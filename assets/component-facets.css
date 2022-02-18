@@ -1,9 +1,7 @@
 .facets-container {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
+  position: relative;
+  z-index: 100;
 }
-
 .active-facets-mobile {
   margin-bottom: 0.5rem;
 }
@@ -480,6 +478,7 @@ a.active-facets__button.focused .active-facets__button-inner,
 .mobile-facets__wrapper {
   margin-left: 0;
   display: flex;
+  justify-content: flex-end;
 }
 
 .mobile-facets__wrapper .disclosure-has-popup[open] > summary::before {
@@ -816,8 +815,7 @@ input.mobile-facets__checkbox {
 
 .product-count {
   align-self: center;
-  position: relative;
-  text-align: right;
+  text-align: center;
 }
 
 .product-count__text {

@@ -5,12 +5,12 @@
 }
 
 .card-information + .card {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.2rem;
 }
 
 @media screen and (min-width: 750px) {
   .card-information + .card {
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.2rem;
   }
 }
 
@@ -157,46 +157,13 @@
   margin: 0;
 }
 
-.card__text-spacing > *:not(.overlay-card) + * {
-  margin-top: 1.5rem;
-}
-
 .card__text {
   margin: 0;
   word-break: break-word;
 }
 
-.card-information__text {
-  display: block;
-  margin: 0;
-  padding-right: 1.2rem;
-}
-
 .card-information__wrapper {
-  width: 100%;
-}
-
-.card-information__wrapper > * {
-  line-height: 1.4;
-  color: rgb(var(--color-foreground));
-}
-
-.card-information__wrapper > .price {
-  color: rgb(var(--color-foreground));
-}
-
-.card-information__wrapper > .rating {
-  margin-top: 0.4rem;
-}
-
-.card-information__wrapper
-  > *:not(.visually-hidden:first-child)
-  + *:not(.rating) {
-  margin-top: 0.7rem;
-}
-
-.card-information__wrapper .caption {
-  letter-spacing: 0.07rem;
+  width: 75%;
 }
 
 .card-wrapper {
@@ -209,6 +176,7 @@
 
 .card-wrapper .card-information {
   order: 1;
+  position: relative;
 }
 
 .card-wrapper .full-unstyled-link::after {
@@ -259,16 +227,17 @@
 }
 
 .card__badge {
-  bottom: 1rem;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
-  left: 1rem;
+  right: 0;
   position: absolute;
+  margin-top: 0;
 }
 
 .card__badge > * {
-  margin-right: 1rem;
-  margin-top: 0.5rem;
+  margin-right: 0rem;
+  margin-top: 0rem;
 }
 
 .overlay-card {
@@ -310,11 +279,6 @@
     transform: scale(1.03);
   }
 
-  .card-wrapper:hover .card-information__text {
-    text-decoration: underline;
-    text-underline-offset: 0.3rem;
-  }
-
   .card-wrapper:hover .card--search img {
     transform: scale(1.05);
   }
@@ -328,4 +292,31 @@
     background-color: rgba(var(--color-card-hover), 0.06);
     transition: background-color var(--duration-long) ease;
   }
+}
+
+.card-information__text {
+  font-size: 1.5rem;
+  letter-spacing:  0.225rem;
+  color: var(--color-normal-black);
+  line-height: 1.7rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0;
+}
+
+.card-information__subtext {
+  font-size: 1.3rem;
+  font-family: var(--font-gothic);
+  color: var(--color-dim-black);
+  margin: 0;
+  line-height: 1.6rem;
+  letter-spacing: 0.16rem;
+}
+
+.card-information__wrapper > .price {
+  font-size: 1.4rem;
+  font-family: var(--font-din);
+  color: var(--color-dim-black);
+  margin: 0;
+  line-height: 2.5rem;
+  letter-spacing: 0.315rem;
 }

@@ -1,4 +1,5 @@
 {{ 'product-recommendation.css' | asset_url | stylesheet_tag }}
+
 <product-recommendations  class="product-recommendations" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
   <div class="main-container">
     {% if section.settings.pre_title != blank %}
@@ -9,8 +10,12 @@
     {% endif %}
     <div class="product-recommendation__grid">
         {% for recommendation in recommendations.products %}
-          {% render 'product--item',
-            product: recommendation %}
+            {% render 'product-card',
+                    product: recommendation,
+                    show_title: false,
+                    show_subtitle: false,
+                    show_price: false
+                  %}
         {% endfor %}
       <div class="swiper-scrollbar"></div>
     </div>

@@ -1,7 +1,6 @@
 .shop-info {
-  font-size: 1.2vw;
   background-color: var(--color-Xlight-wheat);
-  padding: 8.25em 0 6.25em;
+  padding: 16rem 0 13rem;
   overflow: hidden;
 }
 .shop-info .wrapper {
@@ -13,8 +12,8 @@
   position: relative;
 }
 .shop-info .beta {
-  max-width: 28.7em;
-  flex: 28.7em;
+  max-width: 40%;
+  flex: 40%;
   position: relative;
   z-index: 1;
 }
@@ -25,30 +24,30 @@
   object-fit: cover;
 }
 .shop-info .header-wrap {
-  max-width: 28em;
-  margin-bottom: 6em;
+  padding-right: 12rem;
+  margin-bottom: 12rem;
 }
 .shop-info .main-title {
-  font-size: 1.4em;
+  font-size: 2.8rem;
   font-family: var(--font-arno-display);
-  letter-spacing: 0.15em;
+  letter-spacing: 0.28rem;
   color: var(--color-normal-black);
   text-transform: lowercase;
   margin-top: 0;
-  margin-bottom: 0.4em;
+  margin-bottom: 2rem;
 }
 .shop-info .header-wrap .text {
-  font-size: 1em;
+  font-size: 2rem;
   font-family: var(--font-arno-display);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.2em;
   color: var(--color-normal-black);
   margin: 0;
-  line-height: 1.4;
+  line-height: 2.5rem;
 }
 .shop-info .heading {
-  font-size: 0.7em;
+  font-size: 1.4rem;
   font-family: var(--font-din);
-  letter-spacing: 0.15em;
+  letter-spacing: 0.42rem;
   color: var(--color-normal-black);
   text-transform: uppercase;
   font-weight: 600;
@@ -58,7 +57,7 @@
 .shop-info .heading::after {
   content: '';
   width: 12.25em;
-  height: 1px;
+  height: 0.1rem;
   position: absolute;
   background-color: var(--color-dim-black);
   left: 0;
@@ -91,15 +90,15 @@
 .shop-info .sub-title {
   margin-top: 0;
   font-family: var(--font-arno-display);
-  margin-bottom: 0.7em;
-  font-size: 20px;
-  letter-spacing: 0.15em;
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
   color: var(--color-normal-black);
   line-height: 1;
 }
 .shop-info .column .text {
-  font-size: 14px;
-  letter-spacing: 0.15em;
+  font-size: 1.4rem;
+  letter-spacing: 0.175rem;
 }
 .shop-info .days, .shop-info .timing {
   color: var(--color-dim-black);
@@ -114,11 +113,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.8rem;
   line-height: 1;
 }
 .shop-info .details-wrap {
-  margin-bottom: 1.3em;
+  margin-bottom: 2.6rem;
 }
 .shop-info .details-wrap:last-child {
   margin-bottom: 0;
@@ -134,56 +133,27 @@
   display: block;
   font-family: var(--font-gothic);
   line-height: 1;
-  margin-bottom: 0.8em;
+  margin-bottom: 1.4em;
 }
 .shop-info .details-wrap .info span {
   font-family: var(--font-din);
 } 
+.nashville-container {
+  padding: 0 10rem;
+}
 
-@media screen and (min-width: 1400px) {
-  .shop-info {
-    font-size: 20px;
-  }
+.shop-info .column:first-child {
+  max-width: 55%;
+  flex: 55%;
 }
-@media screen and (min-width: 1400px) and (max-width: 1600px) {
-  .nashville-container {
-    padding: 0 100px;
-  }
-  .shop-info .column {
-    padding: 0 1em;
-  }
+.shop-info .column:last-child {
+  max-width: 45%;
+  flex: 45%;
 }
-@media screen and (min-width: 1279px) and (max-width: 1400px) {
-  .nashville-container {
-    padding: 0 90px;
-  }
-  .shop-info .column {
-    padding: 0 1em;
-  }
-  .shop-info .column:first-child {
-    max-width: 55%;
-    flex: 55%;
-  }
-  .shop-info .column:last-child {
-    max-width: 45%;
-    flex: 45%;
-  }
-}
-@media screen and (max-width: 1279px) {
-  .shop-info {
-    font-size: 1.5vw;
-  }
-  .shop-info .column {
-    padding: 0 1em;
-  }
-  .shop-info .column .text {
-    letter-spacing: .05em;
-    font-size: 12px;
-  }
-}
+
 @media screen and (max-width: 990px) {
-  .shop-info {
-    font-size: 1.6vw;
+  .nashville-container {
+    padding: 0 5rem;
   }
   .shop-info .column {
     padding: 0 0.5em;
@@ -194,30 +164,10 @@
     max-width: 58%;
     flex: 58%;
   }
-  .shop-info .beta {
-    max-width: 24.7em;
-    flex: 24.7em;
-  }
-  .shop-info .heading {
-    font-size: 0.9em;
-  }
-  .shop-info .sub-title {
-    font-size: 1.2em;
-  }
-  .shop-info .column .text {
-    font-size: 10px;
-    letter-spacing: 1.5px;
-  }
-  .shop-info .main-title {
-    font-size: 1.6em;
-  }
-  .shop-info .header-wrap .text {
-    font-size: 1.1em;
-  }
 }
 @media screen and (max-width: 767px) {
   .shop-info {
-    padding: 25px 0 40px;
+    padding: 2.5rem 0 4rem;
   }
   .shop-info .wrapper {
     flex-wrap: wrap;
@@ -231,23 +181,23 @@
   }
   .shop-info .header-wrap {
     max-width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
   }
   .shop-info .main-title {
-    font-size: 26px;
+    font-size: 2.6rem;
     text-align: center;
   }
   .shop-info .header-wrap .text {
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
   }
   .shop-info .shop-details::after {
     content: unset;
   }
   .shop-info .shop-details {
     flex-wrap: wrap;
-    border: 1px solid var(--color-normal-black);
-    padding: 12px 16px;
+    border: 0.1rem solid var(--color-normal-black);
+    padding: 1.2rem 1.6rem;
   }
   .shop-info .shop-details .column {
     max-width: 100%;
@@ -255,26 +205,26 @@
     padding: 0;
   }
   .shop-info .heading {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .shop-info .sub-title {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
   }
   .shop-info .shop-duration {
-    margin: 22px 0;
+    margin: 2.2rem 0;
   }
   .shop-info .heading::after {
-    width: 220px;
+    width: 22rem;
   }
   .shop-info .details-wrap {
-    margin-bottom: 22px;
+    margin-bottom: 2.2rem;
   }
   .shop-info .content-wrap {
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
   }
   .shop-info .details-wrap span {
-    margin-bottom: 6px;
+    margin-bottom: 0.6rem;
     text-transform: capitalize;
   }
   .shop-info .timing.text {

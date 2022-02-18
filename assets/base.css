@@ -2279,16 +2279,19 @@ details-disclosure > details {
 
 .badge {
   border: 1px solid transparent;
-  border-radius: 4rem;
+  border-radius: 0;
   display: inline-blocsk;
   font-size: 1.2rem;
   line-height: 1;
-  padding: 0.6rem 1.3rem;
+  padding: 0.3rem 1.3rem;
   text-align: center;
-  background-color: rgb(var(--color-badge-background));
-  border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
+  background-color: var(--color-dim-black);
   color: rgb(var(--color-foreground));
   word-break: break-word;
+  font-family: var(--font-din);
+  text-transform: lowercase;
+  font-size: 1.4rem;
+  letter-spacing: 0.21rem;
 }
 
 .gradient {
@@ -2430,7 +2433,4 @@ details-disclosure > details {
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-@media screen and (min-width: 990px) {
 }

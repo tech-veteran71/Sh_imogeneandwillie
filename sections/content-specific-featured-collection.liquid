@@ -7,12 +7,24 @@
         <div class="swiper-wrapper">
           {% if section.settings.collection != blank %}
             {% for product in collections[section.settings.collection].products limit: section.settings.total_product %}
-              {% render 'product--card' with section, product: product %}
+              {% render 'product-card',
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: false,
+                    swiper_slide: true
+                  %}
             {% endfor %}
             {% else %}
               {% for block in section.blocks %}
                 {% if forloop.index <= section.settings.total_product %}
-                  {% render 'product--card' with section, product: block.settings.choose_product %}
+                  {% render 'product-card' with section, product: block.settings.choose_product,
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: false,
+                    swiper_slide: true
+                  %}
                   {% else %}
                     {% break %}
                 {% endif %}
