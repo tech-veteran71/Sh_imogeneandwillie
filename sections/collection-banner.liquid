@@ -1,13 +1,16 @@
 {{ 'collection-banner.css' | asset_url | stylesheet_tag }}
 
 <style>
+  .collection-main__bg {
+      background-image: url("{{ section.settings.desk_bg_img | img_url : 'master' }}");
+    }
   @media screen and (max-width: 767px) {
-    .collection-banner {
+    .collection-main__bg {
       background-image: url("{{ section.settings.mob_bg_img | img_url : 'master' }}") !important;
     }
   }
 </style>
-
+{% comment %}
 <div class="collection-banner" style="background-image: url('{{ section.settings.desk_bg_img | img_url : 'master' }}')">
   <div class="page-width">
     <div class="wrapper">
@@ -19,6 +22,7 @@
     </div>
   </div>
 </div>
+{% endcomment %}
 
 {% schema %}
 {

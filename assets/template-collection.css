@@ -56,7 +56,7 @@
 }
 
 .collection-main__wrapper {
-  padding: 0 0.8rem;
+  padding: 2rem 0.8rem;
   background-color: var(--color-Xlight-wheat);
 }
 
@@ -101,6 +101,15 @@
   letter-spacing: 0.18rem;
 }
 
+.collection-main__bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: top center;
+    padding-top: 20rem;
+    padding-bottom: 0;
+  }
+
 @media screen and (min-width: 990px) {
   .collection-grid--3 {
     display: grid;
@@ -117,10 +126,17 @@
   }
   .collection-main__wrapper {
     padding: 6rem 8rem;
-    margin-top: -25%;
+/*     margin-top: -25%; */
   }
   .mobile-facets__open svg {
     display: none;
+  }
+  .collection-main__bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 25%;
+    padding-bottom: 8rem;
   }
 }
 

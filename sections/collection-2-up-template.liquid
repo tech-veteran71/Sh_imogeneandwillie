@@ -10,7 +10,7 @@
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 
-<div id="ProductGridContainer">
+<div id="ProductGridContainer" class="collection-main__bg">
   {%- paginate collection.products by 24 -%}
       <div class="collection-main">
         <div class="loading-overlay gradient"></div>
