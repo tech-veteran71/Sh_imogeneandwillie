@@ -11,17 +11,19 @@
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/oneyearwear_-3_1200x_8fe7cdec-d744-477d-8fcc-45b0de1f506d.png",
         "mob_img": "shopify:\/\/shop_images\/oneyearwear_-3_1200x_8fe7cdec-d744-477d-8fcc-45b0de1f506d.png",
+        "img_url": "",
         "img_width": "full"
       }
     },
     "16420192449345314f": {
       "type": "collage-section",
-      "disabled": true,
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "",
-        "pre_title": "",
-        "main_title": "",
+        "desk_img": "shopify:\/\/shop_images\/webhero_61f13245-9bc8-400d-87db-1babe2acc8af.jpg",
+        "img_url": "",
+        "pre_title": "what's good",
+        "main_title": "this is a title",
         "text": "",
         "btn_text": "",
         "btn_url": "",
@@ -35,15 +37,17 @@
         "fabb6a04-81c7-4903-9324-2d3d0d9cca6c": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_306_600x_c2143d29-f89e-4f1d-aa3f-50941cc006aa.png",
-            "btn_text": "SHOP WOMEN"
+            "img": "shopify:\/\/shop_images\/w_84aedc5e-6b40-4013-a851-528b2a9b3d3c.jpg",
+            "btn_text": "SHOP WOMEN",
+            "link_url": "shopify:\/\/collections\/bottom-size-26"
           }
         },
         "f7301a30-e411-47f8-aeb4-0bd056ff8acb": {
           "type": "collection_item",
           "settings": {
             "img": "shopify:\/\/shop_images\/oneyearwear_-2_600x_1364d848-7322-4818-b3af-c43d6d968362.png",
-            "btn_text": "SHOP MEN"
+            "btn_text": "SHOP MEN",
+            "link_url": ""
           }
         }
       },
@@ -92,7 +96,10 @@
       ],
       "settings": {
         "bg_color": "",
-        "change_alignment": false
+        "change_alignment": false,
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
       }
     },
     "16420210370174054f": {
@@ -127,47 +134,16 @@
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/tailorshop_-3_600x_1d046fae-7814-43c8-a181-89d280cef21e.png",
         "mob_img": "shopify:\/\/shop_images\/oneyearwear_-2_600x_1364d848-7322-4818-b3af-c43d6d968362.png",
+        "img_url": "",
         "main_title": "",
         "text": "",
-        "link_text": "FIND YOUR FIT",
-        "link_url": ""
+        "link_text": "FIND YOUR FIT"
       }
     },
     "16420210303320bd50": {
       "type": "image-gallery-with-text",
-      "blocks": {
-        "9c55aa60-fcdf-4838-be4d-37edce16e947": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044_600x_0fc98e5b-6cff-49a2-9024-5decddb40581.png"
-          }
-        },
-        "26bb7d96-2051-4f72-b3b8-b98560f1bca7": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/sewing_team__15_of_65_900x_0e2b8120-f0b2-4b67-b08c-bc6b4b8b8411.png"
-          }
-        },
-        "ae3a559c-d467-40bb-8886-5e28347cf2db": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_9_600x_01a8af93-7e15-4227-af5d-50a3e46f27ff.png"
-          }
-        },
-        "07100949-0d91-48f1-9505-295f15b80d94": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/desktop_62771f5a-eea1-49cc-aedb-d7434d3a0133.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "9c55aa60-fcdf-4838-be4d-37edce16e947",
-        "26bb7d96-2051-4f72-b3b8-b98560f1bca7",
-        "ae3a559c-d467-40bb-8886-5e28347cf2db",
-        "07100949-0d91-48f1-9505-295f15b80d94"
-      ],
       "settings": {
+        "choose_collection": "",
         "title": "BRIGHTER DAYS",
         "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
         "btn_text": "SHOP Collection",
@@ -213,14 +189,6 @@
       "type": "main-collection",
       "disabled": true,
       "settings": {
-        "fit_guide_img": "shopify:\/\/shop_images\/Fit_Guide_600x_d53c4387-2640-4c01-91d5-b49f0b3c143c.png",
-        "fit_guide_link": "",
-        "fabric_guide_img": "shopify:\/\/shop_images\/Fabric_Guide_600x_bbcc93de-aec7-4914-9122-7f328f7808ad.png",
-        "fabric_guide_link": "",
-        "collection_title": "",
-        "product_per_row": 2,
-        "review": "",
-        "customer_name": ""
       }
     },
     "164202362425ada59e": {
@@ -235,48 +203,6 @@
         "show_author": false,
         "soft_background": false,
         "show_view_all": true
-      }
-    },
-    "16420236648cd52c85": {
-      "type": "collage",
-      "blocks": {
-        "1642023664736cc53e-0": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/Screen_Shot_2021-07-09_at_4.06.10_PM_1200x_4ac9e28f-a403-4a8b-8b86-713e2823defd.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "1642023664736cc53e-1": {
-          "type": "product",
-          "settings": {
-            "product": "barton-slim-black-selvage-rinse",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "6beaadf2-afcd-4270-8d73-cf19f914ff75": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        }
-      },
-      "block_order": [
-        "1642023664736cc53e-0",
-        "1642023664736cc53e-1",
-        "6beaadf2-afcd-4270-8d73-cf19f914ff75"
-      ],
-      "settings": {
-        "heading": "denim in motion",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
       }
     },
     "16420238488bbdddd2": {
@@ -366,25 +292,10 @@
       "type": "explore-section",
       "settings": {
         "choose_collection": "bottom-size-25",
+        "choose_blog": "",
         "title": "fall '21 lookbook",
         "btn": "explore more",
         "url": ""
-      }
-    },
-    "164202473135cd3432": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "men's new arrivals",
-        "collection": "size-40",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
       }
     }
   },
@@ -402,12 +313,10 @@
     "1642022544b6ed537e",
     "1642022984c2b0aa1f",
     "164202362425ada59e",
-    "16420236648cd52c85",
     "16420238488bbdddd2",
     "1642024371e3f06093",
     "1642024485feacbb80",
     "164202451552dd6c74",
-    "1642024568a600685e",
-    "164202473135cd3432"
+    "1642024568a600685e"
   ]
 }

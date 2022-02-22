@@ -2595,11 +2595,11 @@ customElements.define("ajax-cart", AjaxCart);
   }
 
   // change the header background color on collection template page when scrolling
-  const header = document.querySelector('.template-collection .header-wrapper');
-  window.addEventListener('scroll', function() {
-    let scroll = window.scrollY;
-    if (header) header.style.backgroundColor = scroll > 0 ? '#F7F6F3' : 'transparent';
-  });
+  // const header = document.querySelector('.template-collection .header-wrapper');
+  // window.addEventListener('scroll', function() {
+  //   let scroll = window.scrollY;
+  //   if (header) header.style.backgroundColor = scroll > 0 ? '#F7F6F3' : 'transparent';
+  // });
 
   // product swiper script
   if(document.documentElement.clientWidth < 990) {
@@ -3051,10 +3051,15 @@ customElements.define("ajax-cart", AjaxCart);
   new Swiper('.denim-collection .product-swiper', {
     slidesPerView: 4,
     spaceBetween: 65,
+    freeMode: true,
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+    invert: false,
+    forceToAxis: true,
+  },
     breakpoints: {
       1300: {
         slidesPerView: 4,
@@ -3079,40 +3084,40 @@ customElements.define("ajax-cart", AjaxCart);
     }
   });
 
-  // change the header background color on fabric page when scrolling
-  const Fabricheader = document.querySelector('.custom-page .header-wrapper');
-  if (Fabricheader) {
-    window.addEventListener('scroll', function() {
-      let scroll = window.scrollY;
-      Fabricheader.style.backgroundColor = scroll > 0 ? '#F7F6F3' : 'transparent';
-      if(scroll > 0) {
-        Fabricheader.classList.add('custom-page-header');
-      } else {
-        Fabricheader.classList.remove('custom-page-header');
-      }
-    });
-  }
+  // // change the header background color on fabric page when scrolling
+  // const Fabricheader = document.querySelector('.custom-page .header-wrapper');
+  // if (Fabricheader) {
+  //   window.addEventListener('scroll', function() {
+  //     let scroll = window.scrollY;
+  //     Fabricheader.style.backgroundColor = scroll > 0 ? '#F7F6F3' : 'transparent';
+  //     if(scroll > 0) {
+  //       Fabricheader.classList.add('custom-page-header');
+  //     } else {
+  //       Fabricheader.classList.remove('custom-page-header');
+  //     }
+  //   });
+  // }
 
-  // push the header off on scroll
-  if(mainProduct) {
-    const productMedia = mainProduct.querySelector("[data-product-media]");
-    const productInfo = mainProduct.querySelector("[data-product-info]");
-    const pageHeader = document.getElementById("shopify-section-header");
+  // // push the header off on scroll
+  // if(mainProduct) {
+  //   const productMedia = mainProduct.querySelector("[data-product-media]");
+  //   const productInfo = mainProduct.querySelector("[data-product-info]");
+  //   const pageHeader = document.getElementById("shopify-section-header");
 
-    let previousValue = 0;
-    productMedia.addEventListener('scroll', handleScroll);
-    productInfo.addEventListener('scroll', handleScroll);
-    function handleScroll() {
-      if(previousValue < this.scrollTop) {
-        pageHeader.classList.add("shopify-section-header-hidden","shopify-section-header-fixed");
-      }else if(this.scrollTop === 0) {
-        pageHeader.classList.remove("shopify-section-header-fixed");
-      }else {
-        pageHeader.classList.remove("shopify-section-header-hidden");
-      }
-      previousValue = this.scrollTop;
-    }
-  }
+  //   let previousValue = 0;
+  //   productMedia.addEventListener('scroll', handleScroll);
+  //   productInfo.addEventListener('scroll', handleScroll);
+  //   function handleScroll() {
+  //     if(previousValue < this.scrollTop) {
+  //       pageHeader.classList.add("shopify-section-header-hidden","shopify-section-header-fixed");
+  //     }else if(this.scrollTop === 0) {
+  //       pageHeader.classList.remove("shopify-section-header-fixed");
+  //     }else {
+  //       pageHeader.classList.remove("shopify-section-header-hidden");
+  //     }
+  //     previousValue = this.scrollTop;
+  //   }
+  // }
 
   // read more content script
   if(mainProduct) {
@@ -3135,25 +3140,25 @@ customElements.define("ajax-cart", AjaxCart);
   }
 
   // collection page header
-  const templateCollection = document.querySelector(".template-collection");
-  if(templateCollection) {
-    const collectionHeader = templateCollection.querySelector(".header-wrapper");
-    let previousValue = 0;
-    window.addEventListener("scroll", handleScroll)
-    function handleScroll() {
-      let scrollY = window.scrollY;
-      if(previousValue < scrollY) {
-        collectionHeader.style.position = "unset";
-      } else if(scrollY === 0) {
-        collectionHeader.style.position = "fixed";
-        collectionHeader.style.top = "unset";
-      } else {
-        collectionHeader.style.position = "fixed";
-        collectionHeader.style.top = "0";
-      }
-      previousValue = scrollY;
-    }
-  }
+  // const templateCollection = document.querySelector(".template-collection");
+  // if(templateCollection) {
+  //   const collectionHeader = templateCollection.querySelector(".header-wrapper");
+  //   let previousValue = 0;
+  //   window.addEventListener("scroll", handleScroll)
+  //   function handleScroll() {
+  //     let scrollY = window.scrollY;
+  //     if(previousValue < scrollY) {
+  //       collectionHeader.style.position = "unset";
+  //     } else if(scrollY === 0) {
+  //       collectionHeader.style.position = "fixed";
+  //       collectionHeader.style.top = "unset";
+  //     } else {
+  //       collectionHeader.style.position = "fixed";
+  //       collectionHeader.style.top = "0";
+  //     }
+  //     previousValue = scrollY;
+  //   }
+  // }
 
   // size guide popup
   if(mainProduct) {

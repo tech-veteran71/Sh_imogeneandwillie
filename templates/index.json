@@ -314,6 +314,17 @@
         "btn_text": "LEARN MORE",
         "link_url": "shopify:\/\/pages\/nashville"
       }
+    },
+    "164554877686b6f627": {
+      "type": "featured--collection",
+      "settings": {
+        "choose_collection": "size-26",
+        "title": "Women’s new arrivals",
+        "main_title": "new arrivals",
+        "mob_title": "WOMEN’s",
+        "link_text": "View all",
+        "link_url": ""
+      }
     }
   },
   "order": [
@@ -334,6 +345,7 @@
     "1637741212e84f52e3",
     "16377324507e0c4445",
     "163773433083afddd3",
-    "1637735864c2bd7e13"
+    "1637735864c2bd7e13",
+    "164554877686b6f627"
   ]
 }

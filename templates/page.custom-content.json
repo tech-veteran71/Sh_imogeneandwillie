@@ -247,6 +247,28 @@
         "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
         "img_url": ""
       }
+    },
+    "16455496794f990c36": {
+      "type": "new-arrival-section",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/oneyearwear_-10_00c62524-e23e-4b0b-9772-693d50b64770.png",
+        "image": "shopify:\/\/shop_images\/oneyearwear_-9.png",
+        "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
+        "pre_title": "",
+        "title": "",
+        "text": "",
+        "btn_text": "",
+        "link_url": ""
+      }
+    },
+    "1645549894e4dd3d7f": {
+      "type": "page",
+      "settings": {
+        "page": "custom-content"
+      }
     }
   },
   "order": [
@@ -259,6 +281,8 @@
     "guide",
     "fact",
     "1639913310d033f738",
-    "grand"
+    "grand",
+    "16455496794f990c36",
+    "1645549894e4dd3d7f"
   ]
 }

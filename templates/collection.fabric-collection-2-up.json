@@ -1,32 +1,31 @@
 {
-    "sections": {
-      "banner": {
-        "type": "collection-banner",
-        "settings": {
-          "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
-          "mob_bg_img": "shopify:\/\/shop_images\/bigsurvibes_04.png",
-          "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
-        }
-      },
-      "1644301425923d1574": {
-        "type": "denim-collection-2-up",
-        "settings": {
-          "collection_title": "women’s indigo"
-        }
-      },
-      "16443036269e0d559e": {
-        "type": "denim-collection",
-        "settings": {
-          "choose_collection": "size-30",
-          "main_title": "WOMEN’S DENIM FITS",
-          "btn_text": "SHOP ALL",
-          "btn_url": ""
-        }
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
+        "mob_bg_img": "shopify:\/\/shop_images\/bigsurvibes_04.png",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
       }
     },
-    "order": [
-      "banner",
-      "1644301425923d1574",
-      "16443036269e0d559e"
-    ]
-  }
+    "1644301425923d1574": {
+      "type": "collection-2-up-template",
+      "settings": {
+      }
+    },
+    "16443036269e0d559e": {
+      "type": "denim-collection",
+      "settings": {
+        "choose_collection": "size-30",
+        "main_title": "WOMEN’S DENIM FITS",
+        "btn_text": "SHOP ALL",
+        "btn_url": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1644301425923d1574",
+    "16443036269e0d559e"
+  ]
+}

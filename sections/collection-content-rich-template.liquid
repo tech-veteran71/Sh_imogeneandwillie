@@ -1,5 +1,5 @@
 {{ 'main-collection.css' | asset_url | stylesheet_tag }}
-
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {% assign setting = section.settings %}
 {% assign mainTitle = setting.main_title %}
 {% assign maintext = setting.main_text %}
@@ -11,44 +11,45 @@
 {% assign btnText = setting.btn_text %}
 {% assign btnUrl = setting.btn_url %}
 
-<div class='main-collection content-rich-collection'>
-  <div class="collection-container">
-    <div class="wrapper">
-      {% render 'collection-header', title: mainTitle, text: maintext %}
-      {% render 'company', title: title, text: text1, img: img1 %}
-      <div class="product-gallery">
-        <div class="content-rich-grid">
-        {%- for product in collection.products -%}
-          {% if forloop.index == 1 %}
-            {% render 'product-card',
-                    product: product,
-                    show_title: true,
-                    show_subtitle: true,
-                    show_price: true
-                  %}
-            <div class="text-wrap">
-              <p class="content-rich-text">{{ section.settings.mob_text }}</p>
-            </div>
-          {% endif %}
-        {% endfor %}
-        {%- for product in collection.products -%}
-          {% if forloop.index > 1 %}
-            {% render 'product-card',
-                    product: product,
-                    show_title: true,
-                    show_subtitle: true,
-                    show_price: true
-                  %}
-          {% endif %}
-        {% endfor %}
+<div id="ProductGridContainer" class="collection-main__bg">
+  <div class='main-collection content-rich-collection'>
+    <div class="collection-container">
+      <div class="wrapper">
+        {% render 'collection-header', title: mainTitle, text: maintext %}
+        {% render 'company', title: title, text: text1, img: img1 %}
+        <div class="product-gallery">
+          <div class="content-rich-grid">
+          {%- for product in collection.products -%}
+            {% if forloop.index == 1 %}
+              {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true
+                    %}
+              <div class="text-wrap">
+                <p class="content-rich-text">{{ section.settings.mob_text }}</p>
+              </div>
+            {% endif %}
+          {% endfor %}
+          {%- for product in collection.products -%}
+            {% if forloop.index > 1 %}
+              {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true
+                    %}
+            {% endif %}
+          {% endfor %}
+          </div>
         </div>
+        {% render 'content-rich-text' text: text2, buttonText: btnText, buttonUrl: btnUrl %}
+        {% render 'content-rich-image' img: img2 %}
       </div>
-      {% render 'content-rich-text' text: text2, buttonText: btnText, buttonUrl: btnUrl %}
-      {% render 'content-rich-image' img: img2 %}
     </div>
   </div>
 </div>
-
 {% schema %}
 {
   "name": "Content Rich Collection",
