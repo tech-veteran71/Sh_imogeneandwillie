@@ -3,12 +3,11 @@
     "main": {
       "type": "hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/Header_17739405-e4b3-4a82-b956-bfbe1d498a8b.png",
-        "mob_img": "shopify:\/\/shop_images\/Header_IMG_ef769324-089e-48f3-8376-5d2b4bbb26c4.png",
+        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-10_00c62524-e23e-4b0b-9772-693d50b64770.png",
+        "img_url": "",
         "main_title": "",
         "text": "",
-        "link_text": "FIND YOUR FIT",
-        "link_url": ""
+        "link_text": "FIND YOUR FIT"
       }
     },
     "rich-text": {
@@ -26,6 +25,7 @@
         "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/Collage.png",
         "mob_img": "shopify:\/\/shop_images\/Image_275.png",
+        "img_url": "",
         "pre_title": "( lorem ipsum )",
         "main_title": "indigo",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
@@ -48,10 +48,11 @@
     "163963500604115f8d": {
       "type": "collage-section",
       "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/Collage_404f29ec-a8b9-495b-964d-62e5d70e83e7.png",
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.48.41_PM.png",
         "mob_img": "shopify:\/\/shop_images\/Image_188.png",
+        "img_url": "",
         "pre_title": "( team favorite )",
         "main_title": "washed",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
@@ -66,7 +67,7 @@
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "",
-        "choose_collection": "featured",
+        "choose_collection": "women",
         "btn_text": "shop washed",
         "btn_url": ""
       }
@@ -76,8 +77,9 @@
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/Collage_4a5a4acf-2e5d-47f3-be75-841adce0844e.png",
+        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.44.10_PM.png",
         "mob_img": "shopify:\/\/shop_images\/Image_285.png",
+        "img_url": "",
         "pre_title": "( featured fit )",
         "main_title": "black",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
@@ -92,7 +94,7 @@
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "#f7f6f3",
-        "choose_collection": "mens-new-arrival",
+        "choose_collection": "mens-shirts",
         "btn_text": "shop black",
         "btn_url": ""
       }
@@ -100,10 +102,11 @@
     "1639635223785c4970": {
       "type": "collage-section",
       "settings": {
-        "desk_bg_color": "",
+        "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/Collage_c317db02-bead-4e7f-9663-95356b8dfc6e.png",
+        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.47.39_PM.png",
         "mob_img": "shopify:\/\/shop_images\/Image_9.png",
+        "img_url": "",
         "pre_title": "( the original )",
         "main_title": "white\/natural",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
@@ -118,7 +121,7 @@
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "",
-        "choose_collection": "featured",
+        "choose_collection": "women-tops",
         "btn_text": "shop white\/natural",
         "btn_url": ""
       }
@@ -128,8 +131,9 @@
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/Collage_b362824b-29e6-44b8-8aed-f892f85c3d71.png",
+        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_8.00.24_PM.png",
         "mob_img": "shopify:\/\/shop_images\/Image_275.png",
+        "img_url": "",
         "pre_title": "( lorem ipsum )",
         "main_title": "lorem ipsum",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
@@ -144,7 +148,7 @@
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "#f7f6f3",
-        "choose_collection": "womens-new-arrival",
+        "choose_collection": "mens-shirts",
         "btn_text": "shop lorem",
         "btn_url": ""
       }

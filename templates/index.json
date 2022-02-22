@@ -19,29 +19,30 @@
         "title": "the enfield hunting jacket in dark umber",
         "text": "inspired by a time when clothes were made with a purpose, and made to take a beating",
         "btn_text": "shop now",
-        "btn_url": ""
+        "btn_url": "shopify:\/\/products\/enfield-hunting-jacket-in-dark-umber"
       }
     },
     "1637673172edbf6c8a": {
       "type": "explore-section",
       "settings": {
         "choose_collection": "size-25",
+        "choose_blog": "",
         "title": "recent moments \/\/",
         "btn": "explore more",
-        "url": ""
+        "url": "shopify:\/\/collections\/size-25"
       }
     },
     "1637675877d09ce9e2": {
       "type": "image--with-text",
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/Image_488_1800x_9439c8cb-5090-408a-ab17-0d519dcdeb24.png",
-        "img_link": "",
+        "img_link": "shopify:\/\/pages\/nashville",
         "img_width": "large",
         "pre_title": "( our home )",
         "title": "2601 12th ave s",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
         "link_text": "continue reading",
-        "link_url": ""
+        "link_url": "shopify:\/\/pages\/nashville"
       }
     },
     "1637649555b0a6e3ee": {
@@ -55,7 +56,7 @@
             "pre_title": "WOMEN’S NEW ARRIVALS",
             "title": "agnes jacket in coastal stone",
             "btn_text": "Shop All",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/women-new-arrivals",
             "link_text": "SHOP WOMEN’S"
           }
         },
@@ -67,7 +68,7 @@
             "pre_title": "MEN’S NEW ARRIVALS",
             "title": "hall cpo in cascade plaid",
             "btn_text": "Shop All",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/new-arrivals",
             "link_text": "SHOP MEN’S"
           }
         }
@@ -87,7 +88,7 @@
         "main_title": "new arrivals",
         "mob_title": "WOMEN’s",
         "link_text": "View all",
-        "link_url": ""
+        "link_url": "shopify:\/\/collections\/women-new-arrivals"
       }
     },
     "163765607076405794": {
@@ -95,10 +96,10 @@
       "settings": {
         "choose_collection": "size-27",
         "title": "men’s new arrivals",
-        "main_title": "",
+        "main_title": "men's new arrivals",
         "mob_title": "men's",
         "link_text": "View all",
-        "link_url": ""
+        "link_url": "shopify:\/\/collections\/new-arrivals"
       }
     },
     "1637662418c5179d34": {
@@ -128,14 +129,16 @@
           "type": "collection_item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitled-6_3245a8fc-15c6-4fee-a197-b922c89d4511.jpg",
-            "btn_text": "shop mens"
+            "btn_text": "shop mens",
+            "link_url": "shopify:\/\/collections\/mens"
           }
         },
         "a5039d9b-141b-4eff-944e-c54ac4ff16e3": {
           "type": "collection_item",
           "settings": {
             "img": "shopify:\/\/shop_images\/right_da369114-d23e-47e7-a09e-914eb425a0d4.jpg",
-            "btn_text": "shop womens"
+            "btn_text": "shop womens",
+            "link_url": "shopify:\/\/collections\/womens"
           }
         }
       },
@@ -166,7 +169,7 @@
         "title": "hall cpo in cascade plaid",
         "text": "<p>an updated, modern evolution of a timeless military classic.\n<\/p>\n<p>versatile and functional, it’s a piece that’s meant to be worn as you see fit… and meant to be worn to death.<\/p>",
         "btn_text": "shop all",
-        "link_url": ""
+        "link_url": "https:\/\/imogeneandwillie.com\/collections\/men-new-arrivals"
       }
     },
     "16376784532d3e7363": {
@@ -182,7 +185,7 @@
         "title": "agnes jacket in coastal stone",
         "text": "<p>a team favorite that quickly became an i+w staple. agnes is a slightly boxy, classic chore coat that is so simple, subtle, and straightforward. it’s a go-to that works with almost anything.<\/p>",
         "btn_text": "shop all",
-        "link_url": ""
+        "link_url": "https:\/\/imogeneandwillie.com\/collections\/women-new-arrivals"
       }
     },
     "1637738863eee8087f": {
@@ -191,7 +194,7 @@
         "choose_collection": "size-27",
         "title": "lorem ipsum",
         "btn_text": "view all",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/collections",
         "show_border": true
       }
     },
@@ -208,11 +211,12 @@
     "16377324507e0c4445": {
       "type": "product-slider-section",
       "settings": {
+        "hide_mobile": false,
         "choose_collection": "bottom-size-38",
         "title": "GRAPHIC CONTENT",
         "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
         "btn_text": "Shop ALL",
-        "btn_url": ""
+        "btn_url": "shopify:\/\/collections\/mens"
       }
     },
     "163773433083afddd3": {
@@ -307,7 +311,8 @@
         "pre_title": "( our promise )",
         "title": "committed to making everything in the usa",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
-        "btn_text": "LEARN MORE"
+        "btn_text": "LEARN MORE",
+        "link_url": "shopify:\/\/pages\/nashville"
       }
     }
   },

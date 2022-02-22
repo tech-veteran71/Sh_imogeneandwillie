@@ -48,9 +48,9 @@
           "settings": {
             "desk_img": "shopify:\/\/shop_images\/Fit_Guide_600x_600x_ef429294-71a6-477e-ae60-b292abfdc0c1.png",
             "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
+            "text": "the text",
+            "link_text": "HI THIS IS THE LINK",
+            "link_url": "#"
           }
         },
         "bff7b585-b654-486b-a52e-a2746f2af4fd": {
