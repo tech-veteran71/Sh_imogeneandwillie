@@ -11,7 +11,13 @@
           {% if section.settings.choose_collection != blank or section.settings.choose_blog != blank %}
             {% if section.settings.choose_collection != blank %}
               {% for product in collections[section.settings.choose_collection].products %}
-                {% render 'cart-item', cart: product, productCart: true %}  
+                {% render 'product-card',
+                    product: product,
+                    show_title: true,
+                    show_subtitle: false,
+                    show_price: false,
+                    swiper_slide: true
+                  %}
               {% endfor %}
             {% endif %}
             {% if section.settings.choose_blog != blank %}
