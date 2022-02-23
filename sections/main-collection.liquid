@@ -11,6 +11,13 @@
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 
 <div id="ProductGridContainer" class="collection-main__bg">
+  <div class="collection-main__hero-text">
+    {% if collection.description != blank %}
+    {{ collection.description }}
+    {% else %}
+    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore
+    {% endif %}
+  </div>
   {%- paginate collection.products by 24 -%}
       <div class="collection-main">
         <div class="loading-overlay gradient"></div>

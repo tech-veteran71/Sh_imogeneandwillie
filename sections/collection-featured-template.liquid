@@ -1,72 +1,131 @@
-{{ 'main-collection.css' | asset_url | stylesheet_tag }}
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 
+<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+  {{ 'component-facets.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 {% assign collectionTitle = section.settings.collection_title %}
 {% assign productCount = collection.all_products_count %}
 
 {% assign lastProductGridCount = productCount | minus: 16 %}
 
-<div class='main-collection' data-main-collection>
-  <div class="collection-container">
-    <div class="wrapper">
-      {% render 'collection-header', title: collectionTitle, totalProducts: productCount  %}
-      <div class="product-gallery">
-        <div class="featured-gallery">
-          <div class="grid-1 product-grid">
-            {%- for product in collection.products -%}
-              {% if forloop.index < 4 %}
-                {% render 'product-item', product: product %}      
-              {% endif %}
-            {% endfor %}
-          </div>
-          <div class="grid-2">
-            {%- for product in collection.products -%}
-              {% if forloop.index >= 4 and forloop.index <= 5 %}
-                {% render 'product-item', product: product %}
-              {% endif %}
-            {% endfor %}
-          </div>
-          <div class="review-wrap">
-            <div class="customer-review">
-              <p class="review">{{ section.settings.review }}</p>
-              <span class="customer-name">{{ section.settings.customer_name }}</span>
+<div id="ProductGridContainer" class="collection-main__bg">
+  <div class="collection-main__hero-text">
+    {% if collection.description != blank %}
+    {{ collection.description }}
+    {% else %}
+    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore
+    {% endif %}
+  </div>
+  <div class='collection-main' data-main-collection>
+      <div class="collection-main__wrapper">
+        <div class="collection-main__heading-filter" id="main-collection-filters" data-id="{{ section.id }}">
+              {% render 'facets', results: collection, enable_filtering: true, enable_sorting: false, collapse_on_larger_devices: true %}
             </div>
-          </div>
-          <div class="grid-3 product-grid">
-            {%- for product in collection.products -%}
-              {% if forloop.index >= 6 and forloop.index <= 11 %}
-                {% render 'product-item', product: product %}
-              {% endif %}
-            {% endfor %}
-          </div>
-          <div class="grid-4 product-grid">
-            {%- for product in collection.products -%}
-              {% if forloop.index >= 12 and forloop.index <= 14 %}
-                {% render 'product-item', product: product %}
-              {% endif %}
-            {% endfor %}
-          </div>
-          <div class="grid-5 product-grid">
-            {%- for product in collection.products -%}
-              {% if forloop.index >= 15 and forloop.index <= 16 %}
-                {% render 'product-item', product: product %}
-              {% endif %}
-            {% endfor %}
-          </div>
-          <div class="grid-6">
-            {%- paginate collection.products by lastProductGridCount -%}
+            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--1-3">
               {%- for product in collection.products -%}
-                {% if forloop.index > 16 %}
-                  {% render 'product-item', product: product %}
+                {% if forloop.index < 4 %}
+                <li class="product-card">
+                  {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true,
+                      show_bg_image: true
+                    %}
+                  </li>
                 {% endif %}
               {% endfor %}
-            {% endpaginate %}
-          </div>
-        </div>
-      </div>
+            </ul>
+            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--2-1">
+              {%- for product in collection.products -%}
+                {% if forloop.index >= 4 and forloop.index <= 5 %}
+                <li class="product-card">
+                  {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true,
+                      show_bg_image: true
+                    %}
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+            <div class="review-wrap">
+              <div class="customer-review">
+                <p class="review">{{ section.settings.review }}</p>
+                <span class="customer-name">{{ section.settings.customer_name }}</span>
+              </div>
+            </div>
+            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--3">
+              {%- for product in collection.products -%}
+                {% if forloop.index >= 6 and forloop.index <= 11 %}
+                <li class="product-card">
+                  {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true,
+                      show_bg_image: true
+                    %}
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--3-1">
+              {%- for product in collection.products -%}
+                {% if forloop.index >= 12 and forloop.index <= 14 %}
+                <li class="product-card">
+                  {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true,
+                      show_bg_image: true
+                    %}
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--2">
+              {%- for product in collection.products -%}
+                {% if forloop.index >= 15 and forloop.index <= 16 %}
+                <li class="product-card">
+                  {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true,
+                      show_bg_image: true
+                    %}
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--3">
+              {%- paginate collection.products by lastProductGridCount -%}
+              {%- for product in collection.products -%}
+                <li class="product-card">
+                  {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true,
+                      show_bg_image: true
+                    %}
+                  </li>
+              {% endfor %}
+              {% endpaginate %}
+            </ul>
     </div>
   </div>
 </div>
-
 {% schema %}
 {
   "name": "Featured Collection",
@@ -99,8 +158,7 @@
   ],
   "presets": [
     {
-      "name": "Featured Collection",
-      "category": "Featured Collection"
+      "name": "Collection - Featured Collection"
     }
   ]
 }

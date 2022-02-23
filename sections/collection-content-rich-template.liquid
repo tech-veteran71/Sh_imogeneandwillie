@@ -1,5 +1,15 @@
-{{ 'main-collection.css' | asset_url | stylesheet_tag }}
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+
+<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+  {{ 'component-facets.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
+
 {% assign setting = section.settings %}
 {% assign mainTitle = setting.main_title %}
 {% assign maintext = setting.main_text %}
@@ -12,43 +22,41 @@
 {% assign btnUrl = setting.btn_url %}
 
 <div id="ProductGridContainer" class="collection-main__bg">
-  <div class='main-collection content-rich-collection'>
-    <div class="collection-container">
-      <div class="wrapper">
-        {% render 'collection-header', title: mainTitle, text: maintext %}
-        {% render 'company', title: title, text: text1, img: img1 %}
-        <div class="product-gallery">
-          <div class="content-rich-grid">
-          {%- for product in collection.products -%}
-            {% if forloop.index == 1 %}
-              {% render 'product-card',
-                      product: product,
-                      show_title: true,
-                      show_subtitle: true,
-                      show_price: true
-                    %}
-              <div class="text-wrap">
-                <p class="content-rich-text">{{ section.settings.mob_text }}</p>
-              </div>
-            {% endif %}
-          {% endfor %}
-          {%- for product in collection.products -%}
-            {% if forloop.index > 1 %}
-              {% render 'product-card',
-                      product: product,
-                      show_title: true,
-                      show_subtitle: true,
-                      show_price: true
-                    %}
-            {% endif %}
-          {% endfor %}
-          </div>
-        </div>
-        {% render 'content-rich-text' text: text2, buttonText: btnText, buttonUrl: btnUrl %}
-        {% render 'content-rich-image' img: img2 %}
-      </div>
-    </div>
+  <div class="collection-main__hero-text">
+    {% if collection.description != blank %}
+    {{ collection.description }}
+    {% else %}
+    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore
+    {% endif %}
   </div>
+  {%- paginate collection.products by 24 -%}
+      <div class="collection-main">
+        <div class="loading-overlay gradient"></div>
+          <div class="collection-main__wrapper">
+            <div class="collection-main__heading-filter" id="main-collection-filters" data-id="{{ section.id }}">
+              {% render 'facets', results: collection, enable_filtering: false, enable_sorting: false, collapse_on_larger_devices: true, maintext: maintext, mainTitle: mainTitle %}
+            </div>
+            {% render 'company', title: title, text: text1, img: img1 %}
+            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--2-1">
+              {%- for product in collection.products -%}
+                <li class="product-card">
+                  {% render 'product-card',
+                    product: product,
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: true
+                  %}
+                </li>
+              {%- endfor -%}
+            </ul>
+            {% render 'content-rich-text' text: text2, buttonText: btnText, buttonUrl: btnUrl %}
+            {% render 'content-rich-image' img: img2 %}
+            {%- if paginate.pages > 1 -%}
+          {% render 'pagination', paginate: paginate, anchor: '' %}
+        {%- endif -%}
+          </div>
+      </div>
+  {%- endpaginate -%}
 </div>
 {% schema %}
 {
@@ -129,8 +137,7 @@
   ],
   "presets": [
     {
-      "name": "Content Rich Collection",
-      "category": "Content Rich Collection"
+      "name": "Collection - Content Rich Collection"
     }
   ]
 }

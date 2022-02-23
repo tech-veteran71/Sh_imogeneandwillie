@@ -21,12 +21,13 @@
     assign results_url = '?q=' | append: terms | append: '&options%5Bprefix%5D=last&sort_by=' | append: sort_by
   endif
 -%}
-
-<div class="facets-container">
-  <div class="main-collection__title-count">
+<div class="main-collection__title-count">
       <div class="product-count" role="status">
-        <h3 class="collection-title">{{ collection.title }}</h3>
+        <h3 class="collection-title"> {% if mainTitle != blank %}{{ mainTitle }}{% else %}{{ collection.title }}{% endif %}</h3>
         <p id="ProductCount" class="product-count__text">
+          {% if maintext != blank %}
+          {{ maintext }}
+          {% else %}
           (
           {%- if results.results_count -%}
             {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
@@ -36,6 +37,7 @@
             {{ 'products.facets.product_count' | t: product_count: results.products_count, count: results.all_products_count }}
           {%- endif -%}
           )
+          {% endif %}
         </p>
         <div class="loading-overlay__spinner">
           <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +45,8 @@
           </svg>
         </div>
   </div>
-  </div>
+</div>
+<div class="facets-container">
   <menu-drawer class="mobile-facets__wrapper {% unless collapse_on_larger_devices %} medium-hide large-up-hide{% endunless %}" data-breakpoint="mobile">
     <details class="mobile-facets__disclosure disclosure-has-popup">
 
