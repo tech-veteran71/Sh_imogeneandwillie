@@ -6,9 +6,10 @@
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
-    "colors_background_2": "#F3F3F3",
+    "colors_background_2": "#a7a491",
     "type_header_font": "helvetica_n4",
     "type_body_font": "helvetica_n4",
+    "page_width": "1200",
     "favicon": "shopify:\/\/shop_images\/Untitled-2_copy.jpg",
     "sections": {
       "announcement-bar": {
@@ -18,7 +19,7 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "color_scheme": "background-2",
               "link": ""
             }
           }

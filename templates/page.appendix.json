@@ -1,18 +1,60 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
+    "1645651526e276a61f": {
+      "type": "guide-section",
+      "blocks": {
+        "b21cb52d-6fbc-4bf1-84eb-09d913009d10": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Fit_Guide.png",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "63452f20-d664-456d-a99c-67e1adb94cab": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Fabric_Guide_600x_600x_23952a79-36ce-411d-aa1c-a7a0cb62a3d2.png",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "b5ee742d-61e0-41a8-a7a6-e22028e7bf9a": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Image_306_600x_600x_0a2a9f05-a451-47c3-8f2c-51717ffe2f75.png",
+            "title": "WOMEN'S DENIM",
+            "text": "lorem ipsum lorem ipsum lorem ipsum",
+            "link_text": "SHOP ALL",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b21cb52d-6fbc-4bf1-84eb-09d913009d10",
+        "63452f20-d664-456d-a99c-67e1adb94cab",
+        "b5ee742d-61e0-41a8-a7a6-e22028e7bf9a"
+      ],
       "settings": {
+        "bg_color": "",
+        "change_alignment": false,
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
       }
     },
-    "1642018592fce6abc3": {
-      "type": "grand-image-section",
+    "1645652149263cec6d": {
+      "type": "hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-3_1200x_8fe7cdec-d744-477d-8fcc-45b0de1f506d.png",
-        "mob_img": "shopify:\/\/shop_images\/oneyearwear_-3_1200x_8fe7cdec-d744-477d-8fcc-45b0de1f506d.png",
+        "desk_img": "shopify:\/\/shop_images\/Header_1200x_97e35576-1fce-47b3-a44b-5ce832f47710.png",
         "img_url": "",
-        "img_width": "full"
+        "main_title": "",
+        "text": "",
+        "link_text": "FIND YOUR FIT"
       }
     },
     "16420192449345314f": {
@@ -20,40 +62,48 @@
       "settings": {
         "desk_bg_color": "",
         "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/webhero_61f13245-9bc8-400d-87db-1babe2acc8af.jpg",
+        "desk_img": "shopify:\/\/shop_images\/undisclosed__1_of_1_1500x_ef31ded6-33f1-499b-a53e-b1f988c78801.png",
         "img_url": "",
         "pre_title": "what's good",
         "main_title": "this is a title",
-        "text": "",
-        "btn_text": "",
+        "text": "lorem ipsum lorem ipsum lorem ipsum",
+        "btn_text": "button?",
         "btn_url": "",
-        "change_alignment": false,
+        "change_alignment": true,
         "show_btn": false
       }
     },
-    "1642020148e48e53f2": {
+    "16456528520a5ba9bd": {
+      "type": "grand-image-section",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/Header_IMG_1800x_7fa2104f-be6e-4b84-be35-14830770a3f8.png",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "1645653058f0cca918": {
       "type": "collection--list",
       "blocks": {
-        "fabb6a04-81c7-4903-9324-2d3d0d9cca6c": {
+        "f65b9879-57c2-403f-babb-8a2c4be1da89": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/w_84aedc5e-6b40-4013-a851-528b2a9b3d3c.jpg",
-            "btn_text": "SHOP WOMEN",
-            "link_url": "shopify:\/\/collections\/bottom-size-26"
+            "img": "shopify:\/\/shop_images\/Image_585_600x_a263b683-860c-4586-8954-829b5caef36d.png",
+            "btn_text": "SHOP MENS",
+            "link_url": ""
           }
         },
-        "f7301a30-e411-47f8-aeb4-0bd056ff8acb": {
+        "2a31acf3-a209-433d-b2a9-a133830b2121": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/oneyearwear_-2_600x_1364d848-7322-4818-b3af-c43d6d968362.png",
-            "btn_text": "SHOP MEN",
+            "img": "shopify:\/\/shop_images\/Image_587.png",
+            "btn_text": "SHOP WOMENS",
             "link_url": ""
           }
         }
       },
       "block_order": [
-        "fabb6a04-81c7-4903-9324-2d3d0d9cca6c",
-        "f7301a30-e411-47f8-aeb4-0bd056ff8acb"
+        "f65b9879-57c2-403f-babb-8a2c4be1da89",
+        "2a31acf3-a209-433d-b2a9-a133830b2121"
       ],
       "settings": {
       }
@@ -66,8 +116,167 @@
         "link_url": ""
       }
     },
+    "16456539611bef5628": {
+      "type": "image-gallery",
+      "blocks": {
+        "a49f1c34-c39a-4fbe-92a8-91d2dc31edc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_96.png"
+          }
+        },
+        "68517d31-9a5e-4d98-a86a-480070bbc76a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Component_39_5.png"
+          }
+        },
+        "331a9494-3519-4eef-85f5-12651a52fa06": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4up2_6fb99f8c-d8da-46b2-87c5-a1a0c203ed09.jpg"
+          }
+        },
+        "a3de579e-b812-468f-9964-b57919ed64b4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4up1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a49f1c34-c39a-4fbe-92a8-91d2dc31edc8",
+        "68517d31-9a5e-4d98-a86a-480070bbc76a",
+        "331a9494-3519-4eef-85f5-12651a52fa06",
+        "a3de579e-b812-468f-9964-b57919ed64b4"
+      ],
+      "settings": {
+      }
+    },
+    "1642022544b6ed537e": {
+      "type": "latest-collection",
+      "blocks": {
+        "fc97c8df-7ca4-4124-8259-435c9d3aa683": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/Image_498_900x_f39742c0-c29e-4eac-9de7-3179ae9060a9.png",
+            "pre_title": "women's new arrivals",
+            "title": "indigo rigid",
+            "btn_text": "Shop All",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "2f654fa6-1680-4487-9f53-66726f1e534d": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/Image_583_900x_53d57346-3ea6-4d1e-b42f-6b2debeb6fd9.png",
+            "pre_title": "men's new arrivals",
+            "title": "denim jacket",
+            "btn_text": "Shop All",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "fc97c8df-7ca4-4124-8259-435c9d3aa683",
+        "2f654fa6-1680-4487-9f53-66726f1e534d"
+      ],
+      "settings": {
+      }
+    },
+    "16456563302314336e": {
+      "type": "explore-section",
+      "settings": {
+        "choose_collection": "bottom-size-23",
+        "choose_blog": "",
+        "title": "recent moments\/\/",
+        "btn": "EXPLORE MORE",
+        "url": ""
+      }
+    },
+    "16420210370174054f": {
+      "type": "image-with--text",
+      "blocks": {
+        "b932d3ec-1fbf-49f8-9657-49f5f1ade83c": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_9_600x_01a8af93-7e15-4227-af5d-50a3e46f27ff.png"
+          }
+        },
+        "0e8f6bbf-976c-4641-9159-5afd0199c833": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_f2e0cf73-5dd2-49fc-b5aa-214d0628c81b.png"
+          }
+        }
+      },
+      "block_order": [
+        "b932d3ec-1fbf-49f8-9657-49f5f1ade83c",
+        "0e8f6bbf-976c-4641-9159-5afd0199c833"
+      ],
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Image_415.png",
+        "title": "AMERICAN-MADE DENIM",
+        "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim  produced in the us since the closure of cone mills, nc.",
+        "btn_text": "SHOP ALL",
+        "btn_url": ""
+      }
+    },
+    "16420210303320bd50": {
+      "type": "image-gallery-with-text",
+      "disabled": true,
+      "settings": {
+        "choose_collection": "",
+        "title": "BRIGHTER DAYS",
+        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
+        "btn_text": "SHOP Collection",
+        "btn_url": "",
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
+      }
+    },
+    "1645653045bafba8b9": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "1645653045d477c4e2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1645653045d477c4e2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1645653045d477c4e2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645653045d477c4e2-0",
+        "1645653045d477c4e2-1",
+        "1645653045d477c4e2-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "1642020883a07c9daa": {
       "type": "featured--collection",
+      "disabled": true,
       "settings": {
         "choose_collection": "size-23",
         "title": "Indigo Rigid Denim",
@@ -75,6 +284,24 @@
         "mob_title": "WOMEN’s",
         "link_text": "View all",
         "link_url": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "164565216986e1caa9": {
+      "type": "banner-section",
+      "disabled": true,
+      "settings": {
+        "desktop_banner_img": "shopify:\/\/shop_images\/Header_1200x_97e35576-1fce-47b3-a44b-5ce832f47710.png",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "video_controls": false
       }
     },
     "1642020930d9548a91": {
@@ -102,144 +329,10 @@
         "show_button": false
       }
     },
-    "16420210370174054f": {
-      "type": "image-with--text",
-      "blocks": {
-        "b932d3ec-1fbf-49f8-9657-49f5f1ade83c": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_9_600x_01a8af93-7e15-4227-af5d-50a3e46f27ff.png"
-          }
-        },
-        "0e8f6bbf-976c-4641-9159-5afd0199c833": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_f2e0cf73-5dd2-49fc-b5aa-214d0628c81b.png"
-          }
-        }
-      },
-      "block_order": [
-        "b932d3ec-1fbf-49f8-9657-49f5f1ade83c",
-        "0e8f6bbf-976c-4641-9159-5afd0199c833"
-      ],
-      "settings": {
-        "title": "AMERICAN-MADE DENIM",
-        "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim  produced in the us since the closure of cone mills, nc.",
-        "btn_text": "SHOP ALL",
-        "btn_url": ""
-      }
-    },
-    "1642021020ff2f8009": {
-      "type": "hero-banner",
-      "settings": {
-        "desk_img": "shopify:\/\/shop_images\/tailorshop_-3_600x_1d046fae-7814-43c8-a181-89d280cef21e.png",
-        "mob_img": "shopify:\/\/shop_images\/oneyearwear_-2_600x_1364d848-7322-4818-b3af-c43d6d968362.png",
-        "img_url": "",
-        "main_title": "",
-        "text": "",
-        "link_text": "FIND YOUR FIT"
-      }
-    },
-    "16420210303320bd50": {
-      "type": "image-gallery-with-text",
-      "settings": {
-        "choose_collection": "",
-        "title": "BRIGHTER DAYS",
-        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
-        "btn_text": "SHOP Collection",
-        "btn_url": "",
-        "pre_title": "( essentials  )",
-        "grid_title": "EVERY DAY CARRY"
-      }
-    },
-    "1642022544b6ed537e": {
-      "type": "latest-collection",
-      "blocks": {
-        "fc97c8df-7ca4-4124-8259-435c9d3aa683": {
-          "type": "collection_item",
-          "settings": {
-            "img_desk": "shopify:\/\/shop_images\/Image_9_600x_01a8af93-7e15-4227-af5d-50a3e46f27ff.png",
-            "pre_title": "women's high-rise denim",
-            "title": "indigo rigid",
-            "btn_text": "Shop All",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "2f654fa6-1680-4487-9f53-66726f1e534d": {
-          "type": "collection_item",
-          "settings": {
-            "img_desk": "shopify:\/\/shop_images\/IMG_1072-2_300x_69ab6474-8733-4a77-91f0-430411e7f7ad.png",
-            "pre_title": "men's jackets",
-            "title": "denim jacket",
-            "btn_text": "Shop All",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "fc97c8df-7ca4-4124-8259-435c9d3aa683",
-        "2f654fa6-1680-4487-9f53-66726f1e534d"
-      ],
-      "settings": {
-      }
-    },
     "1642022984c2b0aa1f": {
       "type": "main-collection",
       "disabled": true,
       "settings": {
-      }
-    },
-    "164202362425ada59e": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "Blog posts",
-        "blog": "news",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "soft_background": false,
-        "show_view_all": true
-      }
-    },
-    "16420238488bbdddd2": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "1642023848447cd67c-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "size-23"
-          }
-        },
-        "1642023848447cd67c-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bottom-size-29"
-          }
-        },
-        "1642023848447cd67c-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women-denim-35"
-          }
-        }
-      },
-      "block_order": [
-        "1642023848447cd67c-0",
-        "1642023848447cd67c-1",
-        "1642023848447cd67c-2"
-      ],
-      "settings": {
-        "title": "summer '22 essentials",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
       }
     },
     "1642024371e3f06093": {
@@ -249,74 +342,47 @@
         "heading": "get in touch"
       }
     },
-    "1642024485feacbb80": {
-      "type": "custom-liquid",
+    "164565180647879e0b": {
+      "type": "contact-form",
       "disabled": true,
       "settings": {
-        "custom_liquid": ""
+        "heading": "Contact form"
       }
     },
-    "164202451552dd6c74": {
-      "type": "newsletter",
+    "16456539530f31d6d0": {
+      "type": "image-gallery-with-text",
       "disabled": true,
-      "blocks": {
-        "16420245157798035b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "join the i+w mailing list"
-          }
-        },
-        "16420245157798035b-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "16420245157798035b-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "16420245157798035b-0",
-        "16420245157798035b-1",
-        "16420245157798035b-2"
-      ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "1642024568a600685e": {
-      "type": "explore-section",
-      "settings": {
-        "choose_collection": "bottom-size-25",
-        "choose_blog": "",
-        "title": "fall '21 lookbook",
-        "btn": "explore more",
-        "url": ""
+        "choose_collection": "size-10-1-2",
+        "title": "BRIGHTER DAYS",
+        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
+        "btn_text": "SHOP Collection",
+        "btn_url": "",
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
       }
     }
   },
   "order": [
-    "main",
-    "1642018592fce6abc3",
+    "1645651526e276a61f",
+    "1645652149263cec6d",
     "16420192449345314f",
-    "1642020148e48e53f2",
+    "16456528520a5ba9bd",
+    "1645653058f0cca918",
     "164202022830f97db0",
-    "1642020883a07c9daa",
-    "1642020930d9548a91",
-    "16420210370174054f",
-    "1642021020ff2f8009",
-    "16420210303320bd50",
+    "16456539611bef5628",
     "1642022544b6ed537e",
+    "16456563302314336e",
+    "16420210370174054f",
+    "16420210303320bd50",
+    "1645653045bafba8b9",
+    "1642020883a07c9daa",
+    "main",
+    "164565216986e1caa9",
+    "1642020930d9548a91",
     "1642022984c2b0aa1f",
-    "164202362425ada59e",
-    "16420238488bbdddd2",
     "1642024371e3f06093",
-    "1642024485feacbb80",
-    "164202451552dd6c74",
-    "1642024568a600685e"
+    "164565180647879e0b",
+    "16456539530f31d6d0"
   ]
 }

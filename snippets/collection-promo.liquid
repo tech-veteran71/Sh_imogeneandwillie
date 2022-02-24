@@ -1,0 +1,9 @@
+<li class="product-card collection-promo collection-promo__1">
+	{% if promo_image_url != blank %}
+	<a href="{{ promo_image_url }}">
+	{% endif %}
+	<img src="{{promo_image}}" alt="{{collection.title}}" />
+	{% if promo_image_url != blank %}
+	</a>
+	{% endif %}
+</li>

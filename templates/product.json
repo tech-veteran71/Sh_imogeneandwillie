@@ -90,7 +90,7 @@
         "btn_url": "",
         "btn": "read more >",
         "add_video": true,
-        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/pexels-algen-anquitan-5407975.mp4?v=1642676377"
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Denim_15_Second_Draft.m4v?v=1644966259"
       }
     },
     "1642505173ef81dd16": {
@@ -169,6 +169,30 @@
         "pre_title": "(featured)",
         "heading": "You may also like"
       }
+    },
+    "164564806697113a57": {
+      "type": "guide-section",
+      "blocks": {
+        "00b6844e-99cf-4b3d-88c8-c05899a84b7a": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "00b6844e-99cf-4b3d-88c8-c05899a84b7a"
+      ],
+      "settings": {
+        "bg_color": "",
+        "change_alignment": false,
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
     }
   },
   "order": [
@@ -176,6 +200,7 @@
     "16355989173d290cbd",
     "1635523248a721bf5a",
     "1642505173ef81dd16",
-    "product-recommendations"
+    "product-recommendations",
+    "164564806697113a57"
   ]
 }

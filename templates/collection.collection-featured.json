@@ -11,7 +11,7 @@
     "1644301425923d1574": {
       "type": "collection-featured-template",
       "settings": {
-        "collection_title": "",
+        "collection_title": "men's shirts",
         "review": "\"I want to die with my blue jeans on.\"",
         "customer_name": "- Andy Warhol"
       }
@@ -21,6 +21,7 @@
       "settings": {
         "choose_collection": "size-32",
         "main_title": "MEN’S DENIM FITS",
+        "sub_title": "",
         "btn_text": "SHOP ALL",
         "btn_url": ""
       }

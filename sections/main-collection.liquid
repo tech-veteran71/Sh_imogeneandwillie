@@ -2,13 +2,20 @@
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
-
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+{{ 'component-facets.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 
-  {{ 'component-facets.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
+{% comment %}
+  Metafields
+{% endcomment %}
+{% assign author_quote = collection.metafields.seed.author_quote %}
+{% assign author_name = collection.metafields.seed.author_name %}
+{% assign grid_image = collection.metafields.seed.grid_image | img_url:"master" %}
+{% assign grid_url = collection.metafields.seed.grid_image_link %}
+{% assign grid_image_2 = collection.metafields.seed.grid_image_2 | img_url:"master" %}
+{% assign grid_url_2 = collection.metafields.seed.grid_image_link_2 %}
 
 <div id="ProductGridContainer" class="collection-main__bg">
   <div class="collection-main__hero-text">
@@ -36,6 +43,21 @@
                   %}
                 </li>
               {%- endfor -%}
+              {% if author_quote != blank %}
+                {% render 'collection-quote', author_quote: author_quote, author_name: author_name %}
+              {% endif %}
+              {% if collection.metafields.seed.grid_image != blank %}
+                {% render 'collection-promo', 
+                  promo_image: grid_image, 
+                  promo_image_url: grid_url
+                %}
+              {% endif %}
+              {% if collection.metafields.seed.grid_image_2 != blank %}
+                {% render 'collection-promo-2', 
+                  promo_image: grid_image_2, 
+                  promo_image_url: grid_url_2
+                %}
+              {% endif %}
             </ul>
             {%- if paginate.pages > 1 -%}
           {% render 'pagination', paginate: paginate, anchor: '' %}
