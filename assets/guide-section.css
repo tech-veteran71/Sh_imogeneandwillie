@@ -30,6 +30,11 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.guide-section .content-wrap__no-bg {
+  background-color: transparent;
+}
+
 .guide-section .link {
   text-decoration: none;
   color: var( --color-blue);

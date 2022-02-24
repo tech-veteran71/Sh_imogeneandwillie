@@ -1183,6 +1183,13 @@ deferred-media {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
+    font-family: var(--font-din);
+    font-size: 1.4rem;
+    background-color: var(--color-normal-black);
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    height: 5.5rem;
 }
 
 .button:focus-visible {
