@@ -296,13 +296,6 @@
         "customer_name": "- Andy Warhol"
       }
     },
-    "grand": {
-      "type": "grand-image",
-      "settings": {
-        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
-        "img_url": ""
-      }
-    },
     "16455496794f990c36": {
       "type": "new-arrival-section",
       "settings": {
@@ -411,7 +404,6 @@
     "fact",
     "1645651653a2778f5d",
     "1639913310d033f738",
-    "grand",
     "16455496794f990c36",
     "1645549894e4dd3d7f",
     "16456509000546ab0a"

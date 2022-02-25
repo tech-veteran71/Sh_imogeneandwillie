@@ -169,16 +169,6 @@
         "pre_title": "(featured)",
         "heading": "You may also like"
       }
-    },
-    "1645740241744746c2": {
-      "type": "denim-collection",
-      "settings": {
-        "choose_collection": "size-25",
-        "main_title": "Main Title",
-        "sub_title": "im trying to figure out what this",
-        "btn_text": "Button",
-        "btn_url": ""
-      }
     }
   },
   "order": [
@@ -186,7 +176,6 @@
     "16355989173d290cbd",
     "1635523248a721bf5a",
     "1642505173ef81dd16",
-    "product-recommendations",
-    "1645740241744746c2"
+    "product-recommendations"
   ]
 }

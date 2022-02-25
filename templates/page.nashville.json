@@ -147,37 +147,12 @@
         "btn_text": "LOREM IPSUM",
         "btn_url": ""
       }
-    },
-    "community-section": {
-      "type": "community-section",
-      "settings": {
-        "desk_img": "shopify:\/\/shop_images\/gallery-4.png",
-        "pre_title": "( our home )",
-        "title": "supper + song",
-        "text": "a gathering of community around music hosted semi-monthly in the warmer months. supper + song is free and open to the public — our backyard is yours. bring a blanket, your loved ones (dogs included), and your own beverages.",
-        "link_text": "MORE INFO",
-        "link_url": "",
-        "mob_link_text": "continue reading",
-        "mob_link_url": ""
-      }
-    },
-    "fade-section": {
-      "type": "fade-section",
-      "settings": {
-        "img": "shopify:\/\/shop_images\/oneyearwear_-3.png",
-        "title": "love fades",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation",
-        "btn_text": "LOREM IPSUM",
-        "btn_url": ""
-      }
     }
   },
   "order": [
     "banner",
     "shop_info",
     "gallery",
-    "video-with-text",
-    "community-section",
-    "fade-section"
+    "video-with-text"
   ]
 }

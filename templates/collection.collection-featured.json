@@ -15,21 +15,10 @@
         "review": "\"I want to die with my blue jeans on.\"",
         "customer_name": "- Andy Warhol"
       }
-    },
-    "16443036269e0d559e": {
-      "type": "denim-collection",
-      "settings": {
-        "choose_collection": "size-32",
-        "main_title": "MEN’S DENIM FITS",
-        "sub_title": "",
-        "btn_text": "SHOP ALL",
-        "btn_url": ""
-      }
     }
   },
   "order": [
     "banner",
-    "1644301425923d1574",
-    "16443036269e0d559e"
+    "1644301425923d1574"
   ]
 }
