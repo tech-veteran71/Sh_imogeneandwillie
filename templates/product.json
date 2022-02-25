@@ -170,28 +170,14 @@
         "heading": "You may also like"
       }
     },
-    "164564806697113a57": {
-      "type": "guide-section",
-      "blocks": {
-        "00b6844e-99cf-4b3d-88c8-c05899a84b7a": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "00b6844e-99cf-4b3d-88c8-c05899a84b7a"
-      ],
+    "1645740241744746c2": {
+      "type": "denim-collection",
       "settings": {
-        "bg_color": "",
-        "change_alignment": false,
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
+        "choose_collection": "size-25",
+        "main_title": "Main Title",
+        "sub_title": "im trying to figure out what this",
+        "btn_text": "Button",
+        "btn_url": ""
       }
     }
   },
@@ -201,6 +187,6 @@
     "1635523248a721bf5a",
     "1642505173ef81dd16",
     "product-recommendations",
-    "164564806697113a57"
+    "1645740241744746c2"
   ]
 }

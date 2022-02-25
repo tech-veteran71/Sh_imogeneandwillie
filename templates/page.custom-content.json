@@ -48,9 +48,10 @@
           "settings": {
             "desk_img": "shopify:\/\/shop_images\/Fit_Guide_600x_600x_ef429294-71a6-477e-ae60-b292abfdc0c1.png",
             "title": "",
-            "text": "the text",
-            "link_text": "HI THIS IS THE LINK",
-            "link_url": "#"
+            "text": "",
+            "btn": false,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/size-23"
           }
         },
         "bff7b585-b654-486b-a52e-a2746f2af4fd": {
@@ -59,6 +60,7 @@
             "desk_img": "shopify:\/\/shop_images\/Image_9_600x_600x_8879874e-8e13-4271-a88e-802579e7932d.png",
             "title": "MEN’S DENIM",
             "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "btn": false,
             "link_text": "SHOP ALL >",
             "link_url": ""
           }
@@ -69,8 +71,9 @@
             "desk_img": "shopify:\/\/shop_images\/Fabric_Guide_600x_600x_bbcab5db-eb71-4e1b-9f91-7dc93a2801de.png",
             "title": "",
             "text": "",
+            "btn": true,
             "link_text": "",
-            "link_url": ""
+            "link_url": "shopify:\/\/collections\/bottom-size-24"
           }
         }
       },
@@ -82,9 +85,9 @@
       "settings": {
         "bg_color": "#f7f6f3",
         "change_alignment": true,
-        "btn_text": "",
+        "btn_text": "THIS IS THE TEXT",
         "btn_url": "",
-        "show_button": false
+        "show_button": true
       }
     },
     "content": {
@@ -144,10 +147,11 @@
           "type": "image",
           "settings": {
             "desk_img": "shopify:\/\/shop_images\/Fit_Guide_600x_600x_48b74990-b654-474d-ab8a-3a30661c0f5f.png",
-            "title": "sdfasdfasdf",
+            "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
-            "link_url": ""
+            "link_url": "#"
           }
         },
         "163c35b8-d46c-4c2d-aa2e-9ebdf51b94b1": {
@@ -156,6 +160,7 @@
             "desk_img": "shopify:\/\/shop_images\/Image_306_600x_600x_0a2a9f05-a451-47c3-8f2c-51717ffe2f75.png",
             "title": "WOMEN’S DENIM",
             "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "btn": false,
             "link_text": "SHOP ALL >",
             "link_url": ""
           }
@@ -166,6 +171,7 @@
             "desk_img": "shopify:\/\/shop_images\/Fabric_Guide_600x_600x_23952a79-36ce-411d-aa1c-a7a0cb62a3d2.png",
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }
@@ -243,6 +249,7 @@
             "desk_img": "shopify:\/\/shop_images\/Fit_Guide_600x_600x_ef429294-71a6-477e-ae60-b292abfdc0c1.png",
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }
@@ -253,6 +260,7 @@
             "desk_img": "shopify:\/\/shop_images\/Image_306_600x_600x_0a2a9f05-a451-47c3-8f2c-51717ffe2f75.png",
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }
@@ -262,6 +270,7 @@
           "settings": {
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }
@@ -318,6 +327,7 @@
     },
     "16456509000546ab0a": {
       "type": "guide-section",
+      "disabled": true,
       "blocks": {
         "40348fee-0a5e-46d0-a57f-eec562ef5f93": {
           "type": "image",
@@ -325,6 +335,7 @@
             "desk_img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }
@@ -335,6 +346,7 @@
             "desk_img": "shopify:\/\/shop_images\/webhero_61f13245-9bc8-400d-87db-1babe2acc8af.jpg",
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }
@@ -344,6 +356,7 @@
           "settings": {
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }
@@ -354,6 +367,7 @@
             "desk_img": "shopify:\/\/shop_images\/layla_01.jpg",
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }
@@ -364,6 +378,7 @@
             "desk_img": "shopify:\/\/shop_images\/Image_267.png",
             "title": "",
             "text": "",
+            "btn": false,
             "link_text": "",
             "link_url": ""
           }

@@ -314,15 +314,41 @@
         "link_url": "shopify:\/\/pages\/nashville"
       }
     },
-    "164554877686b6f627": {
-      "type": "featured--collection",
+    "16457396334873936d": {
+      "type": "featured-product-section",
+      "blocks": {
+        "180aae5c-f4ef-464f-98e2-85d59750bce1": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/4up2_6fb99f8c-d8da-46b2-87c5-a1a0c203ed09.jpg",
+            "link": "shopify:\/\/collections\/size-26"
+          }
+        },
+        "96835c2e-3a96-420a-83a2-e2d97b03511e": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+            "link": ""
+          }
+        },
+        "8b34244c-45c6-406b-9155-729a57304b60": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "180aae5c-f4ef-464f-98e2-85d59750bce1",
+        "96835c2e-3a96-420a-83a2-e2d97b03511e",
+        "8b34244c-45c6-406b-9155-729a57304b60"
+      ],
       "settings": {
-        "choose_collection": "size-26",
-        "title": "Women’s new arrivals",
-        "main_title": "new arrivals",
-        "mob_title": "WOMEN’s",
-        "link_text": "View all",
-        "link_url": ""
+        "desk_img": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+        "link_url": "",
+        "title": "",
+        "link_text": ""
       }
     }
   },
@@ -345,6 +371,6 @@
     "16377324507e0c4445",
     "163773433083afddd3",
     "1637735864c2bd7e13",
-    "164554877686b6f627"
+    "16457396334873936d"
   ]
 }

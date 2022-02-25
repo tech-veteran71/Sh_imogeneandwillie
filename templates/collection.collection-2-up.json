@@ -11,14 +11,6 @@
     "163499298848c6f9e3": {
       "type": "collection-2-up-template",
       "settings": {
-        "fit_guide_img": "shopify:\/\/shop_images\/Fit_Guide.png",
-        "fit_guide_link": "",
-        "fabric_guide_img": "shopify:\/\/shop_images\/Fabric_Guide.png",
-        "fabric_guide_link": "",
-        "collection_title": "men’s denim",
-        "product_per_row": 2,
-        "review": "“i want to die with my blue jeans on.”",
-        "customer_name": "- Andy Warhol"
       }
     },
     "16349930122b0e94dc": {
@@ -62,11 +54,24 @@
         "btn_text": "SHOP ALL",
         "btn_url": ""
       }
+    },
+    "1645732962ec09696d": {
+      "type": "image-gallery-with-text",
+      "settings": {
+        "choose_collection": "size-23",
+        "title": "",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
+      }
     }
   },
   "order": [
     "banner",
     "163499298848c6f9e3",
-    "16349930122b0e94dc"
+    "16349930122b0e94dc",
+    "1645732962ec09696d"
   ]
 }
