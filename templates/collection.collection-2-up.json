@@ -54,24 +54,11 @@
         "btn_text": "SHOP ALL",
         "btn_url": ""
       }
-    },
-    "1645732962ec09696d": {
-      "type": "image-gallery-with-text",
-      "settings": {
-        "choose_collection": "size-23",
-        "title": "",
-        "text": "",
-        "btn_text": "",
-        "btn_url": "",
-        "pre_title": "( essentials  )",
-        "grid_title": "EVERY DAY CARRY"
-      }
     }
   },
   "order": [
     "banner",
     "163499298848c6f9e3",
-    "16349930122b0e94dc",
-    "1645732962ec09696d"
+    "16349930122b0e94dc"
   ]
 }

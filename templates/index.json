@@ -7,7 +7,8 @@
         "mobile_banner_img": "shopify:\/\/shop_images\/desktophero_6f52f24c-9772-4eb8-a6a3-a0f05fd8e14f.jpg",
         "img_height": true,
         "link": "",
-        "add_video": false,
+        "add_video": true,
+        "video_poster": "shopify:\/\/shop_images\/oneyearwear_-10_00c62524-e23e-4b0b-9772-693d50b64770.png",
         "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Bike_Graphic_Product_Page_Test.m4v?v=1645646598",
         "video_controls": true
       }
@@ -50,7 +51,7 @@
         "102cbbfa-c8a8-49d3-b58f-8928a61d956f": {
           "type": "collection_item",
           "settings": {
-            "img_desk": "shopify:\/\/shop_images\/Image_498_900x_f39742c0-c29e-4eac-9de7-3179ae9060a9.png",
+            "img_desk": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
             "img_mob": "shopify:\/\/shop_images\/Untitled-6_3245a8fc-15c6-4fee-a197-b922c89d4511.jpg",
             "pre_title": "WOMEN’S NEW ARRIVALS",
             "title": "agnes jacket in coastal stone",
@@ -146,13 +147,6 @@
         "a5039d9b-141b-4eff-944e-c54ac4ff16e3"
       ],
       "settings": {
-      }
-    },
-    "163768366549649d12": {
-      "type": "review-section",
-      "settings": {
-        "text": "“i want to die with my blue jeans on.”",
-        "name": "- Andy Warhol"
       }
     },
     "1637678315d7082c3b": {
@@ -350,6 +344,27 @@
         "title": "",
         "link_text": ""
       }
+    },
+    "1646080603c0af92a2": {
+      "type": "rich--text",
+      "settings": {
+        "title": "title",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "btn_text": "button",
+        "btn_url": ""
+      }
+    },
+    "16461524441880fc25": {
+      "type": "image-gallery-with-text",
+      "settings": {
+        "choose_collection": "size-28",
+        "title": "BRIGHTER DAYS",
+        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
+        "btn_text": "SHOP Collection",
+        "btn_url": "",
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
+      }
     }
   },
   "order": [
@@ -363,7 +378,6 @@
     "1637662418c5179d34",
     "163766488788d333b9",
     "16376680197e951999",
-    "163768366549649d12",
     "1637678315d7082c3b",
     "16376784532d3e7363",
     "1637738863eee8087f",
@@ -371,6 +385,8 @@
     "16377324507e0c4445",
     "163773433083afddd3",
     "1637735864c2bd7e13",
-    "16457396334873936d"
+    "16457396334873936d",
+    "1646080603c0af92a2",
+    "16461524441880fc25"
   ]
 }

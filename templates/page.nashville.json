@@ -106,18 +106,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_185.png"
           }
-        },
-        "fdff7324-ba77-4c65-aac1-5f30d153e82b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/layla_01.jpg"
-          }
-        },
-        "c0b10424-3056-4084-b766-b17d99c0d3e4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/w_84aedc5e-6b40-4013-a851-528b2a9b3d3c.jpg"
-          }
         }
       },
       "block_order": [
@@ -127,9 +115,7 @@
         "5c73ef34-cfb3-4e0d-910e-ccde95acf278",
         "f0bc0401-352a-4c0e-9e92-7634fa4a45d6",
         "433a86a9-cb6f-434c-9c61-8cd11c7b5217",
-        "a0cb4535-3a8f-43fd-896d-a092248e3fe6",
-        "fdff7324-ba77-4c65-aac1-5f30d153e82b",
-        "c0b10424-3056-4084-b766-b17d99c0d3e4"
+        "a0cb4535-3a8f-43fd-896d-a092248e3fe6"
       ],
       "settings": {
       }
@@ -147,12 +133,24 @@
         "btn_text": "LOREM IPSUM",
         "btn_url": ""
       }
+    },
+    "1646151580f4887848": {
+      "type": "featured--collection",
+      "settings": {
+        "choose_collection": "bottom-size-25",
+        "title": "Women’s new arrivals",
+        "main_title": "new arrivals",
+        "mob_title": "WOMEN’s",
+        "link_text": "View all",
+        "link_url": ""
+      }
     }
   },
   "order": [
     "banner",
     "shop_info",
     "gallery",
-    "video-with-text"
+    "video-with-text",
+    "1646151580f4887848"
   ]
 }

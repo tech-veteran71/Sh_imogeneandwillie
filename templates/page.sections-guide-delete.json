@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1646152627c8facfc9": {
+      "type": "image-gallery",
+      "blocks": {
+        "9f2d2472-bba6-4759-bb23-9e45235e2e09": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-02-23_at_4.38.39_PM.png"
+          }
+        },
+        "e40d4cca-0018-499d-9563-7f113a434137": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/top-picks-grid-mobile_192f9c90-e7fc-429b-b426-6a9af7d3528c.jpg"
+          }
+        },
+        "7deb2424-acb6-4c29-8667-91dc46c9d124": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4up1.jpg"
+          }
+        },
+        "4d39631d-da8e-4bf4-8496-0659c7cb254e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.48.41_PM.png"
+          }
+        },
+        "ac2bcbe1-8ccc-4944-a10f-e2755001e2ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/I_W-13-copy.jpg"
+          }
+        },
+        "e371bcc1-03be-48a9-b1fa-b494f26d4189": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/homepage1.jpg"
+          }
+        },
+        "40028755-bb94-499a-8667-77987bb23342": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sewing_team__15_of_65.png"
+          }
+        },
+        "14531e6a-0656-494c-93bb-9388641dc3b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/layla_01.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "9f2d2472-bba6-4759-bb23-9e45235e2e09",
+        "e40d4cca-0018-499d-9563-7f113a434137",
+        "7deb2424-acb6-4c29-8667-91dc46c9d124",
+        "4d39631d-da8e-4bf4-8496-0659c7cb254e",
+        "ac2bcbe1-8ccc-4944-a10f-e2755001e2ad",
+        "e371bcc1-03be-48a9-b1fa-b494f26d4189",
+        "40028755-bb94-499a-8667-77987bb23342",
+        "14531e6a-0656-494c-93bb-9388641dc3b2"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1646152627c8facfc9"
+  ]
+}

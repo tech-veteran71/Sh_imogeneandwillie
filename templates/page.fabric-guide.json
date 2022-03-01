@@ -35,16 +35,6 @@
         "show_btn": false
       }
     },
-    "slider": {
-      "type": "product-slider",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "choose_collection": "denim",
-        "btn_text": "SHOP indigo",
-        "btn_url": ""
-      }
-    },
     "163963500604115f8d": {
       "type": "collage-section",
       "settings": {
@@ -60,16 +50,6 @@
         "btn_url": "",
         "change_alignment": true,
         "show_btn": false
-      }
-    },
-    "1639635140ac8cfe60": {
-      "type": "product-slider",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "choose_collection": "women",
-        "btn_text": "shop washed",
-        "btn_url": ""
       }
     },
     "1639635146b0133f09": {
@@ -89,16 +69,6 @@
         "show_btn": false
       }
     },
-    "163963521571238662": {
-      "type": "product-slider",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "choose_collection": "mens-shirts",
-        "btn_text": "shop black",
-        "btn_url": ""
-      }
-    },
     "1639635223785c4970": {
       "type": "collage-section",
       "settings": {
@@ -116,16 +86,6 @@
         "show_btn": false
       }
     },
-    "16396352870cb36956": {
-      "type": "product-slider",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "choose_collection": "women-tops",
-        "btn_text": "shop white\/natural",
-        "btn_url": ""
-      }
-    },
     "1639635293f0bb6f00": {
       "type": "collage-section",
       "settings": {
@@ -141,16 +101,6 @@
         "btn_url": "",
         "change_alignment": false,
         "show_btn": false
-      }
-    },
-    "1639635379cd9a23d1": {
-      "type": "product-slider",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "choose_collection": "mens-shirts",
-        "btn_text": "shop lorem",
-        "btn_url": ""
       }
     },
     "fabric-section": {
@@ -190,15 +140,10 @@
     "main",
     "rich-text",
     "collage-section",
-    "slider",
     "163963500604115f8d",
-    "1639635140ac8cfe60",
     "1639635146b0133f09",
-    "163963521571238662",
     "1639635223785c4970",
-    "16396352870cb36956",
     "1639635293f0bb6f00",
-    "1639635379cd9a23d1",
     "fabric-section"
   ]
 }
