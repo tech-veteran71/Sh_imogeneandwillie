@@ -2862,11 +2862,11 @@ customElements.define("ajax-cart", AjaxCart);
         spaceBetween: 20,
       },
       768: {
-        slidesPerView: "auto",
+        slidesPerView: 2.5,
         spaceBetween: 10,
       },
       300: {
-        slidesPerView: "auto",
+        slidesPerView: 2.5,
         spaceBetween: 10
       }
     }

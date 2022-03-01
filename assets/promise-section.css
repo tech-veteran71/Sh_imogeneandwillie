@@ -58,6 +58,7 @@
   letter-spacing: 0.3rem;
   border: 0.1rem solid var(--color-normal-black);
   justify-content: center;
+  margin-top: 3.5rem;
 }
 .promise-section .pre-title {
   font-size: 1.3rem;

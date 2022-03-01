@@ -19,7 +19,7 @@
               </div>
              {% endif %}
             {% if section.settings.btn_text != blank %}
-              <a href="{{ section.settings.link_url }}" class="btn">
+              <a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}button--link{% else %}btn{% endif %}">
                 {{ section.settings.btn_text }}
               </a>
             {% endif %}
@@ -43,7 +43,7 @@
 </div>
 {% schema %}
 {
-  "name": "Promise Section",
+  "name": "BRAND PROMISE FEATURE",
   "settings": [
     {
       "type": "header",
@@ -89,6 +89,11 @@
       "type": "url",
       "id": "link_url",
       "label": "Link Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_link",
+      "label": "Show Link Instead of Button"
     }
   ],
   "presets": [

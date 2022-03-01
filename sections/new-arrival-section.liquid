@@ -1,3 +1,4 @@
+{{ 'new-arrival-section.css' | asset_url | stylesheet_tag }}
 <div class="main-section {% if section.settings.show_section %} show-main-section{% endif %} {% if section.settings.show_section_desk %} desk-main-section{% endif %} {% if section.settings.show_section_mob %} mob-main-section{% endif %}">
   <div class="new-arrival-section {% if section.settings.change_alignment %}alignment{% endif %}"  style="background-image: url({{ section.settings.bg_img | img_url: 'master' }})">
     <div class="index-container" >
@@ -33,7 +34,7 @@
 </div>
 {% schema %}
 {
-  "name": "New Arrival Section",
+  "name": "IMAGE OVERLAY FEATURE",
   "settings": [
     {
       "type": "header",

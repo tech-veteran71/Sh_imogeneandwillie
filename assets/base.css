@@ -1233,6 +1233,15 @@ deferred-media {
   padding: 1.2rem 2.6rem;
 }
 
+.button--link {
+  text-transform: uppercase;
+  font-family: var(--font-din);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: var(--color-blue);
+}
+
 /* Button - hover */
 
 .button:not([disabled]):hover,

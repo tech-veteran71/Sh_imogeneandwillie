@@ -7,7 +7,7 @@
         "mobile_banner_img": "shopify:\/\/shop_images\/desktophero_6f52f24c-9772-4eb8-a6a3-a0f05fd8e14f.jpg",
         "img_height": true,
         "link": "",
-        "add_video": true,
+        "add_video": false,
         "video_poster": "shopify:\/\/shop_images\/oneyearwear_-10_00c62524-e23e-4b0b-9772-693d50b64770.png",
         "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Bike_Graphic_Product_Page_Test.m4v?v=1645646598",
         "video_controls": true

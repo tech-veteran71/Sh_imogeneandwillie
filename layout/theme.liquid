@@ -128,21 +128,6 @@
       }
     {% endstyle %}
 
-    {% if template == 'index' %}
-      {{ 'new-arrival-section.css' | asset_url | stylesheet_tag }}
-      {{ 'featured-collection.css' | asset_url | stylesheet_tag }}
-      {{ 'slide-section.css' | asset_url | stylesheet_tag }}
-    {% endif %}
-
-    {% if template.suffix == 'fabric-guide' or template.suffix == 'fit-guide' %}
-      {{ 'product-slider.css' | asset_url | stylesheet_tag }}
-    {% endif %}
-    {% if template.suffix == 'custom-content' %}
-      {{ 'guide-section.css' | asset_url | stylesheet_tag }}
-    {% endif %}
-    {% if template.suffix == 'fabric-guide' or template.suffix == 'custom-content' or template.suffix == 'fit-guide' %}
-      {{ 'collage-section.css' | asset_url | stylesheet_tag }}
-    {% endif %}
     {{ 'component-card.css' | asset_url | stylesheet_tag }}
     <link href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
     {{ 'common.css' | asset_url | stylesheet_tag }}

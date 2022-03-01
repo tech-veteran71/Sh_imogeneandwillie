@@ -1,3 +1,4 @@
+{{ 'collage-section.css' | asset_url | stylesheet_tag }}
 <style>
   #shopify-section-{{ section.id }} .collage-section {
     --desk-bg-color: {{ section.settings.desk_bg_color }};
@@ -26,7 +27,7 @@
             <p class="text">{{ section.settings.text }}</p>
           {% endif %}
           {% if section.settings.btn_text != blank %}
-            <a href="{{ section.settings.btn_url }}" class="btn {% if section.settings.show_btn %}show-btn{% endif %}">{{ section.settings.btn_text }}</a>
+            <a href="{{ section.settings.btn_url }}" class="{% if section.settings.show_link %}button--link{% else %}btn{% endif %} {% if section.settings.show_btn %}show-btn{% endif %}">{{ section.settings.btn_text }}</a>
           {% endif %}
         </div>
       </div>
@@ -48,7 +49,7 @@
 
 {% schema %}
 {
-  "name": "Collage Section",
+  "name": "50% IMAGE W/ TXT ONLY",
   "settings": [
     {
       "type": "header",
@@ -132,6 +133,11 @@
       "id": "show_btn",
       "label": "Show Button On Mobile",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_link",
+      "label": "Show Link Instead of Button"
     }
   ],
   "presets": [

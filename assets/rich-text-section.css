@@ -35,7 +35,15 @@
 .rich-text-section .wrapper {
   max-width: 47rem;
   margin: 0 auto;
+}
+.rich-text-section .wrapper.center {
   text-align: center;
+}
+.rich-text-section .wrapper.left {
+  text-align: left;
+}
+.rich-text-section .wrapper.right {
+  text-align: right;
 }
 .rich-text-section .button-wrap {
   text-decoration: none;
@@ -64,7 +72,6 @@
   }
   .rich-text-section .wrapper {
     max-width: unset;
-    text-align: left;
   }
   .rich-text-section {
     padding: 2rem 0 5rem;

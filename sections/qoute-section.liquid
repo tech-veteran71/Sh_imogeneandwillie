@@ -1,5 +1,5 @@
 {{ 'qoute-section.css' | asset_url | stylesheet_tag }}
-<div class="qoute-section">
+<div class="qoute-section" style="color:{{ section.settings.background_color }};">
   <div class="container">
     <div class="wrapper">
       <div class="qoute">
@@ -12,7 +12,7 @@
 
 {% schema %}
 {
-  "name": "Quote Section",
+  "name": "QUOTE W/ AUTHOR",
   "settings": [
     {
       "type": "header",
@@ -30,6 +30,12 @@
       "id": "customer_name",
       "label": "Customer Name",
       "default": "- Andy Warhol"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "default": "transparent",
+      "label": "BG Color"
     }
   ],
   "presets": [

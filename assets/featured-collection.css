@@ -72,7 +72,31 @@
   height: 100%;
 }
 
+.featured-collection .link {
+  display: flex;
+  letter-spacing: 0.3rem;
+  text-decoration: none;
+}
+
+.featured-collection .content-wrap--desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+.featured-collection .content-wrap--desktop .text {
+  text-transform: uppercase;
+  font-family: var(--font-din);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: var(--color-blue);
+}
+
 @media screen and (max-width:990px){
+  .featured-collection .content-wrap--desktop {
+    display: none;
+  }
   .featured-collection .title {
     display: none;
   }

@@ -41,10 +41,8 @@
 .collage-section .content-wrap {
   text-align: center;
 }
+
 .collage-section .pre-title {
-  display: none;
-}
-.fit-guide-page .collage-section .pre-title {
   display: block;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;

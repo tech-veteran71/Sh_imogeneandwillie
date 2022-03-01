@@ -64,12 +64,6 @@
   min-width: unset;
   font-family: var(--font-din)
 }
-.latest-collection .button:focus {
-  box-shadow: unset;
-}
-.latest-collection .button:hover {
-  box-shadow: unset;
-  }
 .latest-collection .image img {
   display: none;
 }

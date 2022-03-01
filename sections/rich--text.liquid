@@ -1,7 +1,7 @@
 {{ 'rich-text-section.css' | asset_url | stylesheet_tag }}
 <div class="rich-text-section">
   <div class="index-container">
-    <div class="wrapper">
+    <div class="wrapper {{ section.settings.text_align }}">
       {% if section.settings.title != blank %}
         <h4 class="title">{{ section.settings.title }}</h4>
       {% endif %}
@@ -12,10 +12,13 @@
       {% endif %}
       {% if section.settings.btn_text != blank %}
         <a  href="{{ section.settings.btn_url}}"  class="button-wrap">
-          <span class="btn">{{ section.settings.btn_text }}</span>
+          <span class="{% if section.settings.show_button %}button{% else %}button--link{% endif %}">{{ section.settings.btn_text }}</span>
+          {% if section.settings.show_button %}
+            {% else %}
           <span class="arrow">
             {% render 'icon-right-arrow' %}
           </span>
+        {% endif %}
         </a>
       {% endif %}
     </div>
@@ -23,12 +26,32 @@
 </div>
 {% schema %}
 {
-  "name": "Rich Text Section",
+  "name": "TXT W/ LINK",
   "settings":[
     {
       "type": "header",
       "content": "Content",
       "info": "-------"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Align",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
     },
     {
       "type": "text",
@@ -49,6 +72,11 @@
       "type": "url",
       "id": "btn_url",
       "label": "Button Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button Instead of Link"
     }
   ],
   "presets":[
