@@ -22,6 +22,7 @@
       {% endif %}
       <div class="gallery">
           {% for product in collections[section.settings.choose_collection].products limit: section.settings.products_to_show %}
+            {% if section.settings.show_title %}
             {% render 'product-card',
                     product: product,
                     show_title: true,
@@ -29,6 +30,15 @@
                     show_price: false,
                     swiper_slide: false
                   %}
+            {% else %}
+            {% render 'product-card',
+              product: product,
+              show_title: false,
+              show_subtitle: false,
+              show_price: false,
+              swiper_slide: false
+            %}
+            {% endif %}
           {% endfor %}
       </div>
       {% if section.settings.btn_text != blank %}
@@ -51,6 +61,11 @@
       "type": "collection",
       "id": "choose_collection",
       "label": "Choose Collection"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show Product Title"
     },
     {
       "type": "range",

@@ -1,9 +1,9 @@
 .product-gallery {
-  padding-bottom: 20rem;
+  padding: 7rem 0 8rem;
   background-color: var(--color-Xlight-wheat);
 }
 .product-gallery .wrapper {
-  padding: 0 15rem;
+  padding: 0 10rem;
 }
 .product-gallery .header-wrap {
   text-align: center;
@@ -31,7 +31,7 @@
   display: grid;
   grid-row-gap: 3rem;
   grid-column-gap: 3rem;
-  margin-bottom: 12rem;
+  margin-bottom: 6rem;
 }
 
 .product-gallery .product-link {

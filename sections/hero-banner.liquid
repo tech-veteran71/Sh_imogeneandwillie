@@ -15,18 +15,20 @@
       </a>
       <div class="content-wrap">
         {% if section.settings.main_title != blank %}
-          <h1 class="main-title">{{ section.settings.main_title }}</h1>
+          <h1 class="main-title {{ section.settings.title_font }}">{{ section.settings.main_title }}</h1>
         {% endif %}
         {% if section.settings.text != blank %}
           <p class="text">{{ section.settings.text }}</p>
         {% endif %}
       </div>
       {% if section.settings.link_text != blank %}
-        <a class="link" href="#collage-section">
+        <a class="link {% if section.settings.show_button %}button{% endif %}" href="{{ section.settings.link }}">
           <span class="link-text">{{ section.settings.link_text }}</span>
+          {% if section.settings.show_down_arrow %}
           <div class="icon-wrap">
             {% include 'icon-down' %}
           </div>
+        {% endif %}
         </a>
       {% endif %}
     </div>
@@ -69,6 +71,22 @@
       "label": "Main Title"
     },
     {
+      "type": "select",
+      "id": "title_font",
+      "label": "Title Font",
+      "options": [
+        {
+          "value": "headline__arno",
+          "label": "Arno"
+        },
+        {
+          "value": "headline__din",
+          "label": "Din"
+        }
+      ],
+      "default": "headline__din"
+    },
+    {
       "type": "text",
       "id": "text",
       "label": "Text"
@@ -76,8 +94,24 @@
     {
       "type": "text",
       "id": "link_text",
-      "label": "Link Text",
+      "label": "Button Text",
       "default": "FIND YOUR FIT"
+    },
+    {
+      "type": "text",
+      "id": "link",
+      "label": "Button Link",
+      "default": "#"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Button Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_down_arrow",
+      "label": "Show Down Arrow"
     }
   ],
   "presets": [
