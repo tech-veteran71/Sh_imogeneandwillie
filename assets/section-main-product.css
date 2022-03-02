@@ -62,6 +62,9 @@
     position: sticky;
     top: 3rem;
     z-index: 2;
+    width: 35rem;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .product__media-container .slider-buttons {
@@ -1035,6 +1038,9 @@ a.product__text {
 .product .size-box-wrap.show {
   margin-bottom: 0;
 }
+.product .size-box-wrap.show .icon-wrap svg {
+  transform: rotate(180deg); 
+}
 .product .size-box-wrap.show .size-wrap {
   display: block;
 }
@@ -1058,7 +1064,7 @@ a.product__text {
   grid-column-gap: 0.3em;
   grid-row-gap: 0.55em;
   width: 88%;
-  margin: 2em auto;
+  margin: 2.3rem auto;
 }
 .product .size-box-wrap .inputs-group label {
   border: 0.1rem solid var(--color-normal-black);
@@ -1146,7 +1152,7 @@ a.product__text {
   font-size: 1.4rem;
   font-family: var(--font-gothic);
   letter-spacing: 0.1rem;
-  line-height: 2.8rem;
+  line-height: 2rem;
   color: var(--color-dim-black);
 }
 .product .product__description p,
@@ -1158,7 +1164,7 @@ a.product__text {
   color: var(--color-blue);
   font-size: 1em;
   font-family: var(--font-din);
-  text-decoration: none
+  text-decoration: underline;
 }
 .product .product__description a:hover {
   color: var(--color-blue);
@@ -1187,7 +1193,7 @@ a.product__text {
   padding-bottom: 3rem;
 }
 .product .accordian-item {
-  border-top: 0.1rem solid #707070;
+  border-top: 0.1rem solid #A0A0A0;
   padding: 0 0.125rem;
 }
 .product .accordian-item.active .accordian-body {
@@ -1345,8 +1351,8 @@ a.product__text {
   background-color: var(--color-normal-black);
   color: var(--color-white);
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  height: 5.5rem;
+  letter-spacing: 0.42em;
+  height: 4.5rem;
   box-shadow: unset;
 }
 
@@ -1415,7 +1421,7 @@ a.product__text {
   }
   .product .size-box-wrap .legend-wrap {
     padding: 0.6em;
-    height: 4.2rem;
+    height: 4.5rem;
   }
   .product .size-box-wrap .inputs-group {
     width: 95%;
@@ -1555,7 +1561,7 @@ a.product__text {
     margin-bottom: 1.3em;
   }
   .product .product-form__submit {
-    min-height: 5.2rem;
+    min-height: 4.5rem;
     font-size: 0.8em;
     letter-spacing: 0.24rem;
   }

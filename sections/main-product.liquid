@@ -1,4 +1,11 @@
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
+<script type="text/javascript">
+  window.onkeydown = function( event ) {
+    if ( event.keyCode == 27 ) {
+        console.log( 'escape pressed' );
+    }
+};
+ </script>
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -66,9 +73,9 @@
               </div>
             {%- endif -%}
           {% when 'link' %}
-            {% if block.settings.link_text != blank %}
+            {% if product.tags contains 'made-usa' %}
               <div class="link-wrap">
-                <a href="{{ block.settings.link }}" class="link">{{ block.settings.link_text }}</a>
+                <span class="link">made in usa</span>
               </div>
             {% endif %}
           {%- when 'custom_liquid' -%}
@@ -360,11 +367,13 @@
       <div class='product-media-swiper'>
         <div class="swiper-wrapper">
           {%- for media in product.images -%}
+            {% unless image.alt contains 'mobile-hide' %}
             <div class="swiper-slide">
               <div class="media-wrap">
                 {% render 'responsive--image' with media as image, max_width: 560, class: 'product-media' %}
               </div>
             </div>
+          {% endunless %}
           {% endfor %}
         </div>
         <div class="swiper-pagination"></div>

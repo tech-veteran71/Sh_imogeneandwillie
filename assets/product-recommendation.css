@@ -111,6 +111,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.product-recommendation__grid .card-information + .card {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
   .product-recommendation__grid {
     display: grid;
