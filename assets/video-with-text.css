@@ -1,5 +1,6 @@
 .video-with-text {
   margin-bottom: 4.3em;
+  margin-top: 4.3rem;
   font-size: 1.2vw;
 }
 .video-with-text .wrapper {
@@ -124,6 +125,7 @@
     background-color: var(--color-Xlight-wheat);
     padding: 50px 0 60px;
     margin-bottom: 0;
+    margin-top: 0;
   }
   .video-with-text .nashville-container {
     padding: 0;

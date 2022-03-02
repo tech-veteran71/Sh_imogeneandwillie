@@ -3,7 +3,7 @@
   <div class="index-container">
     <div class="wrapper {{ section.settings.text_align }}">
       {% if section.settings.title != blank %}
-        <h4 class="title">{{ section.settings.title }}</h4>
+        <h4 class="title {{ section.settings.title_font }}">{{ section.settings.title }}</h4>
       {% endif %}
       {% if  section.settings.text != blank %}
         <div class="text-wrap">
@@ -57,6 +57,22 @@
       "type": "text",
       "id": "title",
       "label": "Title"
+    },
+    {
+      "type": "select",
+      "id": "title_font",
+      "label": "Title Font",
+      "options": [
+        {
+          "value": "headline__arno",
+          "label": "Arno"
+        },
+        {
+          "value": "headline__din",
+          "label": "Din"
+        }
+      ],
+      "default": "headline__arno"
     },
     {
       "type": "text",

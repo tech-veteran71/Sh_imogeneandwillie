@@ -56,7 +56,6 @@
 }
 .video-section .beta {
   flex: 1;
-  height: 52.5rem;
   position: relative;
   z-index: 9;
   cursor: pointer;
@@ -121,6 +120,9 @@
   height: 100%;
   object-fit: cover;
   display: block;
+}
+.video-section .title.mobile-title {
+  display: none;
 }
 /* responsive start */
 @media (max-width: 1024px){

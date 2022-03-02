@@ -16,10 +16,12 @@
     "163767167477fefeea": {
       "type": "rich--text",
       "settings": {
+        "text_align": "center",
         "title": "the catherine abilene 3.0",
         "text": "the return of an all-time favorite. 💙  <p>the character in this denim and the effortless drape of the fabric work together to complement the wash: a well-loved vintage look and a rich, soft feel.<\/p>",
         "btn_text": "shop now",
-        "btn_url": "shopify:\/\/products\/enfield-hunting-jacket-in-dark-umber"
+        "btn_url": "shopify:\/\/products\/enfield-hunting-jacket-in-dark-umber",
+        "show_button": false
       }
     },
     "1637673172edbf6c8a": {
@@ -305,7 +307,8 @@
         "title": "committed to making everything in the usa",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
         "btn_text": "LEARN MORE",
-        "link_url": "shopify:\/\/pages\/nashville"
+        "link_url": "shopify:\/\/pages\/nashville",
+        "show_link": false
       }
     },
     "16457396334873936d": {
@@ -348,22 +351,26 @@
     "1646080603c0af92a2": {
       "type": "rich--text",
       "settings": {
+        "text_align": "center",
         "title": "title",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "btn_text": "button",
-        "btn_url": ""
+        "btn_url": "",
+        "show_button": false
       }
     },
-    "16461524441880fc25": {
-      "type": "image-gallery-with-text",
+    "16461747998ae81ec6": {
+      "type": "video-with-text",
       "settings": {
-        "choose_collection": "size-28",
-        "title": "BRIGHTER DAYS",
-        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
-        "btn_text": "SHOP Collection",
-        "btn_url": "",
-        "pre_title": "( essentials  )",
-        "grid_title": "EVERY DAY CARRY"
+        "video_poster": "shopify:\/\/shop_images\/4up2_6fb99f8c-d8da-46b2-87c5-a1a0c203ed09.jpg",
+        "video_url": "https:\/\/vimeo.com\/429778321",
+        "video_controls": true,
+        "pre_title": "( circa 2012 )",
+        "title": "take a look back",
+        "main_title": "HOW IT ALL STARTED",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "btn_text": "LOREM IPSUM",
+        "btn_url": ""
       }
     }
   },
@@ -387,6 +394,6 @@
     "1637735864c2bd7e13",
     "16457396334873936d",
     "1646080603c0af92a2",
-    "16461524441880fc25"
+    "16461747998ae81ec6"
   ]
 }

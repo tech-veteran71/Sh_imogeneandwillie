@@ -19,12 +19,9 @@
 }
 .promise-section .alpha .title {
   font-size: 2.8rem;
-  font-family: var(--font-arno-display);
   font-weight: 500;
-  text-transform: lowercase;
   margin-top: 0;
   margin-bottom: 0;
-  letter-spacing: 0.3rem;
   line-height: 1.2;
   color: var(--color-normal-black);
 }

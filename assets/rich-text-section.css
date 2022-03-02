@@ -66,6 +66,7 @@
   .rich-text-section .text-wrap {
     max-width: 23.5rem;
     padding: 0;
+    margin: 0 auto;
   }
   .rich-text-section .title {
     font-size: 1.5rem
@@ -80,6 +81,6 @@
     font-size: 1.2rem;
   }
   .rich-text-section .button-wrap {
-    justify-content: left;
+    justify-content: center;
   }
 }

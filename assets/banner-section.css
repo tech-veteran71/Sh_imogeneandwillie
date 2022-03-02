@@ -1,6 +1,5 @@
 .banner-section {
-  height: 100vh;
-  min-height: 60rem;
+  height: 100%;
 }
 .banner-section .wrapper {
   height: 100%;

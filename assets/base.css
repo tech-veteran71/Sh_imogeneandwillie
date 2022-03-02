@@ -1183,13 +1183,13 @@ deferred-media {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-    font-family: var(--font-din);
-    font-size: 1.4rem;
-    background-color: var(--color-normal-black);
-    color: var(--color-white);
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    height: 5.5rem;
+  font-family: var(--font-din);
+  font-size: 1.4rem;
+  background-color: var(--color-normal-black);
+  color: var(--color-white);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  height: 5.5rem;
 }
 
 .button:focus-visible {
@@ -3220,4 +3220,16 @@ header .sub-menu-link {
   .custom-page .header .cart-count_bubble {
     color: var(--color-normal-black);
   }
+}
+
+/* Headline Variables */
+
+.headline__arno {
+  font-family: var(--font-arno-display);
+  letter-spacing: 0.16rem;
+}
+
+.headline__din {
+  font-family: var(--font-din);
+  letter-spacing: 0.10rem;
 }

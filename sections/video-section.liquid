@@ -39,7 +39,10 @@
       <div class="beta">
         {% if section.settings.add_video %}
           {% if section.settings.video_url != blank %}
-            <video src="{{ section.settings.video_url }}" preload="none" muted loop data-video></video>
+            <video 
+              autoplay loop muted playsinline>
+              <source src="{{ section.settings.video_url }}" type="video/mp4">
+            </video>
           {% endif %}
           {% else %}
             <div class="image">

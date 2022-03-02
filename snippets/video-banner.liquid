@@ -1,29 +1,28 @@
 {{ 'video-banner.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'video-poster.js' | asset_url }}" defer></script>
 
 <div class="video-banner">
   <div class="container">
     <div class="wrapper">
-      {% if section.settings.video_controls %}
-        {% assign url = section.settings.video_url | split: '?' %}
-        {% assign videoUrl = url | first %}
-      {% else %}
-        {% assign videoUrl = section.settings.video_url %}
-      {% endif %}
-
       {% if section.settings.video_url != blank %}
-        <div class="video-wrap">
-          <iframe width="560" height="315" src="{{ videoUrl }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      {% endif %}
-      {% if section.settings.video_poster != blank %}
-        <div class="video-poster">
-          {% render 'responsive--image' with section.settings.video_poster as image, max_width: 1920, class: 'image' %}
-          <div class="video-play">
-            {% render 'icon-video-play' %}
-          </div>
-        </div>
-      {% endif %}
+      <div class="video-banner__desktop">
+        <video 
+          {% if section.settings.video_controls %}controls{% endif %} 
+          autoplay loop muted playsinline
+        {% if section.settings.video_poster != blank %}poster="{{ section.settings.video_poster | img_url: '2000x' }}"{% endif %}>
+          <source src="{{section.settings.video_url}}" type="video/mp4">
+        </video>
+      </div>
+    {% endif %}
+    {% if section.settings.mobile_video_url != blank %}
+      <div class="video-banner__mobile">
+        <video 
+          {% if section.settings.video_controls %}controls{% endif %} 
+          autoplay loop muted playsinline
+        {% if section.settings.mobile_video_poster != blank %}poster="{{ section.settings.mobile_video_poster | img_url: '2000x' }}"{% endif %}>
+          <source src="{{section.settings.mobile_video_url}}" type="video/mp4">
+        </video>
+      </div>
+    {% endif %}
     </div>
   </div>
 </div>

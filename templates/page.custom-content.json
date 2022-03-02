@@ -32,7 +32,8 @@
         "btn_text": "",
         "btn_url": "",
         "change_alignment": false,
-        "show_btn": false
+        "show_btn": false,
+        "show_link": false
       }
     },
     "1644406380efac1cad": {
@@ -293,7 +294,8 @@
       "type": "qoute-section",
       "settings": {
         "review": "“i want to die with my blue jeans on.”",
-        "customer_name": "- Andy Warhol"
+        "customer_name": "- Andy Warhol",
+        "background_color": "transparent"
       }
     },
     "16455496794f990c36": {
@@ -441,6 +443,79 @@
         "btn_url": "",
         "show_button": false
       }
+    },
+    "164617495359905ea8": {
+      "type": "custom-content-section",
+      "blocks": {
+        "ee055a34-0558-46a6-87b1-cd937a83b9e0": {
+          "type": "info",
+          "settings": {
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
+          }
+        },
+        "1731b49b-0aaa-4754-bd5f-3b487a25211c": {
+          "type": "info",
+          "settings": {
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
+          }
+        },
+        "b6ad48f8-c1fc-44fd-87a1-d0c6835d6192": {
+          "type": "info",
+          "settings": {
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
+          }
+        }
+      },
+      "block_order": [
+        "ee055a34-0558-46a6-87b1-cd937a83b9e0",
+        "1731b49b-0aaa-4754-bd5f-3b487a25211c",
+        "b6ad48f8-c1fc-44fd-87a1-d0c6835d6192"
+      ],
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg",
+        "desk_img_url": "",
+        "mob_img1": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
+        "img_url1": "",
+        "mob_img2": "shopify:\/\/shop_images\/4up1.jpg",
+        "img_url2": "",
+        "overlay_img": "shopify:\/\/shop_images\/4up2.jpg",
+        "overlay_img_url": "",
+        "main_title": "LOREM IPSUM",
+        "main_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
+      }
+    },
+    "16461750837f16f869": {
+      "type": "fact-section",
+      "blocks": {
+        "9d9fff9d-fca4-41f2-8ff5-6d4530676b10": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg",
+            "mob_img": "shopify:\/\/shop_images\/4up2.jpg",
+            "title": "lorem",
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
+            "link_url": ""
+          }
+        },
+        "f1eb0544-4674-441f-9bd3-e4dc7d7af198": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg",
+            "mob_img": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg",
+            "title": "lorem",
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "9d9fff9d-fca4-41f2-8ff5-6d4530676b10",
+        "f1eb0544-4674-441f-9bd3-e4dc7d7af198"
+      ],
+      "settings": {
+        "main_title": "Lorem ipsum dolor"
+      }
     }
   },
   "order": [
@@ -457,6 +532,8 @@
     "16455496794f990c36",
     "1645549894e4dd3d7f",
     "16456509000546ab0a",
-    "1646151711da5f098a"
+    "1646151711da5f098a",
+    "164617495359905ea8",
+    "16461750837f16f869"
   ]
 }
