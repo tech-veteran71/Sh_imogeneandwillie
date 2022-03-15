@@ -46,7 +46,36 @@
   border-radius: 0.5rem;
 }
 
+.content-specific-collection .pre-title {
+  font-size: 1.3rem;
+  font-family: var(--font-gothic);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  color: var(--color-normal-black);
+  text-transform: lowercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.content-specific-collection .title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 5rem;
+  line-height: 1.2;
+  color: var(--color-normal-black);
+  text-align: center;
+}
+
 @media screen and (max-width: 990px) {
+  .content-specific-collection .pre-title {
+    font-size: 1.2rem;
+  }
+  .content-specific-collection .title {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+  }
   .content-specific-collection .product-container {
     padding: 0 1rem;
   }
@@ -64,4 +93,11 @@
   .content-specific-collection .swiper-scrollbar {
     bottom: 2.5rem;
   }
+}
+
+.swiper-pagination {
+  margin-bottom: 2rem;
+}
+.swiper-pagination-bullet-active {
+  background: var(--color-dark-grey);
 }

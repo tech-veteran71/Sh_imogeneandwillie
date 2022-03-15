@@ -118,6 +118,7 @@
       "type": "product-gallery",
       "settings": {
         "choose_collection": "women-denim-34",
+        "show_title": false,
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "collection",
@@ -365,16 +366,36 @@
         "btn_url": ""
       }
     },
-    "1646237350167ac272": {
-      "type": "product-gallery",
+    "16468564033eb23c6e": {
+      "type": "fabric-section",
+      "blocks": {
+        "e8f9e712-938b-4000-8be0-7b4e82275f29": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "d3a0ffb2-0a87-493f-8083-012bf25049a2": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/4up1.jpg",
+            "title": "title",
+            "text": "text",
+            "link_text": "link",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "e8f9e712-938b-4000-8be0-7b4e82275f29",
+        "d3a0ffb2-0a87-493f-8083-012bf25049a2"
+      ],
       "settings": {
-        "choose_collection": "size-25",
-        "products_to_show": 4,
-        "products_per_row": 4,
-        "title": "collection",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
-        "btn_text": "Shop All",
-        "btn_url": ""
+        "main_title": "LOREM IPSUM FABRIC"
       }
     }
   },
@@ -398,6 +419,6 @@
     "1637735864c2bd7e13",
     "16457396334873936d",
     "16461747998ae81ec6",
-    "1646237350167ac272"
+    "16468564033eb23c6e"
   ]
 }

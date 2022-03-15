@@ -2968,10 +2968,11 @@ customElements.define("ajax-cart", AjaxCart);
   // product gallery
   new Swiper('.content-specific-collection .product-grid', {
     slidesPerView: 4,
-    freeMode: true,
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      draggable: true,
+    centeredSlides: true,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
     },
     mousewheel: {
     invert: false,

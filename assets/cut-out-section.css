@@ -1,26 +1,16 @@
 .cut-out-section {
   background-color: #fff;
-  height: 685px;
-  box-shadow: inset 0 0px 26px rgba(0,0,0,0.6);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .cut-out-section:empty {
   display: block;
 }
 
-@media screen and (max-width: 1600px) {
-  .cut-out-section {
-    height: 480px;
-  }
-}
-@media screen and (max-width: 1279px) {
-  .cut-out-section {
-    height: 380px;
-  }
-}
 @media screen and (max-width: 767px) {
   .cut-out-section {
-    height: 550px;
-    background-color: #7C7C7C;
-    box-shadow: inset 0 0px 26px rgba(0,0,0,0.8);
+    height: 70vh;
   }
 }

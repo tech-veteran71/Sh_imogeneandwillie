@@ -1,37 +1,24 @@
 {{ 'content-specific-collection.css' | asset_url | stylesheet_tag }}
-
 <div class="content-specific-collection">
   <div class="product-container">
     <div class="wrapper">
+      {% if section.settings.pre_title != blank %}
+        <h3 class="pre-title">{{ section.settings.pre_title }}</h3>
+      {% endif %}
+       {% if section.settings.title != blank %}
+        <div class="title-wrap">
+          <h2 class="title {{ section.settings.title_font }}">{{ section.settings.title }}</h2>
+        </div>
+       {% endif %}
       <div class="product-grid">
         <div class="swiper-wrapper">
-          {% if section.settings.collection != blank %}
-            {% for product in collections[section.settings.collection].products limit: section.settings.total_product %}
-              {% render 'product-card',
-                    product: product,
-                    show_title: true,
-                    show_subtitle: true,
-                    show_price: false,
-                    swiper_slide: true
-                  %}
-            {% endfor %}
-            {% else %}
               {% for block in section.blocks %}
-                {% if forloop.index <= section.settings.total_product %}
-                  {% render 'product-card' with section, product: block.settings.choose_product,
-                    product: product,
-                    show_title: true,
-                    show_subtitle: true,
-                    show_price: false,
+                  {% render 'collection-card' with section, collection: block.settings.collection,
                     swiper_slide: true
                   %}
-                  {% else %}
-                    {% break %}
-                {% endif %}
               {% endfor %}
-          {% endif %}
         </div>
-        <div class="swiper-scrollbar"></div>
+        <div class="swiper-pagination"></div>
       </div>
       {% if section.settings.btn_text %}
         <div class='btn-wrap'>
@@ -48,28 +35,34 @@
   "settings": [
     {
       "type": "header",
-      "content": "Collection",
-      "info": "-------"
-    },
-    {
-      "type": "collection",
-      "id": "collection",
-      "label": "Choose Collection",
-      "info": "If Collection isn't selected then the manually added product will show."
-    },
-    {
-      "type": "range",
-      "id": "total_product",
-      "label": "Number Of Product",
-      "min": 4,
-      "max": 20,
-      "step": 1,
-      "default": 4
-    },
-    {
-      "type": "header",
       "content": "Content",
       "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "pre_title",
+      "label": "Pre Title"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "select",
+      "id": "title_font",
+      "label": "Title Font",
+      "options": [
+        {
+          "value": "headline__arno",
+          "label": "Arno"
+        },
+        {
+          "value": "headline__din",
+          "label": "Din"
+        }
+      ],
+      "default": "headline__din"
     },
     {
       "type": "text",
@@ -81,27 +74,17 @@
       "type": "url",
       "id": "btn_url",
       "label": "Button Url"
-    },
-    {
-      "type": "checkbox",
-      "id": "toggle_on_hover",
-      "label": "Toggle Both Image And Text On Hover"
     }
   ],
   "blocks": [
     {
-      "name": "Product",
-      "type": "product",
+      "name": "Collection",
+      "type": "collection",
       "settings": [
         {
-          "type": "header",
-          "content": "Product",
-          "info": "-------"
-        },
-        {
-          "type": "product",
-          "id": "choose_product",
-          "label": "Choose Product"
+          "type": "collection",
+          "id": "collection",
+          "label": "Choose Collection"
         }
       ]
     }

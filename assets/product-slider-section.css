@@ -134,8 +134,8 @@
   width: unset;
   height: unset;
   margin: 0;
-  max-width: 1.8rem;
-  flex: 1.8rem;
+  max-width: 1.2rem;
+  flex: 1.2rem;
 }
 .product-slider-section .swiper-counter {
   font-size: 2rem;
@@ -262,11 +262,12 @@
   }
 }
 @media(max-width: 767px ){
-  .product-slider-section__mobile {
-    display: none;
-  }
   .product-slider-section {
     padding: 3rem 0 5rem;
+    display: none;
+  }
+  .product-slider-section__mobile {
+    display: none;
   }
   .product-slider-section .wrapper {
     display: flex;

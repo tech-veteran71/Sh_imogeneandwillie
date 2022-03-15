@@ -1,0 +1,29 @@
+<div class="{% if swiper_slide %}swiper-slide{% endif %} card-wrapper">
+    <div class="card-information">
+      <div class="card-information__wrapper">
+          <h3 class="card-information__text {% if product.available == false %}light{% endif %}">
+            <a href="{{ collection.url | default: '#' }}" class="full-unstyled-link">
+              {{ collection.title | escape }}
+            </a>
+          </h3>
+        {% if collection.metafields.descriptor.subtitle != blank %}
+        <h4 class="card-information__subtext">{{ collection.metafields.descriptor.subtitle }}</h4>
+        {% endif %}
+      </div>
+    </div>
+  
+    <div class="card card--product" tabindex="-1">
+      <div class="card__inner">
+        <a href="{{ collection.url | default: '#' }}" class="full-unstyled-link">
+          <div>
+              <img
+                src="{{ collection.image | img_url: 'large' }}"
+                alt="{{ collection.title | escape }}"
+                loading="lazy"
+              />
+          </div>
+      </a>
+      </div>
+    </div>
+  </div>
+  

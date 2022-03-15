@@ -169,6 +169,17 @@
         "pre_title": "(featured)",
         "heading": "You may also like"
       }
+    },
+    "164685615520b7f8a7": {
+      "type": "product-slider-section",
+      "settings": {
+        "hide_mobile": false,
+        "choose_collection": "",
+        "title": "GRAPHIC CONTENT",
+        "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+        "btn_text": "Shop ALL",
+        "btn_url": ""
+      }
     }
   },
   "order": [
@@ -176,6 +187,7 @@
     "16355989173d290cbd",
     "1635523248a721bf5a",
     "1642505173ef81dd16",
-    "product-recommendations"
+    "product-recommendations",
+    "164685615520b7f8a7"
   ]
 }

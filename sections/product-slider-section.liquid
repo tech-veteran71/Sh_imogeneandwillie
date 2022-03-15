@@ -5,17 +5,19 @@
       <div class="alpha">
         <div class="content">
           {% if section.settings.title != blank %}
-            <h2 class="title">{{ section.settings.title }}</h2>
+            <h2 class="title {{ section.settings.title_font }}">{{ section.settings.title }}</h2>
           {% endif %}
           {% if section.settings.text != blank %}
             <p class="text">{{ section.settings.text }}</p>
           {% endif %}
           {% if section.settings.btn_text != blank %}
             <a href="{{ section.settings.btn_url }}" class="button-wrap">
-              <span class="btn">{{ section.settings.btn_text }}</span>
+              <span class="{% if section.settings.show_link %}btn{% else %}button{% endif %}">{{ section.settings.btn_text }}</span>
+            {% if section.settings.show_link %}
               <span class="arrow">
                 {% render 'icon-right-arrow' %}
               </span>
+            {% endif %}
             </a>
           {% endif %}
         </div>
@@ -28,7 +30,7 @@
                     product: product,
                     show_title: true,
                     show_subtitle: true,
-                    show_price: false,
+                    show_price: true,
                     swiper_slide: true
                   %}
             {% endfor %}
@@ -75,6 +77,22 @@
       "default": "GRAPHIC CONTENT"
     },
     {
+      "type": "select",
+      "id": "title_font",
+      "label": "Title Font",
+      "options": [
+        {
+          "value": "headline__arno",
+          "label": "Arno"
+        },
+        {
+          "value": "headline__din",
+          "label": "Din"
+        }
+      ],
+      "default": "headline__din"
+    },
+    {
       "type": "text",
       "id": "text",
       "label": "Text",
@@ -90,6 +108,12 @@
       "type": "url",
       "id": "btn_url",
       "label": "Button Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_link",
+      "label": "Show Link Instead of Button",
+      "default": false
     }
   ],
   "presets":[

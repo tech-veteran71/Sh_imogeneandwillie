@@ -74,6 +74,7 @@
       "type": "product-gallery",
       "settings": {
         "choose_collection": "bottom-size-26",
+        "show_title": false,
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "collection",
@@ -127,6 +128,93 @@
         "main_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
       }
+    },
+    "1646325661936277a9": {
+      "type": "collage-section",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_8.00.24_PM.png",
+        "mob_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_8.00.24_PM.png",
+        "img_url": "",
+        "pre_title": "pre title",
+        "main_title": "title",
+        "text": "lorem ipsum made in america denim screenprinted here in nashville, tn. cut sewn and patterned in USA",
+        "btn_text": "button >",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": true,
+        "show_link": true
+      }
+    },
+    "1646326041e3dfa5cd": {
+      "type": "featured--collection",
+      "settings": {
+        "choose_collection": "size-28",
+        "title": "Women’s new arrivals",
+        "main_title": "new arrivals",
+        "mob_title": "WOMEN’s",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
+    "1646326149973285af": {
+      "type": "qoute-section",
+      "settings": {
+        "review": "“i want to die with my blue jeans on.”",
+        "customer_name": "- Andy Warhol",
+        "background_color": "#fafafa"
+      }
+    },
+    "16463262364d196100": {
+      "type": "guide-section",
+      "blocks": {
+        "7f5b79a2-21f0-4b1b-8fcc-a1f6c5953333": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/4up2.jpg",
+            "title": "",
+            "text": "",
+            "btn": true,
+            "link_text": "",
+            "link_url": "https:\/\/imogeneandwillie.com"
+          }
+        },
+        "f28dcbc0-70ab-4694-bdf4-d58f5a23b5f7": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/4up1.jpg",
+            "title": "",
+            "text": "",
+            "btn": true,
+            "link_text": "",
+            "link_url": "https:\/\/imogeneandwillie.com"
+          }
+        },
+        "0f4966e8-635e-409d-b9ea-0e7dccfffaa3": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+            "title": "",
+            "text": "",
+            "btn": true,
+            "link_text": "",
+            "link_url": "https:\/\/imogeneandwillie.com"
+          }
+        }
+      },
+      "block_order": [
+        "7f5b79a2-21f0-4b1b-8fcc-a1f6c5953333",
+        "f28dcbc0-70ab-4694-bdf4-d58f5a23b5f7",
+        "0f4966e8-635e-409d-b9ea-0e7dccfffaa3"
+      ],
+      "settings": {
+        "bg_color": "",
+        "change_alignment": false,
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
     }
   },
   "order": [
@@ -136,6 +224,10 @@
     "1646174445bf9033e2",
     "1646174660badbf4bf",
     "1646174832e7aef490",
-    "16461748852f94084a"
+    "16461748852f94084a",
+    "1646325661936277a9",
+    "1646326041e3dfa5cd",
+    "1646326149973285af",
+    "16463262364d196100"
   ]
 }

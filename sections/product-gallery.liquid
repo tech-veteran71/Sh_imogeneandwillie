@@ -14,7 +14,7 @@
     <div class="wrapper">
       {% if section.settings.title != blank %}
         <div class="header-wrap">
-          <h3 class="title">{{ section.settings.title }}</h3>
+          <h3 class="title {{ section.settings.title_font }}">{{ section.settings.title }}</h3>
           {% if section.settings.text != blank %}
             <p class="text">{{ section.settings.text }}</p>
           {% endif %}
@@ -95,6 +95,22 @@
       "id": "title",
       "label": "Title",
       "default": "collection"
+    },
+    {
+      "type": "select",
+      "id": "title_font",
+      "label": "Title Font",
+      "options": [
+        {
+          "value": "headline__arno",
+          "label": "Arno"
+        },
+        {
+          "value": "headline__din",
+          "label": "Din"
+        }
+      ],
+      "default": "headline__din"
     },
     {
       "type": "text",
