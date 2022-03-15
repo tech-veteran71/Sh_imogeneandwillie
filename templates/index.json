@@ -122,6 +122,7 @@
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "collection",
+        "title_font": "headline__din",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
         "btn_text": "Shop All",
         "btn_url": ""
@@ -212,9 +213,11 @@
         "hide_mobile": false,
         "choose_collection": "bottom-size-38",
         "title": "GRAPHIC CONTENT",
+        "title_font": "headline__din",
         "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
         "btn_text": "Shop ALL",
-        "btn_url": "shopify:\/\/collections\/mens"
+        "btn_url": "shopify:\/\/collections\/mens",
+        "show_link": false
       }
     },
     "163773433083afddd3": {
@@ -366,36 +369,14 @@
         "btn_url": ""
       }
     },
-    "16468564033eb23c6e": {
-      "type": "fabric-section",
-      "blocks": {
-        "e8f9e712-938b-4000-8be0-7b4e82275f29": {
-          "type": "fabric_info",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg",
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "d3a0ffb2-0a87-493f-8083-012bf25049a2": {
-          "type": "fabric_info",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/4up1.jpg",
-            "title": "title",
-            "text": "text",
-            "link_text": "link",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "e8f9e712-938b-4000-8be0-7b4e82275f29",
-        "d3a0ffb2-0a87-493f-8083-012bf25049a2"
-      ],
+    "1647037816c325eeaf": {
+      "type": "video-banner",
       "settings": {
-        "main_title": "LOREM IPSUM FABRIC"
+        "video_poster": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_8.00.24_PM.png",
+        "mobile_video_poster": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_8.00.24_PM.png",
+        "video_url": "https:\/\/vimeo.com\/429778321",
+        "mobile_video_url": "https:\/\/vimeo.com\/429778321",
+        "video_controls": false
       }
     }
   },
@@ -419,6 +400,6 @@
     "1637735864c2bd7e13",
     "16457396334873936d",
     "16461747998ae81ec6",
-    "16468564033eb23c6e"
+    "1647037816c325eeaf"
   ]
 }

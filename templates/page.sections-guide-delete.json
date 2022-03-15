@@ -78,6 +78,7 @@
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "collection",
+        "title_font": "headline__din",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
         "btn_text": "Shop All",
         "btn_url": ""
@@ -89,9 +90,11 @@
         "hide_mobile": false,
         "choose_collection": "bottom-size-27",
         "title": "GRAPHIC CONTENT",
+        "title_font": "headline__din",
         "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
         "btn_text": "Shop ALL",
-        "btn_url": ""
+        "btn_url": "",
+        "show_link": false
       }
     },
     "1646174660badbf4bf": {
@@ -111,6 +114,7 @@
     "1646174832e7aef490": {
       "type": "cut-out-section",
       "settings": {
+        "image": "shopify:\/\/shop_images\/4up4.jpg"
       }
     },
     "16461748852f94084a": {
@@ -163,7 +167,7 @@
       "settings": {
         "review": "“i want to die with my blue jeans on.”",
         "customer_name": "- Andy Warhol",
-        "background_color": "#fafafa"
+        "background_color": "#a7a491"
       }
     },
     "16463262364d196100": {
@@ -215,6 +219,154 @@
         "btn_url": "",
         "show_button": false
       }
+    },
+    "1647035532fbe38546": {
+      "type": "collage-section",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.47.39_PM.png",
+        "img_url": "",
+        "pre_title": "title",
+        "main_title": "title",
+        "text": "text",
+        "btn_text": "text >",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": true
+      }
+    },
+    "1647035790ae723455": {
+      "type": "hero-banner",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/Image_9_1140402d-c53b-4a2b-8642-9e980e6d9495.png",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "link_text": "FIND YOUR FIT",
+        "link": "#",
+        "show_button": true,
+        "show_down_arrow": false
+      }
+    },
+    "1647036178ddd8af10": {
+      "type": "latest-collection",
+      "blocks": {
+        "e5392eef-a6ff-480b-a5e8-487bbf7031df": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+            "pre_title": "",
+            "title": "",
+            "btn_text": "Shop All",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "0e8211dc-1250-4056-8237-d91293812a9c": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg",
+            "pre_title": "title",
+            "title": "title",
+            "btn_text": "Shop All",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "e5392eef-a6ff-480b-a5e8-487bbf7031df",
+        "0e8211dc-1250-4056-8237-d91293812a9c"
+      ],
+      "settings": {
+      }
+    },
+    "16470361938cb4794d": {
+      "type": "collection--list",
+      "blocks": {
+        "41d19f77-f2bc-4d6d-989b-822ab0eebb87": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/4up1.jpg",
+            "btn_text": "",
+            "link_url": ""
+          }
+        },
+        "0bf334b4-1780-40e2-961a-c55e7ef2294d": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/oneyearwear_-10_00c62524-e23e-4b0b-9772-693d50b64770.png",
+            "btn_text": "",
+            "link_url": ""
+          }
+        },
+        "af051b71-6124-4974-aa58-0e1428a2d511": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg",
+            "btn_text": "",
+            "link_url": ""
+          }
+        },
+        "6aa483b7-2b5d-4868-98b5-7bb359c3e887": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.48.41_PM.png",
+            "btn_text": "",
+            "link_url": ""
+          }
+        },
+        "0c1e9f1c-49bd-46c7-9d74-9e9dde1c2748": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Untitled-4_431924d0-9c40-4562-bb56-ea42537ee423.jpg",
+            "btn_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "41d19f77-f2bc-4d6d-989b-822ab0eebb87",
+        "0bf334b4-1780-40e2-961a-c55e7ef2294d",
+        "af051b71-6124-4974-aa58-0e1428a2d511",
+        "6aa483b7-2b5d-4868-98b5-7bb359c3e887",
+        "0c1e9f1c-49bd-46c7-9d74-9e9dde1c2748"
+      ],
+      "settings": {
+      }
+    },
+    "1647036338ffb2f6cb": {
+      "type": "slide-section",
+      "settings": {
+        "choose_collection": "size-25",
+        "title": "title",
+        "btn_text": "button",
+        "btn_url": "",
+        "show_border": true
+      }
+    },
+    "16470371864561daff": {
+      "type": "custom-rich-text",
+      "settings": {
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "link_text": "FIND YOUR FIT",
+        "link_url": ""
+      }
+    },
+    "164703720855462230": {
+      "type": "rich--text",
+      "settings": {
+        "text_align": "center",
+        "title": "this is a title",
+        "title_font": "headline__arno",
+        "text": "text",
+        "btn_text": "button",
+        "btn_url": "",
+        "show_button": true
+      }
     }
   },
   "order": [
@@ -228,6 +380,13 @@
     "1646325661936277a9",
     "1646326041e3dfa5cd",
     "1646326149973285af",
-    "16463262364d196100"
+    "16463262364d196100",
+    "1647035532fbe38546",
+    "1647035790ae723455",
+    "1647036178ddd8af10",
+    "16470361938cb4794d",
+    "1647036338ffb2f6cb",
+    "16470371864561daff",
+    "164703720855462230"
   ]
 }

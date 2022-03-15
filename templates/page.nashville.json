@@ -5,6 +5,7 @@
       "settings": {
         "video_poster": "shopify:\/\/shop_images\/Header_IMG_1500x_5a5f646e-5162-42ac-b0cb-fab7189ccc8e.png",
         "video_url": "https:\/\/www.youtube.com\/embed\/nc5Lj90BzSQ?controls=0",
+        "mobile_video_url": "",
         "video_controls": false
       }
     },
@@ -144,6 +145,74 @@
         "link_text": "View all",
         "link_url": ""
       }
+    },
+    "16470382043da8b59c": {
+      "type": "fabric-section",
+      "blocks": {
+        "dd3f5f12-1191-446f-9ee1-4eb1d5e55b00": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/4up1.jpg",
+            "title": "",
+            "title_font": "headline__din",
+            "text": "",
+            "link_text": "",
+            "link_url": "",
+            "use_btn": true
+          }
+        },
+        "7cfeff11-9814-452c-99a1-3f3b9663427d": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+            "title": "",
+            "title_font": "headline__din",
+            "text": "",
+            "link_text": "",
+            "link_url": "",
+            "use_btn": true
+          }
+        }
+      },
+      "block_order": [
+        "dd3f5f12-1191-446f-9ee1-4eb1d5e55b00",
+        "7cfeff11-9814-452c-99a1-3f3b9663427d"
+      ],
+      "settings": {
+        "main_title": "LOREM IPSUM FABRIC"
+      }
+    },
+    "1647038275a4b32ba2": {
+      "type": "fact-section",
+      "blocks": {
+        "d8019e8a-1e10-43d0-9a41-fb1235b465d9": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+            "mob_img": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+            "title": "title",
+            "text": "title",
+            "link_url": ""
+          }
+        },
+        "9848da0a-9f3e-40ab-b236-f0d157f3ae53": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/4up1.jpg",
+            "mob_img": "shopify:\/\/shop_images\/4up1.jpg",
+            "title": "",
+            "text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "d8019e8a-1e10-43d0-9a41-fb1235b465d9",
+        "9848da0a-9f3e-40ab-b236-f0d157f3ae53"
+      ],
+      "settings": {
+        "main_title": "Lorem ipsum dolor"
+      }
     }
   },
   "order": [
@@ -151,6 +220,8 @@
     "shop_info",
     "gallery",
     "video-with-text",
-    "1646151580f4887848"
+    "1646151580f4887848",
+    "16470382043da8b59c",
+    "1647038275a4b32ba2"
   ]
 }
