@@ -1193,7 +1193,7 @@ a.product__text {
   padding-bottom: 3rem;
 }
 .product .accordian-item {
-  border-top: 0.1rem solid #A0A0A0;
+  border-top: 0.1rem solid #CBCBCB;
   padding: 0 0.125rem;
 }
 .product .accordian-item.active .accordian-body {

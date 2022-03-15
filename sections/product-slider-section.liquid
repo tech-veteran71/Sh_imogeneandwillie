@@ -13,11 +13,6 @@
           {% if section.settings.btn_text != blank %}
             <a href="{{ section.settings.btn_url }}" class="button-wrap">
               <span class="{% if section.settings.show_link %}btn{% else %}button{% endif %}">{{ section.settings.btn_text }}</span>
-            {% if section.settings.show_link %}
-              <span class="arrow">
-                {% render 'icon-right-arrow' %}
-              </span>
-            {% endif %}
             </a>
           {% endif %}
         </div>
@@ -31,7 +26,8 @@
                     show_title: true,
                     show_subtitle: true,
                     show_price: true,
-                    swiper_slide: true
+                    swiper_slide: true,
+                    nohover: true
                   %}
             {% endfor %}
           </div>

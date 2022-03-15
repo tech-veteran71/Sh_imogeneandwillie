@@ -21,7 +21,7 @@
             <h4 class="pre-title">{{ section.settings.pre_title }}</h4>
           {% endif %}
           {% if section.settings.main_title != blank %}
-            <h2 class="main-title">{{ section.settings.main_title }}</h2>
+            <h2 class="main-title {{ section.settings.title_font }}">{{ section.settings.main_title }}</h2>
           {% endif %}
           {% if section.settings.text != blank %}
             <p class="text">{{ section.settings.text }}</p>
@@ -49,7 +49,7 @@
 
 {% schema %}
 {
-  "name": "50% IMAGE W/ TXT ONLY",
+  "name": "50% IMG W/TXT+BUTTON",
   "settings": [
     {
       "type": "header",
@@ -102,6 +102,22 @@
       "label": "Title"
     },
     {
+      "type": "select",
+      "id": "title_font",
+      "label": "Title Font",
+      "options": [
+        {
+          "value": "headline__arno",
+          "label": "Arno"
+        },
+        {
+          "value": "headline__din",
+          "label": "Din"
+        }
+      ],
+      "default": "headline__din"
+    },
+    {
       "type": "text",
       "id": "text",
       "label": "Text"
@@ -142,7 +158,7 @@
   ],
   "presets": [
     {
-      "name": "50% IMAGE W/ TXT ONLY"
+      "name": "50% IMG W/TXT+BUTTON"
     }
   ]
 }

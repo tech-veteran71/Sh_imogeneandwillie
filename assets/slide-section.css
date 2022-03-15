@@ -108,10 +108,12 @@
 .slide-section .product-slider .swiper-button-next {
   right: -26px;
   transform: translateY(-50%);
+  top: 45%;
 }
 .slide-section .product-slider .swiper-button-prev {
   left: -26px;
   transform: translateY(-50%);
+  top: 45%;
 }
 .slide-section .product-slider .swiper-button-next,
 .slide-section .product-slider .swiper-button-prev {
