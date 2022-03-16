@@ -1050,9 +1050,10 @@ a.product__text {
 .product .size-box-wrap .info-title {
   font-family: var(--font-gothic);
   margin: 0;
-  font-size: 0.58em;
-  letter-spacing: 0.07em;
+  font-size: 1.4rem;
+  letter-spacing: 0.14rem;
   color: var(--color-dim-black);
+  margin-left: 0.6rem;
 }
 .product .size-box-wrap .product-form__input {
   margin: 0;
@@ -1074,7 +1075,7 @@ a.product__text {
   display: flex;
   padding: 0;
   min-height: 4.6rem;
-  font-size: 0.8em;
+  font-size: 1.4rem;
   letter-spacing: 0.15em;
   justify-content: center;
   align-items: center;
@@ -1209,7 +1210,7 @@ a.product__text {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5em 0;
+  padding: 2rem 0;
   cursor: pointer;
 }
 .product .accordian-header .acordian-icons {
@@ -1430,7 +1431,7 @@ a.product__text {
     font-size: 0.6em;
   }
   .product .size-box-wrap .info-title {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
   .product .price .badge {
     font-size: .4em;
@@ -1548,11 +1549,7 @@ a.product__text {
     height: 4.2rem;
   }
   .product .size-box-wrap .form__label {
-    font-size: 0.6em;
-  }
-  .product .size-box-wrap .info-title {
-    font-size: 0.6em;
-    letter-spacing: 0.07em;
+    font-size: 1.4rem;
   }
   .product .size-box-wrap .bottom-text {
     font-size: 0.65em;
@@ -1562,8 +1559,6 @@ a.product__text {
   }
   .product .product-form__submit {
     min-height: 4.5rem;
-    font-size: 0.8em;
-    letter-spacing: 0.24rem;
   }
   .product .shopify-payment-button__button--unbranded {
     padding: 0em 1em;
@@ -1605,7 +1600,7 @@ a.product__text {
     letter-spacing: 0.2rem;
   }
   .product .accordian-header {
-    padding: 0.8rem 0;
+    padding: 2rem 0;
   }
   .product .accordian-body p, .product .accordian-body span {
     font-size: 1.3rem;

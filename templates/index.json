@@ -44,9 +44,11 @@
         "img_width": "large",
         "pre_title": "( our home )",
         "title": "2601 12th ave s",
+        "title_font": "headline__din",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
         "link_text": "continue reading",
-        "link_url": "shopify:\/\/pages\/nashville"
+        "link_url": "shopify:\/\/pages\/nashville",
+        "show_link": false
       }
     },
     "1637649555b0a6e3ee": {
@@ -355,28 +357,27 @@
         "link_text": ""
       }
     },
-    "16461747998ae81ec6": {
-      "type": "video-with-text",
+    "16473769365c39acb9": {
+      "type": "qoute-section",
       "settings": {
-        "video_poster": "shopify:\/\/shop_images\/4up2_6fb99f8c-d8da-46b2-87c5-a1a0c203ed09.jpg",
-        "video_url": "https:\/\/vimeo.com\/429778321",
-        "video_controls": true,
-        "pre_title": "( circa 2012 )",
-        "title": "take a look back",
-        "main_title": "HOW IT ALL STARTED",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
-        "btn_text": "LOREM IPSUM",
-        "btn_url": ""
+        "review": "“i want to die with my blue jeans on.”",
+        "customer_name": "- Andy Warhol",
+        "background_color": "#a7a491"
       }
     },
-    "1647037816c325eeaf": {
-      "type": "video-banner",
+    "1647377235dc785528": {
+      "type": "hero-banner",
       "settings": {
-        "video_poster": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_8.00.24_PM.png",
-        "mobile_video_poster": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_8.00.24_PM.png",
-        "video_url": "https:\/\/vimeo.com\/429778321",
-        "mobile_video_url": "https:\/\/vimeo.com\/429778321",
-        "video_controls": false
+        "desk_img": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+        "mob_img": "shopify:\/\/shop_images\/4up4_3d99333c-139d-4b82-80f3-34837021eec9.jpg",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "link_text": "FIND YOUR FIT",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
       }
     }
   },
@@ -399,7 +400,7 @@
     "163773433083afddd3",
     "1637735864c2bd7e13",
     "16457396334873936d",
-    "16461747998ae81ec6",
-    "1647037816c325eeaf"
+    "16473769365c39acb9",
+    "1647377235dc785528"
   ]
 }
