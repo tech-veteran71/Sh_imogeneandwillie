@@ -19,8 +19,6 @@
     <div class="card__badge">
         {%- if product.available == false -%}
           <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
-        {%- elsif product.compare_at_price > product.price and product.available -%}
-          <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
         {%- endif -%}
       </div>
       {%- endif -%}

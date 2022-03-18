@@ -94,3 +94,9 @@
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
 }
+.price-item--sale {
+  color: #B4A06A;
+}
+.price--on-sale .price-item--regular, .card-information__wrapper > .price.price--sold-out, .card-information__text.light, .card-information__subtext.light {
+ color: #A0A0A0; 
+} 
