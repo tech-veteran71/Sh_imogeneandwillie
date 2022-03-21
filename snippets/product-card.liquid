@@ -15,7 +15,7 @@
         {% render 'price', product: product, price_class: '' %}
       {%- endif -%}
     </div>
-    {%- if show_title -%}
+    {%- if show_badges -%}
     <div class="card__badge">
         {%- if product.available == false -%}
           <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
