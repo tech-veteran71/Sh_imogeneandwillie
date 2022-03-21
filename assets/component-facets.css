@@ -1,5 +1,6 @@
 .facets-container {
   position: relative;
+  margin-left: 20rem;
 }
 .disclosure-has-popup[open] > summary + * {
   z-index: 101;
@@ -9,6 +10,9 @@
 }
 
 @media screen and (min-width: 750px) {
+  .facets-container {
+    margin-left: 0;
+  }
   .facets-container > * + * {
     margin-top: 0;
   }
@@ -27,7 +31,14 @@
   padding-left: 2.5rem;
 }
 
+.mobile-facets__open-label.button-label {
+  display: none;
+}
+
 @media screen and (min-width: 990px) {
+  .mobile-facets__open-label.button-label {
+    display: block;
+  }
   .facet-filters {
     padding-left: 4.5rem;
   }
@@ -487,6 +498,8 @@ a.active-facets__button.focused .active-facets__button-inner,
   margin-left: 0;
   display: flex;
   justify-content: flex-end;
+  width: 50%;
+  float: right;
 }
 
 .mobile-facets__wrapper .disclosure-has-popup[open] > summary::before {

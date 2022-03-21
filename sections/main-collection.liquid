@@ -33,8 +33,15 @@
               {% render 'facets', results: collection, enable_filtering: true, enable_sorting: false, collapse_on_larger_devices: true %}
             </div>
             <div class="collection-grid__buttons">
-              <button id="collection-grid__button-single" class="collection-grid__button inactive" onclick="addGrid()">{% render 'grid-two-desktop' %}</button>
-              <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()">{% render 'grid-three-desktop' %}</button>
+              <span class="collection-grid__label">VIEW:</span>
+              <button id="collection-grid__button-single" class="collection-grid__button inactive" onclick="addGrid()">
+                <span class="collection-grid__desktop-icon">{% render 'icon-collection-2' %}</span>
+                <span class="collection-grid__mobile-icon">{% render 'icon-collection-1' %}</span>
+              </button>
+              <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()">
+                <span class="collection-grid__desktop-icon">{% render 'icon-collection-3' %}</span>
+                <span class="collection-grid__mobile-icon">{% render 'icon-collection-2' %}</span>
+              </button>
             </div>
             <ul id="collection-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--3">
               {%- for product in collection.products -%}

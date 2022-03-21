@@ -3204,8 +3204,8 @@ customElements.define("ajax-cart", AjaxCart);
 
 function addGrid() {
   var element = document.getElementById("collection-grid");
-  element.classList.add("grid--1-col");
-  element.classList.remove("grid--2-col");
+  element.classList.add("collection-grid--2");
+  element.classList.remove("collection-grid--3");
   var element = document.getElementById("collection-grid__button-single");
   element.classList.add("active");
   element.classList.remove("inactive");
@@ -3215,8 +3215,8 @@ function addGrid() {
 }
 function addSingle() {
   var element = document.getElementById("collection-grid");
-  element.classList.add("grid--2-col");
-  element.classList.remove("grid--1-col");
+  element.classList.add("collection-grid--3");
+  element.classList.remove("collection-grid--2");
   var element = document.getElementById("collection-grid__button-grid");
   element.classList.add("active");
   element.classList.remove("inactive");

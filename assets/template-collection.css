@@ -116,6 +116,14 @@
   display: none;
 }
 
+.collection-grid__desktop-icon {
+  display: none;
+}
+
+.collection-grid__mobile-icon {
+  display: block;
+}
+
 @media screen and (min-width: 990px) {
   .main-collection__title-count .product-count h3 {
     font-size: 2.8rem;
@@ -164,6 +172,40 @@
     padding-top: 35%;
     padding-bottom: 8rem;
   }
+  .collection-grid__desktop-icon {
+    display: block;
+  }
+  
+  .collection-grid__mobile-icon {
+    display: none;
+  }
+}
+
+.collection-grid__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -2.8rem;
+}
+
+.collection-grid__button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.collection-grid__button:hover {
+  cursor: pointer;
+}
+
+.collection-grid__button svg {
+  height: 2.5rem;
+  width: auto;
+  padding: 0 1rem;
+}
+
+.collection-grid__button.active svg {
+  display: none;
 }
 
 /* Featured Collection */
@@ -260,8 +302,25 @@
   max-width: 60rem;
   text-align: center;
 }
+.collection-grid__label {
+  display: none;
+}
 
 @media screen and (min-width: 990px) {
+  .collection-grid__button.inactive svg {
+    opacity: 0.6;
+  }
+
+  .collection-grid__button.active svg {
+    display: inline;
+  }
+
+  .collection-grid__label {
+    display: block;
+  }
+  .collection-grid__buttons {
+    margin-top: -2.8rem;
+  }
   .aw-company {
     margin-top: 5rem;
     padding: 0 10rem;
@@ -398,5 +457,3 @@
     grid-row: 3;
   }
 }
-
-
