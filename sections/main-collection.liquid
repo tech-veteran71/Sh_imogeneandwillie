@@ -33,10 +33,10 @@
               {% render 'facets', results: collection, enable_filtering: true, enable_sorting: false, collapse_on_larger_devices: true %}
             </div>
             <div class="collection-grid__buttons">
-              <button id="collection-grid__button-single" class="collection-grid__button inactive" onclick="addGrid()">1</button>
-              <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()">2</button>
+              <button id="collection-grid__button-single" class="collection-grid__button inactive" onclick="addGrid()">{% render 'grid-two-desktop' %}</button>
+              <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()">{% render 'grid-three-desktop' %}</button>
             </div>
-            <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--3">
+            <ul id="collection-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--3">
               {%- for product in collection.products -%}
                 <li class="product-card">
                   {% render 'product-card',
@@ -70,30 +70,6 @@
       </div>
   {%- endpaginate -%}
 </div>
-<script>
-  function addGrid() {
-    var element = document.getElementById("collection-grid");
-    element.classList.add("collection-grid--2");
-    element.classList.remove("collection-grid--3");
-    var element = document.getElementById("collection-grid__button-single");
-    element.classList.add("active");
-    element.classList.remove("inactive");
-    var element = document.getElementById("collection-grid__button-grid");
-    element.classList.add("inactive");
-    element.classList.remove("active");
-  }
-  function addSingle() {
-    var element = document.getElementById("collection-grid");
-    element.classList.add("collection-grid--2");
-    element.classList.remove("collection-grid--3");
-    var element = document.getElementById("collection-grid__button-grid");
-    element.classList.add("active");
-    element.classList.remove("inactive");
-    var element = document.getElementById("collection-grid__button-single");
-    element.classList.add("inactive");
-    element.classList.remove("active");
-  }
-</script>
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",

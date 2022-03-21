@@ -3201,3 +3201,26 @@ customElements.define("ajax-cart", AjaxCart);
     }
   }
 })()
+
+function addGrid() {
+  var element = document.getElementById("collection-grid");
+  element.classList.add("grid--1-col");
+  element.classList.remove("grid--2-col");
+  var element = document.getElementById("collection-grid__button-single");
+  element.classList.add("active");
+  element.classList.remove("inactive");
+  var element = document.getElementById("collection-grid__button-grid");
+  element.classList.add("inactive");
+  element.classList.remove("active");
+}
+function addSingle() {
+  var element = document.getElementById("collection-grid");
+  element.classList.add("grid--2-col");
+  element.classList.remove("grid--1-col");
+  var element = document.getElementById("collection-grid__button-grid");
+  element.classList.add("active");
+  element.classList.remove("inactive");
+  var element = document.getElementById("collection-grid__button-single");
+  element.classList.add("inactive");
+  element.classList.remove("active");
+}

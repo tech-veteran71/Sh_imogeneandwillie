@@ -3,40 +3,29 @@
     "banner": {
       "type": "collection-banner",
       "settings": {
-        "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
-        "mob_bg_img": "shopify:\/\/shop_images\/bigsurvibes_04.png",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
+        "desk_bg_img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-18_at_3.52.01_PM.png",
+        "mob_bg_img": "shopify:\/\/shop_images\/matt_w_orkspace__1_of_1_-2.jpg",
+        "text": ""
       }
     },
     "1643975896bc85251c": {
       "type": "collection-content-rich-template",
       "settings": {
-        "main_title": "10.13.21",
-        "main_text": "( collection )",
-        "img_1": "shopify:\/\/shop_images\/IMG_3744.png",
-        "title": "american woolen company",
-        "text_1": "founded in 1899, American Woolen Company in Stafford Springs, CT is the only remaining US mill capable of producing the highest quality wool fabrics… a few of which we were lucky to get our hands on.",
-        "mob_text": "thankfully, this iconic institution remains dedicated to maintaining and restoring ethical manufacturing in the United States",
-        "img_2": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-00658.png",
-        "text_2": "these pieces, the hall cpo and enfield hunting jacket, are two projects we are so excited to have been able to apply American Woolen Companies quality and legacy to.",
-        "btn_text": "SHOP AMERICAN WOOLEN",
+        "main_title": "beware the ides of march",
+        "main_text": "( introducing )",
+        "img_1": "shopify:\/\/shop_images\/Screen_Shot_2022-03-18_at_3.49.38_PM.png",
+        "title": "the ides of march",
+        "text_1": "a very special series, featuring a handful of handmade, one-of-a-kind pieces, and the first-ever i+w graphic tee made directly from an original made by matt piece.  the \"dirty dozen\" tee.  (limited edition of 250)",
+        "mob_text": "",
+        "img_2": "shopify:\/\/shop_images\/hello-01_600x_3d861e00-bfdf-4b7d-8ff5-350a815641ae.jpg",
+        "text_2": "24\" x 30\" acrylic and mixed media on canvas by matt eddmenson, 2022. the only one of its kind.",
+        "btn_text": "THE HELLO PAINTING",
         "btn_url": ""
-      }
-    },
-    "1643976007cdc9b0e4": {
-      "type": "explore-section",
-      "settings": {
-        "choose_collection": "bottom-size-23",
-        "choose_blog": "",
-        "title": "recent moments \/\/",
-        "btn": "",
-        "url": ""
       }
     }
   },
   "order": [
     "banner",
-    "1643975896bc85251c",
-    "1643976007cdc9b0e4"
+    "1643975896bc85251c"
   ]
 }

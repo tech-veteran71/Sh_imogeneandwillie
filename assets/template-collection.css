@@ -224,7 +224,7 @@
   height: auto;
 }
 .content-rich-title {
-  font-family: var(--font-arno-display);
+  font-family: var(--font-din);
   color: var(--color-normal-black);
   font-size: 2.8rem;
   line-height: 2.2rem;

@@ -212,44 +212,48 @@
           "878beab4-f00b-4190-8508-4d3c58930dfb": {
             "type": "social_media",
             "settings": {
-              "social_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.48.41_PM.png",
+              "social_icon": "shopify:\/\/shop_images\/IG.png",
               "social_link": ""
             }
           },
           "e0c13758-6ba3-4902-b8ac-cc2190d42ca4": {
             "type": "social_media",
             "settings": {
+              "social_icon": "shopify:\/\/shop_images\/FB.png",
               "social_link": ""
             }
           },
           "9b7fcae6-a78d-441b-9b0b-16776447e5a0": {
             "type": "social_media",
             "settings": {
+              "social_icon": "shopify:\/\/shop_images\/Youtube.png",
               "social_link": ""
             }
           },
           "62834155-b6e3-4e4f-ae10-43b5aecd3902": {
             "type": "social_media",
             "settings": {
+              "social_icon": "shopify:\/\/shop_images\/Tumblr.png",
               "social_link": ""
             }
           },
           "a69295ee-26a7-4368-96a4-52f896669ce4": {
             "type": "social_media",
             "settings": {
+              "social_icon": "shopify:\/\/shop_images\/Pinterest.png",
               "social_link": ""
             }
           },
           "5b1b9898-f87d-4269-a5ea-f71bbba38fea": {
             "type": "menu",
             "settings": {
-              "select_menu": "footer"
+              "select_menu": "desktop-footer"
             }
           },
           "967c8086-0669-41b7-8baa-8ced1df77988": {
             "type": "menu",
             "settings": {
-              "select_menu": ""
+              "select_menu": "footer-desktop-pt2"
             }
           }
         },
