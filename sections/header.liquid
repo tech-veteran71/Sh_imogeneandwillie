@@ -162,18 +162,15 @@
                                           {{ childlink.title | escape }}
                                         </a>
                                       {%- else -%}
-                                          <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset child-menu-item" data-child-item>
+                                          <span class="menu-drawer__menu-item link link--text list-menu__item focus-inset child-menu-item" data-child-item>
                                             <span>{{ childlink.title | escape }}</span>
-                                            {%- comment -%}
-                                            {% render 'icon-arrow' %}
-                                            {%- endcomment -%}
                                             <div class="close-menu-item">
                                               {% render 'down-chevron' %}
                                             </div>
                                             <div class="open-menu-item">
                                               {% render 'minus-icon' %}
                                             </div>
-                                          </a>
+                                          </span>
                                           <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu motion-reduce grand-child-list-wrap">
                                             <ul class="menu-drawer__menu list-menu grand-child-list" role="list" tabindex="-1">
                                               {%- for grandchildlink in childlink.links -%}

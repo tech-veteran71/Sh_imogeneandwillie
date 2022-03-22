@@ -3027,13 +3027,18 @@ customElements.define("ajax-cart", AjaxCart);
   new Swiper('.fact-section .custom-grid', {
     slidesPerView: 4,
     spaceBetween: 25,
+    freeMode: true,
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+      invert: false,
+      forceToAxis: true,
+    },
     breakpoints: {
       990: {
-        slidesPerView: 4
+        slidesPerView: 4,
       },
       768: {
         slidesPerView: 3,

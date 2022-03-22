@@ -33,7 +33,6 @@
 .product__info-wrapper {
   padding-left: 0;
   padding-bottom: 0;
-  overflow-y: auto;
   padding-right: 3rem;
 }
 .product__info-wrapper::-webkit-scrollbar-track{

@@ -12,7 +12,7 @@
       {% endif %}
       {% if section.settings.btn_text != blank %}
         <a  href="{{ section.settings.btn_url}}"  class="button-wrap">
-          <span class="{% if section.settings.show_button %}button{% else %}button--link{% endif %}">{{ section.settings.btn_text }}</span>
+          <span class="{% if section.settings.show_button %}button button--outline{% else %}button--link{% endif %}">{{ section.settings.btn_text }}</span>
         </a>
       {% endif %}
     </div>
@@ -20,7 +20,7 @@
 </div>
 {% schema %}
 {
-  "name": "TXT W/ LINK",
+  "name": "TXT W/ LINK/BTN",
   "settings":[
     {
       "type": "header",
@@ -91,7 +91,7 @@
   ],
   "presets":[
     {
-      "name": "TXT W/ LINK"
+      "name": "TXT W/ LINK/BTN"
     }
   ]
 }
