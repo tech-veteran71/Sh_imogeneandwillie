@@ -1,78 +1,64 @@
-.rich-text {
-  margin: auto;
-  text-align: center;
+.custom-rich-text {
+  background-color: var(--color-light-wheat);
+  padding: 4.5rem 0;
+  margin-bottom: 8.5rem;
 }
-
-.rich-text.rich-text--full-width {
-  max-width: initial;
-  width: 100%;
-}
-
-.rich-text__blocks {
-  margin: auto;
-  /* 2.5rem margin on left & right */
-  width: calc(100% - 5rem);
-}
-
-.rich-text__blocks * {
-  overflow-wrap: break-word;
-}
-
-.rich-text--full-width .rich-text__blocks {
-  /* 4rem (1.5rem + 2.5rem) margin on left & right */
-  width: calc(100% - 8rem);
-}
-
-.rich-text:not(.rich-text--full-width),
-.rich-text--full-width.color-background-1 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-.rich-text:not(.color-background-1) {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-@media screen and (min-width: 750px) {
-  .rich-text:not(.rich-text--full-width),
-  .rich-text--full-width.color-background-1 {
-    margin-top: calc(5rem + var(--page-width-margin));
-    margin-bottom: calc(5rem + var(--page-width-margin));
-  }
-
-  .rich-text:not(.color-background-1) {
-    padding-top: calc(5rem + var(--page-width-margin));
-    padding-bottom: calc(5rem + var(--page-width-margin));
-  }
-
-  .rich-text__blocks {
-    max-width: 50rem;
-  }
-
-  .rich-text--full-width .rich-text__blocks {
-    /* 7.5rem (5rem + 2.5rem) margin on left & right */
-    width: calc(100% - 15rem);
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .rich-text__blocks {
-    max-width: 78rem;
-  }
-}
-
-/* Blocks */
-
-.rich-text__blocks > * {
-  margin-top: 0;
+.fit-guide-page .custom-rich-text {
   margin-bottom: 0;
 }
-
-.rich-text__blocks > * + * {
-  margin-top: 2rem;
+.custom-content .custom-rich-text {
+  display: none;
+}
+.custom-rich-text .text {
+  font-size: 2rem;
+  font-family: var(--font-arno-display);
+  color: var(--color-normal-black);
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+  max-width: 54rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.custom-rich-text .link {
+  display: none;
 }
 
-.rich-text__blocks > * + a {
-  margin-top: 3rem;
+@media screen and (max-width: 767px) {
+  .custom-rich-text {
+    padding: 3.5rem 0 2.8rem;
+    margin-bottom: 0;
+  }
+  .custom-content .custom-rich-text {
+    display: block;
+  }
+  .custom-rich-text .link-text {
+    font-size: 1.3rem;
+    color: var(--color-dim-black);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-family: var(--font-din);
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+  .custom-rich-text .icon-wrap {
+    width: 2.4rem;
+    margin: 0 auto;
+  }
+  .custom-rich-text .icon-wrap svg {
+    width: 100%;
+    height: 100%;
+  }
+  .custom-rich-text .icon-wrap text {
+    fill: var(--color-dim-black);
+  }
+  .custom-rich-text .text {
+    color: var(--color-dim-black);
+  }
+  .custom-rich-text .link {
+    display: block;
+    margin-top: 2.4rem;
+    text-decoration: none;
+  }
 }

@@ -1,0 +1,98 @@
+{{ 'section-content-spec-collection.css' | asset_url | stylesheet_tag }}
+<div class="content-specific-collection">
+  <div class="product-container">
+    <div class="wrapper">
+      {% if section.settings.pre_title != blank %}
+        <h3 class="pre-title">{{ section.settings.pre_title }}</h3>
+      {% endif %}
+       {% if section.settings.title != blank %}
+        <div class="title-wrap">
+          <h2 class="title {{ section.settings.title_font }}">{{ section.settings.title }}</h2>
+        </div>
+       {% endif %}
+      <div class="product-grid">
+        <div class="swiper-wrapper">
+              {% for block in section.blocks %}
+                  {% render 'collection-card' with section, collection: block.settings.collection,
+                    swiper_slide: true
+                  %}
+              {% endfor %}
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      {% if section.settings.btn_text %}
+        <div class='btn-wrap'>
+          <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "CONTENT SPEC COLLECTION",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "pre_title",
+      "label": "Pre Title"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "select",
+      "id": "title_font",
+      "label": "Title Font",
+      "options": [
+        {
+          "value": "headline__arno",
+          "label": "Arno"
+        },
+        {
+          "value": "headline__din",
+          "label": "Din"
+        }
+      ],
+      "default": "headline__din"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "Men’s denim"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Collection",
+      "type": "collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Choose Collection"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "CONTENT SPEC COLLECTION"
+    }
+  ]
+}
+{% endschema %}

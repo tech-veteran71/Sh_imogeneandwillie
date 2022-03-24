@@ -1,0 +1,158 @@
+{{ 'section-shop-info.css' | asset_url | stylesheet_tag }}
+<div class="shop-info">
+  <div class="nashville-container">
+    <div class="wrapper">
+      <div class="alpha">
+        <div class="header-wrap">
+          {% if section.settings.main_title != blank %}
+            <h3 class="main-title">{{ section.settings.main_title }}</h3>
+          {% endif %}
+          {% if section.settings.text != blank %}
+            <p class="text">{{ section.settings.text }}</p>
+          {% endif %}
+        </div>
+        <div class="shop-details">
+          <div class="column">
+            {% if section.settings.heading != blank %}
+              <h4 class="heading">{{ section.settings.heading }}</h4>
+            {% endif %}
+            <div class="shop-duration">
+              {% if section.settings.sub_title != blank %}
+                <h5 class="sub-title">{{ section.settings.sub_title }}</h5>
+              {% endif %}
+              <div class="shop-timing">
+                {% for block in section.blocks %}
+                  {% if block.type == 'shop_timing' %}
+                    <div class="content-wrap">
+                      {% if block.settings.days != blank %}
+                        <span class="days text">{{ block.settings.days }}</span>
+                      {% endif %}
+                      {% if block.settings.timing != blank %}
+                        <span class="timing text">{{ block.settings.timing }}</span>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            {% for block in section.blocks %}
+              {% if block.type == 'shop_detials' %}
+                <div class="details-wrap">
+                  {% if block.settings.title != blank %}
+                    <h5 class="sub-title">{{ block.settings.title }}</h5>
+                  {% endif %}
+                  {% if block.settings.text != blank %}
+                    <div class="info text">{{ block.settings.text }}</div>
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="beta">
+        <div class="img-wrap">
+          {% render 'responsive--image' with section.settings.img as image, max_width: 575, class: 'image' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "SHOP INFO",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "visit the shop:"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Main Text",
+      "default": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "shop info"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title",
+      "default": "hours:"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Shop Timing",
+      "type": "shop_timing",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "days",
+          "label": "Days"
+        },
+        {
+          "type": "text",
+          "id": "timing",
+          "label": "Shop Timing"
+        }
+      ]
+    },
+    {
+      "name": "Shop Details",
+      "type": "shop_detials",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "html",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "SHOP INFO"
+    }
+  ]
+}
+{% endschema %}

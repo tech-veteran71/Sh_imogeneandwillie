@@ -72,82 +72,16 @@
         "enable_video_looping": false
       }
     },
-    "16355989173d290cbd": {
-      "type": "moodboard-section",
-      "settings": {
-        "main_title": "dig into the moodboard"
-      }
-    },
-    "1635523248a721bf5a": {
-      "type": "video-section",
-      "settings": {
-        "img": "shopify:\/\/shop_images\/Layer_0.png",
-        "title": "BEHIND OUR DENIM",
-        "wrap_title": "the process:",
-        "top_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum",
-        "bottom_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim a, quis nostrud. lorem ipsum dolor sit amet.",
-        "link_text": "read more...",
-        "btn_url": "",
-        "btn": "read more >",
-        "add_video": true,
-        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Denim_15_Second_Draft.m4v?v=1644966259"
-      }
-    },
-    "1642505173ef81dd16": {
-      "type": "content-specific-featured-collection",
-      "blocks": {
-        "de662c89-c3db-4fd9-a47e-7943513e0c50": {
-          "type": "collection",
-          "settings": {
-            "collection": "alpha-industries-x-imogene-and-willie"
-          }
-        },
-        "97783ee4-3118-45c8-988d-22bcc870edb2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "de662c89-c3db-4fd9-a47e-7943513e0c50",
-        "97783ee4-3118-45c8-988d-22bcc870edb2"
-      ],
-      "settings": {
-        "pre_title": "",
-        "title": "",
-        "title_font": "headline__din",
-        "btn_text": "Men’s denim",
-        "btn_url": ""
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "pre_title": "(featured)",
         "heading": "You may also like"
       }
-    },
-    "164685615520b7f8a7": {
-      "type": "product-slider-section",
-      "settings": {
-        "hide_mobile": false,
-        "choose_collection": "",
-        "title": "GRAPHIC CONTENT",
-        "title_font": "headline__din",
-        "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
-        "btn_text": "Shop ALL",
-        "btn_url": "",
-        "show_link": false
-      }
     }
   },
   "order": [
     "main",
-    "16355989173d290cbd",
-    "1635523248a721bf5a",
-    "1642505173ef81dd16",
-    "product-recommendations",
-    "164685615520b7f8a7"
+    "product-recommendations"
   ]
 }

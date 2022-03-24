@@ -1,0 +1,26 @@
+{{ 'section-parallax.css' | asset_url | stylesheet_tag }}
+
+<div class="cut-out-section"></div>
+
+<style>
+  .cut-out-section {
+    background-image: url('{{ section.settings.image | img_url: '2000x' }}')
+  }
+</style>
+{% schema %}
+{
+  "name": "PARALLAX IMAGE",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "PARALLAX IMAGE"
+    }
+  ]
+}
+{% endschema %}

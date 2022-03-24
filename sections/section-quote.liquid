@@ -1,0 +1,47 @@
+{{ 'section-quote.css' | asset_url | stylesheet_tag }}
+<div class="qoute-section" style="background-color:{{ section.settings.background_color }};">
+  <div class="container">
+    <div class="wrapper">
+      <div class="qoute">
+        <p class="review">{{ section.settings.review }}</p>
+        <span class="customer-name">{{ section.settings.customer_name }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "QUOTE W/ AUTHOR",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "review",
+      "label": "Review",
+      "default": "“i want to die with my blue jeans on.”"
+    },
+    {
+      "type": "text",
+      "id": "customer_name",
+      "label": "Customer Name",
+      "default": "- Andy Warhol"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "default": "transparent",
+      "label": "BG Color"
+    }
+  ],
+  "presets": [
+    {
+      "name": "QUOTE W/ AUTHOR"
+    }
+  ]
+}
+{% endschema %}

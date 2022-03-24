@@ -1,0 +1,88 @@
+{{ 'section-mobile-slider.css' | asset_url | stylesheet_tag }}
+<div class="slide-section">
+  <div class="container">
+    <div class="wrapper {% if section.settings.show_border %}border-bottom{% endif %}">
+      {% if section.settings.title != blank %}
+        <h2 class="title">{{ section.settings.title }}</h2>
+      {% endif %}
+      <div class="contents product-slider">
+        <div class="swiper-wrapper">
+          {% for product in collections[section.settings.choose_collection].products %}
+            <div class="product-item slide-item content-wrap border-show swiper-slide">
+              <a href="{{ product.url }}" class="product-link">
+                <div class="image-wrap">
+                  {% render 'responsive--image' with product.featured_media as image, max_width: 358, class: 'img' %} 
+                </div>
+                <div class="info-wrap">
+                  <h2 class="product-title">{{ product.title }}</h2>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      {% if section.settings.btn_text != blank %}
+        <div class="btn-wrap">
+          <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "MOBILE PRODUCT SLIDER",
+  "settings": [
+    {
+      "type": "header",
+      "content": "This Section Is Just For Mobile Version",
+      "info": "------"
+    },
+    {
+      "type": "header",
+      "content": "Collection",
+      "info": "------"
+    },
+    {
+      "type": "collection",
+      "id": "choose_collection",
+      "label": "Choose Collection"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_border",
+      "label": "Show Border (Mobile)",
+      "default": true
+    }
+  ],
+  "presets":[
+    {
+      "name": "MOBILE PRODUCT SLIDER"
+    }
+  ]
+}
+{% endschema %}

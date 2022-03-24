@@ -12,53 +12,10 @@
       "type": "main-collection",
       "settings": {
       }
-    },
-    "16349905558bece095": {
-      "type": "image-with--text",
-      "blocks": {
-        "1ef10358-2396-4706-a6e7-86c9ac8214a4": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_9_1140402d-c53b-4a2b-8642-9e980e6d9495.png"
-          }
-        },
-        "99624b88-e4e0-4978-9c80-2936be513d28": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/sewing-4-14_-7.png"
-          }
-        },
-        "d2f3ed96-dd36-4f0c-a0eb-9d513cd87ef1": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/oyw.png"
-          }
-        },
-        "4138557a-fffb-47dc-9348-3299a043be6d": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/butt-repair-3.png"
-          }
-        }
-      },
-      "block_order": [
-        "1ef10358-2396-4706-a6e7-86c9ac8214a4",
-        "99624b88-e4e0-4978-9c80-2936be513d28",
-        "d2f3ed96-dd36-4f0c-a0eb-9d513cd87ef1",
-        "4138557a-fffb-47dc-9348-3299a043be6d"
-      ],
-      "settings": {
-        "img": "shopify:\/\/shop_images\/Image_175.png",
-        "title": "AMERICAN-MADE DENIM",
-        "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim  produced in the us since the closure of cone mills, nc.",
-        "btn_text": "SHOP ALL",
-        "btn_url": ""
-      }
     }
   },
   "order": [
     "banner",
-    "1634922614a8d39d99",
-    "16349905558bece095"
+    "1634922614a8d39d99"
   ]
 }

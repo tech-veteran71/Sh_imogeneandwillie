@@ -1,0 +1,113 @@
+{{ 'section-hero-grid.css' | asset_url | stylesheet_tag }}
+
+<div class="featured-section">
+  <div class="index-container">
+    <div class="wrapper">
+        <a class="link" href="{{ section.settings.link_url }}">
+          <div class="img-wrap">
+            {% if section.settings.desk_img %}
+              {% render 'responsive--image' with section.settings.desk_img as image, max_width: 815, class: 'img', mob_img: section.settings.mob_img %}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+            {% if section.settings.mob_img != blank %}
+              {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'img mob-image' %}
+            {% endif %}
+          </div>
+          <div class="text-wrap">
+            {% if section.settings.title != blank %}
+              <h2 class="title">{{ section.settings.title }}</h2>
+            {% endif %}
+            {% if section.settings.link_text != blank %}
+              <div class="wrap">
+                <span class="link-text">{{ section.settings.link_text }}</span>
+              </div>
+            {% endif %}
+          </div>
+        </a>
+       <div class="grid-container">
+      {% for block in section.blocks %}
+        {% if block.settings.img != blank %}
+          <a class="grid-item" href="{{ block.settings.link }}">
+            {% render 'responsive--image' with block.settings.img as image, max_width: 253, class: 'img' %}
+          </a>
+        {% else %}
+          <div class="grid-item">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+        {% endif %}
+      {% endfor %}
+     </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "HERO GRID DIPTYCH",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "-------"
+    },
+    {
+      "type": "image_picker",
+      "id": "desk_img",
+      "label": "Image (Desktop)"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_img",
+      "label": "Image (Mobile)"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text"
+    }
+  ],
+  "blocks":[
+    {
+      "type": "product_image",
+      "name": "Product Image",
+      "settings":[
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "-------"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Product Image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name": "HERO GRID DIPTYCH"
+    }
+  ]
+}
+{% endschema %}

@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "hero-banner",
+      "type": "section-hero-banner",
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/Header_1200x_97e35576-1fce-47b3-a44b-5ce832f47710.png",
         "mob_img": "shopify:\/\/shop_images\/Header_IMG_300x_82594ffe-28dd-4831-b227-48865513ce0d.png",
@@ -9,115 +9,9 @@
         "text": "",
         "link_text": "FIND YOUR FIT"
       }
-    },
-    "1640323620c93e9c71": {
-      "type": "custom-rich-text",
-      "settings": {
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore",
-        "link_text": "FIND YOUR FIT",
-        "link_url": ""
-      }
-    },
-    "164032377333420d5a": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "#ffffff",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/Image_415.png",
-        "pre_title": "( lorem ipsum )",
-        "main_title": "barton slim",
-        "text": "a mid rise that sits right on the hips. it’s slim through the thigh and knee.",
-        "btn_text": "SHOP BARTON SLIM",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false
-      }
-    },
-    "16403238409077d250": {
-      "type": "product-slider",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "choose_collection": "denim",
-        "btn_text": "SHOP BARTON SLIM",
-        "btn_url": ""
-      }
-    },
-    "164032384588417ffc": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/Image_416.png",
-        "pre_title": "( team favorite )",
-        "main_title": "henry",
-        "text": "a higher rise that sits right on the hips. it’s relaxed through the thigh and knee.",
-        "btn_text": "SHOP HENRY",
-        "btn_url": "",
-        "change_alignment": true,
-        "show_btn": false
-      }
-    },
-    "1640324010d7adb032": {
-      "type": "product-slider",
-      "settings": {
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "",
-        "choose_collection": "barton-slim",
-        "btn_text": "SHOP HENRY",
-        "btn_url": ""
-      }
-    },
-    "16403240145def609d": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/Image_417.png",
-        "pre_title": "( featured fit )",
-        "main_title": "charlie",
-        "text": "a mid rise that sits right on the hips. it’s slim through the thigh and knee.",
-        "btn_text": "SHOP CHARLIE",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false
-      }
-    },
-    "164032417088c2e4c4": {
-      "type": "product-slider",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "choose_collection": "barton-slim",
-        "btn_text": "SHOP CHARLIE",
-        "btn_url": ""
-      }
-    },
-    "1640324175dc2ff721": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/Willie.png",
-        "pre_title": "( the original )",
-        "main_title": "willie",
-        "text": "a high rise that sits above the hips. it’s straight through the thigh and knee.",
-        "btn_text": "SHOP WILLIE",
-        "btn_url": "",
-        "change_alignment": true,
-        "show_btn": true
-      }
     }
   },
   "order": [
-    "main",
-    "1640323620c93e9c71",
-    "164032377333420d5a",
-    "16403238409077d250",
-    "164032384588417ffc",
-    "1640324010d7adb032",
-    "16403240145def609d",
-    "164032417088c2e4c4",
-    "1640324175dc2ff721"
+    "main"
   ]
 }

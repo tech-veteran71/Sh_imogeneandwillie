@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "hero-banner",
+      "type": "section-hero-banner",
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/oneyearwear_-10_00c62524-e23e-4b0b-9772-693d50b64770.png",
         "img_url": "",
@@ -9,141 +9,9 @@
         "text": "",
         "link_text": "FIND YOUR FIT"
       }
-    },
-    "rich-text": {
-      "type": "custom-rich-text",
-      "settings": {
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-        "link_text": "FIND YOUR FIT",
-        "link_url": ""
-      }
-    },
-    "collage-section": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/Collage.png",
-        "mob_img": "shopify:\/\/shop_images\/Image_275.png",
-        "img_url": "",
-        "pre_title": "( lorem ipsum )",
-        "main_title": "indigo",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-        "btn_text": "SHOP INDIGO",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false
-      }
-    },
-    "163963500604115f8d": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.48.41_PM.png",
-        "mob_img": "shopify:\/\/shop_images\/Image_188.png",
-        "img_url": "",
-        "pre_title": "( team favorite )",
-        "main_title": "washed",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-        "btn_text": "SHOP WASHED",
-        "btn_url": "",
-        "change_alignment": true,
-        "show_btn": false
-      }
-    },
-    "1639635146b0133f09": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.44.10_PM.png",
-        "mob_img": "shopify:\/\/shop_images\/Image_285.png",
-        "img_url": "",
-        "pre_title": "( featured fit )",
-        "main_title": "black",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-        "btn_text": "SHOP BLACK",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false
-      }
-    },
-    "1639635223785c4970": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_7.47.39_PM.png",
-        "mob_img": "shopify:\/\/shop_images\/Image_9.png",
-        "img_url": "",
-        "pre_title": "( the original )",
-        "main_title": "white\/natural",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-        "btn_text": "SHOP WHITE\/NATURAL",
-        "btn_url": "",
-        "change_alignment": true,
-        "show_btn": false
-      }
-    },
-    "1639635293f0bb6f00": {
-      "type": "collage-section",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-21_at_8.00.24_PM.png",
-        "mob_img": "shopify:\/\/shop_images\/Image_275.png",
-        "img_url": "",
-        "pre_title": "( lorem ipsum )",
-        "main_title": "lorem ipsum",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-        "btn_text": "SHOP LOREM",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false
-      }
-    },
-    "fabric-section": {
-      "type": "fabric-section",
-      "blocks": {
-        "9cdd61d1-0919-46e1-ac04-aa2fa001bc36": {
-          "type": "fabric_info",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_557.png",
-            "title": "100% CoTTON",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
-            "link_text": "SHOP ALL >",
-            "link_url": ""
-          }
-        },
-        "8e956686-3322-4179-91b2-56ec78133723": {
-          "type": "fabric_info",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_544.png",
-            "title": "STRETCH DENIM",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
-            "link_text": "SHOP ALL >",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "9cdd61d1-0919-46e1-ac04-aa2fa001bc36",
-        "8e956686-3322-4179-91b2-56ec78133723"
-      ],
-      "settings": {
-        "main_title": "LOREM IPSUM FABRIC"
-      }
     }
   },
   "order": [
-    "main",
-    "rich-text",
-    "collage-section",
-    "163963500604115f8d",
-    "1639635146b0133f09",
-    "1639635223785c4970",
-    "1639635293f0bb6f00",
-    "fabric-section"
+    "main"
   ]
 }
