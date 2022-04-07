@@ -1,0 +1,462 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16486556641521771a": {
+      "type": "section-asymmetric",
+      "blocks": {
+        "17456b41-769c-4e00-977f-7f15628f276e": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Fit_Guide.png",
+            "title": "",
+            "text": "",
+            "btn": true,
+            "link_text": "",
+            "link_url": "https:\/\/google.com"
+          }
+        },
+        "18171dd4-2998-4b98-bdc5-358d761d0563": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg",
+            "title": "WOMEN'S DENIM",
+            "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "btn": false,
+            "link_text": "SHOP ALL →",
+            "link_url": "https:\/\/google.com"
+          }
+        },
+        "cf2fdf96-f698-46d7-812d-a712b8a985c7": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Fabric_Guide.png",
+            "title": "",
+            "text": "",
+            "btn": true,
+            "link_text": "",
+            "link_url": "https:\/\/google.com"
+          }
+        }
+      },
+      "block_order": [
+        "17456b41-769c-4e00-977f-7f15628f276e",
+        "18171dd4-2998-4b98-bdc5-358d761d0563",
+        "cf2fdf96-f698-46d7-812d-a712b8a985c7"
+      ],
+      "settings": {
+        "bg_color": "",
+        "change_alignment": false,
+        "btn_text": "EXPLORE",
+        "btn_url": "https:\/\/google.com",
+        "show_button": false
+      }
+    },
+    "1648655782b7548572": {
+      "type": "section-hero-banner",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-00658.png",
+        "img_url": "",
+        "main_title": "THE DENIM WALL",
+        "title_font": "headline__din",
+        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "link_text": "EXPLORE",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": true
+      }
+    },
+    "1648655850098e1bf0": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_be7f15e6-4701-49cc-b753-285ed24c3777.jpg",
+        "img_url": "https:\/\/google.com",
+        "img_width": "full"
+      }
+    },
+    "16486559253284d747": {
+      "type": "section-rich-text",
+      "settings": {
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "link_text": "FIND YOUR FIT",
+        "link_url": "shopify:\/\/products\/handmade-in-japan-hardcover"
+      }
+    },
+    "1648655939d9d74725": {
+      "type": "section-four-item-feature",
+      "settings": {
+        "choose_collection": "size-25",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_c54c4b83-722e-4392-8481-f7dcd5c8bf9a.jpg",
+        "title": "BRIGHTER DAYS",
+        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
+        "btn_text": "SHOP Collection",
+        "btn_url": "https:\/\/google.com",
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
+      }
+    },
+    "1648655973f9bdfa14": {
+      "type": "section-image-gallery",
+      "blocks": {
+        "52ff8372-5b0c-4149-9122-0313c1076fd8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg"
+          }
+        },
+        "181b277b-4314-46b5-b24c-dedda88671c6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-11-1_b5f6ce96-f386-4def-8835-4e9b818c6c2e.jpg"
+          }
+        },
+        "b8739915-af7c-4e36-85ad-f3f5077f612b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_d7ab1c6b-d218-446b-9c2b-96ccfd210f67.jpg"
+          }
+        },
+        "bff488d7-bc55-4331-862b-d398fc2b417d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
+          }
+        },
+        "9144d1d0-f92c-40fe-859b-20406441a84a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-1-2_f94435a3-d219-4cdb-8744-4c5da4e15453.jpg"
+          }
+        },
+        "3bb0fea0-06e6-47d9-8d64-56f336a5f750": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_be7f15e6-4701-49cc-b753-285ed24c3777.jpg"
+          }
+        },
+        "80e654ec-0775-4dfa-9cc4-b0a6c16d3f23": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg"
+          }
+        },
+        "a4ae2ece-e81d-4569-a136-eb12f42b30c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4up1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "52ff8372-5b0c-4149-9122-0313c1076fd8",
+        "181b277b-4314-46b5-b24c-dedda88671c6",
+        "b8739915-af7c-4e36-85ad-f3f5077f612b",
+        "bff488d7-bc55-4331-862b-d398fc2b417d",
+        "9144d1d0-f92c-40fe-859b-20406441a84a",
+        "3bb0fea0-06e6-47d9-8d64-56f336a5f750",
+        "80e654ec-0775-4dfa-9cc4-b0a6c16d3f23",
+        "a4ae2ece-e81d-4569-a136-eb12f42b30c7"
+      ],
+      "settings": {
+      }
+    },
+    "16486560013de851c6": {
+      "type": "section-diptych",
+      "blocks": {
+        "01e1f981-06be-4c78-8c36-8f3b91b3da13": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/Image_583_900x_53d57346-3ea6-4d1e-b42f-6b2debeb6fd9.png",
+            "pre_title": "men's new arrivals",
+            "title": "hall cpo in cascade plaid",
+            "btn_text": "Shop Men",
+            "link_url": "https:\/\/google.com",
+            "link_text": ""
+          }
+        },
+        "0a66b3ee-8879-4795-be42-ca9042e03d98": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/Image_498_900x_f39742c0-c29e-4eac-9de7-3179ae9060a9.png",
+            "pre_title": "women's new arrivals",
+            "title": "agnes jacket in coastal stone",
+            "btn_text": "Shop Women",
+            "link_url": "https:\/\/google.com",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "01e1f981-06be-4c78-8c36-8f3b91b3da13",
+        "0a66b3ee-8879-4795-be42-ca9042e03d98"
+      ],
+      "settings": {
+      }
+    },
+    "1648656008ef60b556": {
+      "type": "collection--list",
+      "blocks": {
+        "6a81e569-7f36-423e-8230-1725e674068a": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_585_600x_a263b683-860c-4586-8954-829b5caef36d.png",
+            "btn_text": "SHOP MEN",
+            "link_url": "https:\/\/google.com"
+          }
+        },
+        "4038a2ae-1eab-4c08-93e4-504543c401e1": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_587.png",
+            "btn_text": "SHOP WOMEN",
+            "link_url": "https:\/\/google.com"
+          }
+        }
+      },
+      "block_order": [
+        "6a81e569-7f36-423e-8230-1725e674068a",
+        "4038a2ae-1eab-4c08-93e4-504543c401e1"
+      ],
+      "settings": {
+      }
+    },
+    "1648656057c25d5c95": {
+      "type": "section-recent-moments",
+      "settings": {
+        "choose_collection": "",
+        "choose_blog": "news",
+        "title": "recent moments\/\/",
+        "btn": "EXPLORE MORE",
+        "url": "https:\/\/google.com"
+      }
+    },
+    "16486560992f8da184": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "the enfield hunting jacket in dark umber",
+        "title_font": "headline__arno",
+        "text": "inspired by a time when clothes were made with a purpose, and made to take a beating.",
+        "btn_text": "shop now →",
+        "btn_url": "https:\/\/google.com",
+        "show_button": true
+      }
+    },
+    "16486561536a8eb7ef": {
+      "type": "section-brand-promise",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/Image_175.png",
+        "pre_title": "",
+        "title": "AMERICAN-MADE DENIM",
+        "title_font": "headline__din",
+        "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim produced in the us since the closure of cone mills, nc.",
+        "btn_text": "SHOP ALL",
+        "link_url": "https:\/\/google.com",
+        "show_link": false
+      }
+    },
+    "16486561678c9a3c5b": {
+      "type": "section-hero-grid",
+      "blocks": {
+        "26cf561f-2c78-4d78-b2f4-4c42bb2737cc": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_598_300x_c2ffcc22-ad6c-4f4b-b3df-9a847de578e6.png",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "82ca8d70-c2dc-4e61-9b1c-5d78c66b37d6": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_594_300x_a25d6f45-bb2c-4752-b37b-18b213565a4c.png",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "7fd928bc-59e0-44fc-b8c7-d7e05c15bb6b": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_592_300x_b71b2fe7-ed76-4ddf-8261-61d677cdfe05.png",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "5cf72492-d665-43a1-89b1-87dd10084591": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_599_300x_a98d9576-babd-42c5-a6b0-085a633af727.png",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "99c5ff72-fdb5-4df9-bc25-31f754036b3f": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_597_300x_a23506c4-6a69-4c5b-ab3a-e5c88644120a.png",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "29ac0416-e7a9-4591-8667-64a9a5b8b10a": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_593_300x_30afb034-7147-4d60-9168-4ce709794d61.png",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "a1362844-a1b7-4c81-b5b0-90465fef54ef": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_595_300x_007d649a-9a33-48c1-b8b9-bd8bd531a94d.png",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "d0c0f67e-c933-4d66-be70-fe084bfe5007": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_598_300x_c2ffcc22-ad6c-4f4b-b3df-9a847de578e6.png",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "ac70cd04-8af9-4be4-ba28-ab7e1cd464f0": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_599_300x_a98d9576-babd-42c5-a6b0-085a633af727.png",
+            "link": "https:\/\/google.com"
+          }
+        }
+      },
+      "block_order": [
+        "26cf561f-2c78-4d78-b2f4-4c42bb2737cc",
+        "82ca8d70-c2dc-4e61-9b1c-5d78c66b37d6",
+        "7fd928bc-59e0-44fc-b8c7-d7e05c15bb6b",
+        "5cf72492-d665-43a1-89b1-87dd10084591",
+        "99c5ff72-fdb5-4df9-bc25-31f754036b3f",
+        "29ac0416-e7a9-4591-8667-64a9a5b8b10a",
+        "a1362844-a1b7-4c81-b5b0-90465fef54ef",
+        "d0c0f67e-c933-4d66-be70-fe084bfe5007",
+        "ac70cd04-8af9-4be4-ba28-ab7e1cd464f0"
+      ],
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/Image_489_1200x_ffa08bbc-343e-48ea-929b-49881570d196.png",
+        "link_url": "https:\/\/google.com",
+        "title": "featured",
+        "link_text": "view more >"
+      }
+    },
+    "1648656181c1e2ce67": {
+      "type": "section-image-overlay-feature",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/Image_587.png",
+        "image": "shopify:\/\/shop_images\/Image_583_1500x_422b3109-2901-41ac-b850-0a8708f78df9.png",
+        "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
+        "pre_title": "men's new arrivals",
+        "title": "hall cpo in cascade plaid",
+        "text": "an updated, modern evolution of a timeless military classic.\n\nversatile and functional, it's a piece that's meant to be worn as you see fit...\nand meant to be worn to death.",
+        "btn_text": "SHOP ALL",
+        "link_url": "google.com"
+      }
+    },
+    "16486562390c60e8f0": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "choose_collection": "size-23",
+        "title": "LOREM IPSUM",
+        "btn_text": "VIEW ALL",
+        "btn_url": "https:\/\/google.com",
+        "show_border": true
+      }
+    },
+    "1648656251d0666884": {
+      "type": "section-video-hero",
+      "settings": {
+        "video_poster": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-7-1_85ddfc78-d644-4084-b7ab-37ed8c71e313.jpg",
+        "video_url": "<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/17830905?h=6f003a15c5\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe>",
+        "mobile_video_url": "google.com",
+        "video_controls": false
+      }
+    },
+    "16486562666b82cd0c": {
+      "type": "product-video-story",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Layer_0.png",
+        "title": "BEHIND OUR DENIM",
+        "wrap_title": "the process:",
+        "top_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum",
+        "bottom_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsumlorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum",
+        "link_text": "read more...",
+        "btn_url": "https:\/\/google.com",
+        "btn": "READ MORE",
+        "add_video": true,
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/nashville.mp4?5034687354816689514"
+      }
+    },
+    "1648656430f5b572b7": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "desktop_banner_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
+        "mobile_banner_img": "shopify:\/\/shop_images\/oneyearwear_-10_00c62524-e23e-4b0b-9772-693d50b64770.png",
+        "img_height": false,
+        "link": "https:\/\/google.com",
+        "add_video": false,
+        "video_poster": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_c54c4b83-722e-4392-8481-f7dcd5c8bf9a.jpg",
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/nashville.mp4?5034687354816689514",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/nashville.mp4?5034687354816689514",
+        "video_controls": false
+      }
+    },
+    "164865644931f30386": {
+      "type": "section-collection-grid",
+      "settings": {
+        "choose_collection": "size-23",
+        "show_title": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "collection",
+        "title_font": "headline__din",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+        "btn_text": "Shop All",
+        "btn_url": "https:\/\/google.com"
+      }
+    },
+    "1648672309980f4451": {
+      "type": "section-flashcard-feature",
+      "settings": {
+        "hide_mobile": false,
+        "choose_collection": "bottom-size-23",
+        "title": "GRAPHIC CONTENT",
+        "title_font": "headline__din",
+        "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+        "btn_text": "Shop ALL",
+        "btn_url": "https:\/\/google.com",
+        "show_link": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16486556641521771a",
+    "1648655782b7548572",
+    "1648655850098e1bf0",
+    "16486559253284d747",
+    "1648655939d9d74725",
+    "1648655973f9bdfa14",
+    "16486560013de851c6",
+    "1648656008ef60b556",
+    "1648656057c25d5c95",
+    "16486560992f8da184",
+    "16486561536a8eb7ef",
+    "16486561678c9a3c5b",
+    "1648656181c1e2ce67",
+    "16486562390c60e8f0",
+    "1648656251d0666884",
+    "16486562666b82cd0c",
+    "1648656430f5b572b7",
+    "164865644931f30386",
+    "1648672309980f4451"
+  ]
+}

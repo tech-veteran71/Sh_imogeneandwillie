@@ -39,10 +39,158 @@
         "link_url": "shopify:\/\/pages\/nashville",
         "show_link": false
       }
+    },
+    "164918994471fbdbad": {
+      "type": "section-content-spec-collection",
+      "blocks": {
+        "be43790d-53d7-4b44-a2cc-4e7db52ab877": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-size-23"
+          }
+        },
+        "539bad17-b995-42e8-be4d-23987b0baf98": {
+          "type": "collection",
+          "settings": {
+            "collection": "size-25"
+          }
+        },
+        "2638dabf-d4ce-45a1-aeda-897845452fff": {
+          "type": "collection",
+          "settings": {
+            "collection": "women-denim-27"
+          }
+        },
+        "c8f3dfb1-23a4-4674-bbb0-374281925066": {
+          "type": "collection",
+          "settings": {
+            "collection": "women-denim-27"
+          }
+        }
+      },
+      "block_order": [
+        "be43790d-53d7-4b44-a2cc-4e7db52ab877",
+        "539bad17-b995-42e8-be4d-23987b0baf98",
+        "2638dabf-d4ce-45a1-aeda-897845452fff",
+        "c8f3dfb1-23a4-4674-bbb0-374281925066"
+      ],
+      "settings": {
+        "pre_title": "",
+        "title": "",
+        "title_font": "headline__din",
+        "btn_text": "Men’s denim",
+        "btn_url": ""
+      }
+    },
+    "16491902805e37b9ac": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "choose_collection": "size-25",
+        "title": "title",
+        "btn_text": "button",
+        "btn_url": "",
+        "show_border": true
+      }
+    },
+    "1649190343ce59b569": {
+      "type": "section-four-item-feature",
+      "settings": {
+        "choose_collection": "size-25",
+        "title": "BRIGHTER DAYS",
+        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
+        "btn_text": "SHOP Collection",
+        "btn_url": "",
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
+      }
+    },
+    "1649190884bc7d6922": {
+      "type": "section-content-cards",
+      "blocks": {
+        "bbfaeb13-563b-4d75-8585-74546e73ab69": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_d7ab1c6b-d218-446b-9c2b-96ccfd210f67.jpg",
+            "title": "Title",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        },
+        "f8525ecf-daf4-43b6-b4ec-7e541ca32f7e": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-7-1_85ddfc78-d644-4084-b7ab-37ed8c71e313.jpg",
+            "title": "Title",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        },
+        "9e88ed79-b10a-4b49-9b15-a3e7c063e45c": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg",
+            "title": "Title",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        },
+        "cda5be07-a8d4-4a69-bcf9-0835111a45c6": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-18_at_3.49.38_PM.png",
+            "title": "Title",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "bbfaeb13-563b-4d75-8585-74546e73ab69",
+        "f8525ecf-daf4-43b6-b4ec-7e541ca32f7e",
+        "9e88ed79-b10a-4b49-9b15-a3e7c063e45c",
+        "cda5be07-a8d4-4a69-bcf9-0835111a45c6"
+      ],
+      "settings": {
+        "main_title": "Lorem ipsum dolor"
+      }
+    },
+    "16492778864f8d5bba": {
+      "type": "section-collection-grid",
+      "settings": {
+        "choose_collection": "",
+        "show_title": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "collection",
+        "title_font": "headline__din",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+        "btn_text": "Shop All",
+        "btn_url": ""
+      }
+    },
+    "164927862869965961": {
+      "type": "section-video-with-text",
+      "settings": {
+        "video_poster": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg",
+        "video_url": "https:\/\/vimeo.com\/429778321",
+        "video_controls": false,
+        "pre_title": "( circa 2012 )",
+        "title": "take a look back",
+        "main_title": "HOW IT ALL STARTED",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "btn_text": "LOREM IPSUM",
+        "btn_url": ""
+      }
     }
   },
   "order": [
     "16376680197e951999",
-    "1637735864c2bd7e13"
+    "1637735864c2bd7e13",
+    "164918994471fbdbad",
+    "16491902805e37b9ac",
+    "1649190343ce59b569",
+    "1649190884bc7d6922",
+    "16492778864f8d5bba",
+    "164927862869965961"
   ]
 }
