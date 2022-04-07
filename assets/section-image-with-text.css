@@ -31,14 +31,14 @@
 }
 .image-with-text .pre-title {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5rem;
   letter-spacing: 0.15rem;
   margin-bottom: 1rem;
   font-family: var(--font-gothic)
 }
 .image-with-text .title {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-family: var(--font-arno-display);
   margin-top: 0;
   line-height: 2.2rem;
@@ -47,7 +47,7 @@
   color: var(--color-normal-black);
 }
 .image-with-text .text {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: var(--font-arno-display);
   margin-top: 0;
   margin-bottom: 2.3rem;
@@ -57,7 +57,7 @@
 }
 .image-with-text .content-wrap .link {
   color: var(--color-blue);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.14rem;
   display: block;
@@ -78,7 +78,7 @@
 /* responsive start */
 @media screen and (min-width: 1400px) {
   .image-with-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 

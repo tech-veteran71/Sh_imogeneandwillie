@@ -1,6 +1,5 @@
 .product-slider {
   padding-bottom: 85px;
-  font-size: 1.2vw;
 }
 .product-slider:hover .product-grid .swiper-scrollbar {
   opacity: 1;

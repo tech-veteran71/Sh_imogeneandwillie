@@ -14,7 +14,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.4rem;
   text-transform: uppercase;
   max-width: 22rem;
   width: 100%;
@@ -42,12 +41,12 @@
 
 @media screen and (min-width: 1400px) {
   .collection-list {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 990px) {
   .collection-list {
-    font-size: 1.4vw;
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 767px) {

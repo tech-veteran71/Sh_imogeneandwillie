@@ -1,8 +1,6 @@
 .product {
   margin: 0;
   flex-wrap: nowrap;
-  height: 100vh;
-  min-height: 60rem;
 }
 .product .product-media-swiper {
   display: none
@@ -14,7 +12,6 @@
 
 .product__media-wrapper {
   padding-left: 0;
-  overflow-y: auto;
 }
 .product__media-wrapper::-webkit-scrollbar-track{
   -webkit-box-shadow: inset 0 0 0.6rem rgba(0,0,0,0.5);
@@ -33,7 +30,6 @@
 .product__info-wrapper {
   padding-left: 0;
   padding-bottom: 0;
-  padding-right: 3rem;
 }
 .product__info-wrapper::-webkit-scrollbar-track{
   -webkit-box-shadow: inset 0 0 0.6rem rgba(0,0,0,0.5);
@@ -814,7 +810,7 @@ a.product__text {
 }
 
 .product-popup-modal__button {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   padding-right: 1.3rem;
   padding-left: 0;
   height: 4.4rem;
@@ -885,7 +881,6 @@ a.product__text {
 .template-product .product-section {
   background-color: var(--color-Xlight-wheat);
   padding-top: 3rem;
-  overflow: hidden;
 }
 .template-product .product__info-wrapper {
   padding-top: 2em;
@@ -900,7 +895,7 @@ a.product__text {
   text-align: center;
 }
 .product .product__title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--color-normal-black);
   letter-spacing: 0.3rem;
   margin-top: 0;
@@ -908,7 +903,7 @@ a.product__text {
 }
 .product .product-info {
   margin: 0 0 3rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: var(--font-arno-display);
   color: var(--color-dim-black);
   letter-spacing: 0.2rem;
@@ -918,7 +913,7 @@ a.product__text {
   align-items: flex-end;
 }
 .product .price .price-item {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: var(--font-din);
   color: var(--color-normal-black);
   letter-spacing: 0.36em;
@@ -933,7 +928,7 @@ a.product__text {
   font-family: var(--font-din);
   border-radius: 0rem;
   background-color: var(--color-normal-black);
-  font-size: 0.5em;
+  font-size: 1rem;
   color: var(--color-white);
   display: flex;
   justify-content: center;
@@ -977,7 +972,7 @@ a.product__text {
 }
 
 .product .product__tax.caption {
-  font-size: 0.7em;
+  font-size: 1.4rem;
   letter-spacing: 0.1em;
   margin-bottom: 0.8em;
   font-family: var(--font-gothic);
@@ -1006,7 +1001,7 @@ a.product__text {
   height: 4.5rem;
 }
 .product .size-box-wrap .form__label {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: var(--font-din);
   color: var(--color-normal-black);
   font-weight: bold;
@@ -1049,7 +1044,7 @@ a.product__text {
 .product .size-box-wrap .info-title {
   font-family: var(--font-gothic);
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 0.14rem;
   color: var(--color-dim-black);
   margin-left: 0.6rem;
@@ -1074,7 +1069,7 @@ a.product__text {
   display: flex;
   padding: 0;
   min-height: 4.6rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 0.15em;
   justify-content: center;
   align-items: center;
@@ -1096,7 +1091,7 @@ a.product__text {
 }
 .product .size-box-wrap .bottom-text {
   font-family: var(--font-gothic);
-  font-size: 0.65em;
+  font-size: 1.2rem;
   text-decoration: underline;
   color: var(--color-normal-black);
   letter-spacing: 0.07em;
@@ -1107,7 +1102,7 @@ a.product__text {
   padding: 0;
 }
 .product .sale-details {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: var(--font-arno-display);
   color: var(--color-normal-black);
   text-align: center;
@@ -1133,7 +1128,7 @@ a.product__text {
   margin-top: 1.5em;
 }
 .product .product__description .pad-b-l {
-  font-size: 1.3em !important;
+  font-size: 1.1em !important;
   line-height: 0.9em;
 }
 .product .product__description li {
@@ -1143,13 +1138,13 @@ a.product__text {
 .product .product__description p,
 .product .product__description span,
 .product .product__description div {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: var(--font-gothic);
   letter-spacing: 0.15rem;
   line-height: 2.8rem;
 }
 .product .product__description {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: var(--font-gothic);
   letter-spacing: 0.1rem;
   line-height: 2rem;
@@ -1162,7 +1157,7 @@ a.product__text {
 }
 .product .product__description a {
   color: var(--color-blue);
-  font-size: 1em;
+  font-size: 1.2rem;
   font-family: var(--font-din);
   text-decoration: underline;
 }
@@ -1173,7 +1168,7 @@ a.product__text {
   width: 100%;
 }
 .product .product__description h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: var(--font-arno-display);
   color: var(--color-normal-black);
   margin: 1.5rem 0;
@@ -1184,7 +1179,7 @@ a.product__text {
 .product .product__description table th {
   text-align: center;
   padding: 0.8em 0.2em;
-  font-size: 0.8em;
+  font-size: 1.2rem;
 }
 .product .product__description table td br {
   display: none;
@@ -1224,7 +1219,7 @@ a.product__text {
   height: 100%;
 }
 .product .accordian-title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: var(--font-din);
   color: var(--color-dim-black);
   letter-spacing: 0.2rem;
@@ -1234,7 +1229,7 @@ a.product__text {
 }
 .product .accordian-body p,
 .product .accordian-body span {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 0.1rem;
 }
 .product .accordian-body p,
@@ -1246,7 +1241,7 @@ a.product__text {
   color: var(--color-blue);
   font-family: var(--font-din);
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.4rem;
 }
 .product .accordian-body button {
   border: 0.1rem solid var(--color-normal-black);
@@ -1260,7 +1255,7 @@ a.product__text {
   cursor: pointer;
 }
 .product .accordian-body button span {
-  font-size: 1em;
+  font-size: 1.4rem;
   font-family: var(--font-din);
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -1297,6 +1292,7 @@ a.product__text {
   grid-gap: 1.8rem;
   position: absolute;
   width: 100%;
+  position: relative;
 }
 .product .product-media-wrap {
   cursor: pointer;
@@ -1347,7 +1343,7 @@ a.product__text {
 }
 .product .product-form__submit {
   font-family: var(--font-din);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   background-color: var(--color-normal-black);
   color: var(--color-white);
   text-transform: uppercase;
@@ -1382,9 +1378,6 @@ a.product__text {
 .product .size-box-wrap .inputs-group .sold-out:after {
   transform: rotate(138deg);
 }
-.product__info-wrapper {
-  padding-right: 2.5rem;
-}
 
 @media screen and (max-width: 1359px) {
   .product .size-box-wrap .inputs-group label {
@@ -1411,7 +1404,7 @@ a.product__text {
     font-size: 1.2rem;
   }
   .product .accordian-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .product:not(.product--no-media):not(.featured-product) .product__media-wrapper {
     margin-left: 3rem;
@@ -1427,13 +1420,13 @@ a.product__text {
     width: 95%;
   }
   .product .size-box-wrap .bottom-text {
-    font-size: 0.6em;
+    font-size: 1.2rem;
   }
   .product .size-box-wrap .info-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .product .price .badge {
-    font-size: .4em;
+    font-size: 1.2rem;
   }
   .product .price .badges {
     max-width: 45%;
@@ -1441,9 +1434,6 @@ a.product__text {
   }
   .product .price-main {
     margin: 2rem 0 3rem;
-  }
-  .product__info-wrapper {
-    padding-right: 1.5rem;
   }
   .product .product__description table td,
   .product .product__description table th {

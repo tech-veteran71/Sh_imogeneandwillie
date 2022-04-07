@@ -17,7 +17,7 @@
 }
 
 .content-specific-collection .btn {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: var(--font-din);
   text-transform: uppercase;
   color: var(--color-normal-black);
@@ -47,7 +47,7 @@
 }
 
 .content-specific-collection .pre-title {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-family: var(--font-gothic);
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -59,7 +59,7 @@
 }
 
 .content-specific-collection .title {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 5rem;

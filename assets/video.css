@@ -10,7 +10,7 @@
 }
 .video-section .title {
   margin-top: 0;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   font-weight: 700;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
@@ -21,7 +21,7 @@
 }
 .video-section .wrap-title {
   margin-top: 0;
-  font-size: 5rem;
+  font-size: 4.8rem;
   letter-spacing: 0.5rem;
   font-family: var(--font-arno-display);
   line-height: 2.2rem;
@@ -31,7 +31,7 @@
 .video-section .contents .text {
   line-height: 4rem;
   font-family: var(--font-arno-display);
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   letter-spacing: 0.28rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -39,7 +39,7 @@
 .video-section .info .text {
   margin-top: 0;
   margin-bottom: 3rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: var(--font-gothic);
   line-height: 1.6;
   font-weight: 500;
@@ -67,7 +67,7 @@
 .video-section .info .text {
   margin-top: 0;
   margin-bottom: 3rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 2.5rem;
   letter-spacing: 0.14rem;
 }
@@ -81,7 +81,7 @@
   display: none;
 }
 .video-section .btn {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;

@@ -29,7 +29,7 @@
   list-style: none;
   line-height: 1;
   color: #ea1818;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .customer ul a {
@@ -190,42 +190,6 @@
     background: CanvasText;
   }
 }
-
-/* mobile table overrides */
-/* @media screen and (max-width: 749px) {
-  .customer thead,
-  .customer th,
-  .customer tfoot td:first-of-type {
-    display: none;
-  }
-
-  .customer td {
-    display: flex;
-    text-align: right;
-  }
-
-  .customer td::before {
-    color: rgba(var(--color-foreground), 0.75);
-    content: attr(data-label);
-    font-size: 1.4rem;
-    padding-right: 2rem;
-    text-transform: uppercase;
-    flex-grow: 1;
-    text-align: left;
-  }
-
-  .customer td:first-of-type {
-    display: flex;
-    align-items: center;
-  }
-
-  .customer tr {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-  }
-} */
 
 /* Pagination */
 .customer .pagination {
@@ -402,10 +366,6 @@
   .order > div:nth-of-type(2) > div:last-of-type {
     display: flex;
   }
-
-  /* .order > div:nth-of-type(2) > div:last-of-type div {
-    padding-right: 3.2rem;
-  } */
 }
 
 :is(.account, .order) p {
@@ -438,18 +398,6 @@
   margin-bottom: -0.03rem;
   margin-right: 1rem;
 }
-
-/* .account table td:first-of-type a {
-  padding: 1.1rem 1.5rem;
-  text-decoration: none;
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-link), 0.2);
-  border: 0.1rem solid transparent;
-  font-size: 1.2rem;
-}
-
-.account table td:first-of-type a:hover {
-  box-shadow: 0 0 0 0.2rem rgba(var(--color-link), 0.2);
-} */
 
 .order td:first-of-type {
   align-items: initial;

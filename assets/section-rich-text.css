@@ -10,7 +10,7 @@
   display: none;
 }
 .custom-rich-text .text {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: var(--font-arno-display);
   color: var(--color-normal-black);
   line-height: 2.5rem;

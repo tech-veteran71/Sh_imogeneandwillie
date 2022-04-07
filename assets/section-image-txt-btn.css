@@ -26,7 +26,7 @@
   display: block;
 }
 .image-with-text .title {
-  font-size: 23px;
+  font-size: 2.1rem;
   font-family: var(--font-din);
   margin: 0;
   color: var(--color-normal-black);
@@ -40,7 +40,7 @@
   text-align: center;
 }
 .image-with-text .text {
-  font-size: 20px;
+  font-size: 1.8rem;
   font-family: var(--font-arno-display);
   color: var(--color-dim-black);
   line-height: 1.4;
@@ -49,7 +49,7 @@
 .image-with-text .btn {
   text-decoration: none;
   border: 1px solid var(--color-normal-black);
-  font-size: 14px;
+  font-size: 1.2rem;
   font-family: var(--font-din);
   color: var(--color-normal-black);
   letter-spacing: 2px;

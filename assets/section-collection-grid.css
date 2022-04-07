@@ -11,7 +11,7 @@
   margin: 0 auto 7.5rem;
 }
 .product-gallery .title {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-family: var(--font-arno-display);
   letter-spacing: 0.28rem;
   color: var(--color-normal-black);
@@ -20,7 +20,7 @@
   margin-top: 0;
 }
 .product-gallery .text {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: var(--font-arno-display);
   letter-spacing: 0.2rem;
   color: var(--color-dim-black);
@@ -41,7 +41,7 @@
 .product-gallery .button {
   max-width: 38rem;
   height: 5.5rem;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: var(--color-normal-black);
   border: 0.1rem solid var(--color-normal-black);
   display: flex;

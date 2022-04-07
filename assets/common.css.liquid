@@ -9,6 +9,22 @@
 }
 
 @font-face {
+  font-family: 'DIN';
+  src: url('{{ 'din_bold-webfont.woff2' | asset_url }}') format('woff2'),
+       url('{{ 'din_bold-webfont.woff' | asset_url }}') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('{{ 'din_bold-webfont.woff2' | asset_url }}') format('woff2'),
+       url('{{ 'din_bold-webfont.woff' | asset_url }}') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'News Gothic MT Std';
   src: url("{{ 'NewsGothicMTStd.woff2' | asset_url }}") format('woff2'),
       url("{{ 'NewsGothicMTStd.woff' | asset_url }}") format('woff');

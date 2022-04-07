@@ -3,7 +3,7 @@
   background-color: var(--color-Xlight-wheat);
 }
 .rich-text-section .title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 0;
   text-transform: lowercase;
   line-height: 2.4rem;
@@ -18,14 +18,14 @@
 .rich-text-section .text {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 2.8rem;
   letter-spacing: 0.15rem;
   color: var(--color-dim-black);
   font-family: var(--font-gothic);
 }
 .rich-text-section .wrapper .btn {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--color-blue);
   font-weight: 900;
   text-transform: uppercase;

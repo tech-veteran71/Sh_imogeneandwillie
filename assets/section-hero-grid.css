@@ -49,7 +49,7 @@
   grid-template-rows: minmax(180px, 346px) minmax(180px, 346px) minmax(180px, 346px);
 }
 .featured-section .title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: var(--font-din);
   color: var(--color-normal-black);
   text-transform: uppercase;
@@ -59,7 +59,7 @@
   letter-spacing: 0.2rem;
 }
 .featured-section .link-text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: var(--font-din);
   font-weight: 600;
   color: var(--color-blue);

@@ -8,7 +8,7 @@
 }
 .explore-section .title {
   font-family: var(--font-arno-display);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-top: 0;
   margin-bottom: 3rem;
   color: var(--color-normal-black);
@@ -47,7 +47,7 @@
   border-radius: 0.5rem;
 }
 .explore-section .title-wrap .text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 0.12rem;
   color: var(--color-normal-black);
   font-family: var(--font-gothic);
@@ -71,7 +71,7 @@
 .explore-section .btn-wrap .btn {
   height: 100%;
   width: 100%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: var(--font-din);
   font-weight: 500;
   color: var(--color-normal-black);
@@ -103,7 +103,7 @@
 }
 @media screen and (min-width: 1400px) {
   .explore-section {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 @media(max-width: 1279px) {

@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  font-size: 1.2vw;
+  font-size: 1.4rem;
   position: relative;
 }
 .template-customer .account-banner {
@@ -25,13 +25,12 @@
   width: 100%;
 }
 .template-customer .main-title {
-  font-size: 28px;
+  font-size: 2.6rem;
   font-family: var(--font-arno-display);
   color: var(--color-normal-black);
   margin-top: 0;
-  margin-bottom: 22px;
+  margin-bottom: 2.2rem;
   text-align: left;
-  letter-spacing: 2px;
   text-transform: lowercase;
 }
 .template-customer .customer #customer_login {
@@ -45,19 +44,17 @@
   padding: 0 1.6em;
   font-family: var(--font-din);
   background-color: var(--color-light-wheat);
-  font-size: 14px;
+  font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: 3px;
   color: var(--color-dark-grey);
   border: 0;
   box-shadow: unset;
 }
 .template-customer #MainContent .field-input::placeholder {
   opacity: 1;
-  font-size: 14px;
+  font-size: 1.2rem;
   font-family: var(--font-din);
   text-transform: uppercase;
-  letter-spacing: 3px;
   color: var(--color-dark-grey);
 }
 .template-customer #MainContent .field .field-input:focus {
@@ -67,16 +64,15 @@
   padding: 0 1.6em;
 }
 .template-customer #MainContent .field {
-  margin: 0 0 30px;
+  margin: 0 0 3rem;
 }
 .template-customer .btn {
   width: 100%;
   font-family: var(--font-din);
   margin: 0;
-  height: 55px;
-  font-size: 14px;
+  height: 5.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
-  letter-spacing: 3px;
   color: var(--color-Xlight-wheat);
   background-color: var(--color-normal-black);
   box-shadow: unset;
@@ -88,83 +84,76 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 23px;
-  padding: 0 8px;
+  margin-top: 2.3rem;
+  padding: 0 08.rem;
 }
 .template-customer .account-banner .link {
-  font-size: 13px;
-  letter-spacing: 3.9px;
+  font-size: 1.1rem;
   color: var(--color-dim-black);
   text-decoration: none;
   margin: 0;
   text-transform: lowercase;
 }
 .template-customer #recover {
-  margin: 0 0 5px;
+  margin: 0 0 0.5rem;
 }
 .template-customer .account-banner .text {
-  font-size: 14px;
+  font-size: 1.4rem;
   margin: 0;
   text-align: left;
   line-height: 1.5;
-  letter-spacing: 2px;
   color: var(--color-dim-black);
 }
 .template-customer .recover-password .link {
   text-align: center;
-  margin: 23px auto 0;
+  margin: 2.3rem auto 0;
   display: block;
 }
 
 @media screen and (min-width: 1400px) {
   .template-customer {
-    font-size: 20px;
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 1279px) {
   .template-customer #MainContent .field {
-    margin: 0 0 20px;
+    margin: 0 0 2rem;
   }
   .template-customer #MainContent .customer {
-    max-width: 530px;
+    max-width: 53rem;
   }
 }
 @media screen and (max-width: 767px) {
   .template-customer #MainContent .customer {
     max-width: 92%;
-    padding: 30px 10px 50px;
+    padding: 3rem 1rem 5rem;
   }
   .template-customer .main-title {
     text-align: center;
-    font-size: 26px;
+    font-size: 2.4rem;
   }
   .template-customer .account-banner .link {
-    font-size: 12px;
-    letter-spacing: 2px;
+    font-size: 1.2rem;
   }
   .template-customer .account-banner .link-wrap {
-    margin-top: 12px;
+    margin-top: 1.2rem;
   }
   .template-customer .account-banner .text {
     text-align: center;
-    letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 1rem;
   }
   .template-customer #MainContent .field-input {
-    height: 50px;
-    font-size: 12px;
-    letter-spacing: 2px;
+    height: 5rem;
+    font-size: 1.2rem;
   }
   .template-customer #MainContent .field-input::placeholder {
-    font-size: 12px;
-    letter-spacing: 2px;
+    font-size: 1.2rem;
   }
   .template-customer .btn {
-    height: 50px;
-    font-size: 12px;
-    letter-spacing: 2px;
+    height: 5rem;
+    font-size: 1.2rem;
   }
   .template-customer .recover-password .link {
-    margin: 18px auto 0;
+    margin: 1.8rem auto 0;
   }
 }

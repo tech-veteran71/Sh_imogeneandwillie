@@ -34,7 +34,7 @@
   margin-bottom: 2rem;
 }
 .hero-banner .link-text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--color-white);
   letter-spacing: 0.42rem;
   text-transform: uppercase;
@@ -61,14 +61,14 @@
   text-align: center;
 }
 .hero-banner .main-title {
-  font-size: 7rem;
+  font-size: 6.8rem;
   font-weight: bold;
   color: var(--color-white);
   margin-bottom: 0.3em;
   margin-top: 0;
 }
 .hero-banner .text {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: var(--font-arno-display);
   color: var(--color-white);
   margin: 0 auto;

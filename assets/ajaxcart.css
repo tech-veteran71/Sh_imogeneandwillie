@@ -265,3 +265,7 @@
 .upsell-product__image img {
   width: 100%;
 }
+
+.ajaxcart__empty {
+  padding: 3rem;
+}

@@ -20,9 +20,8 @@
 }
 .faq-page .main-title {
   font-family: var(--font-arno-display);
-  font-size: 28px;
+  font-size: 2.6rem;
   color: var(--color-normal-black);
-  letter-spacing: 2px;
   margin: 0;
   line-height: 1.4;
 }
@@ -30,11 +29,10 @@
   margin-top: 1.3em;
 }
 .faq-page .faq-title {
-  font-size: 18px;
+  font-size: 1.6rem;
   font-family: var(--font-din);
   color: var(--color-dim-black);
   text-transform: uppercase;
-  letter-spacing: 2px;
   margin: 0;
 }
 .faq-page .accordians-group {
@@ -43,9 +41,8 @@
 .faq-page .accordian-title {
   margin: 0;
   font-family: var(--font-gothic);
-  font-size: 14px;
+  font-size: 1.4rem;
   color: var(--color-dim-black);
-  letter-spacing: 2px;
 }
 .faq-page .accordian-item {
   padding: 0 0.75em;
@@ -77,7 +74,7 @@
   display: none;
 }
 .faq-page .accordian-body .text {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: var(--font-gothic);
   color: var(--color-dim-black);
   letter-spacing: 1.3px;

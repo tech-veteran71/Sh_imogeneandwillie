@@ -13,7 +13,7 @@
   margin-bottom: 4em;
 }
 .fabric-section .main-title {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   font-family: var(--font-din);
   letter-spacing: 0.3rem;
   text-transform: uppercase;
@@ -52,7 +52,7 @@
   width: 100%;
 }
 .fabric-section .fabric-block .title {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   font-family: var(--font-din);
   letter-spacing: 0.3rem;
   color: var(--color-normal-black);
@@ -60,7 +60,7 @@
   text-transform: uppercase;
 }
 .fabric-section .fabric-block .text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   letter-spacing: 0.2rem;
   font-family: var(--font-gothic);
   color: var(--color-normal-black);
@@ -69,7 +69,7 @@
   text-align: center;
 }
 .fabric-section .fabric-block .link {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: var(--font-din);
   letter-spacing: 0.3rem;
   color: var(--color-blue);
@@ -83,18 +83,18 @@
 }
 @media screen and (min-width: 1400px) {
   .fabric-section {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 1400px) {
   .fabric-section .fabric-block .title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .fabric-section .fabric-block .text {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .fabric-section .fabric-block .link {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 1279px) {
