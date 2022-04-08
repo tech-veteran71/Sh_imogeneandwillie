@@ -1,12 +1,91 @@
 {
   "sections": {
+    "1649343925c8d83679": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/desktop_0ae28962-274f-4eb7-9128-2db241d361f7.jpg",
+        "mob_img": "shopify:\/\/shop_images\/mobile_3239f1d4-c213-4a8d-bf84-a3d83c675eb0.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16493441673bde7dd8": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "barton slim & henry natural rigid indigo",
+        "title_font": "headline__din",
+        "text": "sewn from a rigid, lightweight 12.25oz denim, this fabric allows for a pant that transcends seasons: substantial enough for year-round wear, but light enough to accompany you to warmer days as you continue to wear it in.",
+        "btn_text": "shop now",
+        "btn_url": "",
+        "show_button": true
+      }
+    },
+    "164934473347e72eb5": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/mobile-split-2_e294d472-8eb8-480f-8d58-53ac84fc24a5.jpg",
+        "mob_img": "shopify:\/\/shop_images\/mobile-split-2_e294d472-8eb8-480f-8d58-53ac84fc24a5.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "1649345031dfcd3b10": {
+      "type": "section-quote",
+      "settings": {
+        "review": "“you don't think it be like that, <br>but sometimes it do.”",
+        "customer_name": "- jonathan krohn",
+        "background_color": "#f1efe8"
+      }
+    },
+    "1649344991aebfc9bf": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/homepage1.jpg",
+        "mob_img": "shopify:\/\/shop_images\/desktophero_6f52f24c-9772-4eb8-a6a3-a0f05fd8e14f.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "1649345876722a5b9b": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "the catherine abilene 3.0",
+        "title_font": "headline__din",
+        "text": "the return of an all-time favorite. 💙  <br> the character in this denim and the effortless drape of the fabric work together to complement the wash: a well-loved vintage look and a rich, soft feel.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16493459270f2a9122": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/webgrid_88cdc41c-6557-4457-8575-03eb624ac8b8.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16493467776a7fccf2": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "shop now ->",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
     "16376680197e951999": {
       "type": "collection--list",
       "blocks": {
         "b495a850-459b-4089-b928-5bc174a0b23b": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Untitled-6_3245a8fc-15c6-4fee-a197-b922c89d4511.jpg",
+            "img": "shopify:\/\/shop_images\/w_84aedc5e-6b40-4013-a851-528b2a9b3d3c.jpg",
             "btn_text": "shop mens",
             "link_url": "shopify:\/\/collections\/mens"
           }
@@ -14,7 +93,7 @@
         "a5039d9b-141b-4eff-944e-c54ac4ff16e3": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/right_da369114-d23e-47e7-a09e-914eb425a0d4.jpg",
+            "img": "shopify:\/\/shop_images\/w_dd26e67b-bda6-4c0e-8b45-45137d538881.jpg",
             "btn_text": "shop womens",
             "link_url": "shopify:\/\/collections\/womens"
           }
@@ -25,6 +104,50 @@
         "a5039d9b-141b-4eff-944e-c54ac4ff16e3"
       ],
       "settings": {
+      }
+    },
+    "16493465150e689548": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/shop-august--_15-of-15.jpg",
+        "mob_img": "shopify:\/\/shop_images\/shop-august--_15-of-15.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "1649347110c702605f": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "our home",
+        "title_font": "headline__arno",
+        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
+        "btn_text": "continue reading →",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1649347242ecc7083e": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
+        "mob_img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
+    "16493477614696a5fd": {
+      "type": "section-collection-grid",
+      "settings": {
+        "choose_collection": "top-picks",
+        "show_title": true,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "top picks",
+        "title_font": "headline__din",
+        "text": "items to love and use every single day.thoughtfully designed, and carefully made, these are a few of our favorite things.",
+        "btn_text": "see more",
+        "btn_url": ""
       }
     },
     "1637735864c2bd7e13": {
@@ -42,6 +165,7 @@
     },
     "164918994471fbdbad": {
       "type": "section-content-spec-collection",
+      "disabled": true,
       "blocks": {
         "be43790d-53d7-4b44-a2cc-4e7db52ab877": {
           "type": "collection",
@@ -84,6 +208,7 @@
     },
     "16491902805e37b9ac": {
       "type": "section-mobile-slider",
+      "disabled": true,
       "settings": {
         "choose_collection": "size-25",
         "title": "title",
@@ -94,6 +219,7 @@
     },
     "1649190343ce59b569": {
       "type": "section-four-item-feature",
+      "disabled": true,
       "settings": {
         "choose_collection": "size-25",
         "title": "BRIGHTER DAYS",
@@ -106,6 +232,7 @@
     },
     "1649190884bc7d6922": {
       "type": "section-content-cards",
+      "disabled": true,
       "blocks": {
         "bbfaeb13-563b-4d75-8585-74546e73ab69": {
           "type": "info",
@@ -156,6 +283,7 @@
     },
     "16492778864f8d5bba": {
       "type": "section-collection-grid",
+      "disabled": true,
       "settings": {
         "choose_collection": "",
         "show_title": false,
@@ -170,6 +298,7 @@
     },
     "164927862869965961": {
       "type": "section-video-with-text",
+      "disabled": true,
       "settings": {
         "video_poster": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg",
         "video_url": "https:\/\/vimeo.com\/429778321",
@@ -181,16 +310,65 @@
         "btn_text": "LOREM IPSUM",
         "btn_url": ""
       }
+    },
+    "16493439549fb1174a": {
+      "type": "section-rich-text",
+      "settings": {
+        "text": "",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "1649344104f3dc6a06": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "link_text": "try it out",
+        "link_url": ""
+      }
+    },
+    "16493460179d05cc39": {
+      "type": "section-image-overlay-feature",
+      "disabled": true,
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/IMG_0883.jpg",
+        "image": "shopify:\/\/shop_images\/homepage1.jpg",
+        "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
+        "pre_title": "",
+        "title": "",
+        "text": "the return of an all-time favorite. 💙\n\nthe character in this denim and the effortless drape of the fabric work together to complement the wash: a well-loved vintage look and a rich, soft feel.",
+        "btn_text": "",
+        "link_url": ""
+      }
     }
   },
   "order": [
+    "1649343925c8d83679",
+    "16493441673bde7dd8",
+    "164934473347e72eb5",
+    "1649345031dfcd3b10",
+    "1649344991aebfc9bf",
+    "1649345876722a5b9b",
+    "16493459270f2a9122",
+    "16493467776a7fccf2",
     "16376680197e951999",
+    "16493465150e689548",
+    "1649347110c702605f",
+    "1649347242ecc7083e",
+    "16493477614696a5fd",
     "1637735864c2bd7e13",
     "164918994471fbdbad",
     "16491902805e37b9ac",
     "1649190343ce59b569",
     "1649190884bc7d6922",
     "16492778864f8d5bba",
-    "164927862869965961"
+    "164927862869965961",
+    "16493439549fb1174a",
+    "1649344104f3dc6a06",
+    "16493460179d05cc39"
   ]
 }
