@@ -614,6 +614,19 @@ hr {
   }
 }
 
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .full-unstyled-link {
   text-decoration: none;
   color: currentColor;
