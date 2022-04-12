@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "main": {
+      "type": "terms-and-condition-template",
+      "blocks": {
+        "92d04991-8c60-42a3-a323-64d08d3ea1f7": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "FIX SIDEBAR LINKS",
+            "link_url": "shopify:\/\/pages\/faq"
+          }
+        },
+        "da03a5dd-56f6-46f2-a5ef-93b0b5376a03": {
+          "type": "info",
+          "settings": {
+            "label": "phone",
+            "link_text": "+1 (615) 739-5286",
+            "link_url": ""
+          }
+        },
+        "01315be3-8a2e-4499-92bf-7ebfac80020a": {
+          "type": "info",
+          "settings": {
+            "label": "email",
+            "link_text": "help@imogeneandwillie.com",
+            "link_url": ""
+          }
+        },
+        "b5dab7b1-dbaf-4e65-ac6b-506c07ce0805": {
+          "type": "info",
+          "settings": {
+            "label": "chat",
+            "link_text": "start chat now",
+            "link_url": ""
+          }
+        },
+        "b333fb57-6543-470a-8e4d-f8c4e643654e": {
+          "type": "info",
+          "settings": {
+            "label": "customer service hours:",
+            "link_text": "mon-sat 9-6ct",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "92d04991-8c60-42a3-a323-64d08d3ea1f7",
+        "da03a5dd-56f6-46f2-a5ef-93b0b5376a03",
+        "01315be3-8a2e-4499-92bf-7ebfac80020a",
+        "b5dab7b1-dbaf-4e65-ac6b-506c07ce0805",
+        "b333fb57-6543-470a-8e4d-f8c4e643654e"
+      ],
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/angelescrest_-12.jpg",
+        "banner_img": "shopify:\/\/shop_images\/angelescrest_-12.jpg",
+        "main_title": "accessibility",
+        "main_text": "<p>ADA Site Compliance Website Accessibility Statement<\/p>\n<p>imogene + willie strives to maintain a compliant website and is committed to providing an online environment that is accessible to all visitors in accordance with Section 504 of the Rehabilitation Act of 1973, Section 508 of the Rehabilitation Act (29 U.S.C. 794d), and relevant implementing regulations, as well as with the recommendations contained in the Web Content Accessibility Guidelines (WCAG) 2.0, promulgated by the World Wide Web Consortium, as may be updated and\/or otherwise amended from time to time.<\/p>\n<p>We recognize that accessibility and usability are not always possible in every area of the website or for those using assistive technology and devices. Therefore, Imogene + Willie has conducted, and conducts ongoing accessibility reviews of its website and has remediated and continues to remediate any issues identified during such reviews.<\/p>\n<p>Please be aware that our efforts are ongoing as we incorporate the relevant improvements to meet the above-referenced laws, regulations and guidelines.<\/p>\n<p>If you have specific questions or concerns about the accessibility of this site or need assistance in using the processes found within this site please contact us by <a style=\"color: blue; text-decoration: underline;\" href=\"mailto:help@imogeneandwillie.com\">email<\/a> or <a style=\"color: blue; text-decoration: underline;\" href=\"tel:6157395286\">phone<\/a><\/p>\n<p><\/p>",
+        "title": "help",
+        "info_title": "contact"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -51,6 +51,7 @@
   max-width: 50%;
   flex: 50%;
   padding: 0 2.6em;
+  font-size: 1.3rem;
 }
 .custom-content-section .text p {
   font-size: 1.3rem;

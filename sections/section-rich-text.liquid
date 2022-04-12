@@ -8,11 +8,8 @@
           <p class="text">{{ section.settings.text }}</p>
         </div>
         {% if section.settings.link_text != blank %}
-          <a class="link" href="{{ section.settings.link_url }}">
-            <span class="link-text">{{ section.settings.link_text }}</span>
-            <div class="icon-wrap">
-              {% include 'icon-down' %}
-            </div>
+          <a class="button button--outline" href="{{ section.settings.link_url }}">
+            {{ section.settings.link_text }}
           </a>
         {% endif %}
       </div>
@@ -22,7 +19,7 @@
 
 {% schema %}
 {
-  "name": "Custom Rich Text",
+  "name": "BLOCK TXT W/ LINK",
   "settings": [
     {
       "type": "header",

@@ -52,8 +52,6 @@
 }
 .collage-section .main-title {
   font-size: 2.6rem;
-  font-family: var(--font-arno-display);
-  letter-spacing: 0.28rem;
   color: var(--color-normal-black);
   margin: 0;
   line-height: 1;

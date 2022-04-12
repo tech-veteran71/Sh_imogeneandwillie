@@ -12,10 +12,10 @@
         {% for recommendation in recommendations.products %}
             {% render 'product-card',
                     product: recommendation,
-                    show_title: false,
-                    show_subtitle: false,
-                    show_price: false,
-                    show_badges: false
+                    show_title: true,
+                    show_subtitle: true,
+                    show_price: true,
+                    show_badges: true
                   %}
         {% endfor %}
       <div class="swiper-scrollbar"></div>

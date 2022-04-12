@@ -3,48 +3,6 @@
     "main": {
       "type": "faq-template",
       "blocks": {
-        "da7296a6-a575-45a7-a05a-a827a11a23bd": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "frequent asked questions",
-            "link_url": "shopify:\/\/pages\/faq"
-          }
-        },
-        "60a76b08-ce3e-40d3-a782-e454747f03ab": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "returns & exchanges",
-            "link_url": "shopify:\/\/pages\/returns"
-          }
-        },
-        "75795088-81d5-4850-a628-95710457a309": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "denim care guide",
-            "link_url": "shopify:\/\/pages\/denim-care"
-          }
-        },
-        "e378dd05-4c81-4172-96e2-6b3e6569cf49": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "repair policy",
-            "link_url": "shopify:\/\/pages\/repair"
-          }
-        },
-        "571b312d-6356-4da4-862a-8ecb4578fc8a": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "shipping info",
-            "link_url": "shopify:\/\/pages\/shipping"
-          }
-        },
-        "6c3f1a8a-f959-4413-9849-3dced7c2b794": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "my account",
-            "link_url": "https:\/\/imogeneandwillie.com\/account\/login?ose=false"
-          }
-        },
         "08b08d86-0a1f-43bf-8ddc-b729f5256e30": {
           "type": "ancillary_link",
           "settings": {
@@ -56,7 +14,7 @@
           "type": "info",
           "settings": {
             "label": "phone",
-            "link_text": "+1 (615) 739-5286",
+            "link_text": "+1 (615) 292-5005",
             "link_url": ""
           }
         },
@@ -302,12 +260,6 @@
         }
       },
       "block_order": [
-        "da7296a6-a575-45a7-a05a-a827a11a23bd",
-        "60a76b08-ce3e-40d3-a782-e454747f03ab",
-        "75795088-81d5-4850-a628-95710457a309",
-        "e378dd05-4c81-4172-96e2-6b3e6569cf49",
-        "571b312d-6356-4da4-862a-8ecb4578fc8a",
-        "6c3f1a8a-f959-4413-9849-3dced7c2b794",
         "08b08d86-0a1f-43bf-8ddc-b729f5256e30",
         "fba7e2f9-1b43-456e-8232-6a3220c0c755",
         "4fa051e5-ef8b-4976-a042-4acc72c8ee01",
@@ -322,7 +274,7 @@
       ],
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/IMG_0883.jpg",
-        "main_title": "frequently asked questions",
+        "main_title": "accessibility",
         "title": "help",
         "info_title": "contact"
       }
