@@ -6,6 +6,19 @@
       "settings": {
       }
     },
+    "1649345217c524106d": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "text_align": "center",
+        "title": "<div style=\"text-transform:uppercase;\"> FREE RETURNS & EXCHANGES <\/div>",
+        "title_font": "headline__din",
+        "text": "we gladly accept returns for all full-priced items purchased online for a refund or exchange within 30 days of delivery. <br> <br>  we are happy to offer free exchanges on any full-priced item. we believe the fit is an essential part of making a garment perfect. when you receive your item, try it out: if for any reason it’s not perfect, we’ll get you one that is - at no extra cost.<br><br><br> <br> <br>",
+        "btn_text": "→ START A RETURN",
+        "btn_url": "",
+        "show_button": true
+      }
+    },
     "164934431692210f1c": {
       "type": "section-editorial-content",
       "disabled": true,
@@ -89,19 +102,6 @@
         "text": ""
       }
     },
-    "1649345217c524106d": {
-      "type": "section-txt-link-btn",
-      "disabled": true,
-      "settings": {
-        "text_align": "center",
-        "title": "<div style=\"text-transform:uppercase;\"> FREE RETURNS & EXCHANGES <\/div>",
-        "title_font": "headline__din",
-        "text": "we gladly accept returns for all full-priced items purchased online for a refund or exchange within 30 days of delivery. <br> <br>  we are happy to offer free exchanges on any full-priced item. we believe the fit is an essential part of making a garment perfect. when you receive your item, try it out: if for any reason it’s not perfect, we’ll get you one that is - at no extra cost.<br><br><br>",
-        "btn_text": "→ START A RETURN",
-        "btn_url": "",
-        "show_button": true
-      }
-    },
     "1649349793907509e2": {
       "type": "section-editorial-content",
       "settings": {
@@ -145,34 +145,8 @@
         "text_align": "center",
         "title": "<div style=\"text-transform:uppercase;\">NEED HELP? <\/div>",
         "title_font": "headline__din",
-        "text": "if you have any questions, comments, or feedback please feel free contact us. <br> <br>  call us at (615) 739-5286 Monday–Saturday from 9:00am–6:00pm Central and Sunday from 12:00am-6:00pm. <br>  <br>  email us any time at <a href=\"mailto:help@imogeneandwillie.com\"> help@imogeneandwillie.com<\/a>. we will promptly reply within 1 business day. <br><br> <br><br><h4 class=\"title headline__din\" data-open-accessibility-text-original=\"20px\" style=\"font-size: 20px;\"><span style=\"text-transform:uppercase;\"> HELPFUL LINKS <br><\/span><\/h4><a href=\"https:\/\/returns.imogeneandwillie.com\/#\/\" class=\"button-wrap navigable\" data-open-accessibility-text-original=\"16px\" style=\"font-size: 16px;\">    <br><br>       <span class=\"button--link\"><div style=\"text-transform:lowercase;\"> →<u> start a return or exchange <\/u> <\/div><\/span>         <\/a><a href=\"\" class=\"button-wrap navigable\" data-open-accessibility-text-original=\"16px\" style=\"font-size: 16px;\">           <span class=\"button--link\"><div style=\"text-transform: lowercase;\">→<u>frequently asked questions <\/u> <\/div><\/span>         <\/a><br>",
+        "text": "if you have any questions, comments, or feedback please feel free contact us. <br> <br>  call us at (615) 739-5286 Monday–Saturday from 9:00am–6:00pm Central and Sunday from 12:00am-6:00pm. <br>  <br>  email us any time at <a href=\"mailto:help@imogeneandwillie.com\"> help@imogeneandwillie.com<\/a>. we will promptly reply within 1 business day. <br><br> <br><br><h4 class=\"title headline__din\" data-open-accessibility-text-original=\"20px\" style=\"font-size: 20px;\"><span style=\"text-transform:uppercase;\"> HELPFUL LINKS <br> <br><\/span><\/h4><a href=\"https:\/\/returns.imogeneandwillie.com\/#\/\" class=\"button-wrap navigable\" data-open-accessibility-text-original=\"16px\" style=\"font-size: 16px;\">    <br><br> <br>      <span class=\"button--link\"><div style=\"text-transform:lowercase;\"> →<u> start a return or exchange <\/u> <\/div><\/span>         <\/a><a href=\"\" class=\"button-wrap navigable\" data-open-accessibility-text-original=\"16px\" style=\"font-size: 16px;\">           <span class=\"button--link\"><div style=\"text-transform: lowercase;\">→<u>frequently asked questions <\/u> <\/div><\/span><\/a>",
         "btn_text": "",
-        "btn_url": "",
-        "show_button": false
-      }
-    },
-    "16493467920c954749": {
-      "type": "section-txt-link-btn",
-      "disabled": true,
-      "settings": {
-        "text_align": "center",
-        "title": "<span style=\"text-transform:uppercase;\"> HELPFUL LINKS <\/span>",
-        "title_font": "headline__din",
-        "text": "",
-        "btn_text": "<div style=\"text-transform:lowercase;\"> <u>→ start a return or exchange <\/u> <\/div>",
-        "btn_url": "https:\/\/returns.imogeneandwillie.com\/#\/",
-        "show_button": false
-      }
-    },
-    "164934689727fef07b": {
-      "type": "section-txt-link-btn",
-      "disabled": true,
-      "settings": {
-        "text_align": "center",
-        "title": "",
-        "title_font": "headline__arno",
-        "text": "",
-        "btn_text": "<div style=\"text-transform: lowercase;\"> <u>→frequently asked questions <\/u> <\/div>",
         "btn_url": "",
         "show_button": false
       }
@@ -211,18 +185,16 @@
   },
   "order": [
     "main",
+    "1649345217c524106d",
     "164934431692210f1c",
     "16493448892203e8c9",
     "164934404517319207",
     "16493446525b9ce85d",
     "1649344759620a7764",
-    "1649345217c524106d",
     "1649349793907509e2",
     "1649350061863b2ea5",
     "164934544201de00ec",
     "16493466610d4b297d",
-    "16493467920c954749",
-    "164934689727fef07b",
     "1649347055d5380b49"
   ]
 }

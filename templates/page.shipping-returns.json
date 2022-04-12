@@ -10,46 +10,46 @@
             "link_url": "shopify:\/\/pages\/faq"
           }
         },
-        "60a76b08-ce3e-40d3-a782-e454747f03ab": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "returns & exchanges",
-            "link_url": "shopify:\/\/pages\/returns"
-          }
-        },
         "75795088-81d5-4850-a628-95710457a309": {
           "type": "ancillary_link",
           "settings": {
-            "link_text": "denim care guide",
-            "link_url": "shopify:\/\/pages\/denim-care"
+            "link_text": "denim care",
+            "link_url": ""
           }
         },
-        "e378dd05-4c81-4172-96e2-6b3e6569cf49": {
+        "60a76b08-ce3e-40d3-a782-e454747f03ab": {
           "type": "ancillary_link",
           "settings": {
-            "link_text": "repair policy",
-            "link_url": "shopify:\/\/pages\/repair"
+            "link_text": "shipping \/ returns",
+            "link_url": ""
           }
         },
         "571b312d-6356-4da4-862a-8ecb4578fc8a": {
           "type": "ancillary_link",
           "settings": {
-            "link_text": "shipping info",
-            "link_url": "shopify:\/\/pages\/shipping"
+            "link_text": "repair policy",
+            "link_url": ""
+          }
+        },
+        "0ae4217b-c7ca-460e-be5f-6f1e1c9bd04d": {
+          "type": "ancillary_link",
+          "settings": {
+            "link_text": "privacy policy",
+            "link_url": ""
           }
         },
         "6c3f1a8a-f959-4413-9849-3dced7c2b794": {
           "type": "ancillary_link",
           "settings": {
-            "link_text": "my account",
-            "link_url": "https:\/\/imogeneandwillie.com\/account\/login?ose=false"
+            "link_text": "terms + conditions",
+            "link_url": "shopify:\/\/pages\/terms-and-condition"
           }
         },
         "08b08d86-0a1f-43bf-8ddc-b729f5256e30": {
           "type": "ancillary_link",
           "settings": {
             "link_text": "contact us",
-            "link_url": "shopify:\/\/pages\/contact"
+            "link_url": ""
           }
         },
         "fba7e2f9-1b43-456e-8232-6a3220c0c755": {
@@ -303,10 +303,10 @@
       },
       "block_order": [
         "da7296a6-a575-45a7-a05a-a827a11a23bd",
-        "60a76b08-ce3e-40d3-a782-e454747f03ab",
         "75795088-81d5-4850-a628-95710457a309",
-        "e378dd05-4c81-4172-96e2-6b3e6569cf49",
+        "60a76b08-ce3e-40d3-a782-e454747f03ab",
         "571b312d-6356-4da4-862a-8ecb4578fc8a",
+        "0ae4217b-c7ca-460e-be5f-6f1e1c9bd04d",
         "6c3f1a8a-f959-4413-9849-3dced7c2b794",
         "08b08d86-0a1f-43bf-8ddc-b729f5256e30",
         "fba7e2f9-1b43-456e-8232-6a3220c0c755",
