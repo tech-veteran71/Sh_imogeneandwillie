@@ -213,7 +213,7 @@
               {%- endfor -%}
 
               {%- if enable_sorting -%}
-                <div class="mobile-facets__details js-filter" data-index="mobile-{{ forloop.index }}">
+                <div class="mobile-facets__details js-filter visually-hidden" data-index="mobile-{{ forloop.index }}">
                   <div class="mobile-facets__summary">
                     <div class="mobile-facets__sort">
                       <label for="SortBy-mobile">{{ 'products.facets.sort_by_label' | t }}</label>

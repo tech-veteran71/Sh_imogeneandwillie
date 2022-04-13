@@ -60,6 +60,12 @@
   background-color: var(--color-Xlight-wheat);
 }
 
+.collection-main__controllers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .collection-grid {
   list-style: none;
   padding: 0;
@@ -185,7 +191,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: -2.8rem;
 }
 
 .collection-grid__button {
@@ -318,9 +323,7 @@
   .collection-grid__label {
     display: block;
   }
-  .collection-grid__buttons {
-    margin-top: -2.8rem;
-  }
+
   .aw-company {
     margin-top: 5rem;
     padding: 0 10rem;

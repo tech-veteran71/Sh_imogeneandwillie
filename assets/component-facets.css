@@ -882,3 +882,117 @@ input.mobile-facets__checkbox {
 .product-count__text.loading + .loading-overlay__spinner {
   display: block;
 }
+
+facets-desktop {
+  display: block;
+}
+
+.desktop-facets__layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.desktop-facets__trigger {
+  border: none;
+  background-color: transparent;
+  justify-self: end;
+}
+
+.desktop-facets__form {
+  grid-column-start: span 2;
+  padding: 2.4rem 0;
+}
+
+.desktop-facets__form[aria-hidden="true"] {
+  display: none;
+}
+
+.desktop-facets__grid {
+  display: grid;
+  grid-template-columns: repeat(var(--filters-size), 1fr);
+}
+
+.desktop-facets__grid-item {
+  padding: 0 3.2rem;
+}
+
+.desktop-facets__grid-item:first-child {
+  padding: 0;
+  padding-right: 3.2rem;
+}
+
+.desktop-facets__grid-item:last-child {
+  padding: 0;
+  padding-left: 3.2rem;
+}
+
+.desktop-facets__grid-item:not(:last-child) {
+  border-right: 0.05rem solid rgba(160, 160, 160, 0.3);
+}
+
+.desktop-facets__facet-title {
+  display: inline-block;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+.desktop-facets__option-label {
+  display: block;
+}
+
+.desktop-facets__option-label:hover {
+  color: var(--color-blue);
+}
+
+.desktop-facets__option-input:checked ~ .desktop-facets__option-label {
+  color: var(--color-blue);
+}
+
+.desktop-facets__option-input:disabled ~ .desktop-facets__option-label  {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.desktop-facets__facet--bottom-size .desktop-facets__facet-options {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 17rem;
+}
+
+.desktop-facets__facet--bottom-size .desktop-facets__option-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  border: 0.1rem solid #222;
+  color: var(--color-blue);
+  text-align: center;
+
+}
+
+.desktop-facets__facet--bottom-size .desktop-facets__option-input:checked ~ .desktop-facets__option-label,
+.desktop-facets__facet--bottom-size .desktop-facets__option-label:hover {
+  background-color: var(--color-blue);
+  color: var(--color-Xlight-wheat);
+}
+
+.desktop-facets__facet--bottom-size .desktop-facets__option-input:disabled ~ .desktop-facets__option-label {
+  border-color: var(--color-dark-grey);
+  color: var(--color-dark-grey);
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.desktop-facets__facet--bottom-size .desktop-facets__option-input:disabled ~ .desktop-facets__option-label:after {
+  content: "";
+  width: 200%;
+  height: 0.1rem;
+  background-color: var(--color-dark-grey);
+  position: absolute;
+  transform: rotate(138deg);
+}
