@@ -41,7 +41,7 @@
             <label class="desktop-facets__facet-title">{{ filter.label | escape }}</label>
             <div class="desktop-facets__facet-options">
               {%- for value in filter.values -%}
-                <div class="desktop-facets__facet-option">
+                <div class="desktop-facets__facet-option desktop-facets__facet-option--{{ filter.label | handleize }}">
                   <input 
                     id="Filter-{{ filter.label | handleize }}-desktop-{{ forloop.index }}"
                     class="desktop-facets__option-input visually-hidden" 
@@ -51,7 +51,13 @@
                     {% if value.active %}checked{% endif %} 
                     {% if value.count == 0 and value.active == false %}disabled{% endif %}
                   >
-                  <label class="desktop-facets__option-label{% if value.count == 0 and value.active == false %} desktop-facets__label--disabled{% endif %}" for="Filter-{{filter.label | handleize }}-desktop-{{ forloop.index }}">{{ value.label }}</label>
+                  <label class="desktop-facets__option-label{% if value.count == 0 and value.active == false %} desktop-facets__label--disabled{% endif %}" for="Filter-{{filter.label | handleize }}-desktop-{{ forloop.index }}">
+                    {% if filter.label == 'Color' %}                      
+                      {% assign filename = 'swatch-' | append: value.label | handleize | append: '.png'  %}
+                      <span class="desktop-facets__option-swatch" style="--image: url({{ filename | file_url }});"></span>
+                    {% endif %}
+                    {{ value.label }}
+                  </label>
                 </div>
               {%- endfor -%}          
             </div>            

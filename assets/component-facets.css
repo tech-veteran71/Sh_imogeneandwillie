@@ -795,6 +795,8 @@ input.mobile-facets__checkbox {
 }
 
 .mobile-facets__facet-label {
+  display: flex;
+  align-items: center;
   padding: 1.6rem;
   background-color: #f7f6f3;
   white-space: nowrap;
@@ -914,6 +916,8 @@ facets-desktop {
 .desktop-facets__form {
   grid-column-start: span 2;
   padding: 2.4rem 0;
+  margin-top: 2.4rem;
+  border-top: 0.05rem solid rgba(160, 160, 160, 0.3);
 }
 
 .desktop-facets__form[aria-hidden="true"] {
@@ -951,7 +955,27 @@ facets-desktop {
 }
 
 .desktop-facets__option-label {
-  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-facets__facet-swatch,
+.desktop-facets__option-swatch {
+  display: inline-block;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  background-image: var(--image);
+}
+
+.mobile-facets__facet-swatch {
+  width: 2.1rem;
+  height: 2.1rem;
+}
+
+.desktop-facets__facet-option--color {
+  margin-bottom: 1rem;
 }
 
 .desktop-facets__option-label:hover {
