@@ -1,0 +1,78 @@
+{%- liquid
+  assign sort_by = results.sort_by | default: results.default_sort_by
+  assign total_active_values = 0
+  if results.url
+    assign results_url = results.url
+  else 
+    assign terms = results.terms | escape
+    assign results_url = '?q=' | append: terms | append: '&options%5Bprefix%5D=last&sort_by=' | append: sort_by
+  endif
+-%}
+<facets-desktop class="small-hide">
+  <div class="desktop-facets__layout">
+    <div class="collection-grid__buttons">
+      <span class="collection-grid__label">VIEW:</span>
+      <button id="collection-grid__button-single" class="collection-grid__button inactive" onclick="addGrid()">
+        <span class="collection-grid__desktop-icon">{% render 'icon-collection-2' %}</span>
+        <span class="collection-grid__mobile-icon">{% render 'icon-collection-1' %}</span>
+      </button>
+      <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()">
+        <span class="collection-grid__desktop-icon">{% render 'icon-collection-3' %}</span>
+        <span class="collection-grid__mobile-icon">{% render 'icon-collection-2' %}</span>
+      </button>
+    </div>
+    <button class="desktop-facets__trigger" aria-controls="FacetsFormDesktop" aria-expanded="false" js-accordion-open>FILTER</button>
+    <form id="FacetsFormDesktop" class="desktop-facets__form" aria-hidden="true" js-accordion-content>
+      <div class="desktop-facets__grid" style="--filters-size: {{ results.filters.size | plus: 1 }}">
+        <div class="desktop-facets__grid-item desktop-facets__sort-by">
+          <label class="desktop-facets__facet-title">SORT</label>
+          <div class="desktop-facets__facet-options">
+            {%- for option in results.sort_options -%}
+              <div class="desktop-facets__facet-option">
+                <input class="desktop-facets__option-input visually-hidden" type="radio" name="sort_by" value="{{ option.value | escape }}" id="desktop-facet-{{ option.value }}" {% if option.value == sort_by %} checked {% endif %}>
+                <label class="desktop-facets__option-label" for="desktop-facet-{{ option.value }}">{{ option.name }}</label>
+              </div>
+            {%- endfor -%}          
+          </div>
+        </div><!-- .desktop-facets__grid-item -->
+
+        {% for filter in results.filters %}
+          <div class="desktop-facets__grid-item desktop-facets__facet--{{ filter.label | handleize }}">
+            <label class="desktop-facets__facet-title">{{ filter.label | escape }}</label>
+            <div class="desktop-facets__facet-options">
+              {%- for value in filter.values -%}
+                <div class="desktop-facets__facet-option desktop-facets__facet-option--{{ filter.label | handleize }}">
+                  <input 
+                    id="Filter-{{ filter.label | handleize }}-desktop-{{ forloop.index }}"
+                    class="desktop-facets__option-input visually-hidden" 
+                    type="checkbox" 
+                    name="{{ value.param_name }}" 
+                    value="{{ value.value }}" 
+                    {% if value.active %}checked{% endif %} 
+                    {% if value.count == 0 and value.active == false %}disabled{% endif %}
+                  >
+                  <label class="desktop-facets__option-label{% if value.count == 0 and value.active == false %} desktop-facets__label--disabled{% endif %}" for="Filter-{{filter.label | handleize }}-desktop-{{ forloop.index }}">
+                    {% if filter.label == 'Color' %}                      
+                      {% assign filename = 'swatch-' | append: value.label | handleize | append: '.png'  %}
+                      <span class="desktop-facets__option-swatch" style="--image: url({{ filename | file_url }});"></span>
+                    {% endif %}
+                    {{ value.label }}
+                  </label>
+                </div>
+              {%- endfor -%}          
+            </div>            
+          </div>
+        {% endfor %}
+      </div><!-- .desktop-facets__grid --> 
+            
+      {% if results.current_vendor or results.current_type %}
+        <input type="hidden" name="q" value="{{ results.current_vendor }}{{ results.current_type }}">
+      {% endif %}
+
+      {%- if results.terms -%}
+        <input type="hidden" name="q" value="{{ results.terms | escape }}">
+        <input name="options[prefix]" type="hidden" value="last">
+      {%- endif -%}  
+    </form>
+  </div>
+</facets-desktop>
