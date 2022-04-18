@@ -1,5 +1,15 @@
 {
   "sections": {
+    "1650292767c25163f7": {
+      "type": "section-video-hero",
+      "settings": {
+        "video_poster": "shopify:\/\/shop_images\/Header_IMG_1200x_73866eb4-5e70-413d-a41b-580bb67a21b7.png",
+        "mobile_video_poster": "shopify:\/\/shop_images\/Header_IMG_1200x_73866eb4-5e70-413d-a41b-580bb67a21b7.png",
+        "video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1",
+        "video_controls": false
+      }
+    },
     "shop_info": {
       "type": "section-shop-info",
       "blocks": {
@@ -53,9 +63,73 @@
         "heading": "shop info",
         "sub_title": "hours:"
       }
+    },
+    "1650294791c90597d7": {
+      "type": "section-image-gallery",
+      "settings": {
+      }
+    },
+    "16502947994e98e61e": {
+      "type": "section-video-with-text",
+      "settings": {
+        "video_url": "",
+        "video_controls": false,
+        "pre_title": "( circa 2012 )",
+        "title": "take a look back",
+        "main_title": "HOW IT ALL STARTED",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "btn_text": "LOREM IPSUM",
+        "btn_url": ""
+      }
+    },
+    "1650294845b4561deb": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/gallery-4.png",
+        "mob_img": "shopify:\/\/shop_images\/Supper_Song_IMG_adf13242-450a-467f-90cf-08c340fe7d16.png",
+        "img_url": "",
+        "pre_title": "( our home )",
+        "main_title": "supper + song",
+        "title_font": "headline__arno",
+        "text": "a gathering of community around music hosted semi-monthly in the warmer months. supper + song is free and open to the public — our backyard is yours. bring a blanket, your loved ones (dogs included), and your own beverages.",
+        "btn_text": "more info >",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": true
+      }
+    },
+    "165029487575039b8c": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
+        "mob_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "1650294921559cf394": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "tailor shop",
+        "title_font": "headline__arno",
+        "text": "we strive to make the best jeans we can. and we want to make sure they last a long, long time.  that's why, since day one, the tailor shop has always been here: to repair, improve, and fortify your jeans—so that you can put more miles into them.",
+        "btn_text": "learn more",
+        "btn_url": "",
+        "show_button": true
+      }
     }
   },
   "order": [
-    "shop_info"
+    "1650292767c25163f7",
+    "shop_info",
+    "1650294791c90597d7",
+    "16502947994e98e61e",
+    "1650294845b4561deb",
+    "165029487575039b8c",
+    "1650294921559cf394"
   ]
 }

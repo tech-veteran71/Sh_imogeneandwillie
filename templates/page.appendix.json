@@ -240,7 +240,7 @@
       "settings": {
         "text_align": "center",
         "title": "the enfield hunting jacket in dark umber",
-        "title_font": "headline__arno",
+        "title_font": "headline__din",
         "text": "inspired by a time when clothes were made with a purpose, and made to take a beating.",
         "btn_text": "shop now →",
         "btn_url": "https:\/\/google.com",
@@ -251,7 +251,7 @@
       "type": "section-brand-promise",
       "settings": {
         "desk_img": "shopify:\/\/shop_images\/Image_175.png",
-        "pre_title": "",
+        "pre_title": "( this is a pretitle )",
         "title": "AMERICAN-MADE DENIM",
         "title_font": "headline__din",
         "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim produced in the us since the closure of cone mills, nc.",

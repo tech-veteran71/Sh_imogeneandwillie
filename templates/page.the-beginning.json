@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1649862524008263dc": {
+      "type": "section-hero-banner",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/11_e7cb7500-f362-43ce-a5cf-2b0eb6400414.jpg",
+        "mob_img": "shopify:\/\/shop_images\/11_e7cb7500-f362-43ce-a5cf-2b0eb6400414.jpg",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "link_text": "",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "164986725161283e43": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/oyw.jpg",
+        "mob_img": "shopify:\/\/shop_images\/oyw.jpg",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "denim care",
+        "title_font": "headline__din",
+        "text": "<p>we make jeans for real people. people with messy, awesome, adventurous lives. eventually, the jeans we wear need washing. contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it. <\/p><h4>when to wash<\/h4> <p>there's no right or wrong answer. denim will age differently depending on how often you wear and wash. we've seen great jeans that are washed quite frequently. we've seen beautiful jeans that have never seen a wash. you can wash before you wear, wash after 1 month, after 2 months or wait 6 months for the first wash. at the end of the day, we recommend what works best for you. in general, wear often, wash not so often.<\/p>   <h4>what to use<\/h4><p> we recommend avoiding harsh detergents or fabric softeners. they can over soften your jeans and cause them to wear out faster. one of our favorite detergents is Swedish-made TGC044 Denim Wash. we love its natural oils that deodorize and the added sugar surfactant helps soften and scrub your jeans clean.<\/p>  <h4> things to remember<\/h4><p>excess sweat and grime can build up and weaken fabric in the crotch area or along the cuffs. we recommend regular (though infrequent) washes to prevent damage to your jeans.<\/p>",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "164986274521568d47": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "text_align": "center",
+        "title": "DENIM CARE",
+        "title_font": "headline__din",
+        "text": "<p>we make jeans for real people. people with messy, awesome, adventurous lives. eventually, the jeans we wear need washing. contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it. <\/p><h4>when to wash<\/h4> <p>there's no right or wrong answer. denim will age differently depending on how often you wear and wash. we've seen great jeans that are washed quite frequently. we've seen beautiful jeans that have never seen a wash. you can wash before you wear, wash after 1 month, after 2 months or wait 6 months for the first wash. at the end of the day, we recommend what works best for you. in general, wear often, wash not so often.<\/p>   <h4>what to use<\/h4><p> we recommend avoiding harsh detergents or fabric softeners. they can over soften your jeans and cause them to wear out faster. one of our favorite detergents is Swedish-made TGC044 Denim Wash. we love its natural oils that deodorize and the added sugar surfactant helps soften and scrub your jeans clean.<\/p>  <h4> things to remember<\/h4><p>excess sweat and grime can build up and weaken fabric in the crotch area or along the cuffs. we recommend regular (though infrequent) washes to prevent damage to your jeans.<\/p>",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1649864198b61b9050": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "HOW TO WASH YOUR JEANS",
+        "title_font": "headline__din",
+        "text": "when you ask us how to wash your jeans, we have a few answers. the truth is, everyone washes their jeans a bit differently depending on what works for their life.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1649861415f6eaedf5": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/1_8b88e8d2-93ad-4803-a6ce-33d165a4b268.jpg",
+        "mob_img": "shopify:\/\/shop_images\/1_8b88e8d2-93ad-4803-a6ce-33d165a4b268.jpg",
+        "img_url": "",
+        "pre_title": "<br>",
+        "main_title": "the tub soak",
+        "title_font": "headline__arno",
+        "text": "matt's go-to method for washing his jeans. he'll even tub soak before he starts wearing a new pair. if you've got a bit of time (and don't mind cleaning your tub out after) the tub soak is a great way to wash your jeans.<br><br><br>1. fill your tub with lukewarm bath water, add in a bit of detergent<br><br>2.\tsubmerge the jean and gently agitate the water, moving the jeans around, wipe away any excess dirt<br><br>3. let the jean soak for 10 - 15 minutes<br><br>4. \tlet the water drain from the tub, and while draining, wring out any excess water from your jeans<br><br>5. \thang the jeans to dry, make sure to smooth out any wrinkles or creases in the fabric",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1649861521d26dd035": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/2.webp",
+        "mob_img": "shopify:\/\/shop_images\/2.webp",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "the machine wash",
+        "title_font": "headline__arno",
+        "text": "let's be honest, sometimes it's the most convenient. if you find yourself more at ease in the laundry room, or the local mat - this is how we recommend washing your jeans.<br><br><br>1. turn your jeans inside out<br><br>2. set washing machine to gentle cold (or other cold-water wash method - the less agitation the better)<br><br>3.\tlet the machine begin to fill, add detergent<br><br>4. place your jean by itself in the washing machine<br><br>5. \twhen the wash cycle is complete, pull jeans out and turn right-side out, shake or smooth any wrinkles or creases in fabric (to protect the unique character of your jeans, you can remove them before the spin cycle)<br><br>6. hang jeans to dry. if you're in a rush or prefer the dryer, go ahead and throw them in on tumble dry, no heat",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": true,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1649861691a360ac14": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/3_6f646bde-745e-45f6-928a-ccd3afd339ca.jpg",
+        "mob_img": "shopify:\/\/shop_images\/3_6f646bde-745e-45f6-928a-ccd3afd339ca.jpg",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "the no-wash",
+        "title_font": "headline__arno",
+        "text": "for the purists out there, we understand. it's your favorite pair, a treasured piece of art. you want to wear them in right and keep them safe! trust us. we get it.  <br><br>indigo will chip and break down around the points of highest friction - areas like the knees, hips and cuffs. for those of you who want to keep the creases sharp and retain every detail of the life of those jeans, avoiding a wash or tub soak is a great option. if you're keen on never washing, we recommend a few things for accidents that can happen. take a look at our general maintenance and care tips below.",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1649864648a7356eae": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "text_align": "center",
+        "title": "GENERAL MAINTENANCE AND CARE",
+        "title_font": "headline__din",
+        "text": "each pair of jeans tells a story; this is what we love most. as they fade, crease, dirty, need washing and fade a bit more, they become uniquely yours. how often you wear your jeans, what you do in them, and how you wash them... each aspect will shape the way they age. to keep your jeans around as long as possible, we have a few tips for general care and maintenance for the time between washes.<br><h4>spot cleaning<\/h4>let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - the friction will lift off the indigo, leaving you with a bright, whiter spot.<h4>odor<\/h4>you can always let them air outside on a nice day, or use a mild odor-fighting fabric spray when needed.<h4>stiffness<\/h4>after air drying for a bit, you'll notice your jeans will be quite stiff. feel free to put your jeans on while they're still damp and wear them until they dry to soften them up. you can also toss them in the dryer, no heat, for a few minutes.<h4>shrinkage<\/h4>washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat. if you notice shrinkage in length, step on the leg of the jeans while they're still damp, and pull up by the waistband.<h4>dye transfer<\/h4>you may notice some indigo pull out of the jeans during the wash. it's natural and normal! we recommend washing your jeans alone or with other denim.<h4>repairs<\/h4>REPAIRS regular, though infrequent washing, can help prevent damage and holes from appearing. if you ever notice any additional damage, we recommend getting it repaired as soon as possible. imogene + willie offers repair services for all jeans purchased at our stores. (please note that all jeans must be washed with soap and water in order to receive repair services.) email help@imogeneandwillie.com for all repair needs.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1649864652246cc779": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/Untitled-5_20c15854-e393-4583-8744-0e3b8f414f31.jpg",
+        "mob_img": "shopify:\/\/shop_images\/Untitled-5_20c15854-e393-4583-8744-0e3b8f414f31.jpg",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "general maintenance and care",
+        "title_font": "headline__arno",
+        "text": "<p>each pair of jeans tells a story; this is what we love most. as they fade, crease, dirty, need washing and fade a bit more, they become uniquely yours. how often you wear your jeans, what you do in them, and how you wash them... each aspect will shape the way they age. to keep your jeans around as long as possible, we have a few tips for general care and maintenance for the time between washes.<\/p><br>  <h4>spot cleaning<\/h4> <p>let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - the friction will lift off the indigo, leaving you with a bright, whiter spot.<\/p>  <h4>odor<\/h4><p>you can always let them air outside on a nice day, or use a mild odor-fighting fabric spray when needed.<\/p>  <h4>stiffness<\/h4><p>after air drying for a bit, you'll notice your jeans will be quite stiff. feel free to put your jeans on while they're still damp and wear them until they dry to soften them up. you can also toss them in the dryer, no heat, for a few minutes.<\/p>  <h4>shrinkage<\/h4><p>washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat. if you notice shrinkage in length, step on the leg of the jeans while they're still damp, and pull up by the waistband.<\/p>  <h4>dye transfer<\/h4><p>you may notice some indigo pull out of the jeans during the wash. it's natural and normal! we recommend washing your jeans alone or with other denim.<\/p>  <h4>repairs<\/h4><p>regular, though infrequent washing, can help prevent damage and holes from appearing. if you ever notice any additional damage, we recommend getting it repaired as soon as possible. imogene + willie offers repair services for all jeans purchased at our stores. (please note that all jeans must be washed with soap and water in order to receive repair services.) email help@imogeneandwillie.com for all repair needs.<\/p>",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": true,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1649867094b3f174cc": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
+        "mob_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
+        "img_url": "",
+        "pre_title": "the jeans",
+        "main_title": "denim repair",
+        "title_font": "headline__arno",
+        "text": "our tough little sewing team does not mess around. we’re ready and able to handle blow outs, rips, pocket bag holes, fraying hems, and a wide range of other repair needs.",
+        "btn_text": "see more >",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": true,
+        "show_link": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649862524008263dc",
+    "164986725161283e43",
+    "164986274521568d47",
+    "1649864198b61b9050",
+    "1649861415f6eaedf5",
+    "1649861521d26dd035",
+    "1649861691a360ac14",
+    "1649864648a7356eae",
+    "1649864652246cc779",
+    "1649867094b3f174cc"
+  ]
+}

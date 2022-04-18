@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16499696593217121e": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "video_controls": false
+      }
+    },
+    "1649968716596dfdec": {
+      "type": "section-video-hero",
+      "disabled": true,
+      "settings": {
+        "video_poster": "shopify:\/\/shop_images\/mobile-split_5d290203-7b7a-4faf-b9de-9cd3f8ecaa82.jpg",
+        "video_url": "",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "video_controls": false
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "the ides of march",
+        "title_font": "headline__din",
+        "text": "a very special made by matt series featuring a handful of hand made, one of a kind pieces, the first  first ever i+w graphic tee made directly from an original made by matt piece.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "164996952346f08380": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "desktop_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "mobile_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "1649969933f60067f1": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "the \"dirty dozen\" tee.",
+        "title_font": "headline__din",
+        "text": "limited edition of 250",
+        "btn_text": "shop now",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-dirty-dozen-tee",
+        "show_button": false
+      }
+    },
+    "164997002040b6e356": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "title": "THE COLLECTION",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16499700408d317de1": {
+      "type": "section-collection-grid",
+      "settings": {
+        "choose_collection": "the-ides",
+        "show_title": false,
+        "products_to_show": 12,
+        "products_per_row": 4,
+        "title": "the collection",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16499696593217121e",
+    "1649968716596dfdec",
+    "16499691942d1a0881",
+    "164996952346f08380",
+    "1649969933f60067f1",
+    "164997002040b6e356",
+    "16499700408d317de1"
+  ]
+}
