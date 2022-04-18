@@ -365,6 +365,13 @@ body,
   background-color: rgba(var(--color-foreground), 0.2);
 }
 
+body {
+  font-size: 1.2rem;
+  letter-spacing: 0.12rem;
+  line-height: 2.5rem;
+  font-family: var(--font-gothic);
+}
+
 h1,
 h2,
 h3,
@@ -395,57 +402,49 @@ h5,
 
 h1,
 .h1 {
-  font-size: 3rem;
-}
-
-@media only screen and (min-width: 750px) {
-  h1,
-  .h1 {
-    font-size: 3.8rem;
-  }
+  font-size: 1.8rem;
+  letter-spacing: 0.27rem;
+  line-height: 2.2rem;
 }
 
 h2,
 .h2 {
-  font-size: 2rem;
-}
-
-@media only screen and (min-width: 750px) {
-  h2,
-  .h2 {
-    font-size: 2.2rem;
-  }
+  font-size: 2.6rem;
+  letter-spacing: 0.26rem;
+  font-family: var(--font-arno-display);
+  line-height: 2.8rem;
 }
 
 h3,
 .h3 {
-  font-size: 1.7rem;
-}
-
-@media only screen and (min-width: 750px) {
-  h3,
-  .h3 {
-    font-size: 1.6rem;
-  }
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  font-family: var(--font-din);
+  line-height: 2.4rem;
 }
 
 h4,
 .h4 {
-  font-family: var(--font-heading-family);
-  font-style: var(--font-heading-style);
-  font-size: 1.5rem;
+  font-family: var(--font-din);
+  font-size: 1.6rem;
+  letter-spacing: 0.32rem;
+  line-height: 2rem;
 }
 
 h5,
 .h5 {
+  font-family: var(--font-din-med);
   font-size: 1.2rem;
+  letter-spacing: 0.24rem;
+  line-height: 2rem;
 }
 
 h6,
 .h6 {
-  color: rgba(var(--color-foreground), 0.75);
-  margin-block-start: 1.67em;
-  margin-block-end: 1.67em;
+  font-size: 1.8rem;
+  letter-spacing: 0.18rem;
+  font-family: var(--font-arno-display);
+  line-height: 2.5rem;
 }
 
 blockquote {
@@ -453,6 +452,36 @@ blockquote {
   color: rgba(var(--color-foreground), 0.75);
   border-left: 0.2rem solid rgba(var(--color-foreground), 0.2);
   padding-left: 1rem;
+}
+
+.pretitle, .pre-title {
+  font-size: 1.1rem;
+  letter-spacing: 0.11rem;
+  font-family: var(--font-gothic);
+  line-height: 2.5rem;
+}
+
+.subtext {
+  font-size: 1.3rem;
+  letter-spacing: 0.29rem;
+  font-family: var(--font-arno-display);
+  line-height: 2rem;
+}
+
+/* Headline Variables */
+
+.headline__arno {
+  font-size: 2.6rem;
+  letter-spacing: 0.26rem;
+  font-family: var(--font-arno-display);
+  line-height: 2.8rem;
+}
+
+.headline__din {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  font-family: var(--font-din);
+  line-height: 2.4rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -1185,16 +1214,10 @@ deferred-media {
   text-decoration: none;
   border: 0.1rem solid transparent;
   border-radius: 0;
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border));
-  color: rgb(var(--color-button-text));
-  min-width: 12rem;
-  min-height: 4.5rem;
-  transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  font-family: var(--font-din);
-  font-size: 1.4rem;
+  font-family: var(--font-din-med);
+  font-size: 1.2rem;
   background-color: var(--color-normal-black);
   color: var(--color-white);
   text-transform: uppercase;
@@ -1228,7 +1251,7 @@ deferred-media {
 .button-label,
 .shopify-challenge__button,
 .customer button {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.2;
 }
 
@@ -1254,7 +1277,7 @@ deferred-media {
   font-family: var(--font-din);
   font-size: 1.2rem;
   font-weight: 700;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.12rem;
   color: var(--color-blue);
 }
 
@@ -3216,15 +3239,4 @@ header .sub-menu-link {
     font-size: 1.1rem;
     letter-spacing: 0.39rem;
   }
-}
-/* Headline Variables */
-
-.headline__arno {
-  font-family: var(--font-arno-display);
-  letter-spacing: 0.16rem;
-}
-
-.headline__din {
-  font-family: var(--font-din);
-  letter-spacing: 0.10rem;
 }

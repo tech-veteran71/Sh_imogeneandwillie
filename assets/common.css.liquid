@@ -1,6 +1,6 @@
 /* Font family */
 @font-face {
-  font-family: 'DIN';
+  font-family: 'DIN-Medium';
   src: url("{{ 'DIN-Medium.woff2' | asset_url }}") format('woff2'),
       url("{{ 'DIN-Medium.woff' | asset_url }}") format('woff');
   font-weight: 500;
@@ -13,14 +13,6 @@
   src: url('{{ 'din_bold-webfont.woff2' | asset_url }}') format('woff2'),
        url('{{ 'din_bold-webfont.woff' | asset_url }}') format('woff');
   font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'DIN';
-  src: url('{{ 'din_bold-webfont.woff2' | asset_url }}') format('woff2'),
-       url('{{ 'din_bold-webfont.woff' | asset_url }}') format('woff');
-  font-weight: 500;
   font-style: normal;
 }
 
@@ -65,6 +57,7 @@
 :root {
   /* font variables */
   --font-din: "DIN";
+  --font-din-med: "DIN-Medium";
   --font-gothic: "News Gothic MT Std";
   --font-arno-display: "arno-pro-display";
   /* color variables */

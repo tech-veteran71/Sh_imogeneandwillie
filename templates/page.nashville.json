@@ -4,7 +4,7 @@
       "type": "section-video-hero",
       "settings": {
         "video_poster": "shopify:\/\/shop_images\/Header_IMG_1200x_73866eb4-5e70-413d-a41b-580bb67a21b7.png",
-        "mobile_video_poster": "shopify:\/\/shop_images\/Header_IMG_1200x_73866eb4-5e70-413d-a41b-580bb67a21b7.png",
+        "mobile_video_poster": "shopify:\/\/shop_images\/Image_144.png",
         "video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1",
         "mobile_video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1",
         "video_controls": false
@@ -66,19 +66,80 @@
     },
     "1650294791c90597d7": {
       "type": "section-image-gallery",
+      "blocks": {
+        "a811a9ae-a9f3-4d0b-b298-3ce7a5d9a4bc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_185.png"
+          }
+        },
+        "1a4b334a-9aad-4bdf-aa67-93e2f113958f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_179.png"
+          }
+        },
+        "4b3b0a51-230d-4fc3-b78e-ce6a9609590a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_183.png"
+          }
+        },
+        "9df3638b-adb8-4659-bed3-371ac3461c49": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_180.png"
+          }
+        },
+        "b75e89bb-255d-41bc-bb38-fcdb794a2b8a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_184.png"
+          }
+        },
+        "594cf398-1aaa-4ddd-97e1-bc6471cc7e03": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_181.png"
+          }
+        },
+        "c5dec4cf-4fc3-4c3c-a8ed-e97a4a793e60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tailorshop_-4_2abbd4a7-3d2e-4459-87ce-dc4a5ed4701a.jpg"
+          }
+        },
+        "79e54fea-5564-4818-9908-02809239dc7d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_182.png"
+          }
+        }
+      },
+      "block_order": [
+        "a811a9ae-a9f3-4d0b-b298-3ce7a5d9a4bc",
+        "1a4b334a-9aad-4bdf-aa67-93e2f113958f",
+        "4b3b0a51-230d-4fc3-b78e-ce6a9609590a",
+        "9df3638b-adb8-4659-bed3-371ac3461c49",
+        "b75e89bb-255d-41bc-bb38-fcdb794a2b8a",
+        "594cf398-1aaa-4ddd-97e1-bc6471cc7e03",
+        "c5dec4cf-4fc3-4c3c-a8ed-e97a4a793e60",
+        "79e54fea-5564-4818-9908-02809239dc7d"
+      ],
       "settings": {
       }
     },
     "16502947994e98e61e": {
       "type": "section-video-with-text",
       "settings": {
-        "video_url": "",
+        "video_poster": "shopify:\/\/shop_images\/oneyearwear_-2_600x_1364d848-7322-4818-b3af-c43d6d968362.png",
+        "video_url": "https:\/\/vimeo.com\/17552913",
         "video_controls": false,
         "pre_title": "( circa 2012 )",
         "title": "take a look back",
         "main_title": "HOW IT ALL STARTED",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
-        "btn_text": "LOREM IPSUM",
+        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
+        "btn_text": "Learn more",
         "btn_url": ""
       }
     },

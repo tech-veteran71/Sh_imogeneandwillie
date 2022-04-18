@@ -79,6 +79,16 @@
         "show_button": false
       }
     },
+    "16502992523f1a586b": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "choose_collection": "women",
+        "title": "",
+        "btn_text": "SHOP WOMEN",
+        "btn_url": "",
+        "show_border": true
+      }
+    },
     "16376680197e951999": {
       "type": "collection--list",
       "blocks": {
@@ -127,6 +137,16 @@
         "show_button": false
       }
     },
+    "16491902805e37b9ac": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "choose_collection": "men",
+        "title": "",
+        "btn_text": "SHOP MEN",
+        "btn_url": "",
+        "show_border": true
+      }
+    },
     "1649347242ecc7083e": {
       "type": "section-image",
       "settings": {
@@ -153,11 +173,12 @@
     "1637735864c2bd7e13": {
       "type": "section-brand-promise",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01299_400x_0cf44bed-7d9f-4d26-b3b1-6de02006b648.png",
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01067.jpg",
+        "mob_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01299.jpg",
         "pre_title": "( our promise )",
         "title": "committed to making everything in the usa",
         "title_font": "headline__din",
-        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
+        "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america",
         "btn_text": "LEARN MORE",
         "link_url": "shopify:\/\/pages\/nashville",
         "show_link": false
@@ -204,17 +225,6 @@
         "title_font": "headline__din",
         "btn_text": "Men’s denim",
         "btn_url": ""
-      }
-    },
-    "16491902805e37b9ac": {
-      "type": "section-mobile-slider",
-      "disabled": true,
-      "settings": {
-        "choose_collection": "size-25",
-        "title": "title",
-        "btn_text": "button",
-        "btn_url": "",
-        "show_border": true
       }
     },
     "1649190343ce59b569": {
@@ -313,6 +323,7 @@
     },
     "16493439549fb1174a": {
       "type": "section-rich-text",
+      "disabled": true,
       "settings": {
         "text": "",
         "link_text": "",
@@ -344,6 +355,15 @@
         "btn_text": "",
         "link_url": ""
       }
+    },
+    "1650300377077f241e": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
+        "mob_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
     }
   },
   "order": [
@@ -355,20 +375,22 @@
     "1649345876722a5b9b",
     "16493459270f2a9122",
     "16493467776a7fccf2",
+    "16502992523f1a586b",
     "16376680197e951999",
     "16493465150e689548",
     "1649347110c702605f",
+    "16491902805e37b9ac",
     "1649347242ecc7083e",
     "16493477614696a5fd",
     "1637735864c2bd7e13",
     "164918994471fbdbad",
-    "16491902805e37b9ac",
     "1649190343ce59b569",
     "1649190884bc7d6922",
     "16492778864f8d5bba",
     "164927862869965961",
     "16493439549fb1174a",
     "1649344104f3dc6a06",
-    "16493460179d05cc39"
+    "16493460179d05cc39",
+    "1650300377077f241e"
   ]
 }

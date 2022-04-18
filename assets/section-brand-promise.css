@@ -18,11 +18,8 @@
   text-align: center;
 }
 .promise-section .alpha .title {
-  font-size: 2.6rem;
-  font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.2;
   color: var(--color-normal-black);
 }
 .promise-section .alpha .title-wrap {
@@ -58,14 +55,10 @@
   margin-top: 3.5rem;
 }
 .promise-section .pre-title {
-  font-size: 1.1rem;
-  font-family: var(--font-gothic);
   margin-top: 0;
   margin-bottom: 0.5rem;
-  line-height: 1.2;
   color: var(--color-normal-black);
   text-transform: lowercase;
-  letter-spacing: 0.2rem;
 }
 .promise-section img {
   height: 100%;
@@ -109,10 +102,6 @@
   }
 }
 @media(max-width: 990px ){
-  .promise-section .alpha .title {
-    font-size: 2.4rem;
-    line-height: 1.1;
-  }
   .promise-section .content {
     max-width: 40rem;
   }
@@ -145,12 +134,7 @@
   .promise-section .text-wrap {
     display: none;
   }
-  .promise-section .pre-title {
-    font-size: 1.2rem;
-  }
   .promise-section .alpha .title {
-    font-size: 2.8rem;
-    line-height: 1.1;
     margin-bottom: 1rem;
   }
   .promise-section .btn {

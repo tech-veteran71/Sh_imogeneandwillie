@@ -1,5 +1,5 @@
 .grand-image-section {
-  padding-bottom: 7.5rem;
+  padding-bottom: 3.75rem;
   background-color: var(--color-Xlight-wheat);
 }
 .grand-image-section .image-wrap {
@@ -38,7 +38,7 @@
 
 @media screen and (max-width:990px){
   .grand-image-section {
-    padding-bottom: 5rem;
+    padding-bottom: 2.5rem;
     background-color: var(--color-Xlight-wheat);
   }
   .grand-image-section .image-wrap {

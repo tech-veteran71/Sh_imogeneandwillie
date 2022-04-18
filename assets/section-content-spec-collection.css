@@ -47,33 +47,21 @@
 }
 
 .content-specific-collection .pre-title {
-  font-size: 1.1rem;
-  font-family: var(--font-gothic);
-  margin-top: 0;
   margin-bottom: 0.5rem;
-  line-height: 1.2;
   color: var(--color-normal-black);
   text-transform: lowercase;
-  letter-spacing: 0.2rem;
   text-align: center;
 }
 
 .content-specific-collection .title {
-  font-size: 2.6rem;
-  font-weight: 500;
   margin-top: 0;
   margin-bottom: 5rem;
-  line-height: 1.2;
   color: var(--color-normal-black);
   text-align: center;
 }
 
 @media screen and (max-width: 990px) {
-  .content-specific-collection .pre-title {
-    font-size: 1.2rem;
-  }
   .content-specific-collection .title {
-    font-size: 2.8rem;
     margin-bottom: 3rem;
   }
   .content-specific-collection .product-container {
