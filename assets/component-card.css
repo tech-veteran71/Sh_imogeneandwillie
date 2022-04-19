@@ -315,10 +315,11 @@
   line-height: 1.7rem;
   margin-bottom: 0.4rem;
   margin-top: 0;
+  font-family: var(--font-heading-family);
 }
 
 .card-information__subtext {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-family: var(--font-gothic);
   color: var(--color-dim-black);
   margin: 0;
@@ -328,7 +329,7 @@
 
 .card-information__wrapper > .price {
   font-size: 1.2rem;
-  font-family: var(--font-din);
+  font-family: var(--font-din-med);
   color: var(--color-dim-black);
   margin: 0;
   line-height: 1.8rem;

@@ -23,10 +23,10 @@
           <h2 class="title {{ section.settings.title_font }}">{{ section.settings.title }}</h2>
         {% endif %}
         {% if section.settings.text != blank %}
-          <p class="text">{{ section.settings.text }}</p>
+          <h6 class="text">{{ section.settings.text }}</h6>
         {% endif %}
         {% if section.settings.link_text != blank %}
-          <a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}link{% else %}btn{% endif %}">{{ section.settings.link_text }}</a>
+          <a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}button--link{% else %}button button--outline{% endif %}">{{ section.settings.link_text }}</a>
         {% endif %}
       </div>
     </div>

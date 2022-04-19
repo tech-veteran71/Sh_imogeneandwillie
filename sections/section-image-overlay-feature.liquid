@@ -7,16 +7,16 @@
         <div class="alpha">
           <div class="content-wrap">
             {% if section.settings.pre_title != blank %}
-              <h3 class="pre-title">{{ section.settings.pre_title }}</h3>
+              <h4>{{ section.settings.pre_title }}</h3>
             {% endif %}
             {% if section.settings.title != blank %}
-              <h2 class="title">{{ section.settings.title }}</h2>
+              <h2>{{ section.settings.title }}</h2>
             {% endif %}
             {% if section.settings.text != blank %}
               <div class="text-wrap">{{ section.settings.text }}</div>
             {% endif %}
             {% if section.settings.btn_text != blank %}
-              <a href="{{ section.settings.link_url }}" class="btn">{{ section.settings.btn_text }}</a>
+              <a href="{{ section.settings.link_url }}" class="button button--outline">{{ section.settings.btn_text }}</a>
             {% endif %}
           </div>
         </div>

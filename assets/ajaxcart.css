@@ -36,8 +36,6 @@
 }
 
 .ajaxcart__header-title {
-  font-size: 2rem;
-  letter-spacing: 0.3rem;
   color: #222222;
   margin: 0;
 }
@@ -184,6 +182,7 @@
 .line-item__title-link {
   text-decoration: none;
   color: inherit;
+  letter-spacing: 0.225rem;
 }
 
 .line-item__option {
@@ -216,7 +215,9 @@
 }
 
 .line-item__price {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  font-family: var(--font-din-med);
+  letter-spacing: 0.42rem;
 }
 
 .line-item__qty-selector {

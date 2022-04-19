@@ -23,23 +23,15 @@
   object-fit: cover;
   display: block;
 }
-.new-arrival-section  .alpha .pre-title {
-  font-size: 2.1rem;
-  font-weight: 600;
+.new-arrival-section  .alpha h4 {
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 3rem;
-  letter-spacing: 0.2rem;
-  font-family: var(--font-din);
+  margin-bottom: 6rem;
 }
-.new-arrival-section .alpha .title {
+.new-arrival-section .alpha h2 {
   margin-top: 0;
-  font-family: var(--font-arno-display);
-  font-size: 4.8rem;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
   text-transform: lowercase;
-  letter-spacing: 0.3rem;
-  line-height: 1.2;
 }
 .new-arrival-section  .text-wrap p {
   font-size: 2.6rem;
@@ -52,19 +44,6 @@
 }
 .new-arrival-section  .text-wrap p:first-child {
   margin-bottom: 5rem;
-}
-.new-arrival-section .alpha a.btn {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  max-width: 41rem;
-  display: flex;
-  height: 5.5rem;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-normal-black);
-  border: 0.1rem solid var(--color-normal-black);
-  text-decoration: none;
-  font-family: var(--font-din);
 }
 
 .new-arrival-section .text-wrap {
@@ -159,13 +138,6 @@
   .new-arrival-section .content-wrap {
     max-width: 39.1rem;
   }
-  .new-arrival-section .alpha .pre-title {
-    font-size: 1.4rem;
-    margin-bottom: 1.5rem;
-  }
-  .new-arrival-section .alpha .title {
-    font-size: 3.5rem;
-  }
   .new-arrival-section .text-wrap {
     margin-bottom: 1rem;
   }
@@ -175,13 +147,6 @@
   }
   .new-arrival-section .text-wrap p:first-child {
     margin-bottom: 1.7rem;
-  }
-  .new-arrival-section .text-wrap p {
-    font-size: 1.8rem;
-  }
-  .new-arrival-section .alpha a.btn {
-    max-width: 28rem;
-    height: 4.5rem;
   }
   .alignment .wrapper {
     padding-right: 0.3%;
@@ -208,9 +173,6 @@
   .new-arrival-section .wrapper:after {
     width: 12.3%;
   }
-  .new-arrival-section .alpha .title {
-    font-size: 3rem;
-  }
   .alignment .text-wrap {
     padding-right: 0%;
   }
@@ -235,12 +197,6 @@
   .alignment .content-wrap {
     max-width: 34.3rem;
   }
-  .new-arrival-section .alpha .title {
-    font-size: 2.7rem;
-  }
-  .new-arrival-section .text-wrap p {
-    font-size: 1.6rem;
-  }
 }
 @media(max-width: 990px ){
   .new-arrival-section .beta {
@@ -251,20 +207,8 @@
     max-width: 30rem;
     flex: 30rem;
   }
-  .new-arrival-section .alpha .pre-title {
-    font-size: 1.4rem;
-    margin-bottom: 1.5rem;
-  }
-  .new-arrival-section .alpha .title {
-    font-size: 2.2rem;
-  }
-  .new-arrival-section .text-wrap p {
-    font-size: 1.4rem;
-  }
-  .new-arrival-section .alpha a.btn {
-    max-width: 23rem;
-    height: 3.8rem;
-    font-size: 1.2rem;
+  .new-arrival-section .alpha h4 {
+    margin-bottom: 2rem;
   }
   .alignment .wrapper:after {
     width: 10.9%;
@@ -299,22 +243,15 @@
   .new-arrival-section .wrapper:after {
     content: unset;
   }
-  .new-arrival-section .alpha .title {
-    letter-spacing: 0.2rem;
+  .new-arrival-section .alpha h2 {
     margin-bottom: 1rem;
   }
   .new-arrival-section .text-wrap p:first-child {
     margin-bottom: 1rem;
   }
-  .new-arrival-section .text-wrap p {
-    letter-spacing: 0.2rem;
-  }
   .new-arrival-section .text-wrap {
     max-width: 30rem;
     margin: 0 auto 2rem;
-  }
-  .new-arrival-section .alpha .pre-title {
-    margin-bottom: 1rem;
   }
   .desk-main-section {
     display: none;

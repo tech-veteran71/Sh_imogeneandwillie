@@ -19,10 +19,10 @@
       </div>
 
       <header class="ajaxcart__header" ref="cartHeader">
-        <h2 class="ajaxcart__header-title">
+        <h1 class="ajaxcart__header-title">
           my bag
           <span v-if="cart" class="ajaxcart__header-title-count">(${cart.item_count})</span>
-        </h2>
+        </h1>
         <button class="ajaxcart__close" js-cart-drawer-close>{% render 'icon-close' %}</button>
       </header>
   
@@ -75,7 +75,7 @@
             </div><!--.ajaxcart__subtotal-row -->
             <p v-if="cart.total_discount" class="ajaxcart__savings">${ cart.total_discount }</p>
           </div><!-- .ajaxcart__subtotal -->
-          <button type="submit" class="ajaxcart__checkout button button-primary" name="checkout">
+          <button type="submit" class="ajaxcart__checkout button button--large" name="checkout">
             CHECKOUT
           </button>
           <p class="ajaxcart__disclaimer">free shipping & returns on us orders</p>

@@ -44,22 +44,14 @@
 
 .collage-section .pre-title {
   display: block;
-  font-size: 1.1rem;
   margin-bottom: 0.5rem;
-  font-family: var(--font-gothic);
   color: var(--color-normal-black);
-  letter-spacing: 0.13rem;
 }
 .collage-section .main-title {
-  font-size: 2.6rem;
   color: var(--color-normal-black);
   margin: 0;
-  line-height: 1;
 }
 .collage-section .text {
-  font-size: 1.8rem;
-  font-family: var(--font-arno-display);
-  letter-spacing: 0.2rem;
   color: var(--color-dim-black);
   max-width: 33.5rem;
   margin: 0.8rem auto 3.5rem;
@@ -124,18 +116,12 @@
   .custom-content .collage-section .alpha {
     padding: 0 2rem;
   }
-  .custom-content .collage-section .main-title {
-    font-size: 2.4rem;
-  }
   .collage-section .beta {
     max-width: 50%;
     flex: 50%;
   }
   .custom-content .collage-section .beta {
     height: 36rem;
-  }
-  .collage-section .main-title {
-    font-size: 2.6rem;
   }
   .collage-section .text {
     font-size: 1.8rem;
@@ -170,8 +156,6 @@
     display: none;
   }
   .collage-section .pre-title {
-    display: block;
-    font-size: 1.1rem;
     margin-bottom: 1rem;
   }
   .collage-section .wrapper {
@@ -221,13 +205,8 @@
     height: auto;
     margin-bottom: 5rem;
   }
-  .custom-content .collage-section .main-title {
-    font-size: 2.6rem;
-    letter-spacing: 0.2rem;
-  }
   .custom-content .collage-section .text {
     max-width: 29rem;
-    font-size: 1.5rem;
     margin-top: 1.6rem;
   }
 }

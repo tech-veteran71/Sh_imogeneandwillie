@@ -31,37 +31,20 @@
 }
 .image-with-text .pre-title {
   margin-top: 0;
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.15rem;
   margin-bottom: 1rem;
-  font-family: var(--font-gothic)
 }
 .image-with-text .title {
-  font-size: 2.6rem;
-  font-family: var(--font-arno-display);
   margin-top: 0;
-  line-height: 2.2rem;
   margin-bottom: 1.6rem;
-  letter-spacing: 0.28rem;
   color: var(--color-normal-black);
 }
 .image-with-text .text {
-  font-size: 1.8rem;
-  font-family: var(--font-arno-display);
   margin-top: 0;
   margin-bottom: 2.3rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.2rem;
   color: var(--color-dim-black);
 }
 .image-with-text .content-wrap .link {
-  color: var(--color-blue);
-  font-size: 1.2rem;
-  font-weight: 500;
-  letter-spacing: 0.14rem;
   display: block;
-  font-family: var(--font-din);
 }
 .image-with-text .content-wrap {
   max-width: 50rem;
@@ -97,18 +80,7 @@
     max-width: 38.8rem;
   }
   .image-with-text .text {
-    font-size: 1.4rem;
-    line-height: 1.5;
     margin-bottom: 0.4rem;
-  }
-  .image-with-text .pre-title {
-    font-size: 1.2rem;
-  }
-  .image-with-text .title {
-    font-size: 2.4rem;
-  }
-  .image-with-text .content-wrap .link {
-    font-size: 1.4rem;
   }
   .image-with-text .image .desk-image {
     display: none;

@@ -21,13 +21,13 @@
             <h4 class="pre-title">{{ section.settings.pre_title }}</h4>
           {% endif %}
           {% if section.settings.main_title != blank %}
-            <h2 class="main-title {{ section.settings.title_font }}">{{ section.settings.main_title }}</h2>
+            <h3 class="main-title {{ section.settings.title_font }}">{{ section.settings.main_title }}</h3>
           {% endif %}
           {% if section.settings.text != blank %}
-            <p class="text">{{ section.settings.text }}</p>
+            <h6 class="text">{{ section.settings.text }}</h6>
           {% endif %}
           {% if section.settings.btn_text != blank %}
-            <a href="{{ section.settings.btn_url }}" class="{% if section.settings.show_link %}button--link{% else %}btn{% endif %} {% if section.settings.show_btn %}show-btn{% endif %}">{{ section.settings.btn_text }}</a>
+            <a href="{{ section.settings.btn_url }}" class="{% if section.settings.show_link %}button--link{% else %}button button--outline{% endif %} {% if section.settings.show_btn %}show-btn{% endif %}">{{ section.settings.btn_text }}</a>
           {% endif %}
         </div>
       </div>

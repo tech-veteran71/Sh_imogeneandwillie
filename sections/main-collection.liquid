@@ -18,14 +18,16 @@
 {% assign grid_image_2 = collection.metafields.seed.grid_image_2 | img_url:"master" %}
 {% assign grid_url_2 = collection.metafields.seed.grid_image_link_2 %}
 
-<div id="ProductGridContainer" class="collection-main__bg">
-  <div class="collection-main__hero-text">
+<div id="ProductGridContainer" class="{% if collection.metafields.my_fields.hide_image %}collection--no-image{% else %}collection-main__bg{% endif %}">
+  {% unless collection.metafields.my_fields.hide_image %}
+  <div class="collection-main__hero-text {% if collection.metafields.my_fields.light_header_text %}collection-main__hero-text--light{% endif %}" >
     {% if collection.description != blank %}
     {{ collection.description }}
     {% else %}
     lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore
     {% endif %}
   </div>
+{% endunless %}
   {%- paginate collection.products by 48 -%}
       <div class="collection-main">
         <div class="loading-overlay gradient"></div>

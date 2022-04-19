@@ -4,7 +4,7 @@ component-drawer {
   overflow: hidden;
   width: 100%;
   max-width: 375px;
-  z-index: 1000;
+  z-index: 100000;
   background: var(--color-white);
   transition: all 0.3s ease-in-out;
 }

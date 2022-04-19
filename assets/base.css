@@ -368,7 +368,7 @@ body,
 body {
   font-size: 1.2rem;
   letter-spacing: 0.12rem;
-  line-height: 2.5rem;
+  line-height: 2;
   font-family: var(--font-gothic);
 }
 
@@ -404,7 +404,7 @@ h1,
 .h1 {
   font-size: 1.8rem;
   letter-spacing: 0.27rem;
-  line-height: 2.2rem;
+  line-height: 1.22;
 }
 
 h2,
@@ -412,7 +412,7 @@ h2,
   font-size: 2.6rem;
   letter-spacing: 0.26rem;
   font-family: var(--font-arno-display);
-  line-height: 2.8rem;
+  line-height: 1;
 }
 
 h3,
@@ -420,7 +420,7 @@ h3,
   font-size: 2rem;
   letter-spacing: 0.3rem;
   font-family: var(--font-din);
-  line-height: 2.4rem;
+  line-height: 1.2;
 }
 
 h4,
@@ -428,7 +428,7 @@ h4,
   font-family: var(--font-din);
   font-size: 1.6rem;
   letter-spacing: 0.32rem;
-  line-height: 2rem;
+  line-height: 1.2;
 }
 
 h5,
@@ -436,7 +436,7 @@ h5,
   font-family: var(--font-din-med);
   font-size: 1.2rem;
   letter-spacing: 0.24rem;
-  line-height: 2rem;
+  line-height: 1.8;
 }
 
 h6,
@@ -444,28 +444,28 @@ h6,
   font-size: 1.8rem;
   letter-spacing: 0.18rem;
   font-family: var(--font-arno-display);
-  line-height: 2.5rem;
+  line-height: 1.4;
 }
 
 blockquote {
   font-style: italic;
   color: rgba(var(--color-foreground), 0.75);
   border-left: 0.2rem solid rgba(var(--color-foreground), 0.2);
-  padding-left: 1rem;
+  padding-left: 1.2;
 }
 
 .pretitle, .pre-title {
   font-size: 1.1rem;
   letter-spacing: 0.11rem;
   font-family: var(--font-gothic);
-  line-height: 2.5rem;
+  line-height: 2.2;
 }
 
 .subtext {
   font-size: 1.3rem;
   letter-spacing: 0.29rem;
   font-family: var(--font-arno-display);
-  line-height: 2rem;
+  line-height: 1.6;
 }
 
 /* Headline Variables */
@@ -474,14 +474,14 @@ blockquote {
   font-size: 2.6rem;
   letter-spacing: 0.26rem;
   font-family: var(--font-arno-display);
-  line-height: 2.8rem;
+  line-height: 1;
 }
 
 .headline__din {
   font-size: 2rem;
   letter-spacing: 0.3rem;
   font-family: var(--font-din);
-  line-height: 2.4rem;
+  line-height: 1.2;
 }
 
 @media screen and (min-width: 750px) {
@@ -1200,6 +1200,10 @@ deferred-media {
 
 /* component-button */
 /* Button - default */
+a {
+  text-decoration: underline;
+  color: var(--color-blue);
+}
 
 .button,
 .shopify-challenge__button,
@@ -1223,18 +1227,16 @@ deferred-media {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   height: 5.5rem;
+  width: 100%;
+  max-width: 35rem;
 }
 
 .button:focus-visible {
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border)),
-    0 0 0 0.3rem rgb(var(--color-background)),
-    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  background-color: var(--color-blue);
 }
 
 .button:focus {
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border)),
-    0 0 0 0.3rem rgb(var(--color-background)),
-    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  background-color: var(--color-blue);
 }
 
 .button:focus:not(:focus-visible) {
@@ -1263,7 +1265,11 @@ deferred-media {
 }
 
 .button--small {
-  padding: 1.2rem 2.6rem;
+  max-width: 16.4rem;
+}
+
+.button--large {
+  max-width: 100%;
 }
 
 .button--outline {
@@ -1279,6 +1285,7 @@ deferred-media {
   font-weight: 700;
   letter-spacing: 0.12rem;
   color: var(--color-blue);
+  text-decoration: none;
 }
 
 /* Button - hover */
@@ -1286,7 +1293,14 @@ deferred-media {
 .button:not([disabled]):hover,
 .shopify-challenge__button:hover,
 .customer button:hover {
-  box-shadow: 0;
+  background-color: var(--color-blue);
+}
+
+.button--outline:not([disabled]):hover, .button--outline:focus {
+  background-color: transparent;
+  border: 2px solid var(--color-normal-black);
+  color: var(--color-normal-black);
+  font-family: var(--font-din);
 }
 
 /* Button - other */
