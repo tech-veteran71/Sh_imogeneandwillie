@@ -1,29 +1,30 @@
-.ancillary-sidebar {
-  max-width: 10.4em;
-  flex: 10.4em;
-  background-color: var(--color-Xlight-wheat);
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  left: 0;
-  bottom: 0;
+.faq-page .wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
-.ancillary-sidebar .main-title {
-  font-size: 1.6rem;
-  font-family: var(--font-din);
-  margin: 0;
-  text-transform: uppercase;
-  color: var(--color-dim-black);
-  letter-spacing: 0.25rem;
+.ancillary-sidebar {
+  max-width: 100%;
+  flex: 100%;
 }
 .ancillary-sidebar .sidebar-title-wrap {
   background-color: var(--color-light-wheat);
-  padding: 0.4em 0.4em 0.4em 1.7em;
+}
+.ancillary-sidebar .heading {
+  margin: 0;
+  font-family: var(--font-din);
+  margin: 0;
+  text-transform: uppercase;
+  padding: 2rem 4.5rem;
 }
 .ancillary-sidebar .ancillary-list-wrap {
-  margin-top: 1.4em;
-  padding: 0 1em 0 1.8em;
+  margin-top: 5.5rem;
+  padding: 0 4.5rem;
   margin-bottom: 3.5em;
+}
+.ancillary-sidebar .content-wrap{
+  margin-top: 5.5rem;
+  padding: 0 4.5rem;
+  display: none;
 }
 .ancillary-sidebar .ancillary-item {
   list-style: none;
@@ -34,267 +35,193 @@
 .ancillary-sidebar .ancillary-link {
   font-size: 1.3rem;
   text-decoration: none;
+  font-family: var(--font-body-family);
   color: var(--color-dim-black);
-  letter-spacing: 3.5px;
+  letter-spacing: 0.35rem;
 }
 .ancillary-sidebar .ancillary-link.active {
   font-weight: bold;
 }
 .ancillary-sidebar .ancillary-list {
   margin: 0;
-  padding: 0 0 0 0.6em;
+  padding: 0 0 0 2rem;
   border-left: 0.1rem solid var(--color-dim-black);
 }
-.ancillary-sidebar .info-title {
-  font-size: 1.6rem;
-  font-family: var(--font-din);
-  color: var(--color-dim-black);
-  text-transform: uppercase;
-  letter-spacing: 0.25rem;
-  margin: 0;
-}
-.ancillary-sidebar .content-wrap{
-  padding-left: 1.7em;
-  padding-right: 0.6em;
-}
 .ancillary-sidebar .label {
-  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
   display: block;
-  font-family: var(--font-arno-display);
-  color: var(--color-normal-black);
-  letter-spacing: 0.2rem;
-  line-height: 1.3;
-  margin-bottom: 5px;
-}
-.ancillary-sidebar .link {
-  font-size: 1.2rem;
-  font-family: var(--font-gothic);
-  color: var(--color-normal-black);
-  letter-spacing: 0.2rem;
-  display: block;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-.ancillary-sidebar .link:hover {
-  color: var(--color-blue);
-}
-.ancillary-sidebar .info-wrap {
-  margin-bottom: 0.6em;
 }
 .ancillary-sidebar .info-wrap:nth-last-child(2) .link {
   text-decoration: underline;
 }
-.ancillary-sidebar .info-title-wrap {
-  margin-bottom: 0.6em;
+.ancillary-sidebar .ancillary-item {
+  margin-bottom: 0.8rem;
+}
+.faq-page .faq-block {
+  margin-bottom: 5.5rem;
+}
+.faq-page .faq-wrapper {
+  background-color: var(--color-Xlight-wheat);
+  padding: 0;
+  width: 100%;
+}
+.faq-wrapper .h2 {
+  padding: 5rem 2.5rem;
+  text-align: center;
+  background-color: var(--color-light-wheat);
+  margin: 0;
+}
+.faq-block {
+  margin-top: 5rem;
+}
+.faq-block .h4 {
+  padding: 2.5rem;
+  margin: 0;;
+}
+.faq-page .accordian-title {
+  margin: 0;
+  font-size: 1.2rem;
+  letter-spacing: 0.12rem;
+  font-family: var(--font-gothic);
+}
+.faq-page .accordian-item {
+  padding: 3rem;
+}
+.faq-page .accordian-item:nth-child(odd) {
+  background-color: var(--color-light-wheat);
+}
+.faq-page .accordian-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.75em 0;
+}
+.faq-page .icons {
+  max-width: 1.2rem;
+  width: 1.2rem;
+  flex: 1.2rem;
+  height: 1.2rem;
+}
+.faq-page svg {
+  width: 100%;
+  height: 100%;
+}
+.faq-page .icon {
+  display: flex;
+}
+.faq-page .icon path {
+  fill: var(--color-dim-black);
+}
+.faq-page .accordian-open {
+  display: none;
+}
+.faq-page .accordian-body .text {
+  color: var(--color-dim-black);
+  margin: 3rem 0 0;
+  padding-left: 2rem;
+  border-left: 1px solid var(--color-dim-black);
+}
+.faq-page .accordian-body {
+  display: none;
+}
+.faq-page .accordian-item.active .accordian-body {
+  display: block;
+}
+.faq-page .accordian-item.active .accordian-close {
+  display: none;
+}
+.faq-page .accordian-item.active .accordian-open {
+  display: flex;
+}
+.faq-page .accordian-item.active .accordian-title {
+  font-weight: bold;
 }
 
-@media screen and (min-width: 1420px) and (max-width: 1700px) {
-  .ancillary-sidebar .ancillary-list-wrap {
-    margin-top: 0.6em;
-    margin-bottom: 0.9em;
-  }
-  .ancillary-sidebar .ancillary-item {
-    margin-bottom: 0.8rem;
-  }
-  .ancillary-sidebar .info-title-wrap {
-    margin-bottom: 0.4em;
-  }
-  .ancillary-sidebar .label {
-    margin-bottom: 0.2rem;
-  }
-  .ancillary-sidebar .info-wrap {
-    margin-bottom: 0.4em;
-  }
-  .ancillary-sidebar .ancillary-link {
-    letter-spacing: 0.3rem;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .ancillary-sidebar {
-    max-width: 375px;
-    flex: 375px;
-  }
-  .ancillary-sidebar .ancillary-link {
-    letter-spacing: 0.3rem;
-  }
-  .ancillary-sidebar .ancillary-list-wrap {
-    margin-top: 0.8em;
-    margin-bottom: 1em;
-  }
-  .ancillary-sidebar .ancillary-item {
-    margin-bottom: 0.8rem;
-  }
-  .ancillary-sidebar .info-title-wrap {
-    margin-bottom: 0.3em;
-  }
-  .ancillary-sidebar .label {
-    margin-bottom: 0.2rem;
-  }
-  .ancillary-sidebar .link {
-    font-size: 1.2rem;
-  }
-  .ancillary-sidebar .info-wrap {
-    margin-bottom: 0.3em;
-  }
-  .ancillary-sidebar .main-title {
-    letter-spacing: 0.2rem;
-  }
-  .ancillary-sidebar .info-title {
-    letter-spacing: 0.2rem;
-  }
-}
-@media screen and (max-width: 1279px) {
-  .faq-page {
-    font-size: 2vw;
+@media screen and (min-width: 990px) {
+  .faq-page .wrapper {
+    flex-wrap: nowrap;
   }
   .ancillary-sidebar {
-    max-width: 30rem;
-    flex: 30rem;
-  }
-  .ancillary-sidebar .ancillary-link {
-    font-size: 1.3rem;
-    letter-spacing: 0.25rem;
-  }
-  .ancillary-sidebar .ancillary-item {
-    margin-bottom: 0.7rem;
-  }
-  .faq-page .accordian-body .text {
-    font-size: 1.2rem;
-  }
-  .faq-page .accordian-title {
-    font-size: 1.2rem;
-  }
-  .faq-page .icons {
-    max-width: 0.8rem;
-    width: 0.8rem;
-    flex: 0.8rem;
-    height: 0.8rem;
-  }
-}
-@media screen and (max-width: 990px) {
-  .ancillary-sidebar {
-    max-width: 22.5rem;
-    flex: 22.5rem;
-  }
-  .ancillary-sidebar .ancillary-link {
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-  }
-  .ancillary-sidebar .ancillary-list-wrap {
-    margin-top: 1.8em;
-    margin-bottom: 2em;
-  }
-  .ancillary-sidebar .main-title {
-    letter-spacing: 0.1rem;
-  }
-  .ancillary-sidebar .ancillary-list-wrap {
-    margin-top: 1.8em;
-    margin-bottom: 2em;
-  }
-  .ancillary-sidebar .info-title {
-    letter-spacing: 0.1rem;
-    font-size: 1.4rem;
-  }
-  .ancillary-sidebar .info-title-wrap {
-    margin-bottom: 0.7em;
-  }
-  .ancillary-sidebar .label {
-    font-size: 1.4rem;
-    letter-spacing: 0.1rem;
-  }
-  .ancillary-sidebar .info-wrap {
-    margin-bottom: 0.8em;
-  }
-  .ancillary-sidebar .link {
-    letter-spacing: 0.1rem;
-  }
-  .faq-page .accordian-body .text {
-    font-size: 1rem;
-  }
-  .faq-page .accordian-title {
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-  }
-  .faq-page .faq-wrapper .main-title {
-    font-size: 2.4rem;
-  }
-  .faq-page .faq-title {
-    font-size: 1.6rem;
-    letter-spacing: 0.1rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .ancillary-sidebar {
-    max-width: 100%;
-    flex: 100%;
-    height: auto;
-    position: unset;
+    max-width: 25%;
+    flex: 25%;
+    background-color: var(--color-Xlight-wheat);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
   }
   .ancillary-sidebar .sidebar-title-wrap {
-    padding: 2rem 2rem 2rem 40px;
+    background-color: var(--color-light-wheat);
   }
-  .ancillary-sidebar .content-wrap {
-    display: none;
+  .ancillary-sidebar .heading {
+    padding: 2rem 8rem;
   }
   .ancillary-sidebar .ancillary-list-wrap {
     margin-top: 5.5rem;
-    margin-bottom: 5.5rem;
+    padding: 0 0 0 8rem;
+    margin-bottom: 3.5em;
   }
-  .ancillary-sidebar .ancillary-list-wrap {
-    padding-left: 43px;
-  }
-  .ancillary-sidebar .ancillary-list {
-    padding-left: 1.6rem;
-  }
-  .ancillary-sidebar .ancillary-link {
-    font-size: 1.2rem;
-    letter-spacing: 3px;
+  .ancillary-sidebar .content-wrap{
+    margin-top: 5.5rem;
+    padding: 0 0 0 8rem;
+    display: block;
   }
   .ancillary-sidebar .ancillary-item {
-    margin-bottom: 0.8rem;
+    list-style: none;
+    display: flex;
+    line-height: 1.3;
+    margin-bottom: 1rem;
   }
-  .faq-page .faq-main {
-    background-image: unset !important;
-    padding: 0;
+  .ancillary-sidebar .ancillary-link {
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: var(--font-body-family);
+    color: var(--color-dim-black);
+    letter-spacing: 0.35rem;
+  }
+  .ancillary-sidebar .ancillary-link.active {
+    font-weight: bold;
+  }
+  .ancillary-sidebar .ancillary-list {
+    margin: 0;
+    padding: 0 0 0 2rem;
+    border-left: 0.1rem solid var(--color-dim-black);
+  }
+  .ancillary-sidebar .label {
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .ancillary-sidebar .info-wrap:nth-last-child(2) .link {
+    text-decoration: underline;
   }
   .faq-page .faq-wrapper {
-    padding: 0;
+    padding: 6rem;
   }
-  .faq-page .faq-wrapper .main-title {
-    font-size: 2.4rem;
-    letter-spacing: 0.15rem;
-    background-color: var(--color-light-wheat);
-    padding: 36px 0;
-    text-align: center;
+  .faq-page .faq-main {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 6rem;
+    max-width: 75%;
+    flex: 75%;
+    background-image: inherit;
   }
   .faq-page .faq-block-wrap {
-    margin-top: 46px;
+    margin-top: 8.5rem;
   }
-  .faq-page .faq-title {
-    font-size: 1.4rem;
-    margin-bottom: 1.4rem;
-    font-weight: bold;
-    padding-left: 2rem;
+  .faq-wrapper .h2 {
+    padding: 0;
+    text-align: left;
+    background-color: transparent;
   }
-  .faq-page .accordian-title {
-    font-size: 1.8rem;
-    line-height: 1.4;
-    max-width: 30rem;
-  }
-  .faq-page .accordian-header {
-    padding: 20.2rem 0;
-  }
-  .faq-page .accordian-item {
-    padding: 0 20.2rem;
-  }
-  .faq-page .accordian-body .text {
-    font-size: 1.2rem;
-  }
-  .faq-page .accordian-body {
-    padding-bottom: 30px;
-  }
-  .faq-page .faq-block {
-    margin-bottom: 5.5rem;
+}
+@media screen and (max-width: 989px) {
+  .faq-page .faq-main {
+    background-image: none !important;
   }
 }

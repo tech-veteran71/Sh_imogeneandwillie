@@ -1,4 +1,3 @@
-{{ 'faq-template.css' | asset_url | stylesheet_tag }}
 {{ 'ancillary-sidebar.css' | asset_url | stylesheet_tag }}
 
 {% assign bannerImage = section.settings.banner_img %}
@@ -10,17 +9,18 @@
       <div class="faq-main" style="background-image: url({{ section.settings.bg_img | img_url: 'master'}})">
         <div class="faq-wrapper">
           {% if section.settings.main_title != blank %}
-            <h1 class="main-title">{{ section.settings.main_title }}</h1>
+            <h1 class="h2">{{ section.settings.main_title }}</h1>
           {% endif %}
           <div class="faq-block-wrap">
+            {{ page.content }}
             {% for block in section.blocks %}
               {% if block.type == 'faq' %}
                 <div class="faq-block">
                 {% if block.settings.accordian_sub_title != blank %}
-                  <h3 class="faq-title">{{ block.settings.accordian_sub_title }}</h3>
+                  <h3 class="h4">{{ block.settings.accordian_sub_title }}</h3>
                 {% endif %}
                 <div class="accordians-group">
-                  <div class="accordian-item" data-accordian-item data-active-accordian>
+                  <div class="accordian-item" data-accordian-item>
                     {% if block.settings.accordian_title_1 != blank %}
                       <div class="accordian-header" data-accordian-header>
                         <h3 class="accordian-title">{{ block.settings.accordian_title_1 }}</h3>

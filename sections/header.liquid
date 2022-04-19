@@ -90,6 +90,7 @@
               <div class="menu-drawer__navigation-container">
                 <div class="search-form-wrap">
                   <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+                    <input type="hidden" name="type" value="product">
                     <div class="field">
                       <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
@@ -115,7 +116,6 @@
                           spellcheck="false" 
                         {%- endif -%}
                       >
-                      <label class="field__label" for="Search-In-Modal-1">{{ 'general.search.search' | t }}</label>
                       <input type="hidden" name="options[prefix]" value="last">
                     </div>
                     
@@ -356,24 +356,24 @@
                                   </div>
                                   <div class="content-wrap">
                                     {% if block.settings.pre_title != blank %}
-                                      <h5 class="pre_title">{{ block.settings.pre_title }}</h5>
+                                      <h5 class="subtext">{{ block.settings.pre_title }}</h5>
                                     {% endif %}
                                     {% if block.settings.title != blank %}
-                                      <h3 class="title">{{ block.settings.title }}</h3>
+                                      <h3 class="h1">{{ block.settings.title }}</h3>
                                     {% endif %}
                                     {% if block.settings.text != blank %}
-                                      <p class="text">{{ block.settings.text }}</p>
+                                      <p>{{ block.settings.text }}</p>
                                     {% endif %}
                                   </div>
                                 </a>
                               {% endif %}
                             {% endfor %}
                           </div>
-                          {% if section.settings.btn_text != blank %}
+                          {% comment %} {% if section.settings.btn_text != blank %}
                             <div class="btn-wrap">
                               <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
                             </div>
-                          {% endif %}
+                          {% endif %} {% endcomment %}
                         </div>
                       </div>
                     </div>
@@ -475,7 +475,13 @@
                 <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
               {%- endif -%} 
                 <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+                  <input type="hidden" name="type" value="product">
                   <div class="field">
+                    <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+                      <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
+                        <use href="#icon-search">
+                      </svg>
+                    </button> 
                     <input class="search__input field__input" 
                       id="Search-In-Modal"
                       type="search"
@@ -497,11 +503,6 @@
                     >
                     <label class="field__label" for="Search-In-Modal">{{ 'general.search.search' | t }}</label>
                     <input type="hidden" name="options[prefix]" value="last">
-                    <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
-                      <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                        <use href="#icon-search">
-                      </svg>
-                    </button> 
                   </div>
                   
                   {%- if settings.predictive_search_enabled -%}

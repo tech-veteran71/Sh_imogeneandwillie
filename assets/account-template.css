@@ -28,15 +28,6 @@
   padding: 0;
   position: relative;
 }
-.order-history .table-wrap::before {
-  content: "";
-  width: 0.15em;
-  height: 5em;
-  background-color: var(--color-dark-grey);
-  position: absolute;
-  left: -2.25em;
-  top: 0;
-}
 .order-history .main-title {
   font-size: 1.4em;
   font-family: var(--font-arno-display);

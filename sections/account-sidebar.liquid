@@ -7,7 +7,7 @@
   <div class="main-sidebar">
     <div class="customer-info">
       <h2 class="customer-name">{{ customer.name }}</h2>
-      <span class="customer-email">{{ customer.email }}</span>
+      {% comment %} <span class="customer-email">{{ customer.email }}</span> {% endcomment %}
     </div>
     <div class="ancillary">
       <ul class="ancillary-list">
@@ -23,7 +23,7 @@
   </div>
 
   <a href="{{ routes.account_logout_url }}" class="logout">
-    {{ 'customer.log_out' | t }}
+    log out
   </a>
 </div>
 

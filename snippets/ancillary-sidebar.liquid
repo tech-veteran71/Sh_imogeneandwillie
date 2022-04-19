@@ -2,19 +2,15 @@
   <div class="side-wrapper">
     {% if section.settings.title != blank %}
       <div class="title-wrap sidebar-title-wrap">
-        <h3 class="main-title">{{ section.settings.title }}</h3>
+        <h3 class="heading h4">{{ section.settings.title }}</h3>
       </div>
     {% endif %}
       <div class="ancillary-list-wrap">
         <ul class="ancillary-list">
-          {% for block in section.blocks %}
-            {% if block.type == 'ancillary_link' %}
-              {% if block.settings.link_text != blank %}
+          {% for link in linklists.ancillary.links %}
                 <li class="ancillary-item">
-                  <a href="{{ block.settings.link_url }}" class="ancillary-link" data-ancillary-link>{{ block.settings.link_text }}</a>
+                  <a href="{{ link.url }}" class="ancillary-link" data-ancillary-link>{{ link.title }}</a>
                 </li>
-              {% endif %}
-            {% endif %}
           {% endfor %}
     
         </ul>
@@ -22,7 +18,7 @@
     <div class="content-wrap">
       {% if section.settings.info_title != blank %}
         <div class="title-wrap info-title-wrap">
-          <h3 class="title info-title">{{ section.settings.info_title }}</h3>
+          <h3 class="h4">{{ section.settings.info_title }}</h3>
         </div>
       {% endif %}
       <div class="details-wrap">
@@ -30,7 +26,7 @@
           {% if block.type == 'info' %}
             <div class="info-wrap">
               {% if block.settings.label != blank %}
-                <span class="label">{{ block.settings.label }}</span>
+                <span class="label h6">{{ block.settings.label }}</span>
               {% endif %}
               {% if block.settings.link_text != blank %}
                 <a href="{{ block.settings.link_url }}" class="link">{{ block.settings.link_text }}</a>

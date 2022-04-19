@@ -46,7 +46,7 @@
   background-color: var(--color-light-wheat);
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: var(--color-dark-grey);
+  color: var(--color-dim-black);
   border: 0;
   box-shadow: unset;
 }

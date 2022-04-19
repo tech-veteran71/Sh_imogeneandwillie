@@ -52,11 +52,12 @@
 }
 
 .collection-main {
-  padding: 2rem 0;
+  padding: 0;
 }
 
 .collection-main__wrapper {
   background-color: var(--color-Xlight-wheat);
+  padding-bottom: 2rem;
 }
 
 .collection-main__controllers {
