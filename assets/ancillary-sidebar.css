@@ -5,6 +5,7 @@
 .ancillary-sidebar {
   max-width: 100%;
   flex: 100%;
+  background-color: var(--color-Xlight-wheat);
 }
 .ancillary-sidebar .sidebar-title-wrap {
   background-color: var(--color-light-wheat);
@@ -19,7 +20,7 @@
 .ancillary-sidebar .ancillary-list-wrap {
   margin-top: 5.5rem;
   padding: 0 4.5rem;
-  margin-bottom: 3.5em;
+  margin-bottom: 3.5rem;
 }
 .ancillary-sidebar .content-wrap{
   margin-top: 5.5rem;
@@ -139,6 +140,46 @@
   font-weight: bold;
 }
 
+.contact-wrap {
+  padding: 2.5rem;
+  background-color: var(--color-Xlight-wheat);
+}
+.contact-wrap__right {
+  margin-top: 5rem;
+}
+.contact-wrap__paragraph {
+  margin-bottom: 5rem;
+}
+.contact-wrap h6 {
+  margin: 1rem 0;
+}
+.chat-link {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  letter-spacing: 0.12rem;
+  line-height: 2;
+  font-family: var(--font-gothic);
+}
+
+@media screen and (min-width: 1279px) {
+  .ancillary-sidebar .heading {
+    padding: 2rem 8rem;
+  }
+  .ancillary-sidebar .ancillary-list-wrap {
+    margin-top: 5.5rem;
+    padding: 0 0 0 8rem;
+    margin-bottom: 3.5rem;
+  }
+  .ancillary-sidebar .content-wrap{
+    margin-top: 5.5rem;
+    padding: 0 0 0 8rem;
+    display: block;
+  }
+}
+
 @media screen and (min-width: 990px) {
   .faq-page .wrapper {
     flex-wrap: nowrap;
@@ -157,16 +198,16 @@
     background-color: var(--color-light-wheat);
   }
   .ancillary-sidebar .heading {
-    padding: 2rem 8rem;
+    padding: 2rem 6rem;
   }
   .ancillary-sidebar .ancillary-list-wrap {
     margin-top: 5.5rem;
-    padding: 0 0 0 8rem;
+    padding: 0 0 0 6rem;
     margin-bottom: 3.5em;
   }
   .ancillary-sidebar .content-wrap{
     margin-top: 5.5rem;
-    padding: 0 0 0 8rem;
+    padding: 0 0 0 6rem;
     display: block;
   }
   .ancillary-sidebar .ancillary-item {
@@ -191,7 +232,7 @@
     border-left: 0.1rem solid var(--color-dim-black);
   }
   .ancillary-sidebar .label {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
     display: block;
   }
@@ -218,6 +259,31 @@
     padding: 0;
     text-align: left;
     background-color: transparent;
+  }
+  .contact-wrap {
+    display: flex;
+    padding: 0;;
+  }
+  .contact-wrap__left, .contact-wrap__right {
+    width: 50%;
+    padding: 0 6rem;
+    margin-top: 0;
+  }
+  .contact-wrap__paragraph {
+    margin-bottom: 5rem;
+  }
+  .contact-wrap h6 {
+    margin: 1rem 0;
+  }
+  .chat-link {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    letter-spacing: 0.12rem;
+    line-height: 2;
+    font-family: var(--font-gothic);
   }
 }
 @media screen and (max-width: 989px) {

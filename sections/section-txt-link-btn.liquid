@@ -2,6 +2,9 @@
 <div class="rich-text-section">
   <div class="index-container">
     <div class="wrapper {{ section.settings.text_align }}">
+      {%if section.settings.pretitle != blank %}
+        <h5 class="pretitle">{{ section.settings.pretitle }}</h5>
+      {% endif %}
       {% if section.settings.title != blank %}
         <h4 class="title {{ section.settings.title_font }}">{{ section.settings.title }}</h4>
       {% endif %}
@@ -46,6 +49,11 @@
         }
       ],
       "default": "center"
+    },
+    {
+      "type": "text",
+      "id": "pretitle",
+      "label": "Pre Title"
     },
     {
       "type": "text",

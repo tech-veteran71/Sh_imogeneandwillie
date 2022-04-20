@@ -31,6 +31,15 @@
                     swiper_slide: false,
                     show_badges: false
                   %}
+            {% elsif section.settings.show_price %}
+              {% render 'product-card',
+                      product: product,
+                      show_title: true,
+                      show_subtitle: true,
+                      show_price: true,
+                      swiper_slide: false,
+                      show_badges: false
+                    %}
             {% else %}
             {% render 'product-card',
               product: product,
@@ -70,6 +79,11 @@
       "type": "checkbox",
       "id": "show_title",
       "label": "Show Product Title"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "label": "Show Product Price"
     },
     {
       "type": "range",

@@ -1,28 +1,31 @@
 {{ 'video-banner.css' | asset_url | stylesheet_tag }}
 
-<div class="video-banner">
-  <div class="container">
-    <div class="wrapper">
-      {% if section.settings.video_url != blank %}
-      <div class="video-banner__desktop">
+  {% if section.settings.video_url != blank %}
+  <div class="video-banner video-banner__desktop">
+    <div class="container">
+      <div class="wrapper">
         <video 
           {% if section.settings.video_controls %}controls{% endif %} 
           autoplay loop muted playsinline
         {% if section.settings.video_poster != blank %}poster="{{ section.settings.video_poster | img_url: '2000x' }}"{% endif %}>
           <source src="{{section.settings.video_url}}" type="video/mp4">
         </video>
-      </div>
-    {% endif %}
-    {% if section.settings.mobile_video_url != blank %}
-      <div class="video-banner__mobile">
+    </div>
+  </div>
+</div>
+{% endif %}
+{% if section.settings.mobile_video_url != blank %}
+  <div class="video-banner video-banner__mobile">
+    <div class="container">
+      <div class="wrapper">
         <video 
           {% if section.settings.video_controls %}controls{% endif %} 
           autoplay loop muted playsinline
         {% if section.settings.mobile_video_poster != blank %}poster="{{ section.settings.mobile_video_poster | img_url: '2000x' }}"{% endif %}>
           <source src="{{section.settings.mobile_video_url}}" type="video/mp4">
         </video>
-      </div>
-    {% endif %}
     </div>
   </div>
 </div>
+{% endif %}
+    

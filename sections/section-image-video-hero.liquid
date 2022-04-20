@@ -13,28 +13,28 @@
 
 {% if section.settings.add_video %}
   {% render "video-banner" with section %}
-  {% else %}
-    {% if section.settings.mobile_banner_img != blank and section.settings.desktop_banner_img != blank %}
-      <div class="banner-section">
-        <div class="wrapper">
-          {% if section.settings.desktop_banner_img != blank %}
-            <div class="banner-img {% if section.settings.mobile_banner_img != blank %}desktop-banner{% endif %}">
-              <a href="{{ section.settings.link }}" class="img-link">
-                {% render 'responsive--image' with section.settings.desktop_banner_img as image, max_width: 1920, class: 'img' %}
-              </a>
-            </div>
-          {% endif %}
-          {% if section.settings.mobile_banner_img != blank %}
-            <div class="banner-img mobile-banner">
-              <a href="{{ section.settings.link }}" class="img-link">
-                {% render 'responsive--image' with section.settings.mobile_banner_img as image, max_width: 420, class: 'img' %}
-              </a>
-            </div>
-          {% endif %}
-        </div>
-      </div>
-    {% endif %}
 {% endif %}
+{% if section.settings.desktop_banner_img != blank or section.settings.mobile_banner_img != blank %}
+  <div class="banner-section">
+    <div class="wrapper">
+      {% if section.settings.desktop_banner_img != blank %}
+        <div class="banner-img {% if section.settings.mobile_banner_img != blank %}desktop-banner{% endif %}">
+          <a href="{{ section.settings.link }}" class="img-link">
+            {% render 'responsive--image' with section.settings.desktop_banner_img as image, max_width: 1920, class: 'img' %}
+          </a>
+        </div>
+      {% endif %}
+      {% if section.settings.mobile_banner_img != blank %}
+        <div class="banner-img mobile-banner">
+          <a href="{{ section.settings.link }}" class="img-link">
+            {% render 'responsive--image' with section.settings.mobile_banner_img as image, max_width: 420, class: 'img' %}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
 
 {% schema %}
 {

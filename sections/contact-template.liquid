@@ -1,0 +1,224 @@
+{{ 'ancillary-sidebar.css' | asset_url | stylesheet_tag }}
+
+{% assign bannerImage = section.settings.banner_img %}
+<div class="faq-page ancillary-page" id="faq-template">
+  <div class="container">
+    <div class="wrapper">
+      {% render 'page-banner', bannerImage: bannerImage %}
+      {% render 'ancillary-sidebar' with section %}
+      <div class="faq-main" style="background-image: url({{ section.settings.bg_img | img_url: 'master'}})">
+        <div class="faq-wrapper">
+          {% if section.settings.main_title != blank %}
+            <h1 class="h2">{{ section.settings.main_title }}</h1>
+          {% endif %}
+          <div class="faq-block-wrap">
+            <div class="contact-wrap">
+                <div class="contact-wrap__left">
+                    {% if section.settings.left_heading != blank %}
+                    <h2>{{ section.settings.left_heading }}</h2>
+                    {% endif %}
+                    {% if section.settings.left_body_1 != blank %}
+                    <p class="contact-wrap__paragraph">{{ section.settings.left_body_1 }}</p>
+                    {% endif %}
+                    {% if section.settings.left_subheading_1 != blank %}
+                    <h6>{{ section.settings.left_subheading_1 }}</h6>
+                    {% endif %}
+                    {% if section.settings.left_body_2 != blank %}
+                    <p>{{ section.settings.left_body_2 }}</p>
+                    {% endif %}
+                    {% if section.settings.left_subheading_2 != blank %}
+                    <h6>{{ section.settings.left_subheading_2 }}</h6>
+                    {% endif %}
+                    {% if section.settings.left_body_3 != blank %}
+                    <p>{{ section.settings.left_body_3 }}</p>
+                    {% endif %}
+                    {% if section.settings.left_subheading_3 != blank %}
+                    <h6>{{ section.settings.left_subheading_3 }}</h6>
+                    {% endif %}
+                    <button class="chat-link" onclick="Chatra('openChat', true)">Chat with us</button>
+                </div>
+                <div class="contact-wrap__right">
+                    {% if section.settings.right_heading != blank %}
+                    <h2>{{ section.settings.right_heading }}</h2>
+                    {% endif %}
+                    {% if section.settings.right_body_1 != blank %}
+                    <p class="contact-wrap__paragraph">{{ section.settings.right_body_1 }}</p>
+                    {% endif %}
+                    {% if section.settings.right_subheading_1 != blank %}
+                    <h6>{{ section.settings.right_subheading_1 }}</h6>
+                    {% endif %}
+                    {% if section.settings.right_body_2 != blank %}
+                    <p>{{ section.settings.right_body_2 }}</p>
+                    {% endif %}
+                    {% if section.settings.right_subheading_2 != blank %}
+                    <h6>{{ section.settings.right_subheading_2 }}</h6>
+                    {% endif %}
+                    {% if section.settings.right_body_3 != blank %}
+                    <p>{{ section.settings.right_body_3 }}</p>
+                    {% endif %}
+                    {% if section.settings.right_subheading_3 != blank %}
+                    <h6>{{ section.settings.right_subheading_3 }}</h6>
+                    {% endif %}
+                    {% if section.settings.right_body_4 != blank %}
+                    <p>{{ section.settings.right_body_4 }}</p>
+                    {% endif %}
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Page Main",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image",
+      "info": "--------"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img",
+      "label": "Banner Image (Mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Main Page Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "contact us"
+    },
+    {
+      "type": "header",
+      "content": "Ancillary SideBar Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "help"
+    },
+    {
+      "type": "header",
+      "content": "Page Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "left_heading",
+      "label": "Left Heading",
+      "default": "customer service"
+    },
+    {
+      "type": "text",
+      "id": "left_body_1",
+      "label": "Left Body",
+      "default": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam"
+    },
+    {
+      "type": "text",
+      "id": "left_subheading_1",
+      "label": "Left SubHeading 1",
+      "default": "hours:"
+    },
+    {
+      "type": "text",
+      "id": "left_body_2",
+      "label": "Left Body 2",
+      "default": "monday - saturday 9:00am - 6:00pm"
+    },
+    {
+      "type": "text",
+      "id": "left_subheading_2",
+      "label": "Left SubHeading 2",
+      "default": "email address:"
+    },
+    {
+      "type": "text",
+      "id": "left_body_3",
+      "label": "Left Body 3",
+      "default": "help@imogeneandwillie.com"
+    },
+    {
+      "type": "text",
+      "id": "left_subheading_3",
+      "label": "Left SubHeading 3",
+      "default": "phone:"
+    },
+    {
+      "type": "text",
+      "id": "left_body_4",
+      "label": "Left Body 4",
+      "default": "+1 (615) 739-5286"
+    },
+    {
+      "type": "text",
+      "id": "left_subheading_4",
+      "label": "Left SubHeading 4",
+      "default": "chat:"
+    },
+    {
+      "type": "text",
+      "id": "right_heading",
+      "label": "Right Heading",
+      "default": "nashville store"
+    },
+    {
+      "type": "text",
+      "id": "right_body_1",
+      "label": "Right Body",
+      "default": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam"
+    },
+    {
+      "type": "text",
+      "id": "right_subheading_1",
+      "label": "Right SubHeading 1",
+      "default": "hours:"
+    },
+    {
+      "type": "text",
+      "id": "right_body_2",
+      "label": "Right Body 2",
+      "default": "monday - saturday 9:00am - 6:00pm monday - saturday 9:00am - 6:00pm sunday"
+    },
+    {
+      "type": "text",
+      "id": "right_subheading_2",
+      "label": "Right SubHeading 2",
+      "default": "address:"
+    },
+    {
+      "type": "text",
+      "id": "right_body_3",
+      "label": "Right Body 3",
+      "default": "2601 12th avenue south nashville, tennessee 37204"
+    },
+    {
+      "type": "text",
+      "id": "right_subheading_3",
+      "label": "Right SubHeading 3",
+      "default": "phone:"
+    },
+    {
+      "type": "text",
+      "id": "right_body_4",
+      "label": "Right Body 4",
+      "default": "+1 (615) 739-5286"
+    }
+  ]
+}
+{% endschema %}
