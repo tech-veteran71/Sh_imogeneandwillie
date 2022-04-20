@@ -4,6 +4,9 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  box-shadow: 
+        inset 0px 10px 50px #0000009F,
+        inset 0px 10px 50px #0000009F; 
 }
 .cut-out-section:empty {
   display: block;

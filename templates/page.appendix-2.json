@@ -245,45 +245,6 @@
         "sub_title": "hours:"
       }
     },
-    "1648673005e97e0326": {
-      "type": "section-image-txt-btn",
-      "blocks": {
-        "c8707de6-2dc1-498f-a9e5-309ce77331e5": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/angelescrest_-11.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "c8707de6-2dc1-498f-a9e5-309ce77331e5"
-      ],
-      "settings": {
-        "img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_d7ab1c6b-d218-446b-9c2b-96ccfd210f67.jpg",
-        "title": "AMERICAN-MADE DENIM",
-        "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim  produced in the us since the closure of cone mills, nc.",
-        "btn_text": "SHOP ALL",
-        "btn_url": "https:\/\/google.com"
-      }
-    },
-    "164867302777b2b160": {
-      "type": "section-img-txt-btn",
-      "settings": {
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
-        "img_url": "https:\/\/google.com",
-        "pre_title": "lorem",
-        "main_title": "LOREM IPSUM",
-        "title_font": "headline__din",
-        "text": "lorem lorem lorem lorem",
-        "btn_text": "LOREM",
-        "btn_url": "https:\/\/google.com",
-        "change_alignment": false,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
     "16486730028c74e507": {
       "type": "size-guide-pop",
       "disabled": true,
@@ -370,8 +331,6 @@
     "164867296114f1af2e",
     "1648672990fc7db71e",
     "164867297798c7cdce",
-    "1648673005e97e0326",
-    "164867302777b2b160",
     "16486730028c74e507",
     "1648673157167d2d01",
     "164918708674832464",

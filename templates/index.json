@@ -13,6 +13,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "text_align": "center",
+        "pretitle": "",
         "title": "barton slim & henry natural rigid indigo",
         "title_font": "headline__din",
         "text": "sewn from a rigid, lightweight 12.25oz denim, this fabric allows for a pant that transcends seasons: substantial enough for year-round wear, but light enough to accompany you to warmer days as you continue to wear it in.",
@@ -51,6 +52,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "text_align": "center",
+        "pretitle": "",
         "title": "the catherine abilene 3.0",
         "title_font": "headline__din",
         "text": "the return of an all-time favorite. 💙  <br> the character in this denim and the effortless drape of the fabric work together to complement the wash: a well-loved vintage look and a rich, soft feel.",
@@ -71,6 +73,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "text_align": "center",
+        "pretitle": "",
         "title": "",
         "title_font": "headline__arno",
         "text": "",
@@ -129,6 +132,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "text_align": "center",
+        "pretitle": "",
         "title": "our home",
         "title_font": "headline__arno",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
@@ -161,6 +165,7 @@
       "settings": {
         "choose_collection": "top-picks",
         "show_title": true,
+        "show_price": false,
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "top picks",
@@ -233,9 +238,11 @@
       "settings": {
         "choose_collection": "size-25",
         "title": "BRIGHTER DAYS",
+        "title_font": "headline__din",
         "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
         "btn_text": "SHOP Collection",
         "btn_url": "",
+        "show_button": false,
         "pre_title": "( essentials  )",
         "grid_title": "EVERY DAY CARRY"
       }
@@ -297,6 +304,7 @@
       "settings": {
         "choose_collection": "",
         "show_title": false,
+        "show_price": false,
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "collection",
@@ -308,7 +316,6 @@
     },
     "164927862869965961": {
       "type": "section-video-with-text",
-      "disabled": true,
       "settings": {
         "video_poster": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg",
         "video_url": "https:\/\/vimeo.com\/429778321",

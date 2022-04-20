@@ -15,7 +15,7 @@
           <h6 class="pre-title">{{ section.settings.pre_title }}</h6>
         {% endif %}
         {% if section.settings.title != blank %}
-          <h4 class="title">{{ section.settings.title }}</h4>
+          <h4 class="title {{ section.settings.title_font }}">{{ section.settings.title }}</h4>
         {% endif %}
       </div>
       <div class="video-wrap">
@@ -35,13 +35,13 @@
       </div>
       <div class="content-wrap">
         {% if section.settings.main_title != blank %}
-          <h2 class="main-title">{{ section.settings.main_title }}</h2>
+          <h2 class="{{ section.settings.title_font }}">{{ section.settings.main_title }}</h2>
         {% endif %}
         {% if section.settings.text != blank %}
           <p class="text">{{ section.settings.text }}</p>
         {% endif %}
         {% if section.settings.btn_text != blank %}
-          <a href="{{ section.settings.btn_url }}" class="button">{{ section.settings.btn_text }}</a>
+          <a href="{{ section.settings.btn_url }}" class="button button--outline">{{ section.settings.btn_text }}</a>
         {% endif %}
       </div>
     </div>
@@ -94,6 +94,22 @@
       "id": "title",
       "label": "Title",
       "default": "take a look back"
+    },
+    {
+      "type": "select",
+      "id": "title_font",
+      "label": "Title Font",
+      "options": [
+        {
+          "value": "headline__arno",
+          "label": "Arno"
+        },
+        {
+          "value": "headline__din",
+          "label": "Din"
+        }
+      ],
+      "default": "headline__arno"
     },
     {
       "type": "text",
