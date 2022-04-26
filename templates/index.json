@@ -128,6 +128,13 @@
         "img_width": "full"
       }
     },
+    "16510054628e91fa8a": {
+      "type": "section-newsletter",
+      "settings": {
+        "text": "get in early next time",
+        "subtext": "we only do collections like this a few times a year and they always seem to go quickly. though we try to give everyone a heads up, our email list always gets first dibs. sign up now to get notified for our next drop."
+      }
+    },
     "1649347110c702605f": {
       "type": "section-txt-link-btn",
       "settings": {
@@ -322,6 +329,7 @@
         "video_controls": false,
         "pre_title": "( circa 2012 )",
         "title": "take a look back",
+        "title_font": "headline__arno",
         "main_title": "HOW IT ALL STARTED",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
         "btn_text": "LOREM IPSUM",
@@ -343,23 +351,6 @@
       "settings": {
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         "link_text": "try it out",
-        "link_url": ""
-      }
-    },
-    "16493460179d05cc39": {
-      "type": "section-image-overlay-feature",
-      "disabled": true,
-      "settings": {
-        "bg_img": "shopify:\/\/shop_images\/IMG_0883.jpg",
-        "image": "shopify:\/\/shop_images\/homepage1.jpg",
-        "change_alignment": false,
-        "show_section_mob": false,
-        "show_section_desk": false,
-        "show_section": true,
-        "pre_title": "",
-        "title": "",
-        "text": "the return of an all-time favorite. 💙\n\nthe character in this denim and the effortless drape of the fabric work together to complement the wash: a well-loved vintage look and a rich, soft feel.",
-        "btn_text": "",
         "link_url": ""
       }
     },
@@ -385,6 +376,7 @@
     "16502992523f1a586b",
     "16376680197e951999",
     "16493465150e689548",
+    "16510054628e91fa8a",
     "1649347110c702605f",
     "16491902805e37b9ac",
     "1649347242ecc7083e",
@@ -397,7 +389,6 @@
     "164927862869965961",
     "16493439549fb1174a",
     "1649344104f3dc6a06",
-    "16493460179d05cc39",
     "1650300377077f241e"
   ]
 }

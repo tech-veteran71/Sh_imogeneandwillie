@@ -1,0 +1,36 @@
+{{ 'section-newsletter.css' | asset_url | stylesheet_tag }}
+<section class="section-newsletter">
+    <div class="section-newsletter__inner">
+        {% if section.settings.text != blank %}
+            <h2>{{ section.settings.text }}</h2>
+        {% endif %}
+        {% if section.settings.subtext != blank %}
+            <h6>{{ section.settings.subtext }}</h6>
+        {% endif %}
+        <div class="klaviyo-form-Vv8PnM"></div>
+    </div>
+</section>
+{% schema %}
+{
+  "name": "NEWSLETTER",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Headline",
+      "default": "get in early next time"
+    },
+    {
+    "type": "text",
+    "id": "subtext",
+    "label": "Subheading",
+    "default": "we only do collections like this a few times a year and they always seem to go quickly. though we try to give everyone a heads up, our email list always gets first dibs. sign up now to get notified for our next drop."
+    }
+  ],
+  "presets": [
+    {
+      "name": "NEWSLETTER"
+    }
+  ]
+}
+{% endschema %}

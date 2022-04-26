@@ -1,11 +1,22 @@
+.blog-wrapper {
+  background-color: var(--color-Xlight-wheat);
+}
+.main-blog {
+  padding: 3rem 2rem;
+}
 .blog-articles {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 5rem;
 }
 
 @media screen and (min-width: 750px) {
+  .main-blog {
+    padding: 4rem 8rem;
+  }
   .blog-articles {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 5.7rem;
+    grid-column-gap: 1.2rem;
   }
 
   .blog-articles--collage > *:nth-child(3n + 1),

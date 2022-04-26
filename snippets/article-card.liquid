@@ -40,32 +40,13 @@
 
     <div class="article-card__info">
       <header class="article-card__header">
-        <h2 class="article-card__title" id="Article-{{ article.id }}">
+        <h6 class="article-card__title" id="Article-{{ article.id }}">
           {{ article.title | escape }}
-        </h2>
-        {%- if show_date -%}
-          <span class="circle-divider caption-with-letter-spacing">
-            {{- article.published_at | time_tag: format: 'date' -}}
-          </span>
-        {%- endif -%}
-        {%- if show_author -%}
-          <span class="caption-with-letter-spacing">{{ article.author -}}</span>
-        {%- endif -%}
+        </h6>
+          <p class="article-card__date">
+            {{- article.published_at | date: "%m.%d.%Y" -}}
+          </p>
       </header>
-      {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
-        <p class="article-card__excerpt rte-width">
-          {%- if article.excerpt.size > 0 -%}
-            {{ article.excerpt | strip_html | truncatewords: 30 }}
-          {%- else -%}
-            {{ article.content | strip_html | truncatewords: 30 }}
-          {%- endif -%}
-        </p>
-      {%- endif -%}
-      <div class="article-card__footer">
-        {%- if article.comments_count > 0 and blog.comments_enabled? -%}
-          <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
-        {%- endif -%}
-      </div>
     </div>
   </a>
 </article>
