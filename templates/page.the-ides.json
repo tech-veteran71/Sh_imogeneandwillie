@@ -11,10 +11,31 @@
       "settings": {
         "img_height": false,
         "link": "",
-        "add_video": false,
+        "add_video": true,
         "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
         "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
         "video_controls": false
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the ides of march",
+        "title_font": "headline__din",
+        "text": "a very special made by matt series featuring a handful of hand made, one of a kind pieces, the first  first ever i+w graphic tee made directly from an original made by matt piece.",
+        "btn_text": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "show_button": false
+      }
+    },
+    "16505718302bbb6563": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "extra-large"
       }
     },
     "1649968716596dfdec": {
@@ -27,20 +48,9 @@
         "video_controls": false
       }
     },
-    "16499691942d1a0881": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "text_align": "center",
-        "title": "the ides of march",
-        "title_font": "headline__din",
-        "text": "a very special made by matt series featuring a handful of hand made, one of a kind pieces, the first  first ever i+w graphic tee made directly from an original made by matt piece.",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
-      }
-    },
     "164996952346f08380": {
       "type": "section-image-video-hero",
+      "disabled": true,
       "settings": {
         "desktop_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
         "mobile_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
@@ -56,18 +66,21 @@
       "type": "section-txt-link-btn",
       "settings": {
         "text_align": "center",
+        "pretitle": "",
         "title": "the \"dirty dozen\" tee.",
         "title_font": "headline__din",
         "text": "limited edition of 250",
         "btn_text": "shop now",
-        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-dirty-dozen-tee",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
         "show_button": false
       }
     },
     "164997002040b6e356": {
       "type": "section-txt-link-btn",
+      "disabled": true,
       "settings": {
         "text_align": "center",
+        "pretitle": "",
         "title": "THE COLLECTION",
         "title_font": "headline__din",
         "text": "",
@@ -81,24 +94,69 @@
       "settings": {
         "choose_collection": "the-ides",
         "show_title": false,
+        "show_price": false,
         "products_to_show": 12,
-        "products_per_row": 4,
+        "products_per_row": 3,
         "title": "the collection",
         "title_font": "headline__din",
         "text": "",
+        "btn_text": "shop the complete collection",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides"
+      }
+    },
+    "165057188760384d76": {
+      "type": "section-quote",
+      "settings": {
+        "review": "“to do a dangerous thing with <br>style is what i call art.”",
+        "customer_name": "- charles bukowski",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650572264552ae7c6": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "img_width": "extra-large"
+      }
+    },
+    "1650572297101d858e": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the \"hello\" painting",
+        "title_font": "headline__din",
+        "text": "the only one of its kind.<br><br> 24\"x30\" acrylic and mixed media on canvas<br>by matt eddmenson, 2022",
         "btn_text": "",
-        "btn_url": ""
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "show_button": false
+      }
+    },
+    "1650572934afd406d6": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "large"
       }
     }
   },
   "order": [
     "main",
     "16499696593217121e",
-    "1649968716596dfdec",
     "16499691942d1a0881",
+    "16505718302bbb6563",
+    "1649968716596dfdec",
     "164996952346f08380",
     "1649969933f60067f1",
     "164997002040b6e356",
-    "16499700408d317de1"
+    "16499700408d317de1",
+    "165057188760384d76",
+    "1650572264552ae7c6",
+    "1650572297101d858e",
+    "1650572934afd406d6"
   ]
 }

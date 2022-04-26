@@ -41,7 +41,7 @@
           "type": "accordian",
           "settings": {
             "accordian_title": "fit and sizing",
-            "accordian_body": "<p>henry sits slightly above the hips and has a 10 3\/4\" rise with relaxed, tapered 16 1\/2\" leg opening.<\/p>\n\n<span>fits true to size<\/span>\n<span>model is 5'10 wearing size 31<\/span>\n\n<p>ship with 34\" inseam - complimentary hems available upon request <a href=\"\">more info.<\/a><\/p>\n\n\n<button>\n<div>\n<svg version=\"1.0\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28.000000pt\" height=\"43.000000pt\" viewbox=\"0 0 28.000000 43.000000\" preserveaspectratio=\"xMidYMid meet\">\n<g transform=\"translate(0.000000,43.000000) scale(0.100000,-0.100000)\" fill=\"#000000\" stroke=\"none\">\n<path d=\"M30 200 l0 -170 115 0 115 0 0 170 0 170 -115 0 -115 0 0 -170z m210\n5 l0 -145 -95 0 c-95 0 -95 0 -95 25 0 23 4 25 45 25 33 0 45 4 45 15 0 11\n-12 15 -45 15 -41 0 -45 2 -45 25 0 24 3 25 60 25 77 0 79 18 3 22 -54 3 -58\n5 -58 28 0 22 5 25 43 28 56 4 54 22 -3 22 -43 0 -45 1 -45 30 l0 30 95 0 95\n0 0 -145z\"><\/path>\n<\/g>\n<\/svg>\n<\/div>\n<span>size guide<\/span>\n<\/button>\n\n<p>if you need any help determining your size, please feel free to <a href=\"\">react out to us.<\/a><\/p>"
+            "accordian_body": "<p>henry sits slightly above the hips and has a 10 3\/4\" rise with relaxed, tapered 16 1\/2\" leg opening.<\/p>\n\n<span>fits true to size<\/span>\n<span>model is 5'10 wearing size 31<\/span>\n\n<p>ship with 34\" inseam - complimentary hems available upon request <a href=\"\">more info.<\/a><\/p>\n\n\n<button js-size-guide-popup>\n<div>\n<svg version=\"1.0\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28.000000pt\" height=\"43.000000pt\" viewbox=\"0 0 28.000000 43.000000\" preserveaspectratio=\"xMidYMid meet\">\n<g transform=\"translate(0.000000,43.000000) scale(0.100000,-0.100000)\" fill=\"#000000\" stroke=\"none\">\n<path d=\"M30 200 l0 -170 115 0 115 0 0 170 0 170 -115 0 -115 0 0 -170z m210\n5 l0 -145 -95 0 c-95 0 -95 0 -95 25 0 23 4 25 45 25 33 0 45 4 45 15 0 11\n-12 15 -45 15 -41 0 -45 2 -45 25 0 24 3 25 60 25 77 0 79 18 3 22 -54 3 -58\n5 -58 28 0 22 5 25 43 28 56 4 54 22 -3 22 -43 0 -45 1 -45 30 l0 30 95 0 95\n0 0 -145z\"><\/path>\n<\/g>\n<\/svg>\n<\/div>\n<span>size guide<\/span>\n<\/button>\n\n<p>if you need any help determining your size, please feel free to <a href=\"\">react out to us.<\/a><\/p>"
           }
         },
         "885c349d-e8e1-42fc-9ea0-d39ff2bccc19": {
@@ -78,10 +78,35 @@
         "pre_title": "(featured)",
         "heading": "You may also like"
       }
+    },
+    "1650489885e385492b": {
+      "type": "size-guide-pop",
+      "blocks": {
+        "85c063f5-dd38-4179-8b48-cd5ab247c07b": {
+          "type": "link",
+          "settings": {
+            "link_text": "size guide",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "85c063f5-dd38-4179-8b48-cd5ab247c07b"
+      ],
+      "settings": {
+        "title_1": "we’re in this together",
+        "text_1": "every body is different. we know how hard it can be to find the right jean when shopping online, but rest assured—we’re here to help.",
+        "title_2": "how we measure:",
+        "text_2": "first thing's first, you’ll be measuring your body, not your other clothes. we’ve found it’s the easiest way to find what size is best for you. we recommend measuring in front of a mirror, directly against your skin, and keeping the measuring tape taut.",
+        "label": "speak with a team member",
+        "btn_text": "CHAT WITH A TEAM MEMBER",
+        "btn_url": ""
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "1650489885e385492b"
   ]
 }

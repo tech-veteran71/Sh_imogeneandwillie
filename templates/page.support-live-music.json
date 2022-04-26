@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1650559307eacafaba": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/SS-OVmain.jpg",
+        "mob_img": "shopify:\/\/shop_images\/SS-OVmain.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/support-live-music",
+        "img_width": "large"
+      }
+    },
+    "165055911566782a76": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "",
+        "title": "support live music<br> hire live musicians",
+        "title_font": "headline__din",
+        "text": "the people in our community that create music have a deep and permanent space in our hearts.<br><br> music has always been such a thread in the quilt of imogene + willie. for us, there is almost no difference between our team and the music community as a whole. so many members of our team, both past and present, are immensely talented musicians.<br><br>since september of 2020, we have been donating all profits from the sales of our \"support live music\" tee directly to MusiCares. this nonprofit organization provides relief for musicians in times of need, including support for medical, mental, financial, and emergency crisis.<br><br>with all that we are and the best we can, we remain fully committed to standing by their side. for that reason, we will continue to donate every penny we make from all sales of our \"support live music\" tee to the charitable organization MusiCares.",
+        "btn_text": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/support-live-music",
+        "show_button": false
+      }
+    },
+    "165055964647d66c56": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/Untitled-20.png",
+        "mob_img": "shopify:\/\/shop_images\/Untitled-20.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/support-live-music",
+        "img_width": "extra-large"
+      }
+    },
+    "165056009401600dba": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "shop now",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/support-live-music",
+        "show_button": true
+      }
+    },
+    "16505602634d3441d3": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/supper.jpg",
+        "mob_img": "shopify:\/\/shop_images\/supper.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1650559307eacafaba",
+    "165055911566782a76",
+    "165055964647d66c56",
+    "165056009401600dba",
+    "16505602634d3441d3"
+  ]
+}

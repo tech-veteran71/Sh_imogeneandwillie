@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1650556781c096c7bf": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/oyw2.jpg",
+        "mob_img": "shopify:\/\/shop_images\/oyw1.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16505571484f27d76f": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "( love fades )",
+        "title": "one year wear",
+        "title_font": "headline__din",
+        "text": "buy a pair of full-priced jeans this january, get 40% off a fresh pair next january.  with a new pair of jeans (and a new year, finally), we all start at exactly the same place... a blank slate.  to us, what follows is a beautiful thing: the relationship between you and your jeans.",
+        "btn_text": "",
+        "btn_url": "shopify:\/\/collections\/denim-oyw",
+        "show_button": false
+      }
+    },
+    "16505575018a5b2e08": {
+      "type": "section-collection-grid",
+      "settings": {
+        "choose_collection": "denim-oyw",
+        "show_title": false,
+        "show_price": false,
+        "products_to_show": 12,
+        "products_per_row": 3,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "shop all denim",
+        "btn_url": ""
+      }
+    },
+    "16505577015292a92f": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/oyw3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/oyw3.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1650556781c096c7bf",
+    "16505571484f27d76f",
+    "16505575018a5b2e08",
+    "16505577015292a92f"
+  ]
+}

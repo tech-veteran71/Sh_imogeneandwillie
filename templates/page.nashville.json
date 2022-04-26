@@ -7,7 +7,7 @@
         "mobile_video_poster": "shopify:\/\/shop_images\/Image_144.png",
         "video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1",
         "mobile_video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1",
-        "video_controls": false
+        "video_controls": true
       }
     },
     "shop_info": {
@@ -175,12 +175,26 @@
       "type": "section-txt-link-btn",
       "settings": {
         "text_align": "center",
+        "pretitle": "",
         "title": "tailor shop",
         "title_font": "headline__arno",
         "text": "we strive to make the best jeans we can. and we want to make sure they last a long, long time.  that's why, since day one, the tailor shop has always been here: to repair, improve, and fortify your jeans—so that you can put more miles into them.",
         "btn_text": "learn more",
         "btn_url": "",
         "show_button": true
+      }
+    },
+    "1650637415221d64e9": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "img_height": false,
+        "link": "",
+        "add_video": true,
+        "video_poster": "shopify:\/\/shop_images\/ides3.jpg",
+        "mobile_video_poster": "shopify:\/\/shop_images\/ides3.jpg",
+        "video_url": "https:\/\/vimeo.com\/17552913",
+        "mobile_video_url": "https:\/\/vimeo.com\/17552913",
+        "video_controls": false
       }
     }
   },
@@ -191,6 +205,7 @@
     "16502947994e98e61e",
     "1650294845b4561deb",
     "165029487575039b8c",
-    "1650294921559cf394"
+    "1650294921559cf394",
+    "1650637415221d64e9"
   ]
 }

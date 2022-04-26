@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16505680661cc9e2b2": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/bc1.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bc1.jpg",
+        "img_url": "shopify:\/\/pages\/the-belcourt-theatre-tee",
+        "img_width": "extra-large"
+      }
+    },
+    "16505687792e889d0f": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "have you found a place in the world, outside of your own personal space, where you feel extreme comfort and ease? a place that’s a getaway, but that still feels so kindred to home? a place that makes you feel like you’re enveloped in calm and love?  <br><br>there’s a place in our sweet town, and pretty much everyone on our team could tell you their own story about what this place means to them. an iconic independent film theatre, our special place is The Belcourt.<br><br>open since 1925, the Belcourt still has an old school, reel-to-reel projector and shows classic movies on actual 35mm film…alongside a state-of-the-art digital projector for new releases. they treat film curation, and the entire moviegoing experience, as an art form unto itself.",
+        "btn_text": "",
+        "btn_url": "shopify:\/\/pages\/the-belcourt-theatre-tee",
+        "show_button": false
+      }
+    },
+    "1650568847733e2c86": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/bc2.png",
+        "mob_img": "shopify:\/\/shop_images\/bc2.png",
+        "img_url": "shopify:\/\/pages\/the-belcourt-theatre-tee",
+        "img_width": "full"
+      }
+    },
+    "165056946575d1ec6f": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "we wanted to find a way to give a hug back to this special place, the one that has given our community and us so much comfort on all of those nights cozied up in that treasured theatre.<br><br>  every penny we make on this new tee will be donated directly to The Belcourt Theatre. a new deisgn inspired by our own love of film and a shared obsession with doing things in a way we can all believe in.",
+        "btn_text": "shop now",
+        "btn_url": "shopify:\/\/pages\/the-belcourt-theatre-tee",
+        "show_button": true
+      }
+    },
+    "165056978601114ffb": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/bc3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bc3.jpg",
+        "img_url": "shopify:\/\/pages\/the-belcourt-theatre-tee",
+        "img_width": "extra-large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16505680661cc9e2b2",
+    "16505687792e889d0f",
+    "1650568847733e2c86",
+    "165056946575d1ec6f",
+    "165056978601114ffb"
+  ]
+}
