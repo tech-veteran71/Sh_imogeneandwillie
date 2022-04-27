@@ -668,10 +668,19 @@ customElements.define('slider-component', SliderComponent);
 class VariantSelects extends HTMLElement {
   constructor() {
     super();
+    this.selected = false;
+  }
+
+  connectedCallback() {
+    const form = document.getElementById(`product-form-${this.dataset.section}`);
+    const button = form.querySelector('[name="add"]');
+
     this.addEventListener('change', this.onVariantChange);
+    button.addEventListener('click', this.forceSelectSize)
   }
 
   onVariantChange() {
+    this.selected = true;
     this.updateOptions();
     this.updateMasterId();
     this.toggleAddButton(true, '', false);
@@ -687,6 +696,13 @@ class VariantSelects extends HTMLElement {
       this.updateURL();
       this.updateVariantInput();
       this.renderProductInfo();
+    }
+  }
+
+  forceSelectSize = (e) => {
+    if (!this.selected) {
+      e.preventDefault();
+      document.querySelector("[data-variant-select]").style.display = "block";
     }
   }
 
@@ -3196,9 +3212,9 @@ customElements.define("ajax-cart", AjaxCart);
   // }
 
   // size guide popup
-  if(mainProduct) {
-    const sizeGuidePopUp = document.querySelector(".size-guide-popup");
-    const popUpButton = mainProduct.querySelector("[js-size-guide-popup]");
+  const sizeGuidePopUp = document.querySelector(".size-guide-popup");
+  if (sizeGuidePopUp) {
+    const popUpButton = document.querySelector("[js-size-guide-popup]");
     const popUpCloseButton = sizeGuidePopUp.querySelectorAll("[js-popup-close]");
     const imgWrap = sizeGuidePopUp.querySelector("[js-img-wrap]");
     const popUpHeader = sizeGuidePopUp.querySelector("[js-popup-header]");
@@ -3234,6 +3250,7 @@ customElements.define("ajax-cart", AjaxCart);
       }
     }
   }
+  
 })()
 
 function addGrid() {
