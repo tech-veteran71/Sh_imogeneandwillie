@@ -93,9 +93,11 @@
         "choose_collection": "size-25",
         "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_c54c4b83-722e-4392-8481-f7dcd5c8bf9a.jpg",
         "title": "BRIGHTER DAYS",
+        "title_font": "headline__din",
         "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
         "btn_text": "SHOP Collection",
         "btn_url": "https:\/\/google.com",
+        "show_button": false,
         "pre_title": "( essentials  )",
         "grid_title": "EVERY DAY CARRY"
       }
@@ -239,6 +241,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "text_align": "center",
+        "pretitle": "",
         "title": "the enfield hunting jacket in dark umber",
         "title_font": "headline__din",
         "text": "inspired by a time when clothes were made with a purpose, and made to take a beating.",
@@ -414,6 +417,7 @@
       "settings": {
         "choose_collection": "size-23",
         "show_title": false,
+        "show_price": false,
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "collection",

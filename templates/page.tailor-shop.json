@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1651161678f53ee584": {
+      "type": "section-video-hero",
+      "settings": {
+        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/519643365\/rendition\/1080p?loc=external&signature=bc302ca6d8fbcbfd760a463cc4aba23f3ea3c9f5b72ba11b3f360ff43cdc97a6",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/519643365\/rendition\/1080p?loc=external&signature=bc302ca6d8fbcbfd760a463cc4aba23f3ea3c9f5b72ba11b3f360ff43cdc97a6",
+        "video_controls": false
+      }
+    },
+    "1651161727c0d37ea0": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the tailor shop",
+        "title_font": "h1",
+        "text": "we strive to make the best jeans we can. and we want to make sure they last a long, long time.  that's why, since day one, the tailor shop has always been here: to repair, improve, and fortify your jeans—so that you can put more miles into them.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "165116177026ee135a": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/tshoo.jpg",
+        "mob_img": "shopify:\/\/shop_images\/tshoo.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "165116220545fa14a9": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "if a zipper or button breaks, we can fix that. if the knees rip, the seat blows out, or any other repair comes up along your journey, we’ve got you covered. <br><br>whether you live in Nashville or hundreds of miles away, the tailor shop is here for you. <br><br>if you need a repair, or just have questions about the tailor shop, please reach out to us. we’d love to help.",
+        "btn_text": "start a repair",
+        "btn_url": "mailto:help@imogeneandwillie.com?subject=Please%20Repair%20My%20Jeans&body=(just%20tell%20us%20a%20little%20about%20your%20jeans%20and%20how%20we%20can%20help%20fix%20them)",
+        "show_button": true
+      }
+    },
+    "16511624182d49d782": {
+      "type": "section-image",
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/tailorshop_d61da3ad-03f7-42d6-b603-4d50542f50c4.jpg",
+        "mob_img": "shopify:\/\/shop_images\/tailorshop_d61da3ad-03f7-42d6-b603-4d50542f50c4.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1651161678f53ee584",
+    "1651161727c0d37ea0",
+    "165116177026ee135a",
+    "165116220545fa14a9",
+    "16511624182d49d782"
+  ]
+}

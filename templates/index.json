@@ -17,7 +17,7 @@
         "title": "barton slim & henry natural rigid indigo",
         "title_font": "headline__din",
         "text": "sewn from a rigid, lightweight 12.25oz denim, this fabric allows for a pant that transcends seasons: substantial enough for year-round wear, but light enough to accompany you to warmer days as you continue to wear it in.",
-        "btn_text": "shop now",
+        "btn_text": "SHOP NOW",
         "btn_url": "",
         "show_button": true
       }
@@ -196,131 +196,6 @@
         "show_link": false
       }
     },
-    "164918994471fbdbad": {
-      "type": "section-content-spec-collection",
-      "disabled": true,
-      "blocks": {
-        "be43790d-53d7-4b44-a2cc-4e7db52ab877": {
-          "type": "collection",
-          "settings": {
-            "collection": "bottom-size-23"
-          }
-        },
-        "539bad17-b995-42e8-be4d-23987b0baf98": {
-          "type": "collection",
-          "settings": {
-            "collection": "size-25"
-          }
-        },
-        "2638dabf-d4ce-45a1-aeda-897845452fff": {
-          "type": "collection",
-          "settings": {
-            "collection": "women-denim-27"
-          }
-        },
-        "c8f3dfb1-23a4-4674-bbb0-374281925066": {
-          "type": "collection",
-          "settings": {
-            "collection": "women-denim-27"
-          }
-        }
-      },
-      "block_order": [
-        "be43790d-53d7-4b44-a2cc-4e7db52ab877",
-        "539bad17-b995-42e8-be4d-23987b0baf98",
-        "2638dabf-d4ce-45a1-aeda-897845452fff",
-        "c8f3dfb1-23a4-4674-bbb0-374281925066"
-      ],
-      "settings": {
-        "pre_title": "",
-        "title": "",
-        "title_font": "headline__din",
-        "btn_text": "Men’s denim",
-        "btn_url": ""
-      }
-    },
-    "1649190343ce59b569": {
-      "type": "section-four-item-feature",
-      "disabled": true,
-      "settings": {
-        "choose_collection": "size-25",
-        "title": "BRIGHTER DAYS",
-        "title_font": "headline__din",
-        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
-        "btn_text": "SHOP Collection",
-        "btn_url": "",
-        "show_button": false,
-        "pre_title": "( essentials  )",
-        "grid_title": "EVERY DAY CARRY"
-      }
-    },
-    "1649190884bc7d6922": {
-      "type": "section-content-cards",
-      "disabled": true,
-      "blocks": {
-        "bbfaeb13-563b-4d75-8585-74546e73ab69": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_d7ab1c6b-d218-446b-9c2b-96ccfd210f67.jpg",
-            "title": "Title",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-            "link_url": ""
-          }
-        },
-        "f8525ecf-daf4-43b6-b4ec-7e541ca32f7e": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-7-1_85ddfc78-d644-4084-b7ab-37ed8c71e313.jpg",
-            "title": "Title",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-            "link_url": ""
-          }
-        },
-        "9e88ed79-b10a-4b49-9b15-a3e7c063e45c": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg",
-            "title": "Title",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-            "link_url": ""
-          }
-        },
-        "cda5be07-a8d4-4a69-bcf9-0835111a45c6": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-18_at_3.49.38_PM.png",
-            "title": "Title",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "bbfaeb13-563b-4d75-8585-74546e73ab69",
-        "f8525ecf-daf4-43b6-b4ec-7e541ca32f7e",
-        "9e88ed79-b10a-4b49-9b15-a3e7c063e45c",
-        "cda5be07-a8d4-4a69-bcf9-0835111a45c6"
-      ],
-      "settings": {
-        "main_title": "Lorem ipsum dolor"
-      }
-    },
-    "16492778864f8d5bba": {
-      "type": "section-collection-grid",
-      "disabled": true,
-      "settings": {
-        "choose_collection": "",
-        "show_title": false,
-        "show_price": false,
-        "products_to_show": 4,
-        "products_per_row": 2,
-        "title": "collection",
-        "title_font": "headline__din",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
-        "btn_text": "Shop All",
-        "btn_url": ""
-      }
-    },
     "164927862869965961": {
       "type": "section-video-with-text",
       "settings": {
@@ -336,24 +211,6 @@
         "btn_url": ""
       }
     },
-    "16493439549fb1174a": {
-      "type": "section-rich-text",
-      "disabled": true,
-      "settings": {
-        "text": "",
-        "link_text": "",
-        "link_url": ""
-      }
-    },
-    "1649344104f3dc6a06": {
-      "type": "section-rich-text",
-      "disabled": true,
-      "settings": {
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-        "link_text": "try it out",
-        "link_url": ""
-      }
-    },
     "1650300377077f241e": {
       "type": "section-image",
       "settings": {
@@ -361,6 +218,176 @@
         "mob_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
         "img_url": "",
         "img_width": "full"
+      }
+    },
+    "1651088593e5c60822": {
+      "type": "section-recent-moments",
+      "settings": {
+        "choose_collection": "",
+        "choose_blog": "news",
+        "title": "recent moments\/\/",
+        "btn": "EXPLORE MORE",
+        "url": "https:\/\/google.com"
+      }
+    },
+    "16510886053ebed722": {
+      "type": "section-parallax",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
+      }
+    },
+    "165108861515d33581": {
+      "type": "section-editorial-content",
+      "blocks": {
+        "c2142425-c70e-4932-a052-e6ccd984403f": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/supper.jpg",
+            "img_url": ""
+          }
+        },
+        "5e2c6b53-2b18-47f7-b781-854fd1b0c195": {
+          "type": "info",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "b03fc271-4b8f-4c84-beb2-10915a20e59b": {
+          "type": "info",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "569530c7-b2ae-42f4-9a5d-589c2295cd49": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/fpj-34_ca633883-0487-4363-a942-1883e41cf675.jpg",
+            "img_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "c2142425-c70e-4932-a052-e6ccd984403f",
+        "5e2c6b53-2b18-47f7-b781-854fd1b0c195",
+        "b03fc271-4b8f-4c84-beb2-10915a20e59b",
+        "569530c7-b2ae-42f4-9a5d-589c2295cd49"
+      ],
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/oyw1.jpg",
+        "desk_img_url": "https:\/\/google.com",
+        "img_url1": "",
+        "img_url2": "",
+        "overlay_img_url": "",
+        "main_title": "LOREM IPSUM",
+        "main_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
+        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in <br> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis  laboris nisi ut aliquip ex ea commodo consequat."
+      }
+    },
+    "1651088625b53b1bea": {
+      "type": "section-content-spec-collection",
+      "blocks": {
+        "592271cd-9a9d-4355-8d3a-df3d37d9886a": {
+          "type": "collection",
+          "settings": {
+            "collection": "size-27"
+          }
+        },
+        "f94afc27-cf54-44df-ae41-297c965ee12f": {
+          "type": "collection",
+          "settings": {
+            "collection": "size-29"
+          }
+        },
+        "3628749d-631f-4cf8-8903-ee660c0b8ab4": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-size-23"
+          }
+        },
+        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-size-24"
+          }
+        }
+      },
+      "block_order": [
+        "592271cd-9a9d-4355-8d3a-df3d37d9886a",
+        "f94afc27-cf54-44df-ae41-297c965ee12f",
+        "3628749d-631f-4cf8-8903-ee660c0b8ab4",
+        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab"
+      ],
+      "settings": {
+        "pre_title": "lorem ipsum",
+        "title": "lorem ipsum",
+        "title_font": "headline__din",
+        "btn_text": "Men’s denim",
+        "btn_url": "https:\/\/google.com"
+      }
+    },
+    "16510889927e4f6edc": {
+      "type": "section-content-cards",
+      "blocks": {
+        "1b7c16a7-8c1d-4005-8a46-6812c7b302a2": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+            "title": "TITLE",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        },
+        "800c6e3c-4256-4518-b86a-e181e6124a4f": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+            "title": "TITLE",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        },
+        "bd2fded9-23aa-4e93-95ed-bd963701cb12": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+            "title": "TITLE",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        },
+        "4c9338be-470d-46d3-8a6d-62d2ae7058b0": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+            "title": "TITLE",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1b7c16a7-8c1d-4005-8a46-6812c7b302a2",
+        "800c6e3c-4256-4518-b86a-e181e6124a4f",
+        "bd2fded9-23aa-4e93-95ed-bd963701cb12",
+        "4c9338be-470d-46d3-8a6d-62d2ae7058b0"
+      ],
+      "settings": {
+        "main_title": "Lorem ipsum dolor"
+      }
+    },
+    "165108899465137ae2": {
+      "type": "section-four-item-feature",
+      "settings": {
+        "choose_collection": "size-25",
+        "mob_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+        "title": "BRIGHTER DAYS",
+        "title_font": "headline__din",
+        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
+        "btn_text": "SHOP Collection",
+        "btn_url": "https:\/\/google.com",
+        "show_button": false,
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
       }
     }
   },
@@ -382,13 +409,13 @@
     "1649347242ecc7083e",
     "16493477614696a5fd",
     "1637735864c2bd7e13",
-    "164918994471fbdbad",
-    "1649190343ce59b569",
-    "1649190884bc7d6922",
-    "16492778864f8d5bba",
     "164927862869965961",
-    "16493439549fb1174a",
-    "1649344104f3dc6a06",
-    "1650300377077f241e"
+    "1650300377077f241e",
+    "1651088593e5c60822",
+    "16510886053ebed722",
+    "165108861515d33581",
+    "1651088625b53b1bea",
+    "16510889927e4f6edc",
+    "165108899465137ae2"
   ]
 }
