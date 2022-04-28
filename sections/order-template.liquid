@@ -37,7 +37,9 @@
                 {% assign productVariantTitle = linkItemTitle | last %}
                 <h3 class="product-name">{{ productName }}</h3>
                 {% assign trackingNumber = line_item.fulfillment.tracking_number %}
+                {% if line_item.title contains '-' %}
                 <span class="size">{{ productVariantTitle }}</span>
+                {% endif %}
                 <div class="quantity-wrap">
                   <span class="label">{{ 'customer.order.quantity_label' | t }}</span>
                   <span class="product-quantity">{{ line_item.quantity }}</span>
@@ -109,7 +111,7 @@
             </div>
           </div>
           <div class="shipping-address address">
-            <h2 class="heading">{{ 'customer.order.shipping_address' | t }}</h2>
+            <h4>{{ 'customer.order.shipping_address' | t }}</h4>
             <span class="customer-name">{{ customer.name }}</span>
             <span class="address1 text">{{ order.shipping_address.address1 }}</span>
             <div class="address2">
@@ -119,7 +121,7 @@
             <span class="phone-number text">{{ order.shipping_address.phone }}</span>
           </div>
           <div class="billing-address address">
-            <h2 class="heading">{{ 'customer.order.billing_address' | t }}</h2>
+            <h4>{{ 'customer.order.billing_address' | t }}</h4>
             <span class="customer-name">{{ customer.name }}</span>
             <span class="address1 text">{{ order.billing_address.address1 }}</span>
             <div class="address2">

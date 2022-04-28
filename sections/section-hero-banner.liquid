@@ -15,10 +15,10 @@
       </a>
       <div class="content-wrap">
         {% if section.settings.main_title != blank %}
-          <h1 class="main-title {{ section.settings.title_font }}">{{ section.settings.main_title }}</h1>
+          <h1 class="main-title {{ section.settings.title_font }}" style="color: {{ section.settings.font_color }}">{{ section.settings.main_title }}</h1>
         {% endif %}
         {% if section.settings.text != blank %}
-          <p class="text">{{ section.settings.text }}</p>
+          <p class="text" style="color: {{ section.settings.font_color }}">{{ section.settings.text }}</p>
         {% endif %}
       </div>
       {% if section.settings.link_text != blank %}
@@ -85,6 +85,12 @@
         }
       ],
       "default": "headline__din"
+    },
+    {
+      "type": "color",
+      "id": "font_color",
+      "label": "Text Color",
+      "default": "#222222"
     },
     {
       "type": "text",

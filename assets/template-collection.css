@@ -92,7 +92,7 @@
 }
 
 .main-collection__title-count {
-  padding: 3rem 1rem 0;
+  padding: 3rem 1.5rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -244,7 +244,7 @@
 .collection-grid__button svg {
   height: 2.5rem;
   width: auto;
-  padding: 0 1rem;
+  padding: 0;
 }
 
 .collection-grid__button.active svg {
@@ -350,6 +350,11 @@
 }
 
 @media screen and (min-width: 990px) {
+  .collection-grid__button svg {
+    height: 2.5rem;
+    width: auto;
+    padding: 0 1rem;
+  }
   .collection-grid__button.inactive svg {
     opacity: 0.6;
   }
@@ -360,6 +365,9 @@
 
   .collection-grid__label {
     display: block;
+    font-size: 1.3rem;
+    letter-spacing: 0.338rem;
+    font-family: var(--font-heading-family);
   }
 
   .aw-company {

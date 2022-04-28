@@ -41,7 +41,7 @@
           <p class="text">{{ section.settings.text }}</p>
         {% endif %}
         {% if section.settings.btn_text != blank %}
-          <a href="{{ section.settings.btn_url }}" class="button button--outline">{{ section.settings.btn_text }}</a>
+          <a href="{{ section.settings.btn_url }}" class="{% if section.settings.show_link == true %}button--link{% else %}button button--outline{% endif %}">{{ section.settings.btn_text }}</a>
         {% endif %}
       </div>
     </div>
@@ -122,6 +122,12 @@
       "id": "text",
       "label": "Text",
       "default": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_link",
+      "label": "Show Link",
+      "default": false
     },
     {
       "type": "text",

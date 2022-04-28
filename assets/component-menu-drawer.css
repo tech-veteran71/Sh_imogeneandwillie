@@ -137,7 +137,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .no-js .menu-drawer__menu-item .icon-caret {
   right: 3rem;
 }
-
+/* 
 .menu-drawer__menu-item--active,
 .menu-drawer__menu-item:focus,
 .menu-drawer__close-button:focus,
@@ -149,7 +149,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__menu-item--active:hover {
   background-color: rgba(var(--color-foreground), 0.08);
-}
+} */
 
 .js .menu-drawer__menu-item .icon-caret,
 .no-js .menu-drawer .icon-arrow {

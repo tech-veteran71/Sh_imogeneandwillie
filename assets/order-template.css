@@ -40,15 +40,6 @@
 .order-details .back-link {
   display: none;
 }
-.order-details .main::before {
-  content: "";
-  width: 0.15em;
-  height: 5em;
-  background-color: var(--color-dark-grey);
-  position: absolute;
-  left: -2.25em;
-  top: 0;
-}
 .order-details .alpha {
   flex: 1;
 }
@@ -88,6 +79,9 @@
   letter-spacing: 0.1em;
   max-width: 10.9em;
 }
+.order-details .label {
+  margin-top: 2px;
+}
 .order-details .label,
 .order-details .details {
   font-size: 0.75em;
@@ -112,7 +106,7 @@
   font-family: var(--font-din);
 }
 .order-details .quantity-wrap {
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 0.55em;
   display: flex;
   align-items: center;
@@ -222,9 +216,6 @@
   .order-details .customer .main .beta {
     max-width: 35%;
     flex: 35%;
-  }
-  .order-details .main::before {
-    left: -1.5em;
   }
   .order-details .beta .text {
     font-size: .75em;
@@ -400,4 +391,8 @@
   .order-details .details-item .highlight {
     font-weight: 600;
   }
+}
+
+.order-details h4 {
+  text-transform: uppercase;
 }

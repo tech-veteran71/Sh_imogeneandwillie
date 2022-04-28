@@ -30,7 +30,7 @@
         </div>
         <div class="four-item-feature-grid">
           <div class="swiper-wrapper">
-            {% for product in collections[section.settings.choose_collection].products %}
+            {% for product in collections[section.settings.choose_collection].products limit: 4 %}
               {% if product.featured_image != blank %}
                 <a href="{{ product.url }}" class="grid-item swiper-slide">
                   {% render 'responsive--image' with product.featured_image as image, max_width: 374, class: 'image featured-image' %}

@@ -236,6 +236,9 @@
     margin-bottom: 0.5rem;
     display: block;
   }
+  .ancillary-sidebar .info-wrap .link {
+    text-decoration: none;
+  }
   .ancillary-sidebar .info-wrap:nth-last-child(2) .link {
     text-decoration: underline;
   }

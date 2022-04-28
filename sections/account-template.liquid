@@ -51,7 +51,7 @@
                       </td>
                       <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
                         <a href="{{ order.customer_url }}">
-                          {{ order.total_price | money_with_currency }}</td>
+                          ${{ order.total_price | money_without_currency }}</td>
                         </a>
                     </tr>
                   {%- endfor -%}

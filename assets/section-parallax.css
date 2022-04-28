@@ -2,11 +2,14 @@
   background-color: #fff;
   height: 80vh;
   background-position: center;
-  background-size: cover;
+  background-attachment: fixed;
   background-attachment: fixed;
   box-shadow: 
-        inset 0px 10px 50px #0000009F,
         inset 0px 10px 50px #0000009F; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .cut-out-section:empty {
   display: block;
@@ -15,5 +18,6 @@
 @media screen and (max-width: 767px) {
   .cut-out-section {
     height: 70vh;
+    background-attachment: initial;
   }
 }

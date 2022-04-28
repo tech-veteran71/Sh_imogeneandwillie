@@ -2859,6 +2859,7 @@ header .sub-menu-link {
 }
 #menu-drawer {
   background-color: var(--color-Xlight-wheat);
+  height: 100vh;
 }
 #menu-drawer .menu-drawer__submenu {
   background-color: var(--color-Xlight-wheat);

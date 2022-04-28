@@ -16,7 +16,7 @@
         <span class="collection-grid__desktop-icon">{% render 'icon-collection-2' %}</span>
         <span class="collection-grid__mobile-icon">{% render 'icon-collection-1' %}</span>
       </button>
-      <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()">
+      <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid" onclick="addSingle()">
         <span class="collection-grid__desktop-icon">{% render 'icon-collection-3' %}</span>
         <span class="collection-grid__mobile-icon">{% render 'icon-collection-2' %}</span>
       </button>
@@ -25,7 +25,7 @@
     <form id="FacetsFormDesktop" class="desktop-facets__form" aria-hidden="true" js-accordion-content>
       <div class="desktop-facets__grid" style="--filters-size: {{ results.filters.size | plus: 1 }}">
         <div class="desktop-facets__grid-item desktop-facets__sort-by">
-          <label class="desktop-facets__facet-title">SORT</label>
+          <label class="desktop-facets__facet-title h4">SORT</label>
           <div class="desktop-facets__facet-options">
             {%- for option in results.sort_options -%}
               <div class="desktop-facets__facet-option">
@@ -38,7 +38,7 @@
 
         {% for filter in results.filters %}
           <div class="desktop-facets__grid-item desktop-facets__facet--{{ filter.label | handleize }}">
-            <label class="desktop-facets__facet-title">{{ filter.label | escape }}</label>
+            <label class="desktop-facets__facet-title h4">{{ filter.label | escape }}</label>
             <div class="desktop-facets__facet-options">
               {%- for value in filter.values -%}
                 <div class="desktop-facets__facet-option desktop-facets__facet-option--{{ filter.label | handleize }}">

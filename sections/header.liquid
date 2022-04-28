@@ -351,10 +351,10 @@
                             {% for block in section.blocks %}
                               {% if block.type == 'mega_menu_about' %}
                                 <a href='{{ block.settings.link }}' class="grid-item">
-                                  <div class="img-wrap">
+                                  <div class="mega-img-wrap">
                                     {% render 'responsive--image' with block.settings.img as image, max_width: 358px, class: 'image' %}
                                   </div>
-                                  <div class="content-wrap">
+                                  <div class="mega-content-wrap">
                                     {% if block.settings.pre_title != blank %}
                                       <h5 class="subtext">{{ block.settings.pre_title }}</h5>
                                     {% endif %}

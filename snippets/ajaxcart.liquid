@@ -16,6 +16,7 @@
         <a href="/account">
           SIGN IN
         </a>
+        <button class="ajaxcart__close" js-cart-drawer-close>{% render 'icon-close' %}</button>
       </div>
 
       <header class="ajaxcart__header" ref="cartHeader">
@@ -23,7 +24,7 @@
           my bag
           <span v-if="cart" class="ajaxcart__header-title-count">(${cart.item_count})</span>
         </h1>
-        <button class="ajaxcart__close" js-cart-drawer-close>{% render 'icon-close' %}</button>
+        
       </header>
   
       <form v-if="cart" class="ajaxcart__content" :style="{ height: cartHeight }" action="/cart" method="post" novalidate>

@@ -546,6 +546,7 @@ a.active-facets__button.focused .active-facets__button-inner,
   color: rgba(var(--color-link), var(--alpha-link));
   border: none;
   background-color: transparent;
+  padding-left: 0;
 }
 
 .body-facets-open .mobile-facets__open-icon {
@@ -670,6 +671,15 @@ details.menu-opening .mobile-facets__close svg {
 .mobile-facets__details[open] .icon-caret {
   transform: rotate(180deg);
 }
+.mobile-facets__details .icon-minus {
+  display: none;
+}
+.mobile-facets__details[open] .icon-plus {
+  display: none;
+}
+.mobile-facets__details[open] .icon-minus {
+  display: block;
+}
 
 .mobile-facets__details {
   border-bottom: 0.05rem solid var(--color-medium-wheat);
@@ -699,9 +709,9 @@ details.menu-opening .mobile-facets__close svg {
 .mobile-facets__summary,
 .mobile-facets__close-button {
   padding: 1.3rem 3.6rem;
-  font-family: var(--font-heading-family);
+  font-family: var(--font-body-family);
   font-size: 1.4rem;
-  letter-spacing: 0.48rem;
+  letter-spacing: 0.36rem;
   text-transform: lowercase;
   color: var(--color-normal-black);
 }
@@ -911,6 +921,10 @@ facets-desktop {
   border: none;
   background-color: transparent;
   justify-self: end;
+  font-size: 1.3rem;
+  letter-spacing: 0.338rem;
+  font-weight: normal;
+  font-family: var(--font-body-family);
 }
 
 .desktop-facets__form {
@@ -949,7 +963,6 @@ facets-desktop {
 
 .desktop-facets__facet-title {
   display: inline-block;
-  font-size: 1.7rem;
   text-transform: uppercase;
   margin-bottom: 2.4rem;
 }
@@ -957,6 +970,10 @@ facets-desktop {
 .desktop-facets__option-label {
   display: flex;
   align-items: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.42rem;
+  margin-bottom: 1.2rem;
+  text-transform: lowercase;
 }
 
 .mobile-facets__facet-swatch,
@@ -1014,6 +1031,8 @@ facets-desktop {
   border: 0.1rem solid #222;
   color: var(--color-blue);
   text-align: center;
+  font-size: 1.3rem;
+  font-family: var(--font-din-med);
 }
 
 .mobile-facets__list--bottom-size
