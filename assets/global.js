@@ -2629,34 +2629,43 @@ customElements.define("ajax-cart", AjaxCart);
   // });
 
   // product swiper script
-  if(document.documentElement.clientWidth < 990) {
-    new Swiper('.product-swiper', {
-      slidesPerView: 1,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-      }
-    });
-    new Swiper('.product-media-swiper', {
-      slidesPerView: 1,
-      spaceBetween: 12,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      }
-    });
-    new Swiper('.moodboard-section .image-gallery', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      pagination: {
-        el: '.image-gallery-pagination',
-        clickable: true,
-      }
-    });
-  }
+  let swiperProduct, swiperMedia, swiperGallery
+  enquire.register('screen and (max-width: 61.185em)', { // 990px
+    match() {
+      swiperProduct = new Swiper('.product-swiper', {
+        slidesPerView: 1,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+        }
+      });
+      swiperMedia = new Swiper('.product-media-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 12,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        }
+      });
+      swiperGallery = new Swiper('.moodboard-section .image-gallery', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: '.image-gallery-pagination',
+          clickable: true,
+        }
+      });
+    },
+
+    unmatch() {
+      if (swiperProduct) swiperProduct.destroy();
+      if (swiperMedia) swiperMedia.destroy();
+      if (swiperGallery) swiperGallery.destroy();
+    }
+  })
 
   // product size dropdown box script
   const varaintContainer = document.getElementById("size-box");
@@ -3233,13 +3242,17 @@ customElements.define("ajax-cart", AjaxCart);
     popUpCloseButton.forEach( item => {
       item.addEventListener('click', handlePopUpClose);
     })
-    if(document.documentElement.clientWidth < 768) {
-      imgWrap.addEventListener('click', handleLinks);
-    }
-    if(document.documentElement.clientWidth > 767) {
-      window.addEventListener('scroll', handleScroll);
-    }
-
+    enquire.register('screen and (max-width: 48em)', {
+      match() {
+        imgWrap.addEventListener('click', handleLinks);
+      }
+    })
+    
+    enquire.register('screen and (min-width: 47.99em)', {
+      match() {
+        window.addEventListener('scroll', handleScroll);
+      }
+    })
     function handlePopup() {
       sizeGuidePopUp.style.opacity = "1";
       sizeGuidePopUp.style.visibility = "visible";
