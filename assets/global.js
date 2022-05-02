@@ -802,11 +802,10 @@ class VariantSelects extends HTMLElement {
     if (disable) {
       addButton.setAttribute('disabled', true);
       addButton.classList.add("atc-button-disabled");
-      addButton.classList.remove("atc-button-active");
       if (text) addButtonText.textContent = text;
     } else {
       addButton.removeAttribute('disabled');
-      addButton.classList.add("atc-button-active");
+      addButton.classList.remove("atc-button-disabled");
       addButtonText.textContent = window.variantStrings.addToCart;
     }
 
@@ -2670,7 +2669,6 @@ customElements.define("ajax-cart", AjaxCart);
         const label = formLabel.innerHTML;
         varaintContainer.classList.toggle('show');
         label.toLowerCase() === 'select a size' ? formLabel.innerHTML = 'fits true to size' : formLabel.innerHTML = 'select a size';
-        variantSelect.style.display = "block";
         if(this.classList.contains('variant-selected')) {
           variantSelect.style.display = "none";
         }

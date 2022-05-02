@@ -19,7 +19,12 @@ if (!customElements.get('product-form')) {
       submitButton.classList.add('loading');
       this.querySelector('.loading-overlay__spinner').classList.remove('hidden');
 
-      await window.CartAPI.addFromForm(this.form);
+      try {
+        await window.CartAPI.addFromForm(this.form);
+        submitButton.innerHTML = '<span>ADDED TO BAG</span>';        
+      } catch (error) {
+        console.log(error)
+      }
         
       submitButton.classList.remove('loading');
       submitButton.removeAttribute('aria-disabled');

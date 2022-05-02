@@ -1349,6 +1349,11 @@ a.product__text {
   box-shadow: unset;
 }
 
+.product .product-form__submit span {
+  position: relative;
+  top: 0.2rem;
+}
+
 .product .product-form__buttons .product-form__submit:hover,
 .product .product-form__buttons .shopify-payment-button__button:hover {
   box-shadow: unset;
