@@ -29,9 +29,10 @@
     {% endif %}
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     {% render 'meta-tags' %}
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer="defer"></script>
-    <script src="https://unpkg.com/vue@3.2.6" defer="defer"></script>
+      
+    <script src="{{ 'enquire.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'vue@3.2.6.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
 
     {% if template == 'index' %}
