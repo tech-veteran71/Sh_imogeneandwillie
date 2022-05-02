@@ -1756,6 +1756,8 @@ window.CartAPI = new CartAPI();
           gift: AjaxCartClass._config.gift,
           cart: null,
           error: false,
+          cartNote: "",
+          cartNoteShow: false,
           counter: document.querySelector(AjaxCartClass._selectors.counter),
           cartHeight: 0,
           loading: {
@@ -1783,6 +1785,7 @@ window.CartAPI = new CartAPI();
       watch: {
         cart(newValue, oldValue) {
           if (newValue && !oldValue) this.$nextTick(this.updateCartHeight);
+          if (newValue && newValue.note) this.cartNote = newValue.note;
         },
       },
 
@@ -1851,6 +1854,15 @@ window.CartAPI = new CartAPI();
           if (cart) this.cart = cart;
           else this.cart = await this.fetchCart();
           this.loading.item = false;
+        },
+
+        async updateCartNote() {
+          this.loading.cart = true;
+          const cart = await window.CartAPI.update({ note: this.cartNote });
+          if (cart) this.cart = cart;
+          else this.cart = await this.fetchCart();
+          this.cartNoteShow = false;
+          this.loading.cart = false;
         },
 
         async removeItem(line) {

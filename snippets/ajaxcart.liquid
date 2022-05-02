@@ -139,7 +139,7 @@
           </div><!-- .line-item__pricing -->
           <div class="line-item__qty-selector">
             qty:
-            <input class="line-item__qty-selector-input" type="number" :value="item.quantity" @change="$emit('updateItemQuantity', { quantity: $event.target.value, line })">
+            <input class="line-item__qty-selector-input" type="number" :value="item.quantity" :disabled="loading" @change="$emit('updateItemQuantity', { quantity: $event.target.value, line })">
           </div><!-- .line-item__qty-selector-->
         </div><!-- .line-item__price-qty -->
       </div><!-- .line-item__detail-->

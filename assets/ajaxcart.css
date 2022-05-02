@@ -144,6 +144,10 @@
   background-color: #F7F6F3;
 }
 
+.line-item.loading {
+  opacity: 0.7;
+}
+
 .line-item:first-child {
   padding-top: 0;
 }
