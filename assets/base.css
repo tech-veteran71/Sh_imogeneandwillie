@@ -2698,6 +2698,7 @@ header .child-menu-item,
   text-decoration: none;
   display: inline-block;
   line-height: 1;
+  margin-bottom: 1rem;
 }
 .header .mega_menu-link:hover {
   color: var(--color-gold);
@@ -2753,9 +2754,6 @@ header .sub-menu-link {
   text-decoration: none;
   display: block;
   line-height: 1;
-}
-.header .mega_menu-link:last-child {
-  margin-bottom: 0;
 }
 .header .mega_menu-list-outer-wrap {
   display: flex;

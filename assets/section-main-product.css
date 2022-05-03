@@ -1368,12 +1368,6 @@ a.product__text {
 .product .product-form__buttons .shopify-payment-button__button:hover {
   box-shadow: unset;
 }
-
-@media screen and (min-width: 1600px) {
-  .product .size-box-wrap .inputs-group label {
-    min-height: 6.5rem;
-  }
-}
 .product:not(.product--no-media):not(.featured-product) .product__info-wrapper {
   max-width: 30%;
   width: 30%;
@@ -1388,11 +1382,6 @@ a.product__text {
   transform: rotate(138deg);
 }
 
-@media screen and (max-width: 1359px) {
-  .product .size-box-wrap .inputs-group label {
-    min-height: 4.2rem;
-  }
-}
 @media screen and (max-width: 1279px) {
   .product .size-box-wrap .inputs-group label {
     min-height: 3.8rem;
