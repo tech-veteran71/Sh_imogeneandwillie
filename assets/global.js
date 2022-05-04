@@ -2555,6 +2555,40 @@ window.CartAPI = new CartAPI();
     SkeletonItem() {
       return {};
     },
+
+    SampleProducts(products) {
+      const components = this;
+      return {
+        delimiters: ["${", "}"],
+        mixins: [components.mixins()],
+        props: ["handlesInCart"],
+        emits: ["removeItem", "updateItemQuantity"],
+        data() {
+          return {
+            samples: products.map(data => data.product).filter(product => product)
+          }
+        },
+        computed: {
+          samplesToShow() {
+            return this.samples.filter(sample => !this.handlesInCart[sample.handle])
+          },
+          show() {
+            return !this.handlesInCart[this.handle]
+          }
+        },
+        methods: {
+          addToCart(id) {
+            
+            window.CartAPI.add(
+              {
+                id: id,
+                quantity: 1,
+              },
+            );
+          }
+        }
+      };
+    },
   };
 }
 

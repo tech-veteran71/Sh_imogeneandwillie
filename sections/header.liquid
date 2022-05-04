@@ -482,12 +482,12 @@
                         <use href="#icon-search">
                       </svg>
                     </button> 
-                    <input class="search__input field__input" 
+                    <input class="search__input field__input placeholder-shown" 
                       id="Search-In-Modal"
                       type="search"
                       name="q"
                       value=""
-                      placeholder="{{ 'general.search.search' | t }}"
+                      placeholder="SEARCH FOR ..."
                       {%- if settings.predictive_search_enabled -%}
                         role="combobox"
                         aria-expanded="false"
@@ -501,7 +501,7 @@
                         spellcheck="false" 
                       {%- endif -%}
                     >
-                    <label class="field__label" for="Search-In-Modal">{{ 'general.search.search' | t }}</label>
+                    <label class="field__label visually-hidden" for="Search-In-Modal">{{ 'general.search.search' | t }}</label>
                     <input type="hidden" name="options[prefix]" value="last">
                   </div>
                   

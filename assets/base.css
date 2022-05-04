@@ -2163,6 +2163,21 @@ details[open] .modal-overlay::after {
   right: 0.3rem;
 }
 
+.search-modal .search__button {
+  position: relative;
+  top: -0.2rem;
+}
+
+.search-modal .search__input::placeholder {
+  opacity: 1;
+  font-size: 2rem;
+  letter-spacing: 0.63rem;
+}
+
+.search-modal .search__input:focus {
+  padding: 1.5rem;
+}
+
 @media screen and (min-width: 750px) {
   .search-modal__close-button {
     right: 1rem;
@@ -2996,6 +3011,7 @@ header .sub-menu-link {
 #menu-drawer .menu-drawer__menu li {
   margin-bottom: 0;
 }
+
 #menu-drawer .search-form-wrap .search__input {
   box-shadow: unset;
   font-family: var(--font-din);
@@ -3007,6 +3023,11 @@ header .sub-menu-link {
   letter-spacing: 0.18rem;
   font-weight: 600;
 }
+
+#menu-drawer .search-form-wrap .search__input::placeholder {
+  opacity: 1;
+}
+
 #menu-drawer .search-form-wrap .field {
   padding: 0 3rem;
   background-color: var(--color-light-wheat);
@@ -3014,6 +3035,7 @@ header .sub-menu-link {
   min-height: 5.4rem;
 }
 #menu-drawer .search-form-wrap .search__button {
+  position: static;
   position: unset;
   justify-content: flex-start;
   width: 2.4rem;
