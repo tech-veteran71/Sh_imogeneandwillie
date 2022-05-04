@@ -10,6 +10,7 @@
     "type_header_font": "helvetica_n4",
     "type_body_font": "helvetica_n4",
     "page_width": "1200",
+    "predictive_search_enabled": false,
     "favicon": "shopify:\/\/shop_images\/Untitled-2_copy.jpg",
     "sections": {
       "announcement-bar": {
@@ -19,8 +20,8 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "text_color": "#FFFFFF",
-              "bg_color": "#000",
+              "text_color": "#ffffff",
+              "bg_color": "#000000",
               "link": ""
             }
           }
