@@ -64,11 +64,19 @@
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte desription-with-truncate" data-less-description>
+                {% if product.metafields.seed.product_description_part_1 != blank %}
+                {{ product.metafields.seed.product_description_part_1 }}
+                {% else %}
                 {{ product.description | strip_html | truncatewords: 45, '' }}
+                {% endif %}
                 <span class="read-content" data-read-more>read more…</span>
               </div>
               <div class="product__description rte desription-without-truncate" data-full-description>
+                {% if seed.product_description_part_2 != blank %}
+                {{ seed.product_description_part_2 }}
+                {% else %}
                 {{ product.description }}
+                {% endif %}
                 <span class="read-content" data-read-less>read less</span>
               </div>
             {%- endif -%}
@@ -331,10 +339,11 @@
           <div class="product-accodians" id="product-accordians">
             {% for block in section.blocks %}
               {% if block.type == 'accordian' %}
+                {% if product.metafields.seed.fit_and_sizing != blank %}
+                  {% if block.settings.accordian_title == 'fit and sizing' %}
                   <div class="accordian-item" data-accordian-item>
-                    {% if block.settings.accordian_title  != blank %}
                       <div class="accordian-header" data-accordian-header>
-                        <span class="accordian-title">{{ block.settings.accordian_title }}</span>
+                        <span class="accordian-title">fit and sizing</span>
                         <div class="acordian-icons">
                           <div class="close-icon">
                             {% render 'plus-icon' %}
@@ -344,12 +353,26 @@
                           </div>
                         </div>
                       </div>
-                    {% endif %}
-                    {% if block.settings.accordian_body != blank %}
-                      <div class="accordian-body">{{ block.settings.accordian_body }}</div>
-                    {% endif %}
+                      <div class="accordian-body">{{ product.metafields.seed.fit_and_sizing }}</div>
                   </div>
+                  {% elsif block.settings.accordian_title == 'care and materials' %}
+                    <div class="accordian-item" data-accordian-item>
+                        <div class="accordian-header" data-accordian-header>
+                          <span class="accordian-title">care and materials</span>
+                          <div class="acordian-icons">
+                            <div class="close-icon">
+                              {% render 'plus-icon' %}
+                            </div>
+                            <div class="open-icon">
+                              {% render 'accordian-minus-icon' %}
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordian-body">{{ product.metafields.seed.care_and_materials }}</div>
+                    </div>
                 {% endif %}
+                {% endif %}
+              {% endif %}
             {% endfor %}
           </div>
           
@@ -623,194 +646,6 @@
       ]
     },
     {
-      "type": "share",
-      "name": "t:sections.main-product.blocks.share.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "share_label",
-          "label": "t:sections.main-product.blocks.share.settings.text.label",
-          "default": "Share"
-        },
-        {
-          "type": "paragraph",
-          "content": "t:sections.main-product.blocks.share.settings.featured_image_info.content"
-        },
-        {
-          "type": "paragraph",
-          "content": "t:sections.main-product.blocks.share.settings.title_info.content"
-        }
-      ]
-    },
-    {
-      "type": "custom_liquid",
-      "name": "t:sections.main-product.blocks.custom_liquid.name",
-      "settings": [
-        {
-          "type": "liquid",
-          "id": "custom_liquid",
-          "label": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.label",
-          "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
-        }
-      ]
-    },
-    {
-      "type": "collapsible_tab",
-      "name": "t:sections.main-product.blocks.collapsible_tab.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Collapsible tab",
-          "info": "t:sections.main-product.blocks.collapsible_tab.settings.heading.info",
-          "label": "t:sections.main-product.blocks.collapsible_tab.settings.heading.label"
-        },
-        {
-          "type": "richtext",
-          "id": "content",
-          "label": "t:sections.main-product.blocks.collapsible_tab.settings.content.label"
-        },
-        {
-          "type": "page",
-          "id": "page",
-          "label": "t:sections.main-product.blocks.collapsible_tab.settings.page.label"
-        },
-        {
-          "type": "select",
-          "id": "icon",
-          "options": [
-            {
-              "value": "none",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__1.label"
-            },
-            {
-              "value": "box",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__2.label"
-            },
-            {
-              "value": "chat_bubble",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__3.label"
-            },
-            {
-              "value": "check_mark",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__4.label"
-            },
-            {
-              "value": "dryer",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__5.label"
-            },
-            {
-              "value": "eye",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__6.label"
-            },
-            {
-              "value": "heart",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__7.label"
-            },
-            {
-              "value": "iron",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__8.label"
-            },
-            {
-              "value": "leaf",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__9.label"
-            },
-            {
-              "value": "leather",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__10.label"
-            },
-            {
-              "value": "lock",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__11.label"
-            },
-            {
-              "value": "map_pin",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__12.label"
-            },
-            {
-              "value": "pants",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__13.label"
-            },
-            {
-              "value": "plane",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__14.label"
-            },
-            {
-              "value": "price_tag",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__15.label"
-            },
-            {
-              "value": "question_mark",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__16.label"
-            },
-            {
-              "value": "return",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__17.label"
-            },
-            {
-              "value": "ruler",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__18.label"
-            },
-            {
-              "value": "shirt",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__19.label"
-            },
-            {
-              "value": "shoe",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__20.label"
-            },
-            {
-              "value": "silhouette",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__21.label"
-            },
-            {
-              "value": "star",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__22.label"
-            },
-            {
-              "value": "truck",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__23.label"
-            },
-            {
-              "value": "washing",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__24.label"
-            }
-          ],
-          "default": "check_mark",
-          "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.label"
-        }
-      ]
-    },
-    {
-      "type": "popup",
-      "name": "t:sections.main-product.blocks.popup.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Pop-up link text",
-          "label": "t:sections.main-product.blocks.popup.settings.link_label.label"
-        },
-        {
-          "id": "page",
-          "type": "page",
-          "label": "t:sections.main-product.blocks.popup.settings.page.label"
-        }
-      ]
-    },
-    {
-      "type": "rating",
-      "name": "t:sections.main-product.blocks.rating.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
-        }
-      ]
-    },
-    {
       "type": "accordian",
       "name": "Accordian",
       "settings": [
@@ -825,9 +660,9 @@
           "label": "Accordian Title"
         },
         {
-          "type": "html",
-          "id": "accordian_body",
-          "label": "Accordian Body"
+          "type": "text",
+          "id": "accordian_content",
+          "label": "Accordian Content"
         }
       ]
     }

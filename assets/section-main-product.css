@@ -1,7 +1,6 @@
 .product {
   margin: 0;
   flex-wrap: nowrap;
-  overflow-x: hidden;
 }
 .product .product-media-swiper {
   display: none;
@@ -1441,6 +1440,7 @@ a.product__text {
     flex-wrap: wrap;
     height: auto;
     min-height: unset;
+    overflow-x: hidden;
   }
   .product .product-gallery {
     grid-gap: 1rem;

@@ -1,6 +1,5 @@
 {{ 'size-guide-popup.css ' | asset_url | stylesheet_tag }}
 
-{% assign table = product.description | split: '<!-- split Table -->' %}
 <div class="popup-inner" id="size-guide-popup">
   <div class="wrapper">
     <div class="scroll-header">
@@ -66,30 +65,8 @@
       </div>
     </div>
     <div class="popup-body inner-wrap">
-      <div class="content-wrap">
-        {% if section.settings.title_2 != blank %}
-          <h2 class="title">{{ section.settings.title_2 }}</h2>
-        {% endif %}
-        {% if section.settings.text_2 != blank %}
-          <p class="text">{{ section.settings.text_2 }}</p>
-        {% endif %}
-      </div>
-      <div class="info-wrap">
-        {% for block in section.blocks %}
-          {% if block.type == 'info' %}
-            <div class="info">
-              {% if block.settings.title != blank %}
-                <h2 class="title">{{ block.settings.title }}</h2>
-              {% endif %}
-              {% if block.settings.text != blank %}
-                <p class="text">{{ block.settings.text }}</p>
-              {% endif %}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
       <div class="table-wrap">
-        {{ table[1] }}
+        {{ product.metafields.my_fields.size_guide_popup_ }}
       </div>
     </div>
   </div>
