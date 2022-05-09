@@ -145,7 +145,7 @@
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
         "btn_text": "continue reading →",
         "btn_url": "",
-        "show_button": false
+        "show_button": true
       }
     },
     "16491902805e37b9ac": {
@@ -207,6 +207,7 @@
         "title_font": "headline__arno",
         "main_title": "HOW IT ALL STARTED",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "show_link": false,
         "btn_text": "LOREM IPSUM",
         "btn_url": ""
       }
@@ -218,16 +219,6 @@
         "mob_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
         "img_url": "",
         "img_width": "full"
-      }
-    },
-    "1651088593e5c60822": {
-      "type": "section-recent-moments",
-      "settings": {
-        "choose_collection": "",
-        "choose_blog": "news",
-        "title": "recent moments\/\/",
-        "btn": "EXPLORE MORE",
-        "url": "https:\/\/google.com"
       }
     },
     "16510886053ebed722": {
@@ -375,19 +366,14 @@
         "main_title": "Lorem ipsum dolor"
       }
     },
-    "165108899465137ae2": {
-      "type": "section-four-item-feature",
+    "16521084466e036390": {
+      "type": "section-recent-moments",
       "settings": {
-        "choose_collection": "size-25",
-        "mob_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
-        "title": "BRIGHTER DAYS",
-        "title_font": "headline__din",
-        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
-        "btn_text": "SHOP Collection",
-        "btn_url": "https:\/\/google.com",
-        "show_button": false,
-        "pre_title": "( essentials  )",
-        "grid_title": "EVERY DAY CARRY"
+        "choose_collection": "bottom-size-24",
+        "choose_blog": "new-mens-denim",
+        "title": "TEXT",
+        "btn": "TEXT",
+        "url": "https:\/\/google.com"
       }
     }
   },
@@ -411,11 +397,10 @@
     "1637735864c2bd7e13",
     "164927862869965961",
     "1650300377077f241e",
-    "1651088593e5c60822",
     "16510886053ebed722",
     "165108861515d33581",
     "1651088625b53b1bea",
     "16510889927e4f6edc",
-    "165108899465137ae2"
+    "16521084466e036390"
   ]
 }

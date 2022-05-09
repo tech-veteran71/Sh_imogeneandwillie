@@ -137,8 +137,10 @@
         "video_controls": false,
         "pre_title": "( circa 2012 )",
         "title": "take a look back",
+        "title_font": "headline__arno",
         "main_title": "HOW IT ALL STARTED",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
+        "show_link": false,
         "btn_text": "Learn more",
         "btn_url": ""
       }
