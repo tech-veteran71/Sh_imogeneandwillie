@@ -32,6 +32,7 @@
 .promise-section .alpha .text {
   font-size: 1.8rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   margin-top: 0;
   line-height: 1.5;
   margin-bottom: 0;

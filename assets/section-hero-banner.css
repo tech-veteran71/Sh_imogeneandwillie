@@ -70,6 +70,7 @@
 .hero-banner .text {
   font-size: 1.2em;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   color: var(--color-white);
   margin: 0 auto;
   max-width: 16.8em;

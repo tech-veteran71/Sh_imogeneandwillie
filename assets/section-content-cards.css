@@ -53,6 +53,7 @@
 .fact-section .title {
   font-size: 25px;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   margin: 0;
   letter-spacing: 3px;
   color: var(--color-normal-black);

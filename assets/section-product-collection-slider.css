@@ -117,6 +117,7 @@
     text-align: center;
     letter-spacing: 0.28rem;
     font-family: var(--font-arno-display);
+    font-weight: normal;
   }
   .featured-collection .content-wrap {
     display: flex;

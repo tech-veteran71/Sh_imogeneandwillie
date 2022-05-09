@@ -42,6 +42,7 @@
 .image-with-text .text {
   font-size: 1.8rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   color: var(--color-dim-black);
   line-height: 1.4;
   margin: 30px 0 32px;

@@ -36,6 +36,7 @@
 .new-arrival-section  .text-wrap p {
   font-size: 2.6rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
   text-transform: lowercase;

@@ -245,6 +245,7 @@ fieldset.product-form__input .form__label {
   letter-spacing: 0.338rem;
   color: var(--color-blue);
   font-family: var(--font-arno-display);
+  font-weight: normal;
   display: none;
   margin-top: 0;
   margin-bottom: 0.4rem;
@@ -914,6 +915,7 @@ a.product__text {
   margin: 0 0 3rem;
   font-size: 1.8rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   color: var(--color-dim-black);
   letter-spacing: 0.2rem;
   line-height: 1;
@@ -1117,6 +1119,7 @@ a.product__text {
 .product .sale-details {
   font-size: 1.3rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   color: var(--color-normal-black);
   text-align: center;
   display: block;
@@ -1184,6 +1187,7 @@ a.product__text {
 .product .product__description h3 {
   font-size: 1.8rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   color: var(--color-normal-black);
   margin: 1.5rem 0;
   text-transform: lowercase;

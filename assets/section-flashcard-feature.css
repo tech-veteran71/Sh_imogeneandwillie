@@ -141,6 +141,7 @@
 .product-slider-section .swiper-counter {
   font-size: 1.8rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   color: var(--color-dark-grey);
   flex: 1;
   text-align: center;

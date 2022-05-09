@@ -138,6 +138,7 @@
   text-transform: lowercase;
   text-align: center;
   font-family: var(--font-arno-display);
+  font-weight: normal;
 }
 
 .line-item {

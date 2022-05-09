@@ -8,6 +8,7 @@
 .order-details .main-title {
   font-size: 1.4em;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   margin: 0;
   text-transform: lowercase;
   color: var(--color-normal-black);

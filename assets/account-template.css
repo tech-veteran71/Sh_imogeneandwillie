@@ -31,6 +31,7 @@
 .order-history .main-title {
   font-size: 1.4em;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   letter-spacing: 0.1em;
   color: var(--color-normal-black);
   margin: 0;

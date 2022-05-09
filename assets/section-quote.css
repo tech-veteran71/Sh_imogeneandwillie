@@ -9,6 +9,7 @@
   font-size: 2.8rem;
   letter-spacing: 3px;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   margin-top: 0;
   margin-bottom: 5px;
   color: var(--color-normal-black);

@@ -13,6 +13,7 @@
 .product-gallery .title {
   font-size: 2.6rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   letter-spacing: 0.28rem;
   color: var(--color-normal-black);
   margin-bottom: 1.7rem;
@@ -22,6 +23,7 @@
 .product-gallery .text {
   font-size: 1.8rem;
   font-family: var(--font-arno-display);
+  font-weight: normal;
   letter-spacing: 0.2rem;
   color: var(--color-dim-black);
   line-height: 2.5rem;
