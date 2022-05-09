@@ -68,6 +68,7 @@
 .image-four-item-feature .btn {
   font-size: 1.2rem;
   font-family: var(--font-din);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--color-normal-black);

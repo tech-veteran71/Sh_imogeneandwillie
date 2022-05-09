@@ -53,7 +53,8 @@
   padding: 0;
   min-height: unset;
   min-width: unset;
-  font-family: var(--font-din)
+  font-family: var(--font-din);
+  font-weight: 600;
 }
 .latest-collection .image img {
   display: none;
@@ -109,7 +110,7 @@
     text-transform: uppercase;
     font-size: 1.3rem;
     font-family: var(--font-din);
-    font-weight: 700;
+    font-weight: 600;
     color: var(--color-black);
     padding-top: 1rem;
     justify-content: center;

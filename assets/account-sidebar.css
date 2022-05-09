@@ -10,6 +10,7 @@
 .account-sidebar .sidebar-title {
   font-size: 0.9em;
   font-family: var(--font-din);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0;
@@ -37,6 +38,7 @@
 .account-sidebar .customer-email {
   font-size: 0.8em;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-dim-black);
   display: block;
   line-height: 1;
@@ -68,6 +70,7 @@
 .account-sidebar .logout {
   font-size: 0.8em;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-blue);
   position: absolute;
   bottom: 10.4em;

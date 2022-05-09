@@ -470,6 +470,7 @@ a.active-facets__button.focused .active-facets__button-inner,
   align-items: center;
   justify-content: center;
   font-family: var(--font-din);
+  font-weight: 600;
   font-size: 1.2rem;
   color: var(--color-normal-black);
   letter-spacing: 0.2em;
@@ -718,6 +719,7 @@ details.menu-opening .mobile-facets__close svg {
 
 .mobile-facets__heading {
   font-family: var(--font-din);
+  font-weight: 600;
   font-size: 1.6rem;
   letter-spacing: 0.42rem;
   text-transform: uppercase;
@@ -844,6 +846,7 @@ input.mobile-facets__checkbox {
 .mobile-facets__footer > * + * {
   margin-left: 1rem;
   font-family: var(--font-din);
+  font-weight: 600;
   font-size: 1.4rem;
   background-color: var(--color-normal-black);
   color: var(--color-white);
@@ -1033,6 +1036,7 @@ facets-desktop {
   text-align: center;
   font-size: 1.3rem;
   font-family: var(--font-din-med);
+  font-weight: 500;
 }
 
 .mobile-facets__list--bottom-size

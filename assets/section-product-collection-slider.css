@@ -33,12 +33,12 @@
 }
 .featured-collection .title {
   font-size: 1.4rem;
-  font-weight: bold;
   color: var(--color-normal-black);
   text-transform: uppercase;
   margin: 3rem 0 3rem;
   letter-spacing: 0.24rem;
-  font-family: var(--font-din)
+  font-family: var(--font-din);
+  font-weight: 600;
 }
 .featured-collection .product-item .hover-img {
   display: none;
@@ -88,7 +88,7 @@
   text-transform: uppercase;
   font-family: var(--font-din);
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.1rem;
   color: var(--color-blue);
 }
@@ -132,7 +132,7 @@
     text-transform: uppercase;
     font-family: var(--font-din);
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--color-black);
     letter-spacing: 0.3rem;
     margin: 0;
@@ -146,7 +146,7 @@
     text-transform: uppercase;
     font-family: var(--font-din);
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0.1rem;
     color: var(--color-blue);
   }

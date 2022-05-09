@@ -408,26 +408,26 @@ h3,
   font-size: 2rem;
   letter-spacing: 0.3rem;
   font-family: var(--font-din);
+  font-weight: 600;
   line-height: 1.2;
-  font-weight: normal;
 }
 
 h4,
 .h4 {
   font-family: var(--font-din-med);
+  font-weight: 500;
   font-size: 1.6rem;
   letter-spacing: 0.32rem;
   line-height: 1.2;
-  font-weight: normal;
 }
 
 h5,
 .h5 {
   font-family: var(--font-din-med);
+  font-weight: 500;
   font-size: 1.2rem;
   letter-spacing: 0.24rem;
   line-height: 1.8;
-  font-weight: normal;
 }
 
 h6,
@@ -474,6 +474,7 @@ blockquote {
   font-size: 2rem;
   letter-spacing: 0.3rem;
   font-family: var(--font-din);
+  font-weight: 600;
   line-height: 1.2;
 }
 
@@ -1214,6 +1215,7 @@ a {
   -webkit-appearance: none;
   appearance: none;
   font-family: var(--font-din-med);
+  font-weight: 500;
   font-size: 1.2rem;
   background-color: var(--color-normal-black);
   color: var(--color-white);
@@ -1274,8 +1276,8 @@ a {
 .button--link {
   text-transform: uppercase;
   font-family: var(--font-din);
+  font-weight: 600;
   font-size: 1.2rem;
-  font-weight: 700;
   letter-spacing: 0.12rem;
   color: var(--color-blue);
   text-decoration: none;
@@ -1294,6 +1296,7 @@ a {
   border: 2px solid var(--color-normal-black);
   color: var(--color-normal-black);
   font-family: var(--font-din);
+  font-weight: 600;
 }
 
 /* Button - other */
@@ -1874,6 +1877,7 @@ input[type='checkbox'] {
   padding: 1rem 2rem;
   margin: 0;
   font-family: var(--font-din);
+  font-weight: 600;
   font-size: 1.2rem;
   text-transform: uppercase;
 }
@@ -2379,6 +2383,7 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
   font-family: var(--font-din);
+  font-weight: 600;
   text-transform: lowercase;
   letter-spacing: 0.21rem;
 }
@@ -2700,12 +2705,12 @@ header .child-menu-item,
 .header .mega_menu-list .mega_menu-heading {
   font-size: 1.4rem;
   font-family: var(--font-din);
+  font-weight: 600;
   letter-spacing: 0.26rem;
   margin-bottom: 1rem;
   color: var(--color-dim-black);
   line-height: 1.2;
   text-transform: uppercase;
-  font-weight: 600;
 }
 .header .mega_menu-link {
   font-size: 1.3rem;
@@ -2892,6 +2897,7 @@ header .sub-menu-link {
 #menu-drawer .menu-drawer__close-button {
   color: var(--color-dark-grey);
   font-family: var(--font-din);
+  font-weight: 600;
   font-size: 1.4rem;
   padding: 1.2rem 2.5rem;
   text-transform: uppercase;
@@ -2962,10 +2968,10 @@ header .sub-menu-link {
 #menu-drawer .menu-drawer__inner-container .link-text {
   color: var(--color-blue);
   font-family: var(--font-din);
+  font-weight: 600;
   font-size: 1.4rem;
   text-transform: uppercase;
   margin-right: 0.5rem;
-  font-weight: bold;
 }
 #menu-drawer .link-wrap svg {
   width: 2rem;
@@ -3015,13 +3021,13 @@ header .sub-menu-link {
 #menu-drawer .search-form-wrap .search__input {
   box-shadow: unset;
   font-family: var(--font-din);
+  font-weight: 600;
   border: 0;
   padding: 1rem 2rem;
   color: var(--color-dim-black);
   font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 0.18rem;
-  font-weight: 600;
 }
 
 #menu-drawer .search-form-wrap .search__input::placeholder {

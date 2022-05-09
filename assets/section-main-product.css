@@ -319,6 +319,7 @@ fieldset.product-form__input .form__label {
 .shopify-payment-button__button {
   font-size: 1.4rem;
   font-family: var(--font-din);
+  font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   height: 5.5rem;
@@ -372,6 +373,7 @@ a.product__text {
 .product .product__description .read-content {
   color: var(--color-blue);
   font-family: var(--font-din);
+  font-weight: 600;
   cursor: pointer;
 }
 .product .desription-without-truncate {
@@ -387,6 +389,7 @@ a.product__text {
   letter-spacing: 0.16rem;
   color: var(--color-blue);
   font-family: var(--font-din);
+  font-weight: 600;
 }
 .product .price--sold-out .price__badge-sold-out {
   background: transparent;
@@ -921,6 +924,7 @@ a.product__text {
 .product .price .price-item {
   font-size: 1.6rem;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-normal-black);
   letter-spacing: 0.36em;
 }
@@ -932,6 +936,7 @@ a.product__text {
 }
 .product .price .badge {
   font-family: var(--font-din);
+  font-weight: 600;
   border-radius: 0rem;
   background-color: var(--color-normal-black);
   font-size: 1rem;
@@ -985,6 +990,7 @@ a.product__text {
 }
 .product .product__tax.caption a {
   font-family: var(--font-din);
+  font-weight: 600;
 }
 .product .company {
   max-width: 3.5em;
@@ -1009,8 +1015,8 @@ a.product__text {
 .product .size-box-wrap .form__label {
   font-size: 1.2rem;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-normal-black);
-  font-weight: bold;
   text-transform: uppercase;
   margin: 0;
   letter-spacing: 0.42rem;
@@ -1071,6 +1077,7 @@ a.product__text {
   border: 0.1rem solid var(--color-normal-black);
   border-radius: 0;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-blue);
   display: flex;
   padding: 0;
@@ -1165,6 +1172,7 @@ a.product__text {
   color: var(--color-blue);
   font-size: 1.2rem;
   font-family: var(--font-din);
+  font-weight: 600;
   text-decoration: underline;
 }
 .product .product__description a:hover {
@@ -1227,6 +1235,7 @@ a.product__text {
 .product .accordian-title {
   font-size: 1.4rem;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-dim-black);
   letter-spacing: 0.2rem;
 }
@@ -1246,6 +1255,7 @@ a.product__text {
 .product .accordian-body a {
   color: var(--color-blue);
   font-family: var(--font-din);
+  font-weight: 600;
   text-decoration: none;
   font-size: 1.4rem;
 }
@@ -1263,6 +1273,7 @@ a.product__text {
 .product .accordian-body button span {
   font-size: 1.4rem;
   font-family: var(--font-din);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--color-normal-black);
@@ -1349,6 +1360,7 @@ a.product__text {
 }
 .product .product-form__submit {
   font-family: var(--font-din);
+  font-weight: 600;
   font-size: 1.2rem;
   background-color: var(--color-normal-black);
   color: var(--color-white);

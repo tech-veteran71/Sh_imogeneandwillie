@@ -108,6 +108,7 @@
 }
 .shop-info .timing {
   font-family: var(--font-din);
+  font-weight: 600;
 }
 .shop-info .content-wrap {
   display: flex;
@@ -137,6 +138,7 @@
 }
 .shop-info .details-wrap .info span {
   font-family: var(--font-din);
+  font-weight: 600;
 } 
 .nashville-container {
   padding: 0 10rem;

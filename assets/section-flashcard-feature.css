@@ -22,13 +22,13 @@
 }
 .product-slider-section .alpha .title {
   font-size: 2rem;
-  font-weight: 600;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.3;
   letter-spacing: 0.2rem;
   font-family: var(--font-din);
+  font-weight: 600;
 }
 .product-slider-section .beta {
   text-decoration: none;
@@ -64,9 +64,9 @@
 .product-slider-section .btn {
   font-size: 1.2rem;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-blue);
   text-transform: uppercase;
-  font-weight: 600;
   letter-spacing: 0.2rem;
 }
 .product-slider-section .product-title {
@@ -92,6 +92,7 @@
   margin: 0;
   font-size: 1.2rem;
   font-family: var(--font-din);
+  font-weight: 600;
   letter-spacing: 0.3rem;
   color: var(--color-normal-black);
 }

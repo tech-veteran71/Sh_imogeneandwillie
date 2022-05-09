@@ -20,7 +20,7 @@
   color: var(--color-normal-black);
   margin: 0;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
 }
 .fabric-section .fabric-grid {
   display: grid;
@@ -54,6 +54,7 @@
 .fabric-section .fabric-block .title {
   font-size: 2.1rem;
   font-family: var(--font-din);
+  font-weight: 600;
   letter-spacing: 0.3rem;
   color: var(--color-normal-black);
   margin: 0;
@@ -71,6 +72,7 @@
 .fabric-section .fabric-block .link {
   font-size: 1.2rem;
   font-family: var(--font-din);
+  font-weight: 600;
   letter-spacing: 0.3rem;
   color: var(--color-blue);
   text-transform: uppercase;

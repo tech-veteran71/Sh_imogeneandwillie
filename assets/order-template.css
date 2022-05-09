@@ -19,6 +19,7 @@
 }
 .order-details .order-item .price {
   font-family: var(--font-din);
+  font-weight: 600;
 }
 .order-details .order-details-inner {
   width: 93%;
@@ -36,6 +37,7 @@
   padding-top: 1px;
   margin-left: 0.4em;
   font-family: var(--font-din);
+  font-weight: 600;
 }
 .order-details .back-link {
   display: none;
@@ -104,6 +106,7 @@
 .order-details .size {
   margin-bottom: 0.5em;
   font-family: var(--font-din);
+  font-weight: 600;
 }
 .order-details .quantity-wrap {
   line-height: 1.2;
@@ -122,6 +125,7 @@
 .order-details .order-status .heading {
   margin-bottom: 0.5em;
   font-family: var(--font-din);
+  font-weight: 600;
 }
 .order-details .beta .text {
   font-size: 0.65em;
@@ -385,6 +389,7 @@
     font-size: 13px;
     color: var(--color-dim-black);
     font-family: var(--font-din);
+    font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
   }

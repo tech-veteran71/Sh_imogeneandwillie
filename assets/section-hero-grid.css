@@ -51,6 +51,7 @@
 .featured-section .title {
   font-size: 1.6rem;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-normal-black);
   text-transform: uppercase;
   margin-top: 0;

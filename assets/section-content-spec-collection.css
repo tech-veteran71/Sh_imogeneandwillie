@@ -19,6 +19,7 @@
 .content-specific-collection .btn {
   font-size: 1.2rem;
   font-family: var(--font-din);
+  font-weight: 600;
   text-transform: uppercase;
   color: var(--color-normal-black);
   border: 0.1rem solid var(--color-normal-black);

@@ -39,6 +39,7 @@
 .order-history .table-wrap td {
   font-size: 0.9em;
   font-family: var(--font-din);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: center;

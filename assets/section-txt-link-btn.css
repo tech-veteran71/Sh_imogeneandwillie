@@ -27,9 +27,9 @@
 .rich-text-section .wrapper .btn {
   font-size: 1.2rem;
   color: var(--color-blue);
-  font-weight: 900;
   text-transform: uppercase;
   font-family: var(--font-din);
+  font-weight: 600;
   letter-spacing: 0.14rem;
 }
 .rich-text-section .wrapper {

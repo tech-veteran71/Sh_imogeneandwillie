@@ -66,6 +66,7 @@
 }
 .video-with-text .main-title {
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-normal-black);
   text-transform: uppercase;
 }

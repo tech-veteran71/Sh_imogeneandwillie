@@ -16,7 +16,7 @@
 .fact-section .main-title {
   font-size: 23px;
   font-family: var(--font-din);
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
   text-align: center;
   margin: 0;

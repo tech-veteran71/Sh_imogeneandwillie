@@ -12,30 +12,36 @@
 .section-newsletter .klaviyo-form {
     border: 0.1rem solid #222222;
     font-family: var( --font-din-med) !important;
+    font-weight: 500 !important;
 }
 
 .section-newsletter .klaviyo-form input {
     font-family: var( --font-din-med) !important;
+    font-weight: 500 !important;
     letter-spacing: 0.2rem;
     font-size: 1.4rem;
 }
 .section-newsletter .klaviyo-form button {
     font-family: var( --font-din-med) !important;
+    font-weight: 500 !important;
 }
 .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1 .ql-snow * {
     font-family: var( --font-din-med) !important;
+    font-weight: 500 !important;
     font-size: 1.4rem !important;
     font-weight: normal !important;
 }
 
 .section-newsletter .klaviyo-form input::placeholder {
     font-family: var( --font-din-med) !important;
+    font-weight: 500 !important;
     letter-spacing: 0.2rem;
     font-size: 1.4rem;
 }
 
 .section-newsletter .klaviyo-form p, .section-newsletter .klaviyo-form p span {
     font-family: var( --font-din-med) !important;
+    font-weight: 500 !important;
     font-weight: normal !important;
   }
 

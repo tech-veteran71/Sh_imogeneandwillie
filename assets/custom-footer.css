@@ -96,6 +96,7 @@
 .custom-footer .newsletter-title {
   font-size: 1.8rem;
   font-family: var(--font-din);
+  font-weight: 600;
   color: var(--color-dim-black);
   text-transform: uppercase;
   letter-spacing: 0.4rem;
@@ -300,15 +301,17 @@
 .custom-footer .klaviyo-form {
   border-bottom: 0.1rem solid #222222;
   font-family: var( --font-din-med) !important;
+  font-weight: 500;
 }
 
 .custom-footer .klaviyo-form p, .custom-footer .klaviyo-form p span {
   font-family: var( --font-din-med) !important;
-  font-weight: normal !important;
+  font-weight: 500 !important;
 }
 
 .custom-footer .klaviyo-form input {
   font-family: var( --font-din-med) !important;
+  font-weight: 500 !important;
   letter-spacing: 0.2rem;
   font-size: 1.4rem;
   background-color: var(--color-light-wheat) !important;
@@ -316,17 +319,20 @@
 }
 .custom-footer .klaviyo-form button {
   font-family: var( --font-din-med) !important;
+  font-weight: 500 !important;
   background-color: var(--color-light-wheat) !important;
 }
 
 .custom-footer .klaviyo-form input::placeholder {
   font-family: var( --font-din-med) !important;
+  font-weight: 500 !important;
   letter-spacing: 0.2rem;
   font-size: 1.4rem;
 }
 
 .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1 .ql-snow * {
   font-family: var( --font-din-med) !important;
+  font-weight: 500 !important;
   font-size: 1.4rem !important;
   font-weight: normal !important;
 }

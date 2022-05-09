@@ -13,6 +13,7 @@
 .ancillary-sidebar .heading {
   margin: 0;
   font-family: var(--font-din);
+  font-weight: 600;
   margin: 0;
   text-transform: uppercase;
   padding: 2rem 4.5rem;
