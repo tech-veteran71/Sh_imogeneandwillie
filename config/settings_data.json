@@ -386,6 +386,9 @@
             "announcement-bar-0": {
               "type": "announcement",
               "settings": {
+                "text": "Welcome to our store",
+                "text_color": "#FFFFFF",
+                "bg_color": "#000"
               }
             }
           },
