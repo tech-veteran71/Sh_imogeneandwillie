@@ -316,6 +316,7 @@
   margin-bottom: 0.4rem;
   margin-top: 0;
   font-family: var(--font-heading-family);
+  font-weight: normal;
 }
 
 .card-information__subtext {
