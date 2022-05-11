@@ -56,7 +56,7 @@
   
         <footer class="ajaxcart__footer" ref="cartFooter">
           <p v-if="cart.note" class="ajaxcart__note">note: ${ cart.note }</p>
-          <button class="ajaxcart__cart-note-trigger" @click.prevent="cartNoteShow = !cartNoteShow"> 
+          <button class="ajaxcart__cart-note-trigger" type="button" @click.prevent="cartNoteShow = !cartNoteShow"> 
             <span v-if="cartNoteShow">&minus;</span><span v-else>&plus;</span>&nbsp;
             <span v-if="cart.note">EDIT ORDER NOTE</span>
             <span v-else>ADD NOTE TO YOUR ORDER</span> 
@@ -120,7 +120,7 @@
             <a class="line-item__title-link" :href="item.url">${ item.product_title }</a>
             <span v-for="option in item.options_with_values" class="line-item__option">${ option.value }</span>
           </h2>
-          <button class="line-item__remove" @click.prevent="$emit('removeItem', line)">{% render 'icon-close' %}</button>
+          <button class="line-item__remove" type="button" @click.prevent="$emit('removeItem', line)">{% render 'icon-close' %}</button>
         </div><!-- .line-item__title-remove -->
         <div class="line-item__price-qty">
           <div class="line-item__pricing">
