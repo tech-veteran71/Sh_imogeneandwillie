@@ -245,8 +245,20 @@
   margin-left: .8rem;
   border: none;
   background: #F0EFEC;
-  padding-left: .6rem;
+  text-align: center;
   font-size: 1.3rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.line-item__qty-selector-input::-webkit-outer-spin-button,
+.line-item__qty-selector-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.line-item__qty-selector-input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .upsell__products {
