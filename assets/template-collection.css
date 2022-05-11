@@ -98,6 +98,29 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .main-collection__title-count {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .main-collection__title-count .product-count {
+    grid-column-start: span 8;
+  }
+
+  .main-collection__title-count .mobile-facets__clear-wrapper,
+  .main-collection__title-count .collection-grid__buttons,
+  .main-collection__title-count .mobile-facets__open {
+    grid-column-start: span 2;
+  }
+
+  .main-collection__title-count .mobile-facets__clear-wrapper,
+  .main-collection__title-count  .collection-grid__buttons {
+    justify-self: end;
+  }
+
+}
+
 .body-facets-open .main-collection__title-count {
   background-color: var(--color-white);
 }
