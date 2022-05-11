@@ -17,7 +17,7 @@ if (!customElements.get('product-form')) {
 
       submitButton.setAttribute('aria-disabled', true);
       submitButton.classList.add('loading');
-      this.querySelector('.loading-overlay__spinner').classList.remove('hidden');
+      this.querySelector('.loading-overlay__spinner')?.classList?.remove('hidden');
 
       try {
         await window.CartAPI.addFromForm(this.form);
@@ -28,7 +28,7 @@ if (!customElements.get('product-form')) {
         
       submitButton.classList.remove('loading');
       submitButton.removeAttribute('aria-disabled');
-      this.querySelector('.loading-overlay__spinner').classList.add('hidden');
+      this.querySelector('.loading-overlay__spinner')?.classList?.add('hidden');
     }
 
     handleErrorMessage(errorMessage = false) {
