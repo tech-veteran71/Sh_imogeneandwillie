@@ -223,12 +223,56 @@
     },
     "16510886053ebed722": {
       "type": "section-parallax",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
       }
     },
+    "1651088625b53b1bea": {
+      "type": "section-content-spec-collection",
+      "blocks": {
+        "592271cd-9a9d-4355-8d3a-df3d37d9886a": {
+          "type": "collection",
+          "settings": {
+            "collection": "size-27"
+          }
+        },
+        "f94afc27-cf54-44df-ae41-297c965ee12f": {
+          "type": "collection",
+          "settings": {
+            "collection": "size-29"
+          }
+        },
+        "3628749d-631f-4cf8-8903-ee660c0b8ab4": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-size-23"
+          }
+        },
+        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-size-24"
+          }
+        }
+      },
+      "block_order": [
+        "592271cd-9a9d-4355-8d3a-df3d37d9886a",
+        "f94afc27-cf54-44df-ae41-297c965ee12f",
+        "3628749d-631f-4cf8-8903-ee660c0b8ab4",
+        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab"
+      ],
+      "settings": {
+        "pre_title": "lorem ipsum",
+        "title": "lorem ipsum",
+        "title_font": "headline__din",
+        "btn_text": "Men’s denim",
+        "btn_url": "https:\/\/google.com"
+      }
+    },
     "165108861515d33581": {
       "type": "section-editorial-content",
+      "disabled": true,
       "blocks": {
         "c2142425-c70e-4932-a052-e6ccd984403f": {
           "type": "image",
@@ -274,50 +318,9 @@
         "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in <br> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis  laboris nisi ut aliquip ex ea commodo consequat."
       }
     },
-    "1651088625b53b1bea": {
-      "type": "section-content-spec-collection",
-      "blocks": {
-        "592271cd-9a9d-4355-8d3a-df3d37d9886a": {
-          "type": "collection",
-          "settings": {
-            "collection": "size-27"
-          }
-        },
-        "f94afc27-cf54-44df-ae41-297c965ee12f": {
-          "type": "collection",
-          "settings": {
-            "collection": "size-29"
-          }
-        },
-        "3628749d-631f-4cf8-8903-ee660c0b8ab4": {
-          "type": "collection",
-          "settings": {
-            "collection": "bottom-size-23"
-          }
-        },
-        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab": {
-          "type": "collection",
-          "settings": {
-            "collection": "bottom-size-24"
-          }
-        }
-      },
-      "block_order": [
-        "592271cd-9a9d-4355-8d3a-df3d37d9886a",
-        "f94afc27-cf54-44df-ae41-297c965ee12f",
-        "3628749d-631f-4cf8-8903-ee660c0b8ab4",
-        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab"
-      ],
-      "settings": {
-        "pre_title": "lorem ipsum",
-        "title": "lorem ipsum",
-        "title_font": "headline__din",
-        "btn_text": "Men’s denim",
-        "btn_url": "https:\/\/google.com"
-      }
-    },
     "16510889927e4f6edc": {
       "type": "section-content-cards",
+      "disabled": true,
       "blocks": {
         "1b7c16a7-8c1d-4005-8a46-6812c7b302a2": {
           "type": "info",
@@ -368,12 +371,19 @@
     },
     "16521084466e036390": {
       "type": "section-recent-moments",
+      "disabled": true,
       "settings": {
         "choose_collection": "bottom-size-24",
         "choose_blog": "new-mens-denim",
         "title": "TEXT",
         "btn": "TEXT",
         "url": "https:\/\/google.com"
+      }
+    },
+    "165229421606b7bfcd": {
+      "type": "section-product-moodboard",
+      "settings": {
+        "main_title": "dig into the moodboard"
       }
     }
   },
@@ -398,9 +408,10 @@
     "164927862869965961",
     "1650300377077f241e",
     "16510886053ebed722",
-    "165108861515d33581",
     "1651088625b53b1bea",
+    "165108861515d33581",
     "16510889927e4f6edc",
-    "16521084466e036390"
+    "16521084466e036390",
+    "165229421606b7bfcd"
   ]
 }

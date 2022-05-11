@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "7e36d9c9-8d19-40d7-8740-95dcb6ddf2bf": {
+          "type": "link",
+          "settings": {
+            "link_text": "made in usa",
+            "link": "shopify:\/\/pages\/our-voice-made-in-usa"
+          }
+        },
+        "69a8b823-a49f-43fc-8c88-78d4735bfcc7": {
+          "type": "accordian",
+          "settings": {
+            "accordian_title": "fit and sizing",
+            "accordian_content": ""
+          }
+        },
+        "885c349d-e8e1-42fc-9ea0-d39ff2bccc19": {
+          "type": "accordian",
+          "settings": {
+            "accordian_title": "care and materials",
+            "accordian_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "7e36d9c9-8d19-40d7-8740-95dcb6ddf2bf",
+        "69a8b823-a49f-43fc-8c88-78d4735bfcc7",
+        "885c349d-e8e1-42fc-9ea0-d39ff2bccc19"
+      ],
+      "settings": {
+        "installment_info": "4 interest-free installments of $58.75 by",
+        "sale_details": "this item is final sale.",
+        "info_title": "we recommend ordering your usual size.",
+        "text": "notify me when my size is in stock",
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1650489885e385492b": {
+      "type": "size-guide-pop",
+      "blocks": {
+        "85c063f5-dd38-4179-8b48-cd5ab247c07b": {
+          "type": "link",
+          "settings": {
+            "link_text": "size guide",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "85c063f5-dd38-4179-8b48-cd5ab247c07b"
+      ],
+      "settings": {
+        "title_1": "we’re in this together",
+        "text_1": "every body is different. we know how hard it can be to find the right jean when shopping online, but rest assured—we’re here to help.",
+        "title_2": "how we measure:",
+        "text_2": "first thing's first, you’ll be measuring your body, not your other clothes. we’ve found it’s the easiest way to find what size is best for you. we recommend measuring in front of a mirror, directly against your skin, and keeping the measuring tape taut.",
+        "label": "speak with a team member",
+        "btn_text": "CHAT WITH A TEAM MEMBER",
+        "btn_url": ""
+      }
+    },
+    "1652199612f01388e0": {
+      "type": "product-video-story",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/wyatt-bleach_02.jpg",
+        "title": "file under: process",
+        "wrap_title": "screenprinted here in nashville",
+        "top_text": "developed in-house from hand-drawn art by matt, and inspired by the thousands of vintage tees we've gotten our hands on over the years.",
+        "bottom_text": "so much goes into everything that we do and our graphic tees are no different. hours of time are spent over the press making sure every color, application, line is exactly how we envisioned it. ryan nole at Kangaroo Press, our primary screen printing partner, takes our artwork and brings it to life.",
+        "link_text": "learn more >",
+        "btn_url": "",
+        "btn": "learn more about our process >",
+        "add_video": true,
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/a_day_in_the_life-dev-test.mp4?v=1652201012"
+      }
+    },
+    "165220110819e632f3": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "choose_collection": "graphic-content",
+        "title": "the devil is in the details",
+        "main_title": "the devil is in the details",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "pre_title": "(featured)",
+        "heading": "You may also like"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1650489885e385492b",
+    "1652199612f01388e0",
+    "165220110819e632f3",
+    "product-recommendations"
+  ]
+}
