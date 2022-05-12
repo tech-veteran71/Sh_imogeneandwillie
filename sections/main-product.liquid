@@ -385,7 +385,7 @@
       <div class='product-media-swiper'>
         <div class="swiper-wrapper">
           {%- for media in product.images -%}
-            {% unless image.alt contains 'mobile-hide' %}
+            {% unless media.alt contains 'mobile-hide' %}
             <div class="swiper-slide">
               <div class="media-wrap">
                 {% render 'responsive--image' with media as image, max_width: 560, class: 'product-media' %}
