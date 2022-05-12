@@ -374,7 +374,7 @@ a.product__text {
 .product .product__description .read-content {
   color: var(--color-blue);
   font-family: var(--font-din);
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 .product .desription-without-truncate {
@@ -909,10 +909,10 @@ a.product__text {
   color: var(--color-normal-black);
   letter-spacing: 0.3rem;
   margin-top: 0;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1rem;
 }
 .product .product-info {
-  margin: 0 0 3rem;
+  margin: 0 0 2rem;
   font-size: 1.8rem;
   font-family: var(--font-arno-display);
   font-weight: normal;
@@ -926,7 +926,7 @@ a.product__text {
 .product .price .price-item {
   font-size: 1.6rem;
   font-family: var(--font-din);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-normal-black);
   letter-spacing: 0.36em;
 }
@@ -1017,7 +1017,7 @@ a.product__text {
 .product .size-box-wrap .form__label {
   font-size: 1.2rem;
   font-family: var(--font-din);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-normal-black);
   text-transform: uppercase;
   margin: 0;
@@ -1239,7 +1239,7 @@ a.product__text {
 .product .accordian-title {
   font-size: 1.4rem;
   font-family: var(--font-din);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-dim-black);
   letter-spacing: 0.2rem;
 }
@@ -1308,12 +1308,21 @@ a.product__text {
   object-fit: contain;
 }
 .product .product-gallery {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1.8rem;
-  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   position: relative;
+}
+.media-item--whole {
+  width: 100%;
+  padding-bottom: 1.8rem;
+  padding-left: 1.8rem;
+}
+.media-item--half {
+  width: 50%;
+}
+.media-item--third {
+  width: 33.3333%;
 }
 .product .product-media-wrap {
   cursor: pointer;
@@ -1364,10 +1373,10 @@ a.product__text {
 }
 .product .product-form__submit {
   font-family: var(--font-din);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.2rem;
   background-color: var(--color-normal-black);
-  color: var(--color-white);
+  color: var(--color-Xlight-wheat);
   text-transform: uppercase;
   letter-spacing: 0.42em;
   height: 4.5rem;
@@ -1391,7 +1400,7 @@ a.product__text {
   .product__media-wrapper {
   max-width: 70%;
   width: 70%;
-  margin-left: 5rem;
+  margin-left: 3.2rem;
 }
 .product .size-box-wrap .inputs-group .sold-out:after {
   transform: rotate(138deg);

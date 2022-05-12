@@ -299,12 +299,7 @@
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
-                    {% if product.compare_at_price_min > 0 %}
-                    {% assign has_sale_price = true %}
-                    {% else %}
-                    {% assign has_sale_price = false %}
-                    {% endif %}
-                    {% if has_sale_price %}
+                    {% if product.tags contains 'final-sale' %}
                     <span class="sale-details">{{ section.settings.sale_details }}</span>
                     {% endif %}
                   </div>
@@ -382,7 +377,7 @@
     <div class="grid__item product__media-wrapper" data-product-media>
       <div class="product-gallery" id="product-gallery">
         {%- for media in product.images -%}
-          <div class="product-media-wrap media-item-{{ forloop.index }}" data-media-item>
+          <div class="product-media-wrap media-item-{{ forloop.index }} media-item--whole {% if media.alt contains '33' %}media-item--third{% endif %} {% if media.alt contains '50' %}media-item--half{% endif %}" data-media-item>
             {% render 'responsive--image' with media as image, max_width: 560, class: 'product-media' %}
           </div>
         {% endfor %}
