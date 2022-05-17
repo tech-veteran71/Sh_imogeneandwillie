@@ -52,33 +52,39 @@ class FacetFiltersForm extends HTMLElement {
 
     if (updateURLHash) FacetFiltersForm.updateURLHash(searchParams);
 
-    /** Mechanism to avoid toggling facets on desktop */
-    if (FacetFiltersForm.toggleFacets) {
-      document.dispatchEvent(new CustomEvent('facets:toggle'))
-    }
-    FacetFiltersForm.toggleFacets = true;
   }
 
   static renderSectionFromFetch(url, event) {
-    fetch(url)
+    return fetch(url)
       .then(response => response.text())
       .then((responseText) => {
         const html = responseText;
         FacetFiltersForm.filterData = [...FacetFiltersForm.filterData, { html, url }];
-        FacetFiltersForm.renderFilters(html, event);
         FacetFiltersForm.renderProductGridContainer(html);
         FacetFiltersForm.renderProductCount(html);
+        FacetFiltersForm.renderFilters(html, event);
         document.body.classList.remove('facets-loading');
-
+        /** Mechanism to avoid toggling facets on desktop */
+        if (FacetFiltersForm.toggleFacets) {
+          document.dispatchEvent(new CustomEvent('facets:toggle'))
+        }
+        FacetFiltersForm.toggleFacets = true;
+        document.dispatchEvent(new CustomEvent('facets:rendered'))
       });
   }
 
   static renderSectionFromCache(filterDataUrl, event) {
     const html = FacetFiltersForm.filterData.find(filterDataUrl).html;
-    FacetFiltersForm.renderFilters(html, event);
     FacetFiltersForm.renderProductGridContainer(html);
     FacetFiltersForm.renderProductCount(html);
+    FacetFiltersForm.renderFilters(html, event);
     document.body.classList.remove('facets-loading');
+    /** Mechanism to avoid toggling facets on desktop */
+    if (FacetFiltersForm.toggleFacets) {
+      document.dispatchEvent(new CustomEvent('facets:toggle'))
+    }
+    FacetFiltersForm.toggleFacets = true;
+    document.dispatchEvent(new CustomEvent('facets:rendered'))
   }
 
   static renderProductGridContainer(html) {
@@ -98,25 +104,17 @@ class FacetFiltersForm extends HTMLElement {
   }
 
   static renderFilters(html, event) {
-    const parsedHTML = new DOMParser().parseFromString(html, 'text/html');
-
     const facetDetailsElements =
-      parsedHTML.querySelectorAll('#FacetFiltersForm .js-filter, #FacetFiltersFormMobile .js-filter');
+      document.querySelectorAll('#FacetFiltersForm .js-filter, #FacetFiltersFormMobile .js-filter');
     const matchesIndex = (element) => {
       const jsFilter = event ? event.target.closest('.js-filter') : undefined;
       return jsFilter ? element.dataset.index === jsFilter.dataset.index : false;
     }
-    const facetsToRender = Array.from(facetDetailsElements).filter(element => !matchesIndex(element));
-    const countsToRender = Array.from(facetDetailsElements).find(matchesIndex);
+    const toggledFacet = Array.from(facetDetailsElements).find(matchesIndex);
 
-    facetsToRender.forEach((element) => {
-      document.querySelector(`.js-filter[data-index="${element.dataset.index}"]`).innerHTML = element.innerHTML;
-    });
+    
+    if (toggledFacet) toggledFacet.querySelector('summary')?.click();
 
-    FacetFiltersForm.renderActiveFacets(parsedHTML);
-    FacetFiltersForm.renderAdditionalElements(parsedHTML);
-
-    if (countsToRender) FacetFiltersForm.renderCounts(countsToRender, event.target.closest('.js-filter'));
   }
 
   static renderActiveFacets(html) {
