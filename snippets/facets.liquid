@@ -63,11 +63,11 @@
   </div><!-- .product-count -->
   <div class="collection-grid__buttons medium-hide large-up-hide">
     <span class="collection-grid__label">VIEW:</span>
-    <button id="collection-grid__button-single" class="collection-grid__button inactive" onclick="addGrid()">
+    <button id="collection-grid__button-single" class="collection-grid__button inactive" onclick="addGrid()" js-collection-button-single>
       <span class="collection-grid__desktop-icon">{% render 'icon-collection-2' %}</span>
       <span class="collection-grid__mobile-icon">{% render 'icon-collection-1' %}</span>
     </button>
-    <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()">
+    <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()" js-collection-button-grid>
       <span class="collection-grid__desktop-icon">{% render 'icon-collection-3' %}</span>
       <span class="collection-grid__mobile-icon">{% render 'icon-collection-2' %}</span>
     </button>
@@ -149,7 +149,7 @@
                                 {% assign filename = 'swatch-' | append: value.label | handleize | append: '.png'  %}
                                 <span class="mobile-facets__facet-swatch" style="--image: url({{ filename | file_url }});"></span>
                               {% endif %}
-                              {{ value.label | escape }}
+                              <span class="{{ filter.label | escape | handleize }}-name">{{ value.label | escape }}</span>
                             </label>
                           </li>
                         {%- endfor -%}

@@ -385,12 +385,8 @@
     width: auto;
     padding: 0 1rem;
   }
-  .collection-grid__button.inactive svg {
-    opacity: 0.6;
-  }
-
   .collection-grid__button.active svg {
-    display: inline;
+    display: none;
   }
 
   .collection-grid__label {
