@@ -12,16 +12,19 @@
   <div class="desktop-facets__layout">
     <div class="collection-grid__buttons">
       <span class="collection-grid__label">VIEW:</span>
-      <button id="collection-grid__button-single" class="collection-grid__button inactive" onclick="addGrid()">
+      <button class="collection-grid__button inactive" onclick="addGrid()" js-collection-button-single>
         <span class="collection-grid__desktop-icon">{% render 'icon-collection-2' %}</span>
         <span class="collection-grid__mobile-icon">{% render 'icon-collection-1' %}</span>
       </button>
-      <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid" onclick="addSingle()">
+      <button class="collection-grid__button collection-grid__button-grid active" onclick="addSingle()" js-collection-button-grid>
         <span class="collection-grid__desktop-icon">{% render 'icon-collection-3' %}</span>
         <span class="collection-grid__mobile-icon">{% render 'icon-collection-2' %}</span>
       </button>
     </div>
-    <button class="desktop-facets__trigger" aria-controls="FacetsFormDesktop" aria-expanded="false" js-accordion-open>FILTER</button>
+    <button class="desktop-facets__trigger" aria-controls="FacetsFormDesktop" aria-expanded="false" js-accordion-open>
+      <span class="filter-label">FILTER</span>
+      <span class="filter-close">{% render 'icon-close' %}</span>
+    </button>
     <form id="FacetsFormDesktop" class="desktop-facets__form" aria-hidden="true" js-accordion-content>
       <div class="desktop-facets__grid" style="--filters-size: {{ results.filters.size | plus: 1 }}">
         <div class="desktop-facets__grid-item desktop-facets__sort-by">
@@ -65,6 +68,9 @@
         {% endfor %}
       </div><!-- .desktop-facets__grid --> 
             
+      <div class="desktop-facets__bottom">
+        <a class="desktop-facets__clear-all button" href="{{ results_url }}">CLEAR</a>
+      </div>
       {% if results.current_vendor or results.current_type %}
         <input type="hidden" name="q" value="{{ results.current_vendor }}{{ results.current_type }}">
       {% endif %}

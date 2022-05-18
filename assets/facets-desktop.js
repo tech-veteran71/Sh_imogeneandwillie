@@ -20,6 +20,10 @@ class FacetsDesktop extends HTMLElement {
       button.addEventListener("click", toggleContent.bind(this));
     });
 
+    document.addEventListener("facets:rendered", () => {
+      this.querySelector(this._selectors.accordionOpen).click();
+    })
+    
     function toggleContent(e) {
       e.stopImmediatePropagation();
       const trigger = e.currentTarget;
@@ -38,7 +42,6 @@ class FacetsDesktop extends HTMLElement {
   }
 
   _initForm() {
-    const facets = document.querySelector('facet-filters-form');
     const masterForm = document.getElementById("FacetFiltersFormMobile");
     const form = this.querySelector(this._selectors.form);
 
@@ -51,7 +54,7 @@ class FacetsDesktop extends HTMLElement {
 
       /** Mechanism to avoid toggling facets on desktop */
       FacetFiltersForm.toggleFacets = false;
-      
+
       msInput.checked = input.checked;
       masterForm.dispatchEvent(new Event("input"));
     });

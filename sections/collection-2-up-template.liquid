@@ -33,11 +33,11 @@
             </div>
             <div class="collection-grid__buttons">
               <span class="collection-grid__label">VIEW:</span>
-              <button id="collection-grid__button-single" class="collection-grid__button active" onclick="addGrid()">
+              <button id="collection-grid__button-single" class="collection-grid__button active" onclick="addGrid()" js-collection-button-single>
                 <span class="collection-grid__desktop-icon">{% render 'icon-collection-2' %}</span>
                 <span class="collection-grid__mobile-icon">{% render 'icon-collection-1' %}</span>
               </button>
-              <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid inactive" onclick="addSingle()">
+              <button id="collection-grid__button-grid" class="collection-grid__button collection-grid__button-grid inactive" onclick="addSingle()" js-collection-button-grid>
                 <span class="collection-grid__desktop-icon">{% render 'icon-collection-3' %}</span>
                 <span class="collection-grid__mobile-icon">{% render 'icon-collection-2' %}</span>
               </button>
