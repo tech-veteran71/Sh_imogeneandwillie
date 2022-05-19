@@ -1,6 +1,6 @@
 .hero-banner {
-  height: 100vh;
-  min-height: 60rem;
+  height: auto;
+  min-height: auto;
   position: relative;
 }
 .hero-banner .hero-inner,

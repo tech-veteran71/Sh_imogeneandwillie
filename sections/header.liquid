@@ -206,6 +206,7 @@
                     {%- endfor -%}
                   </ul>
                 </nav>
+                <hr class="menu-drawer-divider" />
                 <div class="menu-drawer-footer" data-menu-footer>
                   {% if section.settings.text != blank %}
                     <p class="text">{{ section.settings.text }}</p>
@@ -403,7 +404,7 @@
                                 {%- for grandchildlink in childlink.links -%}
                                   <li class="mega_menu-item mega_menu-text">
                                     <a href="{{ grandchildlink.url }}" class="mega_menu-link">
-                                      {{ grandchildlink.title | escape }}
+                                      {{ grandchildlink.title }}
                                     </a>
                                   </li>
                                 {% endfor %}

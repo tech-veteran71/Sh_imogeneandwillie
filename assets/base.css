@@ -2377,10 +2377,10 @@ details-disclosure > details {
 .badge {
   border: 1px solid transparent;
   border-radius: 0;
-  display: inline-blocsk;
+  display: inline-block;
   font-size: 1.2rem;
-  line-height: 1;
-  padding: 0.3rem 1.3rem;
+  line-height: 1.2;
+  padding: 0.3rem 1.3rem 0.5rem;
   text-align: center;
   background-color: var(--color-dim-black);
   color: rgb(var(--color-foreground));
@@ -2554,6 +2554,10 @@ details-disclosure > details {
 
   .template-collection .content-for-layout, .custom-page .content-for-layout, .template-customer .content-for-layout {
     margin-top: -10rem;  
+  }
+
+  .header-wrapper:hover {
+    background-color: var(--color-Xlight-wheat);
   }
 
   /* specific css for header in fabric and custom content page start */
@@ -2855,6 +2859,14 @@ header .sub-menu-link {
 .mega_menu-about a {
   color: var(--color-dim-black);
 }
+
+.mega_menu-about a img {
+  filter: grayscale(100%);
+}
+
+.mega_menu-about a:hover img {
+  filter: none;
+}
 .header .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -2994,7 +3006,7 @@ header .sub-menu-link {
   position: absolute;
   width: 100%;
   left: 3rem;
-  padding-bottom: 10rem;
+  padding-bottom: 18rem;
   top: 100%;
 }
 #menu-drawer .slide-item {
@@ -3052,7 +3064,7 @@ header .sub-menu-link {
   width: 2.4rem;
 }
 #menu-drawer .menu-drawer__navigation {
-  padding: 2.6rem 0 5.6rem;
+  padding: 2.6rem 0 0rem;
 }
 #menu-drawer .search-form-wrap .field__label {
   font-size: 1.4rem;
@@ -3061,6 +3073,11 @@ header .sub-menu-link {
   color: var(--color-dim-black);
   font-weight: 600;
   top: 1.8rem;
+}
+.menu-drawer-divider {
+  margin: 2.8rem 2rem;
+  width: 60%;
+  background-color: rgba(var(--color-foreground), 1);
 }
 #menu-drawer .search__input:focus ~ .field__label {
   font-size: 1rem;
@@ -3168,7 +3185,7 @@ header .sub-menu-link {
     display: unset;
   }
   #menu-drawer .list-menu__item {
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
   }
   #menu-drawer .search-form-wrap .field {
     padding: 0 2rem;
@@ -3263,3 +3280,105 @@ header .sub-menu-link {
     letter-spacing: 0.39rem;
   }
 }
+
+.price {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  color: rgb(var(--color-foreground));
+}
+
+.price.price--unavailable {
+  visibility: hidden;
+}
+
+.price--end {
+  justify-content: flex-end;
+}
+
+.price dl {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.price dd {
+  margin: 0 1rem 0 0;
+}
+
+.price .price__last:last-of-type {
+  margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .price {
+    margin-bottom: 0;
+  }
+}
+
+.price--large {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: 0.13rem;
+}
+
+@media screen and (min-width: 750px) {
+  .price--large {
+    font-size: 1.6rem;
+  }
+}
+
+.price--sold-out .price__availability,
+.price__regular {
+  display: block;
+}
+
+.price__sale,
+.price__availability,
+.price .price__badge-sale,
+.price .price__badge-sold-out,
+.price--on-sale .price__regular,
+.price--on-sale .price__availability,
+.price--no-compare .price__compare {
+  display: none;
+}
+
+.price--sold-out .price__badge-sold-out,
+.price--on-sale .price__badge-sale {
+  display: inline-flex;
+}
+
+.price--on-sale .price__sale {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.price--center {
+  display: flex;
+  justify-content: center;
+}
+
+.price--on-sale .price-item--regular {
+  text-decoration: line-through;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.unit-price {
+  font-size: 1.1rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.2;
+  margin-top: 0.2rem;
+  text-transform: uppercase;
+  color: rgba(var(--color-foreground), 0.7);
+}
+.price-item--sale {
+  color: #B4A06A;
+}
+.price--on-sale .price-item--regular, .card-information__wrapper > .price.price--sold-out, .card-information__text.light, .card-information__subtext.light {
+ color: #A0A0A0; 
+} 

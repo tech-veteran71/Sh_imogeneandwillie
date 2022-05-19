@@ -323,7 +323,7 @@
   font-size: 1.2rem;
   font-family: var(--font-gothic);
   color: var(--color-dim-black);
-  margin: 0;
+  margin: 0 0 0.4rem;
   line-height: 1.6rem;
   letter-spacing: 0.16rem;
 }
@@ -334,15 +334,15 @@
   font-weight: 500;
   color: var(--color-dim-black);
   margin: 0;
-  line-height: 1.8rem;
+  line-height: 1;
   letter-spacing: 0.315rem;
 }
 
 @media screen and (min-width: 990px) {
   .card-information__text {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
   } 
   .card-information__wrapper > .price {
-    line-height: 2.5rem;
+    line-height: 1;
   }
 }

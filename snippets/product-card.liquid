@@ -12,7 +12,7 @@
       <h4 class="card-information__subtext {% if product.available == false %}light{% endif %}">{{ product.metafields.descriptors.subtitle }}</h4>
       {% endif %}
       {%- if show_price -%}
-        {% render 'price', product: product, price_class: '' %}
+        {% render 'price', product: product %}
       {%- endif -%}
     </div>
     {%- if show_badges -%}

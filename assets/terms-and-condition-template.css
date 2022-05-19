@@ -31,16 +31,6 @@
   margin: 1.2em auto 0;
   position: relative;
 }
-.terms-and-service-page .terms-and-condition::before {
-  content: '';
-  width: 3px;
-  height: 100px;
-  background-color: var(--color-dark-grey);
-  display: block;
-  position: absolute;
-  top: 3px;
-  left: -1.18em;
-}
 .terms-and-service-page .terms-and-condition p,
 .terms-and-service-page .terms-and-condition h3 {
   font-size: 1.2rem;
@@ -55,13 +45,6 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1400px) {
-  .terms-and-service-page .terms-and-condition::before {
-    left: -1em;
-    width: 2px;
-    height: 85px;
-  }
-}
 @media screen and (max-width: 1279px) {
   .faq-page {
     font-size: 2vw;
@@ -73,11 +56,6 @@
   .terms-and-service-page .terms-and-condition p {
     font-size: 1.2rem;
     margin-bottom: 1.6em;
-  }
-  .terms-and-service-page .terms-and-condition::before {
-    left: -0.6em;
-    width: 1.5px;
-    height: 100px;
   }
 }
 @media screen and (max-width: 990px) {
@@ -105,12 +83,6 @@
   .terms-and-service-page .terms-and-condition h3,
   .terms-and-service-page .terms-and-condition p {
     font-size: 1.2rem;
-  }
-  .terms-and-service-page .terms-and-condition::before {
-    left: -12px;
-    width: 3px;
-    height: 80px;
-    top: 5px;
   }
   .terms-and-service-page .terms-and-condition {
     width: 85%;

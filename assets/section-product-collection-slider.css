@@ -2,8 +2,12 @@
   padding-bottom: 8rem;
   background-color: var(--color-Xlight-wheat);
 }
+.featured-collection .index-container {
+  padding-right: 0;
+}
+
 .featured-collection .wrapper {
-  padding: 0 3rem;
+  padding: 0 0 0 3rem;
 }
 .featured-collection .product_gallery {
   padding: 0 0 5.5rem 0;
@@ -96,6 +100,9 @@
 @media screen and (max-width:990px){
   .featured-collection .content-wrap--desktop {
     display: none;
+  }
+  .featured-collection .index-container {
+    padding-right: 2rem;
   }
   .featured-collection .title {
     display: none;

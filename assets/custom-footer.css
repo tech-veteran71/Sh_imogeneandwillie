@@ -15,7 +15,7 @@
   flex: 22.8rem;
 }
 .footer-container .text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--color-normal-black);
   max-width: 17rem;
   line-height: 1.4;
@@ -36,7 +36,7 @@
   line-height: 1;
 }
 .custom-footer .menu-link {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--color-dim-black);
   text-decoration: none;
   letter-spacing: 0.2rem;
@@ -103,7 +103,7 @@
   margin: 0;
 }
 .custom-footer .newsletter-text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   color: var(--color-normal-black);
   letter-spacing: 0.2rem;
@@ -195,7 +195,7 @@
     padding: 0 0.2rem;
   }
   .custom-footer .menu-link {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .custom-footer .menu-item {
     margin-bottom: 0.4rem;
@@ -239,7 +239,7 @@
     max-width: 22rem;
   }
   .footer-container .text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     max-width: 17.5rem;
     letter-spacing: 0.2rem;
   }
@@ -269,7 +269,7 @@
     padding: 0%;
   }
   .custom-footer .menu-link {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .custom-footer .menu-item {
     margin-bottom: 0.6rem;
@@ -279,7 +279,7 @@
     letter-spacing: 0.3rem;
   }
   .custom-footer .newsletter-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .custom-footer .footer-newsletter {
     max-width: 100%;
@@ -295,6 +295,9 @@
   .custom-footer .menu-column:last-child {
     display: unset;
     margin-top: 1.8rem;
+  }
+  .footer-menu .menu-column:nth-of-type(2) {
+    display: none;
   }
 }
 

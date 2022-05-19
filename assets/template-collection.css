@@ -80,15 +80,15 @@
 .collection-grid--3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1.5rem;
-  grid-row-gap: 3rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 5rem;
 }
 
 .collection-grid--2 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-column-gap: 1.5rem;
-  grid-row-gap: 3rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 5rem;
 }
 
 .main-collection__title-count {
@@ -228,8 +228,12 @@
   .collection-main {
     padding: 0 8rem;
   }
-  .collection-main__wrapper {
+  .collection-main__bg .collection-main__wrapper {
     padding: 6rem 8rem;
+  }
+
+  .collection-main__wrapper {
+    padding: 10rem 8rem;
   }
   .mobile-facets__open svg {
     display: none;
@@ -303,7 +307,7 @@
 }
 .review-wrap {
   margin: 6rem 0;
-  padding:  0 6rem;
+  padding:  0 10rem;
 }
 .customer-name {
   font-size: 1.2rem;

@@ -1,5 +1,5 @@
 {{ 'section-product-collection-slider.css' | asset_url | stylesheet_tag }}
-<div class="featured-collection">
+<div class="featured-collection" style="background-color: {{ section.settings.background_color }};">
   <div class="index-container">
     <div class="wrapper">
       {% if section.settings.main_title != blank %}
@@ -29,13 +29,25 @@
         <div class="swiper-wrapper">
           {% if section.settings.choose_collection != blank %}
             {% for product in collections[section.settings.choose_collection].products %}
+              {% if section.settings.show_price %}
+              {% assign show_price = 'true'%}
+              {% endif %}
+              {% if section.settings.show_subtitle %}
+              {% assign show_subtitle = 'true'%}
+              {% endif %}
+              {% if section.settings.show_title %}
+              {% assign show_title = 'true'%}
+              {% endif %}
+              {% if section.settings.show_badges %}
+              {% assign show_badges = 'true'%}
+              {% endif %}
               {% render 'product-card',
                     product: product,
-                    show_title: true,
-                    show_subtitle: true,
-                    show_price: false,
+                    show_title: show_title,
+                    show_subtitle: show_subtitle,
+                    show_price: show_price,
                     swiper_slide: true,
-                    show_badges: false
+                    show_badges: show_badges
                   %}
             {% endfor %}
           {% else %}
@@ -65,6 +77,12 @@
       "info": "-------"
     },
     {
+      "type": "color",
+      "id": "background_color",
+      "default": "#F7F6F3",
+      "label": "BG Color"
+    },
+    {
       "type": "collection",
       "id": "choose_collection",
       "label": "Choose Collection"
@@ -73,6 +91,30 @@
       "type": "header",
       "content": "Content",
       "info": "--------"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show Title",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subtitle",
+      "label": "Show Subtitle",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "label": "Show Price",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_badges",
+      "label": "Show Badges",
+      "default": false
     },
     {
       "type": "text",

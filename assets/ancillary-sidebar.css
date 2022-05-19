@@ -109,6 +109,8 @@
 .faq-page svg {
   width: 100%;
   height: 100%;
+  color: var(--color-black);
+  fill: var(--color-black);
 }
 .faq-page .icon {
   display: flex;

@@ -160,8 +160,11 @@
   }
   .order-history .logout {
     font-size: 14px;
-    color: var(--color-blue);
     letter-spacing: 2px;
+    text-transform: lowercase;
+    font-family: var(--font-din);
+  font-weight: 600;
+  color: var(--color-blue);
   }
   .order-history tbody td {
     border-bottom: 0;

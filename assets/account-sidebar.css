@@ -70,6 +70,7 @@
 }
 .account-sidebar .logout {
   font-size: 0.8em;
+  text-transform: lowercase;
   font-family: var(--font-din);
   font-weight: 600;
   color: var(--color-blue);

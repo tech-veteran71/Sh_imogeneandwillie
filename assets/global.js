@@ -2911,7 +2911,7 @@ customElements.define("ajax-cart", AjaxCart);
 
   // Featured Collection slider
   new Swiper('.featured-collection .product_gallery', {
-    slidesPerView: 4,
+    slidesPerView: 3.5,
     spaceBetween: 20,
     freeMode: true,
     scrollbar: {
@@ -2927,7 +2927,7 @@ customElements.define("ajax-cart", AjaxCart);
         spaceBetween: 40,
       },
       1279: {
-        slidesPerView: 4,
+        slidesPerView: 3.5,
         spaceBetween: 20,
       },
       768: {
