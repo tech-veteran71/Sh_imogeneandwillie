@@ -2,9 +2,13 @@
   "sections": {
     "main": {
       "type": "main-search"
+    },
+    "banner": {
+      "type": "collection-banner"
     }
   },
   "order": [
-    "main"
+    "main",
+    "banner"
   ]
 }
