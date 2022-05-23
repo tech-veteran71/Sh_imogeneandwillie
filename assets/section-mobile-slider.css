@@ -27,7 +27,6 @@
   text-decoration: none;
 }
 .slide-section .wrapper .product-title {
-  font-size: 1.2rem;
   margin-bottom: 0;
   margin-top: 0;
   color: var(--color-normal-black);
@@ -99,7 +98,7 @@
   height: 4px;
 }
 .slide-section .product-slider .swiper-pagination {
-  bottom: 20px;
+  bottom: 10px;
   max-width: 100%;
   text-align: center;
   right: 0;

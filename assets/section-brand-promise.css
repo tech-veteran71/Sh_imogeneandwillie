@@ -40,18 +40,9 @@
 }
 .promise-section .btn {
   text-decoration: none;
-  font-size: 1.4rem;
-  font-family: var(--font-din);
-  font-weight: 600;
-  color: var(--color-normal-black);
-  text-transform: uppercase;
-  max-width: 22.6rem;
-  height: 5.5rem;
   display: flex;
   align-items: center;
   margin: 0 auto;
-  letter-spacing: 0.3rem;
-  border: 0.1rem solid var(--color-normal-black);
   justify-content: center;
   margin-top: 3.5rem;
 }
@@ -79,14 +70,9 @@
   display: none;
 }
 /* responsive start */
-@media(max-width: 1560px ){
-  .promise-section .content {
-    max-width: 46.7rem;
-  }
-}
-@media(max-width: 1366px ){
-  .promise-section .content {
-    max-width: 45.8rem;
+@media(min-width: 991px) {
+  .alpha--reverse {
+    order: 2;
   }
 }
 @media(max-width: 1279px ){

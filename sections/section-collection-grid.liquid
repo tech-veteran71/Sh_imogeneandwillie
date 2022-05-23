@@ -22,34 +22,26 @@
       {% endif %}
       <div class="gallery">
           {% for product in collections[section.settings.choose_collection].products limit: section.settings.products_to_show %}
-            {% if section.settings.show_title %}
-            {% render 'product-card',
-                    product: product,
-                    show_title: true,
-                    show_subtitle: true,
-                    show_price: false,
-                    swiper_slide: false,
-                    show_badges: false
-                  %}
-            {% elsif section.settings.show_price %}
+            {% if section.settings.show_price %}
+              {% assign show_price = 'true'%}
+              {% endif %}
+              {% if section.settings.show_subtitle %}
+              {% assign show_subtitle = 'true'%}
+              {% endif %}
+              {% if section.settings.show_title %}
+              {% assign show_title = 'true'%}
+              {% endif %}
+              {% if section.settings.show_badges %}
+              {% assign show_badges = 'true'%}
+              {% endif %}
               {% render 'product-card',
-                      product: product,
-                      show_title: true,
-                      show_subtitle: true,
-                      show_price: true,
-                      swiper_slide: false,
-                      show_badges: false
-                    %}
-            {% else %}
-            {% render 'product-card',
-              product: product,
-              show_title: false,
-              show_subtitle: false,
-              show_price: false,
-              swiper_slide: false,
-              show_badges: false
-            %}
-            {% endif %}
+                    product: product,
+                    show_title: show_title,
+                    show_subtitle: show_subtitle,
+                    show_price: show_price,
+                    swiper_slide: true,
+                    show_badges: show_badges
+                  %}
           {% endfor %}
       </div>
       {% if section.settings.btn_text != blank %}
@@ -78,12 +70,26 @@
     {
       "type": "checkbox",
       "id": "show_title",
-      "label": "Show Product Title"
+      "label": "Show Title",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subtitle",
+      "label": "Show Subtitle",
+      "default": true
     },
     {
       "type": "checkbox",
       "id": "show_price",
-      "label": "Show Product Price"
+      "label": "Show Price",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_badges",
+      "label": "Show Badges",
+      "default": false
     },
     {
       "type": "range",

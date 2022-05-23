@@ -78,6 +78,10 @@
   --alpha-button-background: 0;
 }
 
+button {
+  color: var(--color-normal-black);
+}
+
 .color-background-2 .button--secondary,
 .color-inverse .button--secondary,
 .color-accent-1 .button--secondary,
@@ -1296,10 +1300,10 @@ a {
 
 .button--outline:not([disabled]):hover, .button--outline:focus {
   background-color: transparent;
-  border: 2px solid var(--color-normal-black);
+  border: 1px solid var(--color-normal-black);
   color: var(--color-normal-black);
   font-family: var(--font-din);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Button - other */

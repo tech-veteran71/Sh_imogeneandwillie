@@ -1,6 +1,6 @@
 {{ 'section-hero-grid.css' | asset_url | stylesheet_tag }}
 
-<div class="featured-section">
+<div class="featured-section" style="background-color: {{ section.settings.bg_color }};">
   <div class="index-container">
     <div class="wrapper">
         <a class="link" href="{{ section.settings.link_url }}">
@@ -45,6 +45,11 @@
 {
   "name": "HERO GRID DIPTYCH",
   "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
     {
       "type": "header",
       "content": "Image",

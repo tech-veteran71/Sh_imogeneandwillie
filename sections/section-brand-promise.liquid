@@ -3,7 +3,7 @@
   <div class="promise-container">
     <div class="wrapper">
       <div class="content-wrap">
-        <div class="alpha">
+        <div class="alpha {% if section.settings.reverse_order %}alpha--reverse{% endif %}">
           <div class="content">
             {% if section.settings.pre_title != blank %}
               <h3 class="pre-title">{{ section.settings.pre_title }}</h3>
@@ -19,7 +19,7 @@
               </div>
              {% endif %}
             {% if section.settings.btn_text != blank %}
-              <a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}button--link{% else %}btn{% endif %}">
+              <a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}button--link{% else %}button button--outline{% endif %}">
                 {{ section.settings.btn_text }}
               </a>
             {% endif %}
@@ -45,6 +45,12 @@
 {
   "name": "BRAND PROMISE FEATURE",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "reverse_order",
+      "label": "Reverse Order (desktop)",
+      "default": true
+    },
     {
       "type": "header",
       "content": "Image",

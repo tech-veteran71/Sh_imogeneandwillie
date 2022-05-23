@@ -1,6 +1,6 @@
 .custom-rich-text {
   background-color: var(--color-light-wheat);
-  padding: 4.5rem 0;
+  padding: 4.5rem 2rem;
   margin-bottom: 8.5rem;
   text-align: center;
 }
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 767px) {
   .custom-rich-text {
-    padding: 3.5rem 0 2.8rem;
+    padding: 3.5rem 2rem 2.8rem;
     margin-bottom: 0;
   }
   .custom-content .custom-rich-text {

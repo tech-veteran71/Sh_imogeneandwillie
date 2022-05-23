@@ -12,9 +12,6 @@
 }
 .product-gallery .title {
   font-size: 2.6rem;
-  font-family: var(--font-arno-display);
-  font-weight: normal;
-  letter-spacing: 0.28rem;
   color: var(--color-normal-black);
   margin-bottom: 1.7rem;
   line-height: 2.2rem;

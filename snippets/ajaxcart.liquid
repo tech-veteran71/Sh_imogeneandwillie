@@ -13,10 +13,10 @@
   <ajax-cart class="ajaxcart" data-shipping-threshold="{{ settings.shipping_threshold_enabled  }}">
     <div id="AjaxCartTemplate">
       <div class="ajaxcart__signin">
+        <button class="ajaxcart__close" js-cart-drawer-close>{% render 'icon-close' %}</button>
         <a href="/account">
           SIGN IN
         </a>
-        <button class="ajaxcart__close" js-cart-drawer-close>{% render 'icon-close' %}</button>
       </div>
 
       <header class="ajaxcart__header" ref="cartHeader">
@@ -63,7 +63,7 @@
           </button>
           <div v-if="cartNoteShow" class="ajaxcart__add-note">
             <textarea class="ajaxcart__cart-note-input" v-model="cartNote"></textarea>
-            <button class="ajaxcart__save-note button button--secondary" :class="{ loading: loading.cart }" @click.prevent="updateCartNote">SAVE NOTE</button>
+            <button class="ajaxcart__save-note button button--outline" :class="{ loading: loading.cart }" @click.prevent="updateCartNote">SAVE NOTE</button>
           </div>
           <div class="ajaxcart__subtotal">
             <div class="ajaxcart__subtotal-row">

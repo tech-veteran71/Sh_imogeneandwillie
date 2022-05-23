@@ -1641,3 +1641,10 @@ a.product__text {
     min-height: 4.6rem;
   }
 }
+
+.product__info-wrapper blockquote {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: #fff;
+  font-family: var(--font-arno-display);
+}
