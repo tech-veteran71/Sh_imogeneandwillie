@@ -27,7 +27,9 @@
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
+
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
     {% render 'meta-tags' %}
       
     <script src="{{ 'enquire.min.js' | asset_url }}" defer="defer"></script>
@@ -35,9 +37,6 @@
     <script src="{{ 'vue@3.2.6.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
 
-    {% if template == 'index' %}
-      <script src="{{ 'product-slider-section.js' | asset_url }}" defer="defer"></script>
-    {% endif %}
     {{ content_for_header }}
 
     {%- liquid
@@ -133,6 +132,8 @@
     {%- endif -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+    <!-- Site Verification -->
+    <meta name="google-site-verification" content="2aetnUQG9AgFhHUXQ6dfUqNkRGw93wgShDt4166IpqE" />
   </head>
 
   <body class="gradient drawer-background template-{{ request.page_type }} 
