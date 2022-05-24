@@ -35,45 +35,14 @@
             assign featured_media_aspect_ratio = 1
           endif
         -%}
-
         <div>
           <div class="media media--transparent media--adapt media--hover-effect"
             style="padding-bottom: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%;"
           >
-            <img
-              srcset="{%- if product.featured_media.width >= 165 -%}{{ product.featured_media | img_url: '165x' }} 165w,{%- endif -%}
-                {%- if product.featured_media.width >= 360 -%}{{ product.featured_media | img_url: '360x' }} 360w,{%- endif -%}
-                {%- if product.featured_media.width >= 533 -%}{{ product.featured_media | img_url: '533x' }} 533w,{%- endif -%}
-                {%- if product.featured_media.width >= 720 -%}{{ product.featured_media | img_url: '720x' }} 720w,{%- endif -%}
-                {%- if product.featured_media.width >= 940 -%}{{ product.featured_media | img_url: '940x' }} 940w,{%- endif -%}
-                {%- if product.featured_media.width >= 1066 -%}{{ product.featured_media | img_url: '1066x' }} 1066w,{%- endif -%}
-                {{ product.featured_media | img_url: 'master' }} {{ product.featured_media.width }}w"
-              src="{{ product.featured_media | img_url: '533x' }}"
-              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-              alt="{{ product.featured_media.alt | escape }}"
-              loading="lazy"
-              class="motion-reduce"
-              width="{{ product.featured_media.width }}"
-              height="{{ product.featured_media.height }}"
-            >
+            {{ product.featured_media | image_url: width: 1000 | image_tag: alt: 'product.media[1].alt', class: 'css-class-1 css-class-2' }}
             {% unless nohover == true %}
             {%- if product.media[1] != nil -%}
-              <img
-                srcset="{%- if product.media[1].width >= 165 -%}{{ product.media[1] | img_url: '165x' }} 165w,{%- endif -%}
-                  {%- if product.media[1].width >= 360 -%}{{ product.media[1] | img_url: '360x' }} 360w,{%- endif -%}
-                  {%- if product.media[1].width >= 533 -%}{{ product.media[1] | img_url: '533x' }} 533w,{%- endif -%}
-                  {%- if product.media[1].width >= 720 -%}{{ product.media[1] | img_url: '720x' }} 720w,{%- endif -%}
-                  {%- if product.media[1].width >= 940 -%}{{ product.media[1] | img_url: '940x' }} 940w,{%- endif -%}
-                  {%- if product.media[1].width >= 1066 -%}{{ product.media[1] | img_url: '1066x' }} 1066w,{%- endif -%}
-                  {{ product.media[1] | img_url: 'master' }} {{ product.media[1].width }}w"
-                src="{{ product.media[1] | img_url: '533x' }}"
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="{{ product.media[1].alt | escape }}"
-                loading="lazy"
-                class="motion-reduce"
-              width="{{ product.media[1].width }}"
-              height="{{ product.media[1].height }}"
-              >
+                {{ product.media[1] | image_url: width: 1000 | image_tag: alt: 'product.media[1].alt', class: 'css-class-1 css-class-2' }}
             {%- endif -%}
           {% endunless %}
           </div>
