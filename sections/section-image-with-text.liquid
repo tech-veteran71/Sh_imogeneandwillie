@@ -1,6 +1,6 @@
 {{ 'section-image-with-text.css' | asset_url | stylesheet_tag }}
 
-<div class="image-with-text">
+<div class="image-with-text {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="container">
     <div class="wrapper">
       <div class="image {{ section.settings.img_width }}-image">
@@ -36,6 +36,12 @@
 {
   "name": "IMAGE W/ TXT",
   "settings":[
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Image",

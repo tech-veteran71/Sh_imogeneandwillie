@@ -1,6 +1,6 @@
 {{ 'section-recent-moments.css ' | asset_url | stylesheet_tag }}
 
-<div class="explore-section">
+<div class="explore-section {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="index-container">
     <div class="wrapper">
       {% if section.settings.title != blank %}
@@ -51,6 +51,12 @@
 {
   "name": "RECENT MOMENTS",
   "settings":[
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Choose Collection Or Blog",

@@ -9,7 +9,7 @@
   }
 </style>
 
-<div class="product-gallery">
+<div class="product-gallery {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="index-container">
     <div class="wrapper">
       {% if section.settings.title != blank %}
@@ -57,6 +57,12 @@
 {
   "name": "COLLECTION GRID",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Collection",

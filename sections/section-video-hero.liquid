@@ -1,9 +1,17 @@
+<section class="{% if section.settings.mobile_hide %}small--hide{% endif %}">
 {% render "video-banner" with section %}
+</section>
 
 {% schema %}
 {
   "name": "VIDEO HERO",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Image",

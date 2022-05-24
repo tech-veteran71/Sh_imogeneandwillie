@@ -1,6 +1,6 @@
 {{ 'section-four-item-feature.css' | asset_url | stylesheet_tag }}
 
-<div class="image-four-item-feature">
+<div class="image-four-item-feature {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="four-item-feature-container">
     <div class="wrapper">
       <div class="header-wrap">
@@ -58,6 +58,12 @@
 {
   "name": "4 ITEM FEATURE",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Collection",

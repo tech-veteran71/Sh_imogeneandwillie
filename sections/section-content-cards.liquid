@@ -1,5 +1,5 @@
 {{ 'section-content-cards.css' | asset_url | stylesheet_tag }}
-<div class="fact-section">
+<div class="fact-section {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="container">
     <div class="wrapper">
       {% if section.settings.main_title != blank %}
@@ -47,6 +47,12 @@
 {
   "name": "ADDITIONAL CONTENT CARDS",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Content",

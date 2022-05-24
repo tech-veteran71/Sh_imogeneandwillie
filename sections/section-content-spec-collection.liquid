@@ -1,5 +1,5 @@
 {{ 'section-content-spec-collection.css' | asset_url | stylesheet_tag }}
-<div class="content-specific-collection">
+<div class="content-specific-collection {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="product-container">
     <div class="wrapper">
       {% if section.settings.pre_title != blank %}
@@ -33,6 +33,12 @@
 {
   "name": "CONTENT SPEC COLLECTION",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Content",

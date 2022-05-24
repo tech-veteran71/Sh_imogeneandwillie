@@ -16,10 +16,15 @@
           {% endif %}
           {% if section.settings.top_text != blank %}
             <p class="text">{{ section.settings.top_text }} 
-              {% if section.settings.link_text != blank %}
-                <a href="{{ section.settings.btn_url }}" class="detail">{{ section.settings.link_text }}</a>
-              {% endif %}
             </p>
+          
+          {% endif %}
+          {% if section.settings.btn != blank  %}
+            <div class="btn-wrap">
+              <span class="read-more">
+                <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn }}</a>
+              </span>
+            </div>
           {% endif %}
          </div>
          <div class="info">

@@ -1,6 +1,6 @@
 {{ 'section-parallax.css' | asset_url | stylesheet_tag }}
 
-<div class="cut-out-section"></div>
+<div class="cut-out-section {% if section.settings.mobile_hide %}small--hide{% endif %}"></div>
 
 <style>
   .cut-out-section {
@@ -11,6 +11,12 @@
 {
   "name": "PARALLAX IMAGE",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "image_picker",
       "id": "image",

@@ -1,6 +1,6 @@
 {{ 'section-hero-banner.css' | asset_url | stylesheet_tag }}
 
-<div class="hero-inner">
+<div class="hero-inner {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="container">
     <div class="banner">
       <a href="{{ section.settings.img_url }}" class="banner-img">
@@ -13,7 +13,7 @@
           {% render 'responsive--image' with section.settings.mob_img as image, max_width: 360, class: 'image mob-image' %}
         {% endif %}
       </a>
-      <div class="content-wrap">
+      <div class="content-wrap {% if section.settings.mobile_hide_text %}small--hide{% endif %}">
         {% if section.settings.main_title != blank %}
           <h1 class="main-title {{ section.settings.title_font }}" style="color: {{ section.settings.font_color }}">{{ section.settings.main_title }}</h1>
         {% endif %}
@@ -40,6 +40,18 @@
   "name": "HERO W/ TXT OVERLAY",
   "class": "hero-banner",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_hide_text",
+      "label": "Hide Text on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Image",

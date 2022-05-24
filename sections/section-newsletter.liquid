@@ -1,5 +1,5 @@
 {{ 'section-newsletter.css' | asset_url | stylesheet_tag }}
-<section class="section-newsletter">
+<section class="section-newsletter {% if section.settings.mobile_hide %}small--hide{% endif %}">
     <div class="section-newsletter__inner">
         {% if section.settings.text != blank %}
             <h2>{{ section.settings.text }}</h2>
@@ -14,6 +14,12 @@
 {
   "name": "NEWSLETTER",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "text",
       "id": "text",

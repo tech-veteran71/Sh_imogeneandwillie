@@ -1,7 +1,6 @@
 .custom-content-section {
   background-color: var(--color-Xlight-wheat);
   position: relative;
-  font-size: 1.2vw;
   padding-top: 70px;
 }
 .custom-content-section::after {
@@ -24,27 +23,17 @@
   margin-bottom: 2.5em;
 }
 .custom-content-section .main-title {
-  margin-bottom: 1.5em;
+  margin-bottom: 3rem;
   margin-top: 0;
-  font-family: var(--font-din);
-  font-weight: 600;
-  font-size: 2.2rem;
-  font-weight: bold;
-  letter-spacing: 0.3rem;
   text-transform: uppercase;
   color: var(--color-normal-black);
 }
 .custom-content-section .main-text {
-  font-size: 2.6rem;
-  font-family: var(--font-arno-display);
-  font-weight: normal;
   max-width: 950px;
   margin: 0 auto;
-  letter-spacing: 0.3rem;
-  line-height: 1.3;
 }
 .custom-content-section .content-wrap {
-  margin: 0 auto 4.25em;
+  margin: 0 auto 4.25rem;
   max-width: 1270px;
   justify-content: center;
   display: flex;
@@ -101,18 +90,12 @@
   margin-left: 9em;
 }
 .custom-content-section .info-text p:first-child {
-  font-size: 1.2rem;
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
   color: var(--color-normal-black);
 }
 .custom-content-section .info-text p {
-  letter-spacing: 0.1em;
-  line-height: 1.4;
-  font-family: var(--font-arno-display);
-  font-weight: normal;
   margin-top: 0;
   margin-bottom: 1.25em;
-  font-size: 1.2rem;
   color: var(--color-dim-black);
 }
 .custom-content-section .info-text a {
@@ -136,11 +119,6 @@
 .custom-content-section .mob-images {
   display: none;
 }
-@media screen and (min-width: 1400px) {
-  .custom-content-section {
-    font-size: 1.8rem;
-  }
-}
 @media screen and (max-width: 1600px) and (min-width: 1400px) {
   .custom-content-section .image-1 .image {
     max-width: 32em;
@@ -160,16 +138,10 @@
   }
 }
 @media screen and (max-width: 1279px) {
-  .custom-content-section {
-    font-size: 1.4vw;
-  }
   .custom-content-section .main-text {
-    font-size: 2.2rem;
     max-width: 76rem;
   }
   .custom-content-section .text p {
-    font-size: 1.1rem;
-    letter-spacing: 0.1rem;
     margin-bottom: 2rem;
   }
   .custom-content-section .image-1 .image {
@@ -190,17 +162,10 @@
     margin-bottom: 0.8em;
   }
   .custom-content-section .main-text {
-    font-size: 22px;
     max-width: 710px;
   }
   .custom-content-section .text {
     padding: 0 1em;
-  }
-  .custom-content-section .text p {
-    font-size: 12px;
-  }
-  .custom-content-section .info-text p {
-    font-size: 1.1em;
   }
   .custom-content-section .info-text {
     padding-bottom: 3.25em;
@@ -214,9 +179,7 @@
     display: none;
   }
   .custom-content-section .main-text {
-    font-size: 1.5rem;
     max-width: 275px;
-    letter-spacing: 1px;
   }
   .custom-content-section .images {
     display: none;
@@ -236,7 +199,6 @@
     padding: 0;
   }
   .custom-content-section .text p {
-    font-size: 1.4rem;
     margin-bottom: 15px;
   }
   .custom-content-section .content-wrap {
@@ -282,15 +244,12 @@
     margin: 0 auto;
   }
   .custom-content-section .info-text p:first-child {
-    font-size: 2rem;
     margin-bottom: 2rem;
-    line-height: 1.3;
   }
   .custom-content-section .info-text p:last-child {
     display: none;
   }
   .custom-content-section .info-text p {
-    font-size: 1.4rem;
     margin: 0;
   }
   .custom-content-section .info-text a {

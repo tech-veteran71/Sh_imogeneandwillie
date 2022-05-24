@@ -1,7 +1,7 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.text != blank %}
-  <div class="custom-rich-text">
+  <div class="custom-rich-text {% if section.settings.mobile_hide %}small--hide{% endif %}">
     <div class="fabric-container">
       <div class="wrapper">
         <div class="text-wrap">
@@ -21,6 +21,12 @@
 {
   "name": "BLOCK TXT W/ LINK",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Content",

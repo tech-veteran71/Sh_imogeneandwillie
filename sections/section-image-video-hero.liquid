@@ -10,7 +10,7 @@
     {% endif %}
   }
 </style>
-
+<section class="{% if section.settings.mobile_hide %}small--hide{% endif %}">
 {% if section.settings.add_video %}
   {% render "video-banner" with section %}
 {% endif %}
@@ -34,12 +34,17 @@
     </div>
   </div>
 {% endif %}
-
-
+</section>
 {% schema %}
 {
   "name": "IMAGE/VIDEO HERO",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Image",

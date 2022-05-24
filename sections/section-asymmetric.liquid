@@ -4,7 +4,7 @@
     --bg-color: {{ section.settings.bg_color }};
   }
 </style>
-<div class="guide-section" style="background-color: var(--bg-color)">
+<div class="guide-section {% if section.settings.mobile_hide %}small--hide{% endif %}" style="background-color: var(--bg-color)">
   <div class="custom-content-container">
     <div class="wrapper">
       <div class="custom-grid {% if section.settings.change_alignment %} alignment {% endif %}">
@@ -47,6 +47,12 @@
 {
   "name": "ASYMMETRIC TRIPTYCH",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Color",

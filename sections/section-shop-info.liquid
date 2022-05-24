@@ -1,5 +1,5 @@
 {{ 'section-shop-info.css' | asset_url | stylesheet_tag }}
-<div class="shop-info">
+<div class="shop-info {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="nashville-container">
     <div class="wrapper">
       <div class="alpha">
@@ -65,6 +65,12 @@
 {
   "name": "SHOP INFO",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Image",

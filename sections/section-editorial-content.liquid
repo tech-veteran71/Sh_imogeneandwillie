@@ -1,13 +1,13 @@
 {{ 'section-editorial-content.css' | asset_url | stylesheet_tag }}
-<div class="custom-content-section">
+<div class="custom-content-section {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="custom-content-container">
     <div class="wrapper">
       <div class="header-wrap">
       {% if section.settings.main_title != blank %}
-        <h4 class="main-title">{{ section.settings.main_title }}</h4>
+        <h1 class="main-title">{{ section.settings.main_title }}</h1>
       {% endif %}
       {% if section.settings.main_text != blank %}
-        <p class="main-text">{{ section.settings.main_text }}</p>
+        <h2 class="main-text">{{ section.settings.main_text }}</h2>
       {% endif %}
       </div>
       <div class="mob-image1">
@@ -23,7 +23,7 @@
         {% for block in section.blocks %}
           {% if block.type == 'info' %}
             {% if block.settings.text != blank %}
-              <div class="text">{{ block.settings.text }}</div>
+              <p class="text">{{ block.settings.text }}</p>
             {% endif %}
           {% endif %}
         {% endfor %}
@@ -81,6 +81,12 @@
 {
   "name": "EDITORIAL CONTENT BLOCK",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Image",

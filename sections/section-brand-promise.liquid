@@ -1,5 +1,5 @@
 {{ 'section-brand-promise.css' | asset_url | stylesheet_tag }}
-<div class="promise-section">
+<div class="promise-section {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="promise-container">
     <div class="wrapper">
       <div class="content-wrap">
@@ -45,6 +45,12 @@
 {
   "name": "BRAND PROMISE FEATURE",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "checkbox",
       "id": "reverse_order",

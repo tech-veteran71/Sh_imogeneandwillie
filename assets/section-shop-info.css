@@ -72,7 +72,7 @@
 .shop-info .shop-details::after {
   content: '';
   background-color: var(--color-white);
-  height: 12.8em;
+  height: 20rem;
   width: 500%;
   position: absolute;
   left: -8%;

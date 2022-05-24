@@ -30,13 +30,10 @@
   margin-bottom: 2rem;
 }
 .video-section .contents .text {
-  line-height: 4rem;
   font-family: var(--font-arno-display);
   font-weight: normal;
-  font-size: 2.6rem;
-  letter-spacing: 0.28rem;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 .video-section .info .text {
   margin-top: 0;
@@ -137,9 +134,6 @@
   .video-section .wrap-title {
     font-size: 4rem;
   }
-  .video-section .contents .text {
-    font-size: 2.3rem;
-  }
   .video-section .wrapper::after {
     bottom:  11%;
   }
@@ -199,10 +193,5 @@
   }
   .video-section .content {
     padding: 0 2.5rem;
-  }
-  .video-section .contents .text {
-    font-size: 1.4rem;
-    letter-spacing: 0.2rem;
-    line-height: 1.5;
   }
 }

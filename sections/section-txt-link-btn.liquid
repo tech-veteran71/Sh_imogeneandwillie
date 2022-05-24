@@ -1,5 +1,5 @@
 {{ 'section-txt-link-btn.css' | asset_url | stylesheet_tag }}
-<div class="rich-text-section">
+<div class="rich-text-section {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="index-container">
     <div class="wrapper {{ section.settings.text_align }}">
       {%if section.settings.pretitle != blank %}
@@ -25,6 +25,12 @@
 {
   "name": "TXT W/ LINK/BTN",
   "settings":[
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
     {
       "type": "header",
       "content": "Content",

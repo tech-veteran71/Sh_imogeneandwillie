@@ -1,6 +1,5 @@
 .video-banner {
   height: 100%;
-  min-height: 600px;
   position: relative;
 }
 .video-banner video {

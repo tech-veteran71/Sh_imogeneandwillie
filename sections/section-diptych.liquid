@@ -1,6 +1,6 @@
 {{ 'section-diptych.css' | asset_url | stylesheet_tag }}
 
-<div class="latest-collection">
+<div class="latest-collection {% if section.settings.mobile_hide %}small--hide{% endif %}">
   <div class="container">
     <div class="wrapper">
       <div class="main-grid">
@@ -53,7 +53,14 @@
 {% schema %}
 {
   "name": "DIPTYCH W/ TXT OVERLAY",
-  "settings": [],
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    }
+  ],
   "blocks": [
     {
       "name": "Collection Item",

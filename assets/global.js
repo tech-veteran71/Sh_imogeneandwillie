@@ -3086,8 +3086,8 @@ customElements.define("ajax-cart", AjaxCart);
         slidesPerView: 3
       },
       300: {
-        slidesPerView: "auto",
-        spaceBetween: 10
+        slidesPerView: 1.5,
+        spaceBetween: 20
       }
     }
   });
@@ -3124,29 +3124,29 @@ customElements.define("ajax-cart", AjaxCart);
   // fact section swiper script
   new Swiper('.fact-section .custom-grid', {
     slidesPerView: 4,
-    spaceBetween: 25,
-    freeMode: true,
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      draggable: true,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
     },
     mousewheel: {
-      invert: false,
-      forceToAxis: true,
-    },
+    invert: false,
+    forceToAxis: true,
+  },
     breakpoints: {
-      990: {
-        slidesPerView: 4,
+      1279: {
+        spaceBetween: 30,
+        slidesPerView: 4
       },
       768: {
-        slidesPerView: 3,
-        spaceBetween: 15,
-        loop: false,
+        spaceBetween: 20,
+        slidesPerView: 2
       },
       500: {
-        slidesPerView: "1",
-        spaceBetween: 15,
-        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20
       }
     }
   });
