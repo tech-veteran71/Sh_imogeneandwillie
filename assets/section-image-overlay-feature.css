@@ -49,6 +49,7 @@
 
 .new-arrival-section .text-wrap {
   margin-bottom: 1.5rem;
+  line-height: 2;
 }
 .new-arrival-section .wrapper:after {
   content: "";

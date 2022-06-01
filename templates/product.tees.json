@@ -114,12 +114,25 @@
     "165220110819e632f3": {
       "type": "section-product-collection-slider",
       "settings": {
+        "mobile_hide": false,
+        "background_color": "#F7F6F3",
         "choose_collection": "graphic-content",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
         "title": "the devil is in the details",
         "main_title": "the devil is in the details",
         "mob_title": "",
         "link_text": "",
         "link_url": ""
+      }
+    },
+    "16535980161ec26cd1": {
+      "type": "section-parallax",
+      "settings": {
+        "mobile_hide": true,
+        "image": "shopify:\/\/shop_images\/Men_s_T-shirts_Header.png"
       }
     },
     "product-recommendations": {
@@ -135,6 +148,7 @@
     "1650489885e385492b",
     "1652199612f01388e0",
     "165220110819e632f3",
+    "16535980161ec26cd1",
     "product-recommendations"
   ]
 }

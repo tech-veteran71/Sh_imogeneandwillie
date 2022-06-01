@@ -2128,7 +2128,7 @@ details[open] .modal-overlay {
 details[open] .modal-overlay::after {
   position: absolute;
   content: '';
-  background-color: rgb(var(--color-foreground), 0.5);
+  background-color: rgb(255,255,255, 0.5);
   top: 100%;
   left: 0;
   right: 0;
@@ -2625,6 +2625,7 @@ details-disclosure > details {
   text-transform: lowercase;
   color: var(--color-dim-black);
   letter-spacing: 0.39rem;
+  line-height: 1;
 }
 .header .menu-utility-link:hover {
   color: var(--color-gold);
@@ -2718,7 +2719,7 @@ header .child-menu-item,
   font-family: var(--font-din);
   font-weight: 600;
   letter-spacing: 0.26rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.8rem;
   color: var(--color-dim-black);
   line-height: 1.2;
   text-transform: uppercase;
@@ -3006,11 +3007,11 @@ header .sub-menu-link {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  margin: 3.5rem -1rem 0;
+  margin: 3.5rem -1rem 2rem;
   position: absolute;
   width: 100%;
   left: 3rem;
-  padding-bottom: 18rem;
+  padding-bottom: 25rem;
   top: 100%;
 }
 #menu-drawer .slide-item {
@@ -3386,3 +3387,7 @@ header .sub-menu-link {
 .price--on-sale .price-item--regular, .card-information__wrapper > .price.price--sold-out, .card-information__text.light, .card-information__subtext.light {
  color: #A0A0A0; 
 } 
+
+textarea {
+  resize: none;
+}

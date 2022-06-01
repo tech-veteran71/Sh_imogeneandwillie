@@ -53,6 +53,8 @@
   border: none;
   font-size: 1.6rem;
   color: #222222;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .ajaxcart__close svg {

@@ -47,7 +47,6 @@
   font-weight: 600;
   background-color: var(--color-light-wheat);
   font-size: 1.2rem;
-  text-transform: uppercase;
   color: var(--color-dim-black);
   border: 0;
   box-shadow: unset;
@@ -80,6 +79,7 @@
   color: var(--color-Xlight-wheat);
   background-color: var(--color-normal-black);
   box-shadow: unset;
+  max-width: 100%;
 }
 .template-customer .btn:hover {
   box-shadow: unset;
@@ -89,7 +89,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 2.3rem;
-  padding: 0 08.rem;
+  padding: 0;
 }
 .template-customer .account-banner .link {
   font-size: 1.1rem;

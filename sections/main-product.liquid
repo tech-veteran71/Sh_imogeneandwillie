@@ -187,8 +187,16 @@
                           </div>
                         </div>
                         <div class='size-wrap'>
-                          {% if section.settings.info_title != blank %}
-                            <p class="info-title">{{ section.settings.info_title }}</p>
+                          {% if product.tags contains 'truetosize' %}
+                            <p class="info-title">We recommend ordering your usual size.</p>
+                          {% elsif product.tags contains 'fitssmall' %}
+                          <p class="info-title">We recommend going up a size.</p>
+                          {% elsif product.tags contains 'fitsvsmall' %}
+                          <p class="info-title">We recommend going up two sizes.</p>
+                          {% elsif product.tags contains 'fitslarge' %}
+                          <p class="info-title">We recommend going down a size</p>
+                          {% elsif product.tags contains 'fitsvlarge' %}
+                          <p class="info-title">We recommend going down two sizes.</p>
                           {% endif %}
                           <div class="inputs-group">
                             {%- for variant in product.variants -%}

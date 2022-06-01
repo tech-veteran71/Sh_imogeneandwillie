@@ -1,7 +1,28 @@
 {
   "sections": {
     "main": {
-      "type": "contact-template"
+      "type": "contact-template",
+      "settings": {
+        "main_title": "contact us",
+        "title": "help",
+        "left_heading": "customer service",
+        "left_body_1": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam",
+        "left_subheading_1": "hours:",
+        "left_body_2": "monday - saturday 9:00am - 6:00pm",
+        "left_subheading_2": "email address:",
+        "left_body_3": "help@imogeneandwillie.com",
+        "left_subheading_3": "phone:",
+        "left_body_4": "+1 (615) 739-5286",
+        "left_subheading_4": "chat:",
+        "right_heading": "nashville store",
+        "right_body_1": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam",
+        "right_subheading_1": "hours:",
+        "right_body_2": "monday - saturday 9:00am - 6:00pm <br> sunday 12:00pm - 5:00pm",
+        "right_subheading_2": "address:",
+        "right_body_3": "2601 12th avenue south nashville, tennessee 37204",
+        "right_subheading_3": "phone:",
+        "right_body_4": "+1 (615) 739-5286"
+      }
     }
   },
   "order": [

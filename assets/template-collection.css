@@ -218,7 +218,8 @@
   .collection-grid--3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3rem;
+    grid-column-gap: 3rem;
+    grid-row-gap: 5rem;
   }
   .collection-grid--2 {
     display: grid;
@@ -307,7 +308,7 @@
 }
 .review-wrap {
   margin: 6rem 0;
-  padding:  0 10rem;
+  padding:  0 5rem;
 }
 .customer-name {
   font-size: 1.2rem;
@@ -475,6 +476,7 @@
   }
   .review-wrap {
     margin: 17rem 0;
+    padding: 0 10rem;
   }
   .customer-name {
     font-size: 1.2rem;

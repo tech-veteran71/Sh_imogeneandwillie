@@ -3,6 +3,7 @@
     "1649343925c8d83679": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/desktop_0ae28962-274f-4eb7-9128-2db241d361f7.jpg",
         "mob_img": "shopify:\/\/shop_images\/mobile_3239f1d4-c213-4a8d-bf84-a3d83c675eb0.jpg",
         "img_url": "",
@@ -12,6 +13,7 @@
     "16493441673bde7dd8": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "barton slim & henry natural rigid indigo",
@@ -25,6 +27,7 @@
     "164934473347e72eb5": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/mobile-split-2_e294d472-8eb8-480f-8d58-53ac84fc24a5.jpg",
         "mob_img": "shopify:\/\/shop_images\/mobile-split-2_e294d472-8eb8-480f-8d58-53ac84fc24a5.jpg",
         "img_url": "",
@@ -34,6 +37,7 @@
     "1649345031dfcd3b10": {
       "type": "section-quote",
       "settings": {
+        "mobile_hide": false,
         "review": "“you don't think it be like that, <br>but sometimes it do.”",
         "customer_name": "- jonathan krohn",
         "background_color": "#f1efe8"
@@ -42,6 +46,7 @@
     "1649344991aebfc9bf": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/homepage1.jpg",
         "mob_img": "shopify:\/\/shop_images\/desktophero_6f52f24c-9772-4eb8-a6a3-a0f05fd8e14f.jpg",
         "img_url": "",
@@ -51,6 +56,7 @@
     "1649345876722a5b9b": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "the catherine abilene 3.0",
@@ -64,6 +70,7 @@
     "16493459270f2a9122": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/webgrid_88cdc41c-6557-4457-8575-03eb624ac8b8.jpg",
         "img_url": "",
         "img_width": "full"
@@ -72,6 +79,7 @@
     "16493467776a7fccf2": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
@@ -122,6 +130,7 @@
     "16493465150e689548": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/shop-august--_15-of-15.jpg",
         "mob_img": "shopify:\/\/shop_images\/shop-august--_15-of-15.jpg",
         "img_url": "",
@@ -131,6 +140,7 @@
     "16510054628e91fa8a": {
       "type": "section-newsletter",
       "settings": {
+        "mobile_hide": false,
         "text": "get in early next time",
         "subtext": "we only do collections like this a few times a year and they always seem to go quickly. though we try to give everyone a heads up, our email list always gets first dibs. sign up now to get notified for our next drop."
       }
@@ -138,6 +148,7 @@
     "1649347110c702605f": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "our home",
@@ -161,6 +172,7 @@
     "1649347242ecc7083e": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
         "mob_img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
         "img_url": "",
@@ -170,9 +182,12 @@
     "16493477614696a5fd": {
       "type": "section-collection-grid",
       "settings": {
+        "mobile_hide": false,
         "choose_collection": "top-picks",
         "show_title": true,
+        "show_subtitle": true,
         "show_price": false,
+        "show_badges": false,
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "top picks",
@@ -185,6 +200,8 @@
     "1637735864c2bd7e13": {
       "type": "section-brand-promise",
       "settings": {
+        "mobile_hide": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01067.jpg",
         "mob_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01299.jpg",
         "pre_title": "( our promise )",
@@ -199,6 +216,7 @@
     "164927862869965961": {
       "type": "section-video-with-text",
       "settings": {
+        "mobile_hide": false,
         "video_poster": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg",
         "video_url": "https:\/\/vimeo.com\/429778321",
         "video_controls": false,
@@ -215,6 +233,7 @@
     "1650300377077f241e": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
         "mob_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
         "img_url": "",
@@ -225,6 +244,7 @@
       "type": "section-parallax",
       "disabled": true,
       "settings": {
+        "mobile_hide": false,
         "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
       }
     },
@@ -263,6 +283,7 @@
         "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab"
       ],
       "settings": {
+        "mobile_hide": false,
         "pre_title": "lorem ipsum",
         "title": "lorem ipsum",
         "title_font": "headline__din",
@@ -308,10 +329,14 @@
         "569530c7-b2ae-42f4-9a5d-589c2295cd49"
       ],
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/oyw1.jpg",
         "desk_img_url": "https:\/\/google.com",
+        "mob_img1": "shopify:\/\/shop_images\/natdesktop.jpg",
         "img_url1": "",
+        "mob_img2": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
         "img_url2": "",
+        "overlay_img": "shopify:\/\/shop_images\/Untitled-3_copy.jpg",
         "overlay_img_url": "",
         "main_title": "LOREM IPSUM",
         "main_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
@@ -320,7 +345,6 @@
     },
     "16510889927e4f6edc": {
       "type": "section-content-cards",
-      "disabled": true,
       "blocks": {
         "1b7c16a7-8c1d-4005-8a46-6812c7b302a2": {
           "type": "info",
@@ -366,6 +390,7 @@
         "4c9338be-470d-46d3-8a6d-62d2ae7058b0"
       ],
       "settings": {
+        "mobile_hide": false,
         "main_title": "Lorem ipsum dolor"
       }
     },
@@ -373,6 +398,7 @@
       "type": "section-recent-moments",
       "disabled": true,
       "settings": {
+        "mobile_hide": false,
         "choose_collection": "bottom-size-24",
         "choose_blog": "new-mens-denim",
         "title": "TEXT",
@@ -380,10 +406,13 @@
         "url": "https:\/\/google.com"
       }
     },
-    "165229421606b7bfcd": {
-      "type": "section-product-moodboard",
+    "1654114990a9287dec": {
+      "type": "section-video-hero",
       "settings": {
-        "main_title": "dig into the moodboard"
+        "mobile_hide": false,
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Denim_15_Second_Draft.m4v?v=1644966259",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Bike_Graphic_Product_Page_Test.m4v?v=1645646598",
+        "video_controls": true
       }
     }
   },
@@ -412,6 +441,6 @@
     "165108861515d33581",
     "16510889927e4f6edc",
     "16521084466e036390",
-    "165229421606b7bfcd"
+    "1654114990a9287dec"
   ]
 }
