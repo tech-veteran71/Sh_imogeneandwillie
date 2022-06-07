@@ -162,7 +162,7 @@
     "16491902805e37b9ac": {
       "type": "section-mobile-slider",
       "settings": {
-        "choose_collection": "men",
+        "choose_collection": "graphic-tees",
         "title": "",
         "btn_text": "SHOP MEN",
         "btn_url": "",
@@ -274,13 +274,34 @@
           "settings": {
             "collection": "bottom-size-24"
           }
+        },
+        "b32c8c04-1511-4f44-a7ef-67bbc2bfb99f": {
+          "type": "collection",
+          "settings": {
+            "collection": "size-33"
+          }
+        },
+        "e8835101-43b6-425f-8723-da4df14dc00d": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-size-38"
+          }
+        },
+        "9f3fac8d-c147-4f64-807c-089d64b303b5": {
+          "type": "collection",
+          "settings": {
+            "collection": "women-denim-35"
+          }
         }
       },
       "block_order": [
         "592271cd-9a9d-4355-8d3a-df3d37d9886a",
         "f94afc27-cf54-44df-ae41-297c965ee12f",
         "3628749d-631f-4cf8-8903-ee660c0b8ab4",
-        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab"
+        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab",
+        "b32c8c04-1511-4f44-a7ef-67bbc2bfb99f",
+        "e8835101-43b6-425f-8723-da4df14dc00d",
+        "9f3fac8d-c147-4f64-807c-089d64b303b5"
       ],
       "settings": {
         "mobile_hide": false,
@@ -350,6 +371,7 @@
           "type": "info",
           "settings": {
             "desk_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+            "mob_img": "shopify:\/\/shop_images\/god-02_d6ddf711-a97f-4118-a548-820e3bc898b8.jpg",
             "title": "TITLE",
             "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
             "link_url": ""
@@ -358,7 +380,8 @@
         "800c6e3c-4256-4518-b86a-e181e6124a4f": {
           "type": "info",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+            "desk_img": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
+            "mob_img": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
             "title": "TITLE",
             "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
             "link_url": ""
@@ -367,7 +390,8 @@
         "bd2fded9-23aa-4e93-95ed-bd963701cb12": {
           "type": "info",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+            "desk_img": "shopify:\/\/shop_images\/heart-06_40b9adfb-4631-46b5-a37d-6538111cb484.jpg",
+            "mob_img": "shopify:\/\/shop_images\/Untitled-5_copy.jpg",
             "title": "TITLE",
             "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
             "link_url": ""
@@ -376,8 +400,29 @@
         "4c9338be-470d-46d3-8a6d-62d2ae7058b0": {
           "type": "info",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/love-your-mother-01.jpg",
+            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_a8ef294f-25b2-402a-acd1-5c9ac8d8acd3.jpg",
+            "mob_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01160-bw_34b5c395-34a9-471c-9adf-e074e565435a.jpg",
             "title": "TITLE",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        },
+        "67a57083-0637-4bf2-b53b-85532a080e2b": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/white-drop-tee08_1200x_890a6402-d008-4076-9f36-f5c9e11b82a8.webp",
+            "mob_img": "shopify:\/\/shop_images\/droptee_red02_1200x_927f5e64-e095-43bc-af27-45fd91be85d5.webp",
+            "title": "title",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+            "link_url": ""
+          }
+        },
+        "1dc95ce3-8878-4f7d-b92f-861e730e2b8f": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/cowboy-07_1200x_50a5d3a9-84cf-4887-b801-365c46a426ee.webp",
+            "mob_img": "shopify:\/\/shop_images\/olive_01_1200x_1.webp",
+            "title": "title",
             "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
             "link_url": ""
           }
@@ -387,7 +432,9 @@
         "1b7c16a7-8c1d-4005-8a46-6812c7b302a2",
         "800c6e3c-4256-4518-b86a-e181e6124a4f",
         "bd2fded9-23aa-4e93-95ed-bd963701cb12",
-        "4c9338be-470d-46d3-8a6d-62d2ae7058b0"
+        "4c9338be-470d-46d3-8a6d-62d2ae7058b0",
+        "67a57083-0637-4bf2-b53b-85532a080e2b",
+        "1dc95ce3-8878-4f7d-b92f-861e730e2b8f"
       ],
       "settings": {
         "mobile_hide": false,
@@ -406,13 +453,20 @@
         "url": "https:\/\/google.com"
       }
     },
-    "1654114990a9287dec": {
-      "type": "section-video-hero",
+    "165418226026e5428c": {
+      "type": "section-image-overlay-feature",
       "settings": {
-        "mobile_hide": false,
-        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Denim_15_Second_Draft.m4v?v=1644966259",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Bike_Graphic_Product_Page_Test.m4v?v=1645646598",
-        "video_controls": true
+        "bg_img": "shopify:\/\/shop_images\/Untitled-3_copy.jpg",
+        "image": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
+        "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
+        "pre_title": "pre title",
+        "title": "tite",
+        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
+        "btn_text": "",
+        "link_url": ""
       }
     }
   },
@@ -441,6 +495,6 @@
     "165108861515d33581",
     "16510889927e4f6edc",
     "16521084466e036390",
-    "1654114990a9287dec"
+    "165418226026e5428c"
   ]
 }

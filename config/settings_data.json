@@ -202,8 +202,8 @@
           "btn_text": "THE JOURNAL",
           "btn_url": "",
           "text": "one of a kind the journal nashville",
-          "link_text": "HERE TO HELP",
-          "link": "",
+          "link_text": "SIGN IN",
+          "link": "https:\/\/imogeneandwillie.myshopify.com\/account\/login",
           "show_line_separator": true,
           "enable_sticky_header": true
         }
