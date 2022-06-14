@@ -62,24 +62,26 @@
               {%- endform -%}
             </div>
           {%- when 'description' -%}
-            {%- if product.description != blank -%}
               <div class="product__description rte desription-with-truncate" data-less-description>
                 {% if product.metafields.seed.product_description_part_1 != blank %}
                 {{ product.metafields.seed.product_description_part_1 }}
-                {% else %}
-                {{ product.description | strip_html | truncatewords: 45, '' }}
                 {% endif %}
                 <span class="read-content" data-read-more>read more…</span>
               </div>
               <div class="product__description rte desription-without-truncate" data-full-description>
+                {% if product.metafields.seed.product_description_part_1 != blank %}
+                {{ product.metafields.seed.product_description_part_1 }}
+                {% endif %}
                 {% if product.metafields.seed.product_description_part_2 != blank %}
                 {{ product.metafields.seed.product_description_part_2 }}
-                {% else %}
-                {{ product.description }}
                 {% endif %}
                 <span class="read-content" data-read-less>read less</span>
               </div>
-            {%- endif -%}
+              {% if product.metafields.seed.product_description_facts != blank %}
+              <div class="product__facts rte">
+                {{ product.metafields.seed.product_description_facts }}
+              </div>
+            {% endif %}
           {% when 'link' %}
             {% if product.tags contains 'made-usa' %}
               <div class="link-wrap">

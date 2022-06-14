@@ -1651,3 +1651,7 @@ a.product__text {
   background-color: #fff;
   font-family: var(--font-arno-display);
 }
+
+.product__facts {
+  margin-bottom: 2rem;
+}
