@@ -2709,9 +2709,14 @@ customElements.define("ajax-cart", AjaxCart);
     const variantSelect = mainProduct.querySelector("[data-variant-select]");
     if(sizeWrapper) {
       sizeWrapper.addEventListener('click', function(){
-        const label = formLabel.innerHTML;
+        const openLabel = formLabel.querySelector('[data-label-open]');
+        const closedLabel = formLabel.querySelector('[data-label-closed]');
         varaintContainer.classList.toggle('show');
-        label.toLowerCase() === 'select a size' ? formLabel.innerHTML = 'fits true to size' : formLabel.innerHTML = 'select a size';
+        if (openLabel) {
+          openLabel.style.display === 'none' ? openLabel.style.display = "block" : openLabel.style.display = "none";
+          closedLabel.style.display === 'none' ? closedLabel.style.display = "block" : closedLabel.style.display = "none";
+        }
+        // label.toLowerCase() === 'select a size' ? formLabel.innerHTML = 'fits true to size' : formLabel.innerHTML = 'select a size';
         if(this.classList.contains('variant-selected')) {
           variantSelect.style.display = "none";
         }

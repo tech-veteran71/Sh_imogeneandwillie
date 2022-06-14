@@ -181,7 +181,20 @@
                   {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
                         <div class="legend-wrap" data-variant-box>
-                          <legend class="form__label" data-form-label>SELECT A SIZE</legend>
+                          <legend class="form__label" data-form-label>
+                            <span data-label-closed>SELECT A SIZE</span> 
+                            {% if product.tags contains 'truetosize' %}
+                              <span style="display: none" data-label-open>FITS TRUE TO SIZE</span>
+                            {% elsif product.tags contains 'fitssmall' %}
+                              <span style="display: none" data-label-open>FITS SMALL</span>
+                            {% elsif product.tags contains 'fitsvsmall' %}
+                              <span style="display: none" data-label-open>FITS VERY SMALL</span>
+                            {% elsif product.tags contains 'fitslarge' %}
+                              <p style="display: none" data-label-open>FITS LARGE</p>
+                            {% elsif product.tags contains 'fitsvlarge' %}
+                              <span style="display: none" data-label-open>FITS VERY LARGE</span>
+                            {% endif %}
+                          </legend>
                           <div class="icon-wrap">
                               {% render 'chevron-icon' %}
                           </div>
