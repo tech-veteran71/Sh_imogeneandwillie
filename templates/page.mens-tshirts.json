@@ -9,14 +9,16 @@
     "1652456953b0a09c70": {
       "type": "section-hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/Men_s_T-shirts_Header.png",
+        "mobile_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/Mens-Tees-Cover-IMG-border.jpg",
         "mob_img": "shopify:\/\/shop_images\/Men_s-T-shirts-Header.jpg",
         "img_url": "",
         "main_title": "",
         "title_font": "headline__din",
         "font_color": "#f1efe8",
         "text": "",
-        "link_text": "made in the USA, 100% cotton",
+        "link_text": "",
         "link": "#",
         "show_button": false,
         "show_down_arrow": false
@@ -25,11 +27,12 @@
     "165271294173c98b98": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
         "title_font": "headline__arno",
-        "text": "everything we love is tied to a memory... even a t-shirt.<br> <br>made in usa. 100% cotton.",
+        "text": "everything we love is tied to a memory... even a t-shirt. <br>--<br>made in usa. 100% cotton.",
         "btn_text": "",
         "btn_url": "",
         "show_button": false
@@ -55,8 +58,8 @@
         "4af406c5-5512-4921-928a-cfe4eaead1b5": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/scrimmage_01_1200x_6903ac6a-ae31-44fb-bead-9857b9be7869.webp",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-scrimmage-tee"
+            "img": "shopify:\/\/shop_images\/hopeyourewell_05.jpg",
+            "link": "https:\/\/imogeneandwillie.com\/products\/the-well-wishes-tee?_pos=1&_sid=750de3e28&_ss=r"
           }
         },
         "88c7cb3a-7df5-459a-8c7a-d6d470a0ef84": {
@@ -83,8 +86,8 @@
         "397cf57d-3467-49c1-b3c6-bf821f9d5668": {
           "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/mensheart-Tee02_1200x_94284d70-9044-4f06-8233-355ec59d8dbc.jpg",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-love-tee-m"
+            "img": "shopify:\/\/shop_images\/takenewithyou_01.jpg",
+            "link": "https:\/\/imogeneandwillie.com\/products\/the-strange-sights-tee?_pos=1&_sid=e5631369e&_ss=r"
           }
         },
         "12623210-327c-48b0-8bfc-5426e3b0ffc5": {
@@ -114,6 +117,8 @@
         "5ffdaff7-dd62-4b5f-994e-229e9022f7cd"
       ],
       "settings": {
+        "mobile_hide": true,
+        "bg_color": "#ffffff",
         "desk_img": "shopify:\/\/shop_images\/nice-04_1.jpg",
         "mob_img": "shopify:\/\/shop_images\/theendtee_01_1200x_b2015d66-b560-4b72-bd35-6f8c14f96c2d.webp",
         "link_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees",
@@ -121,11 +126,31 @@
         "link_text": "shop all >"
       }
     },
+    "1655213958992b57ce": {
+      "type": "section-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "video_url": "",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Graphic_Tee_Reveal-cropped.mp4?v=1655213772",
+        "video_controls": false
+      }
+    },
+    "165514446902bc731d": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "choose_collection": "graphic-tees",
+        "title": "graphic tees",
+        "btn_text": "shop all",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees",
+        "show_border": false
+      }
+    },
     "16524624159b78050c": {
       "type": "section-image-overlay-feature",
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/arizonamag_-9_4fa019ee-31a8-4465-8a41-b728496eb2b9.jpg",
         "image": "shopify:\/\/shop_images\/raglanblack_01_1200x_36a32394-9e21-48ce-96d5-ee4226a030e5.webp",
+        "image_mobile": "shopify:\/\/shop_images\/raglanblack_012-overlay.jpg",
         "change_alignment": false,
         "show_section_mob": false,
         "show_section_desk": false,
@@ -137,49 +162,49 @@
         "link_url": "https:\/\/imogeneandwillie.com\/products\/black-knit-raglan?_pos=1&_sid=7888c4514&_ss=r"
       }
     },
-    "1652455815637069c3": {
-      "type": "section-symmetric-content",
+    "1655144689c03fdab2": {
+      "type": "section-diptych",
       "blocks": {
-        "f4d90e8f-cdb7-47c4-afec-82df4f9293d3": {
-          "type": "fabric_info",
+        "1bc0cf32-7f51-4085-adf0-25aa0b41b8de": {
+          "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/redpockettee_01_1200x_39c9f1a0-753d-4f4e-9bca-c703711779bb.webp",
-            "title": "pocket tees",
-            "title_font": "headline__din",
-            "text": "to us, a perfect tee should be three things: effortless, comfortable, and versatile... a staple of our wardrobe.",
-            "link_text": "Shop all >",
+            "img_desk": "shopify:\/\/shop_images\/dune-08-edited.jpg",
+            "pre_title": "pocket tees",
+            "title": "to us, a perfect tee should be three things: effortless, comfortable, and versatile... a staple of our wardrobe.",
+            "btn_text": "Shop All",
             "link_url": "https:\/\/imogeneandwillie.com\/collections\/pocket-tees",
-            "use_btn": false
+            "link_text": "Pocket Tees"
           }
         },
-        "cb49ceb5-2716-4b19-b283-64a1c74f936b": {
-          "type": "fabric_info",
+        "57b4fed8-821d-4c75-8b22-198cc43c10cf": {
+          "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/VWHcrew_009.webp",
-            "title": "Core tees",
-            "title_font": "headline__din",
-            "text": "the second half of our uniform. everything we love is tied to a memory... even a t-shirt. to us, a perfect tee should be three things: effortless, comfortable, and versatile.",
-            "link_text": "shop all >",
-            "link_url": "https:\/\/imogeneandwillie.com\/collections\/men-tshirts",
-            "use_btn": false
+            "img_desk": "shopify:\/\/shop_images\/blank-crew11.jpg",
+            "pre_title": "Core tees",
+            "title": "the second half of our uniform. everything we love is tied to a memory... even a t-shirt.",
+            "btn_text": "Shop All",
+            "link_url": "",
+            "link_text": "Core TEES"
           }
         }
       },
       "block_order": [
-        "f4d90e8f-cdb7-47c4-afec-82df4f9293d3",
-        "cb49ceb5-2716-4b19-b283-64a1c74f936b"
+        "1bc0cf32-7f51-4085-adf0-25aa0b41b8de",
+        "57b4fed8-821d-4c75-8b22-198cc43c10cf"
       ],
       "settings": {
-        "main_title": ""
+        "mobile_hide": false
       }
     },
     "1652456232ae0f4c29": {
       "type": "section-hero-banner",
       "settings": {
+        "mobile_hide": false,
+        "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/indigopockettee_03.jpg",
         "mob_img": "shopify:\/\/shop_images\/indigopockettee_06.jpg",
         "img_url": "",
-        "main_title": "ON PROCESS:",
+        "main_title": "ON PROCESS",
         "title_font": "headline__din",
         "font_color": "#f1efe8",
         "text": "every single tee has been indigo dyed, by hand, and set in the sun to re-create the color and wear that typically only from from years of use.",
@@ -192,37 +217,21 @@
     "16527310938cba278b": {
       "type": "section-quote",
       "settings": {
+        "mobile_hide": false,
         "review": "\"i go to nature to be soothed and healed, and to have my sense put in order.\"",
         "customer_name": "<br>- John burroughs",
         "background_color": "#f7f6f3"
       }
     },
-    "16527290924f316701": {
-      "type": "section-mobile-slider",
-      "settings": {
-        "choose_collection": "sunfaded-pocket-tees",
-        "title": "pocket tees",
-        "btn_text": "shop all",
-        "btn_url": "",
-        "show_border": true
-      }
-    },
-    "16527291996247a90d": {
-      "type": "section-mobile-slider",
-      "settings": {
-        "choose_collection": "vintage-lightweight-tees",
-        "title": "Core Tees",
-        "btn_text": "Shop ALL",
-        "btn_url": "",
-        "show_border": false
-      }
-    },
     "1652456340537a4e71": {
       "type": "section-collection-grid",
       "settings": {
+        "mobile_hide": false,
         "choose_collection": "men-tshirts",
         "show_title": true,
+        "show_subtitle": true,
         "show_price": false,
+        "show_badges": false,
         "products_to_show": 12,
         "products_per_row": 2,
         "title": "",
@@ -235,6 +244,7 @@
     "1652456916538c32da": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
         "mob_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
         "img_url": "",
@@ -247,12 +257,12 @@
     "1652456953b0a09c70",
     "165271294173c98b98",
     "1652454602d3fcba0f",
+    "1655213958992b57ce",
+    "165514446902bc731d",
     "16524624159b78050c",
-    "1652455815637069c3",
+    "1655144689c03fdab2",
     "1652456232ae0f4c29",
     "16527310938cba278b",
-    "16527290924f316701",
-    "16527291996247a90d",
     "1652456340537a4e71",
     "1652456916538c32da"
   ]

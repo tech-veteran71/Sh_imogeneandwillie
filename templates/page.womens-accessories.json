@@ -9,17 +9,36 @@
     "1652456953b0a09c70": {
       "type": "section-hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/olive-crew06_1200x_ae222a50-e269-474e-8f7f-f7bb8b0749f8.webp",
-        "mob_img": "shopify:\/\/shop_images\/olive-crew04_1200x_a80c2e7b-1c6b-4107-bac1-22786a1d0d00.webp",
-        "img_url": "",
-        "main_title": "ACCESSORIES",
+        "mobile_hide": false,
+        "mobile_hide_text": true,
+        "desk_img": "shopify:\/\/shop_images\/sierrapalm_03.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bandanacollage_04b86795-675f-4da9-8ace-5baf82538140.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/womens-accesories",
+        "main_title": "",
         "title_font": "headline__din",
-        "font_color": "#f1efe8",
+        "font_color": "#ffffff",
         "text": "",
-        "link_text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things",
-        "link": "#",
+        "link_text": "THOUGHTFULLY DESIGNED + CAREFULLY MADE",
+        "link": "https:\/\/imogeneandwillie.com\/collections\/womens-accesories",
         "show_button": false,
         "show_down_arrow": false
+      }
+    },
+    "16524624159b78050c": {
+      "type": "section-image-overlay-feature",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/trade-white-05.jpg",
+        "image": "shopify:\/\/shop_images\/red-snake-03.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/beads_collage.png",
+        "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
+        "pre_title": "",
+        "title": "beads",
+        "text": "no two necklaces are alike. vintage beads strung on sturdy, cotton cords. each subtle abrasion and imperfection speaks to their pasts.",
+        "btn_text": "shop all",
+        "link_url": "https:\/\/imogeneandwillie.com\/products\/black-knit-raglan?_pos=1&_sid=7888c4514&_ss=r"
       }
     },
     "1652454602d3fcba0f": {
@@ -101,27 +120,13 @@
         "5ffdaff7-dd62-4b5f-994e-229e9022f7cd"
       ],
       "settings": {
+        "mobile_hide": false,
+        "bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/out-west-05_1200x_b0c13716-cb5f-4bdc-a26f-a5bee7d870fc.webp",
         "mob_img": "shopify:\/\/shop_images\/productimage_1200x_a6b925cd-eecc-4e2a-afd5-b4a25471ecc3.webp",
         "link_url": "https:\/\/imogeneandwillie.com\/collections\/socks",
-        "title": "Graphic Tees",
+        "title": "SOCKS",
         "link_text": "shop all >"
-      }
-    },
-    "16524624159b78050c": {
-      "type": "section-image-overlay-feature",
-      "settings": {
-        "bg_img": "shopify:\/\/shop_images\/arizonamag_-9_4fa019ee-31a8-4465-8a41-b728496eb2b9.jpg",
-        "image": "shopify:\/\/shop_images\/raglanblack_01_1200x_36a32394-9e21-48ce-96d5-ee4226a030e5.webp",
-        "change_alignment": false,
-        "show_section_mob": false,
-        "show_section_desk": false,
-        "show_section": true,
-        "pre_title": "",
-        "title": "men's raglan",
-        "text": "our classic raglan tee was inspired by old school racing jerseys, long hours in the garage, and the days when a shirt was built to take a beating",
-        "btn_text": "shop all",
-        "link_url": "https:\/\/imogeneandwillie.com\/products\/black-knit-raglan?_pos=1&_sid=7888c4514&_ss=r"
       }
     },
     "1652455815637069c3": {
@@ -130,10 +135,10 @@
         "f4d90e8f-cdb7-47c4-afec-82df4f9293d3": {
           "type": "fabric_info",
           "settings": {
-            "img": "shopify:\/\/shop_images\/redpockettee_01_1200x_39c9f1a0-753d-4f4e-9bca-c703711779bb.webp",
-            "title": "pocket tees",
+            "img": "shopify:\/\/shop_images\/sierrapalm_04.jpg",
+            "title": "palms",
             "title_font": "headline__din",
-            "text": "to us, a perfect tee should be three things: effortless, comfortable, and versatile... a staple of our wardrobe.",
+            "text": "every handwoven palm is executed with the utmost care, and each hat individually signed by its maker.",
             "link_text": "Shop all >",
             "link_url": "https:\/\/imogeneandwillie.com\/collections\/pocket-tees",
             "use_btn": false
@@ -142,10 +147,10 @@
         "cb49ceb5-2716-4b19-b283-64a1c74f936b": {
           "type": "fabric_info",
           "settings": {
-            "img": "shopify:\/\/shop_images\/VWHcrew_009.webp",
-            "title": "Core tees",
+            "img": "shopify:\/\/shop_images\/green02.jpg",
+            "title": "truckers",
             "title_font": "headline__din",
-            "text": "the second half of our uniform. everything we love is tied to a memory... even a t-shirt. to us, a perfect tee should be three things: effortless, comfortable, and versatile.",
+            "text": "simple, straightforward, made well, and made right here.",
             "link_text": "shop all >",
             "link_url": "https:\/\/imogeneandwillie.com\/collections\/men-tshirts",
             "use_btn": false
@@ -157,21 +162,24 @@
         "cb49ceb5-2716-4b19-b283-64a1c74f936b"
       ],
       "settings": {
+        "mobile_hide": false,
         "main_title": ""
       }
     },
     "1652456232ae0f4c29": {
       "type": "section-hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/indigopockettee_03.jpg",
-        "mob_img": "shopify:\/\/shop_images\/indigopockettee_06.jpg",
+        "mobile_hide": false,
+        "mobile_hide_text": true,
+        "desk_img": "shopify:\/\/shop_images\/lastchance_03_5dd5a685-954c-410e-adfa-6e386619db4b.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bandanacollage2.png",
         "img_url": "",
-        "main_title": "ON PROCESS:",
+        "main_title": "",
         "title_font": "headline__din",
-        "font_color": "#f1efe8",
-        "text": "every single tee has been indigo dyed, by hand, and set in the sun to re-create the color and wear that typically only from from years of use.",
-        "link_text": "Sunfaded indigo pocket tee",
-        "link": "https:\/\/imogeneandwillie.com\/products\/the-sunfaded-indigo-pocket-tee",
+        "font_color": "#ffffff",
+        "text": "to keep with you wherever you may go. each bandana improves with wear and age. screen-printed by hand from original artwork made in-house.",
+        "link_text": "SHOP bandanas",
+        "link": "https:\/\/imogeneandwillie.com\/collections\/bandanas",
         "show_button": true,
         "show_down_arrow": false
       }
@@ -179,36 +187,56 @@
     "1652456340537a4e71": {
       "type": "section-collection-grid",
       "settings": {
-        "choose_collection": "men-tshirts",
+        "mobile_hide": false,
+        "choose_collection": "womens-accesories",
         "show_title": true,
+        "show_subtitle": true,
         "show_price": false,
-        "products_to_show": 12,
+        "show_badges": false,
+        "products_to_show": 8,
         "products_per_row": 2,
-        "title": "everything we love is tied to a memory... even a t-shirt.",
-        "title_font": "headline__din",
+        "title": "it's all in the details...here are some of our favorites",
+        "title_font": "headline__arno",
         "text": "",
-        "btn_text": "Shop All T-SHIRTS",
+        "btn_text": "shop all accessories",
         "btn_url": ""
       }
     },
     "1652456916538c32da": {
       "type": "section-image",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
-        "mob_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/lastchance_03_5dd5a685-954c-410e-adfa-6e386619db4b.jpg",
+        "mob_img": "shopify:\/\/shop_images\/lastchance_03_5dd5a685-954c-410e-adfa-6e386619db4b.jpg",
         "img_url": "",
         "img_width": "large"
+      }
+    },
+    "1655152403dc03735c": {
+      "type": "product-video-story",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "wrap_title": "",
+        "top_text": "",
+        "bottom_text": "",
+        "link_text": "read more...",
+        "btn_url": "",
+        "btn": "",
+        "add_video": true,
+        "video_url": ""
       }
     }
   },
   "order": [
     "main",
     "1652456953b0a09c70",
-    "1652454602d3fcba0f",
     "16524624159b78050c",
+    "1652454602d3fcba0f",
     "1652455815637069c3",
     "1652456232ae0f4c29",
     "1652456340537a4e71",
-    "1652456916538c32da"
+    "1652456916538c32da",
+    "1655152403dc03735c"
   ]
 }

@@ -49,7 +49,7 @@
         "cf2fdf96-f698-46d7-812d-a712b8a985c7"
       ],
       "settings": {
-        "mobile_hide": false,
+        "mobile_hide": true,
         "bg_color": "",
         "change_alignment": false,
         "btn_text": "EXPLORE",
@@ -466,7 +466,7 @@
       "type": "section-product-collection-slider",
       "settings": {
         "mobile_hide": false,
-        "background_color": "#F7F6F3",
+        "background_color": "#f7f6f3",
         "choose_collection": "size-27",
         "show_title": false,
         "show_subtitle": true,

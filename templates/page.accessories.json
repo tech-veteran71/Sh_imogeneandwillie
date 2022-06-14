@@ -9,17 +9,28 @@
     "1652456953b0a09c70": {
       "type": "section-hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/olive-crew06_1200x_ae222a50-e269-474e-8f7f-f7bb8b0749f8.webp",
-        "mob_img": "shopify:\/\/shop_images\/olive-crew04_1200x_a80c2e7b-1c6b-4107-bac1-22786a1d0d00.webp",
+        "mobile_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/lastchance_03_5dd5a685-954c-410e-adfa-6e386619db4b.jpg",
+        "mob_img": "shopify:\/\/shop_images\/lastchance_05_8ca2b8a6-caf6-48ff-854c-0c8e99ae43aa.jpg",
         "img_url": "",
         "main_title": "ACCESSORIES",
         "title_font": "headline__din",
         "font_color": "#f1efe8",
         "text": "",
-        "link_text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things",
+        "link_text": "",
         "link": "#",
         "show_button": false,
         "show_down_arrow": false
+      }
+    },
+    "1655150550e2a85871": {
+      "type": "section-rich-text",
+      "settings": {
+        "mobile_hide": false,
+        "text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things.",
+        "link_text": "",
+        "link_url": ""
       }
     },
     "1652454602d3fcba0f": {
@@ -101,114 +112,227 @@
         "5ffdaff7-dd62-4b5f-994e-229e9022f7cd"
       ],
       "settings": {
+        "mobile_hide": false,
+        "bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/out-west-05_1200x_b0c13716-cb5f-4bdc-a26f-a5bee7d870fc.webp",
-        "mob_img": "shopify:\/\/shop_images\/productimage_1200x_a6b925cd-eecc-4e2a-afd5-b4a25471ecc3.webp",
+        "mob_img": "shopify:\/\/shop_images\/Sock-Collage.png",
         "link_url": "https:\/\/imogeneandwillie.com\/collections\/socks",
-        "title": "Graphic Tees",
-        "link_text": "shop all >"
+        "title": "imogene + willie x Little River",
+        "link_text": "shop socks >"
       }
     },
-    "16524624159b78050c": {
-      "type": "section-image-overlay-feature",
+    "165515221243766bb2": {
+      "type": "section-video-hero",
       "settings": {
-        "bg_img": "shopify:\/\/shop_images\/arizonamag_-9_4fa019ee-31a8-4465-8a41-b728496eb2b9.jpg",
-        "image": "shopify:\/\/shop_images\/raglanblack_01_1200x_36a32394-9e21-48ce-96d5-ee4226a030e5.webp",
-        "change_alignment": false,
-        "show_section_mob": false,
-        "show_section_desk": false,
-        "show_section": true,
-        "pre_title": "",
-        "title": "men's raglan",
-        "text": "our classic raglan tee was inspired by old school racing jerseys, long hours in the garage, and the days when a shirt was built to take a beating",
-        "btn_text": "shop all",
-        "link_url": "https:\/\/imogeneandwillie.com\/products\/black-knit-raglan?_pos=1&_sid=7888c4514&_ss=r"
+        "mobile_hide": false,
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Skull-Hat-Web.mp4?v=1655152007",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Skull-Hat-Web.mp4?v=1655152007",
+        "video_controls": false
       }
     },
-    "1652455815637069c3": {
-      "type": "section-symmetric-content",
-      "blocks": {
-        "f4d90e8f-cdb7-47c4-afec-82df4f9293d3": {
-          "type": "fabric_info",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/redpockettee_01_1200x_39c9f1a0-753d-4f4e-9bca-c703711779bb.webp",
-            "title": "pocket tees",
-            "title_font": "headline__din",
-            "text": "to us, a perfect tee should be three things: effortless, comfortable, and versatile... a staple of our wardrobe.",
-            "link_text": "Shop all >",
-            "link_url": "https:\/\/imogeneandwillie.com\/collections\/pocket-tees",
-            "use_btn": false
-          }
-        },
-        "cb49ceb5-2716-4b19-b283-64a1c74f936b": {
-          "type": "fabric_info",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/VWHcrew_009.webp",
-            "title": "Core tees",
-            "title_font": "headline__din",
-            "text": "the second half of our uniform. everything we love is tied to a memory... even a t-shirt. to us, a perfect tee should be three things: effortless, comfortable, and versatile.",
-            "link_text": "shop all >",
-            "link_url": "https:\/\/imogeneandwillie.com\/collections\/men-tshirts",
-            "use_btn": false
-          }
-        }
-      },
-      "block_order": [
-        "f4d90e8f-cdb7-47c4-afec-82df4f9293d3",
-        "cb49ceb5-2716-4b19-b283-64a1c74f936b"
-      ],
+    "1655152389f4a89f7b": {
+      "type": "section-txt-link-btn",
       "settings": {
-        "main_title": ""
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "( featured )",
+        "title": "the \"hellcats\" hat",
+        "title_font": "h1",
+        "text": "inspired by the old days, this cap gets its name from an old photo of matt’s grandpa wearing his \"HELLCATS\" baseball jersey on an army base during World War II.",
+        "btn_text": "shop now >",
+        "btn_url": "",
+        "show_button": false
       }
     },
-    "1652456232ae0f4c29": {
-      "type": "section-hero-banner",
+    "1655152475c28f6de7": {
+      "type": "section-product-collection-slider",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/indigopockettee_03.jpg",
-        "mob_img": "shopify:\/\/shop_images\/indigopockettee_06.jpg",
+        "mobile_hide": false,
+        "background_color": "#ffffff",
+        "choose_collection": "hats",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "SHOP HATS",
+        "main_title": "",
+        "mob_title": "SHOP HATS",
+        "link_text": "VIEW ALL",
+        "link_url": ""
+      }
+    },
+    "1655153521f3ff2c54": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/MBM-Header.png",
+        "mob_img": "shopify:\/\/shop_images\/MBM-Header.png",
         "img_url": "",
-        "main_title": "ON PROCESS:",
+        "pre_title": "( made by matt )",
+        "main_title": "hand-stamped zippos + engraved flasks",
         "title_font": "headline__din",
-        "font_color": "#f1efe8",
-        "text": "every single tee has been indigo dyed, by hand, and set in the sun to re-create the color and wear that typically only from from years of use.",
-        "link_text": "Sunfaded indigo pocket tee",
-        "link": "https:\/\/imogeneandwillie.com\/products\/the-sunfaded-indigo-pocket-tee",
-        "show_button": true,
-        "show_down_arrow": false
+        "text": "<br>inspired by a WWI trench art and tattoo flash, each product is hand engraved\/stamped by matt. <br> -- <br> to carry with you wherever you may go, whether you need it or not.",
+        "btn_text": "shop all >",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": true
       }
     },
-    "1652456340537a4e71": {
+    "1655150735074bd32b": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": false,
+        "background_color": "#ffffff",
+        "choose_collection": "our-book-collection",
+        "show_title": true,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "title": "our book collection",
+        "main_title": "our book collection",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "1655164262029b1e5f": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "img_height": false,
+        "link": "",
+        "add_video": true,
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/chainstitch_feb17th_03.mp4?v=1655165274",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/chainstitch_feb17th_03.mp4?v=1655165274",
+        "video_controls": false
+      }
+    },
+    "1655165407eb78bd3e": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "( for only you )",
+        "title": "CUSTOM CHAINSTITCH BANDANA",
+        "title_font": "headline__din",
+        "text": "to keep with you wherever you may go. each bandana improves with wear and age. note: there is a limit of 8 characters (one word only).",
+        "btn_text": "learn more >",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1655153910aa7cf4a6": {
       "type": "section-collection-grid",
       "settings": {
-        "choose_collection": "men-tshirts",
+        "mobile_hide": false,
+        "choose_collection": "mens-accessories",
         "show_title": true,
+        "show_subtitle": true,
         "show_price": false,
+        "show_badges": false,
         "products_to_show": 12,
         "products_per_row": 2,
-        "title": "everything we love is tied to a memory... even a t-shirt.",
+        "title": "",
         "title_font": "headline__din",
         "text": "",
-        "btn_text": "Shop All T-SHIRTS",
+        "btn_text": "SHOP ALL ACCESSORIES",
         "btn_url": ""
       }
     },
     "1652456916538c32da": {
       "type": "section-image",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
-        "mob_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/white-02_4cdc3d80-446c-412e-8e29-8b0e323f19a3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/white-02_4cdc3d80-446c-412e-8e29-8b0e323f19a3.jpg",
         "img_url": "",
-        "img_width": "large"
+        "img_width": "full"
+      }
+    },
+    "1655215654c780f15c": {
+      "type": "section-content-cards",
+      "blocks": {
+        "0a381fcc-1fd4-4b8b-893c-a4f1c4603a0e": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/lastchance_05_8ca2b8a6-caf6-48ff-854c-0c8e99ae43aa.jpg",
+            "mob_img": "shopify:\/\/shop_images\/lastchance_05_9283e323-85e9-4357-b380-03b3fd863b84.jpg",
+            "title": "bandanas",
+            "text": "the latest addition to our collection of bandanas. the design pulls both from original artwork first painted by matt and countless vintage bandanas that we've gotten our hands on over the years. each bandana improves with wear and age.",
+            "link_url": "https:\/\/imogeneandwillie.com\/collections\/bandanas"
+          }
+        },
+        "39c4d8e9-e32f-4bf5-bc8e-862a7831d9e1": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/trade-white-03.jpg",
+            "mob_img": "shopify:\/\/shop_images\/trade-white-03.jpg",
+            "title": "beads",
+            "text": "a single strand of hand-cut antique glass beads, strung together on a heavy-spun vintage cotton cord.  handmade from vintage pieces, each necklace completely unique.",
+            "link_url": "https:\/\/imogeneandwillie.com\/collections\/jewelry"
+          }
+        },
+        "1da9b49d-9d50-48be-a4bf-662e00cd55ab": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/vasquez-vibes_-_1-of-12.jpg",
+            "mob_img": "shopify:\/\/shop_images\/vasquez-vibes_-_1-of-12.jpg",
+            "title": "iw x emil erwin",
+            "text": "for us, emil erwin represents everything we admire about nashille's community of local makers. when we decided to we wanted to develop some leather accessories, the choice was easy... emil's attention to detail, design, and craftsmanship is second to none.",
+            "link_url": ""
+          }
+        },
+        "707190f0-0dba-4019-8262-e06b9ccea1ac": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/sierrapalm_04.jpg",
+            "mob_img": "shopify:\/\/shop_images\/sierrapalm_04.jpg",
+            "title": "handwoven hats",
+            "text": "every handwoven palm hat is formed and crafted by hand. each detail is executed with the utmost care, and each hat individually signed by its maker.",
+            "link_url": ""
+          }
+        },
+        "4fdc9011-d8ec-43d6-a732-0f4ca6548e87": {
+          "type": "info",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/mirage1.png",
+            "mob_img": "shopify:\/\/shop_images\/mirage1.png",
+            "title": "jewelry",
+            "text": "a small collection of intentionally, hand-picked pieces we are proud to share with you. all made in the usa.",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "0a381fcc-1fd4-4b8b-893c-a4f1c4603a0e",
+        "39c4d8e9-e32f-4bf5-bc8e-862a7831d9e1",
+        "1da9b49d-9d50-48be-a4bf-662e00cd55ab",
+        "707190f0-0dba-4019-8262-e06b9ccea1ac",
+        "4fdc9011-d8ec-43d6-a732-0f4ca6548e87"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "main_title": "Lorem ipsum dolor"
       }
     }
   },
   "order": [
     "main",
     "1652456953b0a09c70",
+    "1655150550e2a85871",
     "1652454602d3fcba0f",
-    "16524624159b78050c",
-    "1652455815637069c3",
-    "1652456232ae0f4c29",
-    "1652456340537a4e71",
-    "1652456916538c32da"
+    "165515221243766bb2",
+    "1655152389f4a89f7b",
+    "1655152475c28f6de7",
+    "1655153521f3ff2c54",
+    "1655150735074bd32b",
+    "1655164262029b1e5f",
+    "1655165407eb78bd3e",
+    "1655153910aa7cf4a6",
+    "1652456916538c32da",
+    "1655215654c780f15c"
   ]
 }

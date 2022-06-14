@@ -9,12 +9,14 @@
     "1652456953b0a09c70": {
       "type": "section-hero-banner",
       "settings": {
+        "mobile_hide": false,
+        "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/white-drop-tee03_1200x_7c895bf4-5f8d-4aba-8639-4ce0bc86074a.webp",
-        "mob_img": "shopify:\/\/shop_images\/mobilecollage_7c0cf936-8273-44a3-936c-96cff1e3680a.png",
+        "mob_img": "shopify:\/\/shop_images\/mobilecollage_6db82394-fb26-4e6c-9860-8615cdca58e4.png",
         "img_url": "",
         "main_title": "",
         "title_font": "headline__din",
-        "font_color": "#121212",
+        "font_color": "{{ shop.brand.colors.primary[0].background }}",
         "text": "",
         "link_text": "made in the USA, 100% cotton.",
         "link": "#",
@@ -24,10 +26,36 @@
     },
     "16527283297818d362": {
       "type": "section-quote",
+      "disabled": true,
       "settings": {
-        "review": "“i want to die with my blue jeans on.”",
-        "customer_name": "- Andy Warhol",
-        "background_color": "transparent"
+        "mobile_hide": false,
+        "review": "everything we love is tied to a memory...even a t-shirt.",
+        "customer_name": "",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655216292204f2103": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "text": "everything we love is tied to a memory... even a t-shirt.",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "16552163722cb3e450": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "<br> <br>everything we love is tied to a memory... even a t-shirt. <br> --<br> made in usa. 100% cotton.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
       }
     },
     "16524624159b78050c": {
@@ -35,6 +63,7 @@
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/dessert__2_of_3.jpg",
         "image": "shopify:\/\/shop_images\/black-drop-tee01.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/droptee_navy01_1200x_dcc336fb-dd8e-4312-b305-3132208563de.webp",
         "change_alignment": false,
         "show_section_mob": false,
         "show_section_desk": false,
@@ -46,8 +75,35 @@
         "link_url": "https:\/\/imogeneandwillie.com\/collections\/the-drop-tee"
       }
     },
+    "165521652877160ebd": {
+      "type": "section-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "video_url": "",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Graphic_Tee_Reveal-cropped.mp4?v=1655213772",
+        "video_controls": false
+      }
+    },
+    "165521908178e5cb18": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": false,
+        "background_color": "#F7F6F3",
+        "choose_collection": "graphic-tees",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "",
+        "main_title": "graphic tees",
+        "mob_title": "",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
     "1652454602d3fcba0f": {
       "type": "section-hero-grid",
+      "disabled": true,
       "blocks": {
         "bab32805-b8b0-4299-8c9e-b7b2ac293a2d": {
           "type": "product_image",
@@ -125,6 +181,8 @@
         "5ffdaff7-dd62-4b5f-994e-229e9022f7cd"
       ],
       "settings": {
+        "mobile_hide": false,
+        "bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/66-_01.jpg",
         "mob_img": "shopify:\/\/shop_images\/66-_01.jpg",
         "link_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees",
@@ -132,8 +190,56 @@
         "link_text": "shop all >"
       }
     },
+    "1655218881b7a9db70": {
+      "type": "section-mobile-slider",
+      "disabled": true,
+      "settings": {
+        "choose_collection": "graphic-tees",
+        "title": "GRAPHIC TEES",
+        "btn_text": "SHOP ALL",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees",
+        "show_border": true
+      }
+    },
+    "165521573342ee8ea4": {
+      "type": "section-diptych",
+      "blocks": {
+        "0e7d4f31-f76d-45f2-a3e4-4862960275de": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/racerback-white_04_1200x_416935bc-93f7-4610-8588-d50bfaf1302b.webp",
+            "img_mob": "shopify:\/\/shop_images\/racerback-white_04_1200x_416935bc-93f7-4610-8588-d50bfaf1302b.webp",
+            "pre_title": "",
+            "title": "TANKS",
+            "btn_text": "Shop All",
+            "link_url": "https:\/\/imogeneandwillie.com\/collections\/women-tshirts",
+            "link_text": "SHOP ALL TANKS"
+          }
+        },
+        "34e644ac-199c-4cf0-9288-083a0c88028a": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/3-4sleeve_white_04_1200x_37157c2c-33b1-4649-863b-d2b0bbadfeb0.webp",
+            "img_mob": "shopify:\/\/shop_images\/3-4sleeve_white_04_1200x_37157c2c-33b1-4649-863b-d2b0bbadfeb0.webp",
+            "pre_title": "",
+            "title": "TEES",
+            "btn_text": "Shop All",
+            "link_url": "",
+            "link_text": "SHOP ALL TEES"
+          }
+        }
+      },
+      "block_order": [
+        "0e7d4f31-f76d-45f2-a3e4-4862960275de",
+        "34e644ac-199c-4cf0-9288-083a0c88028a"
+      ],
+      "settings": {
+        "mobile_hide": false
+      }
+    },
     "1652455815637069c3": {
       "type": "section-symmetric-content",
+      "disabled": true,
       "blocks": {
         "f4d90e8f-cdb7-47c4-afec-82df4f9293d3": {
           "type": "fabric_info",
@@ -165,16 +271,19 @@
         "cb49ceb5-2716-4b19-b283-64a1c74f936b"
       ],
       "settings": {
+        "mobile_hide": false,
         "main_title": ""
       }
     },
     "1652456232ae0f4c29": {
       "type": "section-hero-banner",
       "settings": {
+        "mobile_hide": false,
+        "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/indigopockettee_03.jpg",
         "mob_img": "shopify:\/\/shop_images\/indigopockettee_06.jpg",
         "img_url": "",
-        "main_title": "ON PROCESS:",
+        "main_title": "ON PROCESS",
         "title_font": "headline__din",
         "font_color": "#f1efe8",
         "text": "every single tee has been indigo dyed, by hand, and set in the sun to re-create the color and wear that typically only from from years of use.",
@@ -184,16 +293,28 @@
         "show_down_arrow": false
       }
     },
+    "16552168685eb46a49": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "review": "“it's sunnier today. the world is as beautiful as ever.”",
+        "customer_name": "- hayao miyazaki",
+        "background_color": "transparent"
+      }
+    },
     "1652456340537a4e71": {
       "type": "section-collection-grid",
       "settings": {
+        "mobile_hide": false,
         "choose_collection": "womens-knits",
         "show_title": false,
+        "show_subtitle": true,
         "show_price": false,
-        "products_to_show": 12,
+        "show_badges": false,
+        "products_to_show": 8,
         "products_per_row": 3,
-        "title": "everything we love is tied to a memory... even a t-shirt.",
-        "title_font": "headline__din",
+        "title": "",
+        "title_font": "headline__arno",
         "text": "",
         "btn_text": "shop all women's knits",
         "btn_url": "https:\/\/imogeneandwillie.com\/collections\/women-tshirts"
@@ -203,6 +324,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
         "mob_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
         "img_url": "",
@@ -222,7 +344,7 @@
         "title": "",
         "text": "",
         "btn_text": "",
-        "link_url": "https:\/\/imogeneandwillie.com\/collections\/women-tshirts"
+        "link_url": "https:\/\/imogeneandwillie.com\/collections\/the-drop-tee"
       }
     },
     "1652712899546c66f9": {
@@ -272,6 +394,7 @@
         "a2d63257-03af-4a70-b8b5-2b18a5671450"
       ],
       "settings": {
+        "mobile_hide": false,
         "bg_color": "",
         "change_alignment": false,
         "btn_text": "",
@@ -284,10 +407,17 @@
     "main",
     "1652456953b0a09c70",
     "16527283297818d362",
+    "1655216292204f2103",
+    "16552163722cb3e450",
     "16524624159b78050c",
+    "165521652877160ebd",
+    "165521908178e5cb18",
     "1652454602d3fcba0f",
+    "1655218881b7a9db70",
+    "165521573342ee8ea4",
     "1652455815637069c3",
     "1652456232ae0f4c29",
+    "16552168685eb46a49",
     "1652456340537a4e71",
     "1652456916538c32da",
     "1652711580eb65d6ec",

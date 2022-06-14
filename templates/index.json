@@ -3,7 +3,7 @@
     "1649343925c8d83679": {
       "type": "section-image",
       "settings": {
-        "mobile_hide": false,
+        "mobile_hide": true,
         "desk_img": "shopify:\/\/shop_images\/desktop_0ae28962-274f-4eb7-9128-2db241d361f7.jpg",
         "mob_img": "shopify:\/\/shop_images\/mobile_3239f1d4-c213-4a8d-bf84-a3d83c675eb0.jpg",
         "img_url": "",
@@ -37,7 +37,7 @@
     "1649345031dfcd3b10": {
       "type": "section-quote",
       "settings": {
-        "mobile_hide": false,
+        "mobile_hide": true,
         "review": "“you don't think it be like that, <br>but sometimes it do.”",
         "customer_name": "- jonathan krohn",
         "background_color": "#f1efe8"
@@ -94,7 +94,7 @@
       "type": "section-mobile-slider",
       "settings": {
         "choose_collection": "women",
-        "title": "",
+        "title": "title",
         "btn_text": "SHOP WOMEN",
         "btn_url": "",
         "show_border": true
@@ -163,7 +163,7 @@
       "type": "section-mobile-slider",
       "settings": {
         "choose_collection": "graphic-tees",
-        "title": "",
+        "title": "title",
         "btn_text": "SHOP MEN",
         "btn_url": "",
         "show_border": true
@@ -250,6 +250,7 @@
     },
     "1651088625b53b1bea": {
       "type": "section-content-spec-collection",
+      "disabled": true,
       "blocks": {
         "592271cd-9a9d-4355-8d3a-df3d37d9886a": {
           "type": "collection",
@@ -366,6 +367,7 @@
     },
     "16510889927e4f6edc": {
       "type": "section-content-cards",
+      "disabled": true,
       "blocks": {
         "1b7c16a7-8c1d-4005-8a46-6812c7b302a2": {
           "type": "info",
@@ -455,15 +457,16 @@
     },
     "165418226026e5428c": {
       "type": "section-image-overlay-feature",
+      "disabled": true,
       "settings": {
-        "bg_img": "shopify:\/\/shop_images\/Untitled-3_copy.jpg",
-        "image": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
+        "bg_img": "shopify:\/\/shop_images\/bigsurvibes_04.jpg",
+        "image": "shopify:\/\/shop_images\/sierra.jpg",
         "change_alignment": false,
         "show_section_mob": false,
         "show_section_desk": false,
         "show_section": true,
-        "pre_title": "pre title",
-        "title": "tite",
+        "pre_title": "( pre title )",
+        "title": "title",
         "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
         "btn_text": "",
         "link_url": ""

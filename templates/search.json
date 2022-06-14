@@ -1,14 +1,12 @@
 {
   "sections": {
     "main": {
-      "type": "main-search"
-    },
-    "banner": {
-      "type": "collection-banner"
+      "type": "main-search",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main",
-    "banner"
+    "main"
   ]
 }
