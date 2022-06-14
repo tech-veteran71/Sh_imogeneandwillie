@@ -3128,10 +3128,18 @@ customElements.define("ajax-cart", AjaxCart);
 
   // fact section swiper script
   new Swiper('.fact-section .custom-grid', {
-    slidesPerView: 2,
+    slidesPerView: 1.5,
     spaceBetween: 20,
     centeredSlides: true,
     loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+      mousewheel: {
+      invert: false,
+      forceToAxis: true,
+    },
     breakpoints: {
       768: {
         slidesPerView: 4,
@@ -3140,24 +3148,6 @@ customElements.define("ajax-cart", AjaxCart);
       },
     }
   });
-  // new Swiper('.fact-section .custom-grid', {
-  //   slidesPerView: 4,
-  //   spaceBetween: 30,
-  //   centeredSlides: true,
-  //   loop: true,
-  //   freeMode: false,
-  //   breakpoints: {
-  //     1279: {
-  //       spaceBetween: 30,
-  //       slidesPerView: 4,
-  //     },
-  //     768: {
-  //       spaceBetween: 20,
-  //       slidesPerView: 1,
-  //     }
-  //   }
-  // });
-
   new Swiper(".slide-section .product-slider", {
     slidesPerView: 1,
     spaceBetween: 30,

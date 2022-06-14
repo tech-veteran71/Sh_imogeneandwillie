@@ -1,22 +1,21 @@
 .slide-section {
   display: none;
   background-color: var(--color-Xlight-wheat);
-  padding-bottom: 60px;
+  padding-bottom: 6rem;
   overflow: hidden;
 }
 .slide-section .container {
-  padding: 0 30px;
+  padding: 0 3rem;
 }
 .slide-section .wrapper.border-bottom {
-  padding-bottom: 40px;
+  padding-bottom: 4rem;
 }
 .slide-section .wrapper .title {
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 0;
   text-align: center;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
+  margin-bottom: 2rem;
   color: var(--color-normal-black);
 }
 .slide-section .product-link {
@@ -33,7 +32,7 @@
 .slide-section .contents {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 2rem;
   position: relative;
 }
 .slide-section .content-wrap {
@@ -42,7 +41,7 @@
   min-width: 100%;
 }
 .slide-section .image-wrap {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .slide-section .image-wrap .img {
   width: 100%;
@@ -52,10 +51,10 @@
 }
 .slide-section .btn-wrap {
   display: flex;
-  max-width: 190px;
-  height: 52px;
+  max-width: 19rem;
+  height: 5.2rem;
   margin: 0 auto;
-  border: 1px solid var(--color-normal-black);
+  border: 0.1rem solid var(--color-normal-black);
 }
 .slide-section .placeholder-svg {
   width: 100%;

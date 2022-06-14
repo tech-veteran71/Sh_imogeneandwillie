@@ -93,6 +93,12 @@
   justify-content: center;
   align-items: center;
 }
+.video-section .btn-wrap.mobile-hide {
+  display: flex;
+}
+.video-section .btn-wrap.desktop-hide {
+  display: none;
+}
 .video-section span.read-more {
   margin-right: 1rem;
 }
@@ -147,6 +153,12 @@
 @media (max-width: 991px){
   .video-section {
     padding: 3rem 0;
+  }
+  .video-section .btn-wrap.mobile-hide {
+    display: none;
+  }
+  .video-section .btn-wrap.desktop-hide {
+    display: flex;
   }
   .video-section .title {
     display: none;

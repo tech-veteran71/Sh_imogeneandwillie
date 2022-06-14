@@ -20,7 +20,7 @@
           
           {% endif %}
           {% if section.settings.btn != blank  %}
-            <div class="btn-wrap">
+            <div class="btn-wrap desktop-hide">
               <span class="read-more">
                 <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn }}</a>
               </span>
@@ -30,6 +30,13 @@
          <div class="info">
         {% if section.settings.bottom_text != blank %}
           <p class="text">{{ section.settings.bottom_text }}</p>
+        {% endif %}
+        {% if section.settings.btn != blank  %}
+          <div class="btn-wrap mobile-hide">
+            <span class="read-more">
+              <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn }}</a>
+            </span>
+          </div>
         {% endif %}
          </div>
         </div>

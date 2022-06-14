@@ -158,6 +158,9 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .fact-section .container {
+    padding: 0;
+  }
   .fact-section {
     padding: 50px 0 60px;
   }
@@ -186,7 +189,7 @@
     margin-right: 0;
   }
   .fact-section .image-wrap {
-    height: 360px;
+    height: 30rem;
   }
   .fact-section .content-wrap {
     margin-top: 18px;

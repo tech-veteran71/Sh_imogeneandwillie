@@ -535,9 +535,24 @@ table:not([class]) th {
   display: none !important;
 }
 
+.mobile-hide {
+  display: block;
+}
+
+.desktop-hide {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   .small-hide {
     display: none !important;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  
+  .desktop-hide {
+    display: block;
   }
 }
 

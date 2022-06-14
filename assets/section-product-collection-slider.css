@@ -108,7 +108,7 @@
     display: none;
   }
   .featured-collection {
-    margin-top: 4rem;
+    padding-top: 4rem;
     background-color: var(--color-white);
     padding-bottom: 4em;
   }

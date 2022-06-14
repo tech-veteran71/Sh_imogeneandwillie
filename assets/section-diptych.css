@@ -23,7 +23,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-
+  padding: 0 2rem;
 }
 .latest-collection .link {
   display: none;
@@ -42,11 +42,12 @@
 }
 .latest-collection .button {
   font-size: 1.2rem;
+  color: var(--color-white);
   text-transform: uppercase;
   width: 100%;
   max-width: 35rem;
   background: transparent;
-  border: 0.1rem solid white;
+  border: 0.1rem solid var(--color-white);
   box-shadow: unset;
   height: 5.5rem;
   letter-spacing: 0.42rem;
