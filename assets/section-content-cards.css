@@ -178,9 +178,9 @@
     padding-bottom: 20px;
   }
   .fact-section .custom-grid .grid-item {
-    max-width: 300px;
-    flex: 300px;
-    min-width: 260px;
+    /* max-width: 80%; */
+    /* flex: 100%;
+    min-width: 100%; */
   }
   .fact-section .custom-grid .grid-item:last-child {
     margin-right: 0;

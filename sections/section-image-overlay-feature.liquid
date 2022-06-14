@@ -22,9 +22,18 @@
         </div>
         {% if section.settings.image != blank %}
           <div class="beta">
+            {% if section.settings.image_mobile != blank %}
+              <a href="{{ section.settings.link_url }}" class="img-link mobile-hide">
+                {% render 'responsive--image' with section.settings.image as image, max_width: 671, class: 'img' %}
+              </a>
+              <a href="{{ section.settings.link_url }}" class="img-link desktop-hide">
+                {% render 'responsive--image' with section.settings.image_mobile as image, max_width: 671, class: 'img' %}
+              </a>
+            {% else %}
             <a href="{{ section.settings.link_url }}" class="img-link">
               {% render 'responsive--image' with section.settings.image as image, max_width: 671, class: 'img' %}
             </a>
+            {% endif %}
           </div>
         {% endif %}
          </div>
@@ -50,6 +59,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile Image"
     },
     {
       "type": "header",
