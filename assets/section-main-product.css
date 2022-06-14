@@ -1261,7 +1261,7 @@ a.product__text {
   font-family: var(--font-din);
   font-weight: 600;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .product .accordian-body button {
   border: 0.1rem solid var(--color-normal-black);

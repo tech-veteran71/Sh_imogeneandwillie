@@ -72,8 +72,8 @@
                 <span class="read-content" data-read-more>read more…</span>
               </div>
               <div class="product__description rte desription-without-truncate" data-full-description>
-                {% if seed.product_description_part_2 != blank %}
-                {{ seed.product_description_part_2 }}
+                {% if product.metafields.seed.product_description_part_2 != blank %}
+                {{ product.metafields.seed.product_description_part_2 }}
                 {% else %}
                 {{ product.description }}
                 {% endif %}
@@ -399,7 +399,7 @@
       <div class="product-gallery" id="product-gallery">
         {%- for media in product.images -%}
           <div class="product-media-wrap media-item-{{ forloop.index }} media-item--whole {% if media.alt contains '33' %}media-item--third{% endif %} {% if media.alt contains '50' %}media-item--half{% endif %}" data-media-item>
-            {% render 'responsive--image' with media as image, max_width: 560, class: 'product-media' %}
+            {% render 'responsive--image' with media as image, max_width: 1080, class: 'product-media' %}
           </div>
         {% endfor %}
       </div>
