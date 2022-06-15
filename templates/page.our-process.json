@@ -11,8 +11,8 @@
       "settings": {
         "mobile_hide": false,
         "mobile_hide_text": false,
-        "desk_img": "shopify:\/\/shop_images\/our-process-header.png",
-        "mob_img": "shopify:\/\/shop_images\/our-process-header.png",
+        "desk_img": "shopify:\/\/shop_images\/our-process-header.jpg",
+        "mob_img": "shopify:\/\/shop_images\/our-process-header.jpg",
         "img_url": "",
         "main_title": "",
         "title_font": "headline__din",
@@ -154,33 +154,70 @@
         "show_link": false
       }
     },
-    "1649861691a360ac14": {
-      "type": "section-img-txt-btn",
+    "165524647056f9cdaa": {
+      "type": "section-quote",
       "settings": {
         "mobile_hide": false,
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#f7f6f3",
+        "review": "“i want to die with my blue jeans on.”",
+        "customer_name": "- Andy Warhol",
+        "background_color": "#f7f6f3"
+      }
+    },
+    "16552464376ad40cf1": {
+      "type": "section-editorial-content",
+      "blocks": {
+        "bf383005-6d56-4246-b5f1-d185e20910d8": {
+          "type": "info",
+          "settings": {
+            "text": "most jean styles are born out of a fashion trend or modern innovation. our signature willie cut was created as a reaction to what wasn’t happening.\n<br><br>\nfor our first men’s fit, matt began by pulling from his own personal archive of vintage jeans.\n<br><br>"
+          }
+        },
+        "a49a926d-232c-4cb8-85bb-148738689f51": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Untitled-1.png",
+            "img_url": ""
+          }
+        },
+        "97a9a406-32e8-407c-83cf-5c4bcc7f088d": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_45e71231-7f40-429d-871e-296e8bf79d3a.jpg",
+            "img_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "bf383005-6d56-4246-b5f1-d185e20910d8",
+        "a49a926d-232c-4cb8-85bb-148738689f51",
+        "97a9a406-32e8-407c-83cf-5c4bcc7f088d"
+      ],
+      "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_0ee03081-98de-4069-8e19-64f82214fbd8.jpg",
-        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_0ee03081-98de-4069-8e19-64f82214fbd8.jpg",
-        "img_url": "",
-        "pre_title": "",
+        "desk_img_url": "",
+        "mob_img1": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_45e71231-7f40-429d-871e-296e8bf79d3a.jpg",
+        "img_url1": "",
+        "mob_img2": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_0ee03081-98de-4069-8e19-64f82214fbd8.jpg",
+        "img_url2": "",
+        "overlay_img_url": "",
         "main_title": "",
+        "main_text": "",
+        "text": "he taught himself to sew and set out to develop a fit that drew from the past, while working to incorporate a modern aesthetic.\n<br><br>\nit was through trial and error (and after several prototypes) that we landed on a suitable companion to our women’s imogene.\n<br><br>\nand thus, willie became our first men’s fit - a mid-rise straight leg constructed from Cone Mills rigid selvage denim.\n<br><br>\n<h6>make love. make art. make jeans.<\/h6>"
+      }
+    },
+    "165524687851e9c4f2": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": true,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
         "title_font": "headline__arno",
         "text": "",
         "btn_text": "",
         "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
-    "16552347969fc02ce9": {
-      "type": "section-rich-text",
-      "settings": {
-        "mobile_hide": false,
-        "text": "make love. make art. make jeans.",
-        "link_text": "",
-        "link_url": ""
+        "show_button": false
       }
     },
     "165523519491039b89": {
@@ -190,7 +227,7 @@
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-7-1_3597b92b-0b15-4222-b282-373743cc4622.jpg",
         "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-7-1_3597b92b-0b15-4222-b282-373743cc4622.jpg",
         "img_url": "",
-        "img_width": "full"
+        "img_width": "medium"
       }
     },
     "1655235237f2baa6f3": {
@@ -231,32 +268,66 @@
         "show_button": false
       }
     },
-    "1655235334fc56a85f": {
+    "16552453301d71cab6": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_088b151a-3ff2-4337-b131-65af982735f8.jpg",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_088b151a-3ff2-4337-b131-65af982735f8.jpg",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "text": "we knew these fits wouldn’t be perfect for everyone, so we found a way to make them perfect.  <br><br>in our small shop we would size, fit, and alter each pair per our customers’ needs.  <br><br>we paid careful attention to varying requests: perhaps a slimmer calf, a lower rise, a less restrictive thigh, or a higher back rise. so when demand grew, we began to expand our offering of fits based on our most frequent requests from those around us. <br><br> the desire to have the imogene leg slimmed resulted in a modified fit, duly named imogene slim. the need for a slimmer men’s jean with a lower rise resulted in an entirely new fit named after carrie’s brother, barton.",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "16552454126f9f0675": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-11-1_7c5ac47f-6b02-4894-95e0-8fc532e655ce.jpg",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-11-1_7c5ac47f-6b02-4894-95e0-8fc532e655ce.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "16552454335ce7cc06": {
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
-        "text_align": "left",
+        "text_align": "center",
         "pretitle": "",
-        "title": "we knew these fits wouldn’t be perfect for everyone, so we found a way to make them perfect. in our small shop we would size, fit, and alter each pair per our customers’ needs.",
+        "title": "the people who walk through our doors are not customers - they are our friends, our family, our neighbors...our loved ones.",
         "title_font": "headline__arno",
-        "text": "",
+        "text": "it has been a beautiful process, and a learning process as well. every fit and every wash is the result of the people who have walked through our doors. imogene + willie will forever be shaped by the people around it.",
         "btn_text": "",
         "btn_url": "",
         "show_button": false
       }
     },
-    "1655235372a8240570": {
-      "type": "section-txt-link-btn",
+    "1655245462aebd9980": {
+      "type": "section-hero-banner",
       "settings": {
         "mobile_hide": false,
-        "text_align": "left",
-        "pretitle": "",
-        "title": "we paid careful attention to varying requests: perhaps a slimmer calf, a lower rise, a less restrictive thigh, or a higher back rise. so when demand grew, we began to expand our offering of fits based on our most frequent requests from those around us. the desire to have the imogene leg slimmed resulted in a modified fit, duly named imogene slim. the need for a slimmer men’s jean with a lower rise resulted in an entirely new fit named after carrie’s brother, barton.",
-        "title_font": "headline__arno",
-        "text": "",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/process-footer_acf11ad9-6c14-4740-9b79-cf38d9049cec.jpg",
+        "mob_img": "shopify:\/\/shop_images\/process-footer_acf11ad9-6c14-4740-9b79-cf38d9049cec.jpg",
+        "img_url": "",
+        "main_title": "DENIM CARE",
+        "title_font": "headline__din",
+        "font_color": "#f7f6f3",
+        "text": "contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it.",
+        "link_text": "GET STARTED >",
+        "link": "#",
+        "show_button": true,
+        "show_down_arrow": false
       }
     }
   },
@@ -272,13 +343,16 @@
     "16552326859c9348a3",
     "1655232747b89983e3",
     "1655235603315223fb",
-    "1649861691a360ac14",
-    "16552347969fc02ce9",
+    "165524647056f9cdaa",
+    "16552464376ad40cf1",
+    "165524687851e9c4f2",
     "165523519491039b89",
     "1655235237f2baa6f3",
     "165523526867ef7bfa",
     "165523530215423de5",
-    "1655235334fc56a85f",
-    "1655235372a8240570"
+    "16552453301d71cab6",
+    "16552454126f9f0675",
+    "16552454335ce7cc06",
+    "1655245462aebd9980"
   ]
 }

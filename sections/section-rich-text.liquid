@@ -1,5 +1,9 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
-
+<style>
+  #shopify-section-{{ section.id }} .custom-rich-text {
+    --bg-color: {{ section.settings.bg_color }};
+  }
+</style>
 {% if section.settings.text != blank %}
   <div class="custom-rich-text {% if section.settings.mobile_hide %}small--hide{% endif %}">
     <div class="fabric-container">
@@ -26,6 +30,11 @@
       "id": "mobile_hide",
       "label": "Hide on Mobile",
       "default": false
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
     },
     {
       "type": "header",

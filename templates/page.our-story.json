@@ -6,12 +6,26 @@
       "settings": {
       }
     },
+    "16552319459b4b0afe": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "mobile_hide": true,
+        "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
     "164986725161283e43": {
       "type": "section-img-txt-btn",
       "settings": {
         "mobile_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/the-beginning-1_756bc8e2-73ee-4d27-9841-35acb842912e.jpg",
         "mob_img": "shopify:\/\/shop_images\/the-beginning-1_756bc8e2-73ee-4d27-9841-35acb842912e.jpg",
         "img_url": "",
@@ -40,33 +54,19 @@
         "show_button": false
       }
     },
-    "16552319459b4b0afe": {
-      "type": "section-image-video-hero",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
-        "mobile_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
-        "img_height": false,
-        "link": "",
-        "add_video": false,
-        "video_url": "",
-        "mobile_video_url": "",
-        "video_controls": false
-      }
-    },
     "1649861415f6eaedf5": {
       "type": "section-img-txt-btn",
       "settings": {
         "mobile_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/the-beginning-3.webp",
-        "mob_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
+        "mob_img": "shopify:\/\/shop_images\/the-beginning-3_81a327be-666d-42e2-a431-23ef850463fd.webp",
         "img_url": "",
         "pre_title": "<br>",
-        "main_title": "over the years, i remember a few specific moments where matt and i realized, even without knowing it at the time, that we would create something together. <br>",
+        "main_title": "over the years, i remember a few specific moments <br>where matt and i realized, even without knowing it at <br>the time, that we would create something together. <br>",
         "title_font": "headline__arno",
-        "text": "one of those moments happened in the summer of 2008 at Hotel San Jose in Austin, Texas. exhausted and broke, we found ourselves sharing a room with four other people, all of us together for a friend’s wedding. <br> <br>our trip was an inspiration—a sensory overload with unforgettable people, colors, textures, and smells. we were inspired by the people we met. people who had built something new and exciting in that city.",
+        "text": "<br>one of those moments happened in the summer of 2008 at Hotel San Jose in Austin, Texas. exhausted and broke, we found ourselves sharing a room with four other people, all of us together for a friend’s wedding. <br> <br>our trip was an inspiration—a sensory overload with unforgettable people, colors, textures, and smells. we were inspired by the people we met. people who had built something new and exciting in that city.",
         "btn_text": "",
         "btn_url": "",
         "change_alignment": false,
@@ -89,11 +89,11 @@
         "mobile_hide": false,
         "desk_bg_color": "",
         "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/the-beginning-4.webp",
-        "mob_img": "shopify:\/\/shop_images\/the-beginning-4.webp",
+        "desk_img": "shopify:\/\/shop_images\/shopvibes5.png",
+        "mob_img": "shopify:\/\/shop_images\/shopvibes5.png",
         "img_url": "",
         "pre_title": "",
-        "main_title": "the way matt and i operate has always involved a mix of uncertainty reinforced by intuition.  <br> <br>call it a gut feeling. <br> <br>",
+        "main_title": "<br>the way matt and i operate has always involved <br>a mix of uncertainty reinforced by intuition.  <br> <br>call it a gut feeling. <br> <br>",
         "title_font": "headline__arno",
         "text": "back in 2008, there was no evidence to prove that our dream of imogene + willie would work. we had no idea where we would end up. we had no idea how we would get there. but we knew what we wanted. <br> <br> we wanted to make something that would last. we wanted to make things in the usa. we wanted to create a space to share. we wanted to build community. <br> <br> above all things, we knew we couldn’t do it alone. and we didn’t want to. so we wrote an email to everyone we knew. we told them about our dream of imogene + willie.  <br> <br> on January 26, 2009 at 3 o’clock in the morning, matt and i sat at our kitchen table in Henderson and pressed send.",
         "btn_text": "",
@@ -103,10 +103,20 @@
         "show_link": false
       }
     },
+    "1655308816362cc051": {
+      "type": "section-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
     "1655232194ac1fa02c": {
       "type": "section-video-with-text",
       "settings": {
-        "mobile_hide": false,
+        "mobile_hide": true,
         "video_poster": "shopify:\/\/shop_images\/Screen_Shot_2022-06-14_at_1.16.13_PM.png",
         "video_url": "https:\/\/vimeo.com\/17830905",
         "video_controls": false,
@@ -187,15 +197,15 @@
       "type": "section-img-txt-btn",
       "settings": {
         "mobile_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/the-beginning-5.webp",
         "mob_img": "shopify:\/\/shop_images\/the-beginning-5.webp",
         "img_url": "",
         "pre_title": "",
-        "main_title": "at that moment, imogene + willie was a dream that came with no guarantee.",
+        "main_title": "at that moment, imogene + willie was a <br>dream that came with no guarantee.",
         "title_font": "headline__arno",
-        "text": "<br> <br>we launched with only a single email. our plan was to try to sell 250 jeans in our inaugural fits: imogene (for women) and willie (for men). <br> <br>  and then it began. <br> <br> orders started coming in from all over the country, and then from all over the world. we sold 250 pairs in three weeks, then another 250 in the weeks that followed. it was looking like imogene + willie was going to happen. <br> <br> on one hand, it was almost impossible to believe. but on the other hand, it happened because we believed it would.",
+        "text": "<br>we launched with only a single email. our plan was to try to sell 250 jeans in our inaugural fits: imogene (for women) and willie (for men). <br> <br>  and then it began. <br> <br> orders started coming in from all over the country, and then from all over the world. we sold 250 pairs in three weeks, then another 250 in the weeks that followed. it was looking like imogene + willie was going to happen. <br> <br> on one hand, it was almost impossible to believe. but on the other hand, it happened because we believed it would.",
         "btn_text": "",
         "btn_url": "",
         "change_alignment": false,
@@ -215,14 +225,14 @@
         "3b7c5ca8-fadc-4d57-8bad-9b167fabcdd5": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/the-beginning-6.webp",
+            "img": "shopify:\/\/shop_images\/shopnightvibes-_1_of_3.jpg",
             "img_url": ""
           }
         },
         "44cf0ec7-2919-44f6-94cc-57c0899de044": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/the-beginning-7_e578ed41-6b2f-4668-88a3-e905bcc38a96.jpg",
+            "img": "shopify:\/\/shop_images\/nashville_shop__1_of_1.jpg",
             "img_url": ""
           }
         }
@@ -234,12 +244,14 @@
       ],
       "settings": {
         "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/nashville02.jpg",
         "desk_img_url": "",
+        "mob_img1": "shopify:\/\/shop_images\/shop-vibes.png",
         "img_url1": "",
         "img_url2": "",
         "overlay_img_url": "",
         "main_title": "",
-        "main_text": "after months of planning, building, and cleaning, matt and i set up shop in an old service station in Nashville, TN.",
+        "main_text": "after months of planning, building, and cleaning, matt and <br>i set up shop in an old service station in Nashville, TN.",
         "text": ""
       }
     },
@@ -249,7 +261,7 @@
         "mobile_hide": false,
         "review": "“everything you can imagine is real.”",
         "customer_name": "- Picasso",
-        "background_color": "transparent"
+        "background_color": "rgba(0,0,0,0)"
       }
     },
     "16552329270195edd0": {
@@ -277,12 +289,13 @@
   },
   "order": [
     "main",
+    "16552319459b4b0afe",
     "164986725161283e43",
     "1649864198b61b9050",
-    "16552319459b4b0afe",
     "1649861415f6eaedf5",
     "1655226237f441e37c",
     "1649861521d26dd035",
+    "1655308816362cc051",
     "1655232194ac1fa02c",
     "1649861691a360ac14",
     "1649864652246cc779",

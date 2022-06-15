@@ -66,7 +66,9 @@
                 {% if product.metafields.seed.product_description_part_1 != blank %}
                 {{ product.metafields.seed.product_description_part_1 }}
                 {% endif %}
+                {% if product.metafields.seed.product_description_part_2 != blank %}
                 <span class="read-content" data-read-more>read more…</span>
+                {% endif %}
               </div>
               <div class="product__description rte desription-without-truncate" data-full-description>
                 {% if product.metafields.seed.product_description_part_1 != blank %}
@@ -225,6 +227,7 @@
                               </label>
                             {%- endfor -%}
                           </div>
+                          <a class="klaviyo-bis-trigger" href="#">notify me when my size is in stock</a>
                         </div>
                       </fieldset>
                   {%- endfor -%}
@@ -542,7 +545,7 @@
     ]
   }
 </script>
-
+{% render 'klaviyo-bis', product: product %}
 {% schema %}
 {
   "name": "t:sections.main-product.name",

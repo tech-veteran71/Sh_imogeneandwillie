@@ -47,7 +47,8 @@
 }
 .collage-section .main-title {
   color: var(--color-normal-black);
-  margin: 0;
+  margin: 0 auto;
+  max-width: 33.5rem;
 }
 .collage-section .text {
   color: var(--color-dim-black);
@@ -148,6 +149,10 @@
   }
   .collage-section .show-btn {
     display: flex;
+  }
+  .collage-section .main-title {
+    max-width: 28rem;
+    margin: 0 auto;
   }
   .collage-section .text {
     max-width: 28rem;

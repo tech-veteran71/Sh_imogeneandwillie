@@ -5,9 +5,205 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "1655305899170bac8c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
+        "mob_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16553060487ae324b1": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "supper + song",
+        "title_font": "h1",
+        "text": "supper + song was never ours. it is and always will be yours. <br><br> a gathering of community around music hosted semi-monthly in the warmer months. come visit in our backyard for an evening of music with varying musical guest and food. <br><br> supper + song is free and open to the public — our backyard is yours. bring a blanket, your loved ones (dogs included), and your own beverages.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1655306607c92d999f": {
+      "type": "section-hero-banner",
+      "settings": {
+        "mobile_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/pastartists_1bb3c1f5-45fa-415a-b26c-c07d46af2a06.jpg",
+        "mob_img": "shopify:\/\/shop_images\/pastartists_1bb3c1f5-45fa-415a-b26c-c07d46af2a06.jpg",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__arno",
+        "font_color": "#f5f8e8",
+        "text": "<strong>previous artists<\/strong> <br><br> dan auerbach - the civil wars - karen elson - the lone bellow - shakey graves - nikki lane - justin townes earle - ben miller band - steelism - robert ellis - hurray for the riff raff - deer tick - the ettes - the apache relay - chancellor warhol - rayland baxter - caitlin rose - jonny p",
+        "link_text": "",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "165530920156ca65cd": {
+      "type": "apps",
+      "blocks": {
+        "d8032cec-64bd-49a6-9b82-ad79922f7c1f": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "d8032cec-64bd-49a6-9b82-ad79922f7c1f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1655306962d6ddbcba": {
+      "type": "section-image-gallery",
+      "blocks": {
+        "d0a94c3b-81df-47da-a022-01296ba4f576": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_53127bb6-900d-4b1a-8b71-79ad9802dc69.jpg"
+          }
+        },
+        "07b07dbc-d968-45a6-a99f-50d02b264f4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_248ea3d9-52e7-4ac6-b1a7-228e53314e2d.jpg"
+          }
+        },
+        "ae156781-1bd6-4e63-82e2-47284eec65c3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_62f0cffa-afeb-403a-82d0-48c851aa90b6.jpg"
+          }
+        },
+        "22fd705a-45c3-4d1f-abf8-ca4f16948683": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_aff50648-9da7-4d73-b10f-4141145520ee.jpg"
+          }
+        },
+        "f8dbf11c-79df-4b0d-8063-478df5dea182": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13.jpg"
+          }
+        },
+        "52441859-2cc7-46e1-99fe-181fe2199795": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_8edd308d-c384-43b5-affc-aba22e8aede5.jpg"
+          }
+        },
+        "b7758a6e-e85e-41fc-a0f5-98c724e213bb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_ed877c7f-986a-47d3-9484-304e04a0b33a.jpg"
+          }
+        },
+        "2b5c4587-9b4a-4bf3-9f33-ef8925cdf9d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.jpg"
+          }
+        },
+        "d24c72b4-7ea1-41b3-867e-45d7c0542c44": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.jpg"
+          }
+        },
+        "4368dc2c-dbee-46c3-b34a-9121b33471c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.jpg"
+          }
+        },
+        "368aaf02-33aa-4f9e-b939-346248e28c81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_863cdeb3-6d90-4708-ba9d-67c580d13c48.jpg"
+          }
+        },
+        "d197bed3-6a63-4b35-aaf6-dbed36ac6d9c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10.jpg"
+          }
+        },
+        "b1493ac9-2b14-4cd5-a51e-342a507f2d3f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.jpg"
+          }
+        },
+        "43d96897-1b0d-434d-a6c4-e96c871f5c5d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d0a94c3b-81df-47da-a022-01296ba4f576",
+        "07b07dbc-d968-45a6-a99f-50d02b264f4d",
+        "ae156781-1bd6-4e63-82e2-47284eec65c3",
+        "22fd705a-45c3-4d1f-abf8-ca4f16948683",
+        "f8dbf11c-79df-4b0d-8063-478df5dea182",
+        "52441859-2cc7-46e1-99fe-181fe2199795",
+        "b7758a6e-e85e-41fc-a0f5-98c724e213bb",
+        "2b5c4587-9b4a-4bf3-9f33-ef8925cdf9d1",
+        "d24c72b4-7ea1-41b3-867e-45d7c0542c44",
+        "4368dc2c-dbee-46c3-b34a-9121b33471c2",
+        "368aaf02-33aa-4f9e-b939-346248e28c81",
+        "d197bed3-6a63-4b35-aaf6-dbed36ac6d9c",
+        "b1493ac9-2b14-4cd5-a51e-342a507f2d3f",
+        "43d96897-1b0d-434d-a6c4-e96c871f5c5d"
+      ],
+      "settings": {
+        "mobile_hide": false
+      }
+    },
+    "16553069466a68c840": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "review": "“be groovy or leave, man.”",
+        "customer_name": "- bob dylan",
+        "background_color": "transparent"
+      }
+    },
+    "1655307793f07ba453": {
+      "type": "section-flashcard-feature",
+      "settings": {
+        "hide_mobile": false,
+        "choose_collection": "support-live-music",
+        "title": "the \"support live music\" tee",
+        "title_font": "headline__din",
+        "text": "an ode to our hometown, the musicians of nashville and the gatherings we host in our backyard.",
+        "btn_text": "see more",
+        "btn_url": "shopify:\/\/collections\/support-live-music",
+        "show_link": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1655305899170bac8c",
+    "16553060487ae324b1",
+    "1655306607c92d999f",
+    "165530920156ca65cd",
+    "1655306962d6ddbcba",
+    "16553069466a68c840",
+    "1655307793f07ba453"
   ]
 }
