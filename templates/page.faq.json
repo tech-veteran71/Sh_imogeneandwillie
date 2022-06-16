@@ -3,55 +3,6 @@
     "main": {
       "type": "faq-template",
       "blocks": {
-        "da7296a6-a575-45a7-a05a-a827a11a23bd": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "frequent asked questions",
-            "link_url": "shopify:\/\/pages\/faq"
-          }
-        },
-        "60a76b08-ce3e-40d3-a782-e454747f03ab": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "returns & exchanges",
-            "link_url": "shopify:\/\/pages\/returns"
-          }
-        },
-        "75795088-81d5-4850-a628-95710457a309": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "denim care guide",
-            "link_url": "shopify:\/\/pages\/denim-care"
-          }
-        },
-        "e378dd05-4c81-4172-96e2-6b3e6569cf49": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "repair policy",
-            "link_url": "shopify:\/\/pages\/repair"
-          }
-        },
-        "571b312d-6356-4da4-862a-8ecb4578fc8a": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "shipping info",
-            "link_url": "shopify:\/\/pages\/shipping"
-          }
-        },
-        "6c3f1a8a-f959-4413-9849-3dced7c2b794": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "my account",
-            "link_url": "https:\/\/imogeneandwillie.com\/account\/login?ose=false"
-          }
-        },
-        "08b08d86-0a1f-43bf-8ddc-b729f5256e30": {
-          "type": "ancillary_link",
-          "settings": {
-            "link_text": "contact us",
-            "link_url": "shopify:\/\/pages\/contact"
-          }
-        },
         "fba7e2f9-1b43-456e-8232-6a3220c0c755": {
           "type": "info",
           "settings": {
@@ -64,7 +15,7 @@
           "type": "info",
           "settings": {
             "label": "email",
-            "link_text": "help@imogeneandwillie.com",
+            "link_text": "<a href=\"mailto:help@imogeneandwillie.com\">help@imogeneandwillie.com<\/a>",
             "link_url": ""
           }
         },
@@ -195,7 +146,7 @@
         "c272a183-a8e2-4c15-b863-2861e3c28fa6": {
           "type": "faq",
           "settings": {
-            "accordian_sub_title": "SHIPPING",
+            "accordian_sub_title": "shipping",
             "accordian_title_1": "my package appears to be lost in the mail. can you help?",
             "text_1": "we will do everything we can! if your package is stuck in transit, please contact us at <a href=\"mailto:help@imogeneandwillie.com\">help@imogeneandwillie.com<\/a>. we’ll do our best to figure out how to get your order to you as quickly as possible. please make sure to request the correct delivery address and let us know if you have special delivery preferences (e.g. requesting signature confirmation). imogene + willie cannot accept responsibility or compensate you if your package was delivered to an incorrect, but requested address. imogene + willie cannot accept responsibility or compensate for missing packages if delivery to the correct address was confirmed. however, we are glad to assist with any shipping issues you may have. if you have any questions, please email us at <a href=\"mailto:help@imogeneandwillie.com\">help@imogeneandwillie.com<\/a>.",
             "accordian_title_2": "what is your shipping policy\/method?",
@@ -267,7 +218,7 @@
         "fe6589b2-7bf8-4e7d-9c59-09ef0d49f241": {
           "type": "faq",
           "settings": {
-            "accordian_sub_title": "MISC",
+            "accordian_sub_title": "misc.",
             "accordian_title_1": "are imogene + willie jeans custom-made?",
             "text_1": "well, yes, and no. we do not offer fully custom jeans, however we do offer custom alterations on all jeans purchased in our stores. we have several fits for both men and women, and our staff is trained to help you find the best fit for your body and style. they will guide you to the right length and can make minor adjustments if necessary for a perfect fit.",
             "accordian_title_2": "i’m planning a visit to Nashville and would like to stop by and get fitted for a pair of jeans. do I need to make an appointment?",
@@ -302,13 +253,6 @@
         }
       },
       "block_order": [
-        "da7296a6-a575-45a7-a05a-a827a11a23bd",
-        "60a76b08-ce3e-40d3-a782-e454747f03ab",
-        "75795088-81d5-4850-a628-95710457a309",
-        "e378dd05-4c81-4172-96e2-6b3e6569cf49",
-        "571b312d-6356-4da4-862a-8ecb4578fc8a",
-        "6c3f1a8a-f959-4413-9849-3dced7c2b794",
-        "08b08d86-0a1f-43bf-8ddc-b729f5256e30",
         "fba7e2f9-1b43-456e-8232-6a3220c0c755",
         "4fa051e5-ef8b-4976-a042-4acc72c8ee01",
         "a9d2165f-f60b-41fd-a1df-8f52854d8ad0",

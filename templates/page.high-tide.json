@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16505744112aca834e": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/cbff5cc5-e9e8-1131-b664-106729a33ce0.gif",
+        "mob_img": "shopify:\/\/shop_images\/cbff5cc5-e9e8-1131-b664-106729a33ce0.gif",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "16505746206cadff82": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "( weekend one of a kind )",
+        "title": "HIGH TIDE",
+        "title_font": "headline__din",
+        "text": "an unprecedented collection of 50 new one-of-a-kind pieces,  including some killer made by matt tees, limited–edition hand–dyed bandanas from carrie, a fresh batch of st. christophers, and a few suprises.<br><br>if you've been around a while, you know they don't last long.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16505750701d67385c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/008fa2c2-2f30-143a-59bd-cb3eaa7d2f9f.png",
+        "mob_img": "shopify:\/\/shop_images\/008fa2c2-2f30-143a-59bd-cb3eaa7d2f9f.png",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "1650575135bf43f021": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "review": "\"the free soul is rare, but you know it when you see it.\"",
+        "customer_name": "<br> - charles bukowski",
+        "background_color": "#f7f6f3"
+      }
+    },
+    "1650575099c3e04efb": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/2-008fa2c2-2f30-143a-59bd-cb3eaa7d2f9f_182af903-6e5f-4edb-af58-65d9a1719849.png",
+        "mob_img": "shopify:\/\/shop_images\/2-008fa2c2-2f30-143a-59bd-cb3eaa7d2f9f_182af903-6e5f-4edb-af58-65d9a1719849.png",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "1650575209c89b08c2": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "weekend one of a kind",
+        "btn_url": "shopify:\/\/collections\/weekend-1-1",
+        "show_button": true
+      }
+    },
+    "165057523914d096d8": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/956571e8-7637-6004-46eb-8d627ec6f60d.png",
+        "mob_img": "shopify:\/\/shop_images\/956571e8-7637-6004-46eb-8d627ec6f60d.png",
+        "img_url": "",
+        "img_width": "large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16505744112aca834e",
+    "16505746206cadff82",
+    "16505750701d67385c",
+    "1650575135bf43f021",
+    "1650575099c3e04efb",
+    "1650575209c89b08c2",
+    "165057523914d096d8"
+  ]
+}

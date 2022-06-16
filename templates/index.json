@@ -4,9 +4,9 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": true,
-        "desk_img": "shopify:\/\/shop_images\/desktop_0ae28962-274f-4eb7-9128-2db241d361f7.jpg",
-        "mob_img": "shopify:\/\/shop_images\/mobile_3239f1d4-c213-4a8d-bf84-a3d83c675eb0.jpg",
-        "img_url": "",
+        "desk_img": "shopify:\/\/shop_images\/newdesktop.jpg",
+        "mob_img": "shopify:\/\/shop_images\/newmobile_70223785-4360-420e-b85c-22360b4fa07e.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
         "img_width": "full"
       }
     },
@@ -16,11 +16,11 @@
         "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
-        "title": "barton slim & henry natural rigid indigo",
+        "title": "the \"strange sights\" <br>& \"well wishes\" tee",
         "title_font": "headline__din",
-        "text": "sewn from a rigid, lightweight 12.25oz denim, this fabric allows for a pant that transcends seasons: substantial enough for year-round wear, but light enough to accompany you to warmer days as you continue to wear it in.",
+        "text": "hand-drawn designs by matt. <br>screen printed in nashville.",
         "btn_text": "SHOP NOW",
-        "btn_url": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
         "show_button": true
       }
     },
@@ -28,9 +28,9 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/mobile-split-2_e294d472-8eb8-480f-8d58-53ac84fc24a5.jpg",
-        "mob_img": "shopify:\/\/shop_images\/mobile-split-2_e294d472-8eb8-480f-8d58-53ac84fc24a5.jpg",
-        "img_url": "",
+        "desk_img": "shopify:\/\/shop_images\/grid_923d1c2e-da1e-4b7d-90dc-a4567e8e3ed5.jpg",
+        "mob_img": "shopify:\/\/shop_images\/grid_923d1c2e-da1e-4b7d-90dc-a4567e8e3ed5.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
         "img_width": "full"
       }
     },
@@ -38,19 +38,19 @@
       "type": "section-quote",
       "settings": {
         "mobile_hide": true,
-        "review": "“you don't think it be like that, <br>but sometimes it do.”",
-        "customer_name": "- jonathan krohn",
-        "background_color": "#f1efe8"
+        "review": "\"i want to die with my blue jeans on.\"",
+        "customer_name": "<br>- andy warhol",
+        "background_color": "#f7f6f3"
       }
     },
     "1649344991aebfc9bf": {
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/homepage1.jpg",
-        "mob_img": "shopify:\/\/shop_images\/desktophero_6f52f24c-9772-4eb8-a6a3-a0f05fd8e14f.jpg",
-        "img_url": "",
-        "img_width": "full"
+        "desk_img": "shopify:\/\/shop_images\/I_W4090.jpg",
+        "mob_img": "shopify:\/\/shop_images\/I_W4090.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta?mc_cid=e02e9dbe1a&mc_eid=UNIQID&utm_campaign=e02e9dbe1a-EMAIL_CAMPAIGN_2022_05_24_07_20&utm_medium=email&utm_source=Imogene%20%2B%20Willie%20Friends&utm_term=0_6a83549370-e02e9dbe1a-",
+        "img_width": "large"
       }
     },
     "1649345876722a5b9b": {
@@ -59,9 +59,9 @@
         "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
-        "title": "the catherine abilene 3.0",
+        "title": "barton slim ojai & <br>augusta in washed white",
         "title_font": "headline__din",
-        "text": "the return of an all-time favorite. 💙  <br> the character in this denim and the effortless drape of the fabric work together to complement the wash: a well-loved vintage look and a rich, soft feel.",
+        "text": "our most popular men's fit, and and exciting, brand new, women's fit. both sewn from a beautiful 12oz Mount Vernon Mills canvas.",
         "btn_text": "",
         "btn_url": "",
         "show_button": false
@@ -71,9 +71,10 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/webgrid_88cdc41c-6557-4457-8575-03eb624ac8b8.jpg",
-        "img_url": "",
-        "img_width": "full"
+        "desk_img": "shopify:\/\/shop_images\/natgrid_1200x_0e676c0e-33cf-4434-9da6-32d9cbdbcab0.png",
+        "mob_img": "shopify:\/\/shop_images\/natgrid_1200x_0e676c0e-33cf-4434-9da6-32d9cbdbcab0.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta?mc_cid=e02e9dbe1a&mc_eid=UNIQID&utm_campaign=e02e9dbe1a-EMAIL_CAMPAIGN_2022_05_24_07_20&utm_medium=email&utm_source=Imogene%20%2B%20Willie%20Friends&utm_term=0_6a83549370-e02e9dbe1a-",
+        "img_width": "large"
       }
     },
     "16493467776a7fccf2": {
@@ -86,7 +87,7 @@
         "title_font": "headline__arno",
         "text": "",
         "btn_text": "shop now ->",
-        "btn_url": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta?mc_cid=e02e9dbe1a&mc_eid=UNIQID&utm_campaign=e02e9dbe1a-EMAIL_CAMPAIGN_2022_05_24_07_20&utm_medium=email&utm_source=Imogene%20%2B%20Willie%20Friends&utm_term=0_6a83549370-e02e9dbe1a-",
         "show_button": false
       }
     },
@@ -94,10 +95,20 @@
       "type": "section-mobile-slider",
       "settings": {
         "choose_collection": "women",
-        "title": "title",
+        "title": "",
         "btn_text": "SHOP WOMEN",
         "btn_url": "",
         "show_border": true
+      }
+    },
+    "16491902805e37b9ac": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "choose_collection": "men",
+        "title": "",
+        "btn_text": "SHOP MEN",
+        "btn_url": "",
+        "show_border": false
       }
     },
     "16376680197e951999": {
@@ -106,17 +117,17 @@
         "b495a850-459b-4089-b928-5bc174a0b23b": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/w_84aedc5e-6b40-4013-a851-528b2a9b3d3c.jpg",
+            "img": "shopify:\/\/shop_images\/1a.webp",
             "btn_text": "shop mens",
-            "link_url": "shopify:\/\/collections\/mens"
+            "link_url": "https:\/\/imogeneandwillie.com\/collections\/men"
           }
         },
         "a5039d9b-141b-4eff-944e-c54ac4ff16e3": {
           "type": "collection_item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/w_dd26e67b-bda6-4c0e-8b45-45137d538881.jpg",
+            "img": "shopify:\/\/shop_images\/1b.webp",
             "btn_text": "shop womens",
-            "link_url": "shopify:\/\/collections\/womens"
+            "link_url": "https:\/\/imogeneandwillie.com\/collections\/women"
           }
         }
       },
@@ -131,18 +142,10 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/shop-august--_15-of-15.jpg",
-        "mob_img": "shopify:\/\/shop_images\/shop-august--_15-of-15.jpg",
-        "img_url": "",
+        "desk_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
+        "mob_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
+        "img_url": "shopify:\/\/pages\/nashville",
         "img_width": "full"
-      }
-    },
-    "16510054628e91fa8a": {
-      "type": "section-newsletter",
-      "settings": {
-        "mobile_hide": false,
-        "text": "get in early next time",
-        "subtext": "we only do collections like this a few times a year and they always seem to go quickly. though we try to give everyone a heads up, our email list always gets first dibs. sign up now to get notified for our next drop."
       }
     },
     "1649347110c702605f": {
@@ -155,27 +158,17 @@
         "title_font": "headline__arno",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
         "btn_text": "continue reading →",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/pages\/nashville",
         "show_button": true
-      }
-    },
-    "16491902805e37b9ac": {
-      "type": "section-mobile-slider",
-      "settings": {
-        "choose_collection": "graphic-tees",
-        "title": "title",
-        "btn_text": "SHOP MEN",
-        "btn_url": "",
-        "show_border": true
       }
     },
     "1649347242ecc7083e": {
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
-        "mob_img": "shopify:\/\/shop_images\/I_W-13-copy.jpg",
-        "img_url": "",
+        "desk_img": "shopify:\/\/shop_images\/sierra_8c35c83d-5ebf-4c75-883c-efb8bb40bb0f.jpg",
+        "mob_img": "shopify:\/\/shop_images\/sierra_8c35c83d-5ebf-4c75-883c-efb8bb40bb0f.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks",
         "img_width": "large"
       }
     },
@@ -194,11 +187,12 @@
         "title_font": "headline__din",
         "text": "items to love and use every single day.thoughtfully designed, and carefully made, these are a few of our favorite things.",
         "btn_text": "see more",
-        "btn_url": ""
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks"
       }
     },
     "1637735864c2bd7e13": {
       "type": "section-brand-promise",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "reverse_order": true,
@@ -215,6 +209,7 @@
     },
     "164927862869965961": {
       "type": "section-video-with-text",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "video_poster": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg",
@@ -232,6 +227,7 @@
     },
     "1650300377077f241e": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
@@ -246,6 +242,15 @@
       "settings": {
         "mobile_hide": false,
         "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
+      }
+    },
+    "16510054628e91fa8a": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "text": "join the i+w mailing list",
+        "subtext": ""
       }
     },
     "1651088625b53b1bea": {
@@ -483,17 +488,17 @@
     "16493459270f2a9122",
     "16493467776a7fccf2",
     "16502992523f1a586b",
+    "16491902805e37b9ac",
     "16376680197e951999",
     "16493465150e689548",
-    "16510054628e91fa8a",
     "1649347110c702605f",
-    "16491902805e37b9ac",
     "1649347242ecc7083e",
     "16493477614696a5fd",
     "1637735864c2bd7e13",
     "164927862869965961",
     "1650300377077f241e",
     "16510886053ebed722",
+    "16510054628e91fa8a",
     "1651088625b53b1bea",
     "165108861515d33581",
     "16510889927e4f6edc",

@@ -3,11 +3,12 @@
     "1650292767c25163f7": {
       "type": "section-video-hero",
       "settings": {
+        "mobile_hide": false,
         "video_poster": "shopify:\/\/shop_images\/Header_IMG_1200x_73866eb4-5e70-413d-a41b-580bb67a21b7.png",
         "mobile_video_poster": "shopify:\/\/shop_images\/Image_144.png",
-        "video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1",
-        "mobile_video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1",
-        "video_controls": true
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8cd7399bad8e4b77913a821fae554002.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dc114ca299904fd6ba4464018b30da5b.mp4",
+        "video_controls": false
       }
     },
     "shop_info": {
@@ -57,6 +58,7 @@
         "8bb65877-6ba7-4494-8a47-d7c69504e1a8"
       ],
       "settings": {
+        "mobile_hide": false,
         "img": "shopify:\/\/shop_images\/Image_186.png",
         "main_title": "visit the shop:",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
@@ -112,7 +114,7 @@
         "79e54fea-5564-4818-9908-02809239dc7d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_182.png"
+            "image": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg"
           }
         }
       },
@@ -127,27 +129,30 @@
         "79e54fea-5564-4818-9908-02809239dc7d"
       ],
       "settings": {
+        "mobile_hide": false
       }
     },
     "16502947994e98e61e": {
       "type": "section-video-with-text",
       "settings": {
+        "mobile_hide": false,
         "video_poster": "shopify:\/\/shop_images\/oneyearwear_-2_600x_1364d848-7322-4818-b3af-c43d6d968362.png",
-        "video_url": "https:\/\/vimeo.com\/17552913",
+        "video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         "video_controls": false,
         "pre_title": "( circa 2012 )",
         "title": "take a look back",
         "title_font": "headline__arno",
-        "main_title": "HOW IT ALL STARTED",
-        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
+        "main_title": "",
+        "text": "nashville, tenn",
         "show_link": false,
-        "btn_text": "Learn more",
+        "btn_text": "",
         "btn_url": ""
       }
     },
     "1650294845b4561deb": {
       "type": "section-img-txt-btn",
       "settings": {
+        "mobile_hide": false,
         "desk_bg_color": "",
         "mob_bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/gallery-4.png",
@@ -158,7 +163,7 @@
         "title_font": "headline__arno",
         "text": "a gathering of community around music hosted semi-monthly in the warmer months. supper + song is free and open to the public — our backyard is yours. bring a blanket, your loved ones (dogs included), and your own beverages.",
         "btn_text": "more info >",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/pages\/supper-and-song",
         "change_alignment": false,
         "show_btn": false,
         "show_link": true
@@ -167,6 +172,7 @@
     "165029487575039b8c": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
         "mob_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
         "img_url": "",
@@ -176,19 +182,21 @@
     "1650294921559cf394": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "tailor shop",
         "title_font": "headline__arno",
         "text": "we strive to make the best jeans we can. and we want to make sure they last a long, long time.  that's why, since day one, the tailor shop has always been here: to repair, improve, and fortify your jeans—so that you can put more miles into them.",
         "btn_text": "learn more",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/pages\/tailor-shop",
         "show_button": true
       }
     },
     "1650637415221d64e9": {
       "type": "section-image-video-hero",
       "settings": {
+        "mobile_hide": false,
         "img_height": false,
         "link": "",
         "add_video": true,

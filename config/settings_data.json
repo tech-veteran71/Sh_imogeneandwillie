@@ -19,9 +19,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "text_color": "#ffffff",
-              "bg_color": "#000000",
+              "text": "FREE SHIPPING ON ORDERS OVER $100",
+              "text_color": "#f7f6f3",
+              "bg_color": "#8e8f83",
               "link": ""
             }
           }
@@ -38,55 +38,55 @@
           "911af869-2047-4ce4-8ad0-7bf06818c8b9": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Image_147.png",
-              "product_url": "",
-              "product_title": "imogene slim laurel",
-              "product_description": "14oz indigo stretch denim"
+              "product_image": "shopify:\/\/shop_images\/w1.jpg",
+              "product_url": "shopify:\/\/products\/the-vintage-tank-in-washed-white",
+              "product_title": "the vintage tank in washed white",
+              "product_description": "patterned, cut, and sewn in the USA"
             }
           },
           "0d1a2039-9ba0-4023-9460-a636741b3ded": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Image_140.png",
-              "product_url": "",
-              "product_title": "catherine sienna",
-              "product_description": "9.75oz Cone Mills denim"
+              "product_image": "shopify:\/\/shop_images\/w2.jpg",
+              "product_url": "shopify:\/\/products\/handwoven-sierra-palm-hat",
+              "product_title": "handwoven \"sierra\" palm hat",
+              "product_description": "formed and crafted by hand"
             }
           },
           "f03cc262-7b91-45be-8361-ad40596bd9fd": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Image_145.png",
-              "product_url": "",
-              "product_title": "elsie evelyn",
-              "product_description": "14oz Vidalia Mills selvage denim"
+              "product_image": "shopify:\/\/shop_images\/w3.jpg",
+              "product_url": "shopify:\/\/products\/augusta-washed-white-canvas",
+              "product_title": "augusta washed white canvas",
+              "product_description": "American-made Mount Vernon Mills 12oz cotton canvas"
             }
           },
           "3815b5f7-3f28-4a79-9ca5-336595da5ead": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Image_382.png",
-              "product_url": "",
-              "product_title": "the \"bolt\" tee in black",
-              "product_description": "small batch dyed"
+              "product_image": "shopify:\/\/shop_images\/m1.jpg",
+              "product_url": "shopify:\/\/products\/the-camp-short-fatigue-green",
+              "product_title": "the camp short in olive",
+              "product_description": "made in the USA"
             }
           },
           "565f0e16-3662-4f56-8c28-cf218a3fb4d1": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Image_377.png",
-              "product_url": "",
-              "product_title": "oliver military trouser in field tan",
-              "product_description": "yarn dyed cloth woven"
+              "product_image": "shopify:\/\/shop_images\/m2.jpg",
+              "product_url": "shopify:\/\/products\/the-well-wishes-tee",
+              "product_title": "the \"well wishes\" tee",
+              "product_description": "100% cotton"
             }
           },
           "9604c633-37fa-4ce1-bd8b-bf9de49548f4": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/Image_381.png",
-              "product_url": "",
-              "product_title": "elsie evelyn",
-              "product_description": "14oz Vidalia Mills selvage denim"
+              "product_image": "shopify:\/\/shop_images\/m3.jpg",
+              "product_url": "shopify:\/\/products\/earl-plaid-in-platte",
+              "product_title": "earl plaid in platte",
+              "product_description": "3.8oz Japanese lightweight plaid"
             }
           },
           "0727aa4a-6014-4448-acd9-3f92cc8fdc4f": {
@@ -113,7 +113,7 @@
             "type": "mega_menu_about",
             "settings": {
               "img": "shopify:\/\/shop_images\/sewing-station13.jpg",
-              "link": "",
+              "link": "shopify:\/\/pages\/the-process",
               "pre_title": "imperfect perfection",
               "title": "our process",
               "text": "patterned, cut, & sewn in the usa from the best we can find."
@@ -123,7 +123,7 @@
             "type": "mega_menu_about",
             "settings": {
               "img": "shopify:\/\/shop_images\/supper_song_3-copy.jpg",
-              "link": "",
+              "link": "shopify:\/\/pages\/supper-song",
               "pre_title": "till next time",
               "title": "supper + song",
               "text": "a gathering of community around music hosted semi monthly in the warmer months."
@@ -133,7 +133,7 @@
             "type": "mega_menu_about",
             "settings": {
               "img": "shopify:\/\/shop_images\/Image-393.jpg",
-              "link": "",
+              "link": "shopify:\/\/pages\/tailor-shop",
               "pre_title": "make it last forever",
               "title": "tailor shop",
               "text": "to repair, improve and fortify your jeans-so that you can put more miles into them."
@@ -153,28 +153,32 @@
             "type": "menu_drawer_slide",
             "settings": {
               "img": "shopify:\/\/shop_images\/Image_144.png",
-              "title": "our story"
+              "title": "our story",
+              "link": "shopify:\/\/pages\/our-story"
             }
           },
           "8cc7e1ce-5bd7-4c19-a4d8-b78147aa876b": {
             "type": "menu_drawer_slide",
             "settings": {
               "img": "shopify:\/\/shop_images\/Tailor_Shop_IMG_2eb6e2a2-7572-4d01-ad5c-7928c57717ef.png",
-              "title": "tailor shop"
+              "title": "tailor shop",
+              "link": "shopify:\/\/pages\/tailor-shop"
             }
           },
           "2a53791e-d20c-4aed-9836-17b8c8ed143d": {
             "type": "menu_drawer_slide",
             "settings": {
               "img": "shopify:\/\/shop_images\/Image_145_31dffb72-d5b4-4ae1-b217-ead47d21f7f6.png",
-              "title": "vidalia mills"
+              "title": "vidalia mills",
+              "link": ""
             }
           },
           "68c46852-b5f9-4c93-8d82-2758e0e8972a": {
             "type": "menu_drawer_slide",
             "settings": {
               "img": "shopify:\/\/shop_images\/warehouse__6_of_9.png",
-              "title": "made in usa"
+              "title": "made in usa",
+              "link": ""
             }
           }
         },

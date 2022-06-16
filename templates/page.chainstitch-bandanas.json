@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16553193822ebae2cb": {
+      "type": "section-hero-banner",
+      "settings": {
+        "mobile_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/5022aa8d-a885-4394-bade-efe84a86554b_dc6430bf-0592-408d-aa98-9f54971ef9c5.jpg",
+        "mob_img": "shopify:\/\/shop_images\/5022aa8d-a885-4394-bade-efe84a86554b_dc6430bf-0592-408d-aa98-9f54971ef9c5.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana",
+        "main_title": "THE CHAINSTITCH MACHINE",
+        "title_font": "headline__din",
+        "font_color": "#f7f6f3",
+        "text": "",
+        "link_text": "",
+        "link": "",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "1655319387921221b2": {
+      "type": "section-rich-text",
+      "settings": {
+        "mobile_hide": false,
+        "bg_color": "",
+        "text": "a couple years ago, we got our hands on a restored antique chainstitch machine. we set it up in our tailor and got to work.",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "16505750701d67385c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/0b11161c-d247-42c4-80c9-32ff8ebc36a8_copy.jpg",
+        "mob_img": "shopify:\/\/shop_images\/0b11161c-d247-42c4-80c9-32ff8ebc36a8_copy.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana",
+        "img_width": "large"
+      }
+    },
+    "16553203649aa7e58e": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "choose_collection": "chainstitch-bandana",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 8,
+        "products_per_row": 2,
+        "title": "CUSTOM CHAINSTITCH BANDANAS",
+        "title_font": "headline__din",
+        "text": "over the past couple of years, we've been taking out passion for everything we love about vintage bandanas and mizign that with our vision for thinkgs we've never seen before. we've really focused on what we like, what we want, and how to make that a reality.",
+        "btn_text": "Shop All",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana"
+      }
+    },
+    "165532079309593f54": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "patterned, cut, and sewn in the i+w workshop from American—made, 100% cotton fabric.chainstitch on an antique hand–crank machine in our shop.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1655321250950dd30c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/6d3971ac-eb1f-4fbf-885f-44efaaa5a0be_copy.jpg",
+        "mob_img": "shopify:\/\/shop_images\/6d3971ac-eb1f-4fbf-885f-44efaaa5a0be_copy.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16553193822ebae2cb",
+    "1655319387921221b2",
+    "16505750701d67385c",
+    "16553203649aa7e58e",
+    "165532079309593f54",
+    "1655321250950dd30c"
+  ]
+}

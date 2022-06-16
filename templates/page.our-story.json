@@ -32,7 +32,7 @@
         "pre_title": "",
         "main_title": "",
         "title_font": "headline__din",
-        "text": "we’ve always been friends. friends since the summer when matt came to my sixth grade back-to-school swim party.",
+        "text": "we’ve always been friends. friends since the summer when matt came to my sixth grade back-to-school swim party. <br><br>--",
         "btn_text": "",
         "btn_url": "",
         "change_alignment": false,
@@ -78,6 +78,7 @@
       "type": "section-rich-text",
       "settings": {
         "mobile_hide": false,
+        "bg_color": "",
         "text": "<br> <br><br> <br> <br>this place was telling us that someday we would build something new together. <br> <br> <br> <br> <br>",
         "link_text": "",
         "link_url": ""
@@ -118,7 +119,7 @@
       "settings": {
         "mobile_hide": true,
         "video_poster": "shopify:\/\/shop_images\/Screen_Shot_2022-06-14_at_1.16.13_PM.png",
-        "video_url": "https:\/\/vimeo.com\/17830905",
+        "video_url": "https:\/\/player.vimeo.com\/video\/17830905?h=6f003a15c5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         "video_controls": false,
         "pre_title": "No. 1",
         "title": "out of blue",
@@ -235,12 +236,19 @@
             "img": "shopify:\/\/shop_images\/nashville_shop__1_of_1.jpg",
             "img_url": ""
           }
+        },
+        "ca44ceaf-cec3-4579-a492-c3c523d6a396": {
+          "type": "info",
+          "settings": {
+            "text": ""
+          }
         }
       },
       "block_order": [
         "39506a9b-dd69-43fc-b268-dfcf908655de",
         "3b7c5ca8-fadc-4d57-8bad-9b167fabcdd5",
-        "44cf0ec7-2919-44f6-94cc-57c0899de044"
+        "44cf0ec7-2919-44f6-94cc-57c0899de044",
+        "ca44ceaf-cec3-4579-a492-c3c523d6a396"
       ],
       "settings": {
         "mobile_hide": false,
@@ -252,7 +260,7 @@
         "overlay_img_url": "",
         "main_title": "",
         "main_text": "after months of planning, building, and cleaning, matt and <br>i set up shop in an old service station in Nashville, TN.",
-        "text": ""
+        "text": "but on that hot and balmy Nashville night in July, the dream of imogene + willie suddenly became real."
       }
     },
     "16552328826fc31207": {
@@ -260,7 +268,7 @@
       "settings": {
         "mobile_hide": false,
         "review": "“everything you can imagine is real.”",
-        "customer_name": "- Picasso",
+        "customer_name": "<br>- Picasso",
         "background_color": "rgba(0,0,0,0)"
       }
     },
@@ -275,15 +283,6 @@
         "video_url": "",
         "mobile_video_url": "",
         "video_controls": false
-      }
-    },
-    "1655232982ab7185ec": {
-      "type": "section-rich-text",
-      "settings": {
-        "mobile_hide": false,
-        "text": "but on that hot and balmy Nashville night in July, the dream of imogene + willie suddenly became real.",
-        "link_text": "",
-        "link_url": ""
       }
     }
   },
@@ -303,7 +302,6 @@
     "1655232196548229af",
     "1655232718bf862daf",
     "16552328826fc31207",
-    "16552329270195edd0",
-    "1655232982ab7185ec"
+    "16552329270195edd0"
   ]
 }

@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16499696593217121e": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "img_height": false,
+        "link": "",
+        "add_video": true,
+        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "video_controls": false
+      }
+    },
+    "16505718302bbb6563": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01160_1bee2925-3223-4bce-a985-351c3c6ff1f1.jpg",
+        "mob_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01160_1bee2925-3223-4bce-a985-351c3c6ff1f1.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "LOT No. 001",
+        "title": "VIDALIA MILLS DENIM",
+        "title_font": "headline__din",
+        "text": "today is a big day. <br><br>both for us and for the history of denim made in the USA. <br><br>we are releasing two jeans--one women's and one men's--both sewn from the first premium selvage denim to be manufactured in the United States since the closure of the Cone Denim White Oak plant in 2017. <br><br>these jeans are the first pairs to be sewn from denim woven at the new, soon to be legendary, American manufacturing facility, Vidalia Mills. <br><br>as more and more companies look overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the United States of America.",
+        "btn_text": "SHOP VIDALIA MILLS DENIM",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/made-in-usa-lot-1",
+        "show_button": true
+      }
+    },
+    "1649968716596dfdec": {
+      "type": "section-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "video_poster": "shopify:\/\/shop_images\/mobile-split_5d290203-7b7a-4faf-b9de-9cd3f8ecaa82.jpg",
+        "video_url": "",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "video_controls": false
+      }
+    },
+    "164996952346f08380": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "mobile_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "165539396926592adb": {
+      "type": "section-image-overlay-feature",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/henry-lot-1-03_3dc1ad4d-9808-4c6f-87aa-60c61fa101fb.png",
+        "image": "shopify:\/\/shop_images\/Untitled-2_f0f041ba-f5cc-4781-8a6d-911cd63ead0a.png",
+        "image_mobile": "shopify:\/\/shop_images\/Untitled-2_f0f041ba-f5cc-4781-8a6d-911cd63ead0a.png",
+        "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
+        "pre_title": "",
+        "title": "",
+        "text": "each pair is patterned, cut, and sewn in the United States from the first premium 3x1, right-hand-twill, 14oz Vidalia Mills denim ever produced. <br> <br>every inch of this fabric directly reflects the hard work that it takes to maintain manufacturing in the United States of America.",
+        "btn_text": "",
+        "link_url": ""
+      }
+    },
+    "1649969933f60067f1": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the studio-dyed \"b-sides paradise\" tee",
+        "title_font": "headline__din",
+        "text": "if you close your eyes, you can imagine being there. <br><br>walking from the parking lot to a show: navigating through tailgaters, food truckers, and of course, a van selling bootleg concert t-shirts out of the back. <br><br>back before licensed merch was an established norm, some of the bands biggest fans took it upon themselves to make what everyone wanted. <br><br>the \"b-sides\" paradise studio tee is an homage to those who paved the way. <br><br>this run was limited edition, but check out this design on black.",
+        "btn_text": "B-SIDES ON BLACK->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-b-sides-studio-tee-in-black",
+        "show_button": false
+      }
+    },
+    "1655398887d2595f67": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01177.jpg",
+        "mob_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01177.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "164997002040b6e356": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "THE COLLECTION",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16499700408d317de1": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "choose_collection": "the-ides",
+        "show_title": false,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 12,
+        "products_per_row": 3,
+        "title": "the collection",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "shop the complete collection",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides"
+      }
+    },
+    "165057188760384d76": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "review": "\"listening only to my instincts, i discovered superb things.\"",
+        "customer_name": "<br>- claude monet",
+        "background_color": "#f7f6f3"
+      }
+    },
+    "1650572264552ae7c6": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-00658.jpg",
+        "mob_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-00658.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "img_width": "extra-large"
+      }
+    },
+    "1650572297101d858e": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "<br>",
+        "title": "the \"hello\" painting",
+        "title_font": "headline__din",
+        "text": "the only one of its kind.<br><br> 24\"x30\" acrylic and mixed media on canvas<br>by matt eddmenson, 2022",
+        "btn_text": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "show_button": false
+      }
+    },
+    "1650572934afd406d6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16499696593217121e",
+    "16505718302bbb6563",
+    "16499691942d1a0881",
+    "1649968716596dfdec",
+    "164996952346f08380",
+    "165539396926592adb",
+    "1649969933f60067f1",
+    "1655398887d2595f67",
+    "164997002040b6e356",
+    "16499700408d317de1",
+    "165057188760384d76",
+    "1650572264552ae7c6",
+    "1650572297101d858e",
+    "1650572934afd406d6"
+  ]
+}

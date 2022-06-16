@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1655325469608be7ff": {
+      "type": "section-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d995f1e08b949fc9c8b63931e612b49.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d995f1e08b949fc9c8b63931e612b49.mp4",
+        "video_controls": false
+      }
+    },
+    "16553203649aa7e58e": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "choose_collection": "iw-socks",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 6,
+        "products_per_row": 2,
+        "title": "imogene + willie x little river sock mill",
+        "title_font": "headline__arno",
+        "text": "<br>these socks are made by second generation sock makers. <br><br>each pair is thoughtfully and carefully made by second–generation sock makers in For Payne, Alabama, from Texas–grown, certified organic cotton.",
+        "btn_text": "Shop All",
+        "btn_url": "shopify:\/\/collections\/iw-socks"
+      }
+    },
+    "1655321250950dd30c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/fpj-8.jpg",
+        "mob_img": "shopify:\/\/shop_images\/fpj-8.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
+    "165532595550bf00ff": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "choose_collection": "boot-socks",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "this family welcomed us into their factory... their home. we sat around their table. and in collaboration with the founders of Little River Rock Mill and their entire team, imogene + willie now makes socks. in America.",
+        "btn_text": "Shop Boot SOcks",
+        "btn_url": "shopify:\/\/collections\/boot-socks"
+      }
+    },
+    "1655319387921221b2": {
+      "type": "section-rich-text",
+      "settings": {
+        "mobile_hide": false,
+        "bg_color": "",
+        "text": "on some days (not all days ) — we feel isolated when it comes to adhering to our original mission and commitment to making all of our clothes in America. and then, there are the magic days, where we realize that we are not all alone. we are so thankful to little river sock mill for joining us on our journey.",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "16553261795ff55653": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/rainbow_05.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/rainbow_05.jpg",
+        "img_height": false,
+        "link": "https:\/\/imogeneandwillie.com\/collections\/iw-socks",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1655325469608be7ff",
+    "16553203649aa7e58e",
+    "1655321250950dd30c",
+    "165532595550bf00ff",
+    "1655319387921221b2",
+    "16553261795ff55653"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "165090982189bb7427": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "+",
+        "title": "i+w dispatch",
+        "title_font": "headline__arno",
+        "text": "an update from Nashville with a few exciting goings-on.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "165532211347781e8b": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/eccd6cee-aa97-fdb6-c5f4-62ce47721eee.jpg",
+        "mob_img": "shopify:\/\/shop_images\/eccd6cee-aa97-fdb6-c5f4-62ce47721eee.jpg",
+        "img_url": "https:\/\/www.audreynashville.com\/",
+        "pre_title": "( on craft )",
+        "main_title": "AUDREY",
+        "title_font": "headline__din",
+        "text": "this fall, our friend and notoriously talented chef, Dean Brock, will eopen the doors to his new Nashville–based restaurant, Audrey. for those who might not be familiar, Sean is widely celebrated for his passionate focus on integrity in ingredients.. and paying homage to their origins within his menu.",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": true,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "165090990764615da8": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/87d37fa5-c3fa-117b-b14f-382178a027de.png",
+        "mob_img": "shopify:\/\/shop_images\/87d37fa5-c3fa-117b-b14f-382178a027de.png",
+        "img_url": "https:\/\/www.audreynashville.com\/",
+        "img_width": "extra-large"
+      }
+    },
+    "1650910115d111e571": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__din",
+        "text": "a refuge in the Nashville food community, Audrey is an experience where process is as important as the product. every element within their walls has been sourced with intent from a throughtful assortment of makers here in Nashville. we were invited (and extremely honored) to participate in outfitting their team with an i+w uniform. we look forward to the first of many meals at Audrey.",
+        "btn_text": "more info >",
+        "btn_url": "https:\/\/www.audreynashville.com\/",
+        "show_button": false
+      }
+    },
+    "1655322747af2c543c": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/283d0f57-0aa4-b021-7822-a1b0cdb4f1c5.jpg",
+        "mob_img": "shopify:\/\/shop_images\/283d0f57-0aa4-b021-7822-a1b0cdb4f1c5.jpg",
+        "img_url": "https:\/\/www.lelabofragrances.com\/llow-nsh.html",
+        "pre_title": "( on process )",
+        "main_title": "LE LABO",
+        "title_font": "headline__din",
+        "text": "Le Labo is a Brooklyn-founded fragrance brand built around quality, craftsmanship, and uplifting the artisans that make their collections. what is specfial about Le Labo to us is in the heart of their craft, and the shared joy in making products that are a part of someone's daily routine.",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "16509103987cf1f510": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/b5af6d45-9d62-39b1-b587-83fd30cae200.png",
+        "mob_img": "shopify:\/\/shop_images\/b5af6d45-9d62-39b1-b587-83fd30cae200.png",
+        "img_url": "https:\/\/www.lelabofragrances.com\/llow-nsh.html",
+        "img_width": "extra-large"
+      }
+    },
+    "1650910489b5a9aa33": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__din",
+        "text": "the Le Labo team recently joined forces with New Frontier Design to build a beautiful mobile fragrance lab and shop, and their first stop is Nashville... right outside our door.<br><br>we're pleased to have them on–site, out front of our shop through October 17th.",
+        "btn_text": "more info >",
+        "btn_url": "https:\/\/www.lelabofragrances.com\/llow-nsh.html",
+        "show_button": false
+      }
+    },
+    "16553232041e2ecc29": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/2a83ed48-a6fc-922d-9ced-3c239322331a.jpg",
+        "mob_img": "shopify:\/\/shop_images\/2a83ed48-a6fc-922d-9ced-3c239322331a.jpg",
+        "img_url": "",
+        "pre_title": "( on community )",
+        "main_title": "THE GIBSON GARAGE",
+        "title_font": "headline__din",
+        "text": "Gibson Guitar's headquarters have been rooted in Nashville for decades. just this year, they opened a beautil flagshop store, The Gibson Garage.<br><br> to celebrate the opening, we collaborated together on a handful of new t–shirts. one of those is an exclusive version of our \"support live music\" tee, and Gibson is committing to join us in donating all profuts to MusiCares, a charitable organization that provides relief and support to musicians in times of need. <br><br> notably, Gibson also recently gifted $300,000 in music equipment to Nashville public schools music ediucation programs. the Gibson legacy goes beyond music and into our community, and we're extremely proud to be a part of their impact here in Nashville.<br><br>all three i+w x Gibson tees are available on their site.",
+        "btn_text": "shop now >",
+        "btn_url": "https:\/\/gibson.com\/en-US\/Gear\/imogene-and-willie",
+        "change_alignment": true,
+        "show_btn": false,
+        "show_link": true
+      }
+    },
+    "1650910422b48bf6af": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/cf5e068c-ec3b-0317-32f4-12fa04c07b6f.png",
+        "mob_img": "shopify:\/\/shop_images\/cf5e068c-ec3b-0317-32f4-12fa04c07b6f.png",
+        "img_url": "https:\/\/gibson.com\/en-US\/Gear\/imogene-and-willie",
+        "img_width": "extra-large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165090982189bb7427",
+    "165532211347781e8b",
+    "165090990764615da8",
+    "1650910115d111e571",
+    "1655322747af2c543c",
+    "16509103987cf1f510",
+    "1650910489b5a9aa33",
+    "16553232041e2ecc29",
+    "1650910422b48bf6af"
+  ]
+}

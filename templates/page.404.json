@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1655305899170bac8c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/arizonamag_-11.jpg",
+        "mob_img": "shopify:\/\/shop_images\/arizonamag_-11.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "16553060487ae324b1": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "( 404 ERROR )",
+        "title": "SHIT, THAT SHOULDN'T HAPPEN...",
+        "title_font": "headline__din",
+        "text": "this page has been moved, removed, or perhaps never even existed in the place. <br><br>please feel free to <a href=\"www.imogeneandwillie.com\/pages\/contact-us\">contact us<\/a> and let us know what you were looking for. we'll be more than happy to help.",
+        "btn_text": "go home",
+        "btn_url": "https:\/\/imogeneandwillie.com",
+        "show_button": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1655305899170bac8c",
+    "16553060487ae324b1"
+  ]
+}
