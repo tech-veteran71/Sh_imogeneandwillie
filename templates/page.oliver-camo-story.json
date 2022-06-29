@@ -1,0 +1,112 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "165548586709ee2e23": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "( abbreviated )",
+        "title": "letter from a friend",
+        "title_font": "h1",
+        "text": "depart New York <br> land in LA.<br>realize the world has stopped.<br>don't go back to New York.<br><br> this was my reality as the depth of the sitation set in. a one-week job in LA turned into an indefinite stay. swapping the confines of a city apartment in Brooklyn for a canvas tent in the rural hills of Topanga. i go to sleep with coyotes howling, and wake up with rabbits next to my bed (seriously).<br>--",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16554859495bb5ecba": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/013a7550-71ab-4582-89be-1f99f9b9f2a8.png",
+        "mob_img": "shopify:\/\/shop_images\/013a7550-71ab-4582-89be-1f99f9b9f2a8.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/camo-oliver-trouser?_pos=1&_sid=54520aebb&_ss=r",
+        "img_width": "large"
+      }
+    },
+    "16557381707425b000": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "meet tony (and shawn).",
+        "title_font": "headline__arno",
+        "text": "they're two photographer friends of i+w who found themselves stranded in LA (a long way from their homes) at the very beginning of all of this.<br><br>for the last two months, they've each been living out of a suitcase. but, like all of us, they're making the most of it. they spend their days reading books, making art, playing music, baking bread, and the list goes on.<br><br> we've been in touch regularly for a few weeks, and we wanted to see if they'd share their current world with us as we announce our newest release.<br><br>they were totally down.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1655739021d299fd0b": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/63ddcb4d-efd7-4779-b5cf-204746b880a0.png",
+        "mob_img": "shopify:\/\/shop_images\/63ddcb4d-efd7-4779-b5cf-204746b880a0.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/camo-oliver-trouser?_pos=1&_sid=54520aebb&_ss=r",
+        "img_width": "medium"
+      }
+    },
+    "16557383402d1c8454": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "(introducing)",
+        "title": "THE CAMO OLIVER TROUSER",
+        "title_font": "headline__din",
+        "text": "a military trouser that was patterened from an old pant that has been worn down to the threads.<br><br> sewn from an 8oz cotton\/nylon ripstop cloth woven in Japan. inspired by the classic camouflage fabrics originally used by the US military in teh early 1960's.",
+        "btn_text": "Shop NOW",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/camo-oliver-trouser?_pos=1&_sid=54520aebb&_ss=r",
+        "show_button": true
+      }
+    },
+    "165573904780e268ae": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/ae691c00-e1c9-4754-8c4f-e868fa0526d5.png",
+        "mob_img": "shopify:\/\/shop_images\/ae691c00-e1c9-4754-8c4f-e868fa0526d5.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/camo-oliver-trouser?_pos=1&_sid=54520aebb&_ss=r",
+        "img_width": "full"
+      }
+    },
+    "1655486368916de147": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "review": "“people can change anything they want to. and that means everything in the world.”",
+        "customer_name": "<br>-  joe strummer",
+        "background_color": "#f7f6f3"
+      }
+    },
+    "1655739067ad5a5d80": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/d990cbfe-dc25-4405-a130-39c7b91f01dc.png",
+        "mob_img": "shopify:\/\/shop_images\/d990cbfe-dc25-4405-a130-39c7b91f01dc.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/camo-oliver-trouser?_pos=1&_sid=54520aebb&_ss=r",
+        "img_width": "full"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165548586709ee2e23",
+    "16554859495bb5ecba",
+    "16557381707425b000",
+    "1655739021d299fd0b",
+    "16557383402d1c8454",
+    "165573904780e268ae",
+    "1655486368916de147",
+    "1655739067ad5a5d80"
+  ]
+}

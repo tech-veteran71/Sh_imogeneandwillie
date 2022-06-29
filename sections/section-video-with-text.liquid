@@ -1,7 +1,7 @@
 {{ 'section-video-with-text.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'video-poster.js' | asset_url }}" defer></script>
 
-<div class="video-with-text {% if section.settings.mobile_hide %}small--hide{% endif %}">
+<div class="video-with-text {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
   <div class="nashville-container">
     <div class="wrapper">
       {% if section.settings.video_controls %}
@@ -56,6 +56,12 @@
       "type": "checkbox",
       "id": "mobile_hide",
       "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
       "default": false
     },
     {

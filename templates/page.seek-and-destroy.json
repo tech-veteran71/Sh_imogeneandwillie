@@ -59,30 +59,6 @@
         "img_width": "extra-large"
       }
     },
-    "1650575209c89b08c2": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "mobile_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "",
-        "title_font": "headline__arno",
-        "text": "",
-        "btn_text": "weekend one of a kind",
-        "btn_url": "shopify:\/\/collections\/weekend-1-1",
-        "show_button": true
-      }
-    },
-    "165057523914d096d8": {
-      "type": "section-image",
-      "settings": {
-        "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/956571e8-7637-6004-46eb-8d627ec6f60d.png",
-        "mob_img": "shopify:\/\/shop_images\/956571e8-7637-6004-46eb-8d627ec6f60d.png",
-        "img_url": "",
-        "img_width": "large"
-      }
-    },
     "16554037323e7e2466": {
       "type": "section-txt-link-btn",
       "settings": {
@@ -128,7 +104,7 @@
         "desk_img": "shopify:\/\/shop_images\/039f6c73-3021-2596-a60a-47c721ad9cfa.png",
         "mob_img": "shopify:\/\/shop_images\/039f6c73-3021-2596-a60a-47c721ad9cfa.png",
         "img_url": "",
-        "img_width": "full"
+        "img_width": "extra-large"
       }
     },
     "165540424410cef487": {
@@ -163,8 +139,6 @@
     "16505750701d67385c",
     "1650575135bf43f021",
     "1650575099c3e04efb",
-    "1650575209c89b08c2",
-    "165057523914d096d8",
     "16554037323e7e2466",
     "165540390687810b99",
     "1655403935b8962a7e",

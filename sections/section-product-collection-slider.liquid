@@ -1,5 +1,5 @@
 {{ 'section-product-collection-slider.css' | asset_url | stylesheet_tag }}
-<div class="featured-collection {% if section.settings.mobile_hide %}small--hide{% endif %}" style="background-color: {{ section.settings.background_color }};">
+<div class="featured-collection {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}" style="background-color: {{ section.settings.background_color }};">
   <div class="index-container">
     <div class="wrapper">
       {% if section.settings.main_title != blank %}
@@ -75,6 +75,12 @@
       "type": "checkbox",
       "id": "mobile_hide",
       "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
       "default": false
     },
     {

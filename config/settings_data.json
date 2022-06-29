@@ -89,20 +89,20 @@
               "product_description": "3.8oz Japanese lightweight plaid"
             }
           },
-          "0727aa4a-6014-4448-acd9-3f92cc8fdc4f": {
+          "53481464-0c94-4902-abeb-280a5d5344e8": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Image-389.jpg",
-              "link": "https:\/\/imogeneandwillie.com\/pages\/our-story",
-              "pre_title": "matt and carrie eddmenson, '14",
-              "title": "our story",
-              "text": "it started with the desire to make what we couldn't find."
+              "img": "shopify:\/\/shop_images\/vm.jpg",
+              "link": "",
+              "pre_title": "unwavering dedication",
+              "title": "made in usa",
+              "text": "we remian stubbornly committed to ensure that everything is made is america"
             }
           },
           "4cc22847-de5f-48cd-9ae3-3e176610939b": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/vibes_a3111ba9-673a-4ed5-9d9f-86130062aff2.jpg",
+              "img": "shopify:\/\/shop_images\/desktop_bbb82bbd-f434-4a74-b17e-03fd6b077aeb.jpg",
               "link": "shopify:\/\/pages\/nashville",
               "pre_title": "2601 12th ave s",
               "title": "nashville",
@@ -119,66 +119,74 @@
               "text": "patterned, cut, & sewn in the usa from the best we can find."
             }
           },
-          "4aa8bf58-0351-464c-864a-89b1a0e23fe4": {
-            "type": "mega_menu_about",
-            "settings": {
-              "img": "shopify:\/\/shop_images\/supper_song_3-copy.jpg",
-              "link": "shopify:\/\/pages\/supper-song",
-              "pre_title": "till next time",
-              "title": "supper + song",
-              "text": "a gathering of community around music hosted semi monthly in the warmer months."
-            }
-          },
           "4d523621-d2a6-40a6-80b0-ffb7834f2f2d": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Image-393.jpg",
+              "img": "shopify:\/\/shop_images\/tailorshop_-3.jpg",
               "link": "shopify:\/\/pages\/tailor-shop",
               "pre_title": "make it last forever",
               "title": "tailor shop",
               "text": "to repair, improve and fortify your jeans-so that you can put more miles into them."
             }
           },
-          "53481464-0c94-4902-abeb-280a5d5344e8": {
+          "0727aa4a-6014-4448-acd9-3f92cc8fdc4f": {
             "type": "mega_menu_about",
             "settings": {
-              "img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01160.jpg",
-              "link": "",
-              "pre_title": "unwavering dedication",
-              "title": "made in usa",
-              "text": "we remian stubbornly committed to ensure that everything is made is america"
+              "img": "shopify:\/\/shop_images\/Image-389.jpg",
+              "link": "https:\/\/imogeneandwillie.com\/pages\/our-story",
+              "pre_title": "matt and carrie eddmenson, '14",
+              "title": "our story",
+              "text": "it started with the desire to make what we couldn't find."
+            }
+          },
+          "4aa8bf58-0351-464c-864a-89b1a0e23fe4": {
+            "type": "mega_menu_about",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/gallery-22_53a9ab99-707e-41f8-8a22-dcb7fe7733c3.jpg",
+              "link": "shopify:\/\/pages\/supper-and-song",
+              "pre_title": "till next time",
+              "title": "supper + song",
+              "text": "a gathering of community around music hosted semi monthly in the warmer months."
             }
           },
           "e8ac997d-06bf-4cd7-84aa-bd38fbabdacd": {
             "type": "menu_drawer_slide",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Image_144.png",
-              "title": "our story",
+              "img": "shopify:\/\/shop_images\/henry-lot-1-03.jpg",
+              "title": "made in usa",
               "link": "shopify:\/\/pages\/our-story"
-            }
-          },
-          "8cc7e1ce-5bd7-4c19-a4d8-b78147aa876b": {
-            "type": "menu_drawer_slide",
-            "settings": {
-              "img": "shopify:\/\/shop_images\/Tailor_Shop_IMG_2eb6e2a2-7572-4d01-ad5c-7928c57717ef.png",
-              "title": "tailor shop",
-              "link": "shopify:\/\/pages\/tailor-shop"
-            }
-          },
-          "2a53791e-d20c-4aed-9836-17b8c8ed143d": {
-            "type": "menu_drawer_slide",
-            "settings": {
-              "img": "shopify:\/\/shop_images\/Image_145_31dffb72-d5b4-4ae1-b217-ead47d21f7f6.png",
-              "title": "vidalia mills",
-              "link": ""
             }
           },
           "68c46852-b5f9-4c93-8d82-2758e0e8972a": {
             "type": "menu_drawer_slide",
             "settings": {
               "img": "shopify:\/\/shop_images\/warehouse__6_of_9.png",
-              "title": "made in usa",
-              "link": ""
+              "title": "our process",
+              "link": "shopify:\/\/pages\/the-process"
+            }
+          },
+          "8cc7e1ce-5bd7-4c19-a4d8-b78147aa876b": {
+            "type": "menu_drawer_slide",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/tailorshop_-3.jpg",
+              "title": "tailor shop",
+              "link": "shopify:\/\/pages\/tailor-shop"
+            }
+          },
+          "ef73f380-1a4d-4fc5-acfe-ac2c56e9a0b3": {
+            "type": "menu_drawer_slide",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-2-1_2048x2048_4c1722d6-97da-4d91-a74e-e45a1ab0b806.jpg",
+              "title": "our story",
+              "link": "shopify:\/\/pages\/our-story"
+            }
+          },
+          "2a53791e-d20c-4aed-9836-17b8c8ed143d": {
+            "type": "menu_drawer_slide",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/gallery17_638963de-29c3-4d2e-93e5-84a5562f4206.jpg",
+              "title": "supper + song",
+              "link": "shopify:\/\/pages\/supper-and-song"
             }
           }
         },
@@ -189,16 +197,17 @@
           "3815b5f7-3f28-4a79-9ca5-336595da5ead",
           "565f0e16-3662-4f56-8c28-cf218a3fb4d1",
           "9604c633-37fa-4ce1-bd8b-bf9de49548f4",
-          "0727aa4a-6014-4448-acd9-3f92cc8fdc4f",
+          "53481464-0c94-4902-abeb-280a5d5344e8",
           "4cc22847-de5f-48cd-9ae3-3e176610939b",
           "d3265107-3261-49c1-ad15-3ab927369894",
-          "4aa8bf58-0351-464c-864a-89b1a0e23fe4",
           "4d523621-d2a6-40a6-80b0-ffb7834f2f2d",
-          "53481464-0c94-4902-abeb-280a5d5344e8",
+          "0727aa4a-6014-4448-acd9-3f92cc8fdc4f",
+          "4aa8bf58-0351-464c-864a-89b1a0e23fe4",
           "e8ac997d-06bf-4cd7-84aa-bd38fbabdacd",
+          "68c46852-b5f9-4c93-8d82-2758e0e8972a",
           "8cc7e1ce-5bd7-4c19-a4d8-b78147aa876b",
-          "2a53791e-d20c-4aed-9836-17b8c8ed143d",
-          "68c46852-b5f9-4c93-8d82-2758e0e8972a"
+          "ef73f380-1a4d-4fc5-acfe-ac2c56e9a0b3",
+          "2a53791e-d20c-4aed-9836-17b8c8ed143d"
         ],
         "settings": {
           "desk_menu": "seed-2-0-desktop-nav",

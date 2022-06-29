@@ -1,5 +1,5 @@
 {{ 'section-flashcard-feature.css' | asset_url | stylesheet_tag }}
-<div class="product-slider-section {% if section.settings.hide_mobile %}product-slider-section__mobile{% endif %}">
+<div class="product-slider-section {% if section.settings.hide_mobile %}product-slider-section__mobile{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
   <div class="index-container">
     <div class="wrapper">
       <div class="alpha">
@@ -48,8 +48,15 @@
   "settings":[
     {
       "type": "checkbox",
-      "id": "hide_mobile",
-      "label": "Hide Mobile"
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
+      "default": false
     },
     {
       "type": "header",

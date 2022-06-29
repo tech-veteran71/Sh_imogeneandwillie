@@ -11,7 +11,7 @@
   color: var(--color-normal-black);
 }
 .rich-text-section .text-wrap {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   padding: 0;
 }
 .rich-text-section .text {
@@ -30,6 +30,7 @@
   font-family: var(--font-din);
   font-weight: 500;
   letter-spacing: 0.14rem;
+  margin-top: 2rem;
 }
 .rich-text-section .wrapper {
   max-width: 70rem;
@@ -64,7 +65,7 @@
 @media(max-width: 767px ){
   .rich-text-section .text-wrap {
     padding: 0;
-    margin: 0 auto 2rem;
+    margin: 0 auto;
   }
   .rich-text-section .title {
     font-size: 1.5rem

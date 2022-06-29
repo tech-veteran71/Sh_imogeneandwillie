@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16554858073461eab8": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
+        "mob_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "165548586709ee2e23": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "supper + song",
+        "title_font": "h1",
+        "text": "supper + song was never ours. it is and always will be yours.  <br><br>a gathering of community around music hosted semi-monthly in the warmer months. come visit in our backyard for an evening of music with varying musical guests and food.  <br><br>supper + song is free and open to the public — our backyard is yours. bring a blanket, your loved ones (dogs included), and your own beverages.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16554859495bb5ecba": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/ss.jpg",
+        "mob_img": "shopify:\/\/shop_images\/mobile.png",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16554859930f7532c1": {
+      "type": "section-newsletter",
+      "settings": {
+        "mobile_hide": false,
+        "text": "upcoming events",
+        "subtext": "we announce each supper + song via our mailing list.<br> sign up below and we’ll keep you in the loop."
+      }
+    },
+    "1655486020ddb11fe7": {
+      "type": "section-image-gallery",
+      "blocks": {
+        "27f3a120-9bf5-44e8-83e4-b260533e3f45": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_53127bb6-900d-4b1a-8b71-79ad9802dc69.jpg"
+          }
+        },
+        "de4810ee-34b3-428a-9283-69d618d284a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery-2_fc480282-6699-40c0-9b14-a2bedb25495f.jpg"
+          }
+        },
+        "18082863-b33f-4758-bab8-3f087ae617af": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery-4-1_633fb50c-8b81-4cd9-8e29-7818c2822b49.jpg"
+          }
+        },
+        "f4f4177e-a9d7-44d3-a402-80702c8a7f2e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery-5_374802f8-9916-4fed-b22c-cb45b7573c16.jpg"
+          }
+        },
+        "cf7c78ec-4e05-4eea-af70-3b31c9a95c66": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery-6_48db8fc0-a2d8-4afd-a352-81d4e4a8cb5b.jpg"
+          }
+        },
+        "1d494d65-4d07-4b4b-b71c-eb26b28224ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery-7_037e7c29-c1b2-4afd-9522-803b9966bdea.jpg"
+          }
+        },
+        "223ddd15-c1ac-4868-acd1-4afbb76dfd19": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery-8_a97e2a10-acac-457d-9a72-2c922a24dd7e.jpg"
+          }
+        },
+        "57eaa3ca-acf6-4e11-9f55-f253940835df": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery-10_fde4c9d0-97c6-4dab-b0d0-657d9e0719f7.jpg"
+          }
+        },
+        "ce5d13b3-2376-4276-b80b-5496ccee734f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery-11_f8f0ebf8-5a5f-40d1-a7c0-383a4fa9d9b3.jpg"
+          }
+        },
+        "a6f01899-7631-4eab-9571-7b6fb4a6b222": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery11.webp"
+          }
+        },
+        "840bdfad-f457-474b-a158-f04a8d4e76c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery12_30576f80-1bd6-4af9-ba9a-3592e194274e.jpg"
+          }
+        },
+        "35fa10a2-ff20-4753-b248-df0a94227dbb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery13_8183dbc1-e2e7-46ff-9783-0ca5a6d38546.jpg"
+          }
+        },
+        "a1d43ad5-ade9-44ba-a53e-fbbe2900e046": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery14_38ba9b0e-5ef5-49cc-9833-2e3e03c4f4c4.jpg"
+          }
+        },
+        "82129706-42cb-4e37-bd0a-afdad35b2313": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery15_39848007-c31b-423c-8e77-6dc511faf13b.jpg"
+          }
+        },
+        "7f53b3f6-e92f-45f9-b842-83e13640a2cf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery16_11af00ab-8190-41e6-a883-e24aae8a1260.jpg"
+          }
+        },
+        "df773102-5667-4d7a-96d7-ebe2147182eb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery17_638963de-29c3-4d2e-93e5-84a5562f4206.jpg"
+          }
+        },
+        "1c24d8d3-e534-4669-bbcb-a1cd75d784dc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery18.webp"
+          }
+        },
+        "7a37c798-737a-47b9-b3af-8b35126d0a61": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery19_ace93fb9-fc2c-4d7c-a5ee-d180985561be.jpg"
+          }
+        },
+        "37b101a7-5095-4444-845d-7931b7ac9566": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery20_c1cb6860-3b18-4e1c-abc3-8c58f3429819.jpg"
+          }
+        },
+        "f4564b3a-1c20-49da-a96f-7e28fabc94e3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery21_ed83b135-cf7d-4257-89e4-8ec2277665a9.webp"
+          }
+        }
+      },
+      "block_order": [
+        "27f3a120-9bf5-44e8-83e4-b260533e3f45",
+        "de4810ee-34b3-428a-9283-69d618d284a7",
+        "18082863-b33f-4758-bab8-3f087ae617af",
+        "f4f4177e-a9d7-44d3-a402-80702c8a7f2e",
+        "cf7c78ec-4e05-4eea-af70-3b31c9a95c66",
+        "1d494d65-4d07-4b4b-b71c-eb26b28224ba",
+        "223ddd15-c1ac-4868-acd1-4afbb76dfd19",
+        "57eaa3ca-acf6-4e11-9f55-f253940835df",
+        "ce5d13b3-2376-4276-b80b-5496ccee734f",
+        "a6f01899-7631-4eab-9571-7b6fb4a6b222",
+        "840bdfad-f457-474b-a158-f04a8d4e76c5",
+        "35fa10a2-ff20-4753-b248-df0a94227dbb",
+        "a1d43ad5-ade9-44ba-a53e-fbbe2900e046",
+        "82129706-42cb-4e37-bd0a-afdad35b2313",
+        "7f53b3f6-e92f-45f9-b842-83e13640a2cf",
+        "df773102-5667-4d7a-96d7-ebe2147182eb",
+        "1c24d8d3-e534-4669-bbcb-a1cd75d784dc",
+        "7a37c798-737a-47b9-b3af-8b35126d0a61",
+        "37b101a7-5095-4444-845d-7931b7ac9566",
+        "f4564b3a-1c20-49da-a96f-7e28fabc94e3"
+      ],
+      "settings": {
+        "mobile_hide": false
+      }
+    },
+    "1655486368916de147": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "review": "“be groovy or leave, man.”",
+        "customer_name": "<br>-  bob dylan",
+        "background_color": "#f7f6f3"
+      }
+    },
+    "16554864441637962d": {
+      "type": "section-flashcard-feature",
+      "settings": {
+        "hide_mobile": false,
+        "choose_collection": "support-live-music",
+        "title": "the \"support live music\" tee",
+        "title_font": "headline__din",
+        "text": "an ode to our hometown, the musicians of nashville and the gatherings we host in our backyard.",
+        "btn_text": "see more",
+        "btn_url": "shopify:\/\/collections\/support-live-music",
+        "show_link": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16554858073461eab8",
+    "165548586709ee2e23",
+    "16554859495bb5ecba",
+    "16554859930f7532c1",
+    "1655486020ddb11fe7",
+    "1655486368916de147",
+    "16554864441637962d"
+  ]
+}

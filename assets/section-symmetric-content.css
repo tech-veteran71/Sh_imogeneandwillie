@@ -1,7 +1,6 @@
 .fabric-section {
-  padding-bottom: 11.75em;
-  padding-top: 4em;
-  font-size: 1.2vw;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
   background-color: var(--color-Xlight-wheat);
 }
 .fabric-section .container {
@@ -37,14 +36,14 @@
   object-fit: cover;
 }
 .fabric-section .content-wrap {
-  max-width: 19em;
-  height: 16.75em;
+  max-width: 80%;
+  height: auto;
   background-color: var(--color-white);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -8.25em;
-  padding: 0.75em 1.5rem;
+  bottom: -9rem;
+  padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,12 +100,12 @@
 }
 @media screen and (max-width: 1279px) {
   .fabric-section .content-wrap {
-    max-width: 23em;
+    max-width: 60%;
   }
 }
 @media screen and (max-width: 990px) {
   .fabric-section .content-wrap {
-    max-width: 26em;
+    max-width: 80%;
   }
   .fabric-section .fabric-block .title {
     font-size: 1.6rem;
@@ -120,7 +119,15 @@
   }
 }
 @media screen and (max-width: 767px) { 
+  .fabric-section .fabric-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 12rem;
+  }
+  .fabric-section .content-wrap {
+    max-width: 90%;
+    height: auto;
+  }
   .fabric-section {
-    display: none;
+    padding-bottom: 12rem;
   }
 }

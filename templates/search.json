@@ -1,5 +1,13 @@
 {
   "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "desk_bg_img": "shopify:\/\/shop_images\/Search-Results-BG-IMG.jpg",
+        "mob_bg_img": "shopify:\/\/shop_images\/Search-Results-BG-IMG.jpg",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
+      }
+    },
     "main": {
       "type": "main-search",
       "settings": {
@@ -7,6 +15,7 @@
     }
   },
   "order": [
+    "banner",
     "main"
   ]
 }

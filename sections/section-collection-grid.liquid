@@ -9,7 +9,7 @@
   }
 </style>
 
-<div class="product-gallery {% if section.settings.mobile_hide %}small--hide{% endif %}">
+<div class="product-gallery {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
   <div class="index-container">
     <div class="wrapper">
       {% if section.settings.title != blank %}
@@ -61,6 +61,12 @@
       "type": "checkbox",
       "id": "mobile_hide",
       "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
       "default": false
     },
     {

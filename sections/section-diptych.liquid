@@ -1,6 +1,6 @@
 {{ 'section-diptych.css' | asset_url | stylesheet_tag }}
 
-<div class="latest-collection {% if section.settings.mobile_hide %}small--hide{% endif %}">
+<div class="latest-collection {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
   <div class="container">
     <div class="wrapper">
       <div class="main-grid">
@@ -58,6 +58,12 @@
       "type": "checkbox",
       "id": "mobile_hide",
       "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
       "default": false
     }
   ],

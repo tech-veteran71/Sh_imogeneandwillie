@@ -1,6 +1,6 @@
 {{ 'section-recent-moments.css ' | asset_url | stylesheet_tag }}
 
-<div class="explore-section {% if section.settings.mobile_hide %}small--hide{% endif %}">
+<div class="explore-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
   <div class="index-container">
     <div class="wrapper">
       {% if section.settings.title != blank %}
@@ -8,34 +8,18 @@
       {% endif %}
       <div class="cart-swiper">
         <div class="swiper-wrapper">
-          {% if section.settings.choose_collection != blank or section.settings.choose_blog != blank %}
-            {% if section.settings.choose_collection != blank %}
-              {% for product in collections[section.settings.choose_collection].products %}
-                {% render 'product-card',
-                    product: product,
-                    show_title: true,
-                    show_subtitle: false,
-                    show_price: false,
-                    swiper_slide: true,
-                    show_badges: true
-                  %}
-              {% endfor %}
-            {% endif %}
-            {% if section.settings.choose_blog != blank %}
-              {% for article in blogs[section.settings.choose_blog].articles %}
-                {% render 'cart-item', cart: article %}  
-              {% endfor %}
-            {% endif %}
-              {% else %}
-                {% for index in (1..5) %}
-                  <div class="cart-item swiper-slide">
-                    <div class="img-wrap">
-                      {% assign placeholder = 'product-' | append: index %}
-                      {{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}
-                    </div>
-                  </div>
-                {% endfor %}
-          {% endif %}
+          {% for block in section.blocks %}
+            <div class="cart-item swiper-slide">
+              <a href="{{ block.settings.url }}" class="cart-link">
+                <div class="img-wrap">
+                  {% render 'responsive--image' with block.settings.image as image, max_width: 349, class: 'img' %}
+                </div>
+                <div class="title-wrap">
+                  <h4 class="text">{{ block.settings.title }}</h4>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
         </div>
         <div class="swiper-scrollbar"></div>
       </div>
@@ -58,19 +42,10 @@
       "default": false
     },
     {
-      "type": "header",
-      "content": "Choose Collection Or Blog",
-      "info": "-------"
-    },
-    {
-      "type": "collection",
-      "id": "choose_collection",
-      "label": "Choose Collection"
-    },
-    {
-      "type": "blog",
-      "id": "choose_blog",
-      "label": "Choose Blog"
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
+      "default": false
     },
     {
       "type": "header",
@@ -91,6 +66,29 @@
       "type": "url",
       "id": "url",
       "label": "Button Url"
+    }
+  ],
+  "blocks":[
+    {
+      "type": "image",
+      "name": "Image",
+      "settings":[
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
     }
   ],
   "presets":[

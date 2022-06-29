@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "165548586709ee2e23": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "h1",
+        "text": "indigo, always<br> <br> over the last few years, we've spent time expanding our dyeing techniques...<br>experimenting, testing, and ultimately searching for the small surprises for the smallsuprises that take our connection with color deeper.<br><br> we found nuance in how indigo interacts with other colors: it doesn't just mix or overlap. it is as if the indigo unlocks a secret within the color it is introduced to... <br><br>a depth and quality that didn't exist before, but at the same time, one that couldn't exist in indigo alone.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1655739021d299fd0b": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/8ef2ba96-c373-9088-3cb2-b84dc60592b4.png",
+        "mob_img": "shopify:\/\/shop_images\/8ef2ba96-c373-9088-3cb2-b84dc60592b4.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/indigo-studio-tee",
+        "img_width": "large"
+      }
+    },
+    "16557381707425b000": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "center",
+        "pretitle": "( introducing )",
+        "title": "THE INDIGO STUDIO TEE EDITIONS 001 & 002",
+        "title_font": "headline__din",
+        "text": "each one is an indigo over-dyed pocket tee.<br>hand-dyed and distressed in-house. washed and set out to fade.<br><br>limited edition.",
+        "btn_text": "Shop Now",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/indigo-studio-tee",
+        "show_button": true
+      }
+    },
+    "165573904780e268ae": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/d1d1e2b6-2a09-57e2-1be4-c428db46f6ed.gif",
+        "mob_img": "shopify:\/\/shop_images\/d1d1e2b6-2a09-57e2-1be4-c428db46f6ed.gif",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/indigo-studio-tee",
+        "img_width": "large"
+      }
+    },
+    "1655486368916de147": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "review": "\"i never get tired of the blue sky.\"",
+        "customer_name": "<br>-  vincent van gogh",
+        "background_color": "#f7f6f3"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165548586709ee2e23",
+    "1655739021d299fd0b",
+    "16557381707425b000",
+    "165573904780e268ae",
+    "1655486368916de147"
+  ]
+}

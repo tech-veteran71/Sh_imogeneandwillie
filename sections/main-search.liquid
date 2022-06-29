@@ -56,7 +56,7 @@
 -%}
 <div id="ProductGridContainer" class="collection-main__bg">
 
-  <div class="template-search spaced-section{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %}">
+  <div class="template-search {% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %}">
     <div class="collection-main">
       <div class="collection-main__wrapper">
         <div class="template-search__header page-width center">
@@ -186,7 +186,6 @@
 {
   "name": "t:sections.main-search.name",
   "tag": "section",
-  "class": "spaced-section",
   "settings": [
     {
       "type": "header",

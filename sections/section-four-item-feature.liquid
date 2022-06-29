@@ -1,6 +1,6 @@
 {{ 'section-four-item-feature.css' | asset_url | stylesheet_tag }}
 
-<div class="image-four-item-feature {% if section.settings.mobile_hide %}small--hide{% endif %}">
+<div class="image-four-item-feature {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
   <div class="four-item-feature-container">
     <div class="wrapper">
       <div class="header-wrap">
@@ -62,6 +62,12 @@
       "type": "checkbox",
       "id": "mobile_hide",
       "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
       "default": false
     },
     {

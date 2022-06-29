@@ -64,6 +64,7 @@
 }
 .video-with-text .content-wrap {
   text-align: center;
+  padding: 0 2rem
 }
 .video-with-text .main-title {
   font-family: var(--font-din);

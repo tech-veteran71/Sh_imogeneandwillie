@@ -6,22 +6,32 @@
       "settings": {
       }
     },
-    "16552319459b4b0afe": {
-      "type": "section-image-video-hero",
+    "1655759101cd543749": {
+      "type": "section-image",
       "settings": {
-        "mobile_hide": true,
-        "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
-        "mobile_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
-        "img_height": false,
-        "link": "",
-        "add_video": false,
-        "video_url": "",
-        "mobile_video_url": "",
-        "video_controls": false
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/the-beginning-1_756bc8e2-73ee-4d27-9841-35acb842912e.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "1655755667204d86c0": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "our story<br><br>we’ve always been friends. friends since the summer when matt came to my sixth grade back-to-school swim party. 20 years later, in 2006, matt and i were married.",
+        "title_font": "headline__arno",
+        "text": "over the years, i  moments where matt and i realized, even without knowing it at the time, that we would create something together. <br><br>• we wanted to build community.<br>• we wanted to make things in the usa. <br> • we wanted to make products that would last. <br>",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
       }
     },
     "164986725161283e43": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -32,7 +42,7 @@
         "pre_title": "",
         "main_title": "",
         "title_font": "headline__din",
-        "text": "we’ve always been friends. friends since the summer when matt came to my sixth grade back-to-school swim party. <br><br>--",
+        "text": "we’ve always been friends. friends since the summer when matt came to my sixth grade back-to-school swim party. 20 years later, in 2006, matt and i were married.<br><br>over the years, i remember a few specific moments where matt and i realized, even without knowing it at the time, that we would create something together.<br><br>--",
         "btn_text": "",
         "btn_url": "",
         "change_alignment": false,
@@ -40,22 +50,51 @@
         "show_link": false
       }
     },
-    "1649864198b61b9050": {
+    "165575579091b7eaed": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/the-beginning-5.webp",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "1655757145fe105aab": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_45e71231-7f40-429d-871e-296e8bf79d3a.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "1655757109899b80e3": {
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
         "text_align": "left",
         "pretitle": "",
-        "title": "you could call it kismet from that day on, but matt and i had very separate journeys in life. we both left home for school; both spent time traveling and exploring.",
+        "title": "",
         "title_font": "headline__arno",
-        "text": "<br> but it took 20 years until we found ourselves back in our hometown of Henderson, Kentucky, both working for my family’s company, which had coincidentally opened its doors the very same year matt and i met—1986. <br> <br>  in 2006, matt and i were married.  <br> <br>in 2008 our family’s business closed its doors. every one of us lost our jobs.",
+        "text": "we introduced our dream with only a single email. our plan was to try to sell 250 jeans in our inaugural fits: imogene (for women) and willie (for men). orders started coming in from all over the country, and then from all over the world. we sold 250 pairs in three weeks, then another 250 in the weeks that followed. <br><br>it was looking like imogene + willie could become a reality.   so, after months of planning, matt and i set up shop in an old service station in Nashville, TN.",
         "btn_text": "",
         "btn_url": "",
         "show_button": false
       }
     },
+    "165575627606213b8b": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/shop-split.png",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
     "1649861415f6eaedf5": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -63,40 +102,10 @@
         "desk_img": "shopify:\/\/shop_images\/the-beginning-3.webp",
         "mob_img": "shopify:\/\/shop_images\/the-beginning-3_81a327be-666d-42e2-a431-23ef850463fd.webp",
         "img_url": "",
-        "pre_title": "<br>",
-        "main_title": "over the years, i remember a few specific moments <br>where matt and i realized, even without knowing it at <br>the time, that we would create something together. <br>",
-        "title_font": "headline__arno",
-        "text": "<br>one of those moments happened in the summer of 2008 at Hotel San Jose in Austin, Texas. exhausted and broke, we found ourselves sharing a room with four other people, all of us together for a friend’s wedding. <br> <br>our trip was an inspiration—a sensory overload with unforgettable people, colors, textures, and smells. we were inspired by the people we met. people who had built something new and exciting in that city.",
-        "btn_text": "",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
-    "1655226237f441e37c": {
-      "type": "section-rich-text",
-      "settings": {
-        "mobile_hide": false,
-        "bg_color": "",
-        "text": "<br> <br><br> <br> <br>this place was telling us that someday we would build something new together. <br> <br> <br> <br> <br>",
-        "link_text": "",
-        "link_url": ""
-      }
-    },
-    "1649861521d26dd035": {
-      "type": "section-img-txt-btn",
-      "settings": {
-        "mobile_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/shopvibes5.png",
-        "mob_img": "shopify:\/\/shop_images\/shopvibes5.png",
-        "img_url": "",
         "pre_title": "",
-        "main_title": "<br>the way matt and i operate has always involved <br>a mix of uncertainty reinforced by intuition.  <br> <br>call it a gut feeling. <br> <br>",
+        "main_title": "",
         "title_font": "headline__arno",
-        "text": "back in 2008, there was no evidence to prove that our dream of imogene + willie would work. we had no idea where we would end up. we had no idea how we would get there. but we knew what we wanted. <br> <br> we wanted to make something that would last. we wanted to make things in the usa. we wanted to create a space to share. we wanted to build community. <br> <br> above all things, we knew we couldn’t do it alone. and we didn’t want to. so we wrote an email to everyone we knew. we told them about our dream of imogene + willie.  <br> <br> on January 26, 2009 at 3 o’clock in the morning, matt and i sat at our kitchen table in Henderson and pressed send.",
+        "text": "it was looking like imogene + willie could become a reality.<br><br><br>so, after months of planning, matt and i set up shop in an old service station in Nashville, TN.",
         "btn_text": "",
         "btn_url": "",
         "change_alignment": true,
@@ -104,11 +113,38 @@
         "show_link": false
       }
     },
-    "1655308816362cc051": {
-      "type": "section-video-hero",
+    "1655755945bbc732b3": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "we opened our doors on a warm day in July, inviting everyone we knew, and a lot of people we didn’t. and we threw a party. <br><br> on that hot and balmy Nashville night in July, the dream of imogene + willie suddenly became real.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1655756011dd5cd5e0": {
+      "type": "section-quote",
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "review": "\"everything you can imagine is real.\"",
+        "customer_name": "<br>- picasso",
+        "background_color": "#f7f6f3"
+      }
+    },
+    "16552329270195edd0": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-8_a8d272cd-9a4f-4e52-97fa-4be08cef3897.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
         "video_url": "",
         "mobile_video_url": "",
         "video_controls": false
@@ -124,159 +160,19 @@
         "pre_title": "No. 1",
         "title": "out of blue",
         "title_font": "headline__din",
-        "main_title": "DECEMBER 14, 2010",
-        "text": "we started our brand with an online campaign. we sent out a blog two years ago at 3am in the morning in january and told people about our dream. <br> <br> we just simply wanted to sew a good jean for both men and women that fit perfectly. we hoped that the gas station would become a destination for lovers of denim and other treasures...",
+        "main_title": "",
+        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
         "show_link": false,
-        "btn_text": "WATCH VIDEO",
+        "btn_text": "",
         "btn_url": "https:\/\/vimeo.com\/17830905"
       }
     },
-    "1649861691a360ac14": {
-      "type": "section-img-txt-btn",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/3_6f646bde-745e-45f6-928a-ccd3afd339ca.jpg",
-        "mob_img": "shopify:\/\/shop_images\/3_6f646bde-745e-45f6-928a-ccd3afd339ca.jpg",
-        "img_url": "",
-        "pre_title": "",
-        "main_title": "the no-wash",
-        "title_font": "headline__arno",
-        "text": "for the purists out there, we understand. it's your favorite pair, a treasured piece of art. you want to wear them in right and keep them safe! trust us. we get it.  <br><br>indigo will chip and break down around the points of highest friction - areas like the knees, hips and cuffs. for those of you who want to keep the creases sharp and retain every detail of the life of those jeans, avoiding a wash or tub soak is a great option. if you're keen on never washing, we recommend a few things for accidents that can happen. take a look at our general maintenance and care tips below.",
-        "btn_text": "",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
-    "1649864652246cc779": {
-      "type": "section-img-txt-btn",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/Untitled-5_20c15854-e393-4583-8744-0e3b8f414f31.jpg",
-        "mob_img": "shopify:\/\/shop_images\/Untitled-5_20c15854-e393-4583-8744-0e3b8f414f31.jpg",
-        "img_url": "",
-        "pre_title": "",
-        "main_title": "general maintenance and care",
-        "title_font": "headline__arno",
-        "text": "<p>each pair of jeans tells a story; this is what we love most. as they fade, crease, dirty, need washing and fade a bit more, they become uniquely yours. how often you wear your jeans, what you do in them, and how you wash them... each aspect will shape the way they age. to keep your jeans around as long as possible, we have a few tips for general care and maintenance for the time between washes.<\/p><br>  <h4>spot cleaning<\/h4> <p>let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - the friction will lift off the indigo, leaving you with a bright, whiter spot.<\/p>  <h4>odor<\/h4><p>you can always let them air outside on a nice day, or use a mild odor-fighting fabric spray when needed.<\/p>  <h4>stiffness<\/h4><p>after air drying for a bit, you'll notice your jeans will be quite stiff. feel free to put your jeans on while they're still damp and wear them until they dry to soften them up. you can also toss them in the dryer, no heat, for a few minutes.<\/p>  <h4>shrinkage<\/h4><p>washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat. if you notice shrinkage in length, step on the leg of the jeans while they're still damp, and pull up by the waistband.<\/p>  <h4>dye transfer<\/h4><p>you may notice some indigo pull out of the jeans during the wash. it's natural and normal! we recommend washing your jeans alone or with other denim.<\/p>  <h4>repairs<\/h4><p>regular, though infrequent washing, can help prevent damage and holes from appearing. if you ever notice any additional damage, we recommend getting it repaired as soon as possible. imogene + willie offers repair services for all jeans purchased at our stores. (please note that all jeans must be washed with soap and water in order to receive repair services.) email help@imogeneandwillie.com for all repair needs.<\/p>",
-        "btn_text": "",
-        "btn_url": "",
-        "change_alignment": true,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
-    "1649867094b3f174cc": {
-      "type": "section-img-txt-btn",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
-        "mob_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
-        "img_url": "",
-        "pre_title": "the jeans",
-        "main_title": "denim repair",
-        "title_font": "headline__arno",
-        "text": "our tough little sewing team does not mess around. we’re ready and able to handle blow outs, rips, pocket bag holes, fraying hems, and a wide range of other repair needs.",
-        "btn_text": "see more >",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": true,
-        "show_link": false
-      }
-    },
-    "1655232196548229af": {
-      "type": "section-img-txt-btn",
-      "settings": {
-        "mobile_hide": false,
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/the-beginning-5.webp",
-        "mob_img": "shopify:\/\/shop_images\/the-beginning-5.webp",
-        "img_url": "",
-        "pre_title": "",
-        "main_title": "at that moment, imogene + willie was a <br>dream that came with no guarantee.",
-        "title_font": "headline__arno",
-        "text": "<br>we launched with only a single email. our plan was to try to sell 250 jeans in our inaugural fits: imogene (for women) and willie (for men). <br> <br>  and then it began. <br> <br> orders started coming in from all over the country, and then from all over the world. we sold 250 pairs in three weeks, then another 250 in the weeks that followed. it was looking like imogene + willie was going to happen. <br> <br> on one hand, it was almost impossible to believe. but on the other hand, it happened because we believed it would.",
-        "btn_text": "",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
-    "1655232718bf862daf": {
-      "type": "section-editorial-content",
-      "blocks": {
-        "39506a9b-dd69-43fc-b268-dfcf908655de": {
-          "type": "info",
-          "settings": {
-            "text": "we opened our doors on a warm day in july of that same year. we invited everyone we knew, and a lot of people we didn’t. and we threw a party. <br> <br>\n\nprior to the summer of 2009, imogene + willie was only a gut instinct that we thought we could make work."
-          }
-        },
-        "3b7c5ca8-fadc-4d57-8bad-9b167fabcdd5": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/shopnightvibes-_1_of_3.jpg",
-            "img_url": ""
-          }
-        },
-        "44cf0ec7-2919-44f6-94cc-57c0899de044": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/nashville_shop__1_of_1.jpg",
-            "img_url": ""
-          }
-        },
-        "ca44ceaf-cec3-4579-a492-c3c523d6a396": {
-          "type": "info",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "39506a9b-dd69-43fc-b268-dfcf908655de",
-        "3b7c5ca8-fadc-4d57-8bad-9b167fabcdd5",
-        "44cf0ec7-2919-44f6-94cc-57c0899de044",
-        "ca44ceaf-cec3-4579-a492-c3c523d6a396"
-      ],
-      "settings": {
-        "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/nashville02.jpg",
-        "desk_img_url": "",
-        "mob_img1": "shopify:\/\/shop_images\/shop-vibes.png",
-        "img_url1": "",
-        "img_url2": "",
-        "overlay_img_url": "",
-        "main_title": "",
-        "main_text": "after months of planning, building, and cleaning, matt and <br>i set up shop in an old service station in Nashville, TN.",
-        "text": "but on that hot and balmy Nashville night in July, the dream of imogene + willie suddenly became real."
-      }
-    },
-    "16552328826fc31207": {
-      "type": "section-quote",
-      "settings": {
-        "mobile_hide": false,
-        "review": "“everything you can imagine is real.”",
-        "customer_name": "<br>- Picasso",
-        "background_color": "rgba(0,0,0,0)"
-      }
-    },
-    "16552329270195edd0": {
+    "16552319459b4b0afe": {
       "type": "section-image-video-hero",
       "settings": {
-        "mobile_hide": false,
-        "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-8_a8d272cd-9a4f-4e52-97fa-4be08cef3897.jpg",
+        "mobile_hide": true,
+        "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
         "img_height": false,
         "link": "",
         "add_video": false,
@@ -288,20 +184,18 @@
   },
   "order": [
     "main",
-    "16552319459b4b0afe",
+    "1655759101cd543749",
+    "1655755667204d86c0",
     "164986725161283e43",
-    "1649864198b61b9050",
+    "165575579091b7eaed",
+    "1655757145fe105aab",
+    "1655757109899b80e3",
+    "165575627606213b8b",
     "1649861415f6eaedf5",
-    "1655226237f441e37c",
-    "1649861521d26dd035",
-    "1655308816362cc051",
+    "1655755945bbc732b3",
+    "1655756011dd5cd5e0",
+    "16552329270195edd0",
     "1655232194ac1fa02c",
-    "1649861691a360ac14",
-    "1649864652246cc779",
-    "1649867094b3f174cc",
-    "1655232196548229af",
-    "1655232718bf862daf",
-    "16552328826fc31207",
-    "16552329270195edd0"
+    "16552319459b4b0afe"
   ]
 }

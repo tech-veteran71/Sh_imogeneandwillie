@@ -9,6 +9,7 @@
     "16509063971f01bef9": {
       "type": "section-video-hero",
       "settings": {
+        "mobile_hide": false,
         "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/702953094\/rendition\/1080p?loc=external&signature=e7035caf642536a6ced3ffa1d32cc7957ca0e60759e62549c24a10575f066a98",
         "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/702953094\/rendition\/1080p?loc=external&signature=e7035caf642536a6ced3ffa1d32cc7957ca0e60759e62549c24a10575f066a98",
         "video_controls": false
@@ -17,6 +18,7 @@
     "165090982189bb7427": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
@@ -30,6 +32,7 @@
     "165090990764615da8": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/7ebf6410-a98a-47b5-9fe7-9d01178a2054.jpg",
         "mob_img": "shopify:\/\/shop_images\/7ebf6410-a98a-47b5-9fe7-9d01178a2054.jpg",
         "img_url": "",
@@ -39,6 +42,7 @@
     "1650910115d111e571": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "( made to order )",
         "title": "THE “NUMB” TEE",
@@ -52,6 +56,7 @@
     "1650910330a51aafb3": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/e566def6-09fc-4725-9826-e0d2fce54249.jpg",
         "mob_img": "shopify:\/\/shop_images\/e566def6-09fc-4725-9826-e0d2fce54249.jpg",
         "img_url": "",
@@ -61,14 +66,16 @@
     "1650910370fe79135d": {
       "type": "section-quote",
       "settings": {
+        "mobile_hide": false,
         "review": "“you have to die a few times<br>before you can really live.”",
-        "customer_name": "- charles bukowksi",
-        "background_color": "transparent"
+        "customer_name": "<br>- charles bukowksi",
+        "background_color": "#f7f6f3"
       }
     },
     "16509103987cf1f510": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/7571ae98-8dcd-4b78-a12b-60a3327d8540.jpg",
         "mob_img": "shopify:\/\/shop_images\/7571ae98-8dcd-4b78-a12b-60a3327d8540.jpg",
         "img_url": "",
@@ -78,6 +85,7 @@
     "1650910422b48bf6af": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/9f11ab79-7bcb-486d-9c68-01948502e366.jpg",
         "mob_img": "shopify:\/\/shop_images\/9f11ab79-7bcb-486d-9c68-01948502e366.jpg",
         "img_url": "",
@@ -87,6 +95,7 @@
     "1650910489b5a9aa33": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "( hand-stamped )",
         "title": "the \"born to lose\" zippo",
@@ -100,6 +109,7 @@
     "1650910521b16901da": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/7aae0688-fea8-4852-816e-94ccd87beae5.jpg",
         "mob_img": "shopify:\/\/shop_images\/7aae0688-fea8-4852-816e-94ccd87beae5.jpg",
         "img_url": "",
@@ -109,6 +119,7 @@
     "1650910545e4a1fa30": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
@@ -122,6 +133,7 @@
     "16509105618becc715": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
         "desk_img": "shopify:\/\/shop_images\/0300bfa9-f15d-4245-a80a-fd443c49a42c.jpg",
         "mob_img": "shopify:\/\/shop_images\/0300bfa9-f15d-4245-a80a-fd443c49a42c.jpg",
         "img_url": "",

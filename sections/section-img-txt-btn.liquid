@@ -12,7 +12,7 @@
   }
 </style>
 
-<div class="collage-section {% if section.settings.mobile_hide %}small--hide{% endif %}" id="collage-section">
+<div class="collage-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}" id="collage-section">
   <div class="container">
     <div class="wrapper {% if section.settings.change_alignment %}alignment{% endif %}">
       <div class="alpha">
@@ -55,6 +55,12 @@
       "type": "checkbox",
       "id": "mobile_hide",
       "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
       "default": false
     },
     {

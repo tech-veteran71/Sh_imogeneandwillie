@@ -1,5 +1,5 @@
 {{ 'section-content-spec-collection.css' | asset_url | stylesheet_tag }}
-<div class="content-specific-collection {% if section.settings.mobile_hide %}small--hide{% endif %}">
+<div class="content-specific-collection {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
   <div class="product-container">
     <div class="wrapper">
       {% if section.settings.pre_title != blank %}
@@ -37,6 +37,12 @@
       "type": "checkbox",
       "id": "mobile_hide",
       "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
       "default": false
     },
     {
