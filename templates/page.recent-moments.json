@@ -10,6 +10,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/dirty_dozen_01_copy.jpg",
         "mob_img": "shopify:\/\/shop_images\/dirty_dozen_01_copy.jpg",
@@ -26,6 +27,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/washbabywash__4_of_19.jpg",
         "pre_title": "( 01. 01. 22 )",
@@ -41,6 +43,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/Alpha-HW-001_06.png",
         "pre_title": "( 11. 13. 21 )",
@@ -56,6 +59,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/283d0f57-0aa4-b021-7822-a1b0cdb4f1c5.jpg",
         "pre_title": "( 10. 05. 21 )",
@@ -71,6 +75,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/d1d1e2b6-2a09-57e2-1be4-c428db46f6ed.gif",
         "pre_title": "( 09. 04. 21 )",
@@ -86,12 +91,13 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/091e4573-b771-f1e8-4f97-75da394c6861.gif",
         "pre_title": "( 08. 28. 21 )",
         "title": "seek and destroy",
         "title_font": "headline__arno",
-        "text": "weekend one of a kind",
+        "text": "made by matt",
         "btn_text": "read more >",
         "link_url": "shopify:\/\/pages\/seek-and-destroy",
         "show_link": true
@@ -101,6 +107,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/graphic-02.png",
         "pre_title": "( 08. 14. 21 )",
@@ -116,6 +123,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/a7faf645-aacb-4efb-cc96-77520ea036eb.jpg",
         "pre_title": "( 08. 07. 21 )",
@@ -131,6 +139,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/cbff5cc5-e9e8-1131-b664-106729a33ce0.gif",
         "pre_title": "( 06. 05. 21 )",
@@ -146,6 +155,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/013a7550-71ab-4582-89be-1f99f9b9f2a8.png",
         "pre_title": "( 05. 16. 20 )",
@@ -161,6 +171,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044.jpg",
         "pre_title": "( 05. 02. 20 )",
@@ -176,6 +187,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/7ebf6410-a98a-47b5-9fe7-9d01178a2054.jpg",
         "pre_title": "( 04. 27. 21 )",
@@ -191,6 +203,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/bc1.jpg",
         "pre_title": "( 04. 01. 21 )",
@@ -206,6 +219,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/5022aa8d-a885-4394-bade-efe84a86554b_dc6430bf-0592-408d-aa98-9f54971ef9c5.jpg",
         "pre_title": "( 02. 20. 21 )",
@@ -221,6 +235,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/support-live-white07.jpg",
         "pre_title": "( 02. 10. 21 )",
@@ -236,6 +251,7 @@
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/rainbow_05.jpg",
         "pre_title": "( 10. 30. 18 )",
@@ -251,6 +267,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
@@ -265,6 +282,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/footer.webp",
         "img_url": "",
         "img_width": "large"

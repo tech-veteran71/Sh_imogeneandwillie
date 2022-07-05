@@ -6,30 +6,24 @@
       "settings": {
       }
     },
-    "16553193822ebae2cb": {
-      "type": "section-hero-banner",
+    "1657044795b11404e8": {
+      "type": "section-image",
       "settings": {
         "mobile_hide": false,
-        "mobile_hide_text": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/5022aa8d-a885-4394-bade-efe84a86554b_dc6430bf-0592-408d-aa98-9f54971ef9c5.jpg",
         "mob_img": "shopify:\/\/shop_images\/5022aa8d-a885-4394-bade-efe84a86554b_dc6430bf-0592-408d-aa98-9f54971ef9c5.jpg",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana",
-        "main_title": "THE CHAINSTITCH MACHINE",
-        "title_font": "headline__din",
-        "font_color": "#f7f6f3",
-        "text": "",
-        "link_text": "",
-        "link": "",
-        "show_button": false,
-        "show_down_arrow": false
+        "img_width": "medium"
       }
     },
     "1655319387921221b2": {
       "type": "section-rich-text",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "bg_color": "",
-        "text": "a couple years ago, we got our hands on a restored antique chainstitch machine. we set it up in our tailor and got to work.",
+        "text": "the chainstitch machine<br><br>a couple years ago, we got our hands on a restored antique chainstitch machine. we set it up in our tailor and got to work.",
         "link_text": "",
         "link_url": ""
       }
@@ -38,6 +32,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/0b11161c-d247-42c4-80c9-32ff8ebc36a8_copy.jpg",
         "mob_img": "shopify:\/\/shop_images\/0b11161c-d247-42c4-80c9-32ff8ebc36a8_copy.jpg",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana",
@@ -48,6 +43,7 @@
       "type": "section-collection-grid",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "choose_collection": "chainstitch-bandana",
         "show_title": false,
         "show_subtitle": false,
@@ -66,6 +62,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
@@ -80,6 +77,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/6d3971ac-eb1f-4fbf-885f-44efaaa5a0be_copy.jpg",
         "mob_img": "shopify:\/\/shop_images\/6d3971ac-eb1f-4fbf-885f-44efaaa5a0be_copy.jpg",
         "img_url": "",
@@ -89,7 +87,7 @@
   },
   "order": [
     "main",
-    "16553193822ebae2cb",
+    "1657044795b11404e8",
     "1655319387921221b2",
     "16505750701d67385c",
     "16553203649aa7e58e",

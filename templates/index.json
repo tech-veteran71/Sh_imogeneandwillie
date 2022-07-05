@@ -3,7 +3,8 @@
     "1649343925c8d83679": {
       "type": "section-image",
       "settings": {
-        "mobile_hide": true,
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/newdesktop.jpg",
         "mob_img": "shopify:\/\/shop_images\/newmobile_70223785-4360-420e-b85c-22360b4fa07e.jpg",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
@@ -14,20 +15,117 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "the \"strange sights\" <br>& \"well wishes\" tee",
         "title_font": "headline__din",
-        "text": "hand-drawn designs by matt. <br>screen printed in nashville.",
-        "btn_text": "SHOP NOW",
-        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
+        "text": "hand-drawn designs by matt. <br>screen printed in nashville.<br><br>",
+        "btn_text": "Shop Now",
+        "btn_url": "",
         "show_button": true
+      }
+    },
+    "1657045274b79dc7bf": {
+      "type": "section-recent-moments",
+      "blocks": {
+        "bef734f5-df71-4de0-8fb3-5cea9cbed20d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/julyfourthtumbnail.png",
+            "title": "07.04.22",
+            "link": "shopify:\/\/pages\/made-in-usa"
+          }
+        },
+        "98cb0948-a256-4e2d-961b-5f2aa735956c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t-shirt-thumbnail.png",
+            "title": "06.28.22",
+            "link": ""
+          }
+        },
+        "44ccf7f1-f69c-4de1-9520-0908b80207ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/I_W5675.png",
+            "title": "06.25.22",
+            "link": ""
+          }
+        },
+        "3bc505ec-130d-4802-89ae-35e2ecf875ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/333943b7f-6469-01e6-c325-3ea210074b30.png",
+            "title": "06.16.22",
+            "link": "shopify:\/\/pages\/supper-and-song"
+          }
+        },
+        "b863a155-5a91-4c24-9b51-d0522dc21b2a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e6da6a1e-40b4-3efd-8454-0bed90733a57.png",
+            "title": "06.07.22",
+            "link": ""
+          }
+        },
+        "859cb000-92d0-4f2d-9518-0e712695994e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bartonslimojai_07.jpg",
+            "title": "05.24.22",
+            "link": ""
+          }
+        },
+        "8025ff62-5deb-4569-9aa2-469bfcec5e8f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/I_W2508.jpg",
+            "title": "05.21.22",
+            "link": ""
+          }
+        },
+        "e784ed75-81b0-4594-b3f8-89130d997798": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/I_W56754.png",
+            "title": "05.07.22",
+            "link": ""
+          }
+        },
+        "0d445b66-b6b3-4d8e-8717-aecb3adfc800": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RSD_023.png",
+            "title": "4.23.22",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bef734f5-df71-4de0-8fb3-5cea9cbed20d",
+        "98cb0948-a256-4e2d-961b-5f2aa735956c",
+        "44ccf7f1-f69c-4de1-9520-0908b80207ab",
+        "3bc505ec-130d-4802-89ae-35e2ecf875ab",
+        "b863a155-5a91-4c24-9b51-d0522dc21b2a",
+        "859cb000-92d0-4f2d-9518-0e712695994e",
+        "8025ff62-5deb-4569-9aa2-469bfcec5e8f",
+        "e784ed75-81b0-4594-b3f8-89130d997798",
+        "0d445b66-b6b3-4d8e-8717-aecb3adfc800"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "title": "recent moments \/\/",
+        "btn": "explore more",
+        "url": "shopify:\/\/pages\/recent-moments"
       }
     },
     "164934473347e72eb5": {
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/grid_923d1c2e-da1e-4b7d-90dc-a4567e8e3ed5.jpg",
         "mob_img": "shopify:\/\/shop_images\/grid_923d1c2e-da1e-4b7d-90dc-a4567e8e3ed5.jpg",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
@@ -38,6 +136,7 @@
       "type": "section-quote",
       "settings": {
         "mobile_hide": true,
+        "desktop_hide": false,
         "review": "\"i want to die with my blue jeans on.\"",
         "customer_name": "<br>- andy warhol",
         "background_color": "#f7f6f3"
@@ -47,6 +146,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/I_W4090.jpg",
         "mob_img": "shopify:\/\/shop_images\/I_W4090.jpg",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta?mc_cid=e02e9dbe1a&mc_eid=UNIQID&utm_campaign=e02e9dbe1a-EMAIL_CAMPAIGN_2022_05_24_07_20&utm_medium=email&utm_source=Imogene%20%2B%20Willie%20Friends&utm_term=0_6a83549370-e02e9dbe1a-",
@@ -57,6 +157,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "barton slim ojai & <br>augusta in washed white",
@@ -71,6 +172,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/natgrid_1200x_0e676c0e-33cf-4434-9da6-32d9cbdbcab0.png",
         "mob_img": "shopify:\/\/shop_images\/natgrid_1200x_0e676c0e-33cf-4434-9da6-32d9cbdbcab0.png",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta?mc_cid=e02e9dbe1a&mc_eid=UNIQID&utm_campaign=e02e9dbe1a-EMAIL_CAMPAIGN_2022_05_24_07_20&utm_medium=email&utm_source=Imogene%20%2B%20Willie%20Friends&utm_term=0_6a83549370-e02e9dbe1a-",
@@ -81,6 +183,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
@@ -142,6 +245,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
         "mob_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
         "img_url": "shopify:\/\/pages\/nashville",
@@ -152,6 +256,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "our home",
@@ -166,6 +271,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/sierra_8c35c83d-5ebf-4c75-883c-efb8bb40bb0f.jpg",
         "mob_img": "shopify:\/\/shop_images\/sierra_8c35c83d-5ebf-4c75-883c-efb8bb40bb0f.jpg",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks",
@@ -176,6 +282,7 @@
       "type": "section-collection-grid",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "choose_collection": "top-picks",
         "show_title": true,
         "show_subtitle": true,
@@ -195,6 +302,7 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01067.jpg",
         "mob_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01299.jpg",
@@ -212,6 +320,7 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "video_poster": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg",
         "video_url": "https:\/\/vimeo.com\/429778321",
         "video_controls": false,
@@ -230,18 +339,11 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
         "mob_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
         "img_url": "",
         "img_width": "full"
-      }
-    },
-    "16510886053ebed722": {
-      "type": "section-parallax",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
       }
     },
     "16510054628e91fa8a": {
@@ -249,6 +351,7 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text": "join the i+w mailing list",
         "subtext": ""
       }
@@ -311,6 +414,7 @@
       ],
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "pre_title": "lorem ipsum",
         "title": "lorem ipsum",
         "title_font": "headline__din",
@@ -357,6 +461,7 @@
       ],
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/oyw1.jpg",
         "desk_img_url": "https:\/\/google.com",
         "mob_img1": "shopify:\/\/shop_images\/natdesktop.jpg",
@@ -445,6 +550,7 @@
       ],
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "main_title": "Lorem ipsum dolor"
       }
     },
@@ -453,8 +559,7 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
-        "choose_collection": "bottom-size-24",
-        "choose_blog": "new-mens-denim",
+        "desktop_hide": false,
         "title": "TEXT",
         "btn": "TEXT",
         "url": "https:\/\/google.com"
@@ -481,6 +586,7 @@
   "order": [
     "1649343925c8d83679",
     "16493441673bde7dd8",
+    "1657045274b79dc7bf",
     "164934473347e72eb5",
     "1649345031dfcd3b10",
     "1649344991aebfc9bf",
@@ -497,7 +603,6 @@
     "1637735864c2bd7e13",
     "164927862869965961",
     "1650300377077f241e",
-    "16510886053ebed722",
     "16510054628e91fa8a",
     "1651088625b53b1bea",
     "165108861515d33581",

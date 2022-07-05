@@ -81,10 +81,18 @@
             "link_text": "size guide",
             "link": ""
           }
+        },
+        "016d1122-b165-4ed0-b3a1-a589914d4f9f": {
+          "type": "info",
+          "settings": {
+            "title": "size guide",
+            "text": "size guide"
+          }
         }
       },
       "block_order": [
-        "85c063f5-dd38-4179-8b48-cd5ab247c07b"
+        "85c063f5-dd38-4179-8b48-cd5ab247c07b",
+        "016d1122-b165-4ed0-b3a1-a589914d4f9f"
       ],
       "settings": {
         "title_1": "we’re in this together",
@@ -115,7 +123,8 @@
       "type": "section-product-collection-slider",
       "settings": {
         "mobile_hide": false,
-        "background_color": "#F7F6F3",
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
         "choose_collection": "graphic-content",
         "show_title": true,
         "show_subtitle": true,
@@ -132,6 +141,7 @@
       "type": "section-parallax",
       "settings": {
         "mobile_hide": true,
+        "desktop_hide": false,
         "image": "shopify:\/\/shop_images\/Men_s_T-shirts_Header.png"
       }
     },

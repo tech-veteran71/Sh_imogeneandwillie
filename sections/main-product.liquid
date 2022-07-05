@@ -374,7 +374,20 @@
                           </div>
                         </div>
                       </div>
-                      <div class="accordian-body">{{ product.metafields.seed.fit_and_sizing }}</div>
+                      <div class="accordian-body">
+                        {{ product.metafields.seed.fit_and_sizing }}
+                        {% if product.metafields.my_fields.size_guide_popup_  != blank %}
+                        <button js-size-guide-popup><div><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="28.000000pt" height="43.000000pt" viewbox="0 0 28.000000 43.000000" preserveaspectratio="xMidYMid meet">
+                          <g transform="translate(0.000000,43.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                          <path d="M30 200 l0 -170 115 0 115 0 0 170 0 170 -115 0 -115 0 0 -170z m210
+                          5 l0 -145 -95 0 c-95 0 -95 0 -95 25 0 23 4 25 45 25 33 0 45 4 45 15 0 11
+                          -12 15 -45 15 -41 0 -45 2 -45 25 0 24 3 25 60 25 77 0 79 18 3 22 -54 3 -58
+                          5 -58 28 0 22 5 25 43 28 56 4 54 22 -3 22 -43 0 -45 1 -45 30 l0 30 95 0 95
+                          0 0 -145z"></path>
+                          </g>
+                          </svg></div><span>size guide</span></button>
+                        {% endif%}
+                    </div>
                   </div>
                   {% elsif block.settings.accordian_title == 'care and materials' %}
                     <div class="accordian-item" data-accordian-item>

@@ -54,7 +54,7 @@
   assign terms = search.terms | escape
   assign search_url = '?q=' | append: terms | append: '&options%5Bprefix%5D=last&sort_by=' | append: sort_by
 -%}
-<div id="ProductGridContainer" class="collection-main__bg">
+<div id="ProductGridContainer" class="collection-main__bg collection-main__bg-short">
 
   <div class="template-search {% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %}">
     <div class="collection-main">

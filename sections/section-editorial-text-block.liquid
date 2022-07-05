@@ -1,0 +1,97 @@
+{{ 'section-editorial-content.css' | asset_url | stylesheet_tag }}
+<div class="custom-content-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
+  <div class="custom-content-container">
+    <div class="wrapper">
+      <div class="header-wrap">
+        {%if section.settings.pretitle != blank %}
+            <h5 class="pretitle">{{ section.settings.pretitle }}</h5>
+        {% endif %}
+        {% if section.settings.main_title != blank %}
+            <h1 class="main-title">{{ section.settings.main_title }}</h1>
+        {% endif %}
+        {% if section.settings.main_text != blank %}
+            <h2 class="main-text">{{ section.settings.main_text }}</h2>
+        {% endif %}
+      </div>
+        <div class="content-wrap">
+            {% for block in section.blocks %}
+            {% if block.type == 'info' %}
+            {% if block.settings.text != blank %}
+            <p class="text">{{ block.settings.text }}</p>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "EDITORIAL TEXT BLOCK",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pre Title"
+      },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "LOREM IPSUM"
+    },
+    {
+      "type": "text",
+      "id": "main_text",
+      "label": "Main Text",
+      "default": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis "
+    },
+    {
+      "type": "html",
+      "id": "text",
+      "label": "Text"
+    }
+  ], 
+  "blocks": [
+    {
+      "name": "Info",
+      "type": "info",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Content",
+          "info": "-------"
+        },
+        {
+          "type": "html",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "EDITORIAL TEXT BLOCK"
+    }
+  ]
+}
+{% endschema %}

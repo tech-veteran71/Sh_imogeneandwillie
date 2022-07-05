@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1649862524008263dc": {
+      "type": "section-hero-banner",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/made-in-usa-header.jpg",
+        "mob_img": "shopify:\/\/shop_images\/made-in-usa-header.jpg",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "font_color": "#222222",
+        "text": "",
+        "link_text": "",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "1649864198b61b9050": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "made in usa",
+        "title_font": "headline__arno",
+        "text": "when we started in 2009, we had a simple goal: <br> to make all of our clothing in the USA.<br><br>in addition to making it all right here, everything we've ever produced has been made via small–batch production, which helps us make clothing with intention, and in turn, helps us avoid creating unnecessary waste, and just as importantly, helps us keep focus on appreciating every person who helps us make these garments.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "165704449697616802": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/3979dd66-d015-d8b4-64eb-0a73f86c367a.png",
+        "mob_img": "shopify:\/\/shop_images\/3979dd66-d015-d8b4-64eb-0a73f86c367a.png",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
+    "1655232747b89983e3": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "today, as we continue to grow, we remain dedicated to our original mission to preserve made–in–the–usa clothing.",
+        "title_font": "headline__arno",
+        "text": "its not a perfect world — and we know that, but we know that if we can put the love and intention into each step of the process that makes an imogene and willie garment from pre-production — all the way to the customer, we know that we are making something great and though it may be a small difference, it is still a difference.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1655232122c569774c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-2-1_2048x2048_4c1722d6-97da-4d91-a74e-e45a1ab0b806.jpg",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-2-1_2048x2048_4c1722d6-97da-4d91-a74e-e45a1ab0b806.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649862524008263dc",
+    "1649864198b61b9050",
+    "165704449697616802",
+    "1655232747b89983e3",
+    "1655232122c569774c"
+  ]
+}

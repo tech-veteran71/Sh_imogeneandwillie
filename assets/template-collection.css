@@ -246,6 +246,9 @@
     padding-top: 35%;
     padding-bottom: 8rem;
   }
+  .collection-main__bg-short {
+    padding-top: 12%;
+  }
   .collection-grid__desktop-icon {
     display: block;
   }
