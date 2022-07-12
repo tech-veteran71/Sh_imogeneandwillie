@@ -1,0 +1,302 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16499696593217121e": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "video_controls": false
+      }
+    },
+    "1657142309cd847f22": {
+      "type": "section-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2313c270733e49fe9294011ce3e7d4c7.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2313c270733e49fe9294011ce3e7d4c7.mp4",
+        "video_controls": false
+      }
+    },
+    "1657140914eed4ca4c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/4debba46-0228-1992-5c40-5df17b648d52.gif",
+        "mob_img": "shopify:\/\/shop_images\/4debba46-0228-1992-5c40-5df17b648d52.gif",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "( series no.16 )",
+        "title": "out of the blue",
+        "title_font": "headline__din",
+        "text": "our first \"made by matt\" release of the year. <br> <br> a fresh collection of tees, zippos, skateboards, and flasks -- all painted or engraved in-house by matt.",
+        "btn_text": "SHOP NOW ->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/made-by-matt",
+        "show_button": false
+      }
+    },
+    "16505718302bbb6563": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/gallery-4_b6ae5918-8228-4ac7-9157-0b1f29c414e5.jpg",
+        "mob_img": "shopify:\/\/shop_images\/gallery-4_b6ae5918-8228-4ac7-9157-0b1f29c414e5.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "extra-large"
+      }
+    },
+    "16571405010e86593d": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"my reality needs imagination like a bulb needs a socket.\"",
+        "customer_name": "<br>- tom waits",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657140562b846890d": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/gallery-22_d1a74995-934a-4428-9579-25ad1f23302d.jpg",
+        "mob_img": "shopify:\/\/shop_images\/gallery-22_d1a74995-934a-4428-9579-25ad1f23302d.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "1657140670a5f6a9d5": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/supporttee_black-2.jpg",
+        "mob_img": "shopify:\/\/shop_images\/supporttee_black-2.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/men-tshirts\/products\/the-support-live-music-tee-fbk",
+        "img_width": "extra-large"
+      }
+    },
+    "1657140743c17f8f84": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( feature )",
+        "title": "the \"lost\" studio tee",
+        "title_font": "headline__arno",
+        "text": "each tee has been small-batch, hand-dyed in-house, and flock printed - an old-school print technique that has almost completely disappeared from modern American t-shirt print shops. <br> <br> it took us years to find a printer who still had the equiment, and was willing to help us bring flocked graphics back from the dead. to say we're stoked on it is a huge understatement. <br> <br>",
+        "btn_text": "SHOP NOW",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/men-tshirts\/products\/the-support-live-music-tee-fbk",
+        "show_button": true
+      }
+    },
+    "1657140855c3e405cb": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/supper_song_-_2-of-12.png",
+        "mob_img": "shopify:\/\/shop_images\/supper_song_-_2-of-12.png",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "1657140481c462b647": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1649968716596dfdec": {
+      "type": "section-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_poster": "shopify:\/\/shop_images\/mobile-split_5d290203-7b7a-4faf-b9de-9cd3f8ecaa82.jpg",
+        "video_url": "",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "video_controls": false
+      }
+    },
+    "164996952346f08380": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "mobile_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "1649969933f60067f1": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the \"dirty dozen\" tee.",
+        "title_font": "headline__din",
+        "text": "limited edition of 250",
+        "btn_text": "shop now",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "show_button": false
+      }
+    },
+    "164997002040b6e356": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "THE COLLECTION",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16499700408d317de1": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "the-ides",
+        "show_title": false,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 12,
+        "products_per_row": 3,
+        "title": "the collection",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "shop the complete collection",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides"
+      }
+    },
+    "165057188760384d76": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "“to do a dangerous thing with <br>style is what i call art.”",
+        "customer_name": "- charles bukowski",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650572264552ae7c6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "img_width": "extra-large"
+      }
+    },
+    "1650572297101d858e": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the \"hello\" painting",
+        "title_font": "headline__din",
+        "text": "the only one of its kind.<br><br> 24\"x30\" acrylic and mixed media on canvas<br>by matt eddmenson, 2022",
+        "btn_text": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "show_button": false
+      }
+    },
+    "1650572934afd406d6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16499696593217121e",
+    "1657142309cd847f22",
+    "1657140914eed4ca4c",
+    "16499691942d1a0881",
+    "16505718302bbb6563",
+    "16571405010e86593d",
+    "1657140562b846890d",
+    "1657140670a5f6a9d5",
+    "1657140743c17f8f84",
+    "1657140855c3e405cb",
+    "1657140481c462b647",
+    "1649968716596dfdec",
+    "164996952346f08380",
+    "1649969933f60067f1",
+    "164997002040b6e356",
+    "16499700408d317de1",
+    "165057188760384d76",
+    "1650572264552ae7c6",
+    "1650572297101d858e",
+    "1650572934afd406d6"
+  ]
+}

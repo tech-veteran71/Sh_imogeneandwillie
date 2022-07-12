@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16571395476df634b9": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/233943b7f-6469-01e6-c325-3ea210074b30.png",
+        "mob_img": "shopify:\/\/shop_images\/233943b7f-6469-01e6-c325-3ea210074b30.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/t-shirts",
+        "img_width": "large"
+      }
+    },
+    "1649864198b61b9050": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "some might say a t–shirt is just a t–shirt. but, as with everything we make, we want to do the best job we can...<br><br> we start by looking to the past to inform the future. <br><br>we choose fabrics that are soft and feel lived–in -- but we make sure they'll hold up.<br><br>we ensure all fabrics for each of our t–shirts are knit exclusively in American mills.<br><br> lastly, and most importantly, every tee we make is patterned, cut, and sewn right here in the USA.<br><br>it's the hard way, but to us, it's the right way. as other businesses push themselves to do it faster and cheaper, we do it our way for one reason: it makes a difference.<br><br>we believe that difference matters.<br><br>",
+        "btn_text": "shop all i+w tees >",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/t-shirts",
+        "show_button": false
+      }
+    },
+    "1655232122c569774c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/33074fa3e7-8fce-3198-f254-6e08dde2cc54.png",
+        "mob_img": "shopify:\/\/shop_images\/33074fa3e7-8fce-3198-f254-6e08dde2cc54.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/t-shirts",
+        "img_width": "large"
+      }
+    },
+    "16571403618d3ebf55": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"the way that you do anything is the way you do everything.\"<br><br>",
+        "customer_name": "- tom waits",
+        "background_color": "#f7f6f4"
+      }
+    },
+    "1657140415e0e4c6fb": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/s4407c10f-21ea-e02b-d386-f8b807ba0777.png",
+        "mob_img": "shopify:\/\/shop_images\/s4407c10f-21ea-e02b-d386-f8b807ba0777.png",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/t-shirts",
+        "img_width": "full"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16571395476df634b9",
+    "1649864198b61b9050",
+    "1655232122c569774c",
+    "16571403618d3ebf55",
+    "1657140415e0e4c6fb"
+  ]
+}

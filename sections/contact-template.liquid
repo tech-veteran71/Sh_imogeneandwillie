@@ -35,6 +35,9 @@
                     {% if section.settings.left_subheading_3 != blank %}
                     <h6>{{ section.settings.left_subheading_3 }}</h6>
                     {% endif %}
+                    {% if section.settings.left_body_4 != blank %}
+                      <p>{{ section.settings.left_body_4 }}</p>
+                      {% endif %}
                     <button class="chat-link" onclick="Chatra('openChat', true)">Chat with us</button>
                 </div>
                 <div class="contact-wrap__right">
