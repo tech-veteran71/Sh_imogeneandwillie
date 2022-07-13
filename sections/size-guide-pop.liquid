@@ -2,22 +2,18 @@
 
 <div class="popup-inner" id="size-guide-popup">
   <div class="wrapper">
-    <div class="scroll-header">
-      <div class="links">
-        {% if section.settings.label != blank %}
-          <span class="label">{{ section.settings.label }}</span>
-        {% endif %}
-        {% for block in section.blocks %}
-          {% if block.type == 'link' %}
-            {% if block.settings.link_text != blank %}
-              <div class="link-wrap">
-                <a href="{{ block.settings.link }}" class="link">{{ block.settings.link_text }}</a>
-              </div>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
+    <div class="size-guide__header">
+      <div class="size-guide__header-inner scroll-header">
+        <div class="size-guide__header-image">
+          <img class="img" src="{{ 'team.png' | asset_url}}" loading="lazy" alt="Imogene & Willie team">
+        </div>
+        <div class="size-guide__header-content">
+          <h2 class="size-guide__header-title">we're in this together</h2>
+          <p class="size-guide__header-text">every body is different. we know how hard it can be to find the right jean when shopping online, but rest assured -- we're here to help.</p>
+          <button class="size-guide__chat-trigger button button--outline" onclick="Chatra('openChat', true)">CHAT WITH A TEAM MEMBER</button>
+        </div>
       </div>
-      <div class='popup-close' js-popup-close>
+      <div class="popup-close" js-popup-close>
         {% render 'close-icon' %}
       </div>
     </div>
@@ -28,7 +24,7 @@
             {% render 'responsive--image' with product.metafields.my_fields.size_guide_popup_image as image, max_width: 349, class: 'img' %}
           </div>
         {% else %}
-          <div class="img-wrap" js-img-wrap>
+          <div class="img-wrap" js-img-wrateamtep>
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           </div>
         {% endif %}
@@ -40,7 +36,7 @@
             {% if section.settings.text_1 != blank %}
               <p class="text">
                 {{ section.settings.text_1 }}
-                <span>{{ section.settings.label}}</span>
+                <span>{{ section.settings.label }}</span>
               </p>
             {% endif %}
           </div>
@@ -59,7 +55,7 @@
             <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
           {% endif %}
         </div>
-        <div class='popup-close' js-popup-close>
+        <div class="popup-close" js-popup-close>
           {% render 'close-icon' %}
         </div>
       </div>
@@ -76,104 +72,6 @@
 {
   "name": "SIZE GUIDE POPUP",
   "class": "size-guide-popup",
-  "settings": [
-    {
-      "type": "header",
-      "content": "Content #1",
-      "info": "-------"
-    },
-    {
-      "type": "text",
-      "id": "title_1",
-      "label": "Title",
-      "default": "we’re in this together"
-    },
-    {
-      "type": "text",
-      "id": "text_1",
-      "label": "Text",
-      "default": "every body is different. we know how hard it can be to find the right jean when shopping online, but rest assured—we’re here to help."
-    },
-    {
-      "type": "header",
-      "content": "Content #2",
-      "info": "-------"
-    },
-    {
-      "type": "text",
-      "id": "title_2",
-      "label": "Title",
-      "default": "how we measure:"
-    },
-    {
-      "type": "text",
-      "id": "text_2",
-      "label": "Text",
-      "default": "first thing's first, you’ll be measuring your body, not your other clothes. we’ve found it’s the easiest way to find what size is best for you. we recommend measuring in front of a mirror, directly against your skin, and keeping the measuring tape taut."
-    },
-    {
-       "type": "text",
-       "id": "label",
-       "label": "Label",
-       "default": "speak with a team member"
-    },
-    {
-       "type": "text",
-       "id": "btn_text",
-       "label": "Button Text",
-       "default": "CHAT WITH A TEAM MEMBER",
-       "info": "For Mobile"
-    },
-    {
-      "type": "url",
-      "id": "btn_url",
-      "label": "Button Url"
-    }
-  ],
-  "blocks": [
-    {
-      "name": "Link",
-      "type": "link",
-      "settings": [
-        {
-          "type": "header",
-          "content": "Content",
-          "info": "-------"
-        },
-        {
-          "type": "text",
-          "id": "link_text",
-          "label": "Link Text"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link Url"
-        }
-      ]
-    },
-    {
-      "name": "Info",
-      "type": "info",
-      "settings": [
-        {
-          "type": "header",
-          "content": "Content",
-          "info": "-------"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text"
-        }
-      ]
-    }
-  ],
   "presets": [
     {
       "name": "SIZE GUIDE POPUP"
