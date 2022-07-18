@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1657140914eed4ca4c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/IMG_8734.jpg",
+        "mob_img": "shopify:\/\/shop_images\/IMG_8734.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "CHAINSTITCH HEMS",
+        "title_font": "headline__din",
+        "text": "we're really proud to offer complimentary chainstitch hems on all of our pants. we want to make sure you know a few things before we move forward. <br><br>our job is to help you find a pair of jeans or pants that fit perfectly. since items are final sale once hemmed, please hold off on any alterations until you're sure you'll love the size and fit. if you're unsure, you can always reach out to us for fit guidance. you are also welcome to try the pants on first, and then you can send them directly over to our tailor shop once you confirm they fit just right.<br><br>if you are ready to proceed with alterations, our tailors are ready to jump to action. kindly note that all jean hems will be done the same way with a traditional denim hem, which is to say that no original hems will be removed and reattached. the distressing that comes on the hemline of a washed denim style will return over time through wear and washing. <br><br> finally, consider the nature of the fabric you plan to purchase. anything with \"rigid\" in the name has not been washed and is subject to shrinkage. we find it is generally best to plan for 1\" loss of length with washing in cold water, hanging to dry, but fabrics vary. reach out to us if you need more specific information. washed and\/or stretch fabrics are not likely to undergo shrinkage from washing in cold water, hanging to dry. <br><br>once you place your order with a custom hem, we will email you for written confirmation to proceed. for any further questions, don't hesitate to reach out; we are here for you. <br><br>",
+        "btn_text": "contact us ->",
+        "btn_url": "shopify:\/\/pages\/contact",
+        "show_button": false
+      }
+    },
+    "1657140855c3e405cb": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/david_jeans__2_of_2.jpg",
+        "mob_img": "shopify:\/\/shop_images\/david_jeans__2_of_2.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657140914eed4ca4c",
+    "16499691942d1a0881",
+    "1657140855c3e405cb"
+  ]
+}

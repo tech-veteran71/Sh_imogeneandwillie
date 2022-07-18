@@ -6,40 +6,13 @@
       "settings": {
       }
     },
-    "16499696593217121e": {
-      "type": "section-image-video-hero",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desktop_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
-        "mobile_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
-        "img_height": false,
-        "link": "",
-        "add_video": false,
-        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
-        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
-        "video_controls": false
-      }
-    },
-    "1657142309cd847f22": {
-      "type": "section-video-hero",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2313c270733e49fe9294011ce3e7d4c7.mp4",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2313c270733e49fe9294011ce3e7d4c7.mp4",
-        "video_controls": false
-      }
-    },
     "1657140914eed4ca4c": {
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/first_-9.jpg",
-        "mob_img": "shopify:\/\/shop_images\/first_-9.jpg",
+        "desk_img": "shopify:\/\/shop_images\/augustacanvas_03.png",
+        "mob_img": "shopify:\/\/shop_images\/augustacanvas_03.png",
         "img_url": "",
         "img_width": "full"
       }
@@ -50,12 +23,12 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
-        "pretitle": "",
-        "title": "tomorrow is mother's day.",
+        "pretitle": "( family-owned and operated )",
+        "title": "ESTABLISHED IN 1845",
         "title_font": "headline__din",
-        "text": "we feel deeply fortunate to have the moms that we do, and although motherhood is something that should be celebrated more than once a year, we want to recognize those mothers we know and love -- specifically those we work with here at i+w every day. <br><br>we see in them the embodiment of motherhood. <br><br>the balance of pursuing their personal passions at work and their constant desire to be present, connected parents...sharing life side-by-side with their kids. <br><br> as many of you already know, it's not easy. <br><br>we are thankful for you and what you represent. your love and time don't go unnoticed. <br><br>it means everything. <br><br>with all our love, <br><br>from the daughters, sons, husbands, and partners of tough and loving moms here at i+w.",
+        "text": "we've worked with Mount Vernon Mills for a while now. a couple weeks ago, we had two new pants sewn from one of their fabrics, almost ready for an upcoming release. our curiosity led us on a little road trip to visit the mill. <br><br> our minds were blown. <br><br> family-owned and operated, established in 1845, they have quietly been making some of the absolute best fabrics out there. all of them, right here in the USA. <br><br> today, we're releasing two pants: both sewn from an impressive 2x1 Mount Vernon white canvas reminiscent of a perfect pair of vintage painter's pants.",
         "btn_text": "",
-        "btn_url": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/all-or-nothing",
         "show_button": false
       }
     },
@@ -64,10 +37,10 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/seconds_-2.jpg",
-        "mob_img": "shopify:\/\/shop_images\/seconds_-2.jpg",
+        "desk_img": "shopify:\/\/shop_images\/bartonslimojai_06.png",
+        "mob_img": "shopify:\/\/shop_images\/bartonslimojai_06.png",
         "img_url": "",
-        "img_width": "medium"
+        "img_width": "extra-large"
       }
     },
     "16571405010e86593d": {
@@ -75,20 +48,21 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "review": "\"to know is not all; it is only half. to love is the other half.\"",
+        "review": "\"i go to nature to be soothed and healed, and to have my senses put in order.\"",
         "customer_name": "<br>- john burroughs",
         "background_color": "rgba(0,0,0,0)"
       }
     },
     "1657140562b846890d": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/indigoheart_cffc4029-bf36-4bf3-b636-a94d81c97a50.jpg",
-        "mob_img": "shopify:\/\/shop_images\/indigoheart_cffc4029-bf36-4bf3-b636-a94d81c97a50.jpg",
+        "desk_img": "shopify:\/\/shop_images\/462bcc0d-2534-9dbe-12e9-78f0823f45b2.png",
+        "mob_img": "shopify:\/\/shop_images\/462bcc0d-2534-9dbe-12e9-78f0823f45b2.png",
         "img_url": "",
-        "img_width": "extra-large"
+        "img_width": "medium"
       }
     },
     "1657140670a5f6a9d5": {
@@ -96,9 +70,9 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/indigo-heart-new.jpg",
-        "mob_img": "shopify:\/\/shop_images\/indigo-heart-new.jpg",
-        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-indigo-heart-tee",
+        "desk_img": "shopify:\/\/shop_images\/bartonslimojai_01_2.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bartonslimojai_01_2.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-hellfire-tee",
         "img_width": "extra-large"
       }
     },
@@ -107,14 +81,78 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "( back in stock )",
-        "title": "the indigo \"heart\" tee",
+        "text_align": "left",
+        "pretitle": "( introducing )",
+        "title": "barton slim ojai and augusta in washed white",
         "title_font": "headline__arno",
-        "text": "it's simple really,  love is everything. <br><br> indigo-dipped by hand in-house, then screen-printed here in nashville. <br><br>",
-        "btn_text": "SHOP NOW",
-        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-indigo-heart-tee",
-        "show_button": true
+        "text": "our most popular men's fit, and an exciting, brand new, women's fit. both sewn from. a beautiful 12oz Mount Vernon Mills canvas. <br><br>each pant is made, start to finish, right here in the USA. <br><br>",
+        "btn_text": "MORE INFO ->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta",
+        "show_button": false
+      }
+    },
+    "1657550208a6f74390": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/LA-SCAN_MAY_10.jpg",
+        "mob_img": "shopify:\/\/shop_images\/LA-SCAN_MAY_10.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "16575502784ca00dbb": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/red-earl_01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/red-earl_01.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "1657548490fc60c4a4": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "( feature )",
+        "title": "the lightweight earl plaid",
+        "title_font": "headline__arno",
+        "text": "we only release the earl when we find fabrics that feel just right, and this case is no different. this time, we used a beautifully washed-down, extra lightweight Japanese plaid, perfect for summer nights and long hours in the garage. <br><br>",
+        "btn_text": "SHOP NOW ->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/earl-lightweight",
+        "show_button": false
+      }
+    },
+    "1657550361855bc9de": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/LA-SCAN_MAY_12.jpg",
+        "mob_img": "shopify:\/\/shop_images\/LA-SCAN_MAY_12_0cbacf2c-a0f9-4922-9c18-11c749d32af9.jpg",
+        "img_url": "",
+        "img_width": "small"
+      }
+    },
+    "1657548645a54429f5": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "each shirt is patterned, cut, and sewn in the USA from a 3.8oz Japanese flannel, then finished with a final wash to achieve a perfect sotness.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
       }
     },
     "1657140855c3e405cb": {
@@ -122,10 +160,10 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/indigobannerpng.png",
-        "mob_img": "shopify:\/\/shop_images\/indigobannerpng.png",
+        "desk_img": "shopify:\/\/shop_images\/red-earl_11.jpg",
+        "mob_img": "shopify:\/\/shop_images\/red-earl_11.jpg",
         "img_url": "",
-        "img_width": "full"
+        "img_width": "medium"
       }
     },
     "1657140481c462b647": {
@@ -278,8 +316,6 @@
   },
   "order": [
     "main",
-    "16499696593217121e",
-    "1657142309cd847f22",
     "1657140914eed4ca4c",
     "16499691942d1a0881",
     "16505718302bbb6563",
@@ -287,6 +323,11 @@
     "1657140562b846890d",
     "1657140670a5f6a9d5",
     "1657140743c17f8f84",
+    "1657550208a6f74390",
+    "16575502784ca00dbb",
+    "1657548490fc60c4a4",
+    "1657550361855bc9de",
+    "1657548645a54429f5",
     "1657140855c3e405cb",
     "1657140481c462b647",
     "1649968716596dfdec",

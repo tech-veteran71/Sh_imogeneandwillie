@@ -9,6 +9,8 @@
     "1651163411c586457a": {
       "type": "section-video-hero",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/702924957\/rendition\/1080p?loc=external&signature=32aa20c997a66f70147aff9206ad00246f7036fa1bd67fd07c2862a6d9ff2b20",
         "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/702924957\/rendition\/1080p?loc=external&signature=32aa20c997a66f70147aff9206ad00246f7036fa1bd67fd07c2862a6d9ff2b20",
         "video_controls": false
@@ -17,6 +19,8 @@
     "16511637574b272c01": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "imogene + willie x alpha industries",
@@ -30,10 +34,14 @@
     "165116369418e09b53": {
       "type": "section-collection-grid",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "choose_collection": "alpha-industries-x-imogene-and-willie",
         "show_title": true,
+        "show_subtitle": true,
         "show_price": false,
-        "products_to_show": 12,
+        "show_badges": false,
+        "products_to_show": 10,
         "products_per_row": 2,
         "title": "",
         "title_font": "headline__din",
@@ -45,6 +53,8 @@
     "165116480922359a6a": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
@@ -58,6 +68,8 @@
     "165116494863507230": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/CZ1A5913.jpg",
         "mob_img": "shopify:\/\/shop_images\/CZ1A5913.jpg",
         "img_url": "",

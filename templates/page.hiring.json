@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "main": {
+      "type": "faq-template",
+      "blocks": {
+        "fba7e2f9-1b43-456e-8232-6a3220c0c755": {
+          "type": "info",
+          "settings": {
+            "label": "phone",
+            "link_text": "+1 (615) 739-5286",
+            "link_url": ""
+          }
+        },
+        "4fa051e5-ef8b-4976-a042-4acc72c8ee01": {
+          "type": "info",
+          "settings": {
+            "label": "email",
+            "link_text": "help@imogeneandwillie.com",
+            "link_url": "mailto:help@imogeneandwillie.com"
+          }
+        },
+        "a9d2165f-f60b-41fd-a1df-8f52854d8ad0": {
+          "type": "info",
+          "settings": {
+            "label": "chat",
+            "link_text": "start chat now",
+            "link_url": ""
+          }
+        },
+        "1d15f5ea-8dd1-4061-ada3-7fc20f1ae811": {
+          "type": "info",
+          "settings": {
+            "label": "customer service hours:",
+            "link_text": "mon-sat 9-6ct",
+            "link_url": ""
+          }
+        },
+        "23946803-c075-4a53-a1dc-82132734d401": {
+          "type": "faq",
+          "settings": {
+            "accordian_sub_title": "AVAILABLE POSITIONS",
+            "accordian_title_1": "Junior Designer",
+            "text_1": "<h6>Nashville<\/h6> <p>Working closely with the Creative Director, digital team & company leadership, this person will help create and develop designs and artwork for t-shirts, print, digital, and related categories--working from initial ideation and concept to finished product.<\/p> <h5>REQUIRED EXPERIENCE <\/h5> <ul> \t<li>At least 1 year of graphic design experience including e-commerce, print layout, and branding.<\/li>\n<br> \t<li>Advanced knowledge of Photoshop, Illustrator, and InDesign (HTML\/CSS capabilities are a plus).<\/li>\n<br> \t<li>Exceptional typographical skills and meticulous attention to detail.<\/li>\n<br> \t<li>A bachelor’s degree or equivalent combo of education and experience. Where and if you went to school for design doesn’t matter nearly as much as your abilities in aesthetics and application.<\/li>\n<br> \t<li>Must have the ability to multitask, take direction, and fulfill multiple project requests while meeting deadlines.<\/li>\n<br> <\/ul> <br>  <a href=\"mailto:jobs@imogeneandwillie.com?subject=junior%20designer%20position\" class=\"navigable\">apply now-><\/a>",
+            "accordian_title_2": "Shop Staff",
+            "text_2": "<h6>Nashville + Austin<\/h6> <p>the folks working in our shops aren‘t just “sales associates.”<br>they are rebels, nerds, artists, adventurers... above all, they’re our family.<\/p> <br> <a href=\"mailto:jobs@imogeneandwillie.com?subject=store%20staff%20position%E2%80%9D%20class=\" navigable>apply now-><\/a>",
+            "accordian_title_3": "Warehouse Fulfillment",
+            "text_3": "<h6>Nashville<\/h6> <p>we are looking for someone to help support the operational efforts required to achieve and maintain order fulfillment within our warehouse. whether receiving orders to in-house, or shipping straight to our customers, applicants must exhibit extreme attention to detail and customer care... while working to identify and communicate any potential inventory issues that might be found along the way.<\/p> <br> <a href=\"mailto:jobs@imogeneandwillie.com?subject=warehouse%20fulfillment%20position\" class=\"navigable\">apply now-><\/a>",
+            "accordian_title_4": "Internships",
+            "text_4": "<h6>Nashville<\/h6> <p>as an imogene + willie intern, you will have the opportunity to work in a diverse and rewarding atmosphere. which will include learning about the business\/administrative side of a growing company, participating in hands-on creative projects, and working to support team members in marketing, production, retail, and customer service. the internship is full-time for a period of three to four months, based in Nashville, and designed for those who are interested in a truly comprehensive experience. interns receive college, work-study, or independent study credit.<\/p> <br> <a href=\"mailto:jobs@imogeneandwillie.com?subject=intern%20position\" class=\"navigable\">apply now-><\/a>",
+            "accordian_title_5": "",
+            "text_5": "",
+            "accordian_title_6": "",
+            "text_6": "",
+            "accordian_title_7": "",
+            "text_7": "",
+            "accordian_title_8": "",
+            "text_8": "",
+            "accordian_title_9": "",
+            "text_9": "",
+            "accordian_title_10": "",
+            "text_10": "",
+            "accordian_title_11": "",
+            "text_11": "",
+            "accordian_title_12": "",
+            "text_12": "",
+            "accordian_title_13": "",
+            "text_13": "",
+            "accordian_title_14": "",
+            "text_14": "",
+            "accordian_title_15": "",
+            "text_15": ""
+          }
+        }
+      },
+      "block_order": [
+        "fba7e2f9-1b43-456e-8232-6a3220c0c755",
+        "4fa051e5-ef8b-4976-a042-4acc72c8ee01",
+        "a9d2165f-f60b-41fd-a1df-8f52854d8ad0",
+        "1d15f5ea-8dd1-4061-ada3-7fc20f1ae811",
+        "23946803-c075-4a53-a1dc-82132734d401"
+      ],
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/IMG_0883.jpg",
+        "main_title": "we're hiring",
+        "title": "help",
+        "info_title": "contact"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

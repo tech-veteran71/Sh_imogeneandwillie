@@ -390,7 +390,7 @@ a.product__text {
   letter-spacing: 0.16rem;
   color: var(--color-blue);
   font-family: var(--font-din);
-  font-weight: 600;
+  font-weight: 400;
 }
 .product .price--sold-out .price__badge-sold-out {
   background: transparent;
