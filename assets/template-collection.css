@@ -187,6 +187,7 @@
 
 .collection-grid__mobile-icon {
   display: block;
+  margin-left: 0.8rem;
 }
 
 @media screen and (min-width: 990px) {

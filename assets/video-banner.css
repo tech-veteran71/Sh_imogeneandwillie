@@ -10,6 +10,7 @@
 }
 .video-banner .wrapper {
   height: auto;
+  line-height: 0;
 }
 .video-banner .video-wrap {
   height: 100%;

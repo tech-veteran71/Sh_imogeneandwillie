@@ -800,10 +800,7 @@ summary::-webkit-details-marker {
 }
 
 *:focus-visible {
-  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
-  outline-offset: 0.3rem;
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
-    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  outline: 0rem solid rgba(var(--color-foreground), 0.5);
 }
 
 /* Fallback - for browsers that don't support :focus-visible, a fallback is set for :focus */
@@ -2810,11 +2807,7 @@ header .sub-menu-link {
 }
 .header .mega_menu-inner-wrap {
   width: 50%;
-}
-.header .mega_menu-inner-wrap:last-child {
-  position: absolute;
-  right: 0;
-  /* bottom: -5rem; */
+  margin: 1rem;
 }
 .header .mega_menu-row {
   display: flex;
@@ -3248,8 +3241,8 @@ header .sub-menu-link {
     align-items: flex-start;
   }
   .header .mega_menu-list-outer-wrap {
-    max-width: 25%;
-    flex: 25%;
+    max-width: 30%;
+    flex: 30%;
     margin-top: 9rem;
   }
   .header .mega_menu-product-item {
@@ -3259,9 +3252,6 @@ header .sub-menu-link {
   }
   .header .mega_menu-list .mega_menu-item {
     margin-bottom: 0.8rem;
-  }
-  .header .mega_menu-inner-wrap:last-child {
-    /* bottom: -6.5rem; */
   }
   .header .mega_menu-list .mega_menu-heading {
     font-size: 1.6rem;
