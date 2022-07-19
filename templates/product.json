@@ -81,18 +81,6 @@
     },
     "1650489885e385492b": {
       "type": "size-guide-pop",
-      "blocks": {
-        "85c063f5-dd38-4179-8b48-cd5ab247c07b": {
-          "type": "link",
-          "settings": {
-            "link_text": "size guide",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "85c063f5-dd38-4179-8b48-cd5ab247c07b"
-      ],
       "settings": {
         "title_1": "we’re in this together",
         "text_1": "every body is different. we know how hard it can be to find the right jean when shopping online, but rest assured—we’re here to help.",

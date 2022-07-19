@@ -3,65 +3,22 @@
 <div class="popup-inner" id="size-guide-popup">
   <div class="wrapper">
     <div class="size-guide__header">
+      <div class="popup-close" js-popup-close>
+        {% render 'close-icon' %}
+      </div>
+    </div>
+    <div class="popup-body inner-wrap">
       <div class="size-guide__header-inner scroll-header">
         <div class="size-guide__header-image">
           <img class="img" src="{{ 'team.png' | asset_url}}" loading="lazy" alt="Imogene & Willie team">
         </div>
         <div class="size-guide__header-content">
-          <h2 class="size-guide__header-title">we're in this together</h2>
+          <h3 class="size-guide__header-title">we're in this together</h3>
           <p class="size-guide__header-text">every body is different. we know how hard it can be to find the right jean when shopping online, but rest assured -- we're here to help.</p>
           <button class="size-guide__chat-trigger button button--outline" onclick="Chatra('openChat', true)">CHAT WITH A TEAM MEMBER</button>
         </div>
       </div>
-      <div class="popup-close" js-popup-close>
-        {% render 'close-icon' %}
-      </div>
-    </div>
-    <div class="popup-header inner-wrap" js-popup-header>
-      <div class="popup-grid">
-        {% if product.metafields.my_fields.size_guide_popup_image != blank %}
-          <div class="img-wrap" js-img-wrap>
-            {% render 'responsive--image' with product.metafields.my_fields.size_guide_popup_image as image, max_width: 349, class: 'img' %}
-          </div>
-        {% else %}
-          <div class="img-wrap" js-img-wrateamtep>
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-          </div>
-        {% endif %}
-        <div class="content-wrap">
-          <div class="contents">
-            {% if section.settings.title_1 != blank %}
-              <h2 class="title">{{ section.settings.title_1 }}</h2>
-            {% endif %}
-            {% if section.settings.text_1 != blank %}
-              <p class="text">
-                {{ section.settings.text_1 }}
-                <span>{{ section.settings.label }}</span>
-              </p>
-            {% endif %}
-          </div>
-          <div class="links">
-            {% for block in section.blocks %}
-              {% if block.type == 'link' %}
-                {% if block.settings.link_text != blank %}
-                  <div class="link-wrap">
-                    <a href="{{ block.settings.link }}" class="link">{{ block.settings.link_text }}</a>
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-          </div>
-          {% if section.settings.btn_text != blank %}
-            <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
-          {% endif %}
-        </div>
-        <div class="popup-close" js-popup-close>
-          {% render 'close-icon' %}
-        </div>
-      </div>
-    </div>
-    <div class="popup-body inner-wrap">
-      <div class="table-wrap">
+      <div class="table-wrap size-guide__table">
         {{ product.metafields.my_fields.size_guide_popup_ }}
       </div>
     </div>
