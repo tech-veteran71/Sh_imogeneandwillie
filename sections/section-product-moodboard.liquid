@@ -1,36 +1,40 @@
 {{ 'section-product-moodboard.css' | asset_url | stylesheet_tag }}
-
+{% if product.metafields.my_fields.moodboard_image_1 != blank %}
 <div class="moodboard-section">
   <div class="moodboard-container">
     <div class="wrapper">
       {% if section.settings.main_title %}
-        <h3 class="title">{{ section.settings.main_title }}</h3>
+        <h2 class="title">{{ section.settings.main_title }}</h2>
       {% endif %}
       <div class="image-gallery">
         <div class="swiper-wrapper">
-          <div class="swiper-slide slide-with-three-images">
+          {% if product.metafields.my_fields.moodboard_image_1 != blank %}
+          <div class="swiper-slide">
             {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_1, media_type: "image" %}
-            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_2, media_type: "image" %}
-            {% render 'media-item' , media: product.metafields.my_fields.embed_video_link, media_type: "video" %}
           </div>
-          <div class="swiper-slide slide-with-four-images">
+        {% endif %}
+        {% if product.metafields.my_fields.moodboard_image_2 != blank %}
+          <div class="swiper-slide">
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_2, media_type: "image" %}
+          </div>
+        {% endif %}
+        {% if product.metafields.my_fields.moodboard_image_3 != blank %}
+          <div class="swiper-slide">
             {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_3, media_type: "image" %}
-            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_1, media_type: "image" %}
-            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_2, media_type: "image" %}
-            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_3, media_type: "image" %}
           </div>
-          <div class="swiper-slide slide-with-three-images">
-            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_1, media_type: "image" %}
-            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_2, media_type: "image" %}
-            {% render 'media-item' , media: product.metafields.my_fields.embed_video_link, media_type: "video" %}
+        {% endif %}
+        {% if product.metafields.my_fields.moodboard_image_4 != blank %}
+          <div class="swiper-slide">
+            {% render 'media-item' , media: product.metafields.my_fields.moodboard_image_4, media_type: "image" %}
           </div>
+        {% endif %}
         </div>
         <div class="image-gallery-pagination"></div>
       </div>
     </div>
   </div>
 </div>
-
+{% endif %}
 {% schema %}
 {
   "name": "PRODUCT PAGE MOODBOARD",
