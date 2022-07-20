@@ -297,6 +297,35 @@
         "btn_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks"
       }
     },
+    "1658256369bac418c8": {
+      "type": "section-editorial-text-block",
+      "blocks": {
+        "5c673d71-c55a-4358-a7a6-ef61d672f133": {
+          "type": "info",
+          "settings": {
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
+          }
+        },
+        "cd6bef4a-c9ce-415a-b333-08fc446127bb": {
+          "type": "info",
+          "settings": {
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
+          }
+        }
+      },
+      "block_order": [
+        "5c673d71-c55a-4358-a7a6-ef61d672f133",
+        "cd6bef4a-c9ce-415a-b333-08fc446127bb"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "pretitle": "(pre title)",
+        "main_title": "main title",
+        "main_text": "main text",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
+      }
+    },
     "1637735864c2bd7e13": {
       "type": "section-brand-promise",
       "disabled": true,
@@ -583,6 +612,7 @@
     "1649347110c702605f",
     "1649347242ecc7083e",
     "16493477614696a5fd",
+    "1658256369bac418c8",
     "1637735864c2bd7e13",
     "164927862869965961",
     "1650300377077f241e",

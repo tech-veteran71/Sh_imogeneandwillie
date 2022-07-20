@@ -84,7 +84,7 @@
   flex: 50%;
   padding: 0 2em;
   position: relative;
-  z-index: 99;
+  z-index: 5;
 }
 .shop-info .shop-duration {
   margin-top: 1.8em;
