@@ -40,13 +40,15 @@
         "69a8b823-a49f-43fc-8c88-78d4735bfcc7": {
           "type": "accordian",
           "settings": {
-            "accordian_title": "fit and sizing"
+            "accordian_title": "fit and sizing",
+            "accordian_content": ""
           }
         },
         "885c349d-e8e1-42fc-9ea0-d39ff2bccc19": {
           "type": "accordian",
           "settings": {
-            "accordian_title": "care and materials"
+            "accordian_title": "care and materials",
+            "accordian_content": ""
           }
         }
       },
@@ -70,6 +72,12 @@
         "enable_video_looping": false
       }
     },
+    "1658344893548f6edf": {
+      "type": "section-product-moodboard",
+      "settings": {
+        "main_title": "dig into the moodboard"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -85,6 +93,7 @@
   },
   "order": [
     "main",
+    "1658344893548f6edf",
     "product-recommendations",
     "1650489885e385492b"
   ]

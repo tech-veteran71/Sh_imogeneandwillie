@@ -10,6 +10,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/the-beginning-1_756bc8e2-73ee-4d27-9841-35acb842912e.jpg",
         "img_url": "",
         "img_width": "full"
@@ -19,11 +20,12 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "left",
         "pretitle": "",
         "title": "our story<br><br>we’ve always been friends. friends since the summer when matt came to my sixth grade back-to-school swim party. 20 years later, in 2006, matt and i were married.",
         "title_font": "headline__arno",
-        "text": "over the years, i  moments where matt and i realized, even without knowing it at the time, that we would create something together. <br><br>• we wanted to build community.<br>• we wanted to make things in the usa. <br> • we wanted to make products that would last. <br>",
+        "text": "over the years, i remember a few specific moments where matt and i realized, even without knowing it at the time, that we would create something together. <br>",
         "btn_text": "",
         "btn_url": "",
         "show_button": false
@@ -34,6 +36,7 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/the-beginning-1_756bc8e2-73ee-4d27-9841-35acb842912e.jpg",
@@ -55,6 +58,7 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/the-beginning-5.webp",
         "img_url": "",
         "img_width": "medium"
@@ -64,6 +68,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_45e71231-7f40-429d-871e-296e8bf79d3a.jpg",
         "img_url": "",
         "img_width": "medium"
@@ -73,6 +78,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "left",
         "pretitle": "",
         "title": "",
@@ -87,6 +93,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/shop-split.png",
         "img_url": "",
         "img_width": "large"
@@ -97,6 +104,7 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/the-beginning-3.webp",
@@ -117,6 +125,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "left",
         "pretitle": "",
         "title": "",
@@ -132,6 +141,7 @@
       "disabled": true,
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "review": "\"everything you can imagine is real.\"",
         "customer_name": "<br>- picasso",
         "background_color": "#f7f6f3"
@@ -141,6 +151,7 @@
       "type": "section-image-video-hero",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-8_a8d272cd-9a4f-4e52-97fa-4be08cef3897.jpg",
         "img_height": false,
         "link": "",
@@ -154,14 +165,15 @@
       "type": "section-video-with-text",
       "settings": {
         "mobile_hide": true,
+        "desktop_hide": false,
         "video_poster": "shopify:\/\/shop_images\/Screen_Shot_2022-06-14_at_1.16.13_PM.png",
         "video_url": "https:\/\/player.vimeo.com\/video\/17830905?h=6f003a15c5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         "video_controls": false,
         "pre_title": "No. 1",
         "title": "out of blue",
         "title_font": "headline__din",
-        "main_title": "",
-        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "main_title": "DECEMBER 14, 2010",
+        "text": "we started our brand with an online campaign. we sent out a blog two years ago at 3am in the morning in january and told people about our dream.  we just simply wanted to sew a good jean for both men and women that fit perfectly. we hoped that the gas station would become a destination for lovers of denim and other treasures...",
         "show_link": false,
         "btn_text": "",
         "btn_url": "https:\/\/vimeo.com\/17830905"
@@ -171,6 +183,7 @@
       "type": "section-image-video-hero",
       "settings": {
         "mobile_hide": true,
+        "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
         "mobile_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
         "img_height": false,

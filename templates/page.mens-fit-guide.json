@@ -3,31 +3,36 @@
     "main": {
       "type": "section-hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/Header_1200x_97e35576-1fce-47b3-a44b-5ce832f47710.png",
-        "mob_img": "shopify:\/\/shop_images\/Header_IMG_300x_82594ffe-28dd-4831-b227-48865513ce0d.png",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/Fit-Guide-Header_156d06f9-7f8b-49fd-8d2c-096f0d7df427.jpg",
+        "mob_img": "shopify:\/\/shop_images\/Fit-Guide-Header-mobile.jpg",
         "img_url": "",
         "main_title": "",
         "title_font": "headline__din",
         "font_color": "#222222",
         "text": "",
-        "link_text": "FIND YOUR FIT",
+        "link_text": "FIND YOUR FIT<br><br>",
         "link": "#",
         "show_button": false,
-        "show_down_arrow": false
+        "show_down_arrow": true
       }
     },
     "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/bartonslim-draper03_1200x_59305c25-dc28-45e1-8c0e-fb3489fbdeb1.webp",
+        "desk_img": "shopify:\/\/shop_images\/i_w__010553.jpg",
         "mob_img": "shopify:\/\/shop_images\/bartonslimpureindigo_10_1200x_da6b4df7-57d7-49e0-b39f-bd630d9c8421.webp",
         "img_url": "",
-        "pre_title": "",
+        "pre_title": "( the  all–timer )",
         "main_title": "barton slim",
         "title_font": "headline__arno",
-        "text": "barton slim sits right on the hips. it's slim through the thigh and knee, size 31 has a 15\" leg opening.",
+        "text": "barton slim sits right on the hips. it's slim through the thigh and knee, size 31 has a 15\" leg opening.<br><br>",
         "btn_text": "shop all",
         "btn_url": "shopify:\/\/collections\/barton-slim",
         "change_alignment": false,
@@ -38,7 +43,14 @@
     "16523839440f52af5e": {
       "type": "section-product-collection-slider",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#F7F6F3",
         "choose_collection": "barton-slim",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
         "title": "",
         "main_title": "",
         "mob_title": "",
@@ -49,15 +61,17 @@
     "1652384122d9f7ad26": {
       "type": "section-img-txt-btn",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "",
         "mob_bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/charlie-rigid-jp03_1200x_c9b77fb0-94b1-4e65-aea0-d4b64cdd0bf7.webp",
         "mob_img": "shopify:\/\/shop_images\/charlie-rigid-jp08-2_1200x_2c570353-0527-48b9-8d49-8071b1da8569.webp",
         "img_url": "",
-        "pre_title": "",
+        "pre_title": "( featured )",
         "main_title": "charlie",
         "title_font": "headline__arno",
-        "text": "charlie sits low on hips, is slim through the thigh and knee, and has a 14\" leg opening. the result is a versatile, polished modern fit.",
+        "text": "charlie sits low on hips, is slim through the thigh and knee, and has a 14\" leg opening. the result is a versatile, polished modern fit.<br><br>",
         "btn_text": "shop all",
         "btn_url": "shopify:\/\/collections\/charlie",
         "change_alignment": true,
@@ -68,7 +82,14 @@
     "1652384239086de985": {
       "type": "section-product-collection-slider",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#F7F6F3",
         "choose_collection": "charlie",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
         "title": "",
         "main_title": "",
         "mob_title": "",
@@ -79,15 +100,17 @@
     "1652384267583aae78": {
       "type": "section-img-txt-btn",
       "settings": {
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#f7f6f3",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "#ffffff",
+        "mob_bg_color": "#ffffff",
         "desk_img": "shopify:\/\/shop_images\/henryjp-11_1200x_4e99c74d-627c-4044-b175-03caa0eae4cc.webp",
         "mob_img": "shopify:\/\/shop_images\/run-henry-09_1200x_adf3e8a8-a884-4e3f-8d16-712e9ba012b1.webp",
         "img_url": "",
-        "pre_title": "",
+        "pre_title": "( team favorite )",
         "main_title": "henry",
         "title_font": "headline__arno",
-        "text": "henry sits right on the hips. it's relaxed through the thigh and knee. size 31 has a 16 1\/2\" leg opening.",
+        "text": "henry sits right on the hips. it's relaxed through the thigh and knee. size 31 has a 16 1\/2\" leg opening.<br><br>",
         "btn_text": "shop all",
         "btn_url": "shopify:\/\/collections\/henry",
         "change_alignment": false,
@@ -98,7 +121,14 @@
     "165238448800fa371e": {
       "type": "section-product-collection-slider",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#ffffff",
         "choose_collection": "henry",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
         "title": "",
         "main_title": "",
         "mob_title": "",
@@ -109,20 +139,113 @@
     "165238451517fd2aad": {
       "type": "section-img-txt-btn",
       "settings": {
-        "desk_bg_color": "#ffffff",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "#ffffff",
         "desk_img": "shopify:\/\/shop_images\/CZ1A4050.jpg",
         "mob_img": "shopify:\/\/shop_images\/williejp-07_1200x_962a41d7-397f-407d-bcac-3297e9686487.webp",
         "img_url": "",
-        "pre_title": "",
+        "pre_title": "( the original )",
         "main_title": "willie",
         "title_font": "headline__arno",
-        "text": "our very first men’s fit, named for carrie’s grandfather.  most jean styles out there are born from trends or modern innovations. inspired by matt’s personal archive of vintage jeans, the willie can be summed up in one word: timeless.",
+        "text": "our very first men’s fit, named for carrie’s grandfather.  most jean styles out there are born from trends or modern innovations. inspired by matt’s personal archive of vintage jeans, the willie can be summed up in one word: timeless.<br><br>",
         "btn_text": "shop all",
         "btn_url": "",
         "change_alignment": true,
         "show_btn": false,
         "show_link": false
+      }
+    },
+    "1658866129d79fc526": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#ffffff",
+        "choose_collection": "willie",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "",
+        "main_title": "",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "165887080613c0fbaf": {
+      "type": "section-asymmetric",
+      "blocks": {
+        "1d882404-9fe2-4c02-aa36-e9e9c4cebef8": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/ol_02.jpg",
+            "mob_img": "shopify:\/\/shop_images\/ol_02.jpg",
+            "title": "",
+            "text": "",
+            "btn": false,
+            "link_text": "fabric guide ->",
+            "link_url": ""
+          }
+        },
+        "ff5df9b0-81f6-454f-85bc-db16ab766f97": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
+            "mob_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
+            "title": "Men's Denim",
+            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp",
+            "btn": false,
+            "link_text": "Shop ALL ->",
+            "link_url": ""
+          }
+        },
+        "64b2ff5c-60e9-4bfc-a839-0d106d7a9306": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/willie07.jpg",
+            "mob_img": "shopify:\/\/shop_images\/willie07.jpg",
+            "title": "fabric guide",
+            "text": "fabric guide",
+            "btn": false,
+            "link_text": "new arrivals->",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1d882404-9fe2-4c02-aa36-e9e9c4cebef8",
+        "ff5df9b0-81f6-454f-85bc-db16ab766f97",
+        "64b2ff5c-60e9-4bfc-a839-0d106d7a9306"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "bg_color": "",
+        "change_alignment": false,
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1658870097ed79d8de": {
+      "type": "section-hero-banner",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "font_color": "#222222",
+        "text": "",
+        "link_text": "",
+        "link": "",
+        "show_button": true,
+        "show_down_arrow": false
       }
     }
   },
@@ -134,6 +257,9 @@
     "1652384239086de985",
     "1652384267583aae78",
     "165238448800fa371e",
-    "165238451517fd2aad"
+    "165238451517fd2aad",
+    "1658866129d79fc526",
+    "165887080613c0fbaf",
+    "1658870097ed79d8de"
   ]
 }

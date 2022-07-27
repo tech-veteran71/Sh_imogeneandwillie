@@ -4,6 +4,7 @@
       "type": "section-video-hero",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "video_poster": "shopify:\/\/shop_images\/Header_IMG_1200x_73866eb4-5e70-413d-a41b-580bb67a21b7.png",
         "mobile_video_poster": "shopify:\/\/shop_images\/Image_144.png",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8cd7399bad8e4b77913a821fae554002.mp4",
@@ -32,7 +33,7 @@
           "type": "shop_timing",
           "settings": {
             "days": "sunday",
-            "timing": "12:00am – 5:00pm"
+            "timing": "12:00pm – 5:00pm"
           }
         },
         "52ef6d24-8e3d-4f2e-b4fa-d080a88d8ca4": {
@@ -59,6 +60,7 @@
       ],
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "img": "shopify:\/\/shop_images\/Image_186.png",
         "main_title": "visit the shop:",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
@@ -129,21 +131,23 @@
         "79e54fea-5564-4818-9908-02809239dc7d"
       ],
       "settings": {
-        "mobile_hide": false
+        "mobile_hide": false,
+        "desktop_hide": false
       }
     },
     "16502947994e98e61e": {
       "type": "section-video-with-text",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "video_poster": "shopify:\/\/shop_images\/oneyearwear_-2_600x_1364d848-7322-4818-b3af-c43d6d968362.png",
         "video_url": "https:\/\/player.vimeo.com\/video\/17552913?h=c9043863b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         "video_controls": false,
         "pre_title": "( circa 2012 )",
         "title": "take a look back",
         "title_font": "headline__arno",
-        "main_title": "",
-        "text": "nashville, tenn",
+        "main_title": "nashville, tennessee",
+        "text": "",
         "show_link": false,
         "btn_text": "",
         "btn_url": ""
@@ -153,11 +157,12 @@
       "type": "section-img-txt-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "",
         "mob_bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/gallery-4.png",
         "mob_img": "shopify:\/\/shop_images\/Supper_Song_IMG_adf13242-450a-467f-90cf-08c340fe7d16.png",
-        "img_url": "",
+        "img_url": "shopify:\/\/pages\/supper-and-song",
         "pre_title": "( our home )",
         "main_title": "supper + song",
         "title_font": "headline__arno",
@@ -173,9 +178,10 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
         "mob_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
-        "img_url": "",
+        "img_url": "shopify:\/\/pages\/tailor-shop",
         "img_width": "medium"
       }
     },
@@ -183,6 +189,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "tailor shop",
@@ -197,13 +204,14 @@
       "type": "section-image-video-hero",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "img_height": false,
         "link": "",
         "add_video": true,
         "video_poster": "shopify:\/\/shop_images\/ides3.jpg",
         "mobile_video_poster": "shopify:\/\/shop_images\/ides3.jpg",
-        "video_url": "https:\/\/vimeo.com\/17552913",
-        "mobile_video_url": "https:\/\/vimeo.com\/17552913",
+        "video_url": "",
+        "mobile_video_url": "",
         "video_controls": false
       }
     }

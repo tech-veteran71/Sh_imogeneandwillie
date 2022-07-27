@@ -1,1 +1,34 @@
+<script type="application/javascript"
+src="https://static-us.afterpay.com/javascript/present-afterpay.js"
+>
+</script>
 
+<script>
+const apProductConfig = {
+    'priceSelector': ".price-main > div.price.price--large",   // REQUIRED: set to the div
+    'locale': 'en_US',            // REQUIRED: set to the locale for your site
+    'afterpayLogoColor': 'black', // optional: set to use black or white logo
+    'amount': {{product.price | json}},          	// optional: set to item price or order total
+    showUpperLimit: false, // don't tell the user the max value
+};
+
+window.addEventListener('load', () => {
+const product = {{product | json}}; // current page's product
+var lowercaseProductTitle = "";
+if(product) {
+    lowercaseProductTitle = product.title.toLowerCase();
+}
+
+    if(product && !(lowercaseProductTitle.includes("gift card")))
+    new presentAfterpay(apProductConfig).init();
+});
+</script>
+
+<!-- Begin Shopify-Afterpay JavaScript Snippet (v1.0.1) -->
+<script type="text/javascript">
+// Liquid variables:
+var afterpay_product = {{ product | json }};
+var afterpay_product_variant = {{ product.selected_or_first_available_variant | json }};
+var afterpay_cart_total_price = {{ cart.total_price | json }};
+</script>
+<!-- End Shopify-Afterpay JavaScript Snippet (v1.0.1) -->

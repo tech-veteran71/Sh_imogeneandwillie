@@ -965,7 +965,7 @@ a.product__text {
   line-height: 1;
 }
 .afterpay-paragraph {
-  font-size: 0.9rem;
+  font-size: 1rem !important;
   font-family: var(--font-gothic);
   color: var(--color-dim-black);
   letter-spacing: 0.09rem;

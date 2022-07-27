@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1658859614dcb8564c": {
+      "type": "section-hero-banner",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/landscape.png",
+        "mob_img": "shopify:\/\/shop_images\/catherine-natural01_1200x_c77e8955-5436-4122-8a9f-2543ff7efb74.webp",
+        "img_url": "",
+        "main_title": "women's denim",
+        "title_font": "headline__din",
+        "font_color": "#ffffff",
+        "text": "",
+        "link_text": "",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "165886176250d4e191": {
+      "type": "section-rich-text",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "bg_color": "",
+        "text": "<br>too often, jean styles are born out of a fashion trend or modern innovation. our jeans were created as a reaction to what wasn’t happening.<br><br>",
+        "link_text": "shop all",
+        "link_url": ""
+      }
+    },
+    "165885973385360629": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__din",
+        "text": "too often, jean styles are born out of a fashion trend or modern innovation. our jeans were created as a reaction to what wasn’t happening.<br><br>",
+        "btn_text": "shop all",
+        "btn_url": "",
+        "show_button": true
+      }
+    },
+    "1658776129371054d1": {
+      "type": "section-img-txt-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/catherine-natural01_1200x_c77e8955-5436-4122-8a9f-2543ff7efb74.webp",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "women's denim",
+        "title_font": "headline__din",
+        "text": "too often, jean styles are born out of a fashion trend or modern innovation. our jeans were created as a reaction to what wasn’t happening.",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": true,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1658852911d1cd7680": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "women-denim-feature-1",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "summer denim",
+        "main_title": "",
+        "mob_title": "summer denim",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections\/women-denim"
+      }
+    },
+    "1658775060019bd094": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "choose_collection": "women-denim-feature-1",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 10,
+        "products_per_row": 2,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "165885414145c1ee2e": {
+      "type": "section-asymmetric",
+      "blocks": {
+        "0855e869-4708-4ba8-9db7-0c63481c9629": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/moodboard1.png",
+            "title": "",
+            "text": "",
+            "btn": true,
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "85fbb232-8192-40ad-8554-1326aef9b429": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/laurel-04_1200x_91d5f5a6-f803-46f7-874a-997af9779dcf.webp",
+            "mob_img": "shopify:\/\/shop_images\/laurel-04_1200x_91d5f5a6-f803-46f7-874a-997af9779dcf.webp",
+            "title": "patterned, cut, and sewn in the usa",
+            "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the United States of America.",
+            "btn": false,
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "8cb3870d-34d7-42af-8c95-ee6f44b0136b": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/sewing-station16.jpg",
+            "mob_img": "shopify:\/\/shop_images\/sewing-station16.jpg",
+            "title": "",
+            "text": "",
+            "btn": true,
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "a956a68c-957b-4cf2-a19f-3de5eb98d1dd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "btn": false,
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "0855e869-4708-4ba8-9db7-0c63481c9629",
+        "85fbb232-8192-40ad-8554-1326aef9b429",
+        "8cb3870d-34d7-42af-8c95-ee6f44b0136b",
+        "a956a68c-957b-4cf2-a19f-3de5eb98d1dd"
+      ],
+      "settings": {
+        "mobile_hide": true,
+        "desktop_hide": false,
+        "bg_color": "",
+        "change_alignment": false,
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "165877877094ff271d": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/laurel-04_1200x_91d5f5a6-f803-46f7-874a-997af9779dcf.webp",
+        "mob_img": "shopify:\/\/shop_images\/laurel-04_1200x_91d5f5a6-f803-46f7-874a-997af9779dcf.webp",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "patterned, cut, and sewn in the USA.<br><br>",
+        "title_font": "headline__din",
+        "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america.",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "165885382808a73293": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "women-denim-feature-2",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "title": "best sellers",
+        "main_title": "",
+        "mob_title": "best sellers",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "165877456896b1918c": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 9,
+        "products_per_row": 3,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "shop all women's denim",
+        "btn_url": ""
+      }
+    },
+    "1658774963f0bfad09": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "choose_collection": "women-denim-feature-2",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 10,
+        "products_per_row": 2,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "Shop All",
+        "btn_url": "shopify:\/\/collections\/women-denim"
+      }
+    },
+    "16587783407dad49e4": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/wyatt_11_1200x_392625bf-6bd4-4b17-8249-727cfc7601d4.webp",
+        "mob_img": "shopify:\/\/shop_images\/wyatt_11_1200x_392625bf-6bd4-4b17-8249-727cfc7601d4.webp",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "165885873489ed4205": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "“i want to die with my blue jeans on.”<br><br>",
+        "customer_name": "- Andy Warhol",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16588584538fa2cc42": {
+      "type": "section-hero-banner",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/shopall.png",
+        "mob_img": "shopify:\/\/shop_images\/shopall.png",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "font_color": "#ffffff",
+        "text": "",
+        "link_text": "",
+        "link": "",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "1658861824a4800fb8": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/shopall.png",
+        "mob_img": "shopify:\/\/shop_images\/shopallm.png",
+        "img_url": "shopify:\/\/collections\/women-denim",
+        "img_width": "extra-large"
+      }
+    },
+    "16588724657f793f86": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658859614dcb8564c",
+    "165886176250d4e191",
+    "165885973385360629",
+    "1658776129371054d1",
+    "1658852911d1cd7680",
+    "1658775060019bd094",
+    "165885414145c1ee2e",
+    "165877877094ff271d",
+    "165885382808a73293",
+    "165877456896b1918c",
+    "1658774963f0bfad09",
+    "16587783407dad49e4",
+    "165885873489ed4205",
+    "16588584538fa2cc42",
+    "1658861824a4800fb8",
+    "16588724657f793f86"
+  ]
+}

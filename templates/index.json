@@ -5,10 +5,10 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/newdesktop.jpg",
-        "mob_img": "shopify:\/\/shop_images\/newmobile_70223785-4360-420e-b85c-22360b4fa07e.jpg",
+        "desk_img": "shopify:\/\/shop_images\/indigobleachedstudiotee_01_30b39c73-991a-492d-8b2d-c862ac04b8f0.jpg",
+        "mob_img": "shopify:\/\/shop_images\/indigobleachedstudiotee_01_30b39c73-991a-492d-8b2d-c862ac04b8f0.jpg",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
-        "img_width": "full"
+        "img_width": "large"
       }
     },
     "16493441673bde7dd8": {
@@ -18,11 +18,11 @@
         "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
-        "title": "the \"strange sights\" <br>& \"well wishes\" tee",
+        "title": "the indigo studio tee 013",
         "title_font": "headline__din",
-        "text": "hand-drawn designs by matt. <br>screen printed in nashville.<br><br>",
+        "text": "a limited edition run of hand-dyed indigo pocket tees that we dyed, bleached down in our studio, then set out to fade in the sun. each one becoming a different piece of art. no two t-shirts are exactly alike.  <br><br>limited edition of 200.<br><br>",
         "btn_text": "Shop Now",
-        "btn_url": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-content",
         "show_button": true
       }
     },
@@ -123,12 +123,13 @@
     },
     "164934473347e72eb5": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/grid_923d1c2e-da1e-4b7d-90dc-a4567e8e3ed5.jpg",
         "mob_img": "shopify:\/\/shop_images\/grid_923d1c2e-da1e-4b7d-90dc-a4567e8e3ed5.jpg",
-        "img_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
+        "img_url": "",
         "img_width": "full"
       }
     },
@@ -144,6 +145,7 @@
     },
     "1649344991aebfc9bf": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
@@ -155,6 +157,7 @@
     },
     "1649345876722a5b9b": {
       "type": "section-txt-link-btn",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
@@ -162,7 +165,7 @@
         "pretitle": "",
         "title": "barton slim ojai & <br>augusta in washed white",
         "title_font": "headline__din",
-        "text": "our most popular men's fit, and and exciting, brand new, women's fit. both sewn from a beautiful 12oz Mount Vernon Mills canvas.",
+        "text": "our most popular men's fit, and exciting, brand new, women's fit. both sewn from a beautiful 12oz Mount Vernon Mills canvas.",
         "btn_text": "",
         "btn_url": "",
         "show_button": false
@@ -170,6 +173,7 @@
     },
     "16493459270f2a9122": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
@@ -181,6 +185,7 @@
     },
     "16493467776a7fccf2": {
       "type": "section-txt-link-btn",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
@@ -199,6 +204,7 @@
       "settings": {
         "choose_collection": "women",
         "title": "",
+        "title_font": "headline__din",
         "btn_text": "SHOP WOMEN",
         "btn_url": "",
         "show_border": true
@@ -209,6 +215,7 @@
       "settings": {
         "choose_collection": "men",
         "title": "",
+        "title_font": "headline__din",
         "btn_text": "SHOP MEN",
         "btn_url": "",
         "show_border": false
@@ -274,7 +281,7 @@
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/sierra_8c35c83d-5ebf-4c75-883c-efb8bb40bb0f.jpg",
         "mob_img": "shopify:\/\/shop_images\/sierra_8c35c83d-5ebf-4c75-883c-efb8bb40bb0f.jpg",
-        "img_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks",
+        "img_url": "",
         "img_width": "large"
       }
     },
@@ -292,13 +299,14 @@
         "products_per_row": 2,
         "title": "top picks",
         "title_font": "headline__din",
-        "text": "items to love and use every single day.thoughtfully designed, and carefully made, these are a few of our favorite things.",
+        "text": "items to love and use every single day. thoughtfully designed, and carefully made, these are a few of our favorite things.",
         "btn_text": "see more",
         "btn_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks"
       }
     },
     "1658256369bac418c8": {
       "type": "section-editorial-text-block",
+      "disabled": true,
       "blocks": {
         "5c673d71-c55a-4358-a7a6-ef61d672f133": {
           "type": "info",
