@@ -14,13 +14,13 @@
         "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/landscape.png",
         "mob_img": "shopify:\/\/shop_images\/catherine-natural01_1200x_c77e8955-5436-4122-8a9f-2543ff7efb74.webp",
-        "img_url": "",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/women-denim",
         "main_title": "women's denim",
         "title_font": "headline__din",
         "font_color": "#ffffff",
         "text": "",
         "link_text": "",
-        "link": "#",
+        "link": "https:\/\/imogeneandwillie.com\/collections\/women-denim",
         "show_button": false,
         "show_down_arrow": false
       }
@@ -301,7 +301,7 @@
     "1658861824a4800fb8": {
       "type": "section-image",
       "settings": {
-        "mobile_hide": false,
+        "mobile_hide": true,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/shopall.png",
         "mob_img": "shopify:\/\/shop_images\/shopallm.png",
@@ -309,19 +309,44 @@
         "img_width": "extra-large"
       }
     },
-    "16588724657f793f86": {
+    "16589562795f95697c": {
+      "type": "product-video-story",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "wrap_title": "",
+        "top_text": "",
+        "bottom_text": "",
+        "link_text": "read more...",
+        "btn_url": "shopify:\/\/collections\/women-denim",
+        "btn": "shop all women's denim",
+        "add_video": true,
+        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/734144154\/rendition\/720p\/file.mp4?loc=external&signature=0a785a5c74a86e3b2487096e16ca1a1dfe181237e27bbf357888785e441d4f19"
+      }
+    },
+    "1658956374451936c5": {
+      "type": "section-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/734144154\/rendition\/720p\/file.mp4?loc=external&signature=0a785a5c74a86e3b2487096e16ca1a1dfe181237e27bbf357888785e441d4f19",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/734144154\/rendition\/720p\/file.mp4?loc=external&signature=0a785a5c74a86e3b2487096e16ca1a1dfe181237e27bbf357888785e441d4f19",
+        "video_controls": false
+      }
+    },
+    "165895645468fc7c90": {
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
-        "desktop_hide": false,
+        "desktop_hide": true,
         "text_align": "center",
         "pretitle": "",
         "title": "",
         "title_font": "headline__arno",
         "text": "",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
+        "btn_text": "shop all women's denim",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/women-denim",
+        "show_button": true
       }
     }
   },
@@ -342,6 +367,8 @@
     "165885873489ed4205",
     "16588584538fa2cc42",
     "1658861824a4800fb8",
-    "16588724657f793f86"
+    "16589562795f95697c",
+    "1658956374451936c5",
+    "165895645468fc7c90"
   ]
 }

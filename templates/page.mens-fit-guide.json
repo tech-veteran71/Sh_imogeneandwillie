@@ -19,13 +19,24 @@
         "show_down_arrow": true
       }
     },
+    "1658954396851fc6b5": {
+      "type": "section-rich-text",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "bg_color": "#f7f6f4",
+        "text": "too often, jean styles are born out of a fashion trend or modern innovation. <br><br>our jeans were created as a reaction to what wasn’t happening.",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
     "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#f7f6f3",
+        "desk_bg_color": "#ffffff",
+        "mob_bg_color": "#ffffff",
         "desk_img": "shopify:\/\/shop_images\/i_w__010553.jpg",
         "mob_img": "shopify:\/\/shop_images\/bartonslimpureindigo_10_1200x_da6b4df7-57d7-49e0-b39f-bd630d9c8421.webp",
         "img_url": "",
@@ -45,7 +56,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#F7F6F3",
+        "background_color": "#ffffff",
         "choose_collection": "barton-slim",
         "show_title": true,
         "show_subtitle": true,
@@ -63,8 +74,8 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/charlie-rigid-jp03_1200x_c9b77fb0-94b1-4e65-aea0-d4b64cdd0bf7.webp",
         "mob_img": "shopify:\/\/shop_images\/charlie-rigid-jp08-2_1200x_2c570353-0527-48b9-8d49-8071b1da8569.webp",
         "img_url": "",
@@ -84,7 +95,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#F7F6F3",
+        "background_color": "#f7f6f3",
         "choose_collection": "charlie",
         "show_title": true,
         "show_subtitle": true,
@@ -142,7 +153,7 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#ffffff",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/CZ1A4050.jpg",
         "mob_img": "shopify:\/\/shop_images\/williejp-07_1200x_962a41d7-397f-407d-bcac-3297e9686487.webp",
         "img_url": "",
@@ -151,10 +162,47 @@
         "title_font": "headline__arno",
         "text": "our very first men’s fit, named for carrie’s grandfather.  most jean styles out there are born from trends or modern innovations. inspired by matt’s personal archive of vintage jeans, the willie can be summed up in one word: timeless.<br><br>",
         "btn_text": "shop all",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/collections\/willie",
         "change_alignment": true,
         "show_btn": false,
         "show_link": false
+      }
+    },
+    "1659387799b07d0daf": {
+      "type": "section-diptych",
+      "blocks": {
+        "9c9a384a-e0e6-4688-8af8-f5011864e7c4": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/bartonslim-draper01.jpg",
+            "img_mob": "shopify:\/\/shop_images\/bartonslim-draper01.jpg",
+            "pre_title": "( back in stock )",
+            "title": "barton slim draper",
+            "btn_text": "Shop now",
+            "link_url": "",
+            "link_text": "barton slim da"
+          }
+        },
+        "81c54925-2e84-440e-ae5b-f520bf2f74c6": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/henry-lot-1-01.jpg",
+            "img_mob": "shopify:\/\/shop_images\/henry-lot-1-01.jpg",
+            "pre_title": "( New Arrival )",
+            "title": "vidalia lot #3",
+            "btn_text": "Shop All",
+            "link_url": "",
+            "link_text": "vidalia"
+          }
+        }
+      },
+      "block_order": [
+        "9c9a384a-e0e6-4688-8af8-f5011864e7c4",
+        "81c54925-2e84-440e-ae5b-f520bf2f74c6"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false
       }
     },
     "1658866129d79fc526": {
@@ -162,7 +210,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#ffffff",
+        "background_color": "#f7f6f3",
         "choose_collection": "willie",
         "show_title": true,
         "show_subtitle": true,
@@ -175,82 +223,188 @@
         "link_url": ""
       }
     },
-    "165887080613c0fbaf": {
-      "type": "section-asymmetric",
+    "1658948975c2ed6c49": {
+      "type": "section-hero-grid",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "bg_color": "#ffffff",
+        "desk_img": "shopify:\/\/shop_images\/willie07.jpg",
+        "mob_img": "shopify:\/\/shop_images\/willie07.jpg",
+        "link_url": "",
+        "title": "all styles broken down by fabric",
+        "link_text": "view fabric guide ->"
+      }
+    },
+    "16589491689f054d60": {
+      "type": "section-symmetric-content",
       "blocks": {
-        "1d882404-9fe2-4c02-aa36-e9e9c4cebef8": {
-          "type": "image",
+        "a585fd65-54af-4607-9e23-c25bc0c5c190": {
+          "type": "fabric_info",
           "settings": {
-            "desk_img": "shopify:\/\/shop_images\/ol_02.jpg",
-            "mob_img": "shopify:\/\/shop_images\/ol_02.jpg",
-            "title": "",
-            "text": "",
-            "btn": false,
-            "link_text": "fabric guide ->",
-            "link_url": ""
-          }
-        },
-        "ff5df9b0-81f6-454f-85bc-db16ab766f97": {
-          "type": "image",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
-            "mob_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
-            "title": "Men's Denim",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp",
-            "btn": false,
-            "link_text": "Shop ALL ->",
-            "link_url": ""
-          }
-        },
-        "64b2ff5c-60e9-4bfc-a839-0d106d7a9306": {
-          "type": "image",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/willie07.jpg",
-            "mob_img": "shopify:\/\/shop_images\/willie07.jpg",
+            "img": "shopify:\/\/shop_images\/bartonslim-draper01.jpg",
             "title": "fabric guide",
-            "text": "fabric guide",
-            "btn": false,
-            "link_text": "new arrivals->",
-            "link_url": ""
+            "title_font": "headline__din",
+            "text": "all of our styles broken down by fabric: rigid, washed, black, etc.",
+            "link_text": "Shop by fabric ->",
+            "link_url": "shopify:\/\/pages\/fabric-guide",
+            "use_btn": false
+          }
+        },
+        "acf58245-7cc4-4bcc-9d43-f262e50625d4": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/henry-lot-1-01.jpg",
+            "title": "SHOP ALL",
+            "title_font": "headline__din",
+            "text": "everything in one place — see it all and go at your own pace.",
+            "link_text": "shop men's denim ->",
+            "link_url": "shopify:\/\/collections\/men-denim",
+            "use_btn": false
           }
         }
       },
       "block_order": [
-        "1d882404-9fe2-4c02-aa36-e9e9c4cebef8",
-        "ff5df9b0-81f6-454f-85bc-db16ab766f97",
-        "64b2ff5c-60e9-4bfc-a839-0d106d7a9306"
+        "a585fd65-54af-4607-9e23-c25bc0c5c190",
+        "acf58245-7cc4-4bcc-9d43-f262e50625d4"
       ],
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "",
-        "change_alignment": false,
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
+        "main_title": ""
       }
     },
-    "1658870097ed79d8de": {
+    "165895065462683bab": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "desk_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16589505183cb8746a": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "men-denim",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": false,
+        "products_to_show": 12,
+        "products_per_row": 2,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "165895022280355359": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
+        "mob_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "1659391767c781b5a3": {
       "type": "section-hero-banner",
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
-        "desk_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
+        "desk_img": "shopify:\/\/shop_images\/Fit-Guide-Header_156d06f9-7f8b-49fd-8d2c-096f0d7df427.jpg",
+        "mob_img": "shopify:\/\/shop_images\/Fit-Guide-Header_156d06f9-7f8b-49fd-8d2c-096f0d7df427.jpg",
         "img_url": "",
-        "main_title": "",
-        "title_font": "headline__din",
-        "font_color": "#222222",
-        "text": "",
-        "link_text": "",
-        "link": "",
+        "main_title": "peach truck",
+        "title_font": "headline__arno",
+        "font_color": "#f7f6f4",
+        "text": "we released  a shirt for the peach trucj and this is it. have a look and give it a feel. its the full on summer vibe.",
+        "link_text": "shop now",
+        "link": "#",
         "show_button": true,
         "show_down_arrow": false
+      }
+    },
+    "1659392353de0da7a8": {
+      "type": "section-image-gallery",
+      "blocks": {
+        "7ed65cfa-0f52-4e48-9a3f-cebecdeaaf06": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/homepage_eff8a9ec-1d60-441b-8aba-a9043552ad0d.jpg"
+          }
+        },
+        "902c6ce0-4f2e-4b4e-9213-4b26bfebedbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3069.png"
+          }
+        },
+        "d98da416-9fd1-4a8f-83df-3432d64b8d2f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10longyears_-3.jpg"
+          }
+        },
+        "79f84c60-69b2-4eda-9688-48ab1fc163cc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bartonslim-keystone_08.jpg"
+          }
+        },
+        "7e9536bc-9a3e-42f5-a0d3-baecdf339cb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_81189424-56d6-4a60-b86d-3cc3d53e69a6.jpg"
+          }
+        },
+        "41e9813d-51b3-432a-a090-28d37546cceb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/catherine-natural01_1200x_c77e8955-5436-4122-8a9f-2543ff7efb74.webp"
+          }
+        },
+        "f47b3bfa-54e1-4a62-9d09-a3ff55735a1c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_end.png"
+          }
+        },
+        "e7836fe1-d3aa-44e7-8193-5712a775694f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/i_w__011028.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "7ed65cfa-0f52-4e48-9a3f-cebecdeaaf06",
+        "902c6ce0-4f2e-4b4e-9213-4b26bfebedbd",
+        "d98da416-9fd1-4a8f-83df-3432d64b8d2f",
+        "79f84c60-69b2-4eda-9688-48ab1fc163cc",
+        "7e9536bc-9a3e-42f5-a0d3-baecdf339cb4",
+        "41e9813d-51b3-432a-a090-28d37546cceb",
+        "f47b3bfa-54e1-4a62-9d09-a3ff55735a1c",
+        "e7836fe1-d3aa-44e7-8193-5712a775694f"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false
       }
     }
   },
   "order": [
     "main",
+    "1658954396851fc6b5",
     "165238392826fd90de",
     "16523839440f52af5e",
     "1652384122d9f7ad26",
@@ -258,8 +412,14 @@
     "1652384267583aae78",
     "165238448800fa371e",
     "165238451517fd2aad",
+    "1659387799b07d0daf",
     "1658866129d79fc526",
-    "165887080613c0fbaf",
-    "1658870097ed79d8de"
+    "1658948975c2ed6c49",
+    "16589491689f054d60",
+    "165895065462683bab",
+    "16589505183cb8746a",
+    "165895022280355359",
+    "1659391767c781b5a3",
+    "1659392353de0da7a8"
   ]
 }

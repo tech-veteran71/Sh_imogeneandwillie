@@ -1,7 +1,7 @@
 .custom-content-section {
   background-color: var(--color-Xlight-wheat);
   position: relative;
-  padding-top: 70px;
+  padding-top: 7rem;
 }
 /* .custom-content-section::after {
   content: "";
@@ -29,20 +29,20 @@
   color: var(--color-normal-black);
 }
 .custom-content-section .main-text {
-  max-width: 950px;
+  max-width: 95rem;
   margin: 0 auto;
 }
 .custom-content-section .content-wrap {
   margin: 0 auto;
   padding-bottom: 4.25rem;
-  max-width: 1270px;
+  max-width: 127rem;
   justify-content: center;
   display: flex;
 }
 .custom-content-section .text {
   max-width: 50%;
   flex: 50%;
-  padding: 0 2.6em;
+  padding: 0 3rem;
 }
 .custom-content-section .text p {
   color: var(--color-normal-black);
@@ -57,7 +57,7 @@
 }
 .custom-content-section .images {
   display: flex;
-  margin-bottom: -55px;
+  margin-bottom: -5.5rem;
 }
 .custom-content-section .image-1 {
   height: 26em;
@@ -164,7 +164,7 @@
     margin-bottom: 0.8em;
   }
   .custom-content-section .main-text {
-    max-width: 710px;
+    max-width: 71rem;
   }
   .custom-content-section .text {
     padding: 0 1em;
@@ -174,12 +174,16 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .custom-content-section .text {
+    max-width: 100%;
+    flex: 100%;
+  }
   .custom-content-section {
     padding: 60px 0;
   }
-  .custom-content-section .main-title {
+  /* .custom-content-section .main-title {
     display: none;
-  }
+  } */
   .custom-content-section .main-text {
     max-width: 275px;
   }
@@ -192,11 +196,10 @@
   .custom-content-section .header-wrap {
     margin-bottom: 0;
   }
-  .custom-content-section .content-wrap .text:last-child {
+  /* .custom-content-section .content-wrap .text:last-child {
     display: none;
-  }
+  } */
   .custom-content-section .content-wrap .text {
-    max-width: 305px;
     flex: 100%;
     padding: 0;
   }
@@ -204,7 +207,9 @@
     margin-bottom: 15px;
   }
   .custom-content-section .content-wrap {
-    margin: 0 auto 65px;
+    margin: 0 auto 6.5rem;
+    padding: 0 3.5rem;
+    flex-wrap: wrap;
   }
   .custom-content-section .image_with-text {
     flex-wrap: wrap;
@@ -214,7 +219,7 @@
     flex: 100%;
   }
   .custom-content-section .beta {
-    margin: 45px 0 0;
+    margin: 4.5rem 0 0;
   }
   .custom-content-section .mob-images {
     display: block;
@@ -236,7 +241,7 @@
     display: none;
   }
   .custom-content-section .mob-image1 {
-    margin: 45px auto 35px;
+    margin: 4.5rem auto 3.5rem;
     display: block;
     max-width: 90%;
   }

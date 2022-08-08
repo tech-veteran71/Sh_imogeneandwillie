@@ -89,13 +89,13 @@
         "img": "shopify:\/\/shop_images\/wyatt-bleach_02.jpg",
         "title": "file under: process",
         "wrap_title": "screenprinted here in nashville",
-        "top_text": "developed in-house from hand-drawn art by matt, and inspired by the thousands of vintage tees we've gotten our hands on over the years.",
-        "bottom_text": "so much goes into everything that we do and our graphic tees are no different. hours of time are spent over the press making sure every color, application, line is exactly how we envisioned it. ryan nole at Kangaroo Press, our primary screen printing partner, takes our artwork and brings it to life.",
+        "top_text": "so much goes into everything that we do and our graphic tees are no different. hours of time are spent over the press making sure every color, application, line is exactly how we envisioned it. ryan nole at Kangaroo Press, our primary screen printing partner, takes our artwork and brings it to life.",
+        "bottom_text": "",
         "link_text": "learn more >",
         "btn_url": "",
         "btn": "learn more about our process >",
         "add_video": true,
-        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/a_day_in_the_life-dev-test.mp4?v=1652201012"
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09a59ce507e4999beb5fa14e7ab236c.mp4"
       }
     },
     "165220110819e632f3": {
@@ -118,6 +118,7 @@
     },
     "16535980161ec26cd1": {
       "type": "section-parallax",
+      "disabled": true,
       "settings": {
         "mobile_hide": true,
         "desktop_hide": false,
