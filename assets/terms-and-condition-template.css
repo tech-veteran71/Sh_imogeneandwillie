@@ -14,7 +14,7 @@
   padding: 1em 1.2em;
   width: 100%;
 }
-.terms-and-service-page .main-title {
+/* .terms-and-service-page .main-title {
   font-size: 2.6rem;
   font-family: var(--font-arno-display);
   font-weight: normal;
@@ -22,13 +22,13 @@
   letter-spacing: 2px;
   margin: 0;
   line-height: 1.4;
-}
+} */
 .terms-and-service-page .terms-and-condition {
   width: 85%;
   margin: 1.2em auto 0;
   position: relative;
 }
-.terms-and-service-page .terms-and-condition p,
+/* .terms-and-service-page .terms-and-condition p,
 .terms-and-service-page .terms-and-condition h3 {
   font-size: 1.2rem;
   font-family: var(--font-gothic);
@@ -37,23 +37,23 @@
   margin-bottom: 2em;
   margin-top: 0;
   letter-spacing: 0.1px;
-}
+} */
 .terms-and-service-page .terms-and-condition p:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .faq-page {
+  /* .faq-page {
     font-size: 2vw;
-  }
+  } */
   .terms-and-service-page .terms-and-condition {
     width: 90%;
   }
-  .terms-and-service-page .terms-and-condition h3,
+  /* .terms-and-service-page .terms-and-condition h3,
   .terms-and-service-page .terms-and-condition p {
     font-size: 1.2rem;
     margin-bottom: 1.6em;
-  }
+  } */
 }
 @media screen and (max-width: 990px) {
   .terms-and-service-page .terms-and-condition {
@@ -77,10 +77,10 @@
   .terms-and-service-page .main-wrapper {
     padding: 0 0 40px;
   }
-  .terms-and-service-page .terms-and-condition h3,
+  /* .terms-and-service-page .terms-and-condition h3,
   .terms-and-service-page .terms-and-condition p {
     font-size: 1.2rem;
-  }
+  } */
   .terms-and-service-page .terms-and-condition {
     width: 85%;
     margin-top: 50px;

@@ -5,10 +5,10 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/indigobleachedstudiotee_01_30b39c73-991a-492d-8b2d-c862ac04b8f0.jpg",
-        "mob_img": "shopify:\/\/shop_images\/indigobleachedstudiotee_01_30b39c73-991a-492d-8b2d-c862ac04b8f0.jpg",
+        "desk_img": "shopify:\/\/shop_images\/trouble01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/trouble01.jpg",
         "img_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
-        "img_width": "large"
+        "img_width": "extra-large"
       }
     },
     "16493441673bde7dd8": {
@@ -18,17 +18,258 @@
         "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
-        "title": "the indigo studio tee 013",
-        "title_font": "headline__din",
-        "text": "a limited edition run of hand-dyed indigo pocket tees that we dyed, bleached down in our studio, then set out to fade in the sun. each one becoming a different piece of art. no two t-shirts are exactly alike.  <br><br>limited edition of 200.<br><br>",
+        "title": "the \"trouble ahead\" studio tee",
+        "title_font": "headline__arno",
+        "text": "the next step in our ongoing obsession with tie-dye, bootleg t-shirts, and the timeless & unexpected.⁠  ⁠limited edition of 200.<br><br>",
         "btn_text": "Shop Now ->",
         "btn_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-content",
+        "show_button": false
+      }
+    },
+    "16493477614696a5fd": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "graphic-content",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "SHOP GRAPHIC TEES",
+        "btn_url": "shopify:\/\/collections\/graphic-content"
+      }
+    },
+    "164934473347e72eb5": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
+    "1659992508c5071a80": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "we'll never claim that our quest to make the perfect pair of jeans is complete...  but sometimes, we think we're pretty damn close.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16599926351d933102": {
+      "type": "section-content-spec-collection",
+      "blocks": {
+        "16c2432f-d6ea-4a3f-8d73-e0b4a3d393a0": {
+          "type": "collection",
+          "settings": {
+            "collection": "catherine-1"
+          }
+        },
+        "ef4ebb9f-80ce-4b62-a14f-1955bb9863ce": {
+          "type": "collection",
+          "settings": {
+            "collection": "isabelle"
+          }
+        },
+        "0252601c-f4ab-4f81-923b-2d155d867102": {
+          "type": "collection",
+          "settings": {
+            "collection": "harper-1"
+          }
+        },
+        "b4219655-9546-4673-bc2e-c7e9ba686230": {
+          "type": "collection",
+          "settings": {
+            "collection": "wyatt-1"
+          }
+        },
+        "8a4fd2a0-7acf-4ef4-bc55-584a7e872195": {
+          "type": "collection",
+          "settings": {
+            "collection": "sophie-1"
+          }
+        },
+        "a6c79cab-0782-496e-9964-2fcd9a6a6e42": {
+          "type": "collection",
+          "settings": {
+            "collection": "augusta"
+          }
+        },
+        "d3fa18fa-f9c0-4985-ab96-a67e1553f725": {
+          "type": "collection",
+          "settings": {
+            "collection": "james"
+          }
+        },
+        "011b991b-f050-41ef-958f-4d1303ea071c": {
+          "type": "collection",
+          "settings": {
+            "collection": "imogene"
+          }
+        },
+        "4d3acd1c-950a-4744-b05e-d576d4bc9b47": {
+          "type": "collection",
+          "settings": {
+            "collection": "liza-1"
+          }
+        },
+        "d28253f9-e3bf-43b6-b2e6-80e51ee81027": {
+          "type": "collection",
+          "settings": {
+            "collection": "elizabeth"
+          }
+        },
+        "26456bc5-46d9-43a6-84e0-25b3d73c8d33": {
+          "type": "collection",
+          "settings": {
+            "collection": "elsie"
+          }
+        }
+      },
+      "block_order": [
+        "16c2432f-d6ea-4a3f-8d73-e0b4a3d393a0",
+        "ef4ebb9f-80ce-4b62-a14f-1955bb9863ce",
+        "0252601c-f4ab-4f81-923b-2d155d867102",
+        "b4219655-9546-4673-bc2e-c7e9ba686230",
+        "8a4fd2a0-7acf-4ef4-bc55-584a7e872195",
+        "a6c79cab-0782-496e-9964-2fcd9a6a6e42",
+        "d3fa18fa-f9c0-4985-ab96-a67e1553f725",
+        "011b991b-f050-41ef-958f-4d1303ea071c",
+        "4d3acd1c-950a-4744-b05e-d576d4bc9b47",
+        "d28253f9-e3bf-43b6-b2e6-80e51ee81027",
+        "26456bc5-46d9-43a6-84e0-25b3d73c8d33"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "pre_title": "",
+        "title": "women's styles",
+        "title_font": "headline__arno",
+        "btn_text": "Shop ALL",
+        "btn_url": "shopify:\/\/collections\/i-w-womens-denim"
+      }
+    },
+    "1651088625b53b1bea": {
+      "type": "section-content-spec-collection",
+      "blocks": {
+        "592271cd-9a9d-4355-8d3a-df3d37d9886a": {
+          "type": "collection",
+          "settings": {
+            "collection": "willie"
+          }
+        },
+        "3628749d-631f-4cf8-8903-ee660c0b8ab4": {
+          "type": "collection",
+          "settings": {
+            "collection": "henry"
+          }
+        },
+        "d11e1491-d409-4daa-ac29-28827b630867": {
+          "type": "collection",
+          "settings": {
+            "collection": "barton-slim"
+          }
+        },
+        "f94afc27-cf54-44df-ae41-297c965ee12f": {
+          "type": "collection",
+          "settings": {
+            "collection": "charlie"
+          }
+        }
+      },
+      "block_order": [
+        "592271cd-9a9d-4355-8d3a-df3d37d9886a",
+        "3628749d-631f-4cf8-8903-ee660c0b8ab4",
+        "d11e1491-d409-4daa-ac29-28827b630867",
+        "f94afc27-cf54-44df-ae41-297c965ee12f"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "pre_title": "",
+        "title": "men's styles",
+        "title_font": "headline__arno",
+        "btn_text": "Shop All",
+        "btn_url": ""
+      }
+    },
+    "1649345031dfcd3b10": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"i want to die with my blue jeans on.\"",
+        "customer_name": "- andy warhol",
+        "background_color": "#f7f6f3"
+      }
+    },
+    "16493465150e689548": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
+        "mob_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
+        "img_url": "shopify:\/\/pages\/nashville",
+        "img_width": "large"
+      }
+    },
+    "1649347110c702605f": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "our home",
+        "title_font": "h1",
+        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.<br><br>",
+        "btn_text": "continue reading →",
+        "btn_url": "shopify:\/\/pages\/nashville",
         "show_button": false
       }
     },
     "1657045274b79dc7bf": {
       "type": "section-recent-moments",
       "blocks": {
+        "68d11365-3667-43f2-9a9f-76c358d184b3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/peachtruck_04.jpg",
+            "title": "7.28.22",
+            "link": "shopify:\/\/pages\/peach-truck-tee"
+          }
+        },
+        "21f68f36-cb71-43be-9256-5c5e4ef4b7f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/somewhereelse_02.webp",
+            "title": "7.27.22",
+            "link": "shopify:\/\/pages\/somewhere-else-bandana"
+          }
+        },
+        "e40224b4-22d3-443f-b557-ea7c612ad651": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/studiotee013_03.webp",
+            "title": "7.22.22",
+            "link": "shopify:\/\/pages\/indigo-studio-no-013-13-year-anniversary"
+          }
+        },
         "bef734f5-df71-4de0-8fb3-5cea9cbed20d": {
           "type": "image",
           "settings": {
@@ -103,6 +344,9 @@
         }
       },
       "block_order": [
+        "68d11365-3667-43f2-9a9f-76c358d184b3",
+        "21f68f36-cb71-43be-9256-5c5e4ef4b7f2",
+        "e40224b4-22d3-443f-b557-ea7c612ad651",
         "bef734f5-df71-4de0-8fb3-5cea9cbed20d",
         "98cb0948-a256-4e2d-961b-5f2aa735956c",
         "44ccf7f1-f69c-4de1-9520-0908b80207ab",
@@ -121,299 +365,27 @@
         "url": "shopify:\/\/pages\/recent-moments"
       }
     },
-    "164934473347e72eb5": {
-      "type": "section-image",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/grid_923d1c2e-da1e-4b7d-90dc-a4567e8e3ed5.jpg",
-        "mob_img": "shopify:\/\/shop_images\/grid_923d1c2e-da1e-4b7d-90dc-a4567e8e3ed5.jpg",
-        "img_url": "",
-        "img_width": "full"
-      }
-    },
-    "1649345031dfcd3b10": {
-      "type": "section-quote",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "review": "\"i want to die with my blue jeans on.\"",
-        "customer_name": "<br>- andy warhol",
-        "background_color": "#f7f6f3"
-      }
-    },
-    "1649344991aebfc9bf": {
-      "type": "section-image",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/I_W4090.jpg",
-        "mob_img": "shopify:\/\/shop_images\/I_W4090.jpg",
-        "img_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta?mc_cid=e02e9dbe1a&mc_eid=UNIQID&utm_campaign=e02e9dbe1a-EMAIL_CAMPAIGN_2022_05_24_07_20&utm_medium=email&utm_source=Imogene%20%2B%20Willie%20Friends&utm_term=0_6a83549370-e02e9dbe1a-",
-        "img_width": "large"
-      }
-    },
-    "1649345876722a5b9b": {
-      "type": "section-txt-link-btn",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "barton slim ojai & <br>augusta in washed white",
-        "title_font": "headline__din",
-        "text": "our most popular men's fit, and exciting, brand new, women's fit. both sewn from a beautiful 12oz Mount Vernon Mills canvas.",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
-      }
-    },
-    "16493459270f2a9122": {
-      "type": "section-image",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/natgrid_1200x_0e676c0e-33cf-4434-9da6-32d9cbdbcab0.png",
-        "mob_img": "shopify:\/\/shop_images\/natgrid_1200x_0e676c0e-33cf-4434-9da6-32d9cbdbcab0.png",
-        "img_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta?mc_cid=e02e9dbe1a&mc_eid=UNIQID&utm_campaign=e02e9dbe1a-EMAIL_CAMPAIGN_2022_05_24_07_20&utm_medium=email&utm_source=Imogene%20%2B%20Willie%20Friends&utm_term=0_6a83549370-e02e9dbe1a-",
-        "img_width": "large"
-      }
-    },
-    "16493467776a7fccf2": {
-      "type": "section-txt-link-btn",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "",
-        "title_font": "headline__arno",
-        "text": "",
-        "btn_text": "shop now ->",
-        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/barton-slim-augusta?mc_cid=e02e9dbe1a&mc_eid=UNIQID&utm_campaign=e02e9dbe1a-EMAIL_CAMPAIGN_2022_05_24_07_20&utm_medium=email&utm_source=Imogene%20%2B%20Willie%20Friends&utm_term=0_6a83549370-e02e9dbe1a-",
-        "show_button": false
-      }
-    },
-    "16502992523f1a586b": {
-      "type": "section-mobile-slider",
-      "settings": {
-        "choose_collection": "women",
-        "title": "",
-        "title_font": "headline__din",
-        "btn_text": "SHOP WOMEN",
-        "btn_url": "",
-        "show_border": true
-      }
-    },
-    "16491902805e37b9ac": {
-      "type": "section-mobile-slider",
-      "settings": {
-        "choose_collection": "men",
-        "title": "",
-        "title_font": "headline__din",
-        "btn_text": "SHOP MEN",
-        "btn_url": "",
-        "show_border": false
-      }
-    },
-    "16510889927e4f6edc": {
-      "type": "section-content-cards",
-      "blocks": {
-        "1b7c16a7-8c1d-4005-8a46-6812c7b302a2": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/homepage_eff8a9ec-1d60-441b-8aba-a9043552ad0d.jpg",
-            "mob_img": "shopify:\/\/shop_images\/homepage_eff8a9ec-1d60-441b-8aba-a9043552ad0d.jpg",
-            "title": "Peach Truck",
-            "text": "we partnered with our friends at the peach truch to create something really special. a limited release tee that was inspired by the farmers markets we visited as kids.",
-            "link_url": ""
-          }
-        },
-        "800c6e3c-4256-4518-b86a-e181e6124a4f": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
-            "mob_img": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
-            "title": "Hellfire",
-            "text": "no, this is not stranger things. we created this shirt months before the new season came out. does anyone believe us? no — but i saw it on tik-tok once.",
-            "link_url": ""
-          }
-        },
-        "bd2fded9-23aa-4e93-95ed-bd963701cb12": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/bolt-bl01.jpg",
-            "mob_img": "shopify:\/\/shop_images\/bolt-bl01.jpg",
-            "title": "Black Bolt Tee",
-            "text": "a tee thats part greatful dead, part huntington beach, part screenprint experimentation. one of our most popular tees, back in stock — for now.",
-            "link_url": ""
-          }
-        },
-        "4c9338be-470d-46d3-8a6d-62d2ae7058b0": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/i_w__011028.jpg",
-            "mob_img": "shopify:\/\/shop_images\/i_w__011028.jpg",
-            "title": "Somewhere Else",
-            "text": "here isn't somewhere we are often — minds running a thousand of miles an hour thinking about things all the way across the world. this bandana is a daydream, an escape to another time, somewhere else.",
-            "link_url": ""
-          }
-        },
-        "67a57083-0637-4bf2-b53b-85532a080e2b": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/indigobleachedstudiotee_01_30b39c73-991a-492d-8b2d-c862ac04b8f0.jpg",
-            "mob_img": "shopify:\/\/shop_images\/indigobleachedstudiotee_01_30b39c73-991a-492d-8b2d-c862ac04b8f0.jpg",
-            "title": "13 year anniversary tee",
-            "text": "birthdays are a cause for reflection and this year we just wanted to reflect on what we love doing — making homemade tees. each tee is handdipped indigo dyed and then bleach dyed and then sun bleached. why? because we love it.",
-            "link_url": ""
-          }
-        },
-        "1dc95ce3-8878-4f7d-b92f-861e730e2b8f": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/the_end.png",
-            "mob_img": "shopify:\/\/shop_images\/the_end.png",
-            "title": "the end tee",
-            "text": "inspired by an original painting by matt — we put our heads together to try to bring an impasto style painting aesthetic to a screen print and we are quite happy with the result.",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "1b7c16a7-8c1d-4005-8a46-6812c7b302a2",
-        "800c6e3c-4256-4518-b86a-e181e6124a4f",
-        "bd2fded9-23aa-4e93-95ed-bd963701cb12",
-        "4c9338be-470d-46d3-8a6d-62d2ae7058b0",
-        "67a57083-0637-4bf2-b53b-85532a080e2b",
-        "1dc95ce3-8878-4f7d-b92f-861e730e2b8f"
-      ],
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "main_title": "FEATURED PRODUCTS"
-      }
-    },
-    "16376680197e951999": {
-      "type": "collection--list",
-      "blocks": {
-        "b495a850-459b-4089-b928-5bc174a0b23b": {
-          "type": "collection_item",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/1a.webp",
-            "btn_text": "shop mens",
-            "link_url": "https:\/\/imogeneandwillie.com\/collections\/men"
-          }
-        },
-        "a5039d9b-141b-4eff-944e-c54ac4ff16e3": {
-          "type": "collection_item",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/1b.webp",
-            "btn_text": "shop womens",
-            "link_url": "https:\/\/imogeneandwillie.com\/collections\/women"
-          }
-        }
-      },
-      "block_order": [
-        "b495a850-459b-4089-b928-5bc174a0b23b",
-        "a5039d9b-141b-4eff-944e-c54ac4ff16e3"
-      ],
-      "settings": {
-      }
-    },
-    "16493465150e689548": {
-      "type": "section-image",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
-        "mob_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
-        "img_url": "shopify:\/\/pages\/nashville",
-        "img_width": "full"
-      }
-    },
-    "1649347110c702605f": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "our home",
-        "title_font": "headline__arno",
-        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.<br><br>",
-        "btn_text": "continue reading →",
-        "btn_url": "shopify:\/\/pages\/nashville",
-        "show_button": true
-      }
-    },
-    "1649347242ecc7083e": {
-      "type": "section-image",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/sierra_8c35c83d-5ebf-4c75-883c-efb8bb40bb0f.jpg",
-        "mob_img": "shopify:\/\/shop_images\/sierra_8c35c83d-5ebf-4c75-883c-efb8bb40bb0f.jpg",
-        "img_url": "",
-        "img_width": "large"
-      }
-    },
-    "16493477614696a5fd": {
+    "16599943395aa45761": {
       "type": "section-collection-grid",
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "top-picks",
         "show_title": true,
-        "show_subtitle": true,
+        "show_subtitle": false,
         "show_price": false,
         "show_badges": false,
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "top picks",
-        "title_font": "headline__din",
-        "text": "items to love and use every single day. thoughtfully designed, and carefully made, these are a few of our favorite things.",
-        "btn_text": "see more",
-        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks"
-      }
-    },
-    "1658256369bac418c8": {
-      "type": "section-editorial-text-block",
-      "blocks": {
-        "5c673d71-c55a-4358-a7a6-ef61d672f133": {
-          "type": "info",
-          "settings": {
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
-          }
-        },
-        "cd6bef4a-c9ce-415a-b333-08fc446127bb": {
-          "type": "info",
-          "settings": {
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
-          }
-        }
-      },
-      "block_order": [
-        "5c673d71-c55a-4358-a7a6-ef61d672f133",
-        "cd6bef4a-c9ce-415a-b333-08fc446127bb"
-      ],
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "pretitle": "(pre title)",
-        "main_title": "main title",
-        "main_text": "main text",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis"
+        "title_font": "headline__arno",
+        "text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things.",
+        "btn_text": "Shop All",
+        "btn_url": ""
       }
     },
     "1637735864c2bd7e13": {
       "type": "section-brand-promise",
-      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
@@ -424,195 +396,25 @@
         "title": "committed to making everything in the usa",
         "title_font": "headline__din",
         "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america",
-        "btn_text": "LEARN MORE",
+        "btn_text": "LEARN MORE ->",
         "link_url": "shopify:\/\/pages\/nashville",
-        "show_link": false
-      }
-    },
-    "164927862869965961": {
-      "type": "section-video-with-text",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "video_poster": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg",
-        "video_url": "https:\/\/vimeo.com\/429778321",
-        "video_controls": false,
-        "pre_title": "( circa 2012 )",
-        "title": "take a look back",
-        "title_font": "headline__arno",
-        "main_title": "HOW IT ALL STARTED",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
-        "show_link": false,
-        "btn_text": "LOREM IPSUM",
-        "btn_url": ""
-      }
-    },
-    "1650300377077f241e": {
-      "type": "section-image",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
-        "mob_img": "shopify:\/\/shop_images\/IMG_7910.jpg",
-        "img_url": "",
-        "img_width": "full"
-      }
-    },
-    "16510054628e91fa8a": {
-      "type": "section-newsletter",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text": "join the i+w mailing list",
-        "subtext": ""
-      }
-    },
-    "1651088625b53b1bea": {
-      "type": "section-content-spec-collection",
-      "disabled": true,
-      "blocks": {
-        "592271cd-9a9d-4355-8d3a-df3d37d9886a": {
-          "type": "collection",
-          "settings": {
-            "collection": "size-27"
-          }
-        },
-        "f94afc27-cf54-44df-ae41-297c965ee12f": {
-          "type": "collection",
-          "settings": {
-            "collection": "size-29"
-          }
-        },
-        "3628749d-631f-4cf8-8903-ee660c0b8ab4": {
-          "type": "collection",
-          "settings": {
-            "collection": "bottom-size-23"
-          }
-        },
-        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab": {
-          "type": "collection",
-          "settings": {
-            "collection": "bottom-size-24"
-          }
-        },
-        "b32c8c04-1511-4f44-a7ef-67bbc2bfb99f": {
-          "type": "collection",
-          "settings": {
-            "collection": "size-33"
-          }
-        },
-        "e8835101-43b6-425f-8723-da4df14dc00d": {
-          "type": "collection",
-          "settings": {
-            "collection": "bottom-size-38"
-          }
-        },
-        "9f3fac8d-c147-4f64-807c-089d64b303b5": {
-          "type": "collection",
-          "settings": {
-            "collection": "women-denim-35"
-          }
-        }
-      },
-      "block_order": [
-        "592271cd-9a9d-4355-8d3a-df3d37d9886a",
-        "f94afc27-cf54-44df-ae41-297c965ee12f",
-        "3628749d-631f-4cf8-8903-ee660c0b8ab4",
-        "1bb4b4e2-ff93-4e8d-a32b-1aafd3fda1ab",
-        "b32c8c04-1511-4f44-a7ef-67bbc2bfb99f",
-        "e8835101-43b6-425f-8723-da4df14dc00d",
-        "9f3fac8d-c147-4f64-807c-089d64b303b5"
-      ],
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "pre_title": "lorem ipsum",
-        "title": "lorem ipsum",
-        "title_font": "headline__din",
-        "btn_text": "Men’s denim",
-        "btn_url": "https:\/\/google.com"
-      }
-    },
-    "165108861515d33581": {
-      "type": "section-editorial-content",
-      "blocks": {
-        "c2142425-c70e-4932-a052-e6ccd984403f": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/supper.jpg",
-            "img_url": ""
-          }
-        },
-        "5e2c6b53-2b18-47f7-b781-854fd1b0c195": {
-          "type": "info",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "b03fc271-4b8f-4c84-beb2-10915a20e59b": {
-          "type": "info",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "569530c7-b2ae-42f4-9a5d-589c2295cd49": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/fpj-34_ca633883-0487-4363-a942-1883e41cf675.jpg",
-            "img_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "c2142425-c70e-4932-a052-e6ccd984403f",
-        "5e2c6b53-2b18-47f7-b781-854fd1b0c195",
-        "b03fc271-4b8f-4c84-beb2-10915a20e59b",
-        "569530c7-b2ae-42f4-9a5d-589c2295cd49"
-      ],
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/oyw1.jpg",
-        "desk_img_url": "https:\/\/google.com",
-        "mob_img1": "shopify:\/\/shop_images\/natdesktop.jpg",
-        "img_url1": "",
-        "mob_img2": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
-        "img_url2": "",
-        "overlay_img": "shopify:\/\/shop_images\/Untitled-3_copy.jpg",
-        "overlay_img_url": "",
-        "main_title": "LOREM IPSUM",
-        "main_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
-        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in <br> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis  laboris nisi ut aliquip ex ea commodo consequat."
+        "show_link": true
       }
     }
   },
   "order": [
     "1649343925c8d83679",
     "16493441673bde7dd8",
-    "1657045274b79dc7bf",
+    "16493477614696a5fd",
     "164934473347e72eb5",
+    "1659992508c5071a80",
+    "16599926351d933102",
+    "1651088625b53b1bea",
     "1649345031dfcd3b10",
-    "1649344991aebfc9bf",
-    "1649345876722a5b9b",
-    "16493459270f2a9122",
-    "16493467776a7fccf2",
-    "16502992523f1a586b",
-    "16491902805e37b9ac",
-    "16510889927e4f6edc",
-    "16376680197e951999",
     "16493465150e689548",
     "1649347110c702605f",
-    "1649347242ecc7083e",
-    "16493477614696a5fd",
-    "1658256369bac418c8",
-    "1637735864c2bd7e13",
-    "164927862869965961",
-    "1650300377077f241e",
-    "16510054628e91fa8a",
-    "1651088625b53b1bea",
-    "165108861515d33581"
+    "1657045274b79dc7bf",
+    "16599943395aa45761",
+    "1637735864c2bd7e13"
   ]
 }

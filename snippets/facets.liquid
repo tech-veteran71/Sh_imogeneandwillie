@@ -108,12 +108,14 @@
                 <div class="mobile-facets__sort">
                   <ul class="mobile-facets__list mobile-facets__list--sort-by list-unstyled" role="list">
                     {%- for option in results.sort_options -%}
+                      {% unless option.name == 'Alphabetically, A-Z' or option.name == 'Alphabetically, Z-A' %}
                       <li class="mobile-facets__item list-menu__item">
                         <input class="mobile-facets__checkbox" type="radio" name="sort_by" value="{{ option.value | escape }}" id="mobile-facet-{{ option.value | handleize }}" {% if option.value == sort_by %} checked {% endif %}>
                         <label class="mobile-facets__facet-label" for="mobile-facet-{{ option.value | handleize }}" class="mobile-facets__label{% if value.count == 0 and value.active == false %} mobile-facets__label--disabled{% endif %}">  
                           {{ option.name | escape }}
                         </label>
                       </li>
+                    {% endunless %}
                     {%- endfor -%}
                   </ul>
                 </div><!-- .mobile-facets__sort -->

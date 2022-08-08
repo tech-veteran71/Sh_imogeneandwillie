@@ -6,6 +6,44 @@
       "settings": {
       }
     },
+    "1648655939d9d74725": {
+      "type": "section-four-item-feature",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "size-25",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_c54c4b83-722e-4392-8481-f7dcd5c8bf9a.jpg",
+        "title": "BRIGHTER DAYS",
+        "title_font": "headline__din",
+        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
+        "btn_text": "SHOP Collection",
+        "btn_url": "https:\/\/google.com",
+        "show_button": false,
+        "pre_title": "( essentials  )",
+        "grid_title": "EVERY DAY CARRY"
+      }
+    },
+    "165954113790f2beb3": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
+        "mob_img": "shopify:\/\/shop_images\/homepage_eff8a9ec-1d60-441b-8aba-a9043552ad0d.jpg",
+        "img_url": "",
+        "pre_title": "( new arrival )",
+        "main_title": "the \"peach truck\" tee",
+        "title_font": "headline__din",
+        "text": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "btn_text": "button",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
     "16486556641521771a": {
       "type": "section-asymmetric",
       "blocks": {
@@ -50,6 +88,7 @@
       ],
       "settings": {
         "mobile_hide": true,
+        "desktop_hide": false,
         "bg_color": "",
         "change_alignment": false,
         "btn_text": "EXPLORE",
@@ -57,123 +96,121 @@
         "show_button": false
       }
     },
-    "1648655782b7548572": {
-      "type": "section-hero-banner",
-      "settings": {
-        "mobile_hide": false,
-        "mobile_hide_text": false,
-        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-00658.png",
-        "mob_img": "shopify:\/\/shop_images\/Untitled-3_copy.jpg",
-        "img_url": "",
-        "main_title": "THE DENIM WALL",
-        "title_font": "headline__din",
-        "font_color": "#222222",
-        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-        "link_text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-        "link": "",
-        "show_button": false,
-        "show_down_arrow": false
-      }
-    },
-    "1648655850098e1bf0": {
-      "type": "section-image",
-      "settings": {
-        "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
-        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_be7f15e6-4701-49cc-b753-285ed24c3777.jpg",
-        "img_url": "https:\/\/google.com",
-        "img_width": "full"
-      }
-    },
     "16486559253284d747": {
       "type": "section-rich-text",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
+        "bg_color": "",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         "link_text": "FIND YOUR FIT",
         "link_url": "shopify:\/\/products\/handmade-in-japan-hardcover"
       }
     },
-    "1648655939d9d74725": {
-      "type": "section-four-item-feature",
+    "16486561536a8eb7ef": {
+      "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
-        "choose_collection": "size-25",
-        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_c54c4b83-722e-4392-8481-f7dcd5c8bf9a.jpg",
-        "title": "BRIGHTER DAYS",
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
+        "pre_title": "( this is a pretitle )",
+        "title": "AMERICAN-MADE DENIM",
         "title_font": "headline__din",
-        "text": "with the changing of the seasons, we look forward to the feeling of hope, the freedom of wander, the chance to chase the sun.",
-        "btn_text": "SHOP Collection",
-        "btn_url": "https:\/\/google.com",
-        "show_button": false,
-        "pre_title": "( essentials  )",
-        "grid_title": "EVERY DAY CARRY"
+        "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim produced in the us since the closure of cone mills, nc.",
+        "btn_text": "SHOP ALL",
+        "link_url": "https:\/\/google.com",
+        "show_link": false
       }
     },
-    "1648655973f9bdfa14": {
-      "type": "section-image-gallery",
+    "164865644931f30386": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "size-23",
+        "show_title": true,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "collection",
+        "title_font": "headline__arno",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+        "btn_text": "Shop All",
+        "btn_url": "https:\/\/google.com"
+      }
+    },
+    "1659541250f03c11c1": {
+      "type": "section-content-spec-collection",
       "blocks": {
-        "52ff8372-5b0c-4149-9122-0313c1076fd8": {
-          "type": "image",
+        "238a92d4-c8b7-447e-80b3-68c86cb653a4": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg"
+            "collection": "charlie"
           }
         },
-        "181b277b-4314-46b5-b24c-dedda88671c6": {
-          "type": "image",
+        "213d9768-58dd-40d9-954c-6779e59534a6": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-11-1_b5f6ce96-f386-4def-8835-4e9b818c6c2e.jpg"
+            "collection": "barton-slim"
           }
         },
-        "b8739915-af7c-4e36-85ad-f3f5077f612b": {
-          "type": "image",
+        "f8b7e3ac-a62b-44ee-b70b-739657f63a8a": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_d7ab1c6b-d218-446b-9c2b-96ccfd210f67.jpg"
+            "collection": "willie"
           }
         },
-        "bff488d7-bc55-4331-862b-d398fc2b417d": {
-          "type": "image",
+        "81d4d030-ac17-4bea-a267-b6c1e63b416b": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
-          }
-        },
-        "9144d1d0-f92c-40fe-859b-20406441a84a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-1-2_f94435a3-d219-4cdb-8744-4c5da4e15453.jpg"
-          }
-        },
-        "3bb0fea0-06e6-47d9-8d64-56f336a5f750": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_be7f15e6-4701-49cc-b753-285ed24c3777.jpg"
-          }
-        },
-        "80e654ec-0775-4dfa-9cc4-b0a6c16d3f23": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg"
-          }
-        },
-        "a4ae2ece-e81d-4569-a136-eb12f42b30c7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4up1.jpg"
+            "collection": "henry"
           }
         }
       },
       "block_order": [
-        "52ff8372-5b0c-4149-9122-0313c1076fd8",
-        "181b277b-4314-46b5-b24c-dedda88671c6",
-        "b8739915-af7c-4e36-85ad-f3f5077f612b",
-        "bff488d7-bc55-4331-862b-d398fc2b417d",
-        "9144d1d0-f92c-40fe-859b-20406441a84a",
-        "3bb0fea0-06e6-47d9-8d64-56f336a5f750",
-        "80e654ec-0775-4dfa-9cc4-b0a6c16d3f23",
-        "a4ae2ece-e81d-4569-a136-eb12f42b30c7"
+        "238a92d4-c8b7-447e-80b3-68c86cb653a4",
+        "213d9768-58dd-40d9-954c-6779e59534a6",
+        "f8b7e3ac-a62b-44ee-b70b-739657f63a8a",
+        "81d4d030-ac17-4bea-a267-b6c1e63b416b"
       ],
       "settings": {
-        "mobile_hide": false
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "pre_title": "pre title",
+        "title": "title",
+        "title_font": "headline__din",
+        "btn_text": "Men’s denim",
+        "btn_url": ""
+      }
+    },
+    "1648656008ef60b556": {
+      "type": "collection--list",
+      "blocks": {
+        "6a81e569-7f36-423e-8230-1725e674068a": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_585_600x_a263b683-860c-4586-8954-829b5caef36d.png",
+            "btn_text": "SHOP MEN",
+            "link_url": "https:\/\/google.com"
+          }
+        },
+        "4038a2ae-1eab-4c08-93e4-504543c401e1": {
+          "type": "collection_item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Image_587.png",
+            "btn_text": "SHOP WOMEN",
+            "link_url": "https:\/\/google.com"
+          }
+        }
+      },
+      "block_order": [
+        "6a81e569-7f36-423e-8230-1725e674068a",
+        "4038a2ae-1eab-4c08-93e4-504543c401e1"
+      ],
+      "settings": {
       }
     },
     "16486560013de851c6": {
@@ -207,73 +244,102 @@
         "0a66b3ee-8879-4795-be42-ca9042e03d98"
       ],
       "settings": {
-        "mobile_hide": false
+        "mobile_hide": false,
+        "desktop_hide": false
       }
     },
-    "1648656008ef60b556": {
-      "type": "collection--list",
+    "1659541297239ad20e": {
+      "type": "section-editorial-content",
       "blocks": {
-        "6a81e569-7f36-423e-8230-1725e674068a": {
-          "type": "collection_item",
+        "632c9e33-5c09-40c8-bcaa-161403f1c96c": {
+          "type": "info",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_585_600x_a263b683-860c-4586-8954-829b5caef36d.png",
-            "btn_text": "SHOP MEN",
-            "link_url": "https:\/\/google.com"
+            "text": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
         },
-        "4038a2ae-1eab-4c08-93e4-504543c401e1": {
-          "type": "collection_item",
+        "019db620-6ce1-46e4-a24c-ac9acb2d7ea0": {
+          "type": "info",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_587.png",
-            "btn_text": "SHOP WOMEN",
-            "link_url": "https:\/\/google.com"
+            "text": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "9f2db727-08d1-4155-81bf-870d07c90e23": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/lightning_bolts_-_5-of-5.jpg",
+            "img_url": ""
+          }
+        },
+        "1d0c941e-cfd9-42a2-a46e-3c7599fb4eaa": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMG_3069.png",
+            "img_url": ""
           }
         }
       },
       "block_order": [
-        "6a81e569-7f36-423e-8230-1725e674068a",
-        "4038a2ae-1eab-4c08-93e4-504543c401e1"
+        "632c9e33-5c09-40c8-bcaa-161403f1c96c",
+        "019db620-6ce1-46e4-a24c-ac9acb2d7ea0",
+        "9f2db727-08d1-4155-81bf-870d07c90e23",
+        "1d0c941e-cfd9-42a2-a46e-3c7599fb4eaa"
       ],
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/bolt-bl01.jpg",
+        "desk_img_url": "",
+        "mob_img1": "shopify:\/\/shop_images\/bolt-bl01.jpg",
+        "img_url1": "",
+        "mob_img2": "shopify:\/\/shop_images\/lightning_bolts_-_5-of-5.jpg",
+        "img_url2": "",
+        "overlay_img": "shopify:\/\/shop_images\/IMG_3069.png",
+        "overlay_img_url": "",
+        "main_title": "LOREM IPSUM",
+        "main_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
+        "text": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       }
     },
-    "1648656057c25d5c95": {
-      "type": "section-recent-moments",
+    "1659541313c818c328": {
+      "type": "section-editorial-text-block",
+      "blocks": {
+        "e2475e16-b5cd-41c3-b5f2-db5f1c929475": {
+          "type": "info",
+          "settings": {
+            "text": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "0eb3f79b-7614-4081-93ac-d8de0ff90711": {
+          "type": "info",
+          "settings": {
+            "text": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        }
+      },
+      "block_order": [
+        "e2475e16-b5cd-41c3-b5f2-db5f1c929475",
+        "0eb3f79b-7614-4081-93ac-d8de0ff90711"
+      ],
       "settings": {
         "mobile_hide": false,
-        "choose_collection": "",
-        "choose_blog": "news",
-        "title": "recent moments\/\/",
-        "btn": "EXPLORE MORE",
-        "url": "https:\/\/google.com"
+        "desktop_hide": false,
+        "pretitle": "( pre title )",
+        "main_title": "LOREM IPSUM",
+        "main_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
+        "text": ""
       }
     },
-    "16486560992f8da184": {
-      "type": "section-txt-link-btn",
+    "1648672309980f4451": {
+      "type": "section-flashcard-feature",
       "settings": {
         "mobile_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "THE END",
+        "desktop_hide": false,
+        "choose_collection": "graphic-content",
+        "title": "GRAPHIC CONTENT",
         "title_font": "headline__din",
-        "text": "inspired by a time when clothes were made with a purpose, and made to take a beating.",
-        "btn_text": "shop now →",
+        "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
+        "btn_text": "Shop ALL",
         "btn_url": "https:\/\/google.com",
-        "show_button": true
-      }
-    },
-    "16486561536a8eb7ef": {
-      "type": "section-brand-promise",
-      "settings": {
-        "mobile_hide": false,
-        "reverse_order": true,
-        "desk_img": "shopify:\/\/shop_images\/hellfire-tee_01.jpg",
-        "pre_title": "( this is a pretitle )",
-        "title": "AMERICAN-MADE DENIM",
-        "title_font": "headline__din",
-        "text": "in 2018, we partnered with vidalia mills to make the first premium selvage denim produced in the us since the closure of cone mills, nc.",
-        "btn_text": "SHOP ALL",
-        "link_url": "https:\/\/google.com",
         "show_link": false
       }
     },
@@ -357,11 +423,109 @@
       ],
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "bg_color": "#ffffff",
         "desk_img": "shopify:\/\/shop_images\/Image_489_1200x_ffa08bbc-343e-48ea-929b-49881570d196.png",
         "link_url": "https:\/\/google.com",
         "title": "featured",
         "link_text": "view more >"
+      }
+    },
+    "1648655782b7548572": {
+      "type": "section-hero-banner",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-00658.png",
+        "mob_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
+        "img_url": "",
+        "main_title": "THE DENIM WALL",
+        "title_font": "headline__din",
+        "font_color": "#f7f6f3",
+        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "link_text": "button",
+        "link": "button",
+        "show_button": true,
+        "show_down_arrow": false
+      }
+    },
+    "1648655850098e1bf0": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_be7f15e6-4701-49cc-b753-285ed24c3777.jpg",
+        "img_url": "https:\/\/google.com",
+        "img_width": "full"
+      }
+    },
+    "1648655973f9bdfa14": {
+      "type": "section-image-gallery",
+      "blocks": {
+        "52ff8372-5b0c-4149-9122-0313c1076fd8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/angelescrest_-11_597e145d-8bf9-418b-a5bf-ff0ec1ef4464.jpg"
+          }
+        },
+        "181b277b-4314-46b5-b24c-dedda88671c6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-11-1_b5f6ce96-f386-4def-8835-4e9b818c6c2e.jpg"
+          }
+        },
+        "b8739915-af7c-4e36-85ad-f3f5077f612b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_d7ab1c6b-d218-446b-9c2b-96ccfd210f67.jpg"
+          }
+        },
+        "bff488d7-bc55-4331-862b-d398fc2b417d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
+          }
+        },
+        "9144d1d0-f92c-40fe-859b-20406441a84a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-1-2_f94435a3-d219-4cdb-8744-4c5da4e15453.jpg"
+          }
+        },
+        "3bb0fea0-06e6-47d9-8d64-56f336a5f750": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_be7f15e6-4701-49cc-b753-285ed24c3777.jpg"
+          }
+        },
+        "80e654ec-0775-4dfa-9cc4-b0a6c16d3f23": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ebbets_field_-26-copy.jpg"
+          }
+        },
+        "a4ae2ece-e81d-4569-a136-eb12f42b30c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4up1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "52ff8372-5b0c-4149-9122-0313c1076fd8",
+        "181b277b-4314-46b5-b24c-dedda88671c6",
+        "b8739915-af7c-4e36-85ad-f3f5077f612b",
+        "bff488d7-bc55-4331-862b-d398fc2b417d",
+        "9144d1d0-f92c-40fe-859b-20406441a84a",
+        "3bb0fea0-06e6-47d9-8d64-56f336a5f750",
+        "80e654ec-0775-4dfa-9cc4-b0a6c16d3f23",
+        "a4ae2ece-e81d-4569-a136-eb12f42b30c7"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false
       }
     },
     "1648656181c1e2ce67": {
@@ -380,46 +544,11 @@
         "link_url": "google.com"
       }
     },
-    "16486562390c60e8f0": {
-      "type": "section-mobile-slider",
-      "settings": {
-        "choose_collection": "size-23",
-        "title": "lorem ipsum",
-        "btn_text": "VIEW ALL",
-        "btn_url": "https:\/\/google.com",
-        "show_border": true
-      }
-    },
-    "1648656251d0666884": {
-      "type": "section-video-hero",
-      "settings": {
-        "mobile_hide": false,
-        "video_poster": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-7-1_85ddfc78-d644-4084-b7ab-37ed8c71e313.jpg",
-        "mobile_video_poster": "shopify:\/\/shop_images\/bigsurvibes_04.jpg",
-        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Bike_Graphic_Product_Page_Test.m4v?v=1645646598",
-        "mobile_video_url": "google.com",
-        "video_controls": true
-      }
-    },
-    "16486562666b82cd0c": {
-      "type": "product-video-story",
-      "settings": {
-        "img": "shopify:\/\/shop_images\/Layer_0.png",
-        "title": "BEHIND OUR DENIM",
-        "wrap_title": "the process: where we make some shirts and people buy em",
-        "top_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum",
-        "bottom_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsumlorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum",
-        "link_text": "read more...",
-        "btn_url": "https:\/\/google.com",
-        "btn": "READ MORE",
-        "add_video": true,
-        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/nashville.mp4?5034687354816689514"
-      }
-    },
     "1648656430f5b572b7": {
       "type": "section-image-video-hero",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
         "mobile_banner_img": "shopify:\/\/shop_images\/oneyearwear_-10_00c62524-e23e-4b0b-9772-693d50b64770.png",
         "img_height": false,
@@ -431,41 +560,39 @@
         "video_controls": false
       }
     },
-    "164865644931f30386": {
-      "type": "section-collection-grid",
+    "16486562390c60e8f0": {
+      "type": "section-mobile-slider",
       "settings": {
-        "mobile_hide": false,
         "choose_collection": "size-23",
-        "show_title": true,
-        "show_subtitle": false,
-        "show_price": false,
-        "show_badges": false,
-        "products_to_show": 4,
-        "products_per_row": 2,
-        "title": "collection",
-        "title_font": "headline__arno",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
-        "btn_text": "Shop All",
-        "btn_url": "https:\/\/google.com"
+        "title": "lorem ipsum",
+        "title_font": "headline__din",
+        "btn_text": "VIEW ALL",
+        "btn_url": "https:\/\/google.com",
+        "show_border": true
       }
     },
-    "1648672309980f4451": {
-      "type": "section-flashcard-feature",
+    "16595414228d1b426a": {
+      "type": "section-newsletter",
       "settings": {
-        "hide_mobile": false,
-        "choose_collection": "bottom-size-23",
-        "title": "GRAPHIC CONTENT",
-        "title_font": "headline__din",
-        "text": "it’s a journey we’ve been on for years.. fine-tuning the details. fueled by our longtime obsession with the look and feel of well worn vintage tees.",
-        "btn_text": "Shop ALL",
-        "btn_url": "https:\/\/google.com",
-        "show_link": false
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text": "get in early next time",
+        "subtext": "we only do collections like this a few times a year and they always seem to go quickly. though we try to give everyone a heads up, our email list always gets first dibs. sign up now to get notified for our next drop."
+      }
+    },
+    "1659541439f1d235c4": {
+      "type": "section-parallax",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "image": "shopify:\/\/shop_images\/nextimemoodboard.jpg"
       }
     },
     "165359469846366bd9": {
       "type": "section-product-collection-slider",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "background_color": "#f7f6f3",
         "choose_collection": "size-27",
         "show_title": false,
@@ -479,53 +606,101 @@
         "link_url": ""
       }
     },
-    "1653597627e40222e4": {
-      "type": "section-video-with-text",
+    "165954145378262fcf": {
+      "type": "section-quote",
       "settings": {
         "mobile_hide": false,
-        "video_url": "",
-        "video_controls": false,
-        "pre_title": "( circa 2012 )",
-        "title": "take a look back",
-        "title_font": "headline__arno",
-        "main_title": "how it all started",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
-        "show_link": true,
-        "btn_text": "LOREM IPSUM",
-        "btn_url": ""
+        "desktop_hide": false,
+        "review": "“i want to die with my blue jeans on.”",
+        "customer_name": "- Andy Warhol",
+        "background_color": "transparent"
       }
     },
-    "16535979343823c022": {
-      "type": "section-parallax",
+    "1659541466ea3ed4b0": {
+      "type": "section-recent-moments",
+      "blocks": {
+        "88eaae21-030c-458a-8954-d56155f4461f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lightning_bolts_-_5-of-5.jpg",
+            "title": "bolt",
+            "link": ""
+          }
+        },
+        "28ba3f73-23cc-4cf9-9f48-2292075b4287": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bolt02_03_1200x_4e194c19-edb7-4aec-a021-45d211d28c4e.webp",
+            "title": "bolt",
+            "link": ""
+          }
+        },
+        "ea12df51-59c2-4ae1-96ae-2f28898a635c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bolt-bl01.jpg",
+            "title": "bolt",
+            "link": ""
+          }
+        },
+        "2fa3d7cb-217c-4ce6-81bc-0a386987f5c9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3069.png",
+            "title": "bolt",
+            "link": ""
+          }
+        },
+        "3116ab3c-5807-4d09-8b43-465510b07abc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_81189424-56d6-4a60-b86d-3cc3d53e69a6.jpg",
+            "title": "bolts",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "88eaae21-030c-458a-8954-d56155f4461f",
+        "28ba3f73-23cc-4cf9-9f48-2292075b4287",
+        "ea12df51-59c2-4ae1-96ae-2f28898a635c",
+        "2fa3d7cb-217c-4ce6-81bc-0a386987f5c9",
+        "3116ab3c-5807-4d09-8b43-465510b07abc"
+      ],
       "settings": {
-        "mobile_hide": true,
-        "image": "shopify:\/\/shop_images\/hellfire-tee_01.jpg"
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "title": "",
+        "btn": "",
+        "url": ""
       }
     }
   },
   "order": [
     "main",
+    "1648655939d9d74725",
+    "165954113790f2beb3",
     "16486556641521771a",
+    "16486559253284d747",
+    "16486561536a8eb7ef",
+    "164865644931f30386",
+    "1659541250f03c11c1",
+    "1648656008ef60b556",
+    "16486560013de851c6",
+    "1659541297239ad20e",
+    "1659541313c818c328",
+    "1648672309980f4451",
+    "16486561678c9a3c5b",
     "1648655782b7548572",
     "1648655850098e1bf0",
-    "16486559253284d747",
-    "1648655939d9d74725",
     "1648655973f9bdfa14",
-    "16486560013de851c6",
-    "1648656008ef60b556",
-    "1648656057c25d5c95",
-    "16486560992f8da184",
-    "16486561536a8eb7ef",
-    "16486561678c9a3c5b",
     "1648656181c1e2ce67",
-    "16486562390c60e8f0",
-    "1648656251d0666884",
-    "16486562666b82cd0c",
     "1648656430f5b572b7",
-    "164865644931f30386",
-    "1648672309980f4451",
+    "16486562390c60e8f0",
+    "16595414228d1b426a",
+    "1659541439f1d235c4",
     "165359469846366bd9",
-    "1653597627e40222e4",
-    "16535979343823c022"
+    "165954145378262fcf",
+    "1659541466ea3ed4b0"
   ]
 }

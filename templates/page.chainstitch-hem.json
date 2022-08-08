@@ -14,7 +14,7 @@
         "desk_img": "shopify:\/\/shop_images\/IMG_8734.jpg",
         "mob_img": "shopify:\/\/shop_images\/IMG_8734.jpg",
         "img_url": "",
-        "img_width": "full"
+        "img_width": "medium"
       }
     },
     "16499691942d1a0881": {
@@ -37,10 +37,9 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/david_jeans__2_of_2.jpg",
-        "mob_img": "shopify:\/\/shop_images\/david_jeans__2_of_2.jpg",
+        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",
         "img_url": "",
-        "img_width": "large"
+        "img_width": "full"
       }
     }
   },

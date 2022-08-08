@@ -24,9 +24,9 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "#f7f6f4",
+        "bg_color": "#c2902c",
         "text": "too often, jean styles are born out of a fashion trend or modern innovation. <br><br>our jeans were created as a reaction to what wasn’t happening.",
-        "link_text": "",
+        "link_text": "shop now ->",
         "link_url": ""
       }
     },
@@ -244,7 +244,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/bartonslim-draper01.jpg",
             "title": "fabric guide",
-            "title_font": "headline__din",
+            "title_font": "headline__arno",
             "text": "all of our styles broken down by fabric: rigid, washed, black, etc.",
             "link_text": "Shop by fabric ->",
             "link_url": "shopify:\/\/pages\/fabric-guide",
@@ -315,90 +315,128 @@
         "img_width": "full"
       }
     },
-    "1659391767c781b5a3": {
-      "type": "section-hero-banner",
+    "1659463088db33dfc1": {
+      "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "mobile_hide_text": false,
-        "desk_img": "shopify:\/\/shop_images\/Fit-Guide-Header_156d06f9-7f8b-49fd-8d2c-096f0d7df427.jpg",
-        "mob_img": "shopify:\/\/shop_images\/Fit-Guide-Header_156d06f9-7f8b-49fd-8d2c-096f0d7df427.jpg",
-        "img_url": "",
-        "main_title": "peach truck",
+        "text_align": "center",
+        "pretitle": "pre title",
+        "title": "the \"peach truck\" shirt",
         "title_font": "headline__arno",
-        "font_color": "#f7f6f4",
-        "text": "we released  a shirt for the peach trucj and this is it. have a look and give it a feel. its the full on summer vibe.",
-        "link_text": "shop now",
-        "link": "#",
-        "show_button": true,
-        "show_down_arrow": false
+        "text": "this is the limited edition peach truck shirt. get one while its hot",
+        "btn_text": "button",
+        "btn_url": "",
+        "show_button": true
       }
     },
-    "1659392353de0da7a8": {
-      "type": "section-image-gallery",
-      "blocks": {
-        "7ed65cfa-0f52-4e48-9a3f-cebecdeaaf06": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/homepage_eff8a9ec-1d60-441b-8aba-a9043552ad0d.jpg"
-          }
-        },
-        "902c6ce0-4f2e-4b4e-9213-4b26bfebedbd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3069.png"
-          }
-        },
-        "d98da416-9fd1-4a8f-83df-3432d64b8d2f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10longyears_-3.jpg"
-          }
-        },
-        "79f84c60-69b2-4eda-9688-48ab1fc163cc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bartonslim-keystone_08.jpg"
-          }
-        },
-        "7e9536bc-9a3e-42f5-a0d3-baecdf339cb4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_81189424-56d6-4a60-b86d-3cc3d53e69a6.jpg"
-          }
-        },
-        "41e9813d-51b3-432a-a090-28d37546cceb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/catherine-natural01_1200x_c77e8955-5436-4122-8a9f-2543ff7efb74.webp"
-          }
-        },
-        "f47b3bfa-54e1-4a62-9d09-a3ff55735a1c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/the_end.png"
-          }
-        },
-        "e7836fe1-d3aa-44e7-8193-5712a775694f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/i_w__011028.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "7ed65cfa-0f52-4e48-9a3f-cebecdeaaf06",
-        "902c6ce0-4f2e-4b4e-9213-4b26bfebedbd",
-        "d98da416-9fd1-4a8f-83df-3432d64b8d2f",
-        "79f84c60-69b2-4eda-9688-48ab1fc163cc",
-        "7e9536bc-9a3e-42f5-a0d3-baecdf339cb4",
-        "41e9813d-51b3-432a-a090-28d37546cceb",
-        "f47b3bfa-54e1-4a62-9d09-a3ff55735a1c",
-        "e7836fe1-d3aa-44e7-8193-5712a775694f"
-      ],
+    "1659463108908d1404": {
+      "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
-        "desktop_hide": false
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/homepage_eff8a9ec-1d60-441b-8aba-a9043552ad0d.jpg",
+        "pre_title": "( new arrivals )",
+        "title": "the \"peach truck\" shirt",
+        "title_font": "headline__arno",
+        "text": "this is the peach truck shirt for peach truck's 13 year anniversary. limited edition tee made in house. sold for a little amount of time. get them while their hot.",
+        "btn_text": "button",
+        "link_url": "",
+        "show_link": false
+      }
+    },
+    "16594631355d2e2444": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "bottom-size-25",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": true,
+        "title": "Women’s new arrivals",
+        "main_title": "new arrivals",
+        "mob_title": "WOMEN’s",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
+    "165946315475cec7ef": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "bottom-size-26",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "collection",
+        "title_font": "headline__din",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+        "btn_text": "Shop All",
+        "btn_url": ""
+      }
+    },
+    "1659463261fbefc619": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "collection",
+        "title_font": "headline__din",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+        "btn_text": "Shop All",
+        "btn_url": ""
+      }
+    },
+    "16594632644a835dac": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": true,
+        "pre_title": "pre title",
+        "title": "title",
+        "title_font": "headline__din",
+        "text": "text",
+        "btn_text": "button",
+        "link_url": "",
+        "show_link": false
+      }
+    },
+    "1659463267c2c00852": {
+      "type": "section-content-cards",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "main_title": "Lorem ipsum dolor"
+      }
+    },
+    "16594702313ccfe26e": {
+      "type": "section-image-overlay-feature",
+      "settings": {
+        "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
+        "pre_title": "pre title",
+        "title": "title",
+        "text": "text",
+        "btn_text": "button",
+        "link_url": ""
       }
     }
   },
@@ -419,7 +457,13 @@
     "165895065462683bab",
     "16589505183cb8746a",
     "165895022280355359",
-    "1659391767c781b5a3",
-    "1659392353de0da7a8"
+    "1659463088db33dfc1",
+    "1659463108908d1404",
+    "16594631355d2e2444",
+    "165946315475cec7ef",
+    "1659463261fbefc619",
+    "16594632644a835dac",
+    "1659463267c2c00852",
+    "16594702313ccfe26e"
   ]
 }

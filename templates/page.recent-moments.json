@@ -6,6 +6,91 @@
       "settings": {
       }
     },
+    "1659649853bcf33ec6": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": false,
+        "desk_img": "shopify:\/\/shop_images\/peach01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/peach01.jpg",
+        "pre_title": "( 07.30.22 )",
+        "title": "the peach truck tee",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "READ MORE>",
+        "link_url": "shopify:\/\/pages\/peach-truck-tee",
+        "show_link": true
+      }
+    },
+    "16596497927ac777af": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/somewhereelse_05.webp",
+        "mob_img": "shopify:\/\/shop_images\/somewhereelse_05.webp",
+        "pre_title": "( 07.27.22 )",
+        "title": "somewhere else bandana chainstitch bandanas",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "READ MORE>",
+        "link_url": "shopify:\/\/pages\/somewhere-else-bandana",
+        "show_link": true
+      }
+    },
+    "1659649715781a9a78": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": false,
+        "desk_img": "shopify:\/\/shop_images\/studiotee013_03.webp",
+        "mob_img": "shopify:\/\/shop_images\/studiotee013_03.webp",
+        "pre_title": "( 07.23.22 )",
+        "title": "indigo studio No. 013 + 13 year anniversary",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "READ MORE>",
+        "link_url": "shopify:\/\/pages\/indigo-studio-no-013-13-year-anniversary",
+        "show_link": true
+      }
+    },
+    "16596494886cc6179e": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/bs-_02.webp",
+        "mob_img": "shopify:\/\/shop_images\/bs-_02.webp",
+        "pre_title": "( 07.16.22 )",
+        "title": "barton slim olive khaki",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "READ MORE>",
+        "link_url": "shopify:\/\/pages\/barton-slim-olive-khaki",
+        "show_link": true
+      }
+    },
+    "1659649620b8f244af": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": false,
+        "desk_img": "shopify:\/\/shop_images\/isabelle-_07.jpg",
+        "mob_img": "shopify:\/\/shop_images\/isabelle-_07.jpg",
+        "pre_title": "( 07.09.22 )",
+        "title": "isabelle paseo celeste chambray",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "READ MORE>",
+        "link_url": "shopify:\/\/pages\/isabelle-paseo-celeste-chambray",
+        "show_link": true
+      }
+    },
     "165574340358020851": {
       "type": "section-brand-promise",
       "settings": {
@@ -291,6 +376,11 @@
   },
   "order": [
     "main",
+    "1659649853bcf33ec6",
+    "16596497927ac777af",
+    "1659649715781a9a78",
+    "16596494886cc6179e",
+    "1659649620b8f244af",
     "165574340358020851",
     "1655743603a8b17de9",
     "1655743859c8ffce9e",

@@ -5,7 +5,7 @@
       "settings": {
         "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
         "mob_bg_img": "shopify:\/\/shop_images\/bigsurvibes_04.png",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
+        "text": ""
       }
     },
     "1634922614a8d39d99": {
@@ -15,6 +15,7 @@
     },
     "1659016219d4166f55": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,

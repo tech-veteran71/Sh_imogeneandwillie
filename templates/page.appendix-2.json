@@ -6,334 +6,119 @@
       "settings": {
       }
     },
-    "164867291348350c2a": {
-      "type": "section-video-with-text",
-      "disabled": true,
-      "settings": {
-        "video_poster": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044_600x_600x_7b56b4e3-7d8f-4220-a6d5-1f9611e54eba.png",
-        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/nashville.mp4?5034687354816689514",
-        "video_controls": false,
-        "pre_title": "( circa 2012 )",
-        "title": "take a look back",
-        "main_title": "HOW IT ALL STARTED",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
-        "btn_text": "LOREM IPSUM",
-        "btn_url": ""
-      }
-    },
-    "16486729292f81157c": {
-      "type": "section-parallax",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-3-1_adf2f78d-7ff4-4a64-81e9-29e00ecba8e3.jpg"
-      }
-    },
-    "1648672936454bcfe6": {
-      "type": "section-editorial-content",
-      "blocks": {
-        "fa27be97-91a6-4059-a1cb-cc3f87e0a758": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/warehouse__6_of_9_900x_900x_5342a288-6b8d-4d65-88dc-a8abb4fbf927.png",
-            "img_url": "https:\/\/google.com"
-          }
-        },
-        "993a3880-7536-40b4-b774-f9159052a22b": {
-          "type": "info",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "41ecd5dc-3fce-48aa-ab70-76d387ec8800": {
-          "type": "info",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "37c1a43f-6cdf-4483-ae43-ab5f685943a9": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/sewing_team__15_of_65.png",
-            "img_url": "https:\/\/google.com"
-          }
-        }
-      },
-      "block_order": [
-        "fa27be97-91a6-4059-a1cb-cc3f87e0a758",
-        "993a3880-7536-40b4-b774-f9159052a22b",
-        "41ecd5dc-3fce-48aa-ab70-76d387ec8800",
-        "37c1a43f-6cdf-4483-ae43-ab5f685943a9"
-      ],
-      "settings": {
-        "desk_img": "shopify:\/\/shop_images\/oneyearwear_-9.png",
-        "desk_img_url": "https:\/\/google.com",
-        "img_url1": "https:\/\/google.com",
-        "img_url2": "https:\/\/google.com",
-        "overlay_img_url": "https:\/\/google.com",
-        "main_title": "LOREM IPSUM",
-        "main_text": "lorem sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
-        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in <br><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis  laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
-      }
-    },
-    "16486729548b8c226d": {
-      "type": "section-content-cards",
-      "blocks": {
-        "81884a8d-fc30-4acf-a306-cd507e6c44b4": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-10-1_d7ab1c6b-d218-446b-9c2b-96ccfd210f67.jpg",
-            "title": "Title",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-            "link_url": "https:\/\/google.com"
-          }
-        },
-        "706095b1-a82c-4afb-9bf5-1106f660831b": {
-          "type": "info",
-          "settings": {
-            "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-7-1_85ddfc78-d644-4084-b7ab-37ed8c71e313.jpg",
-            "title": "Title",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-            "link_url": "https:\/\/google.com"
-          }
-        },
-        "e5545e11-36ae-4d59-a517-6ecf10f00136": {
-          "type": "info",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_url": "https:\/\/google.com"
-          }
-        }
-      },
-      "block_order": [
-        "81884a8d-fc30-4acf-a306-cd507e6c44b4",
-        "706095b1-a82c-4afb-9bf5-1106f660831b",
-        "e5545e11-36ae-4d59-a517-6ecf10f00136"
-      ],
-      "settings": {
-        "main_title": "Lorem ipsum dolor"
-      }
-    },
-    "164867296114f1af2e": {
-      "type": "section-symmetric-content",
-      "blocks": {
-        "7e98b43f-085d-4f6b-afb5-a5eb69c51e48": {
-          "type": "fabric_info",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_306_600x_600x_0a2a9f05-a451-47c3-8f2c-51717ffe2f75.png",
-            "title": "100% Cotton",
-            "title_font": "headline__din",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-            "link_text": "SHOP ALL >",
-            "link_url": "https:\/\/google.com",
-            "use_btn": false
-          }
-        },
-        "dd5c62ff-6166-4996-9a7c-76dbf5bb65d1": {
-          "type": "fabric_info",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/loungepant_putty07.jpg",
-            "title": "stretch denim",
-            "title_font": "headline__din",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-            "link_text": "SHOP ALL >",
-            "link_url": "https:\/\/google.com",
-            "use_btn": false
-          }
-        }
-      },
-      "block_order": [
-        "7e98b43f-085d-4f6b-afb5-a5eb69c51e48",
-        "dd5c62ff-6166-4996-9a7c-76dbf5bb65d1"
-      ],
-      "settings": {
-        "main_title": "LOREM IPSUM FABRIC"
-      }
-    },
-    "1648672990fc7db71e": {
-      "type": "section-content-spec-collection",
-      "blocks": {
-        "c1f4261c-1251-450a-87b7-5fdf8adce2ed": {
-          "type": "collection",
-          "settings": {
-            "collection": "size-27"
-          }
-        },
-        "7f8e365a-bc25-45aa-a0f7-c5314f175db4": {
-          "type": "collection",
-          "settings": {
-            "collection": "bottom-size-29"
-          }
-        },
-        "09589df2-c817-499b-aca4-6c3335f6263a": {
-          "type": "collection",
-          "settings": {
-            "collection": "bottom-size-23"
-          }
-        },
-        "04ba59b5-cff9-4f2b-923f-17f0009a3344": {
-          "type": "collection",
-          "settings": {
-            "collection": "size-24"
-          }
-        }
-      },
-      "block_order": [
-        "c1f4261c-1251-450a-87b7-5fdf8adce2ed",
-        "7f8e365a-bc25-45aa-a0f7-c5314f175db4",
-        "09589df2-c817-499b-aca4-6c3335f6263a",
-        "04ba59b5-cff9-4f2b-923f-17f0009a3344"
-      ],
-      "settings": {
-        "pre_title": "lorem ipsum",
-        "title": "lorem ipsum",
-        "title_font": "headline__din",
-        "btn_text": "Men’s denim",
-        "btn_url": "https:\/\/google.com"
-      }
-    },
-    "164867297798c7cdce": {
+    "1659541555e5d807ea": {
       "type": "section-shop-info",
-      "blocks": {
-        "5b9a8284-ddac-4485-8320-7e82b9e390d4": {
-          "type": "shop_timing",
-          "settings": {
-            "days": "monday-thursday",
-            "timing": "11:00 am-5:00pm"
-          }
-        },
-        "1afea1d6-708f-41b0-a784-1cce58c042d0": {
-          "type": "shop_timing",
-          "settings": {
-            "days": "friday-saturday",
-            "timing": "10:00am-5:00pm"
-          }
-        },
-        "a2b31b16-f673-47c0-b185-d79ffe4bf072": {
-          "type": "shop_timing",
-          "settings": {
-            "days": "sunday",
-            "timing": "12:00pm-5:00pm"
-          }
-        },
-        "5855d8d9-5531-4bf9-829b-b2c9f253c40b": {
-          "type": "shop_detials",
-          "settings": {
-            "title": "address:",
-            "text": "<u>2601 12th avenue south <br> nashville, tennessee 37204 <\/u>"
-          }
-        },
-        "3fbc2ba1-a639-45bc-8578-e7cc8c2433e5": {
-          "type": "shop_detials",
-          "settings": {
-            "title": "phone:",
-            "text": "+1 (615) 292-5005"
-          }
-        }
-      },
-      "block_order": [
-        "5b9a8284-ddac-4485-8320-7e82b9e390d4",
-        "1afea1d6-708f-41b0-a784-1cce58c042d0",
-        "a2b31b16-f673-47c0-b185-d79ffe4bf072",
-        "5855d8d9-5531-4bf9-829b-b2c9f253c40b",
-        "3fbc2ba1-a639-45bc-8578-e7cc8c2433e5"
-      ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/Image_186.png",
+        "mobile_hide": false,
+        "desktop_hide": false,
         "main_title": "visit the shop:",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
         "heading": "shop info",
         "sub_title": "hours:"
       }
     },
-    "16486730028c74e507": {
-      "type": "size-guide-pop",
-      "disabled": true,
+    "16595417848f046030": {
+      "type": "section-symmetric-content",
       "blocks": {
-        "6ee4d1fd-496e-4f10-9568-733e5b6cba43": {
-          "type": "info",
+        "ccec9a11-2497-4e0f-92b5-bcd023324b46": {
+          "type": "fabric_info",
           "settings": {
-            "title": "how we measure:",
-            "text": "furst thing's first, you'll be measuring your body, not your other clothes. we've found it's the easiest way to find what size is best for you. we"
+            "img": "shopify:\/\/shop_images\/bolt-bl01.jpg",
+            "title": "title",
+            "title_font": "headline__din",
+            "text": "textLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 5   PARAGRAPHS",
+            "link_text": "link text",
+            "link_url": "",
+            "use_btn": true
           }
         },
-        "207be94c-ec88-4399-a3f9-15da0075f6ff": {
-          "type": "link",
+        "6e7ec071-ac42-4a34-80f6-d827b0d38ccc": {
+          "type": "fabric_info",
           "settings": {
-            "link_text": "SHOP NOW",
-            "link": ""
-          }
-        },
-        "60b5d294-125c-4ffa-8215-abd456f63819": {
-          "type": "link",
-          "settings": {
-            "link_text": "EXPLORE",
-            "link": ""
-          }
-        },
-        "8b883710-e5e3-460d-a218-ad8fce6179b2": {
-          "type": "info",
-          "settings": {
-            "title": "LOREM IPSUM",
-            "text": "LOREM IPSUM"
+            "img": "shopify:\/\/shop_images\/lightning_bolts_-_5-of-5.jpg",
+            "title": "title",
+            "title_font": "headline__din",
+            "text": "text text text text text text text text text text text text text text text text text text text",
+            "link_text": "link text",
+            "link_url": "",
+            "use_btn": true
           }
         }
       },
       "block_order": [
-        "6ee4d1fd-496e-4f10-9568-733e5b6cba43",
-        "207be94c-ec88-4399-a3f9-15da0075f6ff",
-        "60b5d294-125c-4ffa-8215-abd456f63819",
-        "8b883710-e5e3-460d-a218-ad8fce6179b2"
+        "ccec9a11-2497-4e0f-92b5-bcd023324b46",
+        "6e7ec071-ac42-4a34-80f6-d827b0d38ccc"
       ],
       "settings": {
-        "title_1": "we’re in this together",
-        "text_1": "every body is different. we know how hard it can be to find the right jean when shopping online, but rest assured—we’re here to help.",
-        "title_2": "how we measure:",
-        "text_2": "first thing's first, you’ll be measuring your body, not your other clothes. we’ve found it’s the easiest way to find what size is best for you. we recommend measuring in front of a mirror, directly against your skin, and keeping the measuring tape taut.",
-        "label": "speak with a team member",
-        "btn_text": "CHAT WITH A TEAM MEMBER",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "main_title": "LOREM IPSUM FABRIC"
+      }
+    },
+    "16595417925a8a6c82": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "165954179774fa3f88": {
+      "type": "section-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "1659541807857cb5b6": {
+      "type": "product-video-story",
+      "settings": {
+        "title": "",
+        "wrap_title": "",
+        "top_text": "",
+        "bottom_text": "",
+        "link_text": "read more...",
+        "btn_url": "",
+        "btn": "",
+        "add_video": true,
+        "video_url": ""
+      }
+    },
+    "165954181330582b75": {
+      "type": "section-video-with-text",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_url": "",
+        "video_controls": false,
+        "pre_title": "( circa 2012 )",
+        "title": "take a look back",
+        "title_font": "headline__arno",
+        "main_title": "HOW IT ALL STARTED",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "show_link": false,
+        "btn_text": "LOREM IPSUM",
         "btn_url": ""
-      }
-    },
-    "1648673157167d2d01": {
-      "type": "section-quote",
-      "settings": {
-        "review": "“i want to die with my blue jeans on.”",
-        "customer_name": "- Andy Warhol",
-        "background_color": "#ffffff"
-      }
-    },
-    "164918708674832464": {
-      "type": "section-product-collection-slider",
-      "settings": {
-        "choose_collection": "size-24",
-        "title": "Women’s new arrivals",
-        "main_title": "new arrivals",
-        "mob_title": "WOMEN’s",
-        "link_text": "View all",
-        "link_url": "https:\/\/google.com"
-      }
-    },
-    "16491890832c72d294": {
-      "type": "section-rich-text",
-      "settings": {
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-        "link_text": "FIND YOUR FIT",
-        "link_url": "https:\/\/google.com"
       }
     }
   },
   "order": [
     "main",
-    "164867291348350c2a",
-    "16486729292f81157c",
-    "1648672936454bcfe6",
-    "16486729548b8c226d",
-    "164867296114f1af2e",
-    "1648672990fc7db71e",
-    "164867297798c7cdce",
-    "16486730028c74e507",
-    "1648673157167d2d01",
-    "164918708674832464",
-    "16491890832c72d294"
+    "1659541555e5d807ea",
+    "16595417848f046030",
+    "16595417925a8a6c82",
+    "165954179774fa3f88",
+    "1659541807857cb5b6",
+    "165954181330582b75"
   ]
 }

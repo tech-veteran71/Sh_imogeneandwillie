@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "7e36d9c9-8d19-40d7-8740-95dcb6ddf2bf": {
+          "type": "link",
+          "settings": {
+            "link_text": "made in usa",
+            "link": "shopify:\/\/pages\/our-voice-made-in-usa"
+          }
+        },
+        "69a8b823-a49f-43fc-8c88-78d4735bfcc7": {
+          "type": "accordian",
+          "settings": {
+            "accordian_title": "fit and sizing",
+            "accordian_content": ""
+          }
+        },
+        "885c349d-e8e1-42fc-9ea0-d39ff2bccc19": {
+          "type": "accordian",
+          "settings": {
+            "accordian_title": "care and materials",
+            "accordian_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "7e36d9c9-8d19-40d7-8740-95dcb6ddf2bf",
+        "69a8b823-a49f-43fc-8c88-78d4735bfcc7",
+        "885c349d-e8e1-42fc-9ea0-d39ff2bccc19"
+      ],
+      "settings": {
+        "installment_info": "4 interest-free installments of $58.75 by",
+        "sale_details": "this item is final sale.",
+        "info_title": "we recommend ordering your usual size.",
+        "text": "notify me when my size is in stock",
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1650489885e385492b": {
+      "type": "size-guide-pop",
+      "settings": {
+      }
+    },
+    "16584190828ea23e02": {
+      "type": "section-product-moodboard",
+      "settings": {
+        "main_title": "dig into the moodboard"
+      }
+    },
+    "1652199612f01388e0": {
+      "type": "product-video-story",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/wyatt-bleach_02.jpg",
+        "title": "file under: process",
+        "wrap_title": "patterned, cut, and sewn in the USA",
+        "top_text": "",
+        "bottom_text": "in addition to making it all right here, everything we've ever produced has been made via small–batch production, which helps us make clothing with intention, and in turn, helps us avoid creating unnecessary waste, and just as importantly, helps us keep focus on appreciating every person who helps us make these garments.",
+        "link_text": "learn more >",
+        "btn_url": "shopify:\/\/pages\/the-process",
+        "btn": "learn more about our process >",
+        "add_video": true,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c66d0529685c476fa93cc6243aa00014.mp4"
+      }
+    },
+    "16597103040655bcf4": {
+      "type": "section-content-spec-collection",
+      "blocks": {
+        "f75b6c76-3ba5-4cd1-82c2-2542f92fe455": {
+          "type": "collection",
+          "settings": {
+            "collection": "isabelle"
+          }
+        },
+        "ccbbc6c7-a99e-447f-8ee0-b1f20350bb3b": {
+          "type": "collection",
+          "settings": {
+            "collection": "catherine-1"
+          }
+        },
+        "07d476c8-5a02-4354-b8ca-18a16e8ad94a": {
+          "type": "collection",
+          "settings": {
+            "collection": "wyatt-1"
+          }
+        },
+        "12c7791e-af13-460c-b2b2-99c8f205d767": {
+          "type": "collection",
+          "settings": {
+            "collection": "sophie-1"
+          }
+        },
+        "cde96bb8-feec-45cf-b723-d1a253f1b41f": {
+          "type": "collection",
+          "settings": {
+            "collection": "imogene"
+          }
+        },
+        "9e91a8d2-140b-44aa-b420-daf14eb7d827": {
+          "type": "collection",
+          "settings": {
+            "collection": "james"
+          }
+        },
+        "394726f5-6a62-44e3-9e64-ca725c15524d": {
+          "type": "collection",
+          "settings": {
+            "collection": "harper-1"
+          }
+        },
+        "6964ac49-9826-44ce-8f9c-29b0021aaca8": {
+          "type": "collection",
+          "settings": {
+            "collection": "elsie"
+          }
+        },
+        "4d3b9e8b-bf7d-4fbd-8041-50c14ef497b2": {
+          "type": "collection",
+          "settings": {
+            "collection": "elizabeth"
+          }
+        },
+        "52fd34a6-faec-499e-9fb0-99161d1235ff": {
+          "type": "collection",
+          "settings": {
+            "collection": "kate-1"
+          }
+        },
+        "2b10d706-d032-4549-bdc1-b1e27bc21f79": {
+          "type": "collection",
+          "settings": {
+            "collection": "lottie"
+          }
+        },
+        "e0ff3d9d-8a0c-409a-8659-a62573802141": {
+          "type": "collection",
+          "settings": {
+            "collection": "augusta"
+          }
+        },
+        "9f83e4b2-2809-4128-8880-95b65a412575": {
+          "type": "collection",
+          "settings": {
+            "collection": "virginia"
+          }
+        },
+        "ce938dae-6c05-4753-af65-583955674b17": {
+          "type": "collection",
+          "settings": {
+            "collection": "liza-1"
+          }
+        }
+      },
+      "block_order": [
+        "f75b6c76-3ba5-4cd1-82c2-2542f92fe455",
+        "ccbbc6c7-a99e-447f-8ee0-b1f20350bb3b",
+        "07d476c8-5a02-4354-b8ca-18a16e8ad94a",
+        "12c7791e-af13-460c-b2b2-99c8f205d767",
+        "cde96bb8-feec-45cf-b723-d1a253f1b41f",
+        "9e91a8d2-140b-44aa-b420-daf14eb7d827",
+        "394726f5-6a62-44e3-9e64-ca725c15524d",
+        "6964ac49-9826-44ce-8f9c-29b0021aaca8",
+        "4d3b9e8b-bf7d-4fbd-8041-50c14ef497b2",
+        "52fd34a6-faec-499e-9fb0-99161d1235ff",
+        "2b10d706-d032-4549-bdc1-b1e27bc21f79",
+        "e0ff3d9d-8a0c-409a-8659-a62573802141",
+        "9f83e4b2-2809-4128-8880-95b65a412575",
+        "ce938dae-6c05-4753-af65-583955674b17"
+      ],
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "pre_title": "",
+        "title": "all men's styles",
+        "title_font": "headline__arno",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "pre_title": "(featured)",
+        "heading": "You may also like"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1650489885e385492b",
+    "16584190828ea23e02",
+    "1652199612f01388e0",
+    "16597103040655bcf4",
+    "product-recommendations"
+  ]
+}

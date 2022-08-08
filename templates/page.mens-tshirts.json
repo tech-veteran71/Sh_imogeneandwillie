@@ -260,6 +260,22 @@
         "img_url": "",
         "img_width": "large"
       }
+    },
+    "16594661958a8295d0": {
+      "type": "section-image-overlay-feature",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/red-earl_11.jpg",
+        "image": "shopify:\/\/shop_images\/i_w__011028.jpg",
+        "change_alignment": false,
+        "show_section_mob": false,
+        "show_section_desk": false,
+        "show_section": true,
+        "pre_title": "new arrivals",
+        "title": "somewhere else badnana",
+        "text": "new bandana release. new bandana releasenew bandana releasenew bandana releasenew bandana releasenew bandana releasenew bandana releasenew bandana release",
+        "btn_text": "button",
+        "link_url": ""
+      }
     }
   },
   "order": [
@@ -274,6 +290,7 @@
     "1652456232ae0f4c29",
     "16527310938cba278b",
     "1652456340537a4e71",
-    "1652456916538c32da"
+    "1652456916538c32da",
+    "16594661958a8295d0"
   ]
 }

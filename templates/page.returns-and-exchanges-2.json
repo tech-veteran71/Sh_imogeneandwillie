@@ -64,7 +64,7 @@
           "type": "info",
           "settings": {
             "label": "email",
-            "link_text": "help@imogeneandwillie.com",
+            "link_text": "<a href=\"mailto:help@imogeneandwillie.com\">help@imogeneandwillie.com<\/a>",
             "link_url": ""
           }
         },

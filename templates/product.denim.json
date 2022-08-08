@@ -88,41 +88,58 @@
       "settings": {
         "img": "shopify:\/\/shop_images\/wyatt-bleach_02.jpg",
         "title": "file under: process",
-        "wrap_title": "screenprinted here in nashville",
-        "top_text": "by our friends at kangaroo press",
-        "bottom_text": "so much goes into everything that we do and our graphic tees are no different. hours of time are spent over the press making sure every color, application, line is exactly how we envisioned it. ryan nole at Kangaroo Press, our primary screen printing partner, takes our artwork and brings it to life.",
+        "wrap_title": "patterned, cut, and sewn in the USA",
+        "top_text": "",
+        "bottom_text": "in addition to making it all right here, everything we've ever produced has been made via small–batch production, which helps us make clothing with intention, and in turn, helps us avoid creating unnecessary waste, and just as importantly, helps us keep focus on appreciating every person who helps us make these garments.",
         "link_text": "learn more >",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/pages\/the-process",
         "btn": "learn more about our process >",
         "add_video": true,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09a59ce507e4999beb5fa14e7ab236c.mp4"
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c66d0529685c476fa93cc6243aa00014.mp4"
       }
     },
-    "165220110819e632f3": {
-      "type": "section-product-collection-slider",
+    "16597103040655bcf4": {
+      "type": "section-content-spec-collection",
+      "blocks": {
+        "e9739dfc-ce98-491e-a549-8aecf491854a": {
+          "type": "collection",
+          "settings": {
+            "collection": "henry"
+          }
+        },
+        "ba845a1a-5d24-45ed-8399-e37859c96a57": {
+          "type": "collection",
+          "settings": {
+            "collection": "willie"
+          }
+        },
+        "4b5d9f0f-c737-482a-873a-edf9294d034c": {
+          "type": "collection",
+          "settings": {
+            "collection": "barton-slim"
+          }
+        },
+        "eaef2fdd-bfc5-47a4-9b57-88b0b19acfe0": {
+          "type": "collection",
+          "settings": {
+            "collection": "charlie"
+          }
+        }
+      },
+      "block_order": [
+        "e9739dfc-ce98-491e-a549-8aecf491854a",
+        "ba845a1a-5d24-45ed-8399-e37859c96a57",
+        "4b5d9f0f-c737-482a-873a-edf9294d034c",
+        "eaef2fdd-bfc5-47a4-9b57-88b0b19acfe0"
+      ],
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#f7f6f3",
-        "choose_collection": "graphic-content",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": false,
-        "show_badges": false,
-        "title": "the devil is in the details",
-        "main_title": "the devil is in the details",
-        "mob_title": "",
-        "link_text": "",
-        "link_url": ""
-      }
-    },
-    "16535980161ec26cd1": {
-      "type": "section-parallax",
-      "disabled": true,
-      "settings": {
-        "mobile_hide": true,
-        "desktop_hide": false,
-        "image": "shopify:\/\/shop_images\/Men_s_T-shirts_Header.png"
+        "pre_title": "",
+        "title": "all men's styles",
+        "title_font": "headline__arno",
+        "btn_text": "",
+        "btn_url": ""
       }
     },
     "product-recommendations": {
@@ -138,8 +155,7 @@
     "1650489885e385492b",
     "16584190828ea23e02",
     "1652199612f01388e0",
-    "165220110819e632f3",
-    "16535980161ec26cd1",
+    "16597103040655bcf4",
     "product-recommendations"
   ]
 }

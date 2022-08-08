@@ -25,8 +25,24 @@
         "show_down_arrow": false
       }
     },
+    "1659646230f21b5e16": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "DENIM CARE <br><br>",
+        "title_font": "headline__din",
+        "text": "contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it. <br><br><a href=\"#whentowash\">( when to wash )<\/a> <br><br><a href=\"#whattouse\">( what to use )<\/a><br><br><a href=\"#thingstoremember\">( things to remember ) <\/a> <br><br><a href=\"#howtowash\">( how to wash ) <\/a><br><br><a href=\"#denimrepair\">( denim repair )<\/a>",
+        "btn_text": "",
+        "btn_url": "shopify:\/\/pages\/a-day-in-the-life",
+        "show_button": true
+      }
+    },
     "164986725161283e43": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
@@ -72,7 +88,7 @@
         "desk_img": "shopify:\/\/shop_images\/washbabywash__4_of_19.jpg",
         "img_url": "",
         "pre_title": "",
-        "main_title": "<br>when to wash",
+        "main_title": "<br><a id=\"whentowash\"> <\/a>( when to wash )",
         "title_font": "headline__din",
         "text": "there's no right or wrong answer. denim will age differently depending on how often you wear and wash. we've seen great jeans that are washed quite frequently. we've seen beautiful jeans that have never seen a wash. you can wash before you wear, wash after 1 month, after 2 months or wait 6 months for the first wash. at the end of the day, we recommend what works best for you. in general, wear often, wash not so often.",
         "btn_text": "",
@@ -92,7 +108,7 @@
         "desk_img": "shopify:\/\/shop_images\/washbabywash__2_of_19.jpg",
         "img_url": "",
         "pre_title": "",
-        "main_title": "<br>what to use",
+        "main_title": "<br><a id=\"whattouse\"> <\/a>( what to use )",
         "title_font": "headline__din",
         "text": "we recommend avoiding harsh detergents or fabric softeners. they can over soften your jeans and cause them to wear out faster. one of our favorite detergents is Swedish-made TGC044 Denim Wash. we love its natural oils that deodorize and the added sugar surfactant helps soften and scrub your jeans clean.",
         "btn_text": "",
@@ -112,7 +128,7 @@
         "desk_img": "shopify:\/\/shop_images\/washbabywash__12_of_19_d23fbf91-b6f1-45eb-bd74-e18a32053413.jpg",
         "img_url": "",
         "pre_title": "",
-        "main_title": "<br>things to remember",
+        "main_title": "<br><a id=\"thingstoremember\"> <\/a>( things to remember )",
         "title_font": "headline__din",
         "text": "excess sweat and grime can build up and weaken fabric in the crotch area or along the cuffs. we recommend regular (though infrequent) washes to prevent damage to your jeans.",
         "btn_text": "",
@@ -129,7 +145,7 @@
         "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
-        "title": "<br><br>HOW TO WASH YOUR JEANS",
+        "title": "<br><br><a id=\"howtowash\"> <\/a>HOW TO WASH YOUR JEANS",
         "title_font": "headline__din",
         "text": "when you ask us how to wash your jeans, we have a few answers. the truth is, everyone washes their jeans a bit differently depending on what works for their life.",
         "btn_text": "",
@@ -229,7 +245,7 @@
         "pre_title": "<br>",
         "main_title": "general maintenance and care",
         "title_font": "headline__arno",
-        "text": "each pair of jeans tells a story; this is what we love most. as they fade, crease, dirty, need washing and fade a bit more, they become uniquely yours. how often you wear your jeans, what you do in them, and how you wash them... each aspect will shape the way they age. to keep your jeans around as long as possible, we have a few tips for general care and maintenance for the time between washes. <br> <br><b>spot cleaning<\/b><br><br> let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - the friction will lift off the indigo, leaving you with a bright, whiter spot.<br><br><b> odor<\/b><br><br>you can always let them air outside on a nice day, or use a mild odor-fighting fabric spray when needed. <br><br><b>stiffness<\/b><br><br>after air drying for a bit, you'll notice your jeans will be quite stiff. feel free to put your jeans on while they're still damp and wear them until they dry to soften them up. you can also toss them in the dryer, no heat, for a few minutes.<br><br><b>shrinkage<\/b><br><br>washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat. if you notice shrinkage in length, step on the leg of the jeans while they're still damp, and pull up by the waistband. <br><br><b>dye transfer<\/b><br><br>you may notice some indigo pull out of the jeans during the wash. it's natural and normal! we recommend washing your jeans alone or with other denim <br><br><b>repairs<\/b><br><br>regular, though infrequent washing, can help prevent damage and holes from appearing. if you ever notice any additional damage, we recommend getting it repaired as soon as possible. imogene + willie offers repair services for all jeans purchased at our stores. (please note that all jeans must be washed with soap and water in order to receive repair services.) email <a href=\"mailto:help@imogeneandwillie.com\">help@imogeneandwillie.com<\/a> for all repair needs.",
+        "text": "a few tips for general care and maintenance for the time between washes. <br> <br><b>spot spot cleaning<\/b><br><br> let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - friction will lift off the indigo, leaving you with a bright, whiter spot you want to avoid. <br> <br><b>spot odor<\/b><br><br>  you can always let them air outside on a nice day or use a mild odor-fighting fabric spray when needed.  <br> <br><b>shrinkage<\/b><br><br>  washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat. if you notice shrinkage in length, step on the leg of the jeans while they're still damp, and pull up by the waistband.  <br> <br><b>dye transfer<\/b><br><br> <br> <br><b>  you may notice some indigo pull out of the jeans during the wash. it's natural and normal! we recommend washing your jeans alone or with other denim.<\/b>",
         "btn_text": "",
         "btn_url": "",
         "change_alignment": false,
@@ -248,7 +264,7 @@
         "mob_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
         "img_url": "shopify:\/\/pages\/tailor-shop",
         "pre_title": "the jeans",
-        "main_title": "denim repair",
+        "main_title": "<a id=\"denimrepair\"> <\/a>denim repair",
         "title_font": "headline__arno",
         "text": "our tough little sewing team does not mess around. we’re ready and able to handle blow outs, rips, pocket bag holes, fraying hems, and a wide range of other repair needs.",
         "btn_text": "see more >",
@@ -257,11 +273,64 @@
         "show_btn": true,
         "show_link": false
       }
+    },
+    "16596461271c9e519b": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "DENIM CARE",
+        "btn_url": "",
+        "show_button": true
+      }
+    },
+    "1659646152b6cadffe": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "WHEN TO WASH",
+        "btn_url": "",
+        "show_button": true
+      }
+    },
+    "1659646303eda14c6d": {
+      "type": "section-img-txt-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
     }
   },
   "order": [
     "main",
     "1649862524008263dc",
+    "1659646230f21b5e16",
     "164986725161283e43",
     "164986274521568d47",
     "16553190223981909a",
@@ -273,6 +342,9 @@
     "1649861691a360ac14",
     "1649864648a7356eae",
     "1649864652246cc779",
-    "1649867094b3f174cc"
+    "1649867094b3f174cc",
+    "16596461271c9e519b",
+    "1659646152b6cadffe",
+    "1659646303eda14c6d"
   ]
 }

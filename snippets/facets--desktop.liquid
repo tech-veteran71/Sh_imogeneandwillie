@@ -30,10 +30,12 @@
           <label class="desktop-facets__facet-title h4">SORT</label>
           <div class="desktop-facets__facet-options">
             {%- for option in results.sort_options -%}
+              {% unless option.name == 'Alphabetically, A-Z' or option.name == 'Alphabetically, Z-A' %}
               <div class="desktop-facets__facet-option">
                 <input class="desktop-facets__option-input visually-hidden" type="radio" name="sort_by" value="{{ option.value | escape }}" id="desktop-facet-{{ option.value }}" {% if option.value == sort_by %} checked {% endif %}>
                 <label class="desktop-facets__option-label" for="desktop-facet-{{ option.value }}">{{ option.name }}</label>
               </div>
+            {% endunless%}
             {%- endfor -%}          
           </div>
         </div><!-- .desktop-facets__grid-item -->

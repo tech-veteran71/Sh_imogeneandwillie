@@ -1,0 +1,344 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16499696593217121e": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "video_controls": false
+      }
+    },
+    "1657142309cd847f22": {
+      "type": "section-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/03e96f2adb364090a5ecc697f795aaf3.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/03e96f2adb364090a5ecc697f795aaf3.mp4",
+        "video_controls": false
+      }
+    },
+    "1657140914eed4ca4c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/peach01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/peach01.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-peach-truck-tee",
+        "img_width": "large"
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "( introducing )",
+        "title": "the \"peach truck\" tee",
+        "title_font": "headline__din",
+        "text": "a very special, limited edition t-shirt screen-printed from hand-drawn artwork. made in support & celebration of our friends at the peach truck. <br><br>each tee is patterned, cut, and sewn in the USA from our 7oz, 100% cotton mid-weight fabric. <br><br>",
+        "btn_text": "SHOP NOW ->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-peach-truck-tee",
+        "show_button": false
+      }
+    },
+    "16505718302bbb6563": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/studiotee013_09.webp",
+        "mob_img": "shopify:\/\/shop_images\/studiotee013_09.webp",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "1659631772fb9a5734": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/b252b8b7-c3bd-717c-5fae-cac3e6b882ae_1d4141e8-2517-475c-874b-47bcd44c3f73.jpg",
+        "mob_img": "shopify:\/\/shop_images\/b252b8b7-c3bd-717c-5fae-cac3e6b882ae_1d4141e8-2517-475c-874b-47bcd44c3f73.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "1659631614bc39e591": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "there is a lot of hype on our sweet city these days. the new nashville. today, it's inspiring, and full of energy. <br><br>and then, there's the old nashville, a time and place that we can speak to as a beautiful moment in time. looking back on it...one might call it a creative movement. the way i can best explain it: it was a time in which this sweet city, and most all of the people that already called it home, welcoming with open arms...young creatives such as us, to melt in to the quilt of what now forever will be called our home. <br><br>this town helped us get on our feet and open our business, imogene + willie. and as that started to fall in to place, we watched others like us strive to figure out the road map that led to the road of starting a little business. <br><br>as it relateds to that - there is a story that is vivid in  my mind. there was a young gal named jessica, that came in our shop one afternoon - i remember her because she glowed. her words were strong and confident, but her disposition was so warm and enveloping and kind. her husband was stephen. if i had to define him in one word - the word is for sure charismatic. he told us that they had a green truck. i think it was an old jeep gladiator. and that his roots were georgia. and that he was going to sell peaches out of that truck. and that he felt it best that those peaches be sold out in the front of our shop. no negotiation - we knew well the feeling og pursuing your dreams and wanted to help however we could. we shook hands and agreed with his plan. <br><br>in that first year, jessica + stephen sold 10 tons of peaches.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1659631837178df672": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/peachtruck_06.jpg",
+        "mob_img": "shopify:\/\/shop_images\/peachtruck_06.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "1659642570a339fc73": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "that was a decade ago. and today, as it has for all the years since, the green truck still parks at the shop, plum full of brown bags of peaches. we love a good peach. but more so, we love this family...and feel as if they are a part of ours. if you know stephen + jessica, and the rest of the peach truck family, you know this feeling, too. they took a simple georgia peach and turned it into a summertime pilgriage, back to that old truck, in the hot july sun, to grab a bag before they ran out. <br><br>this is a moment in time that we celebrate. this milestone for the peach truck, and what it means for old nashville. good people with a simple mission to preserve simple and wonderful treasures. we are so proud of what the peach truck has become, and to have been there to witness it all along. <br><br>july 31 from 12-4 pm, we hope you will join us - where it all began 10 years ago - out in front of our shop on 12 south. there will be no shortage of peaches or refreshments. or full hearts. <br><br>with all of our love, <br><br>carrie and the whole team at i+w.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16571405010e86593d": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"i'd rather wake up in the middle of nowhere than in any city on earth.\"",
+        "customer_name": "<br>- steve mcqueen",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657140670a5f6a9d5": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/peachtruck_socialflyer.png",
+        "mob_img": "shopify:\/\/shop_images\/FINAL_peachtruck_flyer_copy.png",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "1657140743c17f8f84": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( back in stock )",
+        "title": "the rider's west bandana",
+        "title_font": "headline__arno",
+        "text": "you asked, we answered: our all-time favorite graphic bandana is back from the archives. <br><br>",
+        "btn_text": "SHOP NOW",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-riders-west-bandana",
+        "show_button": true
+      }
+    },
+    "1657140562b846890d": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/341ce456-aefc-3f07-bbd6-71aedd49e052.jpg",
+        "mob_img": "shopify:\/\/shop_images\/341ce456-aefc-3f07-bbd6-71aedd49e052.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana",
+        "img_width": "medium"
+      }
+    },
+    "165962991539429102": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "( feature )",
+        "title": "chainstitch embroidery",
+        "title_font": "headline__din",
+        "text": "a few years back, we got our hands on a restored antique chainstitch machine. we set it up in our tailor shop and got to work. <br><br>it's allowed our passion for everything we love about vintage bandanas to grow, and to mix with our vision of what's to come. <br><br>",
+        "btn_text": "SHOP NOW ->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana",
+        "show_button": false
+      }
+    },
+    "16596414843abf6fee": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/vb-01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/vb-01.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "164997002040b6e356": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( at the shop )",
+        "title": "the peach truck 10 year anniversary party",
+        "title_font": "headline__din",
+        "text": "join us tomorrow, sunday, july 31st to celebrate 10 years of selling their incredible southern peaches. <br><br>there will be free drinks, live music, and food available for purchase -- and as always, all are welcome.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "165057188760384d76": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "“to do a dangerous thing with <br>style is what i call art.”",
+        "customer_name": "- charles bukowski",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650572264552ae7c6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "img_width": "extra-large"
+      }
+    },
+    "1650572297101d858e": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the \"hello\" painting",
+        "title_font": "headline__din",
+        "text": "the only one of its kind.<br><br> 24\"x30\" acrylic and mixed media on canvas<br>by matt eddmenson, 2022",
+        "btn_text": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "show_button": false
+      }
+    },
+    "1650572934afd406d6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "large"
+      }
+    },
+    "1659640918e847bc15": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "patterned, cut, and sewn in the i+w workshop from American-made, 100% cotton fabric. chain-stitched on an antique, hand-crank machine in our tailor shop.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1659641702e0019e51": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/peachtruck_02.jpg",
+        "mob_img": "shopify:\/\/shop_images\/peachtruck_02.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "16499700408d317de1": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "top-picks",
+        "show_title": false,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "top picks",
+        "title_font": "headline__din",
+        "text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things.",
+        "btn_text": "SHOP NOW",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16499696593217121e",
+    "1657142309cd847f22",
+    "1657140914eed4ca4c",
+    "16499691942d1a0881",
+    "16505718302bbb6563",
+    "1659631772fb9a5734",
+    "1659631614bc39e591",
+    "1659631837178df672",
+    "1659642570a339fc73",
+    "16571405010e86593d",
+    "1657140670a5f6a9d5",
+    "1657140743c17f8f84",
+    "1657140562b846890d",
+    "165962991539429102",
+    "16596414843abf6fee",
+    "164997002040b6e356",
+    "165057188760384d76",
+    "1650572264552ae7c6",
+    "1650572297101d858e",
+    "1650572934afd406d6",
+    "1659640918e847bc15",
+    "1659641702e0019e51",
+    "16499700408d317de1"
+  ]
+}

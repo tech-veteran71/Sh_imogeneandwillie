@@ -1,0 +1,345 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16499696593217121e": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/699591302\/rendition\/1080p?loc=external&signature=8125c013f73faec5320d4d2596a10166b8ca35fd6460211f32c61450f4e71e68",
+        "video_controls": false
+      }
+    },
+    "1657142309cd847f22": {
+      "type": "section-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/03e96f2adb364090a5ecc697f795aaf3.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/03e96f2adb364090a5ecc697f795aaf3.mp4",
+        "video_controls": false
+      }
+    },
+    "1657140914eed4ca4c": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/studiotee013_01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/studiotee013_01.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__din",
+        "text": "this week, imogene + willie is turning 13 years old. <br> <br> it feels important to do two things: <br><br> first, we want to say thank you. <br><br>thank you for your support over the years in our mission to make intentionally. <br><br>thank you for joining us in choosing to focus on small batch, American-made pieces that are made with the goal of respecting the process, consuming minimal materials, and valuing the time of the sewers, pattern makers, and everyone involved in making these pieces. <br><br> we feel lucky to be able to continue doing what we love and couldn't do it without everyone who has joined us along the way. <br><br>second, we wanted to celebrate our anniversary, so we decided to make something extra special...",
+        "btn_text": "SHOP NOW ->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-indigo-studio-tee-013",
+        "show_button": false
+      }
+    },
+    "16505718302bbb6563": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/studiotee013_09.webp",
+        "mob_img": "shopify:\/\/shop_images\/studiotee013_09.webp",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "165962991539429102": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "( introducing )",
+        "title": "THE INDIGO STUDIO TEE 013",
+        "title_font": "headline__din",
+        "text": "a limited edition run of hand-dyed indigo pocket tees that we dyed, bleached down in our studio, then set out to fade in the sun. each one becoming a different piece of art. no two t-shirts are exactly alike. <br> <br> limited edition of 200. <br><br>",
+        "btn_text": "SHOP NOW ->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-indigo-studio-tee-013",
+        "show_button": false
+      }
+    },
+    "1659631772fb9a5734": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/studiotee013_03.webp",
+        "mob_img": "shopify:\/\/shop_images\/studiotee013_03.webp",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "1659631614bc39e591": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "we've had a long-time obsession with indigo, and over the last few years, we've spent time expanding our dyeing techniques.... experimenting, testing, and ultimately searching for the small surprises that take our connection with color deeper.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1659631837178df672": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/studiotee013_02.jpg",
+        "mob_img": "shopify:\/\/shop_images\/studiotee013_02.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16571405010e86593d": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"i never get tired of the blue sky.\"",
+        "customer_name": "<br>- vincent van gogh",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657140670a5f6a9d5": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/fethiyeindigo-mens-_10.webp",
+        "mob_img": "shopify:\/\/shop_images\/fethiyeindigo-mens-_10.webp",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "1657140743c17f8f84": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( featured )",
+        "title": "the patchwork fethiye",
+        "title_font": "headline__arno",
+        "text": "featuring a highly adjustable drawstring waist, a single back patch pocket, and a gusseted crotch, the fethiye is the perfect pant to lounge in on a saturday afternoon. <br><br>",
+        "btn_text": "SHOP NOW",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/patchwork-fethiye",
+        "show_button": true
+      }
+    },
+    "1657140562b846890d": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/fethiyeindigo-mens-_01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/fethiyeindigo-mens-_01.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "1657140855c3e405cb": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/olive-crew04.jpg",
+        "mob_img": "shopify:\/\/shop_images\/olive-crew04.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
+    "164996952346f08380": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "mobile_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "1649969933f60067f1": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the \"dirty dozen\" tee.",
+        "title_font": "headline__din",
+        "text": "limited edition of 250",
+        "btn_text": "shop now",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "show_button": false
+      }
+    },
+    "164997002040b6e356": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "THE COLLECTION",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "165057188760384d76": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "“to do a dangerous thing with <br>style is what i call art.”",
+        "customer_name": "- charles bukowski",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650572264552ae7c6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "img_width": "extra-large"
+      }
+    },
+    "1650572297101d858e": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the \"hello\" painting",
+        "title_font": "headline__din",
+        "text": "the only one of its kind.<br><br> 24\"x30\" acrylic and mixed media on canvas<br>by matt eddmenson, 2022",
+        "btn_text": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "show_button": false
+      }
+    },
+    "1650572934afd406d6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "large"
+      }
+    },
+    "1659630129910202de": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "each shirt is patterned, cut, and sewn in the USA by our team of ten in the i+w workshop from our 100% cotton, 7oz midweight fabric.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16499700408d317de1": {
+      "type": "section-collection-grid",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "top-picks",
+        "show_title": false,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "top picks",
+        "title_font": "headline__din",
+        "text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things.",
+        "btn_text": "SHOP NOW",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16499696593217121e",
+    "1657142309cd847f22",
+    "1657140914eed4ca4c",
+    "16499691942d1a0881",
+    "16505718302bbb6563",
+    "165962991539429102",
+    "1659631772fb9a5734",
+    "1659631614bc39e591",
+    "1659631837178df672",
+    "16571405010e86593d",
+    "1657140670a5f6a9d5",
+    "1657140743c17f8f84",
+    "1657140562b846890d",
+    "1657140855c3e405cb",
+    "164996952346f08380",
+    "1649969933f60067f1",
+    "164997002040b6e356",
+    "165057188760384d76",
+    "1650572264552ae7c6",
+    "1650572297101d858e",
+    "1650572934afd406d6",
+    "1659630129910202de",
+    "16499700408d317de1"
+  ]
+}
