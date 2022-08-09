@@ -21,6 +21,21 @@
   margin: 0 auto;
 }
 
+.size-guide__header-inner {
+  display: flex;
+  align-items: center;
+}
+
+.size-guide__header-image {
+  max-width: 18rem;
+  margin-right: 2.4rem;
+}
+
+.size-guide__header-image .img {
+  max-width: 100%;
+  display: block;
+}
+
 .size-guide__header-content {
   text-align: center;
 }
