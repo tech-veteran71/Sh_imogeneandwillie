@@ -26,7 +26,7 @@
         "desktop_hide": false,
         "bg_color": "#c2902c",
         "text": "too often, jean styles are born out of a fashion trend or modern innovation. <br><br>our jeans were created as a reaction to what wasn’t happening.",
-        "link_text": "shop now ->",
+        "link_text": "",
         "link_url": ""
       }
     },
@@ -35,7 +35,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#ffffff",
+        "desk_bg_color": "#fff",
         "mob_bg_color": "#ffffff",
         "desk_img": "shopify:\/\/shop_images\/i_w__010553.jpg",
         "mob_img": "shopify:\/\/shop_images\/bartonslimpureindigo_10_1200x_da6b4df7-57d7-49e0-b39f-bd630d9c8421.webp",
@@ -56,7 +56,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#ffffff",
+        "background_color": "#fff",
         "choose_collection": "barton-slim",
         "show_title": true,
         "show_subtitle": true,
@@ -113,7 +113,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#ffffff",
+        "desk_bg_color": "#fff",
         "mob_bg_color": "#ffffff",
         "desk_img": "shopify:\/\/shop_images\/henryjp-11_1200x_4e99c74d-627c-4044-b175-03caa0eae4cc.webp",
         "mob_img": "shopify:\/\/shop_images\/run-henry-09_1200x_adf3e8a8-a884-4e3f-8d16-712e9ba012b1.webp",
@@ -134,7 +134,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#ffffff",
+        "background_color": "#fff",
         "choose_collection": "henry",
         "show_title": true,
         "show_subtitle": true,
@@ -160,49 +160,12 @@
         "pre_title": "( the original )",
         "main_title": "willie",
         "title_font": "headline__arno",
-        "text": "our very first men’s fit, named for carrie’s grandfather.  most jean styles out there are born from trends or modern innovations. inspired by matt’s personal archive of vintage jeans, the willie can be summed up in one word: timeless.<br><br>",
+        "text": "willie sits above the hips, and is straight through the thigh and knee. size 31 has a 17 1\/2\" leg opening.",
         "btn_text": "shop all",
         "btn_url": "shopify:\/\/collections\/willie",
         "change_alignment": true,
         "show_btn": false,
         "show_link": false
-      }
-    },
-    "1659387799b07d0daf": {
-      "type": "section-diptych",
-      "blocks": {
-        "9c9a384a-e0e6-4688-8af8-f5011864e7c4": {
-          "type": "collection_item",
-          "settings": {
-            "img_desk": "shopify:\/\/shop_images\/bartonslim-draper01.jpg",
-            "img_mob": "shopify:\/\/shop_images\/bartonslim-draper01.jpg",
-            "pre_title": "( back in stock )",
-            "title": "barton slim draper",
-            "btn_text": "Shop now",
-            "link_url": "",
-            "link_text": "barton slim da"
-          }
-        },
-        "81c54925-2e84-440e-ae5b-f520bf2f74c6": {
-          "type": "collection_item",
-          "settings": {
-            "img_desk": "shopify:\/\/shop_images\/henry-lot-1-01.jpg",
-            "img_mob": "shopify:\/\/shop_images\/henry-lot-1-01.jpg",
-            "pre_title": "( New Arrival )",
-            "title": "vidalia lot #3",
-            "btn_text": "Shop All",
-            "link_url": "",
-            "link_text": "vidalia"
-          }
-        }
-      },
-      "block_order": [
-        "9c9a384a-e0e6-4688-8af8-f5011864e7c4",
-        "81c54925-2e84-440e-ae5b-f520bf2f74c6"
-      ],
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false
       }
     },
     "1658866129d79fc526": {
@@ -223,66 +186,119 @@
         "link_url": ""
       }
     },
-    "1658948975c2ed6c49": {
+    "16600573529786576e": {
       "type": "section-hero-grid",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": true,
-        "bg_color": "#ffffff",
-        "desk_img": "shopify:\/\/shop_images\/willie07.jpg",
-        "mob_img": "shopify:\/\/shop_images\/willie07.jpg",
-        "link_url": "",
-        "title": "all styles broken down by fabric",
-        "link_text": "view fabric guide ->"
-      }
-    },
-    "16589491689f054d60": {
-      "type": "section-symmetric-content",
+      "disabled": true,
       "blocks": {
-        "a585fd65-54af-4607-9e23-c25bc0c5c190": {
-          "type": "fabric_info",
+        "45da19c6-ee50-40bc-8d93-beb22ff6d0b5": {
+          "type": "product_image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/bartonslim-draper01.jpg",
-            "title": "fabric guide",
-            "title_font": "headline__arno",
-            "text": "all of our styles broken down by fabric: rigid, washed, black, etc.",
-            "link_text": "Shop by fabric ->",
-            "link_url": "shopify:\/\/pages\/fabric-guide",
-            "use_btn": false
+            "img": "shopify:\/\/shop_images\/ol_02.jpg",
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
           }
         },
-        "acf58245-7cc4-4bcc-9d43-f262e50625d4": {
-          "type": "fabric_info",
+        "0a909233-153a-440b-9771-4f16e6ab3ca1": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/bartonslim-draper01.jpg",
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
+          }
+        },
+        "9e29dd0d-5a28-4714-aa3e-84f7b607d0d5": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/willie07.jpg",
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
+          }
+        },
+        "999170e1-35e7-42c1-b8eb-3c78eb327ef9": {
+          "type": "product_image",
           "settings": {
             "img": "shopify:\/\/shop_images\/henry-lot-1-01.jpg",
-            "title": "SHOP ALL",
-            "title_font": "headline__din",
-            "text": "everything in one place — see it all and go at your own pace.",
-            "link_text": "shop men's denim ->",
-            "link_url": "shopify:\/\/collections\/men-denim",
-            "use_btn": false
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
+          }
+        },
+        "13aef8ff-b8bd-4905-ab92-56c13cb8021f": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/washbabywash__4_of_19.jpg",
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
+          }
+        },
+        "966830f9-aafa-42fa-a841-bfe09b92aa8e": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/bartonslimojai_01_2.jpg",
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
+          }
+        },
+        "406e2406-8e9f-446d-833d-dffe6b843b32": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/natchez.png",
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
+          }
+        },
+        "90c33627-770b-460b-9c64-7b4afb8ba4bd": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/mobile_3239f1d4-c213-4a8d-bf84-a3d83c675eb0.jpg",
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
+          }
+        },
+        "ca80d795-f5ac-4fec-a0f1-fefd31abb6e8": {
+          "type": "product_image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/charlie-rigid-jp08-2_1200x_2c570353-0527-48b9-8d49-8071b1da8569.webp",
+            "link": "https:\/\/imogeneandwillie.com\/collections\/men-denim"
           }
         }
       },
       "block_order": [
-        "a585fd65-54af-4607-9e23-c25bc0c5c190",
-        "acf58245-7cc4-4bcc-9d43-f262e50625d4"
+        "45da19c6-ee50-40bc-8d93-beb22ff6d0b5",
+        "0a909233-153a-440b-9771-4f16e6ab3ca1",
+        "9e29dd0d-5a28-4714-aa3e-84f7b607d0d5",
+        "999170e1-35e7-42c1-b8eb-3c78eb327ef9",
+        "13aef8ff-b8bd-4905-ab92-56c13cb8021f",
+        "966830f9-aafa-42fa-a841-bfe09b92aa8e",
+        "406e2406-8e9f-446d-833d-dffe6b843b32",
+        "90c33627-770b-460b-9c64-7b4afb8ba4bd",
+        "ca80d795-f5ac-4fec-a0f1-fefd31abb6e8"
       ],
       "settings": {
-        "mobile_hide": false,
+        "mobile_hide": true,
         "desktop_hide": false,
-        "main_title": ""
+        "bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/bartonslim-keystone_08.jpg",
+        "link_url": "shopify:\/\/collections\/men-denim",
+        "title": "",
+        "link_text": ""
       }
     },
     "165895065462683bab": {
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
-        "desktop_hide": true,
-        "desk_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/desktop_0ae28962-274f-4eb7-9128-2db241d361f7.jpg",
         "mob_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
         "img_url": "",
-        "img_width": "full"
+        "img_width": "large"
+      }
+    },
+    "1660058858bff665ce": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "shop all men's denim",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/men-denim",
+        "show_button": true
       }
     },
     "16589505183cb8746a": {
@@ -296,7 +312,7 @@
         "show_price": true,
         "show_badges": false,
         "products_to_show": 12,
-        "products_per_row": 2,
+        "products_per_row": 3,
         "title": "",
         "title_font": "headline__din",
         "text": "",
@@ -312,131 +328,7 @@
         "desk_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
         "mob_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
         "img_url": "",
-        "img_width": "full"
-      }
-    },
-    "1659463088db33dfc1": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "pre title",
-        "title": "the \"peach truck\" shirt",
-        "title_font": "headline__arno",
-        "text": "this is the limited edition peach truck shirt. get one while its hot",
-        "btn_text": "button",
-        "btn_url": "",
-        "show_button": true
-      }
-    },
-    "1659463108908d1404": {
-      "type": "section-brand-promise",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "reverse_order": true,
-        "desk_img": "shopify:\/\/shop_images\/homepage_eff8a9ec-1d60-441b-8aba-a9043552ad0d.jpg",
-        "pre_title": "( new arrivals )",
-        "title": "the \"peach truck\" shirt",
-        "title_font": "headline__arno",
-        "text": "this is the peach truck shirt for peach truck's 13 year anniversary. limited edition tee made in house. sold for a little amount of time. get them while their hot.",
-        "btn_text": "button",
-        "link_url": "",
-        "show_link": false
-      }
-    },
-    "16594631355d2e2444": {
-      "type": "section-product-collection-slider",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "background_color": "#f7f6f3",
-        "choose_collection": "bottom-size-25",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": true,
-        "show_badges": true,
-        "title": "Women’s new arrivals",
-        "main_title": "new arrivals",
-        "mob_title": "WOMEN’s",
-        "link_text": "View all",
-        "link_url": ""
-      }
-    },
-    "165946315475cec7ef": {
-      "type": "section-collection-grid",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "choose_collection": "bottom-size-26",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": false,
-        "show_badges": false,
-        "products_to_show": 4,
-        "products_per_row": 2,
-        "title": "collection",
-        "title_font": "headline__din",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
-        "btn_text": "Shop All",
-        "btn_url": ""
-      }
-    },
-    "1659463261fbefc619": {
-      "type": "section-collection-grid",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "choose_collection": "",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": false,
-        "show_badges": false,
-        "products_to_show": 4,
-        "products_per_row": 2,
-        "title": "collection",
-        "title_font": "headline__din",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
-        "btn_text": "Shop All",
-        "btn_url": ""
-      }
-    },
-    "16594632644a835dac": {
-      "type": "section-brand-promise",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "reverse_order": true,
-        "pre_title": "pre title",
-        "title": "title",
-        "title_font": "headline__din",
-        "text": "text",
-        "btn_text": "button",
-        "link_url": "",
-        "show_link": false
-      }
-    },
-    "1659463267c2c00852": {
-      "type": "section-content-cards",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "main_title": "Lorem ipsum dolor"
-      }
-    },
-    "16594702313ccfe26e": {
-      "type": "section-image-overlay-feature",
-      "settings": {
-        "change_alignment": false,
-        "show_section_mob": false,
-        "show_section_desk": false,
-        "show_section": true,
-        "pre_title": "pre title",
-        "title": "title",
-        "text": "text",
-        "btn_text": "button",
-        "link_url": ""
+        "img_width": "large"
       }
     }
   },
@@ -450,20 +342,11 @@
     "1652384267583aae78",
     "165238448800fa371e",
     "165238451517fd2aad",
-    "1659387799b07d0daf",
     "1658866129d79fc526",
-    "1658948975c2ed6c49",
-    "16589491689f054d60",
+    "16600573529786576e",
     "165895065462683bab",
+    "1660058858bff665ce",
     "16589505183cb8746a",
-    "165895022280355359",
-    "1659463088db33dfc1",
-    "1659463108908d1404",
-    "16594631355d2e2444",
-    "165946315475cec7ef",
-    "1659463261fbefc619",
-    "16594632644a835dac",
-    "1659463267c2c00852",
-    "16594702313ccfe26e"
+    "165895022280355359"
   ]
 }

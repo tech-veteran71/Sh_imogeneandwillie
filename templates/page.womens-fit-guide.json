@@ -19,6 +19,17 @@
         "show_down_arrow": false
       }
     },
+    "1660061219302c70c3": {
+      "type": "section-rich-text",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "bg_color": "",
+        "text": "too often, jean styles are born out of a fashion trend or modern innovation. <br><br>our jeans were created as a reaction to what wasn’t happening.",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
     "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
@@ -178,6 +189,7 @@
   },
   "order": [
     "main",
+    "1660061219302c70c3",
     "165238392826fd90de",
     "16523839440f52af5e",
     "1652384122d9f7ad26",

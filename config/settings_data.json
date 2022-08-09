@@ -313,44 +313,44 @@
             "type": "link",
             "settings": {
               "link_text": "order history",
-              "link_url": "https:\/\/imogene-w-dev.myshopify.com\/account"
-            }
-          },
-          "e31db313-3d37-4c7d-bd4c-929702eab22f": {
-            "type": "link",
-            "settings": {
-              "link_text": "returns",
-              "link_url": ""
-            }
-          },
-          "fa1cf4e3-8736-45c3-86cc-1107bde47d79": {
-            "type": "link",
-            "settings": {
-              "link_text": "account details",
-              "link_url": ""
+              "link_url": "https:\/\/imogeneandwillie.com\/account\/"
             }
           },
           "8fecf446-afdc-4059-a9f5-12abe4463d20": {
             "type": "link",
             "settings": {
               "link_text": "addresses",
-              "link_url": ""
+              "link_url": "https:\/\/imogeneandwillie.com\/account\/addresses"
             }
           },
-          "139e7046-0aed-47d9-92d9-8b54872b9f87": {
+          "e31db313-3d37-4c7d-bd4c-929702eab22f": {
             "type": "link",
             "settings": {
-              "link_text": "saved items",
-              "link_url": ""
+              "link_text": "returns",
+              "link_url": "https:\/\/returns.imogeneandwillie.com\/#\/"
+            }
+          },
+          "fa1cf4e3-8736-45c3-86cc-1107bde47d79": {
+            "type": "link",
+            "settings": {
+              "link_text": "faq",
+              "link_url": "shopify:\/\/pages\/faq"
+            }
+          },
+          "0b425ade-8e86-437a-a9eb-a88d9e2e6569": {
+            "type": "link",
+            "settings": {
+              "link_text": "help",
+              "link_url": "shopify:\/\/pages\/faq"
             }
           }
         },
         "block_order": [
           "6f7f2c8c-217a-41f2-9c51-94fb60352734",
+          "8fecf446-afdc-4059-a9f5-12abe4463d20",
           "e31db313-3d37-4c7d-bd4c-929702eab22f",
           "fa1cf4e3-8736-45c3-86cc-1107bde47d79",
-          "8fecf446-afdc-4059-a9f5-12abe4463d20",
-          "139e7046-0aed-47d9-92d9-8b54872b9f87"
+          "0b425ade-8e86-437a-a9eb-a88d9e2e6569"
         ],
         "settings": {
           "title": "my account"
