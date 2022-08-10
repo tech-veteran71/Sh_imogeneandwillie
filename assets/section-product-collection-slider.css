@@ -1,5 +1,4 @@
 .featured-collection {
-  padding-bottom: 8rem;
   background-color: var(--color-Xlight-wheat);
 }
 .featured-collection .index-container {
@@ -80,6 +79,7 @@
   display: flex;
   letter-spacing: 0.3rem;
   text-decoration: none;
+  margin-right: 2rem;
 }
 
 .featured-collection .content-wrap--desktop {
@@ -106,11 +106,6 @@
   }
   .featured-collection .title {
     display: none;
-  }
-  .featured-collection {
-    padding-top: 4rem;
-    background-color: var(--color-white);
-    padding-bottom: 4em;
   }
   .featured-collection .product_gallery {
     padding: 1.4em 0 0 0;

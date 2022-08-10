@@ -10,6 +10,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
         "mob_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
         "img_url": "",
@@ -20,6 +21,7 @@
       "type": "section-txt-link-btn",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "supper + song",
@@ -34,6 +36,7 @@
       "type": "section-image",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/ss.jpg",
         "mob_img": "shopify:\/\/shop_images\/mobile.png",
         "img_url": "",
@@ -44,6 +47,7 @@
       "type": "section-newsletter",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "text": "upcoming events",
         "subtext": "we announce each supper + song via our mailing list.<br> sign up below and we’ll keep you in the loop."
       }
@@ -195,13 +199,15 @@
         "f4564b3a-1c20-49da-a96f-7e28fabc94e3"
       ],
       "settings": {
-        "mobile_hide": false
+        "mobile_hide": false,
+        "desktop_hide": false
       }
     },
     "1655486368916de147": {
       "type": "section-quote",
       "settings": {
         "mobile_hide": false,
+        "desktop_hide": false,
         "review": "“be groovy or leave, man.”",
         "customer_name": "<br>-  bob dylan",
         "background_color": "#f7f6f3"
@@ -210,13 +216,31 @@
     "16554864441637962d": {
       "type": "section-flashcard-feature",
       "settings": {
-        "hide_mobile": false,
+        "mobile_hide": false,
+        "desktop_hide": false,
         "choose_collection": "support-live-music",
         "title": "the \"support live music\" tee",
         "title_font": "headline__din",
         "text": "an ode to our hometown, the musicians of nashville and the gatherings we host in our backyard.",
         "btn_text": "see more",
         "btn_url": "shopify:\/\/collections\/support-live-music",
+        "show_link": false
+      }
+    },
+    "1660157100b0c584eb": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/Image_186_600x_eae4c6e6-2cba-4a04-90c0-b925bd8da564.webp",
+        "mob_img": "shopify:\/\/shop_images\/Image_186_600x_eae4c6e6-2cba-4a04-90c0-b925bd8da564.webp",
+        "pre_title": "( visit the shop )",
+        "title": "nashville",
+        "title_font": "headline__din",
+        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 south – a lovely little neighborhood we are honored to call home.",
+        "btn_text": "LEarn more",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/nashville",
         "show_link": false
       }
     }
@@ -229,6 +253,7 @@
     "16554859930f7532c1",
     "1655486020ddb11fe7",
     "1655486368916de147",
-    "16554864441637962d"
+    "16554864441637962d",
+    "1660157100b0c584eb"
   ]
 }

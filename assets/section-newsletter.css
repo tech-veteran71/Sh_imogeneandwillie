@@ -1,6 +1,6 @@
 .section-newsletter {
     background-color: var(--color-Xlight-wheat);
-    padding: 4rem 4rem;
+    padding: 5rem 5rem;
     margin: 0;
 }
 .section-newsletter__inner {
@@ -43,10 +43,4 @@
     font-family: var( --font-din-med) !important;
     font-weight: 500 !important;
     font-weight: normal !important;
-  }
-
-@media screen and (min-width: 750px) {
-    .section-newsletter {
-        padding: 8rem 0;
-    }
 }

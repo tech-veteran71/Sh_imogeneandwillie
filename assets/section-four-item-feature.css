@@ -1,6 +1,3 @@
-.image-four-item-feature {
-  padding: 8rem 0;
-}
 .image-four-item-feature .swiper-scrollbar {
   opacity: 0;
   left: 0;
@@ -97,9 +94,6 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .image-four-item-feature {
-    padding: 50px 0;
-  }
   .image-four-item-feature .four-item-feature-container {
     padding: 0 1rem;
   }

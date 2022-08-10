@@ -19,7 +19,7 @@
         "title_font": "headline__arno",
         "text": "",
         "btn_text": "READ MORE>",
-        "link_url": "shopify:\/\/pages\/peach-truck-tee",
+        "link_url": "shopify:\/\/pages\/peach-truck-tee-1",
         "show_link": true
       }
     },
@@ -36,7 +36,7 @@
         "title_font": "headline__arno",
         "text": "",
         "btn_text": "READ MORE>",
-        "link_url": "shopify:\/\/pages\/somewhere-else-bandana",
+        "link_url": "shopify:\/\/pages\/somewhere-else-bandana-1",
         "show_link": true
       }
     },
@@ -53,41 +53,58 @@
         "title_font": "headline__arno",
         "text": "",
         "btn_text": "READ MORE>",
-        "link_url": "shopify:\/\/pages\/indigo-studio-no-013-13-year-anniversary",
+        "link_url": "shopify:\/\/pages\/indigo-studio-tee-13-yr",
         "show_link": true
       }
     },
-    "16596494886cc6179e": {
+    "166014412480784e06": {
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,
-        "desk_img": "shopify:\/\/shop_images\/bs-_02.webp",
-        "mob_img": "shopify:\/\/shop_images\/bs-_02.webp",
-        "pre_title": "( 07.16.22 )",
-        "title": "barton slim olive khaki",
+        "desk_img": "shopify:\/\/shop_images\/Untitled-9.png",
+        "mob_img": "shopify:\/\/shop_images\/Untitled-9.png",
+        "pre_title": "( 07.04.22 )",
+        "title": "made in usa",
         "title_font": "headline__arno",
         "text": "",
-        "btn_text": "READ MORE>",
-        "link_url": "shopify:\/\/pages\/barton-slim-olive-khaki",
+        "btn_text": "Read more >",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa",
         "show_link": true
       }
     },
-    "1659649620b8f244af": {
+    "1660147200ff09e44f": {
       "type": "section-brand-promise",
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": false,
-        "desk_img": "shopify:\/\/shop_images\/isabelle-_07.jpg",
-        "mob_img": "shopify:\/\/shop_images\/isabelle-_07.jpg",
-        "pre_title": "( 07.09.22 )",
-        "title": "isabelle paseo celeste chambray",
+        "desk_img": "shopify:\/\/shop_images\/blank-crew05.webp",
+        "mob_img": "shopify:\/\/shop_images\/blank-crew05.webp",
+        "pre_title": "( 06.28.22 )",
+        "title": "all i+w tees + lost studio tee",
         "title_font": "headline__arno",
         "text": "",
-        "btn_text": "READ MORE>",
-        "link_url": "shopify:\/\/pages\/isabelle-paseo-celeste-chambray",
+        "btn_text": "READ MORE >",
+        "link_url": "shopify:\/\/pages\/all-i-w-tees-lost-studio",
+        "show_link": true
+      }
+    },
+    "16601496395ccaf11f": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/seconds_-9.jpg",
+        "mob_img": "shopify:\/\/shop_images\/seconds_-9.jpg",
+        "pre_title": "( 05.08.22 )",
+        "title": "mother's day",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "READ MORE >",
+        "link_url": "shopify:\/\/pages\/mothers-day",
         "show_link": true
       }
     },
@@ -96,7 +113,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": true,
+        "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/dirty_dozen_01_copy.jpg",
         "mob_img": "shopify:\/\/shop_images\/dirty_dozen_01_copy.jpg",
         "pre_title": "( 03.15.22 )",
@@ -113,7 +130,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/washbabywash__4_of_19.jpg",
         "pre_title": "( 01. 01. 22 )",
         "title": "one year wear",
@@ -129,7 +146,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": true,
+        "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/Alpha-HW-001_06.png",
         "pre_title": "( 11. 13. 21 )",
         "title": "alpha industries",
@@ -145,7 +162,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/283d0f57-0aa4-b021-7822-a1b0cdb4f1c5.jpg",
         "pre_title": "( 10. 05. 21 )",
         "title": "i+w dispatch",
@@ -161,7 +178,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": true,
+        "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/d1d1e2b6-2a09-57e2-1be4-c428db46f6ed.gif",
         "pre_title": "( 09. 04. 21 )",
         "title": "indigo studio tee",
@@ -177,7 +194,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/091e4573-b771-f1e8-4f97-75da394c6861.gif",
         "pre_title": "( 08. 28. 21 )",
         "title": "seek and destroy",
@@ -193,7 +210,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": true,
+        "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/graphic-02.png",
         "pre_title": "( 08. 14. 21 )",
         "title": "tie dye v3",
@@ -209,7 +226,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/a7faf645-aacb-4efb-cc96-77520ea036eb.jpg",
         "pre_title": "( 08. 07. 21 )",
         "title": "the vault pt. ii",
@@ -225,7 +242,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": true,
+        "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/cbff5cc5-e9e8-1131-b664-106729a33ce0.gif",
         "pre_title": "( 06. 05. 21 )",
         "title": "high tide",
@@ -241,7 +258,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/013a7550-71ab-4582-89be-1f99f9b9f2a8.png",
         "pre_title": "( 05. 16. 20 )",
         "title": "oliver camo story",
@@ -257,7 +274,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": true,
+        "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044.jpg",
         "pre_title": "( 05. 02. 20 )",
         "title": "vidalia release",
@@ -273,7 +290,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/7ebf6410-a98a-47b5-9fe7-9d01178a2054.jpg",
         "pre_title": "( 04. 27. 21 )",
         "title": "the vault pt.i",
@@ -289,7 +306,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": true,
+        "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/bc1.jpg",
         "pre_title": "( 04. 01. 21 )",
         "title": "the \"belcourt theatre\" tee",
@@ -305,7 +322,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/5022aa8d-a885-4394-bade-efe84a86554b_dc6430bf-0592-408d-aa98-9f54971ef9c5.jpg",
         "pre_title": "( 02. 20. 21 )",
         "title": "chainstitch bandanas",
@@ -321,7 +338,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": true,
+        "reverse_order": false,
         "desk_img": "shopify:\/\/shop_images\/support-live-white07.jpg",
         "pre_title": "( 02. 10. 21 )",
         "title": "support live music",
@@ -337,7 +354,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "reverse_order": false,
+        "reverse_order": true,
         "desk_img": "shopify:\/\/shop_images\/rainbow_05.jpg",
         "pre_title": "( 10. 30. 18 )",
         "title": "little river sock mill",
@@ -379,8 +396,9 @@
     "1659649853bcf33ec6",
     "16596497927ac777af",
     "1659649715781a9a78",
-    "16596494886cc6179e",
-    "1659649620b8f244af",
+    "166014412480784e06",
+    "1660147200ff09e44f",
+    "16601496395ccaf11f",
     "165574340358020851",
     "1655743603a8b17de9",
     "1655743859c8ffce9e",

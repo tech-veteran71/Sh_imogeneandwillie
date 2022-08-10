@@ -66,8 +66,26 @@
         "show_button": false
       }
     },
+    "1660155914e60d55cb": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_900x_476c6c75-ce26-4e56-9791-3131c0c9cb00.webp",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_900x_476c6c75-ce26-4e56-9791-3131c0c9cb00.webp",
+        "pre_title": "",
+        "title": "our process",
+        "title_font": "headline__din",
+        "text": "it started with the desire to make what we couldn’t find. a perfectly fitting jean... or perhaps more precisely: to make perfect jeans for our imperfect bodies.",
+        "btn_text": "learn more >",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/the-process",
+        "show_link": true
+      }
+    },
     "1655232122c569774c": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
@@ -84,6 +102,7 @@
     "1649864198b61b9050",
     "165704449697616802",
     "1655232747b89983e3",
+    "1660155914e60d55cb",
     "1655232122c569774c"
   ]
 }

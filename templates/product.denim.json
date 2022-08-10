@@ -144,9 +144,26 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "pre_title": "(featured)",
-        "heading": "You may also like"
+        "heading": "curated selections"
+      }
+    },
+    "16601584462ae32c7a": {
+      "type": "section-four-item-feature",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "top-picks",
+        "title": "CURATED SELECTIONS",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "SHOP Collection",
+        "btn_url": "",
+        "show_button": false,
+        "pre_title": "",
+        "grid_title": ""
       }
     }
   },
@@ -156,6 +173,7 @@
     "16584190828ea23e02",
     "1652199612f01388e0",
     "16597103040655bcf4",
-    "product-recommendations"
+    "product-recommendations",
+    "16601584462ae32c7a"
   ]
 }

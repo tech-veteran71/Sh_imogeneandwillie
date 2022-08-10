@@ -1,6 +1,5 @@
 .latest-collection {
   background: var(--color-Xlight-wheat);
-  padding-bottom: 25rem;
 }
 .latest-collection .main-grid {
   display: grid;
@@ -70,9 +69,6 @@
 /******************responsive [[ first section  ]]****************/
 
 @media screen and (max-width:767px){
-  .latest-collection {
-    padding-bottom: 0;
-  }
   .latest-collection .collection-item .image img {
     max-width: 22.1rem;
     display: block;

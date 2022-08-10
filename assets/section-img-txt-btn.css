@@ -1,6 +1,6 @@
 .collage-section {
-  padding-bottom: 8rem;
-  padding-top: 8rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 .custom-content .collage-section {
   padding: 9.5rem 0 11rem;
@@ -84,9 +84,6 @@
 }
 
 @media screen and (max-width: 990px){
-  .custom-content .collage-section {
-    padding: 4rem 0 4rem;
-  }
   .collage-section .alpha {
     max-width: 50%;
     flex: 50%;
@@ -112,10 +109,6 @@
   }
 }
 @media screen and (max-width: 767px){
-  .collage-section {
-    padding-bottom: 4rem;
-    padding-top: 4rem;
-  }
   .collage-section .mob-image {
     display: block;
   }

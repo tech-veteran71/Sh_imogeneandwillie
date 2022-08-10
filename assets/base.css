@@ -3400,3 +3400,37 @@ header .sub-menu-link {
 textarea {
   resize: none;
 }
+
+/* Section Margins */
+
+.section-bottom__none {
+  margin-bottom: 0;
+}
+
+.section-bottom__small {
+  margin-bottom: 2.5rem;
+}
+
+.section-bottom__medium {
+  margin-bottom: 5rem;
+}
+
+.section-bottom__large {
+  margin-bottom: 10rem;
+}
+
+.section-top__none {
+  margin-top: 0;
+}
+
+.section-top__small {
+  margin-top: 2.5rem;
+}
+
+.section-top__medium {
+  margin-top: 5rem;
+}
+
+.section-top__large {
+  margin-top: 10rem;
+}

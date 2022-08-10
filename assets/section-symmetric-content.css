@@ -1,6 +1,4 @@
 .fabric-section {
-  padding-bottom: 6rem;
-  padding-top: 2rem;
   background-color: var(--color-Xlight-wheat);
 }
 .fabric-section .container {
@@ -9,7 +7,7 @@
   padding: 0 2rem;
 }
 .fabric-section .title-wrap {
-  margin-bottom: 4em;
+  margin-bottom: 4rem;
 }
 .fabric-section .main-title {
   font-size: 2.1rem;
@@ -82,11 +80,6 @@
     padding: 0 6em;
   }
 }
-@media screen and (min-width: 1400px) {
-  .fabric-section {
-    font-size: 1.8rem;
-  }
-}
 @media screen and (max-width: 1400px) {
   .fabric-section .fabric-block .title {
     font-size: 1.6rem;
@@ -126,8 +119,5 @@
   .fabric-section .content-wrap {
     max-width: 90%;
     height: auto;
-  }
-  .fabric-section {
-    padding-bottom: 12rem;
   }
 }

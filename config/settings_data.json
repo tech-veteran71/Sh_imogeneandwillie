@@ -283,9 +283,9 @@
         ],
         "settings": {
           "newsletter_title": "JOIN THE I+W MAILING LIST",
-          "newsletter_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor lorem",
-          "text": "2106 12th ave s nashville, tn 37204",
-          "copyright_text": "© 2021 imogene + willie"
+          "newsletter_text": "stay up-to-date on new releases and community events by joining the i+w mailing list",
+          "text": "2601 12th ave s nashville, tn 37204",
+          "copyright_text": "© 2022 imogene + willie"
         }
       },
       "login-template": {

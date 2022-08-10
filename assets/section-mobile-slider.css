@@ -1,7 +1,6 @@
 .slide-section {
   display: none;
   background-color: var(--color-Xlight-wheat);
-  padding-bottom: 6rem;
   overflow: hidden;
 }
 .slide-section .container {

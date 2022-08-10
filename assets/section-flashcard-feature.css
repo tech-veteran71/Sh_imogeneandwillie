@@ -1,6 +1,5 @@
 .product-slider-section {
   background-color: var(--color-Xlight-wheat);
-  padding: 8rem 0;
 }
 .product-slider-section .wrapper {
   display: grid;
@@ -168,9 +167,6 @@
   }
 }
 @media(max-width: 1279px ){
-  .product-slider-section {
-    padding: 3rem 0;
-  }
   .product-slider-section .slider {
     max-width: 32rem;
   }
@@ -265,7 +261,6 @@
 }
 @media(max-width: 767px ){
   .product-slider-section {
-    padding: 3rem 0 5rem;
     display: none;
   }
   .product-slider-section__mobile {

@@ -1,6 +1,6 @@
 .content-specific-collection {
   background-color: var(--color-Xlight-wheat);
-  padding: 8.5rem 0 7rem;
+  padding: 0 0 5rem;
 }
 .content-specific-collection:hover .swiper-scrollbar {
   opacity: 1;
@@ -67,9 +67,6 @@
   }
   .content-specific-collection .product-container {
     padding: 0 1rem;
-  }
-  .content-specific-collection {
-    padding: 2rem 0 5rem;
   }
   .content-specific-collection .product-grid {
     padding-bottom: 4rem;

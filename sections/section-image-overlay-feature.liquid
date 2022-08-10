@@ -1,5 +1,5 @@
 {{ 'section-image-overlay-feature.css' | asset_url | stylesheet_tag }}
-<div class="main-section {% if section.settings.show_section %} show-main-section{% endif %} {% if section.settings.show_section_desk %} desk-main-section{% endif %} {% if section.settings.show_section_mob %} mob-main-section{% endif %}">
+<section class="main-section {% if section.settings.show_section %} show-main-section{% endif %} {% if section.settings.show_section_desk %} desk-main-section{% endif %} {% if section.settings.show_section_mob %} mob-main-section{% endif %} {{ section.settings.margin_bottom }}">
   <div class="new-arrival-section {% if section.settings.change_alignment %}alignment{% endif %}"  style="background-image: url({{ section.settings.bg_img | img_url: 'master' }})">
     <div class="index-container" >
       <div class="wrapper">
@@ -40,11 +40,35 @@
       </div>
     </div>  
   </div>
-</div>
+</section>
 {% schema %}
 {
   "name": "IMAGE OVERLAY FEATURE",
   "settings": [
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
     {
       "type": "header",
       "content": "Image",

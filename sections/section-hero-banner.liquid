@@ -1,6 +1,6 @@
 {{ 'section-hero-banner.css' | asset_url | stylesheet_tag }}
 
-<div class="hero-inner {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
+<div class="hero-inner {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}">
   <div class="container">
     <div class="banner">
       <a href="{{ section.settings.img_url }}" class="banner-img">
@@ -40,6 +40,30 @@
   "name": "HERO W/ TXT OVERLAY",
   "class": "hero-banner",
   "settings": [
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
     {
       "type": "checkbox",
       "id": "mobile_hide",

@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "desk_bg_img": "shopify:\/\/shop_images\/Search-Results-BG-IMG.jpg",
+        "mob_bg_img": "shopify:\/\/shop_images\/Search-Results-BG-IMG.jpg",
+        "text": ""
+      }
+    },
+    "1634922614a8d39d99": {
+      "type": "main-collection",
+      "settings": {
+      }
+    },
+    "1659016219d4166f55": {
+      "type": "section-img-txt-btn",
+      "disabled": true,
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_307fbf4e-227f-4120-8ad1-200a30e0d8f0.jpg",
+        "img_url": "shopify:\/\/pages\/the-process",
+        "pre_title": "( on process )",
+        "main_title": "how we do things",
+        "title_font": "headline__arno",
+        "text": "it started with the desire to make what we couldn’t find. a perfectly fitting jean... or perhaps more precisely: to make perfect jeans for our imperfect bodies.",
+        "btn_text": "read more ->",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1634922614a8d39d99",
+    "1659016219d4166f55"
+  ]
+}

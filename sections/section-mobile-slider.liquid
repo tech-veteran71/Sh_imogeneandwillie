@@ -1,5 +1,5 @@
 {{ 'section-mobile-slider.css' | asset_url | stylesheet_tag }}
-<div class="slide-section">
+<section class="slide-section {{ section.settings.margin_bottom }}">
   <div class="container">
     <div class="wrapper {% if section.settings.show_border %}border-bottom{% endif %}">
       {% if section.settings.title != blank %}
@@ -30,12 +30,36 @@
       {% endif %}
     </div>
   </div>
-</div>
+</section>
 
 {% schema %}
 {
   "name": "MOBILE PRODUCT SLIDER",
   "settings": [
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
     {
       "type": "header",
       "content": "This Section Is Just For Mobile Version",

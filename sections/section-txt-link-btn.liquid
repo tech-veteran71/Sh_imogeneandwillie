@@ -1,5 +1,5 @@
 {{ 'section-txt-link-btn.css' | asset_url | stylesheet_tag }}
-<div class="rich-text-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
+<div class="rich-text-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}">
   <div class="index-container">
     <div class="wrapper {{ section.settings.text_align }}">
       {%if section.settings.pretitle != blank %}
@@ -25,6 +25,30 @@
 {
   "name": "TXT W/ LINK/BTN",
   "settings":[
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
     {
       "type": "checkbox",
       "id": "mobile_hide",

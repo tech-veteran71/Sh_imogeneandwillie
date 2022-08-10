@@ -105,9 +105,6 @@
   }
 }
 @media(max-width: 767px) {
-  .promise-section {
-    padding: 5rem 0;
-  }
   .promise-section .content-wrap {
     grid-template-columns: 100%;
   }

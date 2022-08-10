@@ -129,7 +129,7 @@
       "type": "product-recommendations",
       "settings": {
         "pre_title": "(featured)",
-        "heading": "You may also like"
+        "heading": "curated selections"
       }
     }
   },

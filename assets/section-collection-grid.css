@@ -1,5 +1,5 @@
 .product-gallery {
-  padding: 7rem 0 8rem;
+  padding: 5rem;
   background-color: var(--color-Xlight-wheat);
 }
 .product-gallery .wrapper {
@@ -47,9 +47,6 @@
 @media screen and (max-width: 990px) {
   .product-gallery .wrapper {
     padding: 0 1.5rem;
-  }
-  .product-gallery {
-    padding-bottom: 8rem;
   }
 }
 

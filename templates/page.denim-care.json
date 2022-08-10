@@ -30,11 +30,11 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "text_align": "center",
+        "text_align": "left",
         "pretitle": "",
         "title": "DENIM CARE <br><br>",
         "title_font": "headline__din",
-        "text": "contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it. <br><br><a href=\"#whentowash\">( when to wash )<\/a> <br><br><a href=\"#whattouse\">( what to use )<\/a><br><br><a href=\"#thingstoremember\">( things to remember ) <\/a> <br><br><a href=\"#howtowash\">( how to wash ) <\/a><br><br><a href=\"#denimrepair\">( denim repair )<\/a>",
+        "text": "contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it. <br><br><ul>\n<li>\n<a href=\"#whentowash\">( when to wash )<\/a> <\/li>\n<br><br><li><a href=\"#whattouse\">( what to use )<\/a><\/li>\n<br><br><li>\n<a href=\"#thingstoremember\">( things to remember ) <\/a> <\/li>\n<br><br><li><a href=\"#howtowash\">( how to wash ) <\/a><\/li>\n<br><br><li><a href=\"#denimrepair\">( denim repair )<\/a><\/li>\n<\/ul>",
         "btn_text": "",
         "btn_url": "shopify:\/\/pages\/a-day-in-the-life",
         "show_button": true

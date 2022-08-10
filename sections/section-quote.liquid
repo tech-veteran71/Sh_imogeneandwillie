@@ -1,5 +1,5 @@
 {{ 'section-quote.css' | asset_url | stylesheet_tag }}
-<div class="qoute-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}" style="background-color:{{ section.settings.background_color }};">
+<section class="qoute-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}" style="background-color:{{ section.settings.background_color }};">
   <div class="container">
     <div class="wrapper">
       <div class="qoute">
@@ -8,12 +8,36 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
 {% schema %}
 {
   "name": "QUOTE W/ AUTHOR",
   "settings": [
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
     {
       "type": "checkbox",
       "id": "mobile_hide",

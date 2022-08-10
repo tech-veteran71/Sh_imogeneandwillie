@@ -1,6 +1,5 @@
 .qoute-section {
-  font-size: 1.2vw;
-  padding: 5em 0;
+  padding: 5rem 0;
 }
 .qoute-section .qoute {
   text-align: center;
@@ -23,15 +22,10 @@
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 1400px) {
-  .qoute-section {
-    font-size: 2rem;
-  }
-}
 @media screen and (max-width: 767px) {
   .qoute-section {
     background-color: var(--color-Xlight-wheat);
-    padding: 70px 0;
+    padding: 5rem 0;
   }
   .qoute-section .qoute {
     max-width: 260px;

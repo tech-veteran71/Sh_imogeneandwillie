@@ -1,5 +1,5 @@
 .rich-text-section { 
-  padding: 8rem 0;
+  padding: 5rem 0;
   background-color: var(--color-Xlight-wheat);
 }
 .rich-text-section .title {
@@ -72,9 +72,6 @@
   }
   .rich-text-section .wrapper {
     max-width: unset;
-  }
-  .rich-text-section {
-    padding: 2rem 0 5rem;
   }
   .rich-text-section .text {
     font-size: 1.2rem;

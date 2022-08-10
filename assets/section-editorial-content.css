@@ -1,17 +1,7 @@
 .custom-content-section {
   background-color: var(--color-Xlight-wheat);
   position: relative;
-  padding-top: 7rem;
 }
-/* .custom-content-section::after {
-  content: "";
-  background-color: var(--color-white);
-  width: 100%;
-  position: absolute;
-  height: 20.75em;
-  bottom: 0;
-  left: 0;
-} */
 .custom-content-section .img-link {
   display: block;
 }
@@ -178,12 +168,6 @@
     max-width: 100%;
     flex: 100%;
   }
-  .custom-content-section {
-    padding: 60px 0;
-  }
-  /* .custom-content-section .main-title {
-    display: none;
-  } */
   .custom-content-section .main-text {
     max-width: 275px;
   }
@@ -196,9 +180,6 @@
   .custom-content-section .header-wrap {
     margin-bottom: 0;
   }
-  /* .custom-content-section .content-wrap .text:last-child {
-    display: none;
-  } */
   .custom-content-section .content-wrap .text {
     flex: 100%;
     padding: 0;

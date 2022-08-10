@@ -5,10 +5,10 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/trouble01.jpg",
-        "mob_img": "shopify:\/\/shop_images\/trouble01.jpg",
-        "img_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees?utm_source=Unknown+List&utm_campaign=8c0ce362ab-EMAIL_CAMPAIGN_2022_06_02_07_42&utm_medium=email&utm_term=0_-8c0ce362ab-&mc_cid=8c0ce362ab&mc_eid=UNIQID",
-        "img_width": "extra-large"
+        "desk_img": "shopify:\/\/shop_images\/I_W1230.jpg",
+        "mob_img": "shopify:\/\/shop_images\/MGL9076.jpg",
+        "img_url": "",
+        "img_width": "full"
       }
     },
     "16493441673bde7dd8": {
@@ -18,12 +18,100 @@
         "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
-        "title": "the \"trouble ahead\" studio tee",
+        "title": "fethiye in hand-loomed coastal stripe",
         "title_font": "headline__arno",
-        "text": "the next step in our ongoing obsession with tie-dye, bootleg t-shirts, and the timeless & unexpected.⁠  ⁠limited edition of 200.<br><br>",
+        "text": "sewn from an intricate and open hand-loomed Indian textile. it's the perfect pant to lounge in on Saturday afternoon. pattern placement is specific to every pair, and each is completely unique.<br><br>",
         "btn_text": "Shop Now ->",
-        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-content",
+        "btn_url": "",
         "show_button": false
+      }
+    },
+    "16601456546ca6d2eb": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": true,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "women-denim",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "Women’s Denim",
+        "main_title": "",
+        "mob_title": "women's denim",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
+    "1660145718a3aa6660": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": true,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "men-denim",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "Men's Denim",
+        "main_title": "",
+        "mob_title": "men's denim",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
+    "16601548444288ce09": {
+      "type": "section-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0df8007d5c364635bdef6193de71d42d.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0df8007d5c364635bdef6193de71d42d.mp4",
+        "video_controls": false
+      }
+    },
+    "1660146228d293e7f1": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "choose_collection": "women-denim",
+        "title": "women denim",
+        "title_font": "headline__arno",
+        "btn_text": "shop all",
+        "btn_url": "shopify:\/\/collections\/women-denim",
+        "show_border": true
+      }
+    },
+    "16601463367b6eef7b": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "choose_collection": "men-denim",
+        "title": "men's denim",
+        "title_font": "headline__arno",
+        "btn_text": "shop all",
+        "btn_url": "shopify:\/\/collections\/men-denim",
+        "show_border": false
+      }
+    },
+    "1649345031dfcd3b10": {
+      "type": "section-quote",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"i want to die with my blue jeans on.\"",
+        "customer_name": "- andy warhol",
+        "background_color": "#f7f6f3"
+      }
+    },
+    "16601472139560bdbb": {
+      "type": "section-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09a59ce507e4999beb5fa14e7ab236c.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09a59ce507e4999beb5fa14e7ab236c.mp4",
+        "video_controls": false
       }
     },
     "16493477614696a5fd": {
@@ -38,40 +126,16 @@
         "show_badges": false,
         "products_to_show": 4,
         "products_per_row": 2,
-        "title": "",
-        "title_font": "headline__din",
-        "text": "",
+        "title": "graphic tees",
+        "title_font": "headline__arno",
+        "text": "patterned, cut, and sewn in the USA by our team of ten in the i+w workshop.",
         "btn_text": "SHOP GRAPHIC TEES",
         "btn_url": "shopify:\/\/collections\/graphic-content"
       }
     },
-    "164934473347e72eb5": {
-      "type": "section-image",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/bartonslim-keystone_08_ba921daf-b3af-46c8-8a6c-8151fdc8f68e.jpg",
-        "img_url": "",
-        "img_width": "large"
-      }
-    },
-    "1659992508c5071a80": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "( made in usa )",
-        "title": "DENIM",
-        "title_font": "headline__din",
-        "text": "we'll never claim that our quest to make the perfect pair of jeans is complete...  but sometimes, we think we're pretty damn close.<br><br>each pair is patterned, cut, and sewn in the USA.",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
-      }
-    },
     "16599926351d933102": {
       "type": "section-content-spec-collection",
+      "disabled": true,
       "blocks": {
         "16c2432f-d6ea-4a3f-8d73-e0b4a3d393a0": {
           "type": "collection",
@@ -160,11 +224,12 @@
         "title": "women's styles",
         "title_font": "headline__arno",
         "btn_text": "Shop ALL",
-        "btn_url": "shopify:\/\/collections\/i-w-womens-denim"
+        "btn_url": "shopify:\/\/collections\/women-denim"
       }
     },
     "1651088625b53b1bea": {
       "type": "section-content-spec-collection",
+      "disabled": true,
       "blocks": {
         "592271cd-9a9d-4355-8d3a-df3d37d9886a": {
           "type": "collection",
@@ -207,25 +272,14 @@
         "btn_url": ""
       }
     },
-    "1649345031dfcd3b10": {
-      "type": "section-quote",
+    "1660077585067278a1": {
+      "type": "section-video-hero",
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "review": "\"i want to die with my blue jeans on.\"",
-        "customer_name": "- andy warhol",
-        "background_color": "#f7f6f3"
-      }
-    },
-    "16493465150e689548": {
-      "type": "section-image",
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
-        "mob_img": "shopify:\/\/shop_images\/spring-vibes22_f33fc349-be08-47f5-b7a8-17125fce5d88.jpg",
-        "img_url": "shopify:\/\/pages\/nashville",
-        "img_width": "large"
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8cd7399bad8e4b77913a821fae554002.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dc114ca299904fd6ba4464018b30da5b.mp4",
+        "video_controls": false
       }
     },
     "1649347110c702605f": {
@@ -249,9 +303,9 @@
         "68d11365-3667-43f2-9a9f-76c358d184b3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/peachtruck_04.jpg",
+            "image": "shopify:\/\/shop_images\/OG-Peach.jpg",
             "title": "7.28.22",
-            "link": "shopify:\/\/pages\/peach-truck-tee"
+            "link": "shopify:\/\/pages\/peach-truck-tee-1"
           }
         },
         "21f68f36-cb71-43be-9256-5c5e4ef4b7f2": {
@@ -259,15 +313,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/somewhereelse_02.webp",
             "title": "7.27.22",
-            "link": "shopify:\/\/pages\/somewhere-else-bandana"
+            "link": "shopify:\/\/pages\/somewhere-else-bandana-1"
           }
         },
         "e40224b4-22d3-443f-b557-ea7c612ad651": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/studiotee013_03.webp",
+            "image": "shopify:\/\/shop_images\/13-year-anniversary.jpg",
             "title": "7.22.22",
-            "link": "shopify:\/\/pages\/indigo-studio-no-013-13-year-anniversary"
+            "link": "https:\/\/imogeneandwillie.com\/pages\/indigo-studio-tee-13-yr"
           }
         },
         "bef734f5-df71-4de0-8fb3-5cea9cbed20d": {
@@ -275,71 +329,39 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/julyfourthtumbnail.png",
             "title": "07.04.22",
-            "link": "shopify:\/\/pages\/made-in-usa"
+            "link": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa"
           }
         },
         "98cb0948-a256-4e2d-961b-5f2aa735956c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/t-shirt-thumbnail.png",
+            "image": "shopify:\/\/shop_images\/white-drop-tee10_6fa9c02c-fd83-45ab-a307-3ef931912043.jpg",
             "title": "06.28.22",
-            "link": ""
+            "link": "https:\/\/imogeneandwillie.com\/pages\/all-i-w-tees-lost-studio"
           }
         },
         "44ccf7f1-f69c-4de1-9520-0908b80207ab": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/I_W5675.png",
-            "title": "06.25.22",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/seconds_-9.jpg",
+            "title": "05.08.22",
+            "link": "shopify:\/\/pages\/mothers-day"
           }
         },
         "3bc505ec-130d-4802-89ae-35e2ecf875ab": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/333943b7f-6469-01e6-c325-3ea210074b30.png",
-            "title": "06.16.22",
-            "link": "shopify:\/\/pages\/supper-and-song"
-          }
-        },
-        "b863a155-5a91-4c24-9b51-d0522dc21b2a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/e6da6a1e-40b4-3efd-8454-0bed90733a57.png",
-            "title": "06.07.22",
-            "link": ""
-          }
-        },
-        "859cb000-92d0-4f2d-9518-0e712695994e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bartonslimojai_07.jpg",
-            "title": "05.24.22",
-            "link": ""
-          }
-        },
-        "8025ff62-5deb-4569-9aa2-469bfcec5e8f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/I_W2508.jpg",
-            "title": "05.21.22",
-            "link": ""
-          }
-        },
-        "e784ed75-81b0-4594-b3f8-89130d997798": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/I_W56754.png",
-            "title": "05.07.22",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102_1200x_1.webp",
+            "title": "03.15.22",
+            "link": "https:\/\/imogeneandwillie.com\/pages\/the-ides"
           }
         },
         "0d445b66-b6b3-4d8e-8717-aecb3adfc800": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4e6da6a1e-40b4-3efd-8454-0bed90733a57.png",
-            "title": "4.23.22",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/washbabywash__4_of_19_600x_8d0fb665-17c3-464c-b84f-76034a5ce735.webp",
+            "title": "( 01.01.22 )",
+            "link": "https:\/\/imogeneandwillie.com\/pages\/one-year-wear"
           }
         }
       },
@@ -351,10 +373,6 @@
         "98cb0948-a256-4e2d-961b-5f2aa735956c",
         "44ccf7f1-f69c-4de1-9520-0908b80207ab",
         "3bc505ec-130d-4802-89ae-35e2ecf875ab",
-        "b863a155-5a91-4c24-9b51-d0522dc21b2a",
-        "859cb000-92d0-4f2d-9518-0e712695994e",
-        "8025ff62-5deb-4569-9aa2-469bfcec5e8f",
-        "e784ed75-81b0-4594-b3f8-89130d997798",
         "0d445b66-b6b3-4d8e-8717-aecb3adfc800"
       ],
       "settings": {
@@ -363,6 +381,17 @@
         "title": "recent moments \/\/",
         "btn": "explore more",
         "url": "shopify:\/\/pages\/recent-moments"
+      }
+    },
+    "166014701450e83076": {
+      "type": "section-image",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/bolt-tee-group_04.jpg",
+        "mob_img": "shopify:\/\/shop_images\/trouble01.jpg",
+        "img_url": "shopify:\/\/collections\/top-picks",
+        "img_width": "extra-large"
       }
     },
     "16599943395aa45761": {
@@ -381,7 +410,7 @@
         "title_font": "headline__arno",
         "text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things.",
         "btn_text": "Shop All",
-        "btn_url": ""
+        "btn_url": "shopify:\/\/collections\/top-picks"
       }
     },
     "1637735864c2bd7e13": {
@@ -390,31 +419,61 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,
-        "desk_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01067.jpg",
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044.jpg",
         "mob_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01299.jpg",
         "pre_title": "( our promise )",
         "title": "committed to making everything in the usa",
         "title_font": "headline__din",
         "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america",
         "btn_text": "LEARN MORE ->",
-        "link_url": "shopify:\/\/pages\/nashville",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa",
         "show_link": true
+      }
+    },
+    "1660082441a6b5a05f": {
+      "type": "section-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "16600824508568810e": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
       }
     }
   },
   "order": [
     "1649343925c8d83679",
     "16493441673bde7dd8",
+    "16601456546ca6d2eb",
+    "1660145718a3aa6660",
+    "16601548444288ce09",
+    "1660146228d293e7f1",
+    "16601463367b6eef7b",
+    "1649345031dfcd3b10",
+    "16601472139560bdbb",
     "16493477614696a5fd",
-    "164934473347e72eb5",
-    "1659992508c5071a80",
     "16599926351d933102",
     "1651088625b53b1bea",
-    "1649345031dfcd3b10",
-    "16493465150e689548",
+    "1660077585067278a1",
     "1649347110c702605f",
     "1657045274b79dc7bf",
+    "166014701450e83076",
     "16599943395aa45761",
-    "1637735864c2bd7e13"
+    "1637735864c2bd7e13",
+    "1660082441a6b5a05f",
+    "16600824508568810e"
   ]
 }

@@ -1,5 +1,5 @@
 {{ 'section-brand-promise.css' | asset_url | stylesheet_tag }}
-<div class="promise-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}">
+<section class="promise-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}">
   <div class="promise-container">
     <div class="wrapper">
       <div class="content-wrap">
@@ -40,11 +40,35 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 {% schema %}
 {
   "name": "BRAND PROMISE FEATURE",
   "settings": [
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
     {
       "type": "checkbox",
       "id": "mobile_hide",

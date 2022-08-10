@@ -9,6 +9,8 @@
     "1651161678f53ee584": {
       "type": "section-video-hero",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/519643365\/rendition\/1080p?loc=external&signature=bc302ca6d8fbcbfd760a463cc4aba23f3ea3c9f5b72ba11b3f360ff43cdc97a6",
         "mobile_video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/519643365\/rendition\/1080p?loc=external&signature=bc302ca6d8fbcbfd760a463cc4aba23f3ea3c9f5b72ba11b3f360ff43cdc97a6",
         "video_controls": false
@@ -17,6 +19,8 @@
     "1651161727c0d37ea0": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "the tailor shop",
@@ -30,6 +34,8 @@
     "165116177026ee135a": {
       "type": "section-image",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/tshoo.jpg",
         "mob_img": "shopify:\/\/shop_images\/tshoo.jpg",
         "img_url": "",
@@ -39,6 +45,8 @@
     "165116220545fa14a9": {
       "type": "section-txt-link-btn",
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "",
@@ -49,9 +57,29 @@
         "show_button": true
       }
     },
+    "1660156375abe81bb7": {
+      "type": "section-brand-promise",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/IMG_8734_1200x_0110b208-7a54-4353-8ab5-96aaa533432a.webp",
+        "mob_img": "shopify:\/\/shop_images\/IMG_8734_1200x_0110b208-7a54-4353-8ab5-96aaa533432a.webp",
+        "pre_title": "",
+        "title": "chainstitch hems",
+        "title_font": "headline__din",
+        "text": "we're really proud to offer complimentary chainstitch hems on all of our pants. we want to make sure you know a few things before we move forward.",
+        "btn_text": "learn more",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/chainstitch-hem",
+        "show_link": false
+      }
+    },
     "16511624182d49d782": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/tailorshop_d61da3ad-03f7-42d6-b603-4d50542f50c4.jpg",
         "mob_img": "shopify:\/\/shop_images\/tailorshop_d61da3ad-03f7-42d6-b603-4d50542f50c4.jpg",
         "img_url": "",
@@ -65,6 +93,7 @@
     "1651161727c0d37ea0",
     "165116177026ee135a",
     "165116220545fa14a9",
+    "1660156375abe81bb7",
     "16511624182d49d782"
   ]
 }

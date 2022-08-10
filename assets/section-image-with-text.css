@@ -1,5 +1,5 @@
 .image-with-text {
-  padding: 7rem 0;
+  padding: 5rem 0;
 }
 .image-with-text .small-image {
   max-width: 33%;
@@ -66,9 +66,6 @@
 }
 
 @media(max-width: 990px){
-  .image-with-text {
-    padding: 6rem 0;
-  }
   .image-with-text .container {
     padding: 0 2rem;
   }

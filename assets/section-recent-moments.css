@@ -1,7 +1,7 @@
 .explore-section {
   background-color: var(--color-Xlight-wheat);
-  padding-bottom: 6rem;
-  padding-top: 3rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 .explore-section:hover .swiper-scrollbar {
   opacity: 1;
@@ -102,11 +102,6 @@
     padding: 0 7rem;
   }
 }
-@media screen and (min-width: 1400px) {
-  .explore-section {
-    font-size: 1.8rem;
-  }
-}
 @media(max-width: 1279px) {
   .explore-section .cart-item {
     max-width: 28%;
@@ -154,8 +149,5 @@
   }
   .explore-section .img-wrap {
     height: 31rem;
-  }
-  .template-collection .explore-section {
-    padding-bottom: 5.5rem;
   }
 }

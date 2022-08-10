@@ -12,7 +12,7 @@
   }
 </style>
 
-<div class="collage-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %}" id="collage-section">
+<section class="collage-section {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}" id="collage-section">
   <div class="container">
     <div class="wrapper {% if section.settings.change_alignment %}alignment{% endif %}">
       <div class="alpha">
@@ -45,12 +45,36 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
 {% schema %}
 {
   "name": "50% IMG W/TXT+BUTTON",
   "settings": [
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
     {
       "type": "checkbox",
       "id": "mobile_hide",

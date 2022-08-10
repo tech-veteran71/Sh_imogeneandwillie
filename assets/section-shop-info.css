@@ -1,6 +1,5 @@
 .shop-info {
   background-color: var(--color-Xlight-wheat);
-  padding: 16rem 0 13rem;
   overflow: hidden;
 }
 .shop-info .wrapper {
@@ -171,9 +170,6 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .shop-info {
-    padding: 2.5rem 0 4rem;
-  }
   .shop-info .wrapper {
     flex-wrap: wrap;
   }

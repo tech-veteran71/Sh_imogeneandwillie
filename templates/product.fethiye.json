@@ -98,6 +98,24 @@
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c66d0529685c476fa93cc6243aa00014.mp4"
       }
     },
+    "1660149339df842604": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#F7F6F3",
+        "choose_collection": "fethiye",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "Women’s new arrivals",
+        "main_title": "new arrivals",
+        "mob_title": "WOMEN’s",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
     "16597103040655bcf4": {
       "type": "section-content-spec-collection",
       "blocks": {
@@ -225,6 +243,7 @@
     "1650489885e385492b",
     "16584190828ea23e02",
     "1652199612f01388e0",
+    "1660149339df842604",
     "16597103040655bcf4",
     "product-recommendations"
   ]
