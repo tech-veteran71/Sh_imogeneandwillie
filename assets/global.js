@@ -2698,6 +2698,7 @@ customElements.define("ajax-cart", AjaxCart);
       swiperMedia = new Swiper('.product-media-swiper', {
         slidesPerView: 1,
         spaceBetween: 12,
+        loop: true,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,

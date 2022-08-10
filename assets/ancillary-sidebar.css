@@ -169,7 +169,7 @@
 }
 
 .faq-block-wrap {
-  padding: 0 2rem;
+  padding: 0 2rem 2rem;
 }
 
 @media screen and (min-width: 1279px) {
@@ -188,7 +188,7 @@
   }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
   .faq-block-wrap {
     padding: 0;
   }
@@ -300,8 +300,9 @@
     font-family: var(--font-gothic);
   }
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .faq-page .faq-main {
     background-image: none !important;
+    width: 100%;
   }
 }

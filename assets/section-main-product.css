@@ -913,7 +913,7 @@ a.product__text {
   color: var(--color-normal-black);
   letter-spacing: 0.3rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .product .product-info {
   margin: 0 0 2rem;
@@ -984,7 +984,7 @@ a.product__text {
 }
 
 .afterpay-logo {
-  width: 7.5rem !important;
+  width: 6rem !important;
   height: auto;
 }
 
@@ -1296,6 +1296,10 @@ a.product__text {
   padding: 0;
   text-align: unset;
   margin-top: 0;
+}
+.product .accordian-body li {
+  margin-left: 1.5rem;
+  line-height: 1.5;
 }
 .product .accordian-body button svg {
   width: 100%;
@@ -1665,4 +1669,7 @@ a.product__text {
 .klaviyo-bis-trigger {
   font-family: var(--font-din);
   color: var(--color-normal-black);
+}
+.klaviyo-bis-single {
+  margin-bottom: 2rem;
 }

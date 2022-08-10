@@ -4,40 +4,21 @@
   background-size: cover;
   background-attachment: fixed;
   flex: 1;
-  padding: 1.3em;
+  padding: 6rem;
 }
 .terms-and-service-page .wrapper {
   display: flex;
 }
 .terms-and-service-page .main-wrapper {
   background-color: var(--color-Xlight-wheat);
-  padding: 1em 1.2em;
+  padding: 6rem;
   width: 100%;
 }
-/* .terms-and-service-page .main-title {
-  font-size: 2.6rem;
-  font-family: var(--font-arno-display);
-  font-weight: normal;
-  color: var(--color-normal-black);
-  letter-spacing: 2px;
-  margin: 0;
-  line-height: 1.4;
-} */
 .terms-and-service-page .terms-and-condition {
   width: 85%;
   margin: 1.2em auto 0;
   position: relative;
 }
-/* .terms-and-service-page .terms-and-condition p,
-.terms-and-service-page .terms-and-condition h3 {
-  font-size: 1.2rem;
-  font-family: var(--font-gothic);
-  line-height: 1.6;
-  color: #707070;
-  margin-bottom: 2em;
-  margin-top: 0;
-  letter-spacing: 0.1px;
-} */
 .terms-and-service-page .terms-and-condition p:last-child {
   margin-bottom: 0;
 }
@@ -71,8 +52,9 @@
   }
   .terms-and-service-page .page-main .main-title {
     text-align: center;
-    padding: 34px 0;
+    padding: 3.4rem 0;
     background-color: var(--color-light-wheat);
+    margin: 0;
   }
   .terms-and-service-page .main-wrapper {
     padding: 0 0 40px;

@@ -4,7 +4,6 @@
 <div class="faq-page ancillary-page" id="faq-template">
   <div class="container">
     <div class="wrapper">
-      {% render 'page-banner', bannerImage: bannerImage %}
       {% render 'ancillary-sidebar' with section %}
       <div class="faq-main" style="background-image: url({{ section.settings.bg_img | img_url: 'master'}})">
         <div class="faq-wrapper">
