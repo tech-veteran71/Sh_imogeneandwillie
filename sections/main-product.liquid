@@ -272,7 +272,9 @@
               {%- endif -%}
             {%- endunless -%}
             {%- if product.has_only_default_variant -%}
+              {% unless product.available %}
               <a class="klaviyo-bis-trigger klaviyo-bis-single" style="display: block !important;" href="#">notify me when my size is in stock</a>
+              {% endunless %}
             {%- endif -%}
 
             <noscript class="product-form__noscript-wrapper-{{ section.id }}">
@@ -398,9 +400,10 @@
                             <p>if you need any help determining your size, please feel free to <a href="mailto:help@imogeneandwillie.com">reach out to us. </a></p>
                           {% endif %}
                       </div>
+                    </div>
                     {% endif %}
-                  </div>
                   {% elsif block.settings.accordian_title == 'care and materials' %}
+                    {% if product.metafields.seed.care_and_materials != blank %}
                     <div class="accordian-item" data-accordian-item>
                         <div class="accordian-header" data-accordian-header>
                           <span class="accordian-title">care and materials</span>
@@ -415,6 +418,7 @@
                         </div>
                         <div class="accordian-body">{{ product.metafields.seed.care_and_materials }}</div>
                     </div>
+                  {% endif %}
                 {% endif %}
                 {% endif %}
             {% endfor %}

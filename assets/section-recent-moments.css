@@ -1,7 +1,5 @@
 .explore-section {
   background-color: var(--color-Xlight-wheat);
-  padding-bottom: 5rem;
-  padding-top: 5rem;
 }
 .explore-section:hover .swiper-scrollbar {
   opacity: 1;
