@@ -20,7 +20,7 @@
         </div>
         <div class="swiper-pagination"></div>
       </div>
-      {% if section.settings.btn_text %}
+      {% if section.settings.btn_text != blank %}
         <div class='btn-wrap'>
           <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
         </div>

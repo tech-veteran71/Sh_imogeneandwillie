@@ -203,6 +203,7 @@
         "ce938dae-6c05-4753-af65-583955674b17"
       ],
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "pre_title": "",
@@ -214,9 +215,30 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "pre_title": "(featured)",
         "heading": "curated selections"
+      }
+    },
+    "1660227616846e4282": {
+      "type": "section-collection-grid",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "curated-selections-womens-denim",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 4,
+        "title": "curated selections",
+        "title_font": "headline__arno",
+        "text": "( featured favorites )",
+        "btn_text": "",
+        "btn_url": ""
       }
     }
   },
@@ -226,6 +248,7 @@
     "16584190828ea23e02",
     "1652199612f01388e0",
     "16597103040655bcf4",
-    "product-recommendations"
+    "product-recommendations",
+    "1660227616846e4282"
   ]
 }

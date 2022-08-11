@@ -51,6 +51,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .product-gallery {
+    padding: 5rem 2rem;
+  }
   .product-gallery .gallery {
     grid-row-gap: 3rem;
     grid-column-gap: 1.5rem;

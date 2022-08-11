@@ -208,7 +208,7 @@
     line-height: 4rem;
     letter-spacing: 0.28rem;
     position: absolute;
-    top: 36%;
+    top: 18%;
     text-align: center;
     width: 100%;
     padding: 0 15%;
@@ -244,7 +244,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 35%;
+    padding-top: 25%;
     padding-bottom: 8rem;
   }
   .collection-main__bg-short {
@@ -256,6 +256,12 @@
   
   .collection-grid__mobile-icon {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .collection-main__hero-text {
+    top: 24%;
   }
 }
 

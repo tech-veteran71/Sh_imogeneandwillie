@@ -1,6 +1,6 @@
 .collection-list {
-  padding-bottom: 17.5rem;
   background-color: var(--color-Xlight-wheat);
+  padding: 5rem 0;
 }
 .collection-list .wrapper {
   padding: 0 23rem;
@@ -15,14 +15,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  max-width: 22rem;
   width: 100%;
-  height: 5.5rem;
-  letter-spacing: 0.42rem;
   min-width: unset;
   min-height: unset;
-  font-family: var(--font-din);
-  font-weight: 600;
+  max-width: 80%;
 }
 .collection-list .collection-item .img {
   width: 100%;

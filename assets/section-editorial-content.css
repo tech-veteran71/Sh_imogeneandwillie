@@ -15,7 +15,6 @@
 .custom-content-section .main-title {
   margin-bottom: 3rem;
   margin-top: 0;
-  text-transform: uppercase;
   color: var(--color-normal-black);
 }
 .custom-content-section .main-text {
@@ -125,9 +124,6 @@
   .custom-content-section .image-1 .image {
     max-width: 35em;
   }
-  .custom-content-section .main-text {
-    letter-spacing: 0.2rem;
-  }
 }
 @media screen and (max-width: 1279px) {
   .custom-content-section .main-text {
@@ -179,6 +175,7 @@
   }
   .custom-content-section .header-wrap {
     margin-bottom: 0;
+    padding: 0 2rem;
   }
   .custom-content-section .content-wrap .text {
     flex: 100%;

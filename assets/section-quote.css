@@ -5,21 +5,14 @@
   text-align: center;
 }
 .qoute-section .review {
-  font-size: 2.8rem;
-  letter-spacing: 3px;
-  font-family: var(--font-arno-display);
-  font-weight: normal;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   color: var(--color-normal-black);
   line-height: 1;
 }
 .qoute-section .customer-name {
-  font-size: 1.4rem;
-  font-family: var(--font-gothic);
-  letter-spacing: 4px;
   color: var(--color-dark-grey);
-  text-transform: uppercase;
+  line-height: 2;
 }
 
 @media screen and (max-width: 767px) {
@@ -28,15 +21,7 @@
     padding: 5rem 0;
   }
   .qoute-section .qoute {
-    max-width: 260px;
+    max-width: 26rem;
     margin: 0 auto;
-  }
-  .qoute-section .review {
-    font-size: 20px;
-    letter-spacing: 2px;
-  }
-  .qoute-section .customer-name {
-    font-size: 12px;
-    letter-spacing: 3px;
   }
 }

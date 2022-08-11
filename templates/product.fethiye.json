@@ -101,9 +101,10 @@
     "1660149339df842604": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#F7F6F3",
+        "background_color": "#f7f6f3",
         "choose_collection": "fethiye",
         "show_title": true,
         "show_subtitle": true,
@@ -116,125 +117,32 @@
         "link_url": ""
       }
     },
-    "16597103040655bcf4": {
-      "type": "section-content-spec-collection",
-      "blocks": {
-        "f75b6c76-3ba5-4cd1-82c2-2542f92fe455": {
-          "type": "collection",
-          "settings": {
-            "collection": "isabelle"
-          }
-        },
-        "ccbbc6c7-a99e-447f-8ee0-b1f20350bb3b": {
-          "type": "collection",
-          "settings": {
-            "collection": "catherine-1"
-          }
-        },
-        "07d476c8-5a02-4354-b8ca-18a16e8ad94a": {
-          "type": "collection",
-          "settings": {
-            "collection": "wyatt-1"
-          }
-        },
-        "12c7791e-af13-460c-b2b2-99c8f205d767": {
-          "type": "collection",
-          "settings": {
-            "collection": "sophie-1"
-          }
-        },
-        "cde96bb8-feec-45cf-b723-d1a253f1b41f": {
-          "type": "collection",
-          "settings": {
-            "collection": "imogene"
-          }
-        },
-        "9e91a8d2-140b-44aa-b420-daf14eb7d827": {
-          "type": "collection",
-          "settings": {
-            "collection": "james"
-          }
-        },
-        "394726f5-6a62-44e3-9e64-ca725c15524d": {
-          "type": "collection",
-          "settings": {
-            "collection": "harper-1"
-          }
-        },
-        "6964ac49-9826-44ce-8f9c-29b0021aaca8": {
-          "type": "collection",
-          "settings": {
-            "collection": "elsie"
-          }
-        },
-        "4d3b9e8b-bf7d-4fbd-8041-50c14ef497b2": {
-          "type": "collection",
-          "settings": {
-            "collection": "elizabeth"
-          }
-        },
-        "52fd34a6-faec-499e-9fb0-99161d1235ff": {
-          "type": "collection",
-          "settings": {
-            "collection": "kate-1"
-          }
-        },
-        "2b10d706-d032-4549-bdc1-b1e27bc21f79": {
-          "type": "collection",
-          "settings": {
-            "collection": "lottie"
-          }
-        },
-        "e0ff3d9d-8a0c-409a-8659-a62573802141": {
-          "type": "collection",
-          "settings": {
-            "collection": "augusta"
-          }
-        },
-        "9f83e4b2-2809-4128-8880-95b65a412575": {
-          "type": "collection",
-          "settings": {
-            "collection": "virginia"
-          }
-        },
-        "ce938dae-6c05-4753-af65-583955674b17": {
-          "type": "collection",
-          "settings": {
-            "collection": "liza-1"
-          }
-        }
-      },
-      "block_order": [
-        "f75b6c76-3ba5-4cd1-82c2-2542f92fe455",
-        "ccbbc6c7-a99e-447f-8ee0-b1f20350bb3b",
-        "07d476c8-5a02-4354-b8ca-18a16e8ad94a",
-        "12c7791e-af13-460c-b2b2-99c8f205d767",
-        "cde96bb8-feec-45cf-b723-d1a253f1b41f",
-        "9e91a8d2-140b-44aa-b420-daf14eb7d827",
-        "394726f5-6a62-44e3-9e64-ca725c15524d",
-        "6964ac49-9826-44ce-8f9c-29b0021aaca8",
-        "4d3b9e8b-bf7d-4fbd-8041-50c14ef497b2",
-        "52fd34a6-faec-499e-9fb0-99161d1235ff",
-        "2b10d706-d032-4549-bdc1-b1e27bc21f79",
-        "e0ff3d9d-8a0c-409a-8659-a62573802141",
-        "9f83e4b2-2809-4128-8880-95b65a412575",
-        "ce938dae-6c05-4753-af65-583955674b17"
-      ],
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "pre_title": "",
-        "title": "all men's styles",
-        "title_font": "headline__arno",
-        "btn_text": "",
-        "btn_url": ""
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "pre_title": "(featured)",
         "heading": "curated selections"
+      }
+    },
+    "16602280030b7b2cc8": {
+      "type": "section-collection-grid",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "curated-selections-fethiye",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 4,
+        "title": "curated selections",
+        "title_font": "headline__arno",
+        "text": "( featured favorites )",
+        "btn_text": "",
+        "btn_url": ""
       }
     }
   },
@@ -244,7 +152,7 @@
     "16584190828ea23e02",
     "1652199612f01388e0",
     "1660149339df842604",
-    "16597103040655bcf4",
-    "product-recommendations"
+    "product-recommendations",
+    "16602280030b7b2cc8"
   ]
 }

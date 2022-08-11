@@ -12,6 +12,7 @@
 }
 .main-section {
   background-color: var(--color-Xlight-wheat);
+  margin-top: 4rem;
 }
 .new-arrival-section .content-wrap {
   max-width: 50rem;
@@ -222,6 +223,9 @@
   }
 }
 @media(max-width: 767px){
+  .main-section {
+    margin-top: 0;
+  }
   .new-arrival-section .beta .img-link.desktop-hide {
     display: block;
   }

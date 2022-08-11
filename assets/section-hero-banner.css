@@ -62,7 +62,7 @@
 }
 .hero-banner .main-title {
   font-size: 6.8rem;
-  font-weight: bold;
+  font-weight: 400;
   color: var(--color-white);
   margin-bottom: 0.3em;
   margin-top: 0;

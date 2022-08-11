@@ -1,6 +1,7 @@
 .collage-section {
   padding-bottom: 5rem;
   padding-top: 5rem;
+  margin-top: 4rem;
 }
 .custom-content .collage-section {
   padding: 9.5rem 0 11rem;
@@ -109,6 +110,9 @@
   }
 }
 @media screen and (max-width: 767px){
+  .collage-section {
+    margin-top: 0;
+  }
   .collage-section .mob-image {
     display: block;
   }

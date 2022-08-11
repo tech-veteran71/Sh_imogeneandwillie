@@ -1,6 +1,7 @@
 .rich-text-section { 
   padding: 5rem 0;
   background-color: var(--color-Xlight-wheat);
+  margin-top: 4rem;
 }
 .rich-text-section .title {
   font-size: 1.8rem;
@@ -63,6 +64,12 @@
 
 /* responsive */
 @media(max-width: 767px ){
+  .rich-text-section { 
+    margin-top: 0;
+  }
+  .rich-text-section .button--link {
+    margin-top: 1.5rem;
+  }
   .rich-text-section .text-wrap {
     padding: 0;
     margin: 0 auto;

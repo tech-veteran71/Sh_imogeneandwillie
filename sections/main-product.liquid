@@ -232,7 +232,9 @@
                             {% endunless %}
                           {%- endfor -%}
                           {% if show_bis %}
+                            {% unless product.tags contains 'inconsistentstock' %}
                           <a class="klaviyo-bis-trigger" style="display: block !important;" href="#">notify me when my size is in stock</a>
+                            {% endunless %}
                           {% endif %}
                         </div>
                       </fieldset>
@@ -273,7 +275,9 @@
             {%- endunless -%}
             {%- if product.has_only_default_variant -%}
               {% unless product.available %}
+              {% unless product.tags contains 'inconsistentstock' %}
               <a class="klaviyo-bis-trigger klaviyo-bis-single" style="display: block !important;" href="#">notify me when my size is in stock</a>
+              {% endunless %}
               {% endunless %}
             {%- endif -%}
 

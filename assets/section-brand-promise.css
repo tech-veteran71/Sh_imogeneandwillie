@@ -1,5 +1,6 @@
 .promise-section {
   background-color: var(--color-Xlight-wheat);
+  margin-top: 4rem;
 }
 .promise-section .promise-container {
   max-width: 192rem;
@@ -105,6 +106,9 @@
   }
 }
 @media(max-width: 767px) {
+  .promise-section {
+    margin-top: 0;
+  }
   .promise-section .content-wrap {
     grid-template-columns: 100%;
   }
@@ -114,9 +118,6 @@
   .promise-section .beta {
     order: 1;
     margin-bottom: 3.5rem;
-  }
-  .promise-section .text-wrap {
-    display: none;
   }
   .promise-section .alpha .title {
     margin-bottom: 1rem;

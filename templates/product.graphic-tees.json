@@ -101,6 +101,7 @@
     "165220110819e632f3": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -127,9 +128,30 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "pre_title": "(featured)",
         "heading": "curated selections"
+      }
+    },
+    "1660227538fb864a37": {
+      "type": "section-collection-grid",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "curated-selections-graphic-tees",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 4,
+        "title": "curated selections",
+        "title_font": "headline__arno",
+        "text": "( featured favorites )",
+        "btn_text": "",
+        "btn_url": ""
       }
     }
   },
@@ -140,6 +162,7 @@
     "1652199612f01388e0",
     "165220110819e632f3",
     "16535980161ec26cd1",
-    "product-recommendations"
+    "product-recommendations",
+    "1660227538fb864a37"
   ]
 }

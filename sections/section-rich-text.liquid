@@ -1,18 +1,13 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
-<style>
-  #shopify-section-{{ section.id }} .custom-rich-text {
-    --bg-color: {{ section.settings.bg_color }};
-  }
-</style>
 {% if section.settings.text != blank %}
-  <section class="custom-rich-text {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}">
+  <section class="custom-rich-text {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}" style="background-color:{{ section.settings.bg_color }};">
     <div class="fabric-container">
       <div class="wrapper">
         <div class="text-wrap">
           <p class="text">{{ section.settings.text }}</p>
         </div>
         {% if section.settings.link_text != blank %}
-          <a class="button button--outline" href="{{ section.settings.link_url }}">
+          <a class="{% if section.settings.show_link %}button--link{% else %}button button--outline{% endif %}" href="{{ section.settings.link_url }}">
             {{ section.settings.link_text }}
           </a>
         {% endif %}
@@ -64,7 +59,8 @@
     {
       "type": "color",
       "id": "bg_color",
-      "label": "Background Color"
+      "label": "Background Color",
+      "default": "#F0EFEC"
     },
     {
       "type": "header",
@@ -87,6 +83,12 @@
       "type": "url",
       "id": "link_url",
       "label": "Link Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_link",
+      "label": "Show Link Instead of Button",
+      "default": false
     }
   ],
   "presets": [

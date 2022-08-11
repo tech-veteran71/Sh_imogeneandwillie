@@ -133,6 +133,7 @@
         "eaef2fdd-bfc5-47a4-9b57-88b0b19acfe0"
       ],
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "pre_title": "",
@@ -153,6 +154,7 @@
     "16601584462ae32c7a": {
       "type": "section-four-item-feature",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "top-picks",
@@ -165,6 +167,26 @@
         "pre_title": "",
         "grid_title": ""
       }
+    },
+    "166022745859671df2": {
+      "type": "section-collection-grid",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "curated-selections-mens-denim",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 4,
+        "title": "curated selections",
+        "title_font": "headline__arno",
+        "text": "( featured favorites )",
+        "btn_text": "",
+        "btn_url": ""
+      }
     }
   },
   "order": [
@@ -174,6 +196,7 @@
     "1652199612f01388e0",
     "16597103040655bcf4",
     "product-recommendations",
-    "16601584462ae32c7a"
+    "16601584462ae32c7a",
+    "166022745859671df2"
   ]
 }

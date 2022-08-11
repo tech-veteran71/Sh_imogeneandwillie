@@ -140,13 +140,15 @@
     height: auto;
     position: unset;
     transform: unset;
-    padding: 6rem 2rem 5rem;
+    padding: 2rem;
   }
   .guide-section .text {
-    max-width: 300px;
-    margin: 2.2rem 0 1.2rem;
+    display: none;
   }
   .guide-section .btn-wrap {
     margin-top: 4rem;
+  }
+  .guide-section .main-title {
+    display: none;
   }
 }

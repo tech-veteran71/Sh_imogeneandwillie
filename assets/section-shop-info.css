@@ -110,7 +110,7 @@
 }
 .shop-info .timing {
   font-family: var(--font-din);
-  font-weight: 600;
+  font-weight: 400;
 }
 .shop-info .content-wrap {
   display: flex;
@@ -188,10 +188,6 @@
   .shop-info .main-title {
     font-size: 2.6rem;
     text-align: center;
-  }
-  .shop-info .header-wrap .text {
-    font-size: 1.3rem;
-    letter-spacing: 0.1rem;
   }
   .shop-info .shop-details::after {
     content: unset;

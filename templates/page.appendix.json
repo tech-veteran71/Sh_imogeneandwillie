@@ -101,7 +101,7 @@
       "settings": {
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "",
+        "bg_color": "#F0EFEC",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         "link_text": "FIND YOUR FIT",
         "link_url": "shopify:\/\/products\/handmade-in-japan-hardcover"
