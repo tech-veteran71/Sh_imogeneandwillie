@@ -101,6 +101,10 @@
                 <span class="label">{{ 'customer.order.order_number' | t }}</span>
                 <span class="details">{{ order.name }}</span>
               </div>
+              <div class="info">
+                <span class="label">order note:</span>
+                <span class="details">{{ order.note }}</span>
+              </div>
               {% assign orderStatus = order.fulfillment_status_label | downcase %}
               {% if orderStatus == 'fulfilled' %}
                 <div class="info">
