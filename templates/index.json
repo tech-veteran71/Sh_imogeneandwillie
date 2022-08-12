@@ -1,19 +1,20 @@
 {
   "sections": {
-    "1649343925c8d83679": {
-      "type": "section-image",
+    "166024340116b8123f": {
+      "type": "section-video-hero",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/I_W1230.jpg",
-        "mob_img": "shopify:\/\/shop_images\/MGL9076.jpg",
-        "img_url": "",
-        "img_width": "full"
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bd37ea68c7d94e0a95d1999fa61b874d.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/823fd6c96a784874a42aafbb76c9e5ee.mp4",
+        "video_controls": false
       }
     },
     "16493441673bde7dd8": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -21,14 +22,15 @@
         "title": "fethiye in hand-loomed coastal stripe",
         "title_font": "headline__arno",
         "text": "sewn from an intricate and open hand-loomed Indian textile. it's the perfect pant to lounge in on Saturday afternoon. pattern placement is specific to every pair, and each is completely unique.<br><br>",
-        "btn_text": "Shop Now ->",
+        "btn_text": "Shop Now",
         "btn_url": "",
-        "show_button": false
+        "show_button": true
       }
     },
     "16601456546ca6d2eb": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": true,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -47,6 +49,7 @@
     "1660145718a3aa6660": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": true,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -64,7 +67,9 @@
     },
     "16601548444288ce09": {
       "type": "section-video-hero",
+      "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0df8007d5c364635bdef6193de71d42d.mp4",
@@ -75,6 +80,7 @@
     "1660146228d293e7f1": {
       "type": "section-mobile-slider",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "choose_collection": "women-denim",
         "title": "women denim",
         "title_font": "headline__arno",
@@ -86,6 +92,7 @@
     "16601463367b6eef7b": {
       "type": "section-mobile-slider",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "choose_collection": "men-denim",
         "title": "men's denim",
         "title_font": "headline__arno",
@@ -97,6 +104,7 @@
     "1649345031dfcd3b10": {
       "type": "section-quote",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "\"i want to die with my blue jeans on.\"",
@@ -107,6 +115,7 @@
     "16601472139560bdbb": {
       "type": "section-video-hero",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09a59ce507e4999beb5fa14e7ab236c.mp4",
@@ -117,6 +126,7 @@
     "16493477614696a5fd": {
       "type": "section-collection-grid",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "graphic-content",
@@ -131,100 +141,6 @@
         "text": "patterned, cut, and sewn in the USA by our team of ten in the i+w workshop.",
         "btn_text": "SHOP GRAPHIC TEES",
         "btn_url": "shopify:\/\/collections\/graphic-content"
-      }
-    },
-    "16599926351d933102": {
-      "type": "section-content-spec-collection",
-      "disabled": true,
-      "blocks": {
-        "16c2432f-d6ea-4a3f-8d73-e0b4a3d393a0": {
-          "type": "collection",
-          "settings": {
-            "collection": "catherine-1"
-          }
-        },
-        "ef4ebb9f-80ce-4b62-a14f-1955bb9863ce": {
-          "type": "collection",
-          "settings": {
-            "collection": "isabelle"
-          }
-        },
-        "0252601c-f4ab-4f81-923b-2d155d867102": {
-          "type": "collection",
-          "settings": {
-            "collection": "harper-1"
-          }
-        },
-        "b4219655-9546-4673-bc2e-c7e9ba686230": {
-          "type": "collection",
-          "settings": {
-            "collection": "wyatt-1"
-          }
-        },
-        "8a4fd2a0-7acf-4ef4-bc55-584a7e872195": {
-          "type": "collection",
-          "settings": {
-            "collection": "sophie-1"
-          }
-        },
-        "a6c79cab-0782-496e-9964-2fcd9a6a6e42": {
-          "type": "collection",
-          "settings": {
-            "collection": "augusta"
-          }
-        },
-        "d3fa18fa-f9c0-4985-ab96-a67e1553f725": {
-          "type": "collection",
-          "settings": {
-            "collection": "james"
-          }
-        },
-        "011b991b-f050-41ef-958f-4d1303ea071c": {
-          "type": "collection",
-          "settings": {
-            "collection": "imogene"
-          }
-        },
-        "4d3acd1c-950a-4744-b05e-d576d4bc9b47": {
-          "type": "collection",
-          "settings": {
-            "collection": "liza-1"
-          }
-        },
-        "d28253f9-e3bf-43b6-b2e6-80e51ee81027": {
-          "type": "collection",
-          "settings": {
-            "collection": "elizabeth"
-          }
-        },
-        "26456bc5-46d9-43a6-84e0-25b3d73c8d33": {
-          "type": "collection",
-          "settings": {
-            "collection": "elsie"
-          }
-        }
-      },
-      "block_order": [
-        "16c2432f-d6ea-4a3f-8d73-e0b4a3d393a0",
-        "ef4ebb9f-80ce-4b62-a14f-1955bb9863ce",
-        "0252601c-f4ab-4f81-923b-2d155d867102",
-        "b4219655-9546-4673-bc2e-c7e9ba686230",
-        "8a4fd2a0-7acf-4ef4-bc55-584a7e872195",
-        "a6c79cab-0782-496e-9964-2fcd9a6a6e42",
-        "d3fa18fa-f9c0-4985-ab96-a67e1553f725",
-        "011b991b-f050-41ef-958f-4d1303ea071c",
-        "4d3acd1c-950a-4744-b05e-d576d4bc9b47",
-        "d28253f9-e3bf-43b6-b2e6-80e51ee81027",
-        "26456bc5-46d9-43a6-84e0-25b3d73c8d33"
-      ],
-      "settings": {
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "pre_title": "",
-        "title": "women's styles",
-        "title_font": "headline__arno",
-        "btn_text": "Shop ALL",
-        "btn_url": "shopify:\/\/collections\/women-denim"
       }
     },
     "1651088625b53b1bea": {
@@ -263,6 +179,7 @@
         "f94afc27-cf54-44df-ae41-297c965ee12f"
       ],
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "pre_title": "",
@@ -275,6 +192,7 @@
     "1660077585067278a1": {
       "type": "section-video-hero",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8cd7399bad8e4b77913a821fae554002.mp4",
@@ -285,6 +203,7 @@
     "1649347110c702605f": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -376,6 +295,7 @@
         "0d445b66-b6b3-4d8e-8717-aecb3adfc800"
       ],
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "title": "recent moments \/\/",
@@ -386,10 +306,11 @@
     "166014701450e83076": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/bolt-tee-group_04.jpg",
-        "mob_img": "shopify:\/\/shop_images\/trouble01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bolt-tee-group_04.jpg",
         "img_url": "shopify:\/\/collections\/top-picks",
         "img_width": "extra-large"
       }
@@ -397,6 +318,7 @@
     "16599943395aa45761": {
       "type": "section-collection-grid",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "top-picks",
@@ -416,6 +338,7 @@
     "1637735864c2bd7e13": {
       "type": "section-brand-promise",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,
@@ -427,12 +350,13 @@
         "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america",
         "btn_text": "LEARN MORE ->",
         "link_url": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa",
-        "show_link": true
+        "show_link": false
       }
     },
     "1660082441a6b5a05f": {
       "type": "section-video-hero",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "video_url": "",
@@ -443,6 +367,7 @@
     "16600824508568810e": {
       "type": "section-image-video-hero",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "img_height": false,
@@ -455,7 +380,7 @@
     }
   },
   "order": [
-    "1649343925c8d83679",
+    "166024340116b8123f",
     "16493441673bde7dd8",
     "16601456546ca6d2eb",
     "1660145718a3aa6660",
@@ -465,7 +390,6 @@
     "1649345031dfcd3b10",
     "16601472139560bdbb",
     "16493477614696a5fd",
-    "16599926351d933102",
     "1651088625b53b1bea",
     "1660077585067278a1",
     "1649347110c702605f",

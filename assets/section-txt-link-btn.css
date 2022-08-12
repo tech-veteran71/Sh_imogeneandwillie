@@ -62,8 +62,14 @@
   width: 100%;
 }
 
+.button-wrap {
+  margin-top: 4rem;
+}
 /* responsive */
 @media(max-width: 767px ){
+  .button-wrap {
+    margin-top: 0;
+  }
   .rich-text-section { 
     margin-top: 0;
   }

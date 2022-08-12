@@ -137,8 +137,8 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "pre_title": "",
-        "title": "all men's styles",
-        "title_font": "headline__arno",
+        "title": "<br><br>ALL MEN'S FITS",
+        "title_font": "headline__din",
         "btn_text": "",
         "btn_url": ""
       }
@@ -181,9 +181,9 @@
         "show_badges": false,
         "products_to_show": 4,
         "products_per_row": 4,
-        "title": "curated selections",
+        "title": "<h3>CURATED SELECTIONS<h3><\/h3>\n<\/h3>",
         "title_font": "headline__arno",
-        "text": "( featured favorites )",
+        "text": "",
         "btn_text": "",
         "btn_url": ""
       }

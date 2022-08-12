@@ -80,11 +80,23 @@
     "16584190828ea23e02": {
       "type": "section-product-moodboard",
       "settings": {
-        "main_title": "dig into the moodboard"
+        "main_title": "the details"
+      }
+    },
+    "166025372826e27d78": {
+      "type": "section-quote",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "<h6>as always, every tee we make is patterned, cut, sewn from 100% american-made fabric by our LA team  in the i+w workshop.<\/h6>",
+        "customer_name": "",
+        "background_color": "rgba(0,0,0,0)"
       }
     },
     "1652199612f01388e0": {
       "type": "product-video-story",
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/wyatt-bleach_02.jpg",
         "title": "file under: process",
@@ -101,7 +113,7 @@
     "165220110819e632f3": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -110,9 +122,9 @@
         "show_subtitle": true,
         "show_price": false,
         "show_badges": false,
-        "title": "the devil is in the details",
-        "main_title": "the devil is in the details",
-        "mob_title": "",
+        "title": "GRAPHIC TEE COLLECTION",
+        "main_title": "",
+        "mob_title": "GRAPHIC TEE COLLECTION",
         "link_text": "",
         "link_url": ""
       }
@@ -147,9 +159,9 @@
         "show_badges": false,
         "products_to_show": 4,
         "products_per_row": 4,
-        "title": "curated selections",
+        "title": "CURATED SELECTIONS",
         "title_font": "headline__arno",
-        "text": "( featured favorites )",
+        "text": "",
         "btn_text": "",
         "btn_url": ""
       }
@@ -159,6 +171,7 @@
     "main",
     "1650489885e385492b",
     "16584190828ea23e02",
+    "166025372826e27d78",
     "1652199612f01388e0",
     "165220110819e632f3",
     "16535980161ec26cd1",

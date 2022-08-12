@@ -86,7 +86,6 @@
     "1652199612f01388e0": {
       "type": "product-video-story",
       "settings": {
-        "img": "shopify:\/\/shop_images\/wyatt-bleach_02.jpg",
         "title": "file under: process",
         "wrap_title": "patterned, cut, and sewn in the USA",
         "top_text": "",
@@ -203,12 +202,12 @@
         "ce938dae-6c05-4753-af65-583955674b17"
       ],
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "pre_title": "",
-        "title": "all men's styles",
-        "title_font": "headline__arno",
+        "title": "<br><br><br>ALL WOMEN'S FITS",
+        "title_font": "headline__din",
         "btn_text": "",
         "btn_url": ""
       }
@@ -234,9 +233,9 @@
         "show_badges": false,
         "products_to_show": 4,
         "products_per_row": 4,
-        "title": "curated selections",
-        "title_font": "headline__arno",
-        "text": "( featured favorites )",
+        "title": "CURATED SELECTIONS",
+        "title_font": "headline__din",
+        "text": "",
         "btn_text": "",
         "btn_url": ""
       }

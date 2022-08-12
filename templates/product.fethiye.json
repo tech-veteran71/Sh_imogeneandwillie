@@ -80,41 +80,64 @@
     "16584190828ea23e02": {
       "type": "section-product-moodboard",
       "settings": {
-        "main_title": "dig into the moodboard"
+        "main_title": "the moodboard"
       }
     },
-    "1652199612f01388e0": {
-      "type": "product-video-story",
+    "1660245402ca94fbbe": {
+      "type": "section-quote",
       "settings": {
-        "img": "shopify:\/\/shop_images\/wyatt-bleach_02.jpg",
-        "title": "file under: process",
-        "wrap_title": "patterned, cut, and sewn in the USA",
-        "top_text": "",
-        "bottom_text": "in addition to making it all right here, everything we've ever produced has been made via small–batch production, which helps us make clothing with intention, and in turn, helps us avoid creating unnecessary waste, and just as importantly, helps us keep focus on appreciating every person who helps us make these garments.",
-        "link_text": "learn more >",
-        "btn_url": "shopify:\/\/pages\/the-process",
-        "btn": "learn more about our process >",
-        "add_video": true,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c66d0529685c476fa93cc6243aa00014.mp4"
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"i am happy to report that in the war between reality and romance, reality is not the stronger.\"",
+        "customer_name": "-  john steinbeck",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16602516536082588d": {
+      "type": "section-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13e2269430674c6a97577c7dae69a3ae.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13e2269430674c6a97577c7dae69a3ae.mp4",
+        "video_controls": false
       }
     },
     "1660149339df842604": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
-        "choose_collection": "fethiye",
+        "choose_collection": "fethiye-rich-collection",
         "show_title": true,
         "show_subtitle": true,
         "show_price": false,
         "show_badges": false,
-        "title": "Women’s new arrivals",
-        "main_title": "new arrivals",
-        "mob_title": "WOMEN’s",
-        "link_text": "View all",
+        "title": "fethiye collection",
+        "main_title": "",
+        "mob_title": "fethiye collection",
+        "link_text": "shop all >",
         "link_url": ""
+      }
+    },
+    "16602454840eb66030": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "shop collection",
+        "btn_url": "",
+        "show_button": true
       }
     },
     "product-recommendations": {
@@ -125,24 +148,15 @@
         "heading": "curated selections"
       }
     },
-    "16602280030b7b2cc8": {
-      "type": "section-collection-grid",
+    "1660251754cb4959ee": {
+      "type": "section-image",
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "choose_collection": "curated-selections-fethiye",
-        "show_title": false,
-        "show_subtitle": false,
-        "show_price": false,
-        "show_badges": false,
-        "products_to_show": 4,
-        "products_per_row": 4,
-        "title": "curated selections",
-        "title_font": "headline__arno",
-        "text": "( featured favorites )",
-        "btn_text": "",
-        "btn_url": ""
+        "desk_img": "shopify:\/\/shop_images\/desktopfootercollage.jpg",
+        "img_url": "",
+        "img_width": "full"
       }
     }
   },
@@ -150,9 +164,11 @@
     "main",
     "1650489885e385492b",
     "16584190828ea23e02",
-    "1652199612f01388e0",
+    "1660245402ca94fbbe",
+    "16602516536082588d",
     "1660149339df842604",
+    "16602454840eb66030",
     "product-recommendations",
-    "16602280030b7b2cc8"
+    "1660251754cb4959ee"
   ]
 }

@@ -3,6 +3,7 @@
     "main": {
       "type": "section-hero-banner",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
@@ -22,21 +23,24 @@
     "1658954396851fc6b5": {
       "type": "section-rich-text",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "#c2902c",
+        "bg_color": "#f7f6f3",
         "text": "too often, jean styles are born out of a fashion trend or modern innovation. <br><br>our jeans were created as a reaction to what wasn’t happening.",
         "link_text": "",
-        "link_url": ""
+        "link_url": "",
+        "show_link": false
       }
     },
     "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#fff",
-        "mob_bg_color": "#ffffff",
+        "desk_bg_color": "#f6f5f1",
+        "mob_bg_color": "#f6f5f1",
         "desk_img": "shopify:\/\/shop_images\/i_w__010553.jpg",
         "mob_img": "shopify:\/\/shop_images\/bartonslimpureindigo_10_1200x_da6b4df7-57d7-49e0-b39f-bd630d9c8421.webp",
         "img_url": "",
@@ -54,9 +58,10 @@
     "16523839440f52af5e": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#fff",
+        "background_color": "#f6f5f1",
         "choose_collection": "barton-slim",
         "show_title": true,
         "show_subtitle": true,
@@ -72,6 +77,7 @@
     "1652384122d9f7ad26": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -93,6 +99,7 @@
     "1652384239086de985": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -111,10 +118,11 @@
     "1652384267583aae78": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#fff",
-        "mob_bg_color": "#ffffff",
+        "desk_bg_color": "#f6f5f1",
+        "mob_bg_color": "#f6f5f1",
         "desk_img": "shopify:\/\/shop_images\/henryjp-11_1200x_4e99c74d-627c-4044-b175-03caa0eae4cc.webp",
         "mob_img": "shopify:\/\/shop_images\/run-henry-09_1200x_adf3e8a8-a884-4e3f-8d16-712e9ba012b1.webp",
         "img_url": "",
@@ -132,9 +140,10 @@
     "165238448800fa371e": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#fff",
+        "background_color": "#f6f5f1",
         "choose_collection": "henry",
         "show_title": true,
         "show_subtitle": true,
@@ -150,6 +159,7 @@
     "165238451517fd2aad": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -171,6 +181,7 @@
     "1658866129d79fc526": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -266,6 +277,7 @@
         "ca80d795-f5ac-4fec-a0f1-fefd31abb6e8"
       ],
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": true,
         "desktop_hide": false,
         "bg_color": "#f7f6f3",
@@ -278,6 +290,7 @@
     "165895065462683bab": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/desktop_0ae28962-274f-4eb7-9128-2db241d361f7.jpg",
@@ -289,6 +302,7 @@
     "1660058858bff665ce": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -304,6 +318,7 @@
     "16589505183cb8746a": {
       "type": "section-collection-grid",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "men-denim",
@@ -323,6 +338,7 @@
     "165895022280355359": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",

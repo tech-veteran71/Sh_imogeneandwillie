@@ -9,21 +9,100 @@
     "1652456953b0a09c70": {
       "type": "section-hero-banner",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/MGL9471.jpg",
-        "mob_img": "shopify:\/\/shop_images\/MGL9471.jpg",
+        "mob_img": "shopify:\/\/shop_images\/print-layout-2_5c8fe6a3-2eb3-4535-a117-e5629221c672.jpg",
         "img_url": "",
-        "main_title": "<p style=\"font-weight: normal\">the fethiye<\/p>",
+        "main_title": "",
         "title_font": "headline__arno",
         "font_color": "{{ shop.brand.colors.primary[0].background }}",
         "text": "",
-        "link_text": "made in the USA.",
+        "link_text": "",
         "link": "#",
         "show_button": false,
         "show_down_arrow": false
+      }
+    },
+    "16552163722cb3e450": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "fethiye in hand-loomed mesa stripe",
+        "title_font": "headline__arno",
+        "text": "sewn from an intricate and open hand-loomed Indian textile. it's the perfect pant to lounge in on Saturday afternoon. pattern placement is specific to every pair, and each is completely unique.<br><br>made in usa",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "166024469010cbe1cc": {
+      "type": "section-collection-grid",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "coastal-stripe",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": true,
+        "show_badges": false,
+        "products_to_show": 2,
+        "products_per_row": 2,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "165521652877160ebd": {
+      "type": "section-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13e2269430674c6a97577c7dae69a3ae.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13e2269430674c6a97577c7dae69a3ae.mp4",
+        "video_controls": false
+      }
+    },
+    "16552168685eb46a49": {
+      "type": "section-quote",
+      "settings": {
+        "margin_bottom": "section-bottom__medium",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "“it's sunnier today. the world is as beautiful as ever.”",
+        "customer_name": "- hayao miyazaki",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1660243107888a6a34": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "fethiye",
+        "show_title": true,
+        "show_subtitle": false,
+        "show_price": true,
+        "show_badges": false,
+        "products_to_show": 10,
+        "products_per_row": 2,
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "SHOP COLLECTION",
+        "btn_url": ""
       }
     },
     "16527283297818d362": {
@@ -48,53 +127,61 @@
         "bg_color": "",
         "text": "everything we love is tied to a memory... even a t-shirt.",
         "link_text": "",
-        "link_url": ""
-      }
-    },
-    "16552163722cb3e450": {
-      "type": "section-txt-link-btn",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "",
-        "title_font": "headline__arno",
-        "text": "<br> <br>everything we love is tied to a memory... even a t-shirt. <br> --<br> made in usa. 100% cotton.",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
+        "link_url": "",
+        "show_link": false
       }
     },
     "16524624159b78050c": {
       "type": "section-image-overlay-feature",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "bg_img": "shopify:\/\/shop_images\/print-scan_36c3662d-40e4-4300-a160-71796d1adfad.jpg",
         "image": "shopify:\/\/shop_images\/MGL9183.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/MGL9183.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/MGL91832.jpg",
         "change_alignment": false,
         "show_section_mob": false,
         "show_section_desk": false,
         "show_section": true,
         "pre_title": "",
-        "title": "fethiye in hand-loomed coastal stripe",
+        "title": "fethiye in hand-loomed mesa stripe",
         "text": "sewn from an intricate and open hand-loomed Indian textile. it's the perfect pant to lounge in on Saturday afternoon. pattern placement is specific to every pair, and each is completely unique.",
-        "btn_text": "shop all",
+        "btn_text": "",
         "link_url": ""
       }
     },
-    "165521652877160ebd": {
-      "type": "section-video-hero",
+    "16602267131d5492d3": {
+      "type": "section-collection-grid",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "fethiye-rich-collection",
+        "show_title": false,
+        "show_subtitle": false,
+        "show_price": true,
+        "show_badges": false,
+        "products_to_show": 6,
+        "products_per_row": 3,
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "1660243802d2cbcb84": {
+      "type": "section-rich-text",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "video_url": "",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Graphic_Tee_Reveal-cropped.mp4?v=1655213772",
-        "video_controls": false
+        "bg_color": "#f0efec",
+        "text": "The garments we find ourselves most excited about are the ones that feel like they are attached to a place, or to a feeling.",
+        "link_text": "",
+        "link_url": "",
+        "show_link": false
       }
     },
     "165521908178e5cb18": {
@@ -115,128 +202,6 @@
         "mob_title": "",
         "link_text": "View all",
         "link_url": ""
-      }
-    },
-    "16552168685eb46a49": {
-      "type": "section-quote",
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "review": "“it's sunnier today. the world is as beautiful as ever.”",
-        "customer_name": "- hayao miyazaki",
-        "background_color": "rgba(0,0,0,0)"
-      }
-    },
-    "16602267131d5492d3": {
-      "type": "section-collection-grid",
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "choose_collection": "curated-selections-fethiye",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": false,
-        "show_badges": false,
-        "products_to_show": 4,
-        "products_per_row": 2,
-        "title": "curated selections: fethiye",
-        "title_font": "headline__arno",
-        "text": "items to complement every moment, wherever your fethiyes may carry you.",
-        "btn_text": "Shop All",
-        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/curated-selections-fethiye"
-      }
-    },
-    "1652454602d3fcba0f": {
-      "type": "section-hero-grid",
-      "disabled": true,
-      "blocks": {
-        "bab32805-b8b0-4299-8c9e-b7b2ac293a2d": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/derby07_1200x_211af393-6db1-4e81-91f2-58c2cd730821.webp",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-derby-tee"
-          }
-        },
-        "0186d924-3b9f-4f43-a5e1-3c5e1df0a0b7": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/till-next-time-01_1200x_8aa08021-b554-471f-a984-d1d8730d39d5.webp",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-next-time-tee-in-blue"
-          }
-        },
-        "4af406c5-5512-4921-928a-cfe4eaead1b5": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/great-01.jpg",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-behind-great-truth-tee?_pos=1&_sid=07ccc37cf&_ss=r"
-          }
-        },
-        "88c7cb3a-7df5-459a-8c7a-d6d470a0ef84": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/support-live-white02_1200x_bac4f954-836c-4e81-9705-035c9e1895ee.webp",
-            "link": "https:\/\/imogeneandwillie.com\/products\/support-live-music-in-vintage-white"
-          }
-        },
-        "a3fc63c8-f167-4de6-8a8c-7b01cd73e296": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/hellfire-tee_01_1200x_63bf94a7-b4c3-4b57-8199-5c66a3de573c.webp",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-hellfire-tee"
-          }
-        },
-        "bd6ab221-4c17-403f-8505-5244bcb444bf": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/end-is-03_1200x_68e50f43-5df3-4220-b3d8-598511c59e90.webp",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-end-is-near-tee"
-          }
-        },
-        "397cf57d-3467-49c1-b3c6-bf821f9d5668": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/mensheart-Tee02_1200x_94284d70-9044-4f06-8233-355ec59d8dbc.jpg",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-love-tee-m"
-          }
-        },
-        "12623210-327c-48b0-8bfc-5426e3b0ffc5": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/god-01_1200x_cad1ab2f-70dd-4780-804c-b4078cf7129d.webp",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-godspeed-tee-in-vintage-white"
-          }
-        },
-        "5ffdaff7-dd62-4b5f-994e-229e9022f7cd": {
-          "type": "product_image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/love-your-mother-05_1200x_07f17b7c-9465-47f2-902e-f0a57aaddb2a.webp",
-            "link": "https:\/\/imogeneandwillie.com\/products\/the-love-your-mother-tee"
-          }
-        }
-      },
-      "block_order": [
-        "bab32805-b8b0-4299-8c9e-b7b2ac293a2d",
-        "0186d924-3b9f-4f43-a5e1-3c5e1df0a0b7",
-        "4af406c5-5512-4921-928a-cfe4eaead1b5",
-        "88c7cb3a-7df5-459a-8c7a-d6d470a0ef84",
-        "a3fc63c8-f167-4de6-8a8c-7b01cd73e296",
-        "bd6ab221-4c17-403f-8505-5244bcb444bf",
-        "397cf57d-3467-49c1-b3c6-bf821f9d5668",
-        "12623210-327c-48b0-8bfc-5426e3b0ffc5",
-        "5ffdaff7-dd62-4b5f-994e-229e9022f7cd"
-      ],
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/66-_01.jpg",
-        "mob_img": "shopify:\/\/shop_images\/66-_01.jpg",
-        "link_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees",
-        "title": "Graphic Tees",
-        "link_text": "shop all >"
       }
     },
     "1655218881b7a9db70": {
@@ -333,6 +298,7 @@
     },
     "1652456232ae0f4c29": {
       "type": "section-hero-banner",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -341,10 +307,10 @@
         "desk_img": "shopify:\/\/shop_images\/Untitled-1_9d1efc3b-f88a-4030-945e-164d521199e5.jpg",
         "mob_img": "shopify:\/\/shop_images\/print-layout-2.jpg",
         "img_url": "",
-        "main_title": "ON PROCESS",
+        "main_title": "",
         "title_font": "headline__din",
         "font_color": "#f1efe8",
-        "text": "every single tee has been indigo dyed, by hand, and set in the sun to re-create the color and wear that typically only from from years of use.",
+        "text": "",
         "link_text": "",
         "link": "",
         "show_button": false,
@@ -405,6 +371,7 @@
     },
     "16602287787b5d92b9": {
       "type": "section-asymmetric",
+      "disabled": true,
       "blocks": {
         "8e31b616-1d9a-4e43-8a9e-bfc2c748d3af": {
           "type": "image",
@@ -462,28 +429,30 @@
     "166022734635e4af4e": {
       "type": "section-image",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/fethiyewhite-womens__11.jpg",
+        "desk_img": "shopify:\/\/shop_images\/Untitled-1_644127ce-93d6-40a8-ac49-5debc9e1369a.jpg",
         "mob_img": "shopify:\/\/shop_images\/fethiyewhite-womens__11.jpg",
         "img_url": "",
-        "img_width": "large"
+        "img_width": "full"
       }
     }
   },
   "order": [
     "main",
     "1652456953b0a09c70",
+    "16552163722cb3e450",
+    "166024469010cbe1cc",
+    "165521652877160ebd",
+    "16552168685eb46a49",
+    "1660243107888a6a34",
     "16527283297818d362",
     "1655216292204f2103",
-    "16552163722cb3e450",
     "16524624159b78050c",
-    "165521652877160ebd",
-    "165521908178e5cb18",
-    "16552168685eb46a49",
     "16602267131d5492d3",
-    "1652454602d3fcba0f",
+    "1660243802d2cbcb84",
+    "165521908178e5cb18",
     "1655218881b7a9db70",
     "165521573342ee8ea4",
     "1652455815637069c3",
