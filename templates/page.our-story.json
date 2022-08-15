@@ -9,6 +9,7 @@
     "1655759101cd543749": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/the-beginning-1_756bc8e2-73ee-4d27-9841-35acb842912e.jpg",
@@ -19,6 +20,7 @@
     "1655755667204d86c0": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -35,6 +37,7 @@
       "type": "section-img-txt-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -57,6 +60,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/the-beginning-5.webp",
@@ -67,6 +71,7 @@
     "1655757145fe105aab": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_45e71231-7f40-429d-871e-296e8bf79d3a.jpg",
@@ -77,6 +82,7 @@
     "1655757109899b80e3": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -92,6 +98,7 @@
     "165575627606213b8b": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/shop-split.png",
@@ -103,6 +110,7 @@
       "type": "section-img-txt-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -124,6 +132,7 @@
     "1655755945bbc732b3": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -140,6 +149,7 @@
       "type": "section-quote",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "\"everything you can imagine is real.\"",
@@ -150,6 +160,7 @@
     "16552329270195edd0": {
       "type": "section-image-video-hero",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-8_a8d272cd-9a4f-4e52-97fa-4be08cef3897.jpg",
@@ -164,6 +175,7 @@
     "1655232194ac1fa02c": {
       "type": "section-video-with-text",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": true,
         "desktop_hide": false,
         "video_poster": "shopify:\/\/shop_images\/Screen_Shot_2022-06-14_at_1.16.13_PM.png",
@@ -183,6 +195,7 @@
       "type": "section-image-video-hero",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": true,
         "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/the-beginning-2_001ce1bf-632e-4b75-9d94-acb84fe829ae.jpg",
@@ -198,6 +211,7 @@
     "1660156749dba15f0e": {
       "type": "section-brand-promise",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,

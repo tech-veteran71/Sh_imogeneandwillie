@@ -9,6 +9,7 @@
     "16554858073461eab8": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
@@ -20,6 +21,7 @@
     "165548586709ee2e23": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -35,6 +37,7 @@
     "16554859495bb5ecba": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/ss.jpg",
@@ -46,6 +49,7 @@
     "16554859930f7532c1": {
       "type": "section-newsletter",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text": "upcoming events",
@@ -199,6 +203,7 @@
         "f4564b3a-1c20-49da-a96f-7e28fabc94e3"
       ],
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false
       }
@@ -206,6 +211,7 @@
     "1655486368916de147": {
       "type": "section-quote",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "“be groovy or leave, man.”",
@@ -216,6 +222,7 @@
     "16554864441637962d": {
       "type": "section-flashcard-feature",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "support-live-music",
@@ -230,6 +237,7 @@
     "1660157100b0c584eb": {
       "type": "section-brand-promise",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,

@@ -14,7 +14,7 @@
         "desktop_hide": false,
         "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/MGL9471.jpg",
-        "mob_img": "shopify:\/\/shop_images\/print-layout-2_5c8fe6a3-2eb3-4535-a117-e5629221c672.jpg",
+        "mob_img": "shopify:\/\/shop_images\/fethiyemesastripe_w_07_bba3e586-a936-4045-8d11-ed069d5f7483.jpg",
         "img_url": "",
         "main_title": "",
         "title_font": "headline__arno",
@@ -153,7 +153,7 @@
     "16602267131d5492d3": {
       "type": "section-collection-grid",
       "settings": {
-        "margin_bottom": "section-bottom__none",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "fethiye-rich-collection",
@@ -433,7 +433,7 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/Untitled-1_644127ce-93d6-40a8-ac49-5debc9e1369a.jpg",
-        "mob_img": "shopify:\/\/shop_images\/fethiyewhite-womens__11.jpg",
+        "mob_img": "shopify:\/\/shop_images\/print-layout-2_5c8fe6a3-2eb3-4535-a117-e5629221c672.jpg",
         "img_url": "",
         "img_width": "full"
       }

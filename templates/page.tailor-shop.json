@@ -9,6 +9,7 @@
     "1651161678f53ee584": {
       "type": "section-video-hero",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "video_url": "https:\/\/player.vimeo.com\/progressive_redirect\/playback\/519643365\/rendition\/1080p?loc=external&signature=bc302ca6d8fbcbfd760a463cc4aba23f3ea3c9f5b72ba11b3f360ff43cdc97a6",
@@ -19,6 +20,7 @@
     "1651161727c0d37ea0": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -34,6 +36,7 @@
     "165116177026ee135a": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/tshoo.jpg",
@@ -45,6 +48,7 @@
     "165116220545fa14a9": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -60,6 +64,7 @@
     "1660156375abe81bb7": {
       "type": "section-brand-promise",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,
@@ -78,6 +83,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/tailorshop_d61da3ad-03f7-42d6-b603-4d50542f50c4.jpg",

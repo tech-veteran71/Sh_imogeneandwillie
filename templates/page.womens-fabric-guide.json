@@ -3,14 +3,18 @@
     "main": {
       "type": "section-hero-banner",
       "settings": {
-        "desk_img": "shopify:\/\/shop_images\/Header_1200x_97e35576-1fce-47b3-a44b-5ce832f47710.png",
-        "mob_img": "shopify:\/\/shop_images\/Header_IMG_300x_82594ffe-28dd-4831-b227-48865513ce0d.png",
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/Fabric-Guide.jpg",
+        "mob_img": "shopify:\/\/shop_images\/fabricguide_mobile.jpg",
         "img_url": "",
         "main_title": "",
         "title_font": "headline__din",
         "font_color": "#222222",
         "text": "",
-        "link_text": "FIND YOUR FIT",
+        "link_text": "SHOP BY FABRIC",
         "link": "#",
         "show_button": false,
         "show_down_arrow": false
@@ -19,13 +23,16 @@
     "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/wyatt-234256.jpg",
         "mob_img": "shopify:\/\/shop_images\/wyatt-bleach_03_1200x_56a60ef4-2c9a-4584-ab8e-769ebd475bc5.webp",
         "img_url": "",
         "pre_title": "",
-        "main_title": "wyatt",
+        "main_title": "indigo",
         "title_font": "headline__arno",
         "text": "wyatt has a moderately high waist, and is versatilely designed to be worn however you see fit.",
         "btn_text": "shop all",
@@ -38,7 +45,15 @@
     "16523839440f52af5e": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
         "choose_collection": "wyatt",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
         "title": "",
         "main_title": "",
         "mob_title": "",
@@ -49,13 +64,16 @@
     "1652384122d9f7ad26": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "",
         "mob_bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/catherinelot01_web.jpg",
         "mob_img": "shopify:\/\/shop_images\/catherine-abilene_10_1200x_1d61c0e0-9f7c-4308-b65a-fff8988d7c17.webp",
         "img_url": "",
         "pre_title": "",
-        "main_title": "catherine",
+        "main_title": "washed",
         "title_font": "headline__arno",
         "text": "inspired by a beloved pair of 1950s five pocket jeans, catherine is our nod to the glory days of denim.",
         "btn_text": "shop all",
@@ -68,7 +86,15 @@
     "1652384239086de985": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
         "choose_collection": "catherine",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
         "title": "",
         "main_title": "",
         "mob_title": "",
@@ -79,17 +105,20 @@
     "1652384267583aae78": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/sophie-taylor-03_1200x_a31fc4c4-6cfb-4a64-a7e9-c2384dddde04.webp",
-        "mob_img": "shopify:\/\/shop_images\/run-henry-09_1200x_adf3e8a8-a884-4e3f-8d16-712e9ba012b1.webp",
+        "desk_img": "shopify:\/\/shop_images\/lottie-ashland_03_46c5becb-85bb-40a9-a072-7f08e4b61d53.jpg",
+        "mob_img": "shopify:\/\/shop_images\/lottie-ashland_01_a1d33eae-4178-469d-82bd-b6164b2cbdcc.webp",
         "img_url": "",
         "pre_title": "",
-        "main_title": "sophie",
+        "main_title": "black",
         "title_font": "headline__arno",
         "text": "sophie is an evolution of our beloved high-rise fit, fitted through the hips and seat, and straight from the thigh all the way down to the leg opening.",
         "btn_text": "shop all",
-        "btn_url": "shopify:\/\/collections\/henry",
+        "btn_url": "shopify:\/\/collections\/womens-black-fabric",
         "change_alignment": false,
         "show_btn": false,
         "show_link": false
@@ -98,7 +127,15 @@
     "165238448800fa371e": {
       "type": "section-product-collection-slider",
       "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
         "choose_collection": "henry",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
         "title": "",
         "main_title": "",
         "mob_title": "",
@@ -109,20 +146,80 @@
     "165238451517fd2aad": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
         "desk_bg_color": "#ffffff",
         "mob_bg_color": "#ffffff",
-        "desk_img": "shopify:\/\/shop_images\/CZ1A4050.jpg",
-        "mob_img": "shopify:\/\/shop_images\/williejp-07_1200x_962a41d7-397f-407d-bcac-3297e9686487.webp",
+        "desk_img": "shopify:\/\/shop_images\/augustacanvas_03_a00d898e-bde2-48d0-996c-96c94f7e7965.jpg",
+        "mob_img": "shopify:\/\/shop_images\/augustacanvas_02_087248dc-0834-4ad7-9c4d-5979ad9c4976.jpg",
         "img_url": "",
         "pre_title": "",
-        "main_title": "willie",
+        "main_title": "white\/natural",
         "title_font": "headline__arno",
         "text": "our very first men’s fit, named for carrie’s grandfather.  most jean styles out there are born from trends or modern innovations. inspired by matt’s personal archive of vintage jeans, the willie can be summed up in one word: timeless.",
         "btn_text": "shop all",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/collections\/womens-natural-white-fabric",
         "change_alignment": true,
         "show_btn": false,
         "show_link": false
+      }
+    },
+    "166057728946399c69": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "color",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1660577319be1ca565": {
+      "type": "section-symmetric-content",
+      "blocks": {
+        "c1f7629a-9275-414f-a387-edfe47692cc0": {
+          "type": "fabric_info",
+          "settings": {
+            "title": "100% cotton",
+            "title_font": "headline__din",
+            "text": "",
+            "link_text": "SHOP ALL",
+            "link_url": "",
+            "use_btn": false
+          }
+        },
+        "062127b9-4bd1-414c-b087-f7f05788964c": {
+          "type": "fabric_info",
+          "settings": {
+            "title": "stretch",
+            "title_font": "headline__din",
+            "text": "",
+            "link_text": "Shop all",
+            "link_url": "",
+            "use_btn": false
+          }
+        }
+      },
+      "block_order": [
+        "c1f7629a-9275-414f-a387-edfe47692cc0",
+        "062127b9-4bd1-414c-b087-f7f05788964c"
+      ],
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "main_title": "LOREM IPSUM FABRIC"
       }
     }
   },
@@ -134,6 +231,8 @@
     "1652384239086de985",
     "1652384267583aae78",
     "165238448800fa371e",
-    "165238451517fd2aad"
+    "165238451517fd2aad",
+    "166057728946399c69",
+    "1660577319be1ca565"
   ]
 }

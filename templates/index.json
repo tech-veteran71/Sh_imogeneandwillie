@@ -1,13 +1,18 @@
 {
   "sections": {
-    "166024340116b8123f": {
-      "type": "section-video-hero",
+    "16600824508568810e": {
+      "type": "section-image-video-hero",
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bd37ea68c7d94e0a95d1999fa61b874d.mp4",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/823fd6c96a784874a42aafbb76c9e5ee.mp4",
+        "desktop_banner_img": "shopify:\/\/shop_images\/desktop_276b3e9d-3872-4990-8055-ae262d776388.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/fethiyemesastripe_w_07_bba3e586-a936-4045-8d11-ed069d5f7483.jpg",
+        "img_height": false,
+        "link": "shopify:\/\/products\/fethiye-in-hand-loomed-mesa-stripe",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
         "video_controls": false
       }
     },
@@ -21,7 +26,7 @@
         "pretitle": "",
         "title": "fethiye in hand-loomed coastal stripe",
         "title_font": "headline__arno",
-        "text": "sewn from an intricate and open hand-loomed Indian textile. it's the perfect pant to lounge in on Saturday afternoon. pattern placement is specific to every pair, and each is completely unique.<br><br>",
+        "text": "sewn from an intricate and open hand-loomed Indian textile. it's the perfect pant to lounge in on Saturday afternoon. pattern placement is specific to every pair, and each is completely unique.",
         "btn_text": "Shop Now",
         "btn_url": "",
         "show_button": true
@@ -42,8 +47,8 @@
         "title": "Women’s Denim",
         "main_title": "",
         "mob_title": "women's denim",
-        "link_text": "View all",
-        "link_url": ""
+        "link_text": "SHOP ALL ->",
+        "link_url": "shopify:\/\/collections\/women-denim"
       }
     },
     "1660145718a3aa6660": {
@@ -61,8 +66,8 @@
         "title": "Men's Denim",
         "main_title": "",
         "mob_title": "men's denim",
-        "link_text": "View all",
-        "link_url": ""
+        "link_text": "Shop ALL ->",
+        "link_url": "shopify:\/\/collections\/men-denim"
       }
     },
     "16601548444288ce09": {
@@ -115,7 +120,7 @@
     "16601472139560bdbb": {
       "type": "section-video-hero",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09a59ce507e4999beb5fa14e7ab236c.mp4",
@@ -210,7 +215,7 @@
         "pretitle": "",
         "title": "our home",
         "title_font": "h1",
-        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.<br><br>",
+        "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
         "btn_text": "continue reading →",
         "btn_url": "shopify:\/\/pages\/nashville",
         "show_button": false
@@ -295,7 +300,7 @@
         "0d445b66-b6b3-4d8e-8717-aecb3adfc800"
       ],
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "title": "recent moments \/\/",
@@ -318,7 +323,7 @@
     "16599943395aa45761": {
       "type": "section-collection-grid",
       "settings": {
-        "margin_bottom": "section-bottom__none",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "top-picks",
@@ -350,37 +355,12 @@
         "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america",
         "btn_text": "LEARN MORE ->",
         "link_url": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa",
-        "show_link": false
-      }
-    },
-    "1660082441a6b5a05f": {
-      "type": "section-video-hero",
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "video_url": "",
-        "mobile_video_url": "",
-        "video_controls": false
-      }
-    },
-    "16600824508568810e": {
-      "type": "section-image-video-hero",
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "img_height": false,
-        "link": "",
-        "add_video": false,
-        "video_url": "",
-        "mobile_video_url": "",
-        "video_controls": false
+        "show_link": true
       }
     }
   },
   "order": [
-    "166024340116b8123f",
+    "16600824508568810e",
     "16493441673bde7dd8",
     "16601456546ca6d2eb",
     "1660145718a3aa6660",
@@ -396,8 +376,6 @@
     "1657045274b79dc7bf",
     "166014701450e83076",
     "16599943395aa45761",
-    "1637735864c2bd7e13",
-    "1660082441a6b5a05f",
-    "16600824508568810e"
+    "1637735864c2bd7e13"
   ]
 }

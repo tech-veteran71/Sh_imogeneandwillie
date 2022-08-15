@@ -2988,7 +2988,14 @@ header .sub-menu-link {
   line-height: 1.5;
   max-width: 20rem;
   margin-top: 0;
+  text-decoration: none;
+  display: block;
 }
+
+.menu-drawer-footer .link-wrap {
+  margin-top: 2rem;
+}
+
 #menu-drawer .menu-drawer-footer {
   padding: 0 3rem;
   position: relative;

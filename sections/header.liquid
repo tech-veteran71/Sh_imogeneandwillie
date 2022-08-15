@@ -213,9 +213,9 @@
                 </nav>
                 <hr class="menu-drawer-divider" />
                 <div class="menu-drawer-footer" data-menu-footer>
-                  {% if section.settings.text != blank %}
-                    <p class="text">{{ section.settings.text }}</p>
-                  {% endif %}
+                  {% for link in linklists.mobile-menu-footer.links %}
+                    <a href="{{ link.url }}" class="text">{{ link.title }}</a>
+                  {% endfor %}
                   {% if section.settings.link_text != blank %}
                     <div class="link-wrap">
                       <a href="{{ section.settings.link }}" class="link">

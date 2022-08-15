@@ -9,6 +9,7 @@
     "1649862524008263dc": {
       "type": "section-hero-banner",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
@@ -28,6 +29,7 @@
     "1649864198b61b9050": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -43,6 +45,7 @@
     "1655232122c569774c": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-2-1_2048x2048_4c1722d6-97da-4d91-a74e-e45a1ab0b806.jpg",
@@ -54,6 +57,7 @@
     "1655233872a8e80baa": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -70,6 +74,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -85,6 +90,7 @@
     "1649861521d26dd035": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -103,24 +109,10 @@
         "show_link": true
       }
     },
-    "165523374886338841": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "mobile_hide": true,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "",
-        "title_font": "headline__arno",
-        "text": "",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
-      }
-    },
     "16552326859c9348a3": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-4-1_156fc4f3-49e7-49c2-b220-5e88351a3119.jpg",
@@ -132,6 +124,7 @@
     "1655232747b89983e3": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -148,6 +141,7 @@
       "type": "section-img-txt-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -169,6 +163,7 @@
     "165524647056f9cdaa": {
       "type": "section-quote",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "“i want to die with my blue jeans on.”",
@@ -206,6 +201,7 @@
         "97a9a406-32e8-407c-83cf-5c4bcc7f088d"
       ],
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-1_0ee03081-98de-4069-8e19-64f82214fbd8.jpg",
@@ -221,24 +217,10 @@
         "text": "he taught himself to sew and set out to develop a fit that drew from the past, while working to incorporate a modern aesthetic.\n<br><br>\nit was through trial and error (and after several prototypes) that we landed on a suitable companion to our women’s imogene.\n<br><br>\nand thus, willie became our first men’s fit - a mid-rise straight leg constructed from Cone Mills rigid selvage denim.\n<br><br>\n<h6>make love. make art. make jeans.<\/h6>"
       }
     },
-    "165524687851e9c4f2": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "mobile_hide": true,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "",
-        "title_font": "headline__arno",
-        "text": "",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
-      }
-    },
     "165523519491039b89": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-7-1_3597b92b-0b15-4222-b282-373743cc4622.jpg",
@@ -251,6 +233,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -267,6 +250,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-8-slider-3_fb797e8e-1431-4497-89e8-9ace31e9975b.jpg",
@@ -278,6 +262,7 @@
     "165523530215423de5": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -293,6 +278,7 @@
     "16552453301d71cab6": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -314,6 +300,7 @@
     "16552454126f9f0675": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-11-1_7c5ac47f-6b02-4894-95e0-8fc532e655ce.jpg",
@@ -325,6 +312,7 @@
     "16552454335ce7cc06": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -340,6 +328,7 @@
     "1655245462aebd9980": {
       "type": "section-hero-banner",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
@@ -359,12 +348,14 @@
     "1655321588e9afb181": {
       "type": "section-rich-text",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "",
+        "bg_color": "rgba(0,0,0,0)",
         "text": "contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it.",
         "link_text": "GET STARTED >",
-        "link_url": "https:\/\/imogeneandwillie.com\/pages\/denim-care"
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/denim-care",
+        "show_link": false
       }
     }
   },
@@ -376,13 +367,11 @@
     "1655233872a8e80baa",
     "16552354948fcc1bfd",
     "1649861521d26dd035",
-    "165523374886338841",
     "16552326859c9348a3",
     "1655232747b89983e3",
     "1655235603315223fb",
     "165524647056f9cdaa",
     "16552464376ad40cf1",
-    "165524687851e9c4f2",
     "165523519491039b89",
     "1655235237f2baa6f3",
     "165523526867ef7bfa",
