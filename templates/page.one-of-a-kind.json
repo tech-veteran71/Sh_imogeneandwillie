@@ -9,7 +9,7 @@
     "16505744112aca834e": {
       "type": "section-image",
       "settings": {
-        "margin_bottom": "section-bottom__none",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imwiththeband__1_of_2.jpg",

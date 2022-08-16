@@ -18,7 +18,7 @@
                 {% render 'responsive--image' with block.settings.img_mob as image, max_width: 209, class: 'img' %}
               </div>
             {% endif %}
-            <div class="content-wrap" style="color: {{block.settings.text_color}}">
+            <div class="content-wrap" style="color: {{block.settings.text_color}}; border-color: {{block.settings.text_color}};">
               {% if block.settings.pre_title != blank %}
                 <h4>
                 {{ block.settings.pre_title }}
@@ -30,7 +30,7 @@
                 </h2>
               {% endif %}
               {% if block.settings.btn_text != blank %}
-                <div class="button button--outline">
+                <div class="button button--outline" style="color: {{block.settings.text_color}}; border-color: {{block.settings.text_color}};">
                   {{ block.settings.btn_text }}
                 </div>
               {% endif %}

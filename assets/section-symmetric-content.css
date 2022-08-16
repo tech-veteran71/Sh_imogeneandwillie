@@ -10,14 +10,9 @@
   margin-bottom: 4rem;
 }
 .fabric-section .main-title {
-  font-size: 2.1rem;
-  font-family: var(--font-din);
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
   color: var(--color-normal-black);
   margin: 0;
   text-align: center;
-  font-weight: 600;
 }
 .fabric-section .fabric-grid {
   display: grid;
@@ -34,13 +29,13 @@
   object-fit: cover;
 }
 .fabric-section .content-wrap {
-  max-width: 80%;
+  max-width: 34rem;
   height: auto;
   background-color: var(--color-white);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -9rem;
+  bottom: 0;
   padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
@@ -48,14 +43,13 @@
   align-items: center;
   width: 100%;
 }
+
+.fabric-section .img-wrap {
+  padding-bottom: 9rem;
+}
 .fabric-section .fabric-block .title {
-  font-size: 2.1rem;
-  font-family: var(--font-din);
-  font-weight: 600;
-  letter-spacing: 0.3rem;
   color: var(--color-normal-black);
   margin: 0;
-  text-transform: uppercase;
 }
 .fabric-section .fabric-block .text {
   font-size: 1.3rem;
@@ -80,30 +74,7 @@
     padding: 0 6em;
   }
 }
-@media screen and (max-width: 1400px) {
-  .fabric-section .fabric-block .title {
-    font-size: 1.6rem;
-  }
-  .fabric-section .fabric-block .text {
-    font-size: 1rem;
-  }
-  .fabric-section .fabric-block .link {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 1279px) {
-  .fabric-section .content-wrap {
-    max-width: 60%;
-  }
-}
 @media screen and (max-width: 990px) {
-  .fabric-section .content-wrap {
-    max-width: 80%;
-  }
-  .fabric-section .fabric-block .title {
-    font-size: 1.6rem;
-    letter-spacing: 0.2rem;
-  }
   .fabric-section .fabric-block .text {
     font-size: 1.2rem;
   }

@@ -334,7 +334,7 @@
         "products_to_show": 4,
         "products_per_row": 2,
         "title": "top picks",
-        "title_font": "headline__arno",
+        "title_font": "headline__din",
         "text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things.",
         "btn_text": "Shop All",
         "btn_url": "shopify:\/\/collections\/top-picks"

@@ -149,3 +149,25 @@
     height: 31rem;
   }
 }
+
+.explore-section .swiper-button-next {
+  right: 1rem;
+  transform: translateY(-50%);
+  top: 45%;
+}
+.explore-section .swiper-button-prev {
+  left: 1rem;
+  transform: translateY(-50%);
+  top: 45%;
+}
+.explore-section .swiper-button-next,
+.explore-section .swiper-button-prev {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+.explore-section .swiper-button-next:after,
+.explore-section .swiper-button-prev:after {
+  font-size: 20px;
+  color: var(--color-dim-black);
+}

@@ -5,7 +5,7 @@
     <div class="wrapper">
       {% if section.settings.main_title != blank %}
         <div class="title-wrap">
-          <h2 class="main-title {{ section.settings.title_font }}">{{ section.settings.main_title }}</h2>
+          <h3 class="main-title">{{ section.settings.main_title }}</h3>
         </div>
       {% endif %}
       <div class="fabric-grid">
@@ -22,7 +22,7 @@
             {% endif %}
             <div class="content-wrap">
               {% if block.settings.title != blank %}
-                <h3 class="title">{{ block.settings.title }}</h3>
+                <h3 class="title {{ block.settings.title_font }}">{{ block.settings.title }}</h3>
               {% endif %}
               {% if block.settings.text != blank %}
                 <p class="text">{{ block.settings.text }}</p>

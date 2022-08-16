@@ -474,7 +474,7 @@ blockquote {
 /* Headline Variables */
 
 .headline__arno {
-  font-size: 1.8rem;
+  font-size: 2.6rem;
   letter-spacing: 0.26rem;
   font-family: var(--font-arno-display);
   font-weight: normal;

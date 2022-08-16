@@ -135,3 +135,25 @@
     font-size: 1.4rem;
   }
 }
+
+.fact-section .swiper-button-next {
+  right: 1rem;
+  transform: translateY(-50%);
+  top: 45%;
+}
+.fact-section .swiper-button-prev {
+  left: 1rem;
+  transform: translateY(-50%);
+  top: 45%;
+}
+.fact-section .swiper-button-next,
+.fact-section .swiper-button-prev {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+.fact-section .swiper-button-next:after,
+.fact-section .swiper-button-prev:after {
+  font-size: 20px;
+  color: var(--color-dim-black);
+}

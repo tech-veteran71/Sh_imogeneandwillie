@@ -51,6 +51,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  margin-top: 4rem;
 }
 .rich-text-section .button-wrap .arrow {
   height: 2.2rem;
@@ -62,16 +63,10 @@
   width: 100%;
 }
 
-.button-wrap {
-  margin-top: 4rem;
-}
 /* responsive */
 @media(max-width: 767px ){
-  .button-wrap {
-    margin-top: 0;
-  }
   .rich-text-section { 
-    margin-top: 2.5rem;
+    margin-top: 0;
   }
   .rich-text-section .button--link {
     margin-top: 1.5rem;
@@ -91,5 +86,6 @@
   }
   .rich-text-section .button-wrap {
     justify-content: center;
+    margin-top: 2.5rem;
   }
 }

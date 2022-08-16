@@ -14,10 +14,10 @@
         "title_font": "headline__din",
         "font_color": "#222222",
         "text": "",
-        "link_text": "FIND YOUR FIT",
+        "link_text": "FIND YOUR FIT <br><br>",
         "link": "#",
         "show_button": false,
-        "show_down_arrow": false
+        "show_down_arrow": true
       }
     },
     "1660061219302c70c3": {
@@ -162,8 +162,8 @@
         "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#f6f5f1",
-        "mob_bg_color": "#f6f5f1",
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
         "desk_img": "shopify:\/\/shop_images\/laurel-03.jpg",
         "mob_img": "shopify:\/\/shop_images\/harper_09.jpg",
         "img_url": "",
@@ -455,9 +455,22 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/OYW_07_abe5c548-5bed-442a-90c7-eac06416b9a2.jpg",
-        "mob_img": "shopify:\/\/shop_images\/OYW_07_abe5c548-5bed-442a-90c7-eac06416b9a2.jpg",
-        "img_url": "",
+        "mob_img": "shopify:\/\/shop_images\/OYW_0_fabricguide.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/pages\/womens-fabric-guide",
         "img_width": "full"
+      }
+    },
+    "1660666457cda56b7a": {
+      "type": "section-rich-text",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "bg_color": "#f7f6f3",
+        "text": "the inspiration for our fabrics may be rooted in the past, but we always chase what is not happening.",
+        "link_text": "SHOP BY FABRIC",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/womens-fabric-guide",
+        "show_link": false
       }
     }
   },
@@ -484,6 +497,7 @@
     "1660254015310263aa",
     "1660254234428bbe53",
     "16603216526b75cc0a",
-    "1660665964f07ca8ed"
+    "1660665964f07ca8ed",
+    "1660666457cda56b7a"
   ]
 }

@@ -3043,6 +3043,10 @@ customElements.define("ajax-cart", AjaxCart);
     invert: false,
     forceToAxis: true,
   },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
     breakpoints: {
       1279: {
         spaceBetween: 20,
@@ -3100,6 +3104,10 @@ customElements.define("ajax-cart", AjaxCart);
     mousewheel: {
     invert: false,
     forceToAxis: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
   },
     breakpoints: {
       1279: {

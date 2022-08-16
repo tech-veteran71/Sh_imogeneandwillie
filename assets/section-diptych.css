@@ -38,21 +38,9 @@
   margin: 5rem auto 6rem;
 }
 .latest-collection .button {
-  font-size: 1.2rem;
-  color: var(--color-white);
   text-transform: uppercase;
   width: 100%;
   max-width: 35rem;
-  background: transparent;
-  border: 0.1rem solid var(--color-white);
-  box-shadow: unset;
-  height: 5.5rem;
-  letter-spacing: 0.42rem;
-  padding: 0;
-  min-height: unset;
-  min-width: unset;
-  font-family: var(--font-din);
-  font-weight: 600;
 }
 .latest-collection .image img {
   display: none;

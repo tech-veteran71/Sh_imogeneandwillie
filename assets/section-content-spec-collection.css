@@ -91,3 +91,25 @@
 .swiper-pagination-bullet-active {
   background: var(--color-normal-black);
 }
+
+.content-specific-collection .swiper-button-next {
+  right: 1rem;
+  transform: translateY(-50%);
+  top: 45%;
+}
+.content-specific-collection .swiper-button-prev {
+  left: 1rem;
+  transform: translateY(-50%);
+  top: 45%;
+}
+.content-specific-collection .swiper-button-next,
+.content-specific-collection .swiper-button-prev {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+.content-specific-collection .swiper-button-next:after,
+.content-specific-collection .swiper-button-prev:after {
+  font-size: 20px;
+  color: var(--color-dim-black);
+}
