@@ -65,6 +65,7 @@
     overflow: hidden;
     background-color: var(--color-white);
     position: relative;
+    padding-bottom: 2rem;
   }
   .image-gallery .gallery-container {
     padding: 0 1.5rem;
@@ -101,6 +102,6 @@
     background-color: var(--color-dim-black);
   }
   .image-gallery .swiper-pagination {
-    bottom: 2rem;
+    bottom: 0;
   }
 }

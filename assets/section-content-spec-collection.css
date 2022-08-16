@@ -81,7 +81,11 @@
   }
 }
 
-.swiper-pagination {
+.product-container .swiper-pagination {
+  margin-bottom: 2rem;
+  bottom: 0;
+}
+.product-container .swiper-wrapper {
   margin-bottom: 2rem;
 }
 .swiper-pagination-bullet-active {

@@ -101,7 +101,7 @@
         "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
-        "background_color": "#F7F6F3",
+        "background_color": "#f7f6f3",
         "choose_collection": "graphic-content",
         "show_title": true,
         "show_subtitle": true,
@@ -120,7 +120,8 @@
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/indigo_sweatshirts__6_of_9.jpg",
+        "desk_img": "shopify:\/\/shop_images\/matt_vibes_-_2-of-4.jpg",
+        "mob_img": "shopify:\/\/shop_images\/matt_vibes_-_2-of-4.jpg",
         "img_url": "",
         "img_width": "full"
       }

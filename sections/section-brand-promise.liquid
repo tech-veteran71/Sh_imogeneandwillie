@@ -15,11 +15,11 @@
              {% endif %}
              {% if section.settings.text != blank %}
               <div class="text-wrap">
-                <p class="text">{{ section.settings.text }}</p>
+                <p class="text h6">{{ section.settings.text }}</p>
               </div>
              {% endif %}
             {% if section.settings.btn_text != blank %}
-              <a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}button button--link{% else %}button button--outline{% endif %}">
+              <a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}button--link{% else %}button button--outline{% endif %}">
                 {{ section.settings.btn_text }}
               </a>
             {% endif %}

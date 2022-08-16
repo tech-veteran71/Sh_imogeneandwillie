@@ -18,7 +18,7 @@
                 {% render 'responsive--image' with block.settings.img_mob as image, max_width: 209, class: 'img' %}
               </div>
             {% endif %}
-            <div class="content-wrap">
+            <div class="content-wrap" style="color: {{block.settings.text_color}}">
               {% if block.settings.pre_title != blank %}
                 <h4>
                 {{ block.settings.pre_title }}
@@ -115,6 +115,12 @@
           "type": "header",
           "content": "Content",
           "info": "-------"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#fff"
         },
         {
           "type": "text",

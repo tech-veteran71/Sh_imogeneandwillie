@@ -2,15 +2,14 @@
 
 <style>
   @media screen and (min-width: 767px) {
-    .product-gallery .gallery {
+    .product-gallery--{{ section.id }} .gallery {
       --product-per-row: {{section.settings.products_per_row}};
       grid-template-columns: repeat(var(--product-per-row),1fr);
     }
   }
 </style>
 
-<section class="product-gallery {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}">
-  <div class="index-container">
+<section class="product-gallery product-gallery--{{ section.id }} {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}">
     <div class="wrapper">
       {% if section.settings.title != blank %}
         <div class="header-wrap">
@@ -49,7 +48,6 @@
         <a href="{{ section.settings.btn_url }}" class="button button--outline">{{ section.settings.btn_text }}</a>
         </div>
       {% endif %}
-    </div>
   </div>
 </section>
 

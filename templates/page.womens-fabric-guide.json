@@ -3,18 +3,18 @@
     "main": {
       "type": "section-hero-banner",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/Fabric-Guide.jpg",
-        "mob_img": "shopify:\/\/shop_images\/fabricguide_mobile.jpg",
+        "mob_img": "shopify:\/\/shop_images\/OYW_05.jpg",
         "img_url": "",
         "main_title": "",
         "title_font": "headline__din",
         "font_color": "#222222",
         "text": "",
-        "link_text": "SHOP BY FABRIC",
+        "link_text": "EXPLORE BY FABRIC",
         "link": "#",
         "show_button": false,
         "show_down_arrow": false
@@ -23,11 +23,11 @@
     "1660659234424430fd": {
       "type": "section-rich-text",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "#F0EFEC",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "bg_color": "#f6f5f1",
+        "text": "our hands (and most everything we own) are stained blue. we don't really know any different. but it's ok, we prefer it that way. <br><br>the inspiration for our fabrics may be rooted in the past, but we always chase what is <i>not<\/i> happening.",
         "link_text": "",
         "link_url": "",
         "show_link": false
@@ -36,7 +36,7 @@
     "1652384122d9f7ad26": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -58,7 +58,7 @@
     "1652384239086de985": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -77,7 +77,7 @@
     "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -99,7 +99,7 @@
     "16523839440f52af5e": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -118,7 +118,7 @@
     "166059640825d1fe5e": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -140,7 +140,7 @@
     "1660596429148f1ecf": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -159,7 +159,7 @@
     "1652384267583aae78": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -181,7 +181,7 @@
     "165238448800fa371e": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -200,7 +200,7 @@
     "165238451517fd2aad": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f6f5f1",
@@ -222,7 +222,7 @@
     "1660592361388842bf": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -241,7 +241,7 @@
     "166057728946399c69": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -252,7 +252,7 @@
         "pre_title": "",
         "main_title": "wildcard",
         "title_font": "headline__arno",
-        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "text": "sometimes a color inspires a feeling. or maybe, it inspires how you feel about yourself. dig into color with our wildcard fabrics.",
         "btn_text": "SHOP now",
         "btn_url": "shopify:\/\/collections\/womens-color-fabric",
         "change_alignment": false,
@@ -263,7 +263,7 @@
     "16605932889cfcf590": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -288,7 +288,7 @@
             "img": "shopify:\/\/shop_images\/wyatt_01.jpg",
             "title": "100% cotton",
             "title_font": "headline__din",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsume lorem ipsum lorem ipsum",
+            "text": "a nod to the glory days of denim. whether rigid or washed the hell down is more your taste, explore our 100% cotton fabric options.",
             "link_text": "SHOP ALL",
             "link_url": "shopify:\/\/collections\/womens-100-cotton-fabric",
             "use_btn": true
@@ -300,7 +300,7 @@
             "img": "shopify:\/\/shop_images\/sophie-taylor-01.jpg",
             "title": "stretch",
             "title_font": "headline__din",
-            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsume lorem ipsum lorem ipsum",
+            "text": "explore our premium stretch denim options. for the days that comfort reigns supreme (without letting go of style).",
             "link_text": "Shop all",
             "link_url": "shopify:\/\/collections\/womens-stretch-fabric",
             "use_btn": true
@@ -315,7 +315,7 @@
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "main_title": ""
+        "main_title": "100% Cotton vs Stretch"
       }
     },
     "1660660216f28e0a49": {
@@ -336,7 +336,7 @@
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "#F0EFEC",
+        "bg_color": "#f0efec",
         "text": "too often, jean styles are born out of a fashion trend or modern innovation.  our jeans were created as a reaction to what wasn’t happening.",
         "link_text": "SHOP BY FIT",
         "link_url": "",

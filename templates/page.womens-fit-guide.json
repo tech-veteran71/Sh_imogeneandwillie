@@ -429,6 +429,7 @@
     },
     "16603216526b75cc0a": {
       "type": "section-collection-grid",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
@@ -445,6 +446,18 @@
         "text": "",
         "btn_text": "Shop All",
         "btn_url": "shopify:\/\/collections\/women-denim"
+      }
+    },
+    "1660665964f07ca8ed": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/OYW_07_abe5c548-5bed-442a-90c7-eac06416b9a2.jpg",
+        "mob_img": "shopify:\/\/shop_images\/OYW_07_abe5c548-5bed-442a-90c7-eac06416b9a2.jpg",
+        "img_url": "",
+        "img_width": "full"
       }
     }
   },
@@ -470,6 +483,7 @@
     "1660253242d90e50ae",
     "1660254015310263aa",
     "1660254234428bbe53",
-    "16603216526b75cc0a"
+    "16603216526b75cc0a",
+    "1660665964f07ca8ed"
   ]
 }

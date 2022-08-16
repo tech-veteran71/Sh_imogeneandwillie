@@ -30,14 +30,12 @@
 .latest-collection h4 {
   margin: 0;
   text-transform: uppercase;
-  color: var(--color-white);
 }
 .latest-collection .mob-img {
   display: none;
 }
 .latest-collection h2 {
   margin: 5rem auto 6rem;
-  color: var(--color-white);
 }
 .latest-collection .button {
   font-size: 1.2rem;
@@ -69,57 +67,12 @@
 /******************responsive [[ first section  ]]****************/
 
 @media screen and (max-width:767px){
-  .latest-collection .collection-item .image img {
-    max-width: 22.1rem;
-    display: block;
-    width: 100%;
-    height: 28.6rem;
-    object-fit: cover;
-    height: 25rem;
-    
-  }
-  .latest-collection .desk-img {
-    display: none;
-  }
-  .latest-collection .content-wrap {
-    color: var(--color-white);
-    text-align: center;
-    position: unset;
-    top: 0;
-    left: 0;
-    transform: unset;
-    width: 100%;
-    
-  }
-  .latest-collection h2 {
-    display: none;
-  }
   .latest-collection .main-grid {
-    padding: 7.7rem 0.6rem;
-    background: var(--color-Xlight-wheat);
-  }
-  .latest-collection h4 {
-    display: none;
-  }
-  .latest-collection .link {
-    display: flex;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    font-family: var(--font-din);
-    font-weight: 600;
-    color: var(--color-black);
-    padding-top: 1rem;
-    justify-content: center;
-    align-items: center;
-    line-height: 1;
-    letter-spacing: 0.1rem;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
   }
   .latest-collection .arrow text {
     fill: var(--color-black);
-  }
-  .latest-collection .button {
-    display: none;
   }
   .latest-collection .arrow {
     display: block;
@@ -130,18 +83,6 @@
   .latest-collection .arrow svg {
     width: 100%;
     height: 100%;
-  }
-  .latest-collection .content-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .latest-collection .mob-img {
-    display: block;
-    height: 35rem;
-  }
-  .latest-collection .mob-img img {
-    object-fit: cover;
   }
 }
 @media screen and (max-width:479px) {

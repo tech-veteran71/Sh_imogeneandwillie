@@ -9,6 +9,7 @@
     "1649862524008263dc": {
       "type": "section-hero-banner",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": true,
         "desktop_hide": false,
         "mobile_hide_text": false,
@@ -28,6 +29,7 @@
     "1659646230f21b5e16": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -44,6 +46,7 @@
       "type": "section-img-txt-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -66,6 +69,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -81,6 +85,7 @@
     "16553190223981909a": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -101,6 +106,7 @@
     "1655319026cff31c96": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -121,6 +127,7 @@
     "1655319090c0176c4a": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -141,6 +148,7 @@
     "1649864198b61b9050": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -156,6 +164,7 @@
     "1649861521d26dd035": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -177,6 +186,7 @@
     "1649861415f6eaedf5": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -198,6 +208,7 @@
     "1649861691a360ac14": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -220,6 +231,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -235,6 +247,7 @@
     "1649864652246cc779": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -243,9 +256,9 @@
         "mob_img": "shopify:\/\/shop_images\/Untitled-5_20c15854-e393-4583-8744-0e3b8f414f31.jpg",
         "img_url": "",
         "pre_title": "<br>",
-        "main_title": "general maintenance and care",
+        "main_title": "<b>general maintenance and care<\/b>",
         "title_font": "headline__arno",
-        "text": "a few tips for general care and maintenance for the time between washes. <br> <br><b>spot spot cleaning<\/b><br><br> let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - friction will lift off the indigo, leaving you with a bright, whiter spot you want to avoid. <br> <br><b>spot odor<\/b><br><br>  you can always let them air outside on a nice day or use a mild odor-fighting fabric spray when needed.  <br> <br><b>shrinkage<\/b><br><br>  washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat. if you notice shrinkage in length, step on the leg of the jeans while they're still damp, and pull up by the waistband.  <br> <br><b>dye transfer<\/b><br><br> <br> <br><b>  you may notice some indigo pull out of the jeans during the wash. it's natural and normal! we recommend washing your jeans alone or with other denim.<\/b>",
+        "text": "a few tips for general care and maintenance for the time between washes. <br> <br><b>spot cleaning<\/b><br><br> let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - friction will lift off the indigo, leaving you with a bright, whiter spot you want to avoid. <br> <br><b>spot odor<\/b><br><br>  you can always let them air outside on a nice day or use a mild odor-fighting fabric spray when needed.  <br> <br><b>shrinkage<\/b><br><br>  washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat. if you notice shrinkage in length, step on the leg of the jeans while they're still damp, and pull up by the waistband.  <br> <br><b>dye transfer<\/b><br> <br> you may notice some indigo pull out of the jeans during the wash. it's natural and normal! we recommend washing your jeans alone or with other denim.",
         "btn_text": "",
         "btn_url": "",
         "change_alignment": false,
@@ -256,6 +269,7 @@
     "1649867094b3f174cc": {
       "type": "section-img-txt-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -278,6 +292,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -294,6 +309,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -310,6 +326,7 @@
       "type": "section-img-txt-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",

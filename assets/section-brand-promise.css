@@ -30,21 +30,8 @@
   margin-bottom: 1.5rem;
 }
 .promise-section .alpha .text {
-  font-size: 1.8rem;
-  font-family: var(--font-arno-display);
-  font-weight: normal;
   margin-top: 0;
-  line-height: 1.5;
   margin-bottom: 0;
-  letter-spacing: 0.1rem;
-}
-.promise-section .btn {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  justify-content: center;
-  margin-top: 3.5rem;
 }
 .promise-section .pre-title {
   margin-top: 0;
@@ -76,9 +63,6 @@
   }
 }
 @media(max-width: 1279px ){
-  .promise-section .alpha .text {
-    font-size: 1.4rem;
-  }
   .promise-section .content {
     max-width: 37.6rem;
   }
@@ -94,9 +78,6 @@
   }
   .promise-section .text-wrap {
     padding: 0 1.6rem;
-  }
-  .promise-section .alpha .text {
-    font-size: 1.2rem;
   }
   .promise-section .btn {
     font-size: 1rem;
@@ -128,11 +109,6 @@
   }
   .promise-section .alpha .title {
     margin-bottom: 1rem;
-  }
-  .promise-section .btn {
-    font-size: 1.4rem;
-    max-width: 22.6rem;
-    height: 5.2rem;
   }
   .promise-section .mob-image {
     display: block;
