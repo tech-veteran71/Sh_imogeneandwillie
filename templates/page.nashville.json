@@ -70,8 +70,37 @@
         "sub_title": "hours:"
       }
     },
+    "165029487575039b8c": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
+        "mob_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
+        "img_url": "shopify:\/\/pages\/tailor-shop",
+        "img_width": "medium"
+      }
+    },
+    "1650294921559cf394": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "tailor shop",
+        "title_font": "h1",
+        "text": "we strive to make the best jeans we can. and we want to make sure they last a long, long time.  that's why, since day one, the tailor shop has always been here: to repair, improve, and fortify your jeans—so that you can put more miles into them.",
+        "btn_text": "learn more",
+        "btn_url": "shopify:\/\/pages\/tailor-shop",
+        "show_button": true
+      }
+    },
     "1650294791c90597d7": {
       "type": "section-image-gallery",
+      "disabled": true,
       "blocks": {
         "a811a9ae-a9f3-4d0b-b298-3ce7a5d9a4bc": {
           "type": "image",
@@ -140,6 +169,7 @@
     },
     "16502947994e98e61e": {
       "type": "section-video-with-text",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
@@ -179,34 +209,6 @@
         "show_link": true
       }
     },
-    "165029487575039b8c": {
-      "type": "section-image",
-      "settings": {
-        "margin_bottom": "section-bottom__none",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
-        "mob_img": "shopify:\/\/shop_images\/footer_d848e849-7c7d-45e3-8769-d3d55f809319.jpg",
-        "img_url": "shopify:\/\/pages\/tailor-shop",
-        "img_width": "medium"
-      }
-    },
-    "1650294921559cf394": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "margin_bottom": "section-bottom__none",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "tailor shop",
-        "title_font": "h1",
-        "text": "we strive to make the best jeans we can. and we want to make sure they last a long, long time.  that's why, since day one, the tailor shop has always been here: to repair, improve, and fortify your jeans—so that you can put more miles into them.",
-        "btn_text": "learn more",
-        "btn_url": "shopify:\/\/pages\/tailor-shop",
-        "show_button": true
-      }
-    },
     "1650637415221d64e9": {
       "type": "section-image-video-hero",
       "settings": {
@@ -227,11 +229,11 @@
   "order": [
     "1650292767c25163f7",
     "shop_info",
+    "165029487575039b8c",
+    "1650294921559cf394",
     "1650294791c90597d7",
     "16502947994e98e61e",
     "1650294845b4561deb",
-    "165029487575039b8c",
-    "1650294921559cf394",
     "1650637415221d64e9"
   ]
 }

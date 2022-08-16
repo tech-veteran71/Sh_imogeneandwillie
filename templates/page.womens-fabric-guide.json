@@ -20,45 +20,17 @@
         "show_down_arrow": false
       }
     },
-    "165238392826fd90de": {
-      "type": "section-img-txt-btn",
+    "1660659234424430fd": {
+      "type": "section-rich-text",
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/wyatt-234256.jpg",
-        "mob_img": "shopify:\/\/shop_images\/wyatt-bleach_03_1200x_56a60ef4-2c9a-4584-ab8e-769ebd475bc5.webp",
-        "img_url": "",
-        "pre_title": "",
-        "main_title": "indigo",
-        "title_font": "headline__arno",
-        "text": "wyatt has a moderately high waist, and is versatilely designed to be worn however you see fit.",
-        "btn_text": "shop all",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
-    "16523839440f52af5e": {
-      "type": "section-product-collection-slider",
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "background_color": "#f7f6f3",
-        "choose_collection": "wyatt",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": false,
-        "show_badges": false,
-        "title": "",
-        "main_title": "",
-        "mob_title": "",
+        "bg_color": "#F0EFEC",
+        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         "link_text": "",
-        "link_url": ""
+        "link_url": "",
+        "show_link": false
       }
     },
     "1652384122d9f7ad26": {
@@ -69,15 +41,15 @@
         "desktop_hide": false,
         "desk_bg_color": "",
         "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/catherinelot01_web.jpg",
-        "mob_img": "shopify:\/\/shop_images\/catherine-abilene_10_1200x_1d61c0e0-9f7c-4308-b65a-fff8988d7c17.webp",
+        "desk_img": "shopify:\/\/shop_images\/elsie-evelyn-08_098dd004-82f8-4b4f-9083-5995f3342087.jpg",
+        "mob_img": "shopify:\/\/shop_images\/elsie-evelyn-08_098dd004-82f8-4b4f-9083-5995f3342087.jpg",
         "img_url": "",
         "pre_title": "",
         "main_title": "washed",
         "title_font": "headline__arno",
-        "text": "inspired by a beloved pair of 1950s five pocket jeans, catherine is our nod to the glory days of denim.",
-        "btn_text": "shop all",
-        "btn_url": "shopify:\/\/collections\/charlie",
+        "text": "for those who find themselves returning to the same pair of threadbare and well-loved jeans, let us do the work for you this time. explore our washed denim fabrics.",
+        "btn_text": "shop now",
+        "btn_url": "shopify:\/\/collections\/womens-washed-fabric",
         "change_alignment": true,
         "show_btn": false,
         "show_link": false
@@ -90,7 +62,89 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
-        "choose_collection": "catherine",
+        "choose_collection": "womens-washed-fabric",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "",
+        "main_title": "",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections\/womens-washed-fabric"
+      }
+    },
+    "165238392826fd90de": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/nep-03.jpg",
+        "mob_img": "shopify:\/\/shop_images\/nep-03.jpg",
+        "img_url": "shopify:\/\/collections\/womens-rigid-fabric",
+        "pre_title": "",
+        "main_title": "rigid",
+        "title_font": "headline__arno",
+        "text": "you can learn a lot about a person from where their jeans wear and fade. as a nod to the glory days of denim, write your own story with our rigid fabrics.",
+        "btn_text": "shop now",
+        "btn_url": "shopify:\/\/collections\/womens-rigid-fabric",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "16523839440f52af5e": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "womens-rigid-fabric",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "",
+        "main_title": "",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections\/womens-rigid-fabric"
+      }
+    },
+    "166059640825d1fe5e": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/803e3cd3c1410f61ee939257a7c88173.jpg",
+        "mob_img": "shopify:\/\/shop_images\/803e3cd3c1410f61ee939257a7c88173.jpg",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "selvage",
+        "title_font": "headline__arno",
+        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "btn_text": "SHOP now",
+        "btn_url": "shopify:\/\/collections\/womens-selvage-fabric",
+        "change_alignment": true,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1660596429148f1ecf": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "womens-selvage-fabric",
         "show_title": true,
         "show_subtitle": true,
         "show_price": false,
@@ -116,8 +170,8 @@
         "pre_title": "",
         "main_title": "black",
         "title_font": "headline__arno",
-        "text": "sophie is an evolution of our beloved high-rise fit, fitted through the hips and seat, and straight from the thigh all the way down to the leg opening.",
-        "btn_text": "shop all",
+        "text": "from rich blue-blacks to sunfaded grays, black jeans have always been an essential for us. complete your uniform with our black fabrics",
+        "btn_text": "shop now",
         "btn_url": "shopify:\/\/collections\/womens-black-fabric",
         "change_alignment": false,
         "show_btn": false,
@@ -131,7 +185,89 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
-        "choose_collection": "henry",
+        "choose_collection": "womens-black-fabric",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "",
+        "main_title": "",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections\/womens-black-fabric"
+      }
+    },
+    "165238451517fd2aad": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "#f6f5f1",
+        "mob_bg_color": "#f6f5f1",
+        "desk_img": "shopify:\/\/shop_images\/augustacanvas_03_a00d898e-bde2-48d0-996c-96c94f7e7965.jpg",
+        "mob_img": "shopify:\/\/shop_images\/augustacanvas_02_087248dc-0834-4ad7-9c4d-5979ad9c4976.jpg",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "white\/natural",
+        "title_font": "headline__arno",
+        "text": "from surfside to mountaintop, a pair of light pants can never go out of style. shop our white and natural fabrics.",
+        "btn_text": "shop now",
+        "btn_url": "shopify:\/\/collections\/womens-natural-white-fabric",
+        "change_alignment": true,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1660592361388842bf": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "womens-natural-white-fabric",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "",
+        "main_title": "",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections\/womens-natural-white-fabric"
+      }
+    },
+    "166057728946399c69": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/wyatt-caly-03.webp",
+        "mob_img": "shopify:\/\/shop_images\/wyatt-caly-04.jpg",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "wildcard",
+        "title_font": "headline__arno",
+        "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "btn_text": "SHOP now",
+        "btn_url": "shopify:\/\/collections\/womens-color-fabric",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "16605932889cfcf590": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "womens-color-fabric",
         "show_title": true,
         "show_subtitle": true,
         "show_price": false,
@@ -143,71 +279,31 @@
         "link_url": ""
       }
     },
-    "165238451517fd2aad": {
-      "type": "section-img-txt-btn",
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_bg_color": "#ffffff",
-        "mob_bg_color": "#ffffff",
-        "desk_img": "shopify:\/\/shop_images\/augustacanvas_03_a00d898e-bde2-48d0-996c-96c94f7e7965.jpg",
-        "mob_img": "shopify:\/\/shop_images\/augustacanvas_02_087248dc-0834-4ad7-9c4d-5979ad9c4976.jpg",
-        "img_url": "",
-        "pre_title": "",
-        "main_title": "white\/natural",
-        "title_font": "headline__arno",
-        "text": "our very first men’s fit, named for carrie’s grandfather.  most jean styles out there are born from trends or modern innovations. inspired by matt’s personal archive of vintage jeans, the willie can be summed up in one word: timeless.",
-        "btn_text": "shop all",
-        "btn_url": "shopify:\/\/collections\/womens-natural-white-fabric",
-        "change_alignment": true,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
-    "166057728946399c69": {
-      "type": "section-img-txt-btn",
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "img_url": "",
-        "pre_title": "",
-        "main_title": "color",
-        "title_font": "headline__din",
-        "text": "",
-        "btn_text": "",
-        "btn_url": "",
-        "change_alignment": false,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
     "1660577319be1ca565": {
       "type": "section-symmetric-content",
       "blocks": {
         "c1f7629a-9275-414f-a387-edfe47692cc0": {
           "type": "fabric_info",
           "settings": {
+            "img": "shopify:\/\/shop_images\/wyatt_01.jpg",
             "title": "100% cotton",
             "title_font": "headline__din",
-            "text": "",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsume lorem ipsum lorem ipsum",
             "link_text": "SHOP ALL",
-            "link_url": "",
-            "use_btn": false
+            "link_url": "shopify:\/\/collections\/womens-100-cotton-fabric",
+            "use_btn": true
           }
         },
         "062127b9-4bd1-414c-b087-f7f05788964c": {
           "type": "fabric_info",
           "settings": {
+            "img": "shopify:\/\/shop_images\/sophie-taylor-01.jpg",
             "title": "stretch",
             "title_font": "headline__din",
-            "text": "",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsume lorem ipsum lorem ipsum",
             "link_text": "Shop all",
-            "link_url": "",
-            "use_btn": false
+            "link_url": "shopify:\/\/collections\/womens-stretch-fabric",
+            "use_btn": true
           }
         }
       },
@@ -219,20 +315,72 @@
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "main_title": "LOREM IPSUM FABRIC"
+        "main_title": ""
+      }
+    },
+    "1660660216f28e0a49": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/OYW_07_72c95add-8893-436f-b6c5-1fb64aeaf54c.jpg",
+        "mob_img": "shopify:\/\/shop_images\/fitguide.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "16606602413a4ec59c": {
+      "type": "section-rich-text",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "bg_color": "#F0EFEC",
+        "text": "too often, jean styles are born out of a fashion trend or modern innovation.  our jeans were created as a reaction to what wasn’t happening.",
+        "link_text": "SHOP BY FIT",
+        "link_url": "",
+        "show_link": false
+      }
+    },
+    "16606003513fb313b0": {
+      "type": "section-brand-promise",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/washbabywash__4_of_19_600x_8d0fb665-17c3-464c-b84f-76034a5ce735.webp",
+        "mob_img": "shopify:\/\/shop_images\/washbabywash__4_of_19_600x_8d0fb665-17c3-464c-b84f-76034a5ce735.webp",
+        "pre_title": "",
+        "title": "shop by fit",
+        "title_font": "headline__din",
+        "text": "too often, jean styles are born out of a fashion trend or modern innovation.  our jeans were created as a reaction to what wasn’t happening.",
+        "btn_text": "LEARN MORE",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/womens-fit-guide",
+        "show_link": false
       }
     }
   },
   "order": [
     "main",
-    "165238392826fd90de",
-    "16523839440f52af5e",
+    "1660659234424430fd",
     "1652384122d9f7ad26",
     "1652384239086de985",
+    "165238392826fd90de",
+    "16523839440f52af5e",
+    "166059640825d1fe5e",
+    "1660596429148f1ecf",
     "1652384267583aae78",
     "165238448800fa371e",
     "165238451517fd2aad",
+    "1660592361388842bf",
     "166057728946399c69",
-    "1660577319be1ca565"
+    "16605932889cfcf590",
+    "1660577319be1ca565",
+    "1660660216f28e0a49",
+    "16606602413a4ec59c",
+    "16606003513fb313b0"
   ]
 }

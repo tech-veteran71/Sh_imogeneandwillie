@@ -77,21 +77,33 @@
       "settings": {
       }
     },
+    "1660592165456a28ab": {
+      "type": "section-quote",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": true,
+        "desktop_hide": false,
+        "review": "\"i am happy to report that in the war between reality and romance, reality is not the stronger.\"",
+        "customer_name": "- john steinbeck",
+        "background_color": "transparent"
+      }
+    },
     "16584190828ea23e02": {
       "type": "section-product-moodboard",
       "settings": {
         "main_title": "the moodboard"
       }
     },
-    "1660245402ca94fbbe": {
-      "type": "section-quote",
+    "1660591459ac11aa55": {
+      "type": "section-editorial-text-block",
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
-        "desktop_hide": false,
-        "review": "\"i am happy to report that in the war between reality and romance, reality is not the stronger.\"",
-        "customer_name": "-  john steinbeck",
-        "background_color": "rgba(0,0,0,0)"
+        "desktop_hide": true,
+        "pretitle": "",
+        "main_title": "",
+        "main_text": "\"i am happy to report that in the war between reality and romance, reality is not the stronger.\"<br><br>-john steinbeck",
+        "text": ""
       }
     },
     "16602516536082588d": {
@@ -122,6 +134,19 @@
         "mob_title": "fethiye collection",
         "link_text": "shop all >",
         "link_url": ""
+      }
+    },
+    "1660591414499082e8": {
+      "type": "section-rich-text",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "bg_color": "#F0EFEC",
+        "text": "",
+        "link_text": "Shop collection",
+        "link_url": "",
+        "show_link": false
       }
     },
     "16602454840eb66030": {
@@ -163,10 +188,12 @@
   "order": [
     "main",
     "1650489885e385492b",
+    "1660592165456a28ab",
     "16584190828ea23e02",
-    "1660245402ca94fbbe",
+    "1660591459ac11aa55",
     "16602516536082588d",
     "1660149339df842604",
+    "1660591414499082e8",
     "16602454840eb66030",
     "product-recommendations",
     "1660251754cb4959ee"

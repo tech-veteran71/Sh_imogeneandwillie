@@ -80,11 +80,12 @@
     "16584190828ea23e02": {
       "type": "section-product-moodboard",
       "settings": {
-        "main_title": "dig into the moodboard"
+        "main_title": "the moodboard"
       }
     },
     "1652199612f01388e0": {
       "type": "product-video-story",
+      "disabled": true,
       "settings": {
         "title": "file under: process",
         "wrap_title": "patterned, cut, and sewn in the USA",
@@ -233,8 +234,8 @@
         "show_badges": false,
         "products_to_show": 4,
         "products_per_row": 4,
-        "title": "CURATED SELECTIONS",
-        "title_font": "headline__din",
+        "title": "curated selections",
+        "title_font": "headline__arno",
         "text": "",
         "btn_text": "",
         "btn_url": ""

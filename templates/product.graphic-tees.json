@@ -83,15 +83,29 @@
         "main_title": "the details"
       }
     },
-    "166025372826e27d78": {
-      "type": "section-quote",
+    "1660591156b084aca2": {
+      "type": "section-rich-text",
       "settings": {
-        "margin_bottom": "section-bottom__none",
-        "mobile_hide": false,
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": true,
         "desktop_hide": false,
-        "review": "<h6>as always, every tee we make is patterned, cut, sewn from 100% american-made fabric by our LA team  in the i+w workshop.<\/h6>",
-        "customer_name": "",
-        "background_color": "rgba(0,0,0,0)"
+        "bg_color": "rgba(0,0,0,0)",
+        "text": "as always, every tee we make is patterned, cut, sewn from 100% american-made fabric by our LA team  in the i+w workshop.",
+        "link_text": "",
+        "link_url": "",
+        "show_link": false
+      }
+    },
+    "16605909233928e926": {
+      "type": "section-editorial-text-block",
+      "settings": {
+        "margin_bottom": "section-bottom__medium",
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "pretitle": "",
+        "main_title": "",
+        "main_text": "as always, every tee we make is patterned, cut, sewn from 100% american-made fabric by our LA team  in the i+w workshop.",
+        "text": ""
       }
     },
     "1652199612f01388e0": {
@@ -159,7 +173,7 @@
         "show_badges": false,
         "products_to_show": 4,
         "products_per_row": 4,
-        "title": "CURATED SELECTIONS",
+        "title": "curated selections",
         "title_font": "headline__arno",
         "text": "",
         "btn_text": "",
@@ -171,7 +185,8 @@
     "main",
     "1650489885e385492b",
     "16584190828ea23e02",
-    "166025372826e27d78",
+    "1660591156b084aca2",
+    "16605909233928e926",
     "1652199612f01388e0",
     "165220110819e632f3",
     "16535980161ec26cd1",

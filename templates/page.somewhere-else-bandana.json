@@ -10,6 +10,7 @@
       "type": "section-image-video-hero",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
@@ -26,6 +27,7 @@
       "type": "section-video-hero",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/03e96f2adb364090a5ecc697f795aaf3.mp4",
@@ -36,6 +38,7 @@
     "1657140914eed4ca4c": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/somewhereelse_01.jpg",
@@ -47,6 +50,7 @@
     "16499691942d1a0881": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -63,6 +67,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/studiotee013_09.webp",
@@ -74,6 +79,7 @@
     "1659631772fb9a5734": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/somewhereelse_02.webp",
@@ -85,6 +91,7 @@
     "1659631614bc39e591": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -100,6 +107,7 @@
     "1659631837178df672": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/somewhereelse_05.webp",
@@ -111,6 +119,7 @@
     "16571405010e86593d": {
       "type": "section-quote",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "\"i'd rather wake up in the middle of nowhere than in any city on earth.\"",
@@ -121,6 +130,7 @@
     "1657140670a5f6a9d5": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/riderswest01.jpg",
@@ -132,6 +142,7 @@
     "1657140743c17f8f84": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -147,6 +158,7 @@
     "1657140562b846890d": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/341ce456-aefc-3f07-bbd6-71aedd49e052.jpg",
@@ -158,6 +170,7 @@
     "165962991539429102": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -173,6 +186,7 @@
     "16596414843abf6fee": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/vb-01.jpg",
@@ -185,6 +199,7 @@
       "type": "section-image-video-hero",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
@@ -201,6 +216,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -217,6 +233,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -233,6 +250,7 @@
       "type": "section-quote",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "“to do a dangerous thing with <br>style is what i call art.”",
@@ -244,6 +262,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
@@ -256,6 +275,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -272,6 +292,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
@@ -283,6 +304,7 @@
     "1659640918e847bc15": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -298,6 +320,7 @@
     "1659641702e0019e51": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/rw-02.jpg",
@@ -309,6 +332,7 @@
     "16499700408d317de1": {
       "type": "section-collection-grid",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "top-picks",
