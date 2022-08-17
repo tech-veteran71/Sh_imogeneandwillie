@@ -27,7 +27,7 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "bg_color": "#f7f6f3",
-        "text": "too often, jean styles are born out of a fashion trend or modern innovation. <br><br>our jeans were created as a reaction to what wasn’t happening.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "link_text": "",
         "link_url": "",
         "show_link": false
@@ -47,7 +47,7 @@
         "pre_title": "",
         "main_title": "wyatt",
         "title_font": "headline__arno",
-        "text": "wyatt has a moderately high waist, and is versatilely designed to be worn however you see fit.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "shop all",
         "btn_url": "shopify:\/\/collections\/wyatt-1",
         "change_alignment": false,
@@ -88,7 +88,7 @@
         "pre_title": "",
         "main_title": "catherine",
         "title_font": "headline__arno",
-        "text": "inspired by a beloved pair of 1950s five pocket jeans, catherine is our nod to the glory days of denim.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "shop all",
         "btn_url": "shopify:\/\/collections\/catherine-1",
         "change_alignment": true,
@@ -129,7 +129,7 @@
         "pre_title": "",
         "main_title": "sophie",
         "title_font": "headline__arno",
-        "text": "sophie is an evolution of our beloved high-rise fit, fitted through the hips and seat, and straight from the thigh all the way down to the leg opening.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "shop all",
         "btn_url": "shopify:\/\/collections\/sophie-1",
         "change_alignment": false,
@@ -170,7 +170,7 @@
         "pre_title": "",
         "main_title": "harper",
         "title_font": "headline__arno",
-        "text": "harper has a high rise, relaxed hip, and a tapered leg with a beautiful \"pitch\": high in the front rise, yet even higher in the back rise.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "shop all",
         "btn_url": "shopify:\/\/collections\/harper-1",
         "change_alignment": true,
@@ -191,7 +191,7 @@
         "show_price": false,
         "show_badges": false,
         "title": "",
-        "main_title": "new arrivals",
+        "main_title": "",
         "mob_title": "",
         "link_text": "",
         "link_url": ""
@@ -211,7 +211,7 @@
         "pre_title": "",
         "main_title": "james",
         "title_font": "headline__arno",
-        "text": "lower rise jean with a tapered leg.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "SHOP ALL",
         "btn_url": "shopify:\/\/collections\/james",
         "change_alignment": false,
@@ -252,7 +252,7 @@
         "pre_title": "",
         "main_title": "imogene",
         "title_font": "headline__arno",
-        "text": "a jean with an accommodating hip and larger, wide-set pockets to flatter a woman's curves.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "SHOP ALL",
         "btn_url": "shopify:\/\/collections\/imogene",
         "change_alignment": true,
@@ -279,47 +279,6 @@
         "link_url": ""
       }
     },
-    "1660254202daf9ac61": {
-      "type": "section-img-txt-btn",
-      "settings": {
-        "margin_bottom": "section-bottom__none",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/berkely03_4d1bedf3-ad0d-4e37-b40b-b3174a88cd74.webp",
-        "mob_img": "shopify:\/\/shop_images\/berkely01_6d2c662a-4461-49cb-843e-2de333534d19.webp",
-        "img_url": "",
-        "pre_title": "",
-        "main_title": "elizabeth",
-        "title_font": "headline__arno",
-        "text": "a high rise jean with a super slim leg.",
-        "btn_text": "SHOP ALL",
-        "btn_url": "shopify:\/\/collections\/elizabeth",
-        "change_alignment": false,
-        "show_btn": false,
-        "show_link": false
-      }
-    },
-    "16603147484bb7934b": {
-      "type": "section-product-collection-slider",
-      "settings": {
-        "margin_bottom": "section-bottom__none",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "background_color": "#f7f6f3",
-        "choose_collection": "elizabeth",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": false,
-        "show_badges": false,
-        "title": "",
-        "main_title": "",
-        "mob_title": "",
-        "link_text": "",
-        "link_url": ""
-      }
-    },
     "16602541520bc4a009": {
       "type": "section-img-txt-btn",
       "settings": {
@@ -334,7 +293,7 @@
         "pre_title": "",
         "main_title": "kate",
         "title_font": "headline__arno",
-        "text": "kate is a versatile high-waisted denim trouser with a wide leg.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "SHOP ALL",
         "btn_url": "shopify:\/\/collections\/kate-1",
         "change_alignment": true,
@@ -361,6 +320,47 @@
         "link_url": "shopify:\/\/collections\/kate-1"
       }
     },
+    "1660254202daf9ac61": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/berkely03_4d1bedf3-ad0d-4e37-b40b-b3174a88cd74.webp",
+        "mob_img": "shopify:\/\/shop_images\/berkely01_6d2c662a-4461-49cb-843e-2de333534d19.webp",
+        "img_url": "",
+        "pre_title": "",
+        "main_title": "elizabeth",
+        "title_font": "headline__arno",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
+        "btn_text": "SHOP ALL",
+        "btn_url": "shopify:\/\/collections\/elizabeth",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "16603147484bb7934b": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "elizabeth",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "",
+        "main_title": "",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
     "1660253242d90e50ae": {
       "type": "section-img-txt-btn",
       "settings": {
@@ -375,7 +375,7 @@
         "pre_title": "",
         "main_title": "isabelle",
         "title_font": "headline__arno",
-        "text": "high rise jean with a slightly relaxed top block and a flattering straight leg.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "SHOP NOW",
         "btn_url": "shopify:\/\/products\/isabelle-paseo",
         "change_alignment": false,
@@ -397,7 +397,7 @@
         "pre_title": "",
         "main_title": "lottie",
         "title_font": "headline__arno",
-        "text": "a slouchy high-rise jean with a tapered leg.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "SHOP NOW",
         "btn_url": "shopify:\/\/products\/lottie-ashland",
         "change_alignment": true,
@@ -419,7 +419,7 @@
         "pre_title": "",
         "main_title": "elsie",
         "title_font": "headline__arno",
-        "text": "a moderately high-waisted jean with a slouchy feel.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "SHOP NOW",
         "btn_url": "shopify:\/\/products\/elsie-evelyn",
         "change_alignment": false,
@@ -427,32 +427,11 @@
         "show_link": false
       }
     },
-    "16603216526b75cc0a": {
-      "type": "section-collection-grid",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__medium",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "choose_collection": "women-denim",
-        "show_title": true,
-        "show_subtitle": false,
-        "show_price": true,
-        "show_badges": false,
-        "products_to_show": 6,
-        "products_per_row": 2,
-        "title": "shop all women's denim",
-        "title_font": "headline__din",
-        "text": "",
-        "btn_text": "Shop All",
-        "btn_url": "shopify:\/\/collections\/women-denim"
-      }
-    },
     "166068206997ab25c7": {
       "type": "section-txt-link-btn",
       "settings": {
         "margin_bottom": "section-bottom__none",
-        "mobile_hide": false,
+        "mobile_hide": true,
         "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
@@ -483,7 +462,7 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "bg_color": "#f7f6f3",
-        "text": "the inspiration for our fabrics may be rooted in the past, but we always chase what is not happening.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "link_text": "SHOP BY FABRIC",
         "link_url": "https:\/\/imogeneandwillie.com\/pages\/womens-fabric-guide",
         "show_link": false
@@ -505,14 +484,13 @@
     "1660314478cf84bd12",
     "16602538326007377e",
     "1660314596183adbf9",
-    "1660254202daf9ac61",
-    "16603147484bb7934b",
     "16602541520bc4a009",
     "16603211585f4e6175",
+    "1660254202daf9ac61",
+    "16603147484bb7934b",
     "1660253242d90e50ae",
     "1660254015310263aa",
     "1660254234428bbe53",
-    "16603216526b75cc0a",
     "166068206997ab25c7",
     "1660665964f07ca8ed",
     "1660666457cda56b7a"

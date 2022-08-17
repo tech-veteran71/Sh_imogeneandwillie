@@ -9,8 +9,8 @@
     "1649862524008263dc": {
       "type": "section-hero-banner",
       "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": true,
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/11_e7cb7500-f362-43ce-a5cf-2b0eb6400414.jpg",
@@ -36,10 +36,37 @@
         "pretitle": "",
         "title": "DENIM CARE <br><br>",
         "title_font": "headline__din",
-        "text": "contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it.  <br> <br> <h5>( when to wash )<\/h5> <p>there's no right or wrong answer. denim ages differently depending on how often you wear and wash. we've seen great jeans that are washed quite frequently. we've seen beautiful jeans that have never seen a wash.<\/p>  <p>at the end of the day, we recommend what works best for you. in general, wear often, wash not so often.<\/p> <br> <br> <h5>( an extra reason to wash )<\/h5> <p>excess sweat and grime can build up and weaken fabric in the crotch area or along the cuffs. we recommend regular (though infrequent) washes to help prevent damage to your jeans.<\/p> <br> <br> <h5>( how to wash )<\/h5> <p>we have a few answers. the truth is, everyone washes their jeans a bit differently depending on what works for their life. here are a few of our favorite methods:<\/p> <br> <br> <ul>\n<li>\n<a href=\"#whentowash\">( the machine wash )<\/a> <\/li>\n<br><br><li><a href=\"#whattouse\">( the tub soak )<\/a><\/li>\n<br><br><li>\n<a href=\"#thingstoremember\">( the no-wash ) <\/a> <\/li>\n<\/ul>",
+        "text": "<p>contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it.<\/p> <br> <br>  <h4>( when to wash )<\/h4>  <p>there's no right or wrong answer. denim ages differently depending on how often you wear and wash. we've seen great jeans that are washed quite frequently. we've seen beautiful jeans that have never seen a wash.<\/p>    <p>at the end of the day, we recommend what works best for you. in general, wear often, wash not so often.<\/p>  <br> <br>  <h4>( an extra reason to wash )<\/h4>  <p>excess sweat and grime can build up and weaken fabric in the crotch area or along the cuffs. we recommend regular (though infrequent) washes to help prevent damage to your jeans.<\/p>  <br> <br>   <h4>( how to wash )<\/h4>   <p>we have a few answers. the truth is, everyone washes their jeans a bit differently depending on what works for their life. here are a few of our favorite methods:<\/p>   <br> <br>   <ul><h5><a href=\"#whentowash\">1) the machine wash<\/a><\/h5><\/ul> <ul><h5><a href=\"#whattouse\">2) the tub soak<\/a><\/h5><\/ul> <ul><h5><a href=\"#thingstoremember\">3) the no-wash<\/a><\/h5><\/ul>",
         "btn_text": "",
         "btn_url": "shopify:\/\/pages\/a-day-in-the-life",
         "show_button": true
+      }
+    },
+    "166075269137d434f4": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/method-3_b1e7071c-68d4-42ca-8564-3f476838d612.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
+    "16607527642a5f38ec": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "<h4>( general maintenance + care )<\/h4> <p>a few tips for general care and maintenance for the time between washes.<\/p> <h6>spot cleaning<\/h6> <p>let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - friction will lift off the indigo, leaving you with a bright, whiter spot you want to avoid.<\/p>  <h6>odor<\/h6> <p>you can always let them air outside on a nice day or use a mild odor-fighting fabric spray when needed.<\/p>  <h6>shrinkage<\/h6> <p>washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat.<\/p>  <h6>indigo dye transfer<\/h6> <p>you may notice some indigo pull out of the jeans during the wash. it's natural, and normal. we recommend washing your jeans alone or with other denim.<\/p>",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
       }
     },
     "164986725161283e43": {
@@ -84,6 +111,7 @@
     },
     "16553190223981909a": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -105,6 +133,7 @@
     },
     "1655319026cff31c96": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -126,6 +155,7 @@
     },
     "1655319090c0176c4a": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -147,6 +177,7 @@
     },
     "1649864198b61b9050": {
       "type": "section-txt-link-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -163,6 +194,7 @@
     },
     "1649861521d26dd035": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -185,6 +217,7 @@
     },
     "1649861415f6eaedf5": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -207,6 +240,7 @@
     },
     "1649861691a360ac14": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -246,6 +280,7 @@
     },
     "1649864652246cc779": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -268,6 +303,7 @@
     },
     "1649867094b3f174cc": {
       "type": "section-img-txt-btn",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
@@ -348,6 +384,8 @@
     "main",
     "1649862524008263dc",
     "1659646230f21b5e16",
+    "166075269137d434f4",
+    "16607527642a5f38ec",
     "164986725161283e43",
     "164986274521568d47",
     "16553190223981909a",

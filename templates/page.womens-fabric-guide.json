@@ -27,7 +27,7 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "bg_color": "#f7f6f3",
-        "text": "our hands (and most everything we own) are stained blue. we don't really know any different. but it's ok, we prefer it that way. <br><br>the inspiration for our fabrics may be rooted in the past, but we always chase what is <i>not<\/i> happening.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "link_text": "",
         "link_url": "",
         "show_link": false
@@ -47,7 +47,7 @@
         "pre_title": "",
         "main_title": "washed denim",
         "title_font": "headline__arno",
-        "text": "for those who find themselves returning to the same pair of threadbare and well-loved jeans, let us do the work for you this time. explore our washed denim fabrics.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "shop now",
         "btn_url": "shopify:\/\/collections\/womens-washed-fabric",
         "change_alignment": true,
@@ -88,7 +88,7 @@
         "pre_title": "",
         "main_title": "black denim",
         "title_font": "headline__arno",
-        "text": "from rich blue-blacks to sunfaded grays, black jeans have always been an essential for us. complete your uniform with our black fabrics",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "shop now",
         "btn_url": "shopify:\/\/collections\/womens-black-fabric",
         "change_alignment": false,
@@ -129,7 +129,7 @@
         "pre_title": "",
         "main_title": "white\/natural denim",
         "title_font": "headline__arno",
-        "text": "from surfside to mountaintop, a pair of light pants can never go out of style. shop our white and natural fabrics.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "shop now",
         "btn_url": "shopify:\/\/collections\/womens-natural-white-fabric",
         "change_alignment": true,
@@ -170,7 +170,7 @@
         "pre_title": "",
         "main_title": "rigid",
         "title_font": "headline__arno",
-        "text": "you can learn a lot about a person from where their jeans wear and fade. as a nod to the glory days of denim, write your own story with our rigid fabrics.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "shop now",
         "btn_url": "shopify:\/\/collections\/womens-rigid-fabric",
         "change_alignment": false,
@@ -200,22 +200,6 @@
         "show_link": false
       }
     },
-    "1660668220f8a170e4": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "margin_bottom": "section-bottom__none",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "center",
-        "pretitle": "",
-        "title": "",
-        "title_font": "headline__arno",
-        "text": "",
-        "btn_text": "shop all women's denim",
-        "btn_url": "shopify:\/\/collections\/women-denim",
-        "show_button": true
-      }
-    },
     "1660577319be1ca565": {
       "type": "section-symmetric-content",
       "blocks": {
@@ -225,7 +209,7 @@
             "img": "shopify:\/\/shop_images\/wyatt_01.jpg",
             "title": "100% cotton",
             "title_font": "headline__din",
-            "text": "a nod to the glory days of denim. whether rigid or washed the hell down is more your taste, explore our 100% cotton fabric options.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
             "link_text": "SHOP ALL",
             "link_url": "shopify:\/\/collections\/womens-100-cotton-fabric",
             "use_btn": true
@@ -237,7 +221,7 @@
             "img": "shopify:\/\/shop_images\/sophie-taylor-01.jpg",
             "title": "stretch",
             "title_font": "headline__din",
-            "text": "explore our premium stretch denim options. for the days that comfort reigns supreme (without letting go of style).",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
             "link_text": "Shop all",
             "link_url": "shopify:\/\/collections\/womens-stretch-fabric",
             "use_btn": true
@@ -290,7 +274,7 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "bg_color": "#f7f6f3",
-        "text": "too often, jean styles are born out of a fashion trend or modern innovation.  our jeans were created as a reaction to what wasn’t happening.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "link_text": "FIND YOUR FIT",
         "link_url": "shopify:\/\/pages\/womens-fit-guide",
         "show_link": false
@@ -327,7 +311,6 @@
     "1660592361388842bf",
     "165238392826fd90de",
     "166057728946399c69",
-    "1660668220f8a170e4",
     "1660577319be1ca565",
     "166068214975705252",
     "1660660216f28e0a49",
