@@ -23,7 +23,7 @@
     "1660659234424430fd": {
       "type": "section-rich-text",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "bg_color": "#f7f6f3",
@@ -36,7 +36,7 @@
     "1652384122d9f7ad26": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -58,7 +58,7 @@
     "1652384239086de985": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -77,7 +77,7 @@
     "1652384267583aae78": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -99,7 +99,7 @@
     "165238448800fa371e": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -118,7 +118,7 @@
     "165238451517fd2aad": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -140,7 +140,7 @@
     "1660592361388842bf": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -159,7 +159,7 @@
     "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -181,7 +181,7 @@
     "166057728946399c69": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -203,7 +203,7 @@
     "1660668220f8a170e4": {
       "type": "section-txt-link-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -249,10 +249,26 @@
         "062127b9-4bd1-414c-b087-f7f05788964c"
       ],
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "main_title": ""
+      }
+    },
+    "166068214975705252": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "SHOP ALL WOMEN'S DENIM",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/women-denim",
+        "show_button": true
       }
     },
     "1660660216f28e0a49": {
@@ -263,7 +279,7 @@
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/OYW_07_72c95add-8893-436f-b6c5-1fb64aeaf54c.jpg",
         "mob_img": "shopify:\/\/shop_images\/fitguide.jpg",
-        "img_url": "",
+        "img_url": "shopify:\/\/pages\/womens-fit-guide",
         "img_width": "full"
       }
     },
@@ -275,7 +291,7 @@
         "desktop_hide": false,
         "bg_color": "#f7f6f3",
         "text": "too often, jean styles are born out of a fashion trend or modern innovation.  our jeans were created as a reaction to what wasn’t happening.",
-        "link_text": "SHOP BY FIT",
+        "link_text": "FIND YOUR FIT",
         "link_url": "shopify:\/\/pages\/womens-fit-guide",
         "show_link": false
       }
@@ -313,6 +329,7 @@
     "166057728946399c69",
     "1660668220f8a170e4",
     "1660577319be1ca565",
+    "166068214975705252",
     "1660660216f28e0a49",
     "16606602413a4ec59c",
     "16606003513fb313b0"

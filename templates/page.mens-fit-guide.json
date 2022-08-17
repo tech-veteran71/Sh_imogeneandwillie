@@ -3,7 +3,7 @@
     "main": {
       "type": "section-hero-banner",
       "settings": {
-        "margin_bottom": "section-bottom__none",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
@@ -140,7 +140,7 @@
     "165238448800fa371e": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -181,7 +181,7 @@
     "1658866129d79fc526": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -289,6 +289,7 @@
     },
     "165895065462683bab": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
@@ -321,10 +322,26 @@
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
-        "mob_img": "shopify:\/\/shop_images\/charlie-keystone_03.jpg",
+        "desk_img": "shopify:\/\/shop_images\/OYW_07_abe5c548-5bed-442a-90c7-eac06416b9a2.jpg",
+        "mob_img": "shopify:\/\/shop_images\/OYW_0_fabricguide.jpg",
         "img_url": "",
-        "img_width": "large"
+        "img_width": "full"
+      }
+    },
+    "1660682653d5e48cad": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "the inspiration for our fabrics may be rooted in the past, but we always chase what is not happening.",
+        "btn_text": "SHOP BY FABRIC",
+        "btn_url": "https:\/\/imogeneandwillie.com\/pages\/mens-fabric-guide",
+        "show_button": true
       }
     }
   },
@@ -342,6 +359,7 @@
     "16600573529786576e",
     "165895065462683bab",
     "1660058858bff665ce",
-    "165895022280355359"
+    "165895022280355359",
+    "1660682653d5e48cad"
   ]
 }

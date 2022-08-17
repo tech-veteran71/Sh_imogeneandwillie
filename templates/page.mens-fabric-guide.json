@@ -3,7 +3,7 @@
     "main": {
       "type": "section-hero-banner",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
@@ -20,36 +20,49 @@
         "show_down_arrow": true
       }
     },
-    "165238392826fd90de": {
-      "type": "section-img-txt-btn",
+    "166067892922fdf759": {
+      "type": "section-rich-text",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/bartonslim-draper03_1200x_59305c25-dc28-45e1-8c0e-fb3489fbdeb1.webp",
-        "mob_img": "shopify:\/\/shop_images\/bartonslimpureindigo_10_1200x_da6b4df7-57d7-49e0-b39f-bd630d9c8421.webp",
-        "img_url": "",
+        "bg_color": "#f7f6f3",
+        "text": "our hands (and most everything we own) are stained blue. we don't really know any different. but it's ok, we prefer it that way.<br><br> the inspiration for our fabrics may be rooted in the past, but we always chase what is not happening.",
+        "link_text": "",
+        "link_url": "",
+        "show_link": false
+      }
+    },
+    "1652384122d9f7ad26": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/henrypureindigo_09.jpg",
+        "mob_img": "shopify:\/\/shop_images\/henrypureindigo_09.jpg",
+        "img_url": "shopify:\/\/collections\/mens-rigid-fabrics",
         "pre_title": "",
-        "main_title": "washed",
+        "main_title": "rigid denim",
         "title_font": "headline__arno",
-        "text": "barton slim sits right on the hips. it's slim through the thigh and knee, size 31 has a 15\" leg opening.",
+        "text": "you can learn a lot about a person from where their jeans wear and fade. as a nod to the glory days of denim, write your own story with our rigid fabrics.",
         "btn_text": "shop all",
-        "btn_url": "",
-        "change_alignment": false,
+        "btn_url": "shopify:\/\/collections\/mens-rigid-fabrics",
+        "change_alignment": true,
         "show_btn": false,
         "show_link": false
       }
     },
-    "16523839440f52af5e": {
+    "1652384239086de985": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
-        "choose_collection": "barton-slim",
+        "choose_collection": "mens-rigid-fabrics",
         "show_title": true,
         "show_subtitle": true,
         "show_price": false,
@@ -61,36 +74,36 @@
         "link_url": ""
       }
     },
-    "1652384122d9f7ad26": {
+    "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "",
-        "mob_bg_color": "",
-        "desk_img": "shopify:\/\/shop_images\/charlie-rigid-jp03_1200x_c9b77fb0-94b1-4e65-aea0-d4b64cdd0bf7.webp",
-        "mob_img": "shopify:\/\/shop_images\/charlie-rigid-jp08-2_1200x_2c570353-0527-48b9-8d49-8071b1da8569.webp",
-        "img_url": "",
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/bartonslim-draper07.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bartonslim-draper07.jpg",
+        "img_url": "shopify:\/\/collections\/washed-mens-fabric",
         "pre_title": "",
-        "main_title": "rigid",
+        "main_title": "washed denim",
         "title_font": "headline__arno",
-        "text": "charlie sits low on hips, is slim through the thigh and knee, and has a 14\" leg opening. the result is a versatile, polished modern fit.",
+        "text": "for those who find themselves returning to the same pair of threadbare and well-loved jeans, let us do the work for you this time. explore our washed denim fabrics.",
         "btn_text": "shop all",
-        "btn_url": "shopify:\/\/collections\/charlie",
-        "change_alignment": true,
+        "btn_url": "shopify:\/\/collections\/washed-mens-fabric",
+        "change_alignment": false,
         "show_btn": false,
         "show_link": false
       }
     },
-    "1652384239086de985": {
+    "16523839440f52af5e": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
-        "choose_collection": "charlie",
+        "choose_collection": "washed-mens-fabric",
         "show_title": true,
         "show_subtitle": true,
         "show_price": false,
@@ -105,21 +118,21 @@
     "1652384267583aae78": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
         "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/henryjp-11_1200x_4e99c74d-627c-4044-b175-03caa0eae4cc.webp",
-        "mob_img": "shopify:\/\/shop_images\/run-henry-09_1200x_adf3e8a8-a884-4e3f-8d16-712e9ba012b1.webp",
-        "img_url": "",
+        "desk_img": "shopify:\/\/shop_images\/hb-02web_1.webp",
+        "mob_img": "shopify:\/\/shop_images\/hb-02web_1.webp",
+        "img_url": "shopify:\/\/collections\/mens-black-fabrics",
         "pre_title": "",
-        "main_title": "black",
+        "main_title": "black denim",
         "title_font": "headline__arno",
-        "text": "henry sits right on the hips. it's relaxed through the thigh and knee. size 31 has a 16 1\/2\" leg opening.",
+        "text": "from rich blue-blacks to sunfaded grays, black jeans have always been an essential for us. complete your uniform with our black fabrics",
         "btn_text": "shop all",
-        "btn_url": "shopify:\/\/collections\/henry",
-        "change_alignment": false,
+        "btn_url": "shopify:\/\/collections\/mens-black-fabrics",
+        "change_alignment": true,
         "show_btn": false,
         "show_link": false
       }
@@ -127,11 +140,52 @@
     "165238448800fa371e": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
-        "choose_collection": "henry",
+        "choose_collection": "mens-black-fabrics",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "title": "",
+        "main_title": "",
+        "mob_title": "",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections\/mens-black-fabrics"
+      }
+    },
+    "165238451517fd2aad": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "#f7f6f3",
+        "mob_bg_color": "#f7f6f3",
+        "desk_img": "shopify:\/\/shop_images\/bartonslimojai_02.jpg",
+        "mob_img": "shopify:\/\/shop_images\/bartonslimojai_02.jpg",
+        "img_url": "shopify:\/\/collections\/mens-natural-white-fabric",
+        "pre_title": "",
+        "main_title": "natural\/white denim",
+        "title_font": "headline__arno",
+        "text": "from surfside to mountaintop, a pair of light pants can never go out of style. shop our white and natural fabrics.",
+        "btn_text": "shop all",
+        "btn_url": "shopify:\/\/collections\/mens-natural-white-fabric",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "1660678546371aba0d": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "mens-natural-white-fabric",
         "show_title": true,
         "show_subtitle": true,
         "show_price": false,
@@ -143,26 +197,20 @@
         "link_url": ""
       }
     },
-    "165238451517fd2aad": {
-      "type": "section-img-txt-btn",
+    "166068096453b94c8d": {
+      "type": "section-txt-link-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_bg_color": "#f7f6f3",
-        "mob_bg_color": "#f7f6f3",
-        "desk_img": "shopify:\/\/shop_images\/CZ1A4050.jpg",
-        "mob_img": "shopify:\/\/shop_images\/williejp-07_1200x_962a41d7-397f-407d-bcac-3297e9686487.webp",
-        "img_url": "",
-        "pre_title": "",
-        "main_title": "natural\/white",
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
         "title_font": "headline__arno",
-        "text": "our very first men’s fit, named for carrie’s grandfather.  most jean styles out there are born from trends or modern innovations. inspired by matt’s personal archive of vintage jeans, the willie can be summed up in one word: timeless.",
-        "btn_text": "shop all",
-        "btn_url": "",
-        "change_alignment": true,
-        "show_btn": false,
-        "show_link": false
+        "text": "",
+        "btn_text": "SHOP ALL MEN'S DENIM",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/men-denim",
+        "show_button": true
       }
     },
     "1660667664ae2e06f6": {
@@ -173,7 +221,7 @@
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/OYW_07_72c95add-8893-436f-b6c5-1fb64aeaf54c.jpg",
         "mob_img": "shopify:\/\/shop_images\/fitguide.jpg",
-        "img_url": "",
+        "img_url": "https:\/\/imogeneandwillie.com\/pages\/mens-fit-guide",
         "img_width": "full"
       }
     },
@@ -184,22 +232,25 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "bg_color": "#f7f6f3",
-        "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "text": "too often, jean styles are born out of a fashion trend or modern innovation.  our jeans were created as a reaction to what wasn’t happening.",
         "link_text": "FIND YOUR FIT",
-        "link_url": "",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/mens-fit-guide",
         "show_link": false
       }
     }
   },
   "order": [
     "main",
-    "165238392826fd90de",
-    "16523839440f52af5e",
+    "166067892922fdf759",
     "1652384122d9f7ad26",
     "1652384239086de985",
+    "165238392826fd90de",
+    "16523839440f52af5e",
     "1652384267583aae78",
     "165238448800fa371e",
     "165238451517fd2aad",
+    "1660678546371aba0d",
+    "166068096453b94c8d",
     "1660667664ae2e06f6",
     "166066766865ab23d9"
   ]

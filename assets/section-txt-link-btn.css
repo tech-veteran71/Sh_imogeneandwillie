@@ -4,11 +4,8 @@
   margin-top: 4rem;
 }
 .rich-text-section .title {
-  font-size: 1.8rem;
   margin-top: 0;
-  line-height: 2.4rem;
   margin-bottom: 1.4rem;
-  letter-spacing: 0.3rem;
   color: var(--color-normal-black);
 }
 .rich-text-section .text-wrap {
@@ -74,9 +71,6 @@
   .rich-text-section .text-wrap {
     padding: 0;
     margin: 0 auto;
-  }
-  .rich-text-section .title {
-    font-size: 1.5rem
   }
   .rich-text-section .wrapper {
     max-width: unset;

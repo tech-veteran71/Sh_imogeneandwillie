@@ -13,8 +13,8 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
-        "desk_img": "shopify:\/\/shop_images\/MGL9471.jpg",
-        "mob_img": "shopify:\/\/shop_images\/fethiyemesastripe_w_07_bba3e586-a936-4045-8d11-ed069d5f7483.jpg",
+        "desk_img": "shopify:\/\/shop_images\/fethiyecollage_078d5378-de58-45a5-b10a-b4b9b161825e.jpg",
+        "mob_img": "shopify:\/\/shop_images\/fethiye_mesastripe.jpg",
         "img_url": "",
         "main_title": "",
         "title_font": "headline__arno",
@@ -49,8 +49,8 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "coastal-stripe",
-        "show_title": false,
-        "show_subtitle": false,
+        "show_title": true,
+        "show_subtitle": true,
         "show_price": true,
         "show_badges": false,
         "products_to_show": 2,
@@ -153,12 +153,12 @@
     "16602267131d5492d3": {
       "type": "section-collection-grid",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "fethiye-rich-collection",
-        "show_title": false,
-        "show_subtitle": false,
+        "show_title": true,
+        "show_subtitle": true,
         "show_price": true,
         "show_badges": false,
         "products_to_show": 6,
@@ -168,6 +168,22 @@
         "text": "",
         "btn_text": "",
         "btn_url": ""
+      }
+    },
+    "1660685050819eaed0": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "SHOP ALL FETHIYE",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/fethiye",
+        "show_button": true
       }
     },
     "1660243802d2cbcb84": {
@@ -226,6 +242,7 @@
           "settings": {
             "img_desk": "shopify:\/\/shop_images\/racerback-white_04_1200x_416935bc-93f7-4610-8588-d50bfaf1302b.webp",
             "img_mob": "shopify:\/\/shop_images\/racerback-white_04_1200x_416935bc-93f7-4610-8588-d50bfaf1302b.webp",
+            "text_color": "#fff",
             "pre_title": "",
             "title": "TANKS",
             "btn_text": "Shop All",
@@ -238,6 +255,7 @@
           "settings": {
             "img_desk": "shopify:\/\/shop_images\/3-4sleeve_white_04_1200x_37157c2c-33b1-4649-863b-d2b0bbadfeb0.webp",
             "img_mob": "shopify:\/\/shop_images\/3-4sleeve_white_04_1200x_37157c2c-33b1-4649-863b-d2b0bbadfeb0.webp",
+            "text_color": "#fff",
             "pre_title": "",
             "title": "TEES",
             "btn_text": "Shop All",
@@ -426,6 +444,45 @@
         "show_button": false
       }
     },
+    "166068457332a89cc7": {
+      "type": "section-symmetric-content",
+      "blocks": {
+        "615b2d9c-19c9-4fb0-91f9-c633c597d614": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/cel-_09_1.webp",
+            "title": "the celeste in natural chambray",
+            "title_font": "headline__din",
+            "text": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/products\/the-celeste-top-in-natural-chambray",
+            "use_btn": true
+          }
+        },
+        "a150a830-cf31-41be-a58b-36aa8bf1fdc0": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/shore-white_02.jpg",
+            "title": "the shoreline shirt in white",
+            "title_font": "headline__din",
+            "text": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/products\/the-shoreline-shirt-in-white",
+            "use_btn": true
+          }
+        }
+      },
+      "block_order": [
+        "615b2d9c-19c9-4fb0-91f9-c633c597d614",
+        "a150a830-cf31-41be-a58b-36aa8bf1fdc0"
+      ],
+      "settings": {
+        "margin_bottom": "section-bottom__medium",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "main_title": ""
+      }
+    },
     "166022734635e4af4e": {
       "type": "section-image",
       "settings": {
@@ -451,6 +508,7 @@
     "1655216292204f2103",
     "16524624159b78050c",
     "16602267131d5492d3",
+    "1660685050819eaed0",
     "1660243802d2cbcb84",
     "165521908178e5cb18",
     "1655218881b7a9db70",
@@ -461,6 +519,7 @@
     "1652456916538c32da",
     "1652711580eb65d6ec",
     "16602287787b5d92b9",
+    "166068457332a89cc7",
     "166022734635e4af4e"
   ]
 }

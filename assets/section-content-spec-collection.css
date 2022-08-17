@@ -104,9 +104,11 @@
 }
 .content-specific-collection .swiper-button-next,
 .content-specific-collection .swiper-button-prev {
-  width: 20px;
-  height: 20px;
+  width: 4rem;
+  height: 4rem;
   display: flex;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 50%;
 }
 .content-specific-collection .swiper-button-next:after,
 .content-specific-collection .swiper-button-prev:after {

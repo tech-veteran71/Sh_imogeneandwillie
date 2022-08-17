@@ -29,14 +29,14 @@
     "1659646230f21b5e16": {
       "type": "section-txt-link-btn",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
         "pretitle": "",
         "title": "DENIM CARE <br><br>",
         "title_font": "headline__din",
-        "text": "contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it. <br><br><ul>\n<li>\n<a href=\"#whentowash\">( when to wash )<\/a> <\/li>\n<br><br><li><a href=\"#whattouse\">( what to use )<\/a><\/li>\n<br><br><li>\n<a href=\"#thingstoremember\">( things to remember ) <\/a> <\/li>\n<br><br><li><a href=\"#howtowash\">( how to wash ) <\/a><\/li>\n<br><br><li><a href=\"#denimrepair\">( denim repair )<\/a><\/li>\n<\/ul>",
+        "text": "contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it.  <br> <br> <h5>( when to wash )<\/h5> <p>there's no right or wrong answer. denim ages differently depending on how often you wear and wash. we've seen great jeans that are washed quite frequently. we've seen beautiful jeans that have never seen a wash.<\/p>  <p>at the end of the day, we recommend what works best for you. in general, wear often, wash not so often.<\/p> <br> <br> <h5>( an extra reason to wash )<\/h5> <p>excess sweat and grime can build up and weaken fabric in the crotch area or along the cuffs. we recommend regular (though infrequent) washes to help prevent damage to your jeans.<\/p> <br> <br> <h5>( how to wash )<\/h5> <p>we have a few answers. the truth is, everyone washes their jeans a bit differently depending on what works for their life. here are a few of our favorite methods:<\/p> <br> <br> <ul>\n<li>\n<a href=\"#whentowash\">( the machine wash )<\/a> <\/li>\n<br><br><li><a href=\"#whattouse\">( the tub soak )<\/a><\/li>\n<br><br><li>\n<a href=\"#thingstoremember\">( the no-wash ) <\/a> <\/li>\n<\/ul>",
         "btn_text": "",
         "btn_url": "shopify:\/\/pages\/a-day-in-the-life",
         "show_button": true

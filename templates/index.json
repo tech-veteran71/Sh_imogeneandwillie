@@ -343,7 +343,7 @@
     "1637735864c2bd7e13": {
       "type": "section-brand-promise",
       "settings": {
-        "margin_bottom": "section-bottom__none",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,

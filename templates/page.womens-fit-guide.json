@@ -23,10 +23,10 @@
     "1660061219302c70c3": {
       "type": "section-rich-text",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "#f6f5f1",
+        "bg_color": "#f7f6f3",
         "text": "too often, jean styles are born out of a fashion trend or modern innovation. <br><br>our jeans were created as a reaction to what wasn’t happening.",
         "link_text": "",
         "link_url": "",
@@ -36,7 +36,7 @@
     "165238392826fd90de": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -58,7 +58,7 @@
     "16523839440f52af5e": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -77,7 +77,7 @@
     "1652384122d9f7ad26": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -99,7 +99,7 @@
     "1652384239086de985": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -118,7 +118,7 @@
     "1652384267583aae78": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -140,7 +140,7 @@
     "165238448800fa371e": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -159,7 +159,7 @@
     "165238451517fd2aad": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "#f7f6f3",
@@ -181,7 +181,7 @@
     "16597139502a7b0742": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -200,7 +200,7 @@
     "166025376017b7fe7c": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -222,7 +222,7 @@
     "1660314478cf84bd12": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -241,7 +241,7 @@
     "16602538326007377e": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -263,7 +263,7 @@
     "1660314596183adbf9": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -282,7 +282,7 @@
     "1660254202daf9ac61": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -304,7 +304,7 @@
     "16603147484bb7934b": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -323,7 +323,7 @@
     "16602541520bc4a009": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -345,7 +345,7 @@
     "16603211585f4e6175": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -364,7 +364,7 @@
     "1660253242d90e50ae": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -386,7 +386,7 @@
     "1660254015310263aa": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -408,7 +408,7 @@
     "1660254234428bbe53": {
       "type": "section-img-txt-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",
@@ -446,6 +446,22 @@
         "text": "",
         "btn_text": "Shop All",
         "btn_url": "shopify:\/\/collections\/women-denim"
+      }
+    },
+    "166068206997ab25c7": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "SHOP ALL WOMEN'S DENIM",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/women-denim",
+        "show_button": true
       }
     },
     "1660665964f07ca8ed": {
@@ -497,6 +513,7 @@
     "1660254015310263aa",
     "1660254234428bbe53",
     "16603216526b75cc0a",
+    "166068206997ab25c7",
     "1660665964f07ca8ed",
     "1660666457cda56b7a"
   ]
