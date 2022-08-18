@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "166083652225375e1b": {
+      "type": "section-hero-banner",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": true,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/june_-029-Edit_b4095f42-d8f5-4d2b-b7cf-34a2e383d6eb.jpg",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "font_color": "#222222",
+        "text": "",
+        "link_text": "coming fall 2022",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "166083675936e668be": {
+      "type": "section-rich-text",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "bg_color": "#F0EFEC",
+        "text": "<h5>coming fall 2022<\/h5>",
+        "link_text": "",
+        "link_url": "",
+        "show_link": false
+      }
+    },
+    "1660836586d7928a00": {
+      "type": "section-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": true,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0257f0e358ad4317bf5ddbc3c13acac5.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0257f0e358ad4317bf5ddbc3c13acac5.mp4",
+        "video_controls": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166083652225375e1b",
+    "166083675936e668be",
+    "1660836586d7928a00"
+  ]
+}

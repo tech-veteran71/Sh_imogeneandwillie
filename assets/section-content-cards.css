@@ -139,12 +139,12 @@
 .fact-section .swiper-button-next {
   right: 1rem;
   transform: translateY(-50%);
-  top: 45%;
+  top: 50%;
 }
 .fact-section .swiper-button-prev {
   left: 1rem;
   transform: translateY(-50%);
-  top: 45%;
+  top: 50%;
 }
 .fact-section .swiper-button-next,
 .fact-section .swiper-button-prev {
@@ -156,6 +156,6 @@
 }
 .fact-section .swiper-button-next:after,
 .fact-section .swiper-button-prev:after {
-  font-size: 20px;
+  font-size: 2rem;
   color: var(--color-dim-black);
 }

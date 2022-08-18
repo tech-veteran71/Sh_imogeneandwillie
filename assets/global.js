@@ -2947,6 +2947,10 @@ customElements.define("ajax-cart", AjaxCart);
     invert: false,
     forceToAxis: true,
   },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
     breakpoints: {
       1600: {
         spaceBetween: 40,

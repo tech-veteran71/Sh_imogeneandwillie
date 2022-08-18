@@ -296,7 +296,7 @@
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "SHOP ALL",
         "btn_url": "shopify:\/\/collections\/kate-1",
-        "change_alignment": true,
+        "change_alignment": false,
         "show_btn": false,
         "show_link": false
       }
@@ -337,7 +337,7 @@
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non arcu risus quis. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.",
         "btn_text": "SHOP ALL",
         "btn_url": "shopify:\/\/collections\/elizabeth",
-        "change_alignment": false,
+        "change_alignment": true,
         "show_btn": false,
         "show_link": false
       }
@@ -427,6 +427,31 @@
         "show_link": false
       }
     },
+    "166075802307dad489": {
+      "type": "section-diptych",
+      "blocks": {
+        "7da5cdff-ed85-4648-b03f-e39c418b8b34": {
+          "type": "collection_item",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/wyatt-landscape.jpg",
+            "text_color": "#ffffff",
+            "pre_title": "",
+            "title": "",
+            "btn_text": "Shop All WOMen's Denim",
+            "link_url": "shopify:\/\/collections\/women-denim",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "7da5cdff-ed85-4648-b03f-e39c418b8b34"
+      ],
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": true
+      }
+    },
     "166068206997ab25c7": {
       "type": "section-txt-link-btn",
       "settings": {
@@ -491,6 +516,7 @@
     "1660253242d90e50ae",
     "1660254015310263aa",
     "1660254234428bbe53",
+    "166075802307dad489",
     "166068206997ab25c7",
     "1660665964f07ca8ed",
     "1660666457cda56b7a"

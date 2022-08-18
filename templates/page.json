@@ -6,20 +6,33 @@
       "settings": {
       }
     },
-    "1655305899170bac8c": {
-      "type": "section-image",
+    "16608359528a39054f": {
+      "type": "section-hero-banner",
+      "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
-        "mob_img": "shopify:\/\/shop_images\/hero_d007737f-1022-4b42-8ca4-32378e290fa2.jpg",
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/june_-029-Edit_b4095f42-d8f5-4d2b-b7cf-34a2e383d6eb.jpg",
         "img_url": "",
-        "img_width": "full"
+        "main_title": "",
+        "title_font": "headline__din",
+        "font_color": "#222222",
+        "text": "",
+        "link_text": "coming fall 2022",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
       }
     },
     "16553060487ae324b1": {
       "type": "section-txt-link-btn",
+      "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
         "title": "supper + song",
@@ -32,8 +45,11 @@
     },
     "1655306607c92d999f": {
       "type": "section-hero-banner",
+      "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
+        "desktop_hide": false,
         "mobile_hide_text": false,
         "desk_img": "shopify:\/\/shop_images\/pastartists_1bb3c1f5-45fa-415a-b26c-c07d46af2a06.jpg",
         "mob_img": "shopify:\/\/shop_images\/pastartists_1bb3c1f5-45fa-415a-b26c-c07d46af2a06.jpg",
@@ -50,6 +66,7 @@
     },
     "165530920156ca65cd": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "d8032cec-64bd-49a6-9b82-ad79922f7c1f": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
@@ -67,6 +84,7 @@
     },
     "1655306962d6ddbcba": {
       "type": "section-image-gallery",
+      "disabled": true,
       "blocks": {
         "d0a94c3b-81df-47da-a022-01296ba4f576": {
           "type": "image",
@@ -170,22 +188,30 @@
         "43d96897-1b0d-434d-a6c4-e96c871f5c5d"
       ],
       "settings": {
-        "mobile_hide": false
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false
       }
     },
     "16553069466a68c840": {
       "type": "section-quote",
+      "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
+        "desktop_hide": false,
         "review": "“be groovy or leave, man.”",
         "customer_name": "- bob dylan",
-        "background_color": "transparent"
+        "background_color": "rgba(0,0,0,0)"
       }
     },
     "1655307793f07ba453": {
       "type": "section-flashcard-feature",
+      "disabled": true,
       "settings": {
-        "hide_mobile": false,
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
         "choose_collection": "support-live-music",
         "title": "the \"support live music\" tee",
         "title_font": "headline__din",
@@ -194,16 +220,47 @@
         "btn_url": "shopify:\/\/collections\/support-live-music",
         "show_link": false
       }
+    },
+    "16608359354e850a60": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "16608363731bab459b": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
     }
   },
   "order": [
     "main",
-    "1655305899170bac8c",
+    "16608359528a39054f",
     "16553060487ae324b1",
     "1655306607c92d999f",
     "165530920156ca65cd",
     "1655306962d6ddbcba",
     "16553069466a68c840",
-    "1655307793f07ba453"
+    "1655307793f07ba453",
+    "16608359354e850a60",
+    "16608363731bab459b"
   ]
 }

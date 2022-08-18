@@ -153,12 +153,12 @@
 .explore-section .swiper-button-next {
   right: 1rem;
   transform: translateY(-50%);
-  top: 45%;
+  top: 50%;
 }
 .explore-section .swiper-button-prev {
   left: 1rem;
   transform: translateY(-50%);
-  top: 45%;
+  top: 50%;
 }
 .explore-section .swiper-button-next,
 .explore-section .swiper-button-prev {
@@ -170,6 +170,6 @@
 }
 .explore-section .swiper-button-next:after,
 .explore-section .swiper-button-prev:after {
-  font-size: 20px;
+  font-size: 2rem;
   color: var(--color-dim-black);
 }
