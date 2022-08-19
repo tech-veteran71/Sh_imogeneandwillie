@@ -81,8 +81,8 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "pre_title": "(featured)",
-        "heading": "You may also like"
+        "pre_title": "",
+        "heading": "CURATED SELECTIONS"
       }
     },
     "1650489885e385492b": {

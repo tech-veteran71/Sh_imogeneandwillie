@@ -79,6 +79,7 @@
     },
     "16584190828ea23e02": {
       "type": "section-product-moodboard",
+      "disabled": true,
       "settings": {
         "main_title": "the moodboard"
       }

@@ -9,6 +9,7 @@
     "16499696593217121e": {
       "type": "section-image-video-hero",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": true,
         "img_height": false,
@@ -22,6 +23,7 @@
     "16499691942d1a0881": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -37,6 +39,7 @@
     "16505718302bbb6563": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
@@ -48,6 +51,7 @@
       "type": "section-video-hero",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "video_poster": "shopify:\/\/shop_images\/mobile-split_5d290203-7b7a-4faf-b9de-9cd3f8ecaa82.jpg",
@@ -60,6 +64,7 @@
       "type": "section-image-video-hero",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102.webp",
@@ -75,6 +80,7 @@
     "1649969933f60067f1": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -91,6 +97,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -106,6 +113,7 @@
     "16499700408d317de1": {
       "type": "section-collection-grid",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "the-ides",
@@ -125,6 +133,7 @@
     "165057188760384d76": {
       "type": "section-quote",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "“to do a dangerous thing with <br>style is what i call art.”",
@@ -135,6 +144,7 @@
     "1650572264552ae7c6": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
@@ -146,6 +156,7 @@
     "1650572297101d858e": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -161,6 +172,7 @@
     "1650572934afd406d6": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/ides3.jpg",

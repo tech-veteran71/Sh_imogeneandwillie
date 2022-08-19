@@ -226,6 +226,10 @@
       "settings": {
         "margin_bottom": "section-bottom__large",
         "choose_collection": "graphic-tees",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": false,
         "title": "GRAPHIC TEES",
         "title_font": "headline__din",
         "btn_text": "SHOP ALL",
@@ -242,7 +246,7 @@
           "settings": {
             "img_desk": "shopify:\/\/shop_images\/racerback-white_04_1200x_416935bc-93f7-4610-8588-d50bfaf1302b.webp",
             "img_mob": "shopify:\/\/shop_images\/racerback-white_04_1200x_416935bc-93f7-4610-8588-d50bfaf1302b.webp",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "pre_title": "",
             "title": "TANKS",
             "btn_text": "Shop All",
@@ -255,7 +259,7 @@
           "settings": {
             "img_desk": "shopify:\/\/shop_images\/3-4sleeve_white_04_1200x_37157c2c-33b1-4649-863b-d2b0bbadfeb0.webp",
             "img_mob": "shopify:\/\/shop_images\/3-4sleeve_white_04_1200x_37157c2c-33b1-4649-863b-d2b0bbadfeb0.webp",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "pre_title": "",
             "title": "TEES",
             "btn_text": "Shop All",
@@ -451,7 +455,7 @@
           "type": "fabric_info",
           "settings": {
             "img": "shopify:\/\/shop_images\/cel-_09_1.webp",
-            "title": "the celeste in natural chambray",
+            "title": "<h4 style=\"text-align: center\">the celeste in natural chambray<\/h4>",
             "title_font": "headline__din",
             "text": "",
             "link_text": "SHOP NOW",
@@ -463,7 +467,7 @@
           "type": "fabric_info",
           "settings": {
             "img": "shopify:\/\/shop_images\/shore-white_02.jpg",
-            "title": "the shoreline shirt in white",
+            "title": "<h4 style=\"text-align: center\">the shoreline shirt in white <\/h4>",
             "title_font": "headline__din",
             "text": "",
             "link_text": "SHOP NOW",

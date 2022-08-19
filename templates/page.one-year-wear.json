@@ -9,7 +9,9 @@
     "1650556781c096c7bf": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/oyw2.jpg",
         "mob_img": "shopify:\/\/shop_images\/oyw1.jpg",
         "img_url": "",
@@ -19,7 +21,9 @@
     "16505571484f27d76f": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
+        "desktop_hide": false,
         "text_align": "center",
         "pretitle": "( love fades )",
         "title": "one year wear",
@@ -33,7 +37,9 @@
     "16505575018a5b2e08": {
       "type": "section-collection-grid",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
+        "desktop_hide": false,
         "choose_collection": "denim-oyw",
         "show_title": false,
         "show_subtitle": true,
@@ -51,7 +57,9 @@
     "16505577015292a92f": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
+        "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/oyw3.jpg",
         "mob_img": "shopify:\/\/shop_images\/oyw3.jpg",
         "img_url": "",

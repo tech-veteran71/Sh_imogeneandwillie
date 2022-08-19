@@ -52,6 +52,7 @@
           {%- when 'price' -%}
             <div class="no-js-hidden price-main" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, price_class: 'price--large' -%}
+              {%- render 'afterpay-pdp' -%}
             </div>
             <div {{ block.shopify_attributes }}>
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}

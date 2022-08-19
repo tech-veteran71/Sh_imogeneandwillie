@@ -134,11 +134,11 @@
         "eaef2fdd-bfc5-47a4-9b57-88b0b19acfe0"
       ],
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "pre_title": "",
-        "title": "<br><br>ALL MEN'S FITS",
+        "title": "ALL MEN'S FITS",
         "title_font": "headline__din",
         "btn_text": "",
         "btn_url": ""

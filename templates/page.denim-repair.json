@@ -6,24 +6,15 @@
       "settings": {
       }
     },
-    "1649862524008263dc": {
-      "type": "section-hero-banner",
+    "1660861119e7418ebb": {
+      "type": "section-video-hero",
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "mobile_hide_text": false,
-        "desk_img": "shopify:\/\/shop_images\/method-3_f7dd8fb6-7e5f-4a14-a3cf-795b783cfe27.jpg",
-        "mob_img": "shopify:\/\/shop_images\/method-3_f7dd8fb6-7e5f-4a14-a3cf-795b783cfe27.jpg",
-        "img_url": "",
-        "main_title": "",
-        "title_font": "headline__din",
-        "font_color": "#222222",
-        "text": "",
-        "link_text": "",
-        "link": "#",
-        "show_button": false,
-        "show_down_arrow": false
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/528c307f0db94dfa97feaf50f636d0d3.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/528c307f0db94dfa97feaf50f636d0d3.mp4",
+        "video_controls": false
       }
     },
     "1659646230f21b5e16": {
@@ -332,7 +323,7 @@
   },
   "order": [
     "main",
-    "1649862524008263dc",
+    "1660861119e7418ebb",
     "1659646230f21b5e16",
     "1649864198b61b9050",
     "164986274521568d47",

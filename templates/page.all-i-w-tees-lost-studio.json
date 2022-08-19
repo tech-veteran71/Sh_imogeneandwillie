@@ -10,6 +10,7 @@
       "type": "section-image-video-hero",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/02bfc30a-14c3-2e19-67a7-85ff3f20ee31.jpg",
@@ -26,6 +27,7 @@
       "type": "section-video-hero",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/03e96f2adb364090a5ecc697f795aaf3.mp4",
@@ -36,6 +38,7 @@
     "1657140914eed4ca4c": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/white-drop-tee10_6fa9c02c-fd83-45ab-a307-3ef931912043.jpg",
@@ -47,6 +50,7 @@
     "16499691942d1a0881": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -63,6 +67,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/studiotee013_09.webp",
@@ -74,6 +79,7 @@
     "1659631772fb9a5734": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/blank-crew05.webp",
@@ -86,6 +92,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -101,6 +108,7 @@
     "16571405010e86593d": {
       "type": "section-quote",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "\"the way you do anything is the way you do everything.\"",
@@ -111,6 +119,7 @@
     "1659631837178df672": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/6428fd99-3c89-2da3-6f04-e5401ae2d8d6_f53943b6-8436-4f0c-8281-ad2bcbd18cac.jpg",
@@ -122,6 +131,7 @@
     "1659642570a339fc73": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -137,6 +147,7 @@
     "1657140670a5f6a9d5": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/lost_05.jpg",
@@ -149,6 +160,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -165,6 +177,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/341ce456-aefc-3f07-bbd6-71aedd49e052.jpg",
@@ -177,6 +190,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -193,6 +207,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/vb-01.jpg",
@@ -204,6 +219,7 @@
     "164997002040b6e356": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -220,6 +236,7 @@
       "type": "section-quote",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "“to do a dangerous thing with <br>style is what i call art.”",
@@ -231,6 +248,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
@@ -243,6 +261,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -259,6 +278,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
@@ -271,6 +291,7 @@
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -286,6 +307,7 @@
     "1659641702e0019e51": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/blank-crew03.webp",
@@ -298,6 +320,7 @@
       "type": "section-collection-grid",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "top-picks",

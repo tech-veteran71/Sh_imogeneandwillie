@@ -85,7 +85,7 @@
         "desktop_hide": false,
         "review": "\"i am happy to report that in the war between reality and romance, reality is not the stronger.\"",
         "customer_name": "- john steinbeck",
-        "background_color": "transparent"
+        "background_color": "rgba(0,0,0,0)"
       }
     },
     "16584190828ea23e02": {
@@ -109,7 +109,7 @@
     "16602516536082588d": {
       "type": "section-video-hero",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13e2269430674c6a97577c7dae69a3ae.mp4",
@@ -132,7 +132,7 @@
         "title": "fethiye collection",
         "main_title": "",
         "mob_title": "fethiye collection",
-        "link_text": "shop all >",
+        "link_text": "",
         "link_url": ""
       }
     },
@@ -142,7 +142,7 @@
         "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "bg_color": "#F0EFEC",
+        "bg_color": "#f0efec",
         "text": "",
         "link_text": "Shop collection",
         "link_url": "",
@@ -161,7 +161,7 @@
         "title_font": "headline__arno",
         "text": "",
         "btn_text": "shop collection",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/collections\/fethiye-rich-collection",
         "show_button": true
       }
     },

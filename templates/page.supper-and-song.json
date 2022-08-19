@@ -37,7 +37,7 @@
     "16554859495bb5ecba": {
       "type": "section-image",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/ss.jpg",

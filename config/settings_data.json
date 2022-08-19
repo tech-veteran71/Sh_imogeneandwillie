@@ -5,7 +5,7 @@
     "colors_accent_2": "#334FB4",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#f6f5f1",
+    "colors_background_1": "#f7f6f3",
     "colors_background_2": "#a7a491",
     "type_header_font": "helvetica_n4",
     "type_body_font": "helvetica_n4",
@@ -21,7 +21,7 @@
             "settings": {
               "text": "FREE SHIPPING ON ORDERS OVER $100",
               "text_color": "#f7f6f3",
-              "bg_color": "#8e8f83",
+              "bg_color": "#878f7b",
               "link": ""
             }
           }
@@ -89,24 +89,24 @@
               "product_description": "3.8oz Japanese lightweight plaid"
             }
           },
-          "53481464-0c94-4902-abeb-280a5d5344e8": {
-            "type": "mega_menu_about",
-            "settings": {
-              "img": "shopify:\/\/shop_images\/vm.jpg",
-              "link": "",
-              "pre_title": "unwavering dedication",
-              "title": "made in usa",
-              "text": "we remian stubbornly committed to ensure that everything is made is america"
-            }
-          },
           "4cc22847-de5f-48cd-9ae3-3e176610939b": {
             "type": "mega_menu_about",
             "settings": {
               "img": "shopify:\/\/shop_images\/desktop_bbb82bbd-f434-4a74-b17e-03fd6b077aeb.jpg",
               "link": "shopify:\/\/pages\/nashville",
-              "pre_title": "2601 12th ave s",
+              "pre_title": "our home",
               "title": "nashville",
-              "text": "a lovely little spot we're honored to call home"
+              "text": "housed inside the old granny white service station in the heart of 12 south"
+            }
+          },
+          "53481464-0c94-4902-abeb-280a5d5344e8": {
+            "type": "mega_menu_about",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/vm.jpg",
+              "link": "shopify:\/\/pages\/made-in-usa",
+              "pre_title": "our promise",
+              "title": "made in usa",
+              "text": "we remain committed to make all of our clothing here in the USA."
             }
           },
           "d3265107-3261-49c1-ad15-3ab927369894": {
@@ -114,9 +114,9 @@
             "settings": {
               "img": "shopify:\/\/shop_images\/sewing-station13.jpg",
               "link": "shopify:\/\/pages\/the-process",
-              "pre_title": "imperfect perfection",
+              "pre_title": "behind the scenes",
               "title": "our process",
-              "text": "patterned, cut, & sewn in the usa from the best we can find."
+              "text": "patterned, cut, & sewn in the usa from the best fabric we can find."
             }
           },
           "4d523621-d2a6-40a6-80b0-ffb7834f2f2d": {
@@ -124,7 +124,7 @@
             "settings": {
               "img": "shopify:\/\/shop_images\/tailorshop_-3.jpg",
               "link": "shopify:\/\/pages\/tailor-shop",
-              "pre_title": "make it last forever",
+              "pre_title": "made to last",
               "title": "tailor shop",
               "text": "to repair, improve and fortify your jeans-so that you can put more miles into them."
             }
@@ -134,7 +134,7 @@
             "settings": {
               "img": "shopify:\/\/shop_images\/Image-389.jpg",
               "link": "https:\/\/imogeneandwillie.com\/pages\/our-story",
-              "pre_title": "matt and carrie eddmenson, '14",
+              "pre_title": "the beginning",
               "title": "our story",
               "text": "it started with the desire to make what we couldn't find."
             }
@@ -144,9 +144,9 @@
             "settings": {
               "img": "shopify:\/\/shop_images\/gallery-22_53a9ab99-707e-41f8-8a22-dcb7fe7733c3.jpg",
               "link": "shopify:\/\/pages\/supper-and-song",
-              "pre_title": "till next time",
+              "pre_title": "the backyard",
               "title": "supper + song",
-              "text": "a gathering of community around music hosted semi monthly in the warmer months."
+              "text": "a gathering of community in our backyard, centered around live music and good times."
             }
           },
           "e8ac997d-06bf-4cd7-84aa-bd38fbabdacd": {
@@ -197,8 +197,8 @@
           "3815b5f7-3f28-4a79-9ca5-336595da5ead",
           "565f0e16-3662-4f56-8c28-cf218a3fb4d1",
           "9604c633-37fa-4ce1-bd8b-bf9de49548f4",
-          "53481464-0c94-4902-abeb-280a5d5344e8",
           "4cc22847-de5f-48cd-9ae3-3e176610939b",
+          "53481464-0c94-4902-abeb-280a5d5344e8",
           "d3265107-3261-49c1-ad15-3ab927369894",
           "4d523621-d2a6-40a6-80b0-ffb7834f2f2d",
           "0727aa4a-6014-4448-acd9-3f92cc8fdc4f",
@@ -267,6 +267,7 @@
           },
           "967c8086-0669-41b7-8baa-8ced1df77988": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "select_menu": "footer-desktop-pt2"
             }

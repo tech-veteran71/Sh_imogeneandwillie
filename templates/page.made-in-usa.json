@@ -9,6 +9,7 @@
     "1649862524008263dc": {
       "type": "section-hero-banner",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "mobile_hide_text": false,
@@ -28,6 +29,7 @@
     "1649864198b61b9050": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -43,6 +45,7 @@
     "165704449697616802": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/3979dd66-d015-d8b4-64eb-0a73f86c367a.png",
@@ -54,6 +57,7 @@
     "1655232747b89983e3": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -69,6 +73,7 @@
     "1660155914e60d55cb": {
       "type": "section-brand-promise",
       "settings": {
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,
@@ -87,6 +92,7 @@
       "type": "section-image",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-2-1_2048x2048_4c1722d6-97da-4d91-a74e-e45a1ab0b806.jpg",

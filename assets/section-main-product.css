@@ -983,6 +983,10 @@ a.product__text {
   letter-spacing: 0.09rem;
 }
 
+.afterpay-logo-link {
+  margin-left: 0.2rem;
+}
+
 .afterpay-logo {
   width: 6rem !important;
   height: auto;

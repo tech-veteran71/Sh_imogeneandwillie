@@ -1,0 +1,304 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16608359528a39054f": {
+      "type": "section-hero-banner",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/textures--_8-of-23.jpg",
+        "mob_img": "shopify:\/\/shop_images\/textures--_7-of-23_d6883941-2339-410a-99de-8921e74faae8.jpg",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__din",
+        "font_color": "#222222",
+        "text": "",
+        "link_text": "coming fall 2022",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "16553060487ae324b1": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "h1",
+        "text": "<h4>( general maintenance + care )<\/h4> <p>a few tips for general care and maintenance for the time between washes <a href=\"\/pages\/general-care\">\"<\/a><\/p> <h6>spot cleaning<\/h6> <p>let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - friction will lift off the indigo, leaving you with a bright, whiter spot you want to avoid.<\/p>  <h6>odor<\/h6> <p>you can always let them air outside on a nice day or use a mild odor-fighting fabric spray when needed.<\/p>  <h6>shrinkage<\/h6> <p>washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat.<\/p>  <h6>indigo dye transfer<\/h6> <p>you may notice some indigo pull out of the jeans during the wash. it's natural, and normal. we recommend washing your jeans alone or with other denim.<\/p>",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1655306607c92d999f": {
+      "type": "section-hero-banner",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "mobile_hide_text": false,
+        "desk_img": "shopify:\/\/shop_images\/pastartists_1bb3c1f5-45fa-415a-b26c-c07d46af2a06.jpg",
+        "mob_img": "shopify:\/\/shop_images\/pastartists_1bb3c1f5-45fa-415a-b26c-c07d46af2a06.jpg",
+        "img_url": "",
+        "main_title": "",
+        "title_font": "headline__arno",
+        "font_color": "#f5f8e8",
+        "text": "<strong>previous artists<\/strong> <br><br> dan auerbach - the civil wars - karen elson - the lone bellow - shakey graves - nikki lane - justin townes earle - ben miller band - steelism - robert ellis - hurray for the riff raff - deer tick - the ettes - the apache relay - chancellor warhol - rayland baxter - caitlin rose - jonny p",
+        "link_text": "",
+        "link": "#",
+        "show_button": false,
+        "show_down_arrow": false
+      }
+    },
+    "16609208576d81549d": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "< RETURN TO DENIM CARE",
+        "btn_url": "shopify:\/\/pages\/denim-care-1",
+        "show_button": false
+      }
+    },
+    "16608411122e0b9f36": {
+      "type": "section-img-txt-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_bg_color": "",
+        "mob_bg_color": "",
+        "desk_img": "shopify:\/\/shop_images\/IMG_8734_1200x_1500x_4a8657bd-19a6-4527-a356-0a21d7545f6e.webp",
+        "img_url": "shopify:\/\/pages\/denim-repair",
+        "pre_title": "( the jeans )",
+        "main_title": "denim repair",
+        "title_font": "headline__arno",
+        "text": "our tough little sewing team does not mess around. we’re ready and able to handle blow outs, rips, pocket bag holes, fraying hems, and a wide range of other repair needs.",
+        "btn_text": "learn more",
+        "btn_url": "shopify:\/\/pages\/denim-repair",
+        "change_alignment": false,
+        "show_btn": false,
+        "show_link": false
+      }
+    },
+    "165530920156ca65cd": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "d8032cec-64bd-49a6-9b82-ad79922f7c1f": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "d8032cec-64bd-49a6-9b82-ad79922f7c1f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1655306962d6ddbcba": {
+      "type": "section-image-gallery",
+      "disabled": true,
+      "blocks": {
+        "d0a94c3b-81df-47da-a022-01296ba4f576": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_53127bb6-900d-4b1a-8b71-79ad9802dc69.jpg"
+          }
+        },
+        "07b07dbc-d968-45a6-a99f-50d02b264f4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_248ea3d9-52e7-4ac6-b1a7-228e53314e2d.jpg"
+          }
+        },
+        "ae156781-1bd6-4e63-82e2-47284eec65c3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_62f0cffa-afeb-403a-82d0-48c851aa90b6.jpg"
+          }
+        },
+        "22fd705a-45c3-4d1f-abf8-ca4f16948683": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_aff50648-9da7-4d73-b10f-4141145520ee.jpg"
+          }
+        },
+        "f8dbf11c-79df-4b0d-8063-478df5dea182": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13.jpg"
+          }
+        },
+        "52441859-2cc7-46e1-99fe-181fe2199795": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_8edd308d-c384-43b5-affc-aba22e8aede5.jpg"
+          }
+        },
+        "b7758a6e-e85e-41fc-a0f5-98c724e213bb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_ed877c7f-986a-47d3-9484-304e04a0b33a.jpg"
+          }
+        },
+        "2b5c4587-9b4a-4bf3-9f33-ef8925cdf9d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.jpg"
+          }
+        },
+        "d24c72b4-7ea1-41b3-867e-45d7c0542c44": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.jpg"
+          }
+        },
+        "4368dc2c-dbee-46c3-b34a-9121b33471c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.jpg"
+          }
+        },
+        "368aaf02-33aa-4f9e-b939-346248e28c81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_863cdeb3-6d90-4708-ba9d-67c580d13c48.jpg"
+          }
+        },
+        "d197bed3-6a63-4b35-aaf6-dbed36ac6d9c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10.jpg"
+          }
+        },
+        "b1493ac9-2b14-4cd5-a51e-342a507f2d3f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.jpg"
+          }
+        },
+        "43d96897-1b0d-434d-a6c4-e96c871f5c5d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d0a94c3b-81df-47da-a022-01296ba4f576",
+        "07b07dbc-d968-45a6-a99f-50d02b264f4d",
+        "ae156781-1bd6-4e63-82e2-47284eec65c3",
+        "22fd705a-45c3-4d1f-abf8-ca4f16948683",
+        "f8dbf11c-79df-4b0d-8063-478df5dea182",
+        "52441859-2cc7-46e1-99fe-181fe2199795",
+        "b7758a6e-e85e-41fc-a0f5-98c724e213bb",
+        "2b5c4587-9b4a-4bf3-9f33-ef8925cdf9d1",
+        "d24c72b4-7ea1-41b3-867e-45d7c0542c44",
+        "4368dc2c-dbee-46c3-b34a-9121b33471c2",
+        "368aaf02-33aa-4f9e-b939-346248e28c81",
+        "d197bed3-6a63-4b35-aaf6-dbed36ac6d9c",
+        "b1493ac9-2b14-4cd5-a51e-342a507f2d3f",
+        "43d96897-1b0d-434d-a6c4-e96c871f5c5d"
+      ],
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false
+      }
+    },
+    "16553069466a68c840": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "“be groovy or leave, man.”",
+        "customer_name": "- bob dylan",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655307793f07ba453": {
+      "type": "section-flashcard-feature",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "support-live-music",
+        "title": "the \"support live music\" tee",
+        "title_font": "headline__din",
+        "text": "an ode to our hometown, the musicians of nashville and the gatherings we host in our backyard.",
+        "btn_text": "see more",
+        "btn_url": "shopify:\/\/collections\/support-live-music",
+        "show_link": false
+      }
+    },
+    "16608359354e850a60": {
+      "type": "section-image-video-hero",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "16608363731bab459b": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16608359528a39054f",
+    "16553060487ae324b1",
+    "1655306607c92d999f",
+    "16609208576d81549d",
+    "16608411122e0b9f36",
+    "165530920156ca65cd",
+    "1655306962d6ddbcba",
+    "16553069466a68c840",
+    "1655307793f07ba453",
+    "16608359354e850a60",
+    "16608363731bab459b"
+  ]
+}

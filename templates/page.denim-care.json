@@ -34,16 +34,34 @@
         "desktop_hide": false,
         "text_align": "left",
         "pretitle": "",
-        "title": "DENIM CARE <br><br>",
+        "title": "DENIM CARE <br>",
         "title_font": "headline__din",
-        "text": "<p>contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it.<\/p> <br> <br>  <h4>( when to wash )<\/h4>  <p>there's no right or wrong answer. denim ages differently depending on how often you wear and wash. we've seen great jeans that are washed quite frequently. we've seen beautiful jeans that have never seen a wash.<\/p>    <p>at the end of the day, we recommend what works best for you. in general, wear often, wash not so often.<\/p>  <br> <br>  <h4>( an extra reason to wash )<\/h4>  <p>excess sweat and grime can build up and weaken fabric in the crotch area or along the cuffs. we recommend regular (though infrequent) washes to help prevent damage to your jeans.<\/p>  <br> <br>   <h4>( how to wash )<\/h4>   <p>we have a few answers. the truth is, everyone washes their jeans a bit differently depending on what works for their life. here are a few of our favorite methods:<\/p>    <br> <br>    <ul><h5><a href=\"https:\/\/www.imogeneandwillie.com\/pages\/the-machine-wash\">1) the machine wash<\/a><\/h5><\/ul>  <ul><h5><a href=\"https:\/\/www.imogeneandwillie.com\/pages\/the-tub-soak\">2) the tub soak<\/a><\/h5><\/ul>  <ul><h5><a href=\"https:\/\/www.imogeneandwillie.com\/pages\/the-no-wash\">3) the no-wash<\/a><\/h5><\/ul>",
+        "text": "<p>contrary to what some folks say, when you ask us if you should wash your beloved jeans, we'll say yes… but there's a little more to it.<\/p> <br> <br>  <h4 style=\"margin:0;\">( when to wash )<\/h4>  <p>there's no right or wrong answer. denim ages differently depending on how often you wear and wash. we've seen great jeans that are washed quite frequently. we've seen beautiful jeans that have never seen a wash.<\/p>    <p>at the end of the day, we recommend what works best for you. in general, wear often, wash not so often.<\/p> <p> <span style=\"font-weight:700;font-color:black;\">bonus reason to wash:<\/span>  excess sweat and grime can build up and weaken fabric in the crotch area or along the cuffs. we recommend regular (though infrequent) washes to help prevent damage to your jeans.<\/p>  <br> <br>   <h4 style=\"margin:0;\">( how to wash )<\/h4>   <p>we have a few answers. the truth is, everyone washes their jeans a bit differently depending on what works for their life. here are a few of our favorite methods:<\/p>    <br> <br>    <ul><h5><a href=\"https:\/\/www.imogeneandwillie.com\/pages\/the-machine-wash\">1) the machine wash<\/a><\/h5><\/ul>  <ul><h5><a href=\"https:\/\/www.imogeneandwillie.com\/pages\/the-tub-soak\">2) the tub soak<\/a><\/h5><\/ul>  <ul><h5><a href=\"https:\/\/www.imogeneandwillie.com\/pages\/the-no-wash\">3) the no-wash<\/a><\/h5><\/ul><br><br><h4 style=\"margin:0;\">( general maintenance + care )<\/h4> <p>a few tips for general care and maintenance for the time between washes: <a href=\"https:\/\/imogeneandwillie.com\/pages\/general-maintenance\">read more<\/a><\/p>",
         "btn_text": "",
         "btn_url": "shopify:\/\/pages\/a-day-in-the-life",
         "show_button": true
       }
     },
+    "16607527642a5f38ec": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
     "166075269137d434f4": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
@@ -52,22 +70,6 @@
         "mob_img": "shopify:\/\/shop_images\/imogeneandwillie_pattern-hook_03.webp",
         "img_url": "",
         "img_width": "large"
-      }
-    },
-    "16607527642a5f38ec": {
-      "type": "section-txt-link-btn",
-      "settings": {
-        "margin_bottom": "section-bottom__medium",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "text_align": "left",
-        "pretitle": "",
-        "title": "",
-        "title_font": "headline__arno",
-        "text": "<h4>( general maintenance + care )<\/h4> <p>a few tips for general care and maintenance for the time between washes.<\/p> <h6>spot cleaning<\/h6> <p>let the mess dry. use a dry rag to brush the gunk away. then slightly dampen the rag and blot the spot. try not to scrub - friction will lift off the indigo, leaving you with a bright, whiter spot you want to avoid.<\/p>  <h6>odor<\/h6> <p>you can always let them air outside on a nice day or use a mild odor-fighting fabric spray when needed.<\/p>  <h6>shrinkage<\/h6> <p>washing and drying your jeans can always result in a bit of shrinkage. even with cold water and no heat in the dryer, you may see slight shrinkage with rigid jeans. whenever possible, avoid heat.<\/p>  <h6>indigo dye transfer<\/h6> <p>you may notice some indigo pull out of the jeans during the wash. it's natural, and normal. we recommend washing your jeans alone or with other denim.<\/p>",
-        "btn_text": "",
-        "btn_url": "",
-        "show_button": false
       }
     },
     "164986725161283e43": {
@@ -80,7 +82,7 @@
         "mob_bg_color": "",
         "desk_img": "shopify:\/\/shop_images\/IMG_8734_1200x_0110b208-7a54-4353-8ab5-96aaa533432a.webp",
         "mob_img": "shopify:\/\/shop_images\/IMG_8734_1200x_0110b208-7a54-4353-8ab5-96aaa533432a.webp",
-        "img_url": "",
+        "img_url": "shopify:\/\/pages\/denim-repair",
         "pre_title": "( the jeans )",
         "main_title": "denim repair",
         "title_font": "headline__arno",
@@ -384,8 +386,8 @@
     "main",
     "1649862524008263dc",
     "1659646230f21b5e16",
-    "166075269137d434f4",
     "16607527642a5f38ec",
+    "166075269137d434f4",
     "164986725161283e43",
     "164986274521568d47",
     "16553190223981909a",

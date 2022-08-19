@@ -9,6 +9,7 @@
     "1657140914eed4ca4c": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/IMG_8734.jpg",
@@ -20,6 +21,7 @@
     "16499691942d1a0881": {
       "type": "section-txt-link-btn",
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "left",
@@ -35,6 +37,7 @@
     "1657140855c3e405cb": {
       "type": "section-image",
       "settings": {
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/oneyearwear_-5_1500x_1200x_938e7a6c-4be0-4306-be95-a28851a68ddd.png",

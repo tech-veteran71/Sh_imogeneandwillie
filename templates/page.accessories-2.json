@@ -1,0 +1,198 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1657140914eed4ca4c": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__medium",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/i_w_016017.jpg",
+        "mob_img": "shopify:\/\/shop_images\/i_w_016017.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "ACCESSORIES",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1660847621ddb6cf62": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "hats",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": true,
+        "title": "hats",
+        "main_title": "accessories",
+        "mob_title": "hats",
+        "link_text": "shop all ->",
+        "link_url": "shopify:\/\/collections\/hats"
+      }
+    },
+    "166084783882f6d5a1": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "iw-socks",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": true,
+        "title": "socks",
+        "main_title": "",
+        "mob_title": "socks",
+        "link_text": "shop all ->",
+        "link_url": "shopify:\/\/collections\/iw-socks"
+      }
+    },
+    "1660847922fe101557": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "accessories-bandanas",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": true,
+        "title": "bandanas",
+        "main_title": "",
+        "mob_title": "bandanas",
+        "link_text": "Shop all ->",
+        "link_url": "shopify:\/\/collections\/accessories-bandanas"
+      }
+    },
+    "16608480391f800c0b": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "men-belts",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": true,
+        "title": "iw x emil erwin",
+        "main_title": "",
+        "mob_title": "iw x emil erwin",
+        "link_text": "shop all ->",
+        "link_url": "shopify:\/\/collections\/men-belts"
+      }
+    },
+    "1660848004ad5a4093": {
+      "type": "section-product-collection-slider",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "jewelry",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": true,
+        "title": "jewelry",
+        "main_title": "",
+        "mob_title": "jewelry",
+        "link_text": "View all",
+        "link_url": ""
+      }
+    },
+    "166084796854c70981": {
+      "type": "section-product-collection-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "background_color": "#f7f6f3",
+        "choose_collection": "accessories-scent",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": true,
+        "title": "scents",
+        "main_title": "",
+        "mob_title": "scents",
+        "link_text": "shop all ->",
+        "link_url": "shopify:\/\/collections\/accessories-scent"
+      }
+    },
+    "16608480991019b461": {
+      "type": "section-collection-grid",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "non-gen-accessories",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": false,
+        "products_to_show": 12,
+        "products_per_row": 3,
+        "title": "",
+        "title_font": "headline__din",
+        "text": "",
+        "btn_text": "Shop All",
+        "btn_url": "shopify:\/\/collections\/non-gen-accessories"
+      }
+    },
+    "1657140855c3e405cb": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/white-02_4cdc3d80-446c-412e-8e29-8b0e323f19a3.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657140914eed4ca4c",
+    "16499691942d1a0881",
+    "1660847621ddb6cf62",
+    "166084783882f6d5a1",
+    "1660847922fe101557",
+    "16608480391f800c0b",
+    "1660848004ad5a4093",
+    "166084796854c70981",
+    "16608480991019b461",
+    "1657140855c3e405cb"
+  ]
+}

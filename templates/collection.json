@@ -17,6 +17,7 @@
       "type": "section-img-txt-btn",
       "disabled": true,
       "settings": {
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_bg_color": "",

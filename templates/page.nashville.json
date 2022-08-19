@@ -6,8 +6,6 @@
         "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
-        "video_poster": "shopify:\/\/shop_images\/Header_IMG_1200x_73866eb4-5e70-413d-a41b-580bb67a21b7.png",
-        "mobile_video_poster": "shopify:\/\/shop_images\/Image_144.png",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8cd7399bad8e4b77913a821fae554002.mp4",
         "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dc114ca299904fd6ba4464018b30da5b.mp4",
         "video_controls": false

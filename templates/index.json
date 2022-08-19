@@ -6,10 +6,10 @@
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desktop_banner_img": "shopify:\/\/shop_images\/desktop_276b3e9d-3872-4990-8055-ae262d776388.jpg",
-        "mobile_banner_img": "shopify:\/\/shop_images\/fethiyemesastripe_w_07_bba3e586-a936-4045-8d11-ed069d5f7483.jpg",
+        "desktop_banner_img": "shopify:\/\/shop_images\/HELLCATS_02_117f18b0-1d8b-4879-bc82-6fe82f9dd741.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/HELLCATS_02_b69cfd43-67fe-467f-a25d-34ddea909a59.jpg",
         "img_height": false,
-        "link": "shopify:\/\/products\/fethiye-in-hand-loomed-mesa-stripe",
+        "link": "shopify:\/\/products\/the-hellcats-tee",
         "add_video": false,
         "video_url": "",
         "mobile_video_url": "",
@@ -24,11 +24,11 @@
         "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
-        "title": "fethiye in hand-loomed coastal stripe",
+        "title": "the \"hellcats\" tee",
         "title_font": "headline__arno",
-        "text": "sewn from an intricate and open hand-loomed Indian textile. it's the perfect pant to lounge in on Saturday afternoon. pattern placement is specific to every pair, and each is completely unique.",
+        "text": "inspired by an old photo of matt’s grandpa wearing his \"HELLCATS\" baseball jersey on an army base during World War II... and our desire to keep chasing the unknown. screen printed here in nashville.",
         "btn_text": "Shop Now",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/products\/the-hellcats-tee",
         "show_button": true
       }
     },
@@ -87,6 +87,10 @@
       "settings": {
         "margin_bottom": "section-bottom__medium",
         "choose_collection": "women-denim",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": false,
         "title": "women denim",
         "title_font": "headline__arno",
         "btn_text": "shop all",
@@ -99,6 +103,10 @@
       "settings": {
         "margin_bottom": "section-bottom__medium",
         "choose_collection": "men-denim",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": false,
         "title": "men's denim",
         "title_font": "headline__arno",
         "btn_text": "shop all",
@@ -106,15 +114,22 @@
         "show_border": false
       }
     },
-    "1649345031dfcd3b10": {
-      "type": "section-quote",
+    "1637735864c2bd7e13": {
+      "type": "section-brand-promise",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__large",
         "mobile_hide": false,
         "desktop_hide": false,
-        "review": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis",
-        "customer_name": "- andy warhol",
-        "background_color": "#f7f6f3"
+        "reverse_order": true,
+        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044.jpg",
+        "mob_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01299.jpg",
+        "pre_title": "( our promise )",
+        "title": "committed to making everything in the usa",
+        "title_font": "headline__din",
+        "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america",
+        "btn_text": "LEARN MORE ->",
+        "link_url": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa",
+        "show_link": true
       }
     },
     "16601472139560bdbb": {
@@ -243,7 +258,7 @@
         "e40224b4-22d3-443f-b557-ea7c612ad651": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/13-year-anniversary.jpg",
+            "image": "shopify:\/\/shop_images\/13-year-anniversary-1.jpg",
             "title": "7.22.22",
             "link": "https:\/\/imogeneandwillie.com\/pages\/indigo-studio-tee-13-yr"
           }
@@ -262,6 +277,14 @@
             "image": "shopify:\/\/shop_images\/white-drop-tee10_6fa9c02c-fd83-45ab-a307-3ef931912043.jpg",
             "title": "06.28.22",
             "link": "https:\/\/imogeneandwillie.com\/pages\/all-i-w-tees-lost-studio"
+          }
+        },
+        "43606301-8d9b-478b-9964-0b0f5139bb0b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/supper_song_19.jpg",
+            "title": "6.16.22",
+            "link": "shopify:\/\/pages\/supper-and-song"
           }
         },
         "44ccf7f1-f69c-4de1-9520-0908b80207ab": {
@@ -284,7 +307,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/washbabywash__4_of_19_600x_8d0fb665-17c3-464c-b84f-76034a5ce735.webp",
-            "title": "( 01.01.22 )",
+            "title": "01.01.22",
             "link": "https:\/\/imogeneandwillie.com\/pages\/one-year-wear"
           }
         }
@@ -295,6 +318,7 @@
         "e40224b4-22d3-443f-b557-ea7c612ad651",
         "bef734f5-df71-4de0-8fb3-5cea9cbed20d",
         "98cb0948-a256-4e2d-961b-5f2aa735956c",
+        "43606301-8d9b-478b-9964-0b0f5139bb0b",
         "44ccf7f1-f69c-4de1-9520-0908b80207ab",
         "3bc505ec-130d-4802-89ae-35e2ecf875ab",
         "0d445b66-b6b3-4d8e-8717-aecb3adfc800"
@@ -306,6 +330,17 @@
         "title": "recent moments \/\/",
         "btn": "explore more",
         "url": "shopify:\/\/pages\/recent-moments"
+      }
+    },
+    "1649345031dfcd3b10": {
+      "type": "section-quote",
+      "settings": {
+        "margin_bottom": "section-bottom__medium",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"i fell in love, not with anything or anybody in particular but with everything.\"",
+        "customer_name": "- george harrison",
+        "background_color": "#f7f6f3"
       }
     },
     "166014701450e83076": {
@@ -339,24 +374,6 @@
         "btn_text": "Shop All",
         "btn_url": "shopify:\/\/collections\/top-picks"
       }
-    },
-    "1637735864c2bd7e13": {
-      "type": "section-brand-promise",
-      "settings": {
-        "margin_bottom": "section-bottom__medium",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "reverse_order": true,
-        "desk_img": "shopify:\/\/shop_images\/IMOGENE_AND_WILLIE_VIDALIA_MILLS-01044.jpg",
-        "mob_img": "shopify:\/\/shop_images\/IMOGENE-AND-WILLIE_VIDALIA-MILLS-01299.jpg",
-        "pre_title": "( our promise )",
-        "title": "committed to making everything in the usa",
-        "title_font": "headline__din",
-        "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america",
-        "btn_text": "LEARN MORE ->",
-        "link_url": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa",
-        "show_link": true
-      }
     }
   },
   "order": [
@@ -367,15 +384,15 @@
     "16601548444288ce09",
     "1660146228d293e7f1",
     "16601463367b6eef7b",
-    "1649345031dfcd3b10",
+    "1637735864c2bd7e13",
     "16601472139560bdbb",
     "16493477614696a5fd",
     "1651088625b53b1bea",
     "1660077585067278a1",
     "1649347110c702605f",
     "1657045274b79dc7bf",
+    "1649345031dfcd3b10",
     "166014701450e83076",
-    "16599943395aa45761",
-    "1637735864c2bd7e13"
+    "16599943395aa45761"
   ]
 }
