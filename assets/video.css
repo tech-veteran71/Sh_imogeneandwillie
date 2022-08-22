@@ -151,6 +151,9 @@
   }
 }
 @media (max-width: 991px){
+  h2.mobile-hide {
+    display: none;
+  }
   .video-section {
     padding: 3rem 0;
   }
@@ -184,9 +187,6 @@
     margin-left: 0;
     height: 28.5rem;
     margin-bottom: 3.8rem;
-  }
-  .video-section .contents .info {
-    display: none;
   }
   .video-section .wrap-title {
     display: none;

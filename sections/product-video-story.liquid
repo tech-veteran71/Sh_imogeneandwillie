@@ -1,5 +1,5 @@
 {{ 'video.css' | asset_url | stylesheet_tag }}
-<div class="video-section" id="video-section">
+<div class="video-section  {{ section.settings.margin_bottom }}" id="video-section">
   <div class="main-container">
     {% if section.settings.title != blank%}
       <h3 class="title">{{ section.settings.title }}</h3>
@@ -15,9 +15,7 @@
             <h3 class="title mobile-title">{{ section.settings.title }}</h3>
           {% endif %}
           {% if section.settings.top_text != blank %}
-            <p class="text">{{ section.settings.top_text }} 
-            </p>
-          
+            <h2 class="mobile-hide">{{ section.settings.top_text }}</h2>
           {% endif %}
           {% if section.settings.btn != blank  %}
             <div class="btn-wrap desktop-hide">
@@ -62,6 +60,30 @@
 {
   "name": "VIDEO STORY FEATURE",
   "settings": [
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
     {
       "type": "image_picker",
       "id": "img",

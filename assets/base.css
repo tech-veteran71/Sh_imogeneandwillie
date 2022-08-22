@@ -3441,3 +3441,15 @@ textarea {
 .section-top__large {
   margin-top: 10rem;
 }
+
+.search-modal__content .search__input.field__input {
+  box-shadow: unset;
+  font-family: var(--font-din);
+  font-weight: 600;
+  border: 0;
+  padding: 1rem 2rem;
+  color: var(--color-dim-black);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18rem;
+}
