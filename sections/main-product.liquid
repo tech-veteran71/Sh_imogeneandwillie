@@ -196,6 +196,16 @@
                               <p style="display: none" data-label-open>FITS LARGE</p>
                             {% elsif product.tags contains 'fitsvlarge' %}
                               <span style="display: none" data-label-open>FITS VERY LARGE</span>
+                              {% elsif product.tags contains 'denimtruetosize' %}
+                              <span style="display: none" data-label-open>SELECT A SIZE</span>
+                              {% elsif product.tags contains 'denimfitssmall' %}
+                              <span style="display: none" data-label-open>FITS SMALL</span>
+                              {% elsif product.tags contains 'denimfitsvsmall' %}
+                              <span style="display: none" data-label-open>FITS VERY SMALL</span>
+                              {% elsif product.tags contains 'denimfitslarge' %}
+                              <span style="display: none" data-label-open>FITS LARGE</span>
+                              {% elsif product.tags contains 'denimfitsvlarge' %}
+                              <span style="display: none" data-label-open>FITS VERY LARGE</span>
                             {% endif %}
                           </legend>
                           <div class="icon-wrap">
@@ -213,6 +223,16 @@
                           <p class="info-title">We recommend going down a size</p>
                           {% elsif product.tags contains 'fitsvlarge' %}
                           <p class="info-title">We recommend going down two sizes.</p>
+                          {% elsif product.tags contains 'denimtruetosize' %}
+                          <p class="info-title">we recommend ordering your usual size. unsure of your i+w size? <button class="link" js-size-guide-popup>click here</button></p>
+                          {% elsif product.tags contains 'denimfitssmall' %}
+                          <p class="info-title">we recommend sizing up a size. unsure of your i+w size? <button class="link" js-size-guide-popup>click here</button></p>
+                          {% elsif product.tags contains 'denimfitsvsmall' %}
+                          <p class="info-title">we recommend going up two sizes. unsure of your i+w size? <button class="link" js-size-guide-popup>click here</button></p>
+                          {% elsif product.tags contains 'denimfitslarge' %}
+                          <p class="info-title">We recommend going down a size. unsure of your i+w size? <button class="link" js-size-guide-popup>click here</button></p>
+                          {% elsif product.tags contains 'denimfitsvlarge' %}
+                          <p class="info-title">we recommend going down two sizes. unsure of your i+w size? <button class="link" js-size-guide-popup>click here</button></p>
                           {% endif %}
                           <div class="inputs-group">
                             {%- for variant in product.variants -%}

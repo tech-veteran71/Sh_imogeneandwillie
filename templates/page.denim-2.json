@@ -8,38 +8,18 @@
     },
     "1660855727ba4b6b47": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/i_w_019208_copy.jpg",
-        "mob_img": "shopify:\/\/shop_images\/i_w_019208_copy.jpg",
+        "desk_img": "shopify:\/\/shop_images\/textures--_4-of-23.jpg",
+        "mob_img": "shopify:\/\/shop_images\/textures--_4-of-23_9b6c5d45-e45a-43c1-a533-4996fcfda179.jpg",
         "img_url": "",
         "img_width": "extra-large"
       }
     },
-    "1652456953b0a09c70": {
-      "type": "section-hero-banner",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__medium",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "mobile_hide_text": false,
-        "desk_img": "shopify:\/\/shop_images\/i_w_019208_copy.jpg",
-        "mob_img": "shopify:\/\/shop_images\/OYW_02-_1.jpg",
-        "img_url": "",
-        "main_title": "",
-        "title_font": "headline__arno",
-        "font_color": "{{ shop.brand.colors.primary[0].background }}",
-        "text": "",
-        "link_text": "",
-        "link": "#",
-        "show_button": false,
-        "show_down_arrow": false
-      }
-    },
-    "16552163722cb3e450": {
+    "1660927009247ae94a": {
       "type": "section-txt-link-btn",
       "disabled": true,
       "settings": {
@@ -48,18 +28,34 @@
         "desktop_hide": false,
         "text_align": "center",
         "pretitle": "",
-        "title": "<h3>DENIM<\/h3>",
+        "title": "shop denim",
         "title_font": "headline__arno",
-        "text": "patterned, cut, and sewn in the USA.",
+        "text": "",
         "btn_text": "",
         "btn_url": "",
         "show_button": false
       }
     },
+    "166092684020f0c971": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/Untitled-12_b9bdf159-2ea9-41b5-a4fc-4962f86a912c.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/Untitled-111.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
     "1660850161c3f9ab18": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -69,16 +65,32 @@
         "show_price": true,
         "show_badges": false,
         "title": "MEn's",
-        "main_title": "denim",
+        "main_title": "",
         "mob_title": "men's",
         "link_text": "SHOP ALL ->",
         "link_url": "shopify:\/\/collections\/men-denim"
       }
     },
+    "1660926326925bc9b5": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/Untitled-12_b824a8bf-4055-4fb2-b97f-844e152794bd.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/Untitled-11.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
     "1660850217efdd9f47": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__small",
+        "margin_bottom": "section-bottom__medium",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -96,11 +108,12 @@
     },
     "1660848301296bb44b": {
       "type": "section-image",
-      "disabled": true,
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
-        "desktop_hide": false,
+        "desktop_hide": true,
+        "desk_img": "shopify:\/\/shop_images\/our-process-header_2100x_5b704ff0-bf8b-47af-822a-15ad80572c79.jpg",
+        "mob_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-6-2_900x_b5cde254-28a2-4825-ad92-2079d9f3a6b0.webp",
         "img_url": "",
         "img_width": "full"
       }
@@ -115,7 +128,7 @@
         "pretitle": "",
         "title": "",
         "title_font": "headline__arno",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tellus at urna condimentum mattis pellentesque id nibh.",
+        "text": "every fit and every wash is the result of the people who have walked through our doors. imogene + willie will forever be shaped by the people around it.",
         "btn_text": "",
         "btn_url": "",
         "show_button": false
@@ -181,30 +194,6 @@
         "main_title": ""
       }
     },
-    "165521652877160ebd": {
-      "type": "section-video-hero",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13e2269430674c6a97577c7dae69a3ae.mp4",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13e2269430674c6a97577c7dae69a3ae.mp4",
-        "video_controls": false
-      }
-    },
-    "16552168685eb46a49": {
-      "type": "section-quote",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__medium",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "review": "“it's sunnier today. the world is as beautiful as ever.”",
-        "customer_name": "- hayao miyazaki",
-        "background_color": "rgba(0,0,0,0)"
-      }
-    },
     "16608531826ccff6ec": {
       "type": "section-diptych",
       "blocks": {
@@ -244,21 +233,33 @@
         "mobile_hide": false,
         "desktop_hide": false
       }
+    },
+    "16609277009189a3cd": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "every fit and every wash is the result of the people who have walked through our doors. imogene + willie will forever be shaped by the people around it.",
+        "customer_name": "",
+        "background_color": "transparent"
+      }
     }
   },
   "order": [
     "main",
     "1660855727ba4b6b47",
-    "1652456953b0a09c70",
-    "16552163722cb3e450",
+    "1660927009247ae94a",
+    "166092684020f0c971",
     "1660850161c3f9ab18",
+    "1660926326925bc9b5",
     "1660850217efdd9f47",
     "1660848301296bb44b",
     "1660860517b6cb3ccd",
     "1660848316b1595a55",
     "166068457332a89cc7",
-    "165521652877160ebd",
-    "16552168685eb46a49",
-    "16608531826ccff6ec"
+    "16608531826ccff6ec",
+    "16609277009189a3cd"
   ]
 }

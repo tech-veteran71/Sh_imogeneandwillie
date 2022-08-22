@@ -6,24 +6,20 @@
       "settings": {
       }
     },
-    "1652456953b0a09c70": {
-      "type": "section-hero-banner",
+    "1660929222d2a96201": {
+      "type": "section-image-video-hero",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
-        "mobile_hide_text": false,
-        "desk_img": "shopify:\/\/shop_images\/blank-crew03_1200x_1.webp",
-        "mob_img": "shopify:\/\/shop_images\/blank-crew03_1200x_1.webp",
-        "img_url": "",
-        "main_title": "",
-        "title_font": "headline__din",
-        "font_color": "#f1efe8",
-        "text": "",
-        "link_text": "",
-        "link": "#",
-        "show_button": false,
-        "show_down_arrow": false
+        "desktop_banner_img": "shopify:\/\/shop_images\/archivetee_03_1200x_a0f75d60-b1f5-4e91-8f68-91bda9eed678.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/g.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
       }
     },
     "166085241893452c0b": {
@@ -39,16 +35,32 @@
         "show_price": true,
         "show_badges": false,
         "title": "Graphic tees",
-        "main_title": "t-shirts",
+        "main_title": "",
         "mob_title": "graphic tees",
         "link_text": "shop all ->",
         "link_url": "shopify:\/\/collections\/graphic-content"
       }
     },
+    "1660930208e9a990ba": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/raglan_white03_1200x_694191b8-2657-4691-82ac-c42714330a4c.webp",
+        "mobile_banner_img": "shopify:\/\/shop_images\/men_7142eb23-de58-4304-ab86-a11b74aceaeb.jpg",
+        "img_height": false,
+        "link": "shopify:\/\/collections\/men-tshirts",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
     "1660858462d4a781b8": {
       "type": "section-product-collection-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "background_color": "#f7f6f3",
@@ -57,11 +69,44 @@
         "show_subtitle": true,
         "show_price": true,
         "show_badges": false,
-        "title": "men's",
+        "title": "men's tees",
         "main_title": "",
-        "mob_title": "men's",
+        "mob_title": "men's tees",
         "link_text": "shop all ->",
         "link_url": "shopify:\/\/collections\/men-tshirts"
+      }
+    },
+    "166093063423fd3f94": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "shop all",
+        "btn_url": "",
+        "show_button": true
+      }
+    },
+    "1660930260e05736c6": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/indigo-strip_11_1200x_baf5f31e-046a-433d-b0c0-a3f9ef28e9be.webp",
+        "mobile_banner_img": "shopify:\/\/shop_images\/women.jpg",
+        "img_height": false,
+        "link": "shopify:\/\/collections\/women-tshirts",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
       }
     },
     "16608585837715bac3": {
@@ -76,11 +121,22 @@
         "show_subtitle": true,
         "show_price": true,
         "show_badges": false,
-        "title": "Women’s new arrivals",
-        "main_title": "",
-        "mob_title": "WOMEN’s",
-        "link_text": "shop all ->",
+        "title": "women's tees",
+        "main_title": "women's tees",
+        "mob_title": "women's tees and tanks",
+        "link_text": "shop all",
         "link_url": "shopify:\/\/collections\/women-tshirts"
+      }
+    },
+    "1660931075b5659ab7": {
+      "type": "section-quote",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "as alwas, each tee is patterned, cut, and sewn in the USA by our team of ten in the i+w workshop.",
+        "customer_name": "",
+        "background_color": "transparent"
       }
     },
     "166085414439a78806": {
@@ -134,93 +190,6 @@
         "btn_text": "",
         "btn_url": "",
         "show_button": false
-      }
-    },
-    "1655213958992b57ce": {
-      "type": "section-video-hero",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "video_url": "",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0117\/3112\/files\/Graphic_Tee_Reveal-cropped.mp4?v=1655213772",
-        "video_controls": false
-      }
-    },
-    "165514446902bc731d": {
-      "type": "section-mobile-slider",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "choose_collection": "graphic-tees",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": true,
-        "show_badges": false,
-        "title": "",
-        "title_font": "headline__din",
-        "btn_text": "shop all",
-        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/graphic-tees",
-        "show_border": false
-      }
-    },
-    "16524624159b78050c": {
-      "type": "section-image-overlay-feature",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "bg_img": "shopify:\/\/shop_images\/arizonamag_-9_4fa019ee-31a8-4465-8a41-b728496eb2b9.jpg",
-        "image": "shopify:\/\/shop_images\/raglanblack_01_1200x_36a32394-9e21-48ce-96d5-ee4226a030e5.webp",
-        "image_mobile": "shopify:\/\/shop_images\/raglanblack_012-overlay.jpg",
-        "change_alignment": false,
-        "show_section_mob": false,
-        "show_section_desk": false,
-        "show_section": true,
-        "pre_title": "",
-        "title": "men's raglan",
-        "text": "our classic raglan tee was inspired by old school racing jerseys, long hours in the garage, and the days when a shirt was built to take a beating",
-        "btn_text": "shop all",
-        "link_url": "https:\/\/imogeneandwillie.com\/products\/black-knit-raglan?_pos=1&_sid=7888c4514&_ss=r"
-      }
-    },
-    "1655144689c03fdab2": {
-      "type": "section-diptych",
-      "disabled": true,
-      "blocks": {
-        "1bc0cf32-7f51-4085-adf0-25aa0b41b8de": {
-          "type": "collection_item",
-          "settings": {
-            "img_desk": "shopify:\/\/shop_images\/dune-08-edited.jpg",
-            "text_color": "#ffffff",
-            "pre_title": "pocket tees",
-            "title": "to us, a perfect tee should be three things: effortless, comfortable, and versatile... a staple of our wardrobe.",
-            "btn_text": "Shop All",
-            "link_url": "https:\/\/imogeneandwillie.com\/collections\/pocket-tees",
-            "link_text": "Pocket Tees"
-          }
-        },
-        "57b4fed8-821d-4c75-8b22-198cc43c10cf": {
-          "type": "collection_item",
-          "settings": {
-            "img_desk": "shopify:\/\/shop_images\/blank-crew11.jpg",
-            "text_color": "#ffffff",
-            "pre_title": "Core tees",
-            "title": "the second half of our uniform. everything we love is tied to a memory... even a t-shirt.",
-            "btn_text": "Shop All",
-            "link_url": "",
-            "link_text": "Core TEES"
-          }
-        }
-      },
-      "block_order": [
-        "1bc0cf32-7f51-4085-adf0-25aa0b41b8de",
-        "57b4fed8-821d-4c75-8b22-198cc43c10cf"
-      ],
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false
       }
     },
     "1652456232ae0f4c29": {
@@ -334,37 +303,23 @@
         "mobile_hide": false,
         "desktop_hide": false
       }
-    },
-    "1652456916538c32da": {
-      "type": "section-image",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__none",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "desk_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
-        "mob_img": "shopify:\/\/shop_images\/blank-crew03_1200x_76e80cff-51ea-46d8-a6bf-a9ce03bab3b8.webp",
-        "img_url": "",
-        "img_width": "large"
-      }
     }
   },
   "order": [
     "main",
-    "1652456953b0a09c70",
+    "1660929222d2a96201",
     "166085241893452c0b",
+    "1660930208e9a990ba",
     "1660858462d4a781b8",
+    "166093063423fd3f94",
+    "1660930260e05736c6",
     "16608585837715bac3",
+    "1660931075b5659ab7",
     "166085414439a78806",
-    "1655213958992b57ce",
-    "165514446902bc731d",
-    "16524624159b78050c",
-    "1655144689c03fdab2",
     "1652456232ae0f4c29",
     "16527310938cba278b",
     "1652456340537a4e71",
     "1660856142f5b3b5a5",
-    "166085454007e03f0c",
-    "1652456916538c32da"
+    "166085454007e03f0c"
   ]
 }

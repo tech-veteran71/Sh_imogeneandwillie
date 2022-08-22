@@ -32,6 +32,21 @@
         "show_button": true
       }
     },
+    "166092523169b0208b": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/Untitled-6_b9d910a1-03e0-4f2d-a6d7-56f4d72793b4.jpg",
+        "img_height": false,
+        "link": "",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
     "16601456546ca6d2eb": {
       "type": "section-product-collection-slider",
       "settings": {
@@ -51,6 +66,54 @@
         "link_url": "shopify:\/\/collections\/women-denim"
       }
     },
+    "1660146228d293e7f1": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__medium",
+        "choose_collection": "women-denim",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": false,
+        "title": "women's denim",
+        "title_font": "headline__arno",
+        "btn_text": "shop all",
+        "btn_url": "shopify:\/\/collections\/women-denim",
+        "show_border": true
+      }
+    },
+    "16609247137cb59df7": {
+      "type": "section-image-video-hero",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desktop_banner_img": "shopify:\/\/shop_images\/Untitled-7.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/Untitled-6_99c07bb2-e90e-4a4b-b576-b00f1beb645a.jpg",
+        "img_height": false,
+        "link": "shopify:\/\/collections\/men-denim",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
+        "video_controls": false
+      }
+    },
+    "16601463367b6eef7b": {
+      "type": "section-mobile-slider",
+      "settings": {
+        "margin_bottom": "section-bottom__medium",
+        "choose_collection": "men-denim",
+        "show_title": true,
+        "show_subtitle": true,
+        "show_price": true,
+        "show_badges": false,
+        "title": "men's denim",
+        "title_font": "headline__arno",
+        "btn_text": "shop all",
+        "btn_url": "shopify:\/\/collections\/men-denim",
+        "show_border": false
+      }
+    },
     "1660145718a3aa6660": {
       "type": "section-product-collection-slider",
       "settings": {
@@ -68,50 +131,6 @@
         "mob_title": "men's denim",
         "link_text": "Shop ALL ->",
         "link_url": "shopify:\/\/collections\/men-denim"
-      }
-    },
-    "16601548444288ce09": {
-      "type": "section-video-hero",
-      "disabled": true,
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": true,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0df8007d5c364635bdef6193de71d42d.mp4",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0df8007d5c364635bdef6193de71d42d.mp4",
-        "video_controls": false
-      }
-    },
-    "1660146228d293e7f1": {
-      "type": "section-mobile-slider",
-      "settings": {
-        "margin_bottom": "section-bottom__medium",
-        "choose_collection": "women-denim",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": true,
-        "show_badges": false,
-        "title": "women denim",
-        "title_font": "headline__arno",
-        "btn_text": "shop all",
-        "btn_url": "shopify:\/\/collections\/women-denim",
-        "show_border": true
-      }
-    },
-    "16601463367b6eef7b": {
-      "type": "section-mobile-slider",
-      "settings": {
-        "margin_bottom": "section-bottom__medium",
-        "choose_collection": "men-denim",
-        "show_title": true,
-        "show_subtitle": true,
-        "show_price": true,
-        "show_badges": false,
-        "title": "men's denim",
-        "title_font": "headline__arno",
-        "btn_text": "shop all",
-        "btn_url": "shopify:\/\/collections\/men-denim",
-        "show_border": false
       }
     },
     "1637735864c2bd7e13": {
@@ -138,8 +157,8 @@
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09a59ce507e4999beb5fa14e7ab236c.mp4",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f09a59ce507e4999beb5fa14e7ab236c.mp4",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae81a0f581ed45f0a544aa9de821c84e.mp4",
+        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae81a0f581ed45f0a544aa9de821c84e.mp4",
         "video_controls": false
       }
     },
@@ -163,67 +182,26 @@
         "btn_url": "shopify:\/\/collections\/graphic-content"
       }
     },
-    "1651088625b53b1bea": {
-      "type": "section-content-spec-collection",
-      "disabled": true,
-      "blocks": {
-        "592271cd-9a9d-4355-8d3a-df3d37d9886a": {
-          "type": "collection",
-          "settings": {
-            "collection": "willie"
-          }
-        },
-        "3628749d-631f-4cf8-8903-ee660c0b8ab4": {
-          "type": "collection",
-          "settings": {
-            "collection": "henry"
-          }
-        },
-        "d11e1491-d409-4daa-ac29-28827b630867": {
-          "type": "collection",
-          "settings": {
-            "collection": "barton-slim"
-          }
-        },
-        "f94afc27-cf54-44df-ae41-297c965ee12f": {
-          "type": "collection",
-          "settings": {
-            "collection": "charlie"
-          }
-        }
-      },
-      "block_order": [
-        "592271cd-9a9d-4355-8d3a-df3d37d9886a",
-        "3628749d-631f-4cf8-8903-ee660c0b8ab4",
-        "d11e1491-d409-4daa-ac29-28827b630867",
-        "f94afc27-cf54-44df-ae41-297c965ee12f"
-      ],
-      "settings": {
-        "margin_bottom": "section-bottom__large",
-        "mobile_hide": false,
-        "desktop_hide": false,
-        "pre_title": "",
-        "title": "men's styles",
-        "title_font": "headline__arno",
-        "btn_text": "Shop All",
-        "btn_url": ""
-      }
-    },
-    "1660077585067278a1": {
-      "type": "section-video-hero",
+    "1660923388ac8646a4": {
+      "type": "section-image-video-hero",
       "settings": {
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8cd7399bad8e4b77913a821fae554002.mp4",
-        "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dc114ca299904fd6ba4464018b30da5b.mp4",
+        "desktop_banner_img": "shopify:\/\/shop_images\/spring-vibes13.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/spring-vibes13_a982a15e-1f23-4f01-9e08-0b6e7a1ec320.jpg",
+        "img_height": false,
+        "link": "shopify:\/\/pages\/nashville",
+        "add_video": false,
+        "video_url": "",
+        "mobile_video_url": "",
         "video_controls": false
       }
     },
     "1649347110c702605f": {
       "type": "section-txt-link-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -231,7 +209,7 @@
         "title": "our home",
         "title_font": "h1",
         "text": "our flagship store, housed inside the old granny white service station. located in the heart of 12 South – a lovely little neighborhood we are honored to call home.",
-        "btn_text": "continue reading →",
+        "btn_text": "more info →",
         "btn_url": "shopify:\/\/pages\/nashville",
         "show_button": false
       }
@@ -324,11 +302,11 @@
         "0d445b66-b6b3-4d8e-8717-aecb3adfc800"
       ],
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "title": "recent moments \/\/",
-        "btn": "explore more",
+        "btn": "explore",
         "url": "shopify:\/\/pages\/recent-moments"
       }
     },
@@ -379,16 +357,16 @@
   "order": [
     "16600824508568810e",
     "16493441673bde7dd8",
+    "166092523169b0208b",
     "16601456546ca6d2eb",
-    "1660145718a3aa6660",
-    "16601548444288ce09",
     "1660146228d293e7f1",
+    "16609247137cb59df7",
     "16601463367b6eef7b",
+    "1660145718a3aa6660",
     "1637735864c2bd7e13",
     "16601472139560bdbb",
     "16493477614696a5fd",
-    "1651088625b53b1bea",
-    "1660077585067278a1",
+    "1660923388ac8646a4",
     "1649347110c702605f",
     "1657045274b79dc7bf",
     "1649345031dfcd3b10",
