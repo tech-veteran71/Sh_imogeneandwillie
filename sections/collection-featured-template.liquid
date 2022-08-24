@@ -115,7 +115,7 @@
             </ul>
             <ul id="product-grid" data-id="{{ section.id }}" class="collection-grid collection-grid--3">
               {%- paginate collection.products by lastProductGridCount -%}
-              {%- for product in collection.products -%}
+              {%- for product in collection.products offset: 16 -%}
                 <li class="product-card">
                   {% render 'product-card',
                       product: product,

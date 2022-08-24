@@ -2805,8 +2805,8 @@ header .sub-menu-link {
 }
 .header .mega_menu-list-outer-wrap {
   display: flex;
-  max-width: 30%;
-  flex: 30%;
+  max-width: 50%;
+  flex: 50%;
   position: relative;
 }
 .header .mega_menu-inner-wrap {
@@ -2822,8 +2822,8 @@ header .sub-menu-link {
   flex: 1;
 }
 .header .mega_menu-product-item {
-  max-width: 33.33%;
-  flex: 33.33%;
+  max-width: 100%;
+  flex: 100%;
   min-height: 35rem;
   height: 0.1rem;
   display: none;
@@ -3243,8 +3243,8 @@ header .sub-menu-link {
     padding: 2rem 8rem;
   }
   .header .mega_menu-product-wrap {
-    flex: 68%;
-    max-width: 68%;
+    flex: 50%;
+    max-width: 50%;
     justify-content: flex-end;
   }
   .header .mega_menu-row {
@@ -3252,14 +3252,12 @@ header .sub-menu-link {
     align-items: flex-start;
   }
   .header .mega_menu-list-outer-wrap {
-    max-width: 30%;
-    flex: 30%;
+    max-width: 50%;
+    flex: 50%;
     margin-top: 9rem;
   }
   .header .mega_menu-product-item {
     min-height: 48rem;
-    max-width: 28%;
-    flex: 28%;
   }
   .header .mega_menu-list .mega_menu-item {
     margin-bottom: 0.8rem;

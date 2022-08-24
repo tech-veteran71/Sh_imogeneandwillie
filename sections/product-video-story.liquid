@@ -11,18 +11,11 @@
           {% if section.settings.wrap_title != blank %}
             <h3 class="wrap-title">{{ section.settings.wrap_title }}</h3>
           {% endif %}
-          {% if section.settings.title != blank%}
+          {% comment %} {% if section.settings.title != blank%}
             <h3 class="title mobile-title">{{ section.settings.title }}</h3>
-          {% endif %}
+          {% endif %} {% endcomment %}
           {% if section.settings.top_text != blank %}
             <h2 class="mobile-hide">{{ section.settings.top_text }}</h2>
-          {% endif %}
-          {% if section.settings.btn != blank  %}
-            <div class="btn-wrap desktop-hide">
-              <span class="read-more">
-                <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn }}</a>
-              </span>
-            </div>
           {% endif %}
          </div>
          <div class="info">
@@ -30,7 +23,7 @@
           <p class="text">{{ section.settings.bottom_text }}</p>
         {% endif %}
         {% if section.settings.btn != blank  %}
-          <div class="btn-wrap mobile-hide">
+          <div class="btn-wrap">
             <span class="read-more">
               <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn }}</a>
             </span>

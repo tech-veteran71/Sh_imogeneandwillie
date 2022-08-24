@@ -6,7 +6,7 @@
         "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desktop_banner_img": "shopify:\/\/shop_images\/HELLCATS_02_117f18b0-1d8b-4879-bc82-6fe82f9dd741.jpg",
+        "desktop_banner_img": "shopify:\/\/shop_images\/HELLCATS_02_94d9aff0-cbee-4e0d-a08f-ec59d9efc8dd.jpg",
         "mobile_banner_img": "shopify:\/\/shop_images\/HELLCATS_02_b69cfd43-67fe-467f-a25d-34ddea909a59.jpg",
         "img_height": false,
         "link": "shopify:\/\/products\/the-hellcats-tee",
@@ -38,7 +38,8 @@
         "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
-        "desktop_banner_img": "shopify:\/\/shop_images\/Untitled-6_b9d910a1-03e0-4f2d-a6d7-56f4d72793b4.jpg",
+        "desktop_banner_img": "shopify:\/\/shop_images\/1_a9c050ae-2201-4b2c-93ea-c56fbda326de.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/1_15afe1d7-831e-4de7-8e03-02428e304be3.jpg",
         "img_height": false,
         "link": "",
         "add_video": false,
@@ -238,7 +239,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/13-year-anniversary-1.jpg",
             "title": "7.22.22",
-            "link": "https:\/\/imogeneandwillie.com\/pages\/indigo-studio-tee-13-yr"
+            "link": "shopify:\/\/pages\/indigo-studio-tee-13-yr"
           }
         },
         "bef734f5-df71-4de0-8fb3-5cea9cbed20d": {
@@ -246,7 +247,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/julyfourthtumbnail.png",
             "title": "07.04.22",
-            "link": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa"
+            "link": "shopify:\/\/pages\/made-in-usa"
           }
         },
         "98cb0948-a256-4e2d-961b-5f2aa735956c": {
@@ -254,7 +255,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/white-drop-tee10_6fa9c02c-fd83-45ab-a307-3ef931912043.jpg",
             "title": "06.28.22",
-            "link": "https:\/\/imogeneandwillie.com\/pages\/all-i-w-tees-lost-studio"
+            "link": "shopify:\/\/pages\/all-i-w-tees-lost-studio"
           }
         },
         "43606301-8d9b-478b-9964-0b0f5139bb0b": {
@@ -278,7 +279,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/dirty_dozen_01_1200x_1a748078-d63a-477b-860a-7512dd7fb102_1200x_1.webp",
             "title": "03.15.22",
-            "link": "https:\/\/imogeneandwillie.com\/pages\/the-ides"
+            "link": "shopify:\/\/pages\/the-ides"
           }
         },
         "0d445b66-b6b3-4d8e-8717-aecb3adfc800": {
@@ -286,7 +287,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/washbabywash__4_of_19_600x_8d0fb665-17c3-464c-b84f-76034a5ce735.webp",
             "title": "01.01.22",
-            "link": "https:\/\/imogeneandwillie.com\/pages\/one-year-wear"
+            "link": "shopify:\/\/pages\/one-year-wear"
           }
         }
       },

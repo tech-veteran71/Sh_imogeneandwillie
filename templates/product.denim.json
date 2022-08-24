@@ -85,12 +85,11 @@
     },
     "1652199612f01388e0": {
       "type": "product-video-story",
-      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/wyatt-bleach_02.jpg",
         "title": "file under: process",
         "wrap_title": "patterned, cut, and sewn in the USA",
-        "top_text": "",
+        "top_text": "test top text",
         "bottom_text": "in addition to making it all right here, everything we've ever produced has been made via small–batch production, which helps us make clothing with intention, and in turn, helps us avoid creating unnecessary waste, and just as importantly, helps us keep focus on appreciating every person who helps us make these garments.",
         "link_text": "learn more >",
         "btn_url": "shopify:\/\/pages\/the-process",

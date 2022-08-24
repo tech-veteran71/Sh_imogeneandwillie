@@ -185,7 +185,11 @@
                       <fieldset class="js product-form__input">
                         <div class="legend-wrap" data-variant-box>
                           <legend class="form__label" data-form-label>
+                            {% if product.type == "Gift Card" %}
+                            <span data-label-closed>SELECT AMOUNT</span> 
+                            {% else %}
                             <span data-label-closed>SELECT A SIZE</span> 
+                            {% endif %}
                             {% if product.tags contains 'truetosize' %}
                               <span style="display: none" data-label-open>FITS TRUE TO SIZE</span>
                             {% elsif product.tags contains 'fitssmall' %}
@@ -253,7 +257,7 @@
                             {% endunless %}
                           {%- endfor -%}
                           {% if show_bis %}
-                            {% unless product.tags contains 'inconsistentstock' %}
+                            {% unless product.tags contains 'inconsistentstock' or product.type == 'Gift Card' %}
                           <a class="klaviyo-bis-trigger" style="display: block !important;" href="#">notify me when my size is in stock</a>
                             {% endunless %}
                           {% endif %}
@@ -361,10 +365,13 @@
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
-                    {% if product.tags contains 'final-sale' %}
+                    {% if product.tags contains 'final sale' %}
                     <span class="sale-details">{{ section.settings.sale_details }}</span>
                     {% endif %}
                   </div>
+                  {% if product.tags contains 'final sale' %}
+                    <input type="hidden" id="tags" value="FINAL SALE" name="properties[Product]">
+                  {% endif %}
                 {%- endform -%}
               </product-form>
             </div>

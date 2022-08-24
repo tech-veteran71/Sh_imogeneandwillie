@@ -137,9 +137,6 @@
   .video-section .beta {
     height: 39.5rem
   }
-  .video-section .wrap-title {
-    font-size: 4rem;
-  }
   .video-section .wrapper::after {
     bottom:  11%;
   }
@@ -150,7 +147,11 @@
     font-size: 1.2rem;
   }
 }
-@media (max-width: 991px){
+@media (max-width: 989px){
+  .video-section .info {
+    background-color: transparent;
+    margin-top: 0;
+  }
   h2.mobile-hide {
     display: none;
   }
@@ -162,9 +163,6 @@
   }
   .video-section .btn-wrap.desktop-hide {
     display: flex;
-  }
-  .video-section .title {
-    display: none;
   }
   .video-section .title.mobile-title {
     display: block;
@@ -189,7 +187,10 @@
     margin-bottom: 3.8rem;
   }
   .video-section .wrap-title {
-    display: none;
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
   }
   .video-section .wrapper::after {
     display: none;
