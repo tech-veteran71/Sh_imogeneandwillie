@@ -604,7 +604,9 @@
     ]
   }
 </script>
+{% unless product.type == 'Gift Card'%}
 {% render 'klaviyo-bis', product: product %}
+{% endunless %}
 {% schema %}
 {
   "name": "t:sections.main-product.name",

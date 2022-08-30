@@ -267,7 +267,6 @@
           },
           "967c8086-0669-41b7-8baa-8ced1df77988": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "select_menu": "footer-desktop-pt2"
             }

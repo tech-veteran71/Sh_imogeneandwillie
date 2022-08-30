@@ -7,7 +7,7 @@
         "mobile_hide": false,
         "desktop_hide": false,
         "desktop_banner_img": "shopify:\/\/shop_images\/HELLCATS_02_94d9aff0-cbee-4e0d-a08f-ec59d9efc8dd.jpg",
-        "mobile_banner_img": "shopify:\/\/shop_images\/HELLCATS_02_b69cfd43-67fe-467f-a25d-34ddea909a59.jpg",
+        "mobile_banner_img": "shopify:\/\/shop_images\/Untitled-2_73ea224f-cefd-4a48-b74e-0b1c43686cf2.jpg",
         "img_height": false,
         "link": "shopify:\/\/products\/the-hellcats-tee",
         "add_video": false,
@@ -19,7 +19,7 @@
     "16493441673bde7dd8": {
       "type": "section-txt-link-btn",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "text_align": "center",
@@ -102,7 +102,7 @@
     "16601463367b6eef7b": {
       "type": "section-mobile-slider",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__small",
         "choose_collection": "men-denim",
         "show_title": true,
         "show_subtitle": true,
@@ -137,7 +137,7 @@
     "1637735864c2bd7e13": {
       "type": "section-brand-promise",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "reverse_order": true,
@@ -148,7 +148,7 @@
         "title_font": "headline__din",
         "text": "while we watch more and more companies move overseas to make their clothes cheaper and faster, we remain steadfast and stubbornly committed to making all of our clothing here in the united states of america",
         "btn_text": "LEARN MORE ->",
-        "link_url": "https:\/\/imogeneandwillie.com\/pages\/made-in-usa",
+        "link_url": "shopify:\/\/pages\/made-in-usa",
         "show_link": true
       }
     },
@@ -314,7 +314,7 @@
     "1649345031dfcd3b10": {
       "type": "section-quote",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__small",
         "mobile_hide": false,
         "desktop_hide": false,
         "review": "\"i fell in love, not with anything or anybody in particular but with everything.\"",
@@ -337,7 +337,7 @@
     "16599943395aa45761": {
       "type": "section-collection-grid",
       "settings": {
-        "margin_bottom": "section-bottom__medium",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "choose_collection": "top-picks",

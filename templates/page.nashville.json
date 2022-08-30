@@ -17,19 +17,20 @@
         "99d73b96-7c5b-4768-a33f-d0b087cdce19": {
           "type": "shop_timing",
           "settings": {
-            "days": "monday – thursday",
-            "timing": "11:00am – 5:00pm"
+            "days": "monday – saturday",
+            "timing": "10:00am – 6:00pm"
           }
         },
         "f1b6afc8-fa21-4c2c-8f49-cfd0701eb0f4": {
           "type": "shop_timing",
           "settings": {
-            "days": "friday – saturday",
-            "timing": "10:00am – 5:00pm"
+            "days": "sunday",
+            "timing": "12:00pm – 5:00pm"
           }
         },
         "ecf164f5-2b40-429b-88e8-04fa8cd581a8": {
           "type": "shop_timing",
+          "disabled": true,
           "settings": {
             "days": "sunday",
             "timing": "12:00pm – 5:00pm"
@@ -39,7 +40,7 @@
           "type": "shop_detials",
           "settings": {
             "title": "address:",
-            "text": "<span>2601 12th avenue south<\/span>\n<span>nashville, tennessee 37204<\/span>"
+            "text": "<span>2601 12th avenue south<\/span>\n<span>nashville, tennessee<\/span>"
           }
         },
         "8bb65877-6ba7-4494-8a47-d7c69504e1a8": {

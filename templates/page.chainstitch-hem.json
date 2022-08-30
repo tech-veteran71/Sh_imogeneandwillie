@@ -9,7 +9,7 @@
     "1657140914eed4ca4c": {
       "type": "section-image",
       "settings": {
-        "margin_bottom": "section-bottom__large",
+        "margin_bottom": "section-bottom__none",
         "mobile_hide": false,
         "desktop_hide": false,
         "desk_img": "shopify:\/\/shop_images\/IMG_8734.jpg",

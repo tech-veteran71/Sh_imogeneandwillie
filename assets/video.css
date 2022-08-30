@@ -166,7 +166,12 @@
   }
   .video-section .title.mobile-title {
     display: block;
-    font-size: 1.8rem;
+    font-size: 2.6rem;
+    letter-spacing: 0.26rem;
+    font-family: var(--font-arno-display);
+    font-weight: normal;
+    line-height: 1;
+    font-weight: normal;
     margin-bottom: 2.6rem;
   }
   .video-section .wrapper {

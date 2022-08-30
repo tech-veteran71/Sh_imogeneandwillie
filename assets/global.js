@@ -3281,12 +3281,15 @@ customElements.define("ajax-cart", AjaxCart);
   // size guide popup
   const sizeGuidePopUp = document.querySelector(".size-guide-popup");
   if (sizeGuidePopUp) {
-    const popUpButton = document.querySelector("[js-size-guide-popup]");
+    const popUpButton = document.querySelectorAll("[js-size-guide-popup]");
     const popUpCloseButton = sizeGuidePopUp.querySelectorAll("[js-popup-close]");
     const imgWrap = sizeGuidePopUp.querySelector("[js-img-wrap]");
     const popUpHeader = sizeGuidePopUp.querySelector("[js-popup-header]");
 
-    popUpButton.addEventListener('click', handlePopup);
+    // popUpButton.addEventListener('click', handlePopup);
+    popUpButton.forEach( button => {
+      button.addEventListener('click', handlePopup);
+    })
     popUpCloseButton.forEach( item => {
       item.addEventListener('click', handlePopUpClose);
     })
