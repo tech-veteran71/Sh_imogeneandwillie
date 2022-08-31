@@ -234,6 +234,7 @@
   .footer-container .column {
     max-width: 100%;
     flex: 100%;
+    order: 3;
   }
   .footer-container .logo-wrap {
     max-width: 22rem;
@@ -261,7 +262,8 @@
   .custom-footer .footer-menu {
     padding-top: 0;
     flex-wrap: wrap;
-    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    order: 2;
   }
   .custom-footer .menu-column {
     max-width: 100%;
@@ -285,7 +287,8 @@
     max-width: 100%;
     flex: 100%;
     padding: 0;
-    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    order: 1;
   }
   .custom-footer .icon-skip {
     max-width: 1.2rem;

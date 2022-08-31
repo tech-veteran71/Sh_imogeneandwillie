@@ -66,10 +66,10 @@
             <button class="ajaxcart__save-note button button--outline" :class="{ loading: loading.cart }" @click.prevent="updateCartNote">SAVE NOTE</button>
           </div>
           <div class="ajaxcart__subtotal">
-            <div class="ajaxcart__subtotal-row">
+            {% comment %} <div class="ajaxcart__subtotal-row">
               <p class="ajaxcart__subtotal-title">shipping</p>
               <p class="ajaxcart__subtotal-price">free</p>
-            </div><!--.ajaxcart__subtotal-row -->
+            </div><!--.ajaxcart__subtotal-row --> {% endcomment %}
             <div class="ajaxcart__subtotal-row">
               <p class="ajaxcart__subtotal-title">subtotal</p>
               <p class="ajaxcart__subtotal-price">${ formatMoney(cart.total_price) }</p>
@@ -79,7 +79,7 @@
           <button type="submit" class="ajaxcart__checkout button button--large" name="checkout">
             CHECKOUT
           </button>
-          <p class="ajaxcart__disclaimer">free shipping & returns on us orders</p>
+          <p class="ajaxcart__disclaimer">free shipping on us orders over $100</p>
         </footer>
       </form><!-- .ajaxcart__content -->
       <div v-else class="ajaxcart__loading-skeleton">

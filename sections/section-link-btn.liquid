@@ -1,0 +1,80 @@
+{{ 'section-txt-link-btn.css' | asset_url | stylesheet_tag }}
+<div class="btn-link {% if section.settings.mobile_hide %}mobile-hide{% endif %} {% if section.settings.desktop_hide %}desktop-hide{% endif %} {{ section.settings.margin_bottom }}">
+  <div class="index-container">
+    <div class="wrapper center">
+      {% if section.settings.btn_text != blank %}
+        <a  href="{{ section.settings.btn_url}}"  class="button-wrap">
+          <span class="{% if section.settings.show_button %}button button--outline{% else %}button--link{% endif %}">{{ section.settings.btn_text }}</span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "LINK/BTN",
+  "settings":[
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "options": [
+        {
+          "value": "section-bottom__none",
+          "label": "0px"
+        },
+        {
+          "value": "section-bottom__small",
+          "label": "25px"
+        },
+        {
+          "value": "section-bottom__medium",
+          "label": "50px"
+        },
+        {
+          "value": "section-bottom__large",
+          "label": "100px"
+        }
+      ],
+      "default": "section-bottom__large"
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_hide",
+      "label": "Hide on Desktop",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Content",
+      "info": "-------"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button Instead of Link"
+    }
+  ],
+  "presets":[
+    {
+      "name": "LINK/BTN"
+    }
+  ]
+}
+{% endschema %}

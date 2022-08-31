@@ -2657,8 +2657,8 @@ customElements.define("ajax-cart", AjaxCart);
     
     menuDrawerItem.forEach( item => {
       item.addEventListener('click', function(){
-        this.classList.toggle('active');
-        this.nextElementSibling.classList.toggle('active');
+        this.classList.toggle('inactive');
+        this.nextElementSibling.classList.toggle('inactive');
       })
     })
 
