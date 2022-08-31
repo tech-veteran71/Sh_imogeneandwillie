@@ -12,6 +12,8 @@
     "page_width": "1200",
     "predictive_search_enabled": false,
     "favicon": "shopify:\/\/shop_images\/Untitled-2_copy.jpg",
+    "shipping_threshold_enabled": true,
+    "shipping_threshold": "10000",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -284,7 +286,7 @@
         "settings": {
           "newsletter_title": "JOIN THE I+W MAILING LIST",
           "newsletter_text": "stay up-to-date on new releases and community events by joining the i+w mailing list",
-          "text": "2601 12th ave s nashville, tn 37204",
+          "text": "made in the USA.",
           "copyright_text": "© 2022 imogene + willie"
         }
       },

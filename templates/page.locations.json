@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16618869544cea302c": {
+      "type": "section-symmetric-content",
+      "blocks": {
+        "590c0e30-1ef8-490b-9a2d-322f35c3e55f": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/nashville03.jpg",
+            "title": "NASHVILLE",
+            "title_font": "headline__din",
+            "text": "2601 12th ave S nasville, tn",
+            "link_text": "See more ->",
+            "link_url": "shopify:\/\/pages\/nashville",
+            "use_btn": false
+          }
+        },
+        "1ca40d48-ac0b-467e-ac03-4523f9378872": {
+          "type": "fabric_info",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/MGL8551.-2jpg.jpg",
+            "title": "AUSTIN",
+            "title_font": "headline__din",
+            "text": "1401 s. congress ave austin, tx",
+            "link_text": "See More ->",
+            "link_url": "shopify:\/\/pages\/austin",
+            "use_btn": false
+          }
+        }
+      },
+      "block_order": [
+        "590c0e30-1ef8-490b-9a2d-322f35c3e55f",
+        "1ca40d48-ac0b-467e-ac03-4523f9378872"
+      ],
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "main_title": "LOCATIONS"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16618869544cea302c"
+  ]
+}

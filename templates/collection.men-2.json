@@ -1,11 +1,72 @@
 {
   "sections": {
+    "1661889495999c982a": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
     "banner": {
       "type": "collection-banner",
       "settings": {
         "desk_bg_img": "shopify:\/\/shop_images\/jan_18_edit__4_of_19.png",
         "mob_bg_img": "shopify:\/\/shop_images\/imogene-and-willie--the-process--img-1-2_ff82da04-344e-464c-88e9-e3614c7e5016.jpg",
         "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt abore"
+      }
+    },
+    "166188917106c14f31": {
+      "type": "section-content-spec-collection",
+      "blocks": {
+        "5994fd9d-7210-4ee0-a1b4-e3f6cb47dc08": {
+          "type": "collection",
+          "settings": {
+            "collection": "willie"
+          }
+        },
+        "8106fd4c-98db-4cfb-bdf2-4d38e3259722": {
+          "type": "collection",
+          "settings": {
+            "collection": "henry"
+          }
+        },
+        "e56a897a-5e72-43b1-a58b-7a504cc9b545": {
+          "type": "collection",
+          "settings": {
+            "collection": "charlie"
+          }
+        },
+        "22670fb0-a7fe-4e2e-80c8-289689a5c679": {
+          "type": "collection",
+          "settings": {
+            "collection": "barton-slim"
+          }
+        }
+      },
+      "block_order": [
+        "5994fd9d-7210-4ee0-a1b4-e3f6cb47dc08",
+        "8106fd4c-98db-4cfb-bdf2-4d38e3259722",
+        "e56a897a-5e72-43b1-a58b-7a504cc9b545",
+        "22670fb0-a7fe-4e2e-80c8-289689a5c679"
+      ],
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "pre_title": "( men's denim )",
+        "title": "FIT GUIDE",
+        "title_font": "headline__din",
+        "btn_text": "",
+        "btn_url": ""
       }
     },
     "1644301425923d1574": {
@@ -18,7 +79,9 @@
     }
   },
   "order": [
+    "1661889495999c982a",
     "banner",
+    "166188917106c14f31",
     "1644301425923d1574"
   ]
 }
