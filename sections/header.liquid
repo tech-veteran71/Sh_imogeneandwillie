@@ -167,7 +167,7 @@
                                           {{ childlink.title | escape }}
                                         </a>
                                       {%- else -%}
-                                          <span class="menu-drawer__menu-item link link--text list-menu__item focus-inset child-menu-item active" data-child-item>
+                                          <span class="menu-drawer__menu-item link link--text list-menu__item focus-inset child-menu-item {% if link.title == 'men' or link.title == 'women' %}active active--reversed{% else %}active{% endif %}" data-child-item>
                                             <span>{{ childlink.title | escape }}</span>
                                             <div class="close-menu-item">
                                               {% render 'down-chevron' %}
@@ -176,7 +176,7 @@
                                               {% render 'minus-icon' %}
                                             </div>
                                           </span>
-                                          <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu motion-reduce grand-child-list-wrap active">
+                                          <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu motion-reduce grand-child-list-wrap {% if link.title == 'men' or link.title == 'women' %}active active--reversed{% else %}active{% endif %}">
                                             <ul class="menu-drawer__menu list-menu grand-child-list" role="list" tabindex="-1">
                                               {%- for grandchildlink in childlink.links -%}
                                                 <li>

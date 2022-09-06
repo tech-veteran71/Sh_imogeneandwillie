@@ -2988,6 +2988,24 @@ header .sub-menu-link {
 #menu-drawer .child-menu-item.inactive .open-menu-item {
   display: none;
 }
+#menu-drawer .grand-child-list-wrap.active--reversed {
+  display: none;
+}
+#menu-drawer .child-menu-item.active--reversed .close-menu-item {
+  display: block;
+}
+#menu-drawer .child-menu-item.active--reversed .open-menu-item {
+  display: none;
+}
+#menu-drawer .grand-child-list-wrap.active--reversed.inactive {
+  display: block;
+}
+#menu-drawer .child-menu-item.active--reversed.inactive .close-menu-item {
+  display: none;
+}
+#menu-drawer .child-menu-item.active--reversed.inactive .open-menu-item {
+  display: block;
+}
 #menu-drawer .text {
   font-size: 2.4rem;
   font-family: var(--font-arno-display);
