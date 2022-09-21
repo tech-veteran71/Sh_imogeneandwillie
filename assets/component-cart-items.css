@@ -138,6 +138,7 @@ cart-remove-button .button:not([disabled]):focus-visible {
 cart-remove-button .icon-remove {
   height: 1.5rem;
   width: 1.5rem;
+  color: white;
 }
 
 .cart-item .loading-overlay {

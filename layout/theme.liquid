@@ -197,5 +197,12 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Nppn7z"></script>
+    <script src="https://unpkg.com/@loophq/onstore-sdk@latest/dist/loop-onstore-sdk.js"></script>
+    <script> 
+    	LoopOnstore.init({ 
+    		key: "9bf46f870b0ea110fdd7d5a8e184dbf82f3fb271", 
+    		attach: ".ajaxcart__checkout, .cart__checkout-button" 
+    	});
+    </script>
   </body>
 </html>
