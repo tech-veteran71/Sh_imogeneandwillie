@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1663602279db8a4c71": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/3arizonamag_-10.jpg",
+        "mob_img": "shopify:\/\/shop_images\/1arizonamag_-10.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "1663601641788fc3b8": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "we're here to help!",
+        "title_font": "headline__arno",
+        "text": "<p>for any questions about fit, sizing, product info, or information pertaining to your order — feel free to reach out to us.<\/p>   <br>    <h5 style=\"text-align:center;\">     <a href=\"mailto:help@imogeneandwillie.com\" class=\"button-wrap navigable\" data-open-accessibility-text-original=\"12px\" style=\"font-size: 12px;\"> <span class=\"button button--outline\"> email us<\/span><\/a>   <br>  <button class=\"button button--outline\" navigable data-open-accessibility-text-original=\"12px\" style=\"font-size: 12px;\" onclick=\"Chatra('openChat', true)\">Chat with us<\/button> <br> <a href=\"tel:6157395286\" class=\"button-wrap navigable\" data-open-accessibility-text-original=\"12px\" style=\"font-size: 12px;\"> <span class=\"button button--outline\"> give us a call<\/span><\/a>   <br>  <\/h5>     <br><br>  <h4 style=\"text-align:center;\">Customer Service Hours<\/h4> <p style=\"text-align:center;\">Monday–Saturday 9:00am–6:00pm CST <br> Sunday 12:00am-6:00pm CST<\/p>",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1663602279db8a4c71",
+    "1663601641788fc3b8"
+  ]
+}

@@ -40,55 +40,55 @@
           "911af869-2047-4ce4-8ad0-7bf06818c8b9": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/w1.jpg",
-              "product_url": "shopify:\/\/products\/the-vintage-tank-in-washed-white",
-              "product_title": "the vintage tank in washed white",
-              "product_description": "patterned, cut, and sewn in the USA"
+              "product_image": "shopify:\/\/shop_images\/hellfiresock_001_1200x_b693fc07-5705-4dc8-9ff3-1bd03c4dfad0.webp",
+              "product_url": "shopify:\/\/products\/the-hellfire-sock",
+              "product_title": "the \"hellfire\" sock",
+              "product_description": "made in the USA"
             }
           },
           "0d1a2039-9ba0-4023-9460-a636741b3ded": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/w2.jpg",
-              "product_url": "shopify:\/\/products\/handwoven-sierra-palm-hat",
-              "product_title": "handwoven \"sierra\" palm hat",
-              "product_description": "formed and crafted by hand"
+              "product_image": "shopify:\/\/shop_images\/isabelle-paseo_07_1200x_88dfa499-345e-405d-9aab-d2ed1ca9eb62.webp",
+              "product_url": "shopify:\/\/products\/isabelle-paseo",
+              "product_title": "isabelle paseo",
+              "product_description": "high rise, straight leg"
             }
           },
           "f03cc262-7b91-45be-8361-ad40596bd9fd": {
             "type": "mega_menu_women",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/w3.jpg",
-              "product_url": "shopify:\/\/products\/augusta-washed-white-canvas",
-              "product_title": "augusta washed white canvas",
-              "product_description": "American-made Mount Vernon Mills 12oz cotton canvas"
+              "product_image": "shopify:\/\/shop_images\/roundup01_1200x_649b1884-142e-43a1-8812-91882874029a.webp",
+              "product_url": "shopify:\/\/products\/the-round-up-tee",
+              "product_title": "the \"roundup\" tee",
+              "product_description": "100% cotton"
             }
           },
           "3815b5f7-3f28-4a79-9ca5-336595da5ead": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/m1.jpg",
-              "product_url": "shopify:\/\/products\/the-camp-short-fatigue-green",
-              "product_title": "the camp short in olive",
-              "product_description": "made in the USA"
+              "product_image": "shopify:\/\/shop_images\/racer01_1200x_e7a712fd-e2b6-4a1a-9ae5-77fd3c4fb5d2.webp",
+              "product_url": "shopify:\/\/products\/the-racing-tee",
+              "product_title": "the \"racing\" tee",
+              "product_description": "100% cotton"
             }
           },
           "565f0e16-3662-4f56-8c28-cf218a3fb4d1": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/m2.jpg",
+              "product_image": "shopify:\/\/shop_images\/willie_01_1200x_f706737e-8025-48bd-9c89-932a24c82287.webp",
               "product_url": "shopify:\/\/products\/the-well-wishes-tee",
-              "product_title": "the \"well wishes\" tee",
-              "product_description": "100% cotton"
+              "product_title": "willie indigo rigid usa lot 3",
+              "product_description": "13.5oz Vidalia Mills selvage denim"
             }
           },
           "9604c633-37fa-4ce1-bd8b-bf9de49548f4": {
             "type": "mega_menu_men",
             "settings": {
-              "product_image": "shopify:\/\/shop_images\/m3.jpg",
-              "product_url": "shopify:\/\/products\/earl-plaid-in-platte",
-              "product_title": "earl plaid in platte",
-              "product_description": "3.8oz Japanese lightweight plaid"
+              "product_image": "shopify:\/\/shop_images\/racersock_001_1200x_ce79add5-a189-47f9-8d19-3d11615f47a0.jpg",
+              "product_url": "shopify:\/\/products\/the-speedway-sock",
+              "product_title": "the \"speedway\" sock",
+              "product_description": "made in the USA"
             }
           },
           "4cc22847-de5f-48cd-9ae3-3e176610939b": {
@@ -368,6 +368,12 @@
         "type": "order-template",
         "settings": {
           "bg_img": "shopify:\/\/shop_images\/june-28_050.png"
+        }
+      },
+      "account-addresses": {
+        "type": "account-addresses",
+        "settings": {
+          "bg_img": "shopify:\/\/shop_images\/june-28_050.webp"
         }
       }
     },

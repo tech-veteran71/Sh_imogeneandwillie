@@ -1,0 +1,342 @@
+{
+  "sections": {
+    "1657140914eed4ca4c": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/6e304128-36d0-adb0-514a-34f57b4c96a1.gif",
+        "mob_img": "shopify:\/\/shop_images\/6e304128-36d0-adb0-514a-34f57b4c96a1.gif",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/vidalia-mills-lot-3",
+        "img_width": "large"
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__din",
+        "text": "in the three years since we released the first jeans sewn from Vidalia Mills denim, the team at Vidalia has been hard at work. tirelessly refining their process to further their commitment to their original mission: to make the best selvage denim possible. <br><br>they took it upon themselves to spin a superior open-ended yarn in-house, for the weft of the selvage fabric. this new yarn would be stronger, more reliable, and ensure a more steadfast and resilient structure throughout the denim. <br><br>not only are they continuing to weave all of their selvage denim on antique draper X3 looms, but they've continued to restore additional draper looms, and work every day to make sure each loom is operating with perfect precision. <br><br>and finally, the team has installed and calibrated an in-house finishing range that improves the final quality of their denim across the board. <br><br> last week we got to visit and see the entire operation in person once again. it's truly inspiring to see the amount of care they've put into what they make, and how that care manifests itself in the final product. <br><br>today we're excited to announce the newest release from Vidalia Denim Mills . . .<br><br>the best denim they've made yet.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1659631772fb9a5734": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/vd_03.jpg",
+        "mob_img": "shopify:\/\/shop_images\/vd_03.jpg",
+        "img_url": "shopify:\/\/collections\/vidalia-mills-lot-3",
+        "img_width": "medium"
+      }
+    },
+    "1659631614bc39e591": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( introducing )",
+        "title": "vidalia mills indigo rigid lot 3",
+        "title_font": "headline__arno",
+        "text": "each pair is patterned, cut, and sewn in the United States from premium 3x1, right-hand-twill, 13.5oz Vidalia Mills denim woven on restored x3 shuttle looms. <br><br>now available in henry, willie, and barton slim.",
+        "btn_text": "shop now ->",
+        "btn_url": "shopify:\/\/collections\/vidalia-mills-lot-3",
+        "show_button": false
+      }
+    },
+    "1659631837178df672": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/henry_01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/henry_01.jpg",
+        "img_url": "shopify:\/\/collections\/vidalia-mills-lot-3",
+        "img_width": "extra-large"
+      }
+    },
+    "164997002040b6e356": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( best seller )",
+        "title": "barton slim indigo rigid usa lot 3",
+        "title_font": "headline__din",
+        "text": "barton slim sits just below the hips, and is slim through the thigh and knee.",
+        "btn_text": "shop now ->",
+        "btn_url": "shopify:\/\/collections\/vidalia-mills-lot-3",
+        "show_button": false
+      }
+    },
+    "166333958681f3b72e": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"the gratification comes in the doing, not in the results.\" <br>",
+        "customer_name": "- james dean",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657140670a5f6a9d5": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/vd_08_d6d96708-85c7-4300-9283-224337772691.webp",
+        "mob_img": "shopify:\/\/shop_images\/vd_08.webp",
+        "img_url": "shopify:\/\/collections\/vidalia-mills-lot-3",
+        "img_width": "medium"
+      }
+    },
+    "1659640918e847bc15": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( team favorite )",
+        "title": "henry indigo rigid usa lot 3",
+        "title_font": "headline__arno",
+        "text": "henry sits right on the hips, it's relaxed through the thigh and knee.",
+        "btn_text": "shop now ->",
+        "btn_url": "shopify:\/\/collections\/vidalia-mills-lot-3",
+        "show_button": false
+      }
+    },
+    "1659641702e0019e51": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/willie_01.webp",
+        "mob_img": "shopify:\/\/shop_images\/willie_01.webp",
+        "img_url": "shopify:\/\/collections\/vidalia-mills-lot-3",
+        "img_width": "medium"
+      }
+    },
+    "1657140743c17f8f84": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( the original )",
+        "title": "willie indigo rigid usa lot 3",
+        "title_font": "headline__arno",
+        "text": "willie sits above the hips, and is straight through the thigh and knee.",
+        "btn_text": "shop now ->",
+        "btn_url": "shopify:\/\/collections\/vidalia-mills-lot-3",
+        "show_button": false
+      }
+    },
+    "16505718302bbb6563": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/raglan_white08.webp",
+        "mob_img": "shopify:\/\/shop_images\/raglan_white08.webp",
+        "img_url": "shopify:\/\/collections\/the-raglan",
+        "img_width": "extra-large"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1659642570a339fc73": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( feature )",
+        "title": "the knit raglan in black and washed white",
+        "title_font": "headline__arno",
+        "text": "a year round staple we decided to redevelop from the past. <br><br>our classic raglan tee was inspired by old school racing jerseys, long hours in the garage and the days when a shirt was built to take a beating.",
+        "btn_text": "shop now ->",
+        "btn_url": "shopify:\/\/collections\/the-raglan",
+        "show_button": false
+      }
+    },
+    "1657140562b846890d": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/raglan_black_01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/raglan_black_01.jpg",
+        "img_url": "shopify:\/\/collections\/the-raglan",
+        "img_width": "medium"
+      }
+    },
+    "165962991539429102": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__din",
+        "text": "initially patterned from a tee in matt's personal archive, then adjusted to give it a more modern fit, our raglan has become a well-balanced combination of modern design for a traditional garment.",
+        "btn_text": "",
+        "btn_url": "shopify:\/\/collections\/the-raglan",
+        "show_button": false
+      }
+    },
+    "16596414843abf6fee": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/531feee0-c36e-75b8-0b06-75e1bf0da181.jpg",
+        "mob_img": "shopify:\/\/shop_images\/531feee0-c36e-75b8-0b06-75e1bf0da181.jpg",
+        "img_url": "",
+        "img_width": "large"
+      }
+    },
+    "1650572297101d858e": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__small",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( sneak peek )",
+        "title": "wilkins jacket in rigid lot 03 indigo",
+        "title_font": "headline__din",
+        "text": "vintage-inspired with the signature stitch details of our jeans, the wilkins is an updated version of a road-tested classic. <br><br>coming soon.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16571405010e86593d": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"i'd rather wake up in the middle of nowhere than in any city on earth.\"",
+        "customer_name": "<br>- steve mcqueen",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165057188760384d76": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "“to do a dangerous thing with <br>style is what i call art.”",
+        "customer_name": "- charles bukowski",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650572264552ae7c6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "img_width": "extra-large"
+      }
+    },
+    "1650572934afd406d6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "large"
+      }
+    },
+    "16499700408d317de1": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "top-picks",
+        "show_title": false,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "top picks",
+        "title_font": "headline__din",
+        "text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things.",
+        "btn_text": "SHOP NOW",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks"
+      }
+    }
+  },
+  "order": [
+    "1657140914eed4ca4c",
+    "16499691942d1a0881",
+    "1659631772fb9a5734",
+    "1659631614bc39e591",
+    "1659631837178df672",
+    "164997002040b6e356",
+    "166333958681f3b72e",
+    "1657140670a5f6a9d5",
+    "1659640918e847bc15",
+    "1659641702e0019e51",
+    "1657140743c17f8f84",
+    "16505718302bbb6563",
+    "main",
+    "1659642570a339fc73",
+    "1657140562b846890d",
+    "165962991539429102",
+    "16596414843abf6fee",
+    "1650572297101d858e",
+    "16571405010e86593d",
+    "165057188760384d76",
+    "1650572264552ae7c6",
+    "1650572934afd406d6",
+    "16499700408d317de1"
+  ]
+}

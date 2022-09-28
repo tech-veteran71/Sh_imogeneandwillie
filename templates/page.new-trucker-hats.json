@@ -1,0 +1,346 @@
+{
+  "sections": {
+    "1657140914eed4ca4c": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/CZ1A4581-copy_965d40be-adcd-4ac6-81ab-61a838bf497d.jpg",
+        "mob_img": "shopify:\/\/shop_images\/CZ1A4581-copy_965d40be-adcd-4ac6-81ab-61a838bf497d.jpg",
+        "img_url": "shopify:\/\/collections\/the-bird-dog-trucker",
+        "img_width": "large"
+      }
+    },
+    "16499691942d1a0881": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( introducing )",
+        "title": "the \"bird dog\" trucker",
+        "title_font": "headline__din",
+        "text": "up until last year, we'd never made a trucker cap for a very simple reason -- it was damn hard to find a well-fitting trucker hat made in the USA. <br><br>now, with a year of experience under our belt, we're excited to introduced a new iteration of our trucker: bringing back one of our original signature designs from deep in the archives.",
+        "btn_text": "SHOP NOW ->",
+        "btn_url": "shopify:\/\/collections\/the-bird-dog-trucker",
+        "show_button": false
+      }
+    },
+    "1659631772fb9a5734": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/I_W0158.webp",
+        "mob_img": "shopify:\/\/shop_images\/I_W0158.webp",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "1659631614bc39e591": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "our vintage-inspired trucker hat checks all the boxes: fit, construction, quality... and, most importantly, made in the USA.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "1659631837178df672": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/trucker_05.jpg",
+        "mob_img": "shopify:\/\/shop_images\/trucker_05.jpg",
+        "img_url": "",
+        "img_width": "extra-large"
+      }
+    },
+    "166333958681f3b72e": {
+      "type": "section-quote",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"the gratification comes in the doing, not in the results.\" <br>",
+        "customer_name": "- james dean",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657140670a5f6a9d5": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/racer01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/racer01.jpg",
+        "img_url": "shopify:\/\/products\/the-racing-tee",
+        "img_width": "medium"
+      }
+    },
+    "164997002040b6e356": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( new arrival )",
+        "title": "the \"racing\" tee",
+        "title_font": "headline__din",
+        "text": "inspired by our love for two wheels and the countless vintage motorcycle tees we've gotten our hands on over the years.",
+        "btn_text": "shop now ->",
+        "btn_url": "shopify:\/\/products\/the-racing-tee",
+        "show_button": false
+      }
+    },
+    "1659641702e0019e51": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/racer02.jpg",
+        "mob_img": "shopify:\/\/shop_images\/racer02.jpg",
+        "img_url": "",
+        "img_width": "medium"
+      }
+    },
+    "1659640918e847bc15": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "as always, each tee is patterned, cut, and sewn in the USA from 100% cotton.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16505718302bbb6563": {
+      "type": "section-image",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/socks-group-2400x3000.jpg",
+        "mob_img": "shopify:\/\/shop_images\/socks-group-2400x3000.jpg",
+        "img_url": "shopify:\/\/collections\/iw-socks",
+        "img_width": "extra-large"
+      }
+    },
+    "1657140743c17f8f84": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "( featured )",
+        "title": "imogene + willie x little river sock mill",
+        "title_font": "headline__arno",
+        "text": "what began as a simple desire to make socks in the USA has evolved into a world of its own - one where we get to experiment, explore, and makes socks that we'd want to wear.",
+        "btn_text": "more info ->",
+        "btn_url": "shopify:\/\/collections\/iw-socks",
+        "show_button": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1659642570a339fc73": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "that was a decade ago. and today, as it has for all the years since, the green truck still parks at the shop, plum full of brown bags of peaches. we love a good peach. but more so, we love this family...and feel as if they are a part of ours. if you know stephen + jessica, and the rest of the peach truck family, you know this feeling, too. they took a simple georgia peach and turned it into a summertime pilgrimage, back to that old truck, in the hot july sun, to grab a bag before they ran out. <br><br>this is a moment in time that we celebrate. this milestone for the peach truck, and what it means for old nashville. good people with a simple mission to preserve simple and wonderful treasures. we are so proud of what the peach truck has become, and to have been there to witness it all along. <br><br>july 31 from 12-4 pm, we hope you will join us - where it all began 10 years ago - out in front of our shop on 12 south. there will be no shortage of peaches or refreshments. or full hearts. <br><br>with all of our love, <br><br>carrie and the whole team at i+w.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
+    },
+    "16571405010e86593d": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "\"i'd rather wake up in the middle of nowhere than in any city on earth.\"",
+        "customer_name": "<br>- steve mcqueen",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657140562b846890d": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/341ce456-aefc-3f07-bbd6-71aedd49e052.jpg",
+        "mob_img": "shopify:\/\/shop_images\/341ce456-aefc-3f07-bbd6-71aedd49e052.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana",
+        "img_width": "medium"
+      }
+    },
+    "165962991539429102": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "left",
+        "pretitle": "( feature )",
+        "title": "chainstitch embroidery",
+        "title_font": "headline__din",
+        "text": "a few years back, we got our hands on a restored antique chainstitch machine. we set it up in our tailor shop and got to work. <br><br>it's allowed our passion for everything we love about vintage bandanas to grow, and to mix with our vision of what's to come. <br><br>",
+        "btn_text": "SHOP NOW ->",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/chainstitch-bandana",
+        "show_button": false
+      }
+    },
+    "16596414843abf6fee": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/vb-01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/vb-01.jpg",
+        "img_url": "",
+        "img_width": "full"
+      }
+    },
+    "165057188760384d76": {
+      "type": "section-quote",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "review": "“to do a dangerous thing with <br>style is what i call art.”",
+        "customer_name": "- charles bukowski",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650572264552ae7c6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "mob_img": "shopify:\/\/shop_images\/hello-01.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "img_width": "extra-large"
+      }
+    },
+    "1650572297101d858e": {
+      "type": "section-txt-link-btn",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "the \"hello\" painting",
+        "title_font": "headline__din",
+        "text": "the only one of its kind.<br><br> 24\"x30\" acrylic and mixed media on canvas<br>by matt eddmenson, 2022",
+        "btn_text": "",
+        "btn_url": "https:\/\/imogeneandwillie.com\/products\/the-hello-painting",
+        "show_button": false
+      }
+    },
+    "1650572934afd406d6": {
+      "type": "section-image",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "desk_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "mob_img": "shopify:\/\/shop_images\/ides3.jpg",
+        "img_url": "https:\/\/imogeneandwillie.com\/collections\/the-ides",
+        "img_width": "large"
+      }
+    },
+    "16499700408d317de1": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "settings": {
+        "margin_bottom": "section-bottom__large",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "choose_collection": "top-picks",
+        "show_title": false,
+        "show_subtitle": true,
+        "show_price": false,
+        "show_badges": false,
+        "products_to_show": 4,
+        "products_per_row": 2,
+        "title": "top picks",
+        "title_font": "headline__din",
+        "text": "items to love and use every single day. thoughtfully designed and carefully made, these are a few of our favorite things.",
+        "btn_text": "SHOP NOW",
+        "btn_url": "https:\/\/imogeneandwillie.com\/collections\/top-picks"
+      }
+    }
+  },
+  "order": [
+    "1657140914eed4ca4c",
+    "16499691942d1a0881",
+    "1659631772fb9a5734",
+    "1659631614bc39e591",
+    "1659631837178df672",
+    "166333958681f3b72e",
+    "1657140670a5f6a9d5",
+    "164997002040b6e356",
+    "1659641702e0019e51",
+    "1659640918e847bc15",
+    "16505718302bbb6563",
+    "1657140743c17f8f84",
+    "main",
+    "1659642570a339fc73",
+    "16571405010e86593d",
+    "1657140562b846890d",
+    "165962991539429102",
+    "16596414843abf6fee",
+    "165057188760384d76",
+    "1650572264552ae7c6",
+    "1650572297101d858e",
+    "1650572934afd406d6",
+    "16499700408d317de1"
+  ]
+}

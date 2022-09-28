@@ -35,11 +35,28 @@
         "mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0972356c6f93451fbf98630ff54e397f.mp4",
         "video_controls": false
       }
+    },
+    "1663621515d145b0fb": {
+      "type": "section-txt-link-btn",
+      "settings": {
+        "margin_bottom": "section-bottom__none",
+        "mobile_hide": false,
+        "desktop_hide": false,
+        "text_align": "center",
+        "pretitle": "",
+        "title": "",
+        "title_font": "headline__arno",
+        "text": "we've always said that Austin is a city that just feels like home. between the music, the energy, the community, and the inspiring array of makers and artists, the link between Nashville and Austin has always felt natural. <br><br> and yes, we're going to be on South Congress!  knowing we'll get to open up our doors on such an iconic streat is surreal. <br><br> we'll be making a few more announcements regarding the opening of our new (second) home, so keep your eyes peeled.",
+        "btn_text": "",
+        "btn_url": "",
+        "show_button": false
+      }
     }
   },
   "order": [
     "main",
     "166083652225375e1b",
-    "1660836586d7928a00"
+    "1660836586d7928a00",
+    "1663621515d145b0fb"
   ]
 }
