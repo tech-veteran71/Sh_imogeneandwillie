@@ -1677,3 +1677,7 @@ a.product__text {
 .klaviyo-bis-single {
   margin-bottom: 2rem;
 }
+
+.product img {
+  color: transparent;
+}

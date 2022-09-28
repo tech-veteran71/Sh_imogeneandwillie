@@ -300,7 +300,7 @@
             {%- endunless -%}
             {%- if product.has_only_default_variant -%}
               {% unless product.available %}
-              {% unless product.tags contains 'inconsistentstock' %}
+              {% unless product.tags contains 'inconsistentstock' or product.tags contains 'final sale' %}
               <a class="klaviyo-bis-trigger klaviyo-bis-single" style="display: block !important;" href="#">notify me when my size is in stock</a>
               {% endunless %}
               {% endunless %}
